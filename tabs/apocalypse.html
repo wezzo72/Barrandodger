@@ -8,18 +8,34 @@
 body{font-family:system-ui,-apple-system,sans-serif;background:#0b0d10;color:#e8e6e3;line-height:1.65;font-size:15.5px;margin:0;padding:0}
 .container{max-width:900px;margin:0 auto;padding:1.4rem 1rem 4rem}
 h1{font-size:1.55rem;font-weight:700;color:#c9a227;margin:0 0 .5rem}
-h2{font-size:1.15rem;color:#c9a227;margin:1.6rem 0 .6rem;border-bottom:1px solid #2a3038;padding-bottom:.3rem}
-p{margin:.55rem 0}
-.meta-line{color:#9a9690;font-size:.92rem;margin:.25rem 0}
 .disclaimer{background:#1a1210;border:1px solid #5a3020;border-left:4px solid #c44;padding:1rem 1.15rem;margin:1.1rem 0 1.4rem;border-radius:4px;font-size:.9rem}
 .disclaimer strong{color:#f0a080}
-ul{margin:.4rem 0 .4rem 1.3rem}
-li{margin:.25rem 0}
-hr{border:0;border-top:1px solid #2a3038;margin:1.2rem 0}
 a{color:#7eb8da}
-.sources{margin-top:2rem;padding-top:1rem;border-top:1px solid #2a3038;font-size:.9rem;color:#9a9690}
+.verbatim{white-space:pre-wrap;word-break:break-word;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;line-height:1.5;background:#10141a;border:1px solid #2a3038;padding:1.1rem;border-radius:6px;overflow:auto;min-height:40vh}
+.sources{margin:.8rem 0;font-size:.9rem;color:#9a9690}
+.loading{color:#9a9690}
 </style>
 </head>
 <body>
 <main class="container">
-<div class="disclaimer"><strong>Author’s forensic/prophetic indictment.</strong> High-consequence claims remain AUTHOR’S ACCOUNT. Not a court finding. Not a verdict. Primary source: the published PDF in this repository.</div>
+<h1>The Digital Apocalypse of Administrative Annihilation</h1>
+<div class="disclaimer"><strong>Author’s forensic/prophetic indictment — full original text reinstated from the published PDF.</strong> High-consequence claims remain AUTHOR’S ACCOUNT. Not a court finding. Not a verdict.</div>
+<p class="sources"><strong>Source PDF:</strong> <a href="../THE-DIGITAL-APOCALYPSE-OF-ADMINISTRATIVE-ANNIHILATION.pdf">THE-DIGITAL-APOCALYPSE-OF-ADMINISTRATIVE-ANNIHILATION.pdf</a> · <a href="../docs/official-drive/THE-DIGITAL-APOCALYPSE-OF-ADMINISTRATIVE-ANNIHILATION.pdf">docs/official-drive copy</a> · <a href="apocalypse-body.txt">plain-text body</a></p>
+<pre class="verbatim" id="body"><span class="loading">Loading full original text…</span></pre>
+<p class="sources">Permanent evidence archive: <a href="https://wezzo72.github.io/Backup/">https://wezzo72.github.io/Backup/</a></p>
+</main>
+<script>
+(async function(){
+  var el = document.getElementById("body");
+  try {
+    var res = await fetch("apocalypse-body.txt", {cache: "no-cache"});
+    if(!res.ok) throw new Error(res.status);
+    var text = await res.text();
+    el.textContent = text;
+  } catch(e) {
+    el.textContent = "Could not load apocalypse-body.txt in-page. Open the PDF or plain-text body link above.\n" + e;
+  }
+})();
+</script>
+</body>
+</html>
