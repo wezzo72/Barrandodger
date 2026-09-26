@@ -152,14 +152,14 @@ A finding requires evidence and proper determination.</p>
 
 <div class="forensic-wrap"><div class="forensic-label">Forensic reports 01–10</div><nav class="tabs forensic-tabs" aria-label="Forensic reports on the overview"><a class="tab forensic-tab" href="#r01"><span class="n">01</span>Master Evidence Record</a><a class="tab forensic-tab" href="#r02"><span class="n">02</span>35-Year Chronology</a><a class="tab forensic-tab" href="#r03"><span class="n">03</span>Architecture of Administrative Erasure</a><a class="tab forensic-tab" href="#r04"><span class="n">04</span>Institutional Response Map</a><a class="tab forensic-tab" href="#r05"><span class="n">05</span>Contradictions and Unanswered Questions</a><a class="tab forensic-tab" href="#r06"><span class="n">06</span>Whistleblower Record</a><a class="tab forensic-tab" href="#r07"><span class="n">07</span>Human Rights and Remedy</a><a class="tab forensic-tab" href="#r08"><span class="n">08</span>Forensic Financial Record</a><a class="tab forensic-tab" href="#r09"><span class="n">09</span>Serious Allegations</a><a class="tab forensic-tab" href="#r10"><span class="n">10</span>Repository of Record</a></nav></div>
 <button type="button" class="enter" id="enter">ENTER THE RECORD</button>
-<p class="enter-note">Opens Report 01 — Master Evidence Record. Bronze row: the ten forensic reports. Gold row underneath: the original archive tabs. Finding aid. Not a court. Not a verdict.</p>
+<p class="enter-note">Opens Report 01 — Master Evidence Record. Bronze row: the ten forensic reports. Gold row underneath: the original archive tabs. Documented evidence: <a href="https://wezzo72.github.io/Barrandodger/#crimes" style="color:var(--link)">https://wezzo72.github.io/Barrandodger/#crimes</a>. Finding aid. Not a court. Not a verdict.</p>
 </div>
 <div id="archive" hidden>
 <div id="chrome">
 <header>
 <div class="eyebrow">PUBLIC DOCUMENTARY ARCHIVE — EVERY WORD PRESERVED <a href="#archive-about" id="overview">Overview</a></div>
 <h1>THE WITNESS REMAINS</h1>
-<p class="credit">Barran Dodger / Dr Richard William McLean — public documentary record. Not a court. Not a verdict.</p>
+<p class="credit">Barran Dodger / Dr Richard William McLean — public documentary record. Not a court. Not a verdict. Documented evidence: <a href="https://wezzo72.github.io/Barrandodger/#crimes" style="color:var(--link)">https://wezzo72.github.io/Barrandodger/#crimes</a></p>
 <nav class="identity" id="identity" aria-label="Permanent record pages">
 <a href="#bio" data-page="bio">About the Author</a>
 <a href="#archive-about" data-page="archive-about">About the Archive</a>
@@ -176,7 +176,8 @@ A finding requires evidence and proper determination.</p>
 </main>
 <div id="colophon">
 <strong>Public documentary archive.</strong> Finding aid. Not a court. Not a verdict. Source files remain on the page and in the repository.
-<p style="margin:.6rem 0 0"><a href="https://github.com/wezzo72/Barrandodger">GitHub</a><a href="https://wezzo72.github.io/Barrandodger/">Live site</a><a href="SOURCES.html">Sources</a></p>
+<p style="margin:.6rem 0 0">Documented evidence: <a href="https://wezzo72.github.io/Barrandodger/#crimes">https://wezzo72.github.io/Barrandodger/#crimes</a></p>
+<p style="margin:.6rem 0 0"><a href="https://github.com/wezzo72/Barrandodger">GitHub</a><a href="https://wezzo72.github.io/Barrandodger/">Live site</a><a href="SOURCES.html">Sources</a><a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes 1–150</a></p>
 </div>
 </div>
 <script>
@@ -308,7 +309,7 @@ A finding requires evidence and proper determination.</p>
       }
       if(my !== req) return;
       var body = extractBody(html);
-      content.innerHTML = '<p id="open-source">Full source, already on the page: <a href="' + href + '" target="_blank" rel="noopener">' + href + '</a></p><div class="src-root">' + body + '</div>';
+      content.innerHTML = '<p id="open-source">Full source, already on the page: <a href="' + href + '" target="_blank" rel="noopener">' + href + '</a></p><p class="evidence-link" style="margin:0 0 12px;font-size:.9rem;color:var(--muted)">Documented evidence: <a href="https://wezzo72.github.io/Barrandodger/#crimes">https://wezzo72.github.io/Barrandodger/#crimes</a></p><div class="src-root">' + body + '</div>';
       document.getElementById('landing').hidden = true;
       document.getElementById('archive').hidden = false;
       setActive(id);
@@ -354,5 +355,6 @@ A finding requires evidence and proper determination.</p>
   else showLanding();
 })();
 </script>
+<script src="evidence-link.js"></script>
 </body>
 </html>
