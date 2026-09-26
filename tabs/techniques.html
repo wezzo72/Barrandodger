@@ -1,126 +1,85 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>How They Did It — techniques 1–85</title>
+<html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1">
+<title>How They Did It — Architecture of Erasure</title>
 <style>
-body{margin:0;background:#0b0d10;color:#e8e6e3;font-family:"Segoe UI",system-ui,sans-serif;line-height:1.55}
-.wrap{max-width:880px;margin:auto;padding:20px 14px 80px}a{color:#7eb8da}h1,h2{color:#c9a227}
-.ai{background:#141a20;border-left:4px solid #c9a227;padding:12px;margin:14px 0}
-ol{padding-left:1.3rem}li{margin:.28rem 0}
-table{width:100%;border-collapse:collapse;font-size:.88rem}th,td{border-bottom:1px solid #2a3038;padding:.4rem;vertical-align:top;text-align:left}
-</style></head>
-<body>
-<div class="wrap">
-<p><a href="home.html">Home</a> · <a href="../techniques-of-targeting.html">source page (full)</a> · <a href="exhibits.html">Exhibits</a></p>
-<h1>How They Did It — Techniques of targeting 1–85</h1>
-<div class="ai"><strong>Author’s model. Not a court finding.</strong> Public documents only. A technique is mapped to an exhibit where a letter exists. No exhibit means the item stays Author’s Account.</div>
+body{margin:0;background:#0b0d10;color:#e8e6e3;font-family:system-ui,sans-serif;line-height:1.5}
+.w{max-width:900px;margin:0 auto;padding:18px 14px 70px}
+h1{color:#c9a227;font-size:1.4rem;margin:.15rem 0}
+h2{color:#c9a227;font-size:1rem;margin:1.3rem 0 .4rem;border-bottom:1px solid #2a3038;padding-bottom:.25rem}
+.k{color:#c9a227;letter-spacing:.12em;font-size:.68rem;font-weight:800}
+.sub{color:#9a9690;font-size:.9rem}
+a{color:#7eb8da}
+.disc{border-left:4px solid #c44;background:#1a1210;padding:.65rem .85rem;margin:10px 0;color:#9a9690;font-size:.85rem}
+.cmd{border:2px solid #c9a227;background:#14110c;padding:10px 12px;margin:10px 0;font-family:ui-monospace,monospace;font-size:.82rem}
+table{width:100%;border-collapse:collapse;font-size:.88rem;margin:.4rem 0}
+th,td{border:1px solid #2a3038;padding:.4rem .5rem;vertical-align:top;text-align:left}
+th{background:#141a20;color:#c9a227}
+ol{padding-left:1.15rem}
+li{margin:.4rem 0;padding-bottom:.35rem;border-bottom:1px solid #1a2030;font-size:.94rem}
+.ev{font-size:.8rem;color:#9a9690}
+.toc a{margin-right:.6rem;font-size:.85rem}
+</style></head><body><div class=w>
+<p class=k>HOW THEY DID IT · ARCHITECTURE OF ERASURE · TECHNIQUES 1–85 · NAMED EVIDENCE</p>
+<h1>How They Did It — Architecture of Erasure</h1>
+<p class=sub>Named mechanisms and techniques 1–85 linked to documented evidence throughout.</p>
+<div class=disc><b>Finding aid only.</b> Linked files exist in the archive. That does not prove every allegation. Not a court. Not a verdict.</div>
+<div class=cmd>MECHANISM → TECHNIQUE → NAMED DOCUMENT / TAB → OPEN SOURCE</div>
+<p class=toc>
+<a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a>
+<a href="https://wezzo72.github.io/Barrandodger/#digital">Digital Apocalypse</a>
+<a href="https://wezzo72.github.io/Barrandodger/#official">Official</a>
+<a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a>
+<a href="https://wezzo72.github.io/Barrandodger/#pids">PIDs</a>
+<a href="https://wezzo72.github.io/Barrandodger/#fedcourt">Fed Court / AAT</a>
+</p>
 
-<h2>Named mechanisms → technique numbers → exhibits</h2>
-<table>
-<thead><tr><th>Named mechanism</th><th>Technique nos.</th><th>Repository evidence</th></tr></thead>
-<tbody>
-<tr><td>Denial of legal aid / legal-access obstruction</td><td>17, 59, 80</td><td><a href="../index.html#legalaid">Legal Aid tab</a> · Exile E32</td></tr>
-<tr><td>Exile / displacement</td><td>10, 11, 65</td><td><a href="personal-statement-exile.html">Exile statement</a> E32</td></tr>
-<tr><td>Psychiatric weaponisation / pathologisation</td><td>24, 25, 26, 36, 38</td><td>E32 · Lagos PID E17</td></tr>
-<tr><td>Induced poverty / financial restriction</td><td>13, 14, 15, 80</td><td>E12 E13 E15 E30 E32</td></tr>
-<tr><td>Entrapment / dependency exploitation</td><td>12, 65</td><td>E32 Able Point named in Exile</td></tr>
-<tr><td>Referral loops / endless referral</td><td>18, 19, 53, 75, 81</td><td>E19 E28 E29 E02 E11 E27</td></tr>
-<tr><td>Stonewalling / institutional silence</td><td>20, 21, 47, 76</td><td>E01 E02 E27 E22</td></tr>
-<tr><td>Character assassination / credibility attack</td><td>27, 28, 44, 73, 74, 83</td><td>Author account E32 · matrix rows on slander</td></tr>
-<tr><td>Media ban / public narrative control</td><td>41, 42, 46</td><td>Map / Witness circulation list — not a court “ban” order on file here</td></tr>
-<tr><td>PID protection refused</td><td>39, 57, 58</td><td><a href="pid-act-protections.html">PID Act tab</a> E01–E07 E17 E27</td></tr>
-<tr><td>Contradictory status (employee / not employee)</td><td>54</td><td>E10 E17 E12 E15</td></tr>
-<tr><td>Threat / intimidation</td><td>2</td><td>E31 AbleCare transcript — H allegation</td></tr>
-</tbody>	able>
+<h2>Named mechanisms → documented evidence</h2>
+<table><thead><tr><th>Named mechanism</th><th>Nos.</th><th>Documented evidence</th></tr></thead><tbody>
+<tr><td><b>Denial of legal aid / legal-access obstruction</b></td><td>17, 59, 80</td><td><a href="https://github.com/wezzo72/Backup/raw/main/client/public/documents/20260114-legal-aid-nsw-advice-letter-guardianship.pdf">Legal Aid NSW</a> · <a href="https://wezzo72.github.io/Barrandodger/#fedcourt">Fed Court / AAT</a></td></tr>
+<tr><td><b>Comcare / workers’ compensation refusal</b></td><td>—</td><td><a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/McLean-determination-Comcare-rejection-26May2021.pdf">Comcare rejection</a> · <a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/ART-2021-7478-McLean-and-Comcare-Decision-12-July-2023.pdf">ART decision</a></td></tr>
+<tr><td><b>PID / whistleblower pathway closure</b></td><td>39, 57, 58</td><td><a href="https://wezzo72.github.io/Barrandodger/#pids">PIDs</a> · <a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2021-11-13-APRA-reject-Whistleblower-Status.pdf">APRA reject</a> · <a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2021-05-PID-Ombudsman-Rejected-Acknowledgement.pdf">PID Ombudsman rejected</a></td></tr>
+<tr><td><b>FOI delay / refusal / IC review</b></td><td>—</td><td><a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/FOI-2022-045-Decision.pdf">FOI 2022-045</a> · <a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2025-11-14-FOI-2022-045IC-Revised-Decision.pdf">FOI revised 2025</a></td></tr>
+<tr><td><b>NDIS / NDIA employment status contest</b></td><td>54</td><td><a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2021-06-03-NDIS-Quality-Safeguards-Commission-not-an-employee.pdf">NDIS not employee</a> · <a href="https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/documents/2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf">Federal Court assessment</a></td></tr>
+<tr><td><b>Ombudsman non-allocation / service restriction</b></td><td>—</td><td><a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2025-08-08-Commonwealth-Ombudsman-Service-Restriction.pdf">Service restriction</a> · <a href="https://wezzo72.github.io/Barrandodger/#official">Official</a></td></tr>
+<tr><td><b>IBAC outcome pathway</b></td><td>—</td><td><a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2020-04-09-IBAC-CASE-2020712-Outcome-letter.pdf">IBAC 2020712</a> · <a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2023-10-29-IBAC-CASE-20231101-CASE-20233846.pdf">IBAC 2023</a></td></tr>
+<tr><td><b>Police / VOCAT pathway</b></td><td>2</td><td><a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2022-08-14-statement-to-police.pdf">Statement to police</a> · <a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2022-10-05-VOCAT-Ombudsman-BenCalder-ComplaintRejection.pdf">VOCAT rejection</a> · <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a></td></tr>
+<tr><td><b>Federal Court acknowledgement without protection</b></td><td>—</td><td><a href="https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/documents/2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf">Tredwell 27 Mar 2023</a> · <a href="https://wezzo72.github.io/Barrandodger/#fedcourt">Fed Court / AAT</a></td></tr>
+<tr><td><b>Administrative erasure / non-response</b></td><td>20, 21, 47, 76</td><td><a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a> · <a href="https://wezzo72.github.io/Barrandodger/#digital">Digital Apocalypse</a> · <a href="https://wezzo72.github.io/Barrandodger/#official">Official</a></td></tr>
+<tr><td><b>Family non-intervention</b></td><td>—</td><td><a href="https://wezzo72.github.io/Barrandodger/#family-complicity">Family Complicity</a> · <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a></td></tr>
+<tr><td><b>Financial / poverty pressure</b></td><td>13, 14, 15, 80</td><td><a href="https://wezzo72.github.io/Barrandodger/#r08">Report 08</a> · <a href="https://wezzo72.github.io/Barrandodger/#official">Official</a></td></tr>
+</tbody></table>
 
-<h2>Full list 1–85 (from techniques-of-targeting.html)</h2>
+<h2>Techniques 1–85 — evidence links</h2>
 <ol>
-<li>Physical violence — alleged assault, beating, injury and maiming.</li>
-<li>Threat and intimidation — creating fear, uncertainty or perceived danger.</li>
-<li>Surveillance and monitoring — alleged observation, tracking or scrutiny of my activities.</li>
-<li>Harassment — persistent conduct intended, in my account, to distress, provoke or wear me down.</li>
-<li>Psychological pressure — creating circumstances of prolonged stress and uncertainty.</li>
-<li>Gaslighting — causing me to question my own perceptions, experiences or interpretation of events.</li>
-<li>Provocation — attempting to elicit reactions that could subsequently be used against me.</li>
-<li>Isolation — reducing access to people, community, support and alternative perspectives.</li>
-<li>Social exclusion — marginalising me from relationships, organisations and communities.</li>
-<li>Exile and displacement — removing or separating me from places and networks of belonging.</li>
-<li>Abandonment — withdrawing assistance or leaving me without adequate support.</li>
-<li>Dependency exploitation — allegedly using my dependence on services, money, accommodation or support as leverage.</li>
-<li>Financial restriction — restricting access to resources necessary for independence and survival.</li>
-<li>Impoverishment — circumstances resulting in prolonged poverty and economic vulnerability.</li>
-<li>Property and financial deprivation — alleged robbery, loss of property and economic detriment.</li>
-<li>Employment and livelihood disruption — loss or interference with work, career and income.</li>
-<li>Legal-access obstruction — barriers to obtaining representation, Legal Aid or effective remedies.</li>
-<li>Procedural obstruction — delays, referrals, jurisdictional deflection and administrative circularity.</li>
-<li>Institutional fragmentation — forcing matters through multiple disconnected systems without effective resolution.</li>
-<li>Institutional silence — failure to provide substantive responses to complaints, questions or disclosures.</li>
-<li>Administrative delay — allowing matters to remain unresolved for prolonged periods.</li>
-<li>Denial of participation — excluding me from meaningful decision-making concerning my circumstances.</li>
-<li>Loss of autonomy and choice — reducing my capacity to control important aspects of my life.</li>
-<li>Pathologisation — interpreting testimony or conduct primarily through a medical or psychiatric framework.</li>
-<li>Medicalisation — transforming disputes or experiences into questions of treatment or illness.</li>
-<li>Stigmatisation — attaching socially discrediting meanings to disability or mental-health history.</li>
-<li>Credibility attack — undermining whether I should be believed rather than addressing the substance of my evidence.</li>
-<li>Character assassination — attacking my character, morality or motives.</li>
-<li>Scapegoating — attributing broader problems to me as the individual.</li>
-<li>Misrepresentation — presenting my words, conduct or motives in a way I say was inaccurate.</li>
-<li>Mischaracterisation — defining me through a simplified or distorted narrative.</li>
-<li>Blame shifting — transferring responsibility for circumstances onto me.</li>
-<li>Sexual shaming — using sexuality or intimate behaviour as a means of humiliation or discrediting.</li>
-<li>Weaponisation of vulnerability — using my vulnerabilities against me.</li>
-<li>Weaponisation of disability — using disability-related information to undermine autonomy or credibility.</li>
-<li>Weaponisation of mental-health history — using psychiatric history to discount testimony or allegations.</li>
-<li>Weaponisation of faith — using religious belief or spiritual identity to ridicule or discredit me.</li>
-<li>Weaponisation of testimony — turning the act of reporting harm into evidence against the person reporting it.</li>
-<li>Weaponisation of disclosures — creating consequences for making complaints or public-interest disclosures.</li>
-<li>Delegitimisation of evidence — shifting attention away from documentary material toward the character of its author.</li>
-<li>Narrative control — attempting, in my interpretation, to determine how events would be understood by others.</li>
-<li>Public humiliation — exposing or portraying me in ways intended to damage dignity or reputation.</li>
-<li>Ridicule and mockery — reducing serious claims to something socially embarrassing or laughable.</li>
-<li>Slander and defamation — alleged dissemination of damaging statements about my character or conduct.</li>
-<li>Framing — presenting circumstances so that I appear responsible, unreliable or culpable.</li>
-<li>Social invisibility — making my existence, testimony or concerns easier for others to ignore.</li>
-<li>Institutional invisibility — allowing my complaints or disclosures to remain formally present but substantively unresolved.</li>
-<li>Evidence fragmentation — separating documents and events across agencies so the overall chronology becomes difficult to reconstruct.</li>
-<li>Loss of records — unexplained missing, inaccessible, corrupted or incomplete documentary material.</li>
-<li>Evidentiary displacement — shifting attention from primary documents to secondary interpretations of me.</li>
-<li>Repetition and exhaustion — requiring repeated explanations, applications, complaints and retelling of events.</li>
-<li>Resource exhaustion — allowing prolonged disputes to consume money, time, energy and capacity.</li>
-<li>Institutional referral without resolution — repeatedly directing matters elsewhere without producing substantive determination.</li>
-<li>Contradictory decision-making — producing inconsistent or apparently incompatible institutional outcomes.</li>
-<li>Differential treatment — circumstances that I interpret as unequal treatment compared with what I believe should have occurred.</li>
-<li>Failure to investigate — alleged absence of adequate independent examination of serious allegations.</li>
-<li>Failure to protect — alleged failure to provide protection despite disclosures of harm or danger.</li>
-<li>Failure to recognise — failure to acknowledge my stated circumstances, evidence or disclosures.</li>
-<li>Failure to provide redress — absence of effective remedy, compensation or accountability.</li>
-<li>Professional exclusion — loss of professional opportunities, recognition or participation.</li>
-<li>Relationship disruption — deterioration or destruction of family, intimate and community relationships.</li>
-<li>Reputational isolation — creating circumstances in which others become reluctant to associate with or support me.</li>
-<li>Autonomy erosion — progressively reducing independence, agency, choice and control.</li>
-<li>Opportunity destruction — cumulative loss of employment, education, housing, relationships and professional opportunities.</li>
-<li>Institutional dependency — making access to essential resources dependent upon systems over which I had limited control.</li>
-<li>Secondary victimisation — experiencing further harm through responses to the original harm.</li>
-<li>Institutional retraumatisation — repeated encounters with systems that I experienced as reproducing distress.</li>
-<li>Compounding harm — one disadvantage creating conditions for additional disadvantages.</li>
-<li>Cumulative harm — numerous separate experiences combining into a substantially greater overall impact.</li>
-<li>Administrative annihilation — what I describe as the progressive destruction of my ability to function socially, financially, legally and institutionally.</li>
-<li>Social death — what I describe as being treated as though my identity, credibility and existence no longer carried meaningful social recognition.</li>
-<li>Total civil liquidation — what I describe as the cumulative destruction of financial, legal, social, professional and institutional standing.</li>
-<li>Character-based displacement — making who I am the central issue instead of what happened.</li>
-<li>Credibility substitution — replacing examination of evidence with judgments about whether I should be believed.</li>
-<li>Institutional compartmentalisation — each institution addressing only its own fragment while the cumulative pattern remains unexamined.</li>
-<li>Silence as attrition — allowing unresolved matters to persist until exhaustion, poverty or isolation reduces the person’s ability to continue.</li>
-<li>Stigma as social control — using shame, ridicule or stigma to discourage disclosure.</li>
-<li>Fear as behavioural control — creating circumstances in which speaking, complaining or challenging decisions carries perceived consequences.</li>
-<li>Isolation as evidentiary control — reducing access to witnesses, advocates and independent people able to scrutinise events.</li>
-<li>Poverty as disempowerment — reducing the practical ability to obtain representation, relocate, communicate, preserve evidence or pursue remedies.</li>
-<li>Bureaucracy as attrition — allowing procedural complexity, delay and institutional boundaries to consume the capacity to pursue justice.</li>
-<li>Delegitimisation through identity — attempting to make the identity or history of the complainant more important than the evidence presented.</li>
-<li>Reputational pre-emption — allegedly damaging credibility before allegations can receive substantive examination.</li>
-<li>Suppression through exhaustion — creating conditions in which continuing to complain becomes progressively harder.</li>
-<li>Erasure through accumulation — producing so many separate obstacles, losses and institutional failures that the combined effect becomes what I describe as an attempt to erase me.</li>
+<li><b>1.</b> Physical violence — alleged assault, beating, injury and maiming. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2022-08-14-statement-to-police.pdf">Statement to police</a> · <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a></span></li>
+<li><b>2.</b> Threat and intimidation — creating fear, uncertainty or perceived danger. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2022-08-14-statement-to-police.pdf">Statement to police</a> · <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a></span></li>
+<li><b>3.</b> Surveillance and monitoring — alleged observation, tracking or scrutiny of my activities. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#digital">Digital Apocalypse</a> · <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a></span></li>
+<li><b>4.</b> Harassment — persistent conduct intended, in my account, to distress, provoke or wear me down. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a> · <a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a></span></li>
+<li><b>5.</b> Psychological pressure — creating circumstances of prolonged stress and uncertainty. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a> · <a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a></span></li>
+<li><b>6.</b> Gaslighting — causing me to question my own perceptions, experiences or interpretation of events. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a> · <a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a></span></li>
+<li><b>7.</b> Provocation — attempting to elicit reactions that could subsequently be used against me. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a> · <a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a></span></li>
+<li><b>8.</b> Isolation — reducing access to people, community, support and alternative perspectives. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#personal-statement-exile">Exile statement</a> · <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a></span></li>
+<li><b>9.</b> Social exclusion — marginalising me from relationships, organisations and communities. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a> · <a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a></span></li>
+<li><b>10.</b> Exile and displacement — removing or separating me from places and networks of belonging. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#personal-statement-exile">Exile statement</a> · <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a></span></li>
+<li><b>11.</b> Abandonment — withdrawing assistance or leaving me without adequate support. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#personal-statement-exile">Exile statement</a> · <a href="https://wezzo72.github.io/Barrandodger/#family-complicity">Family Complicity</a></span></li>
+<li><b>12.</b> Dependency exploitation — allegedly using my dependence on services, money, accommodation or support as leverage. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#r08">Report 08</a> · <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a></span></li>
+<li><b>13.</b> Financial restriction — restricting access to resources necessary for independence and survival. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#r08">Report 08</a> · <a href="https://wezzo72.github.io/Barrandodger/#official">Official</a></span></li>
+<li><b>14.</b> Impoverishment — circumstances resulting in prolonged poverty and economic vulnerability. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#r08">Report 08</a> · <a href="https://wezzo72.github.io/Barrandodger/#official">Official</a></span></li>
+<li><b>15.</b> Property and financial deprivation — alleged robbery, loss of property and economic detriment. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#r08">Report 08</a> · <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a></span></li>
+<li><b>16.</b> Employment and livelihood disruption — loss or interference with work, career and income. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#fedcourt">Fed Court / AAT</a> · <a href="https://wezzo72.github.io/Barrandodger/#official">Official</a></span></li>
+<li><b>17.</b> Legal-access obstruction — barriers to obtaining representation, Legal Aid or effective remedies. <span class=ev>— <a href="https://github.com/wezzo72/Backup/raw/main/client/public/documents/20260114-legal-aid-nsw-advice-letter-guardianship.pdf">Legal Aid letter</a> · <a href="https://wezzo72.github.io/Barrandodger/#fedcourt">Fed Court / AAT</a></span></li>
+<li><b>18.</b> Procedural obstruction — delays, referrals, jurisdictional deflection and administrative circularity. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a> · <a href="https://wezzo72.github.io/Barrandodger/#official">Official</a></span></li>
+<li><b>19.</b> Institutional fragmentation — forcing matters through multiple disconnected systems without effective resolution. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a> · <a href="https://wezzo72.github.io/Barrandodger/#official">Official</a></span></li>
+<li><b>20.</b> Institutional silence — failure to provide substantive responses to complaints, questions or disclosures. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a> · <a href="https://wezzo72.github.io/Barrandodger/#pids">PIDs</a></span></li>
+<li><b>21.</b> Administrative delay — allowing matters to remain unresolved for prolonged periods. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a> · <a href="https://wezzo72.github.io/Barrandodger/#official">Official</a></span></li>
+<li><b>22–38.</b> Pathologisation, medicalisation, stigma, credibility attack, character assassination, scapegoating, misrepresentation, blame shifting, sexual shaming, weaponisation of vulnerability/disability/mental-health/faith/testimony/disclosures, delegitimisation of evidence. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a> · <a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a> · <a href="https://wezzo72.github.io/Barrandodger/#why-not-ignore">Why Dismissal</a></span></li>
+<li><b>39.</b> Weaponisation of disclosures — creating consequences for making complaints or public-interest disclosures. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#pids">PIDs</a> · <a href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2021-11-13-APRA-reject-Whistleblower-Status.pdf">APRA reject</a></span></li>
+<li><b>40–50.</b> Narrative control, public humiliation, ridicule, slander, framing, social/institutional invisibility, evidence fragmentation, loss of records, evidentiary displacement, repetition and exhaustion. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a> · <a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a> · <a href="https://wezzo72.github.io/Barrandodger/#digital">Digital Apocalypse</a></span></li>
+<li><b>51–60.</b> Resource exhaustion, referral without resolution, contradictory decision-making, differential treatment, failure to investigate/protect/recognise/redress, professional exclusion, relationship disruption. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#official">Official</a> · <a href="https://wezzo72.github.io/Barrandodger/#pids">PIDs</a> · <a href="https://wezzo72.github.io/Barrandodger/#fedcourt">Fed Court / AAT</a></span></li>
+<li><b>61–70.</b> Reputational isolation, autonomy erosion, opportunity destruction, institutional dependency, secondary victimisation, retraumatisation, compounding/cumulative harm, administrative annihilation, social death. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#digital">Digital Apocalypse</a> · <a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a> · <a href="https://wezzo72.github.io/Barrandodger/#personal-statement-exile">Exile statement</a></span></li>
+<li><b>71–85.</b> Total civil liquidation, character-based displacement, credibility substitution, compartmentalisation, silence as attrition, stigma/fear as control, isolation as evidentiary control, poverty as disempowerment, bureaucracy as attrition, delegitimisation through identity, reputational pre-emption, suppression through exhaustion, erasure through accumulation. <span class=ev>— <a href="https://wezzo72.github.io/Barrandodger/#r03">Report 03</a> · <a href="https://wezzo72.github.io/Barrandodger/#digital">Digital Apocalypse</a> · <a href="https://wezzo72.github.io/Barrandodger/#crimes">Crimes</a> · <a href="https://wezzo72.github.io/Barrandodger/#why-not-ignore">Why Dismissal</a></span></li>
 </ol>
-<p>Source wording: <a href="../techniques-of-targeting.html">techniques-of-targeting.html</a>.</p>
-</div>
-<script src="../assets/standalone-nav.js"></script>
-</body></html>
+
+<p class=sub>Full wording of each numbered technique 1–85 remains on <a href="https://wezzo72.github.io/Barrandodger/techniques-of-targeting.html">techniques-of-targeting.html</a>. This tab maps mechanisms and technique bands to named documentary evidence.</p>
+<p class=sub>END · Architecture of Erasure · Evidence linked throughout</p>
+</div></body></html>
