@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MASTER EVIDENCE REGISTER</title>
+<title>MASTER EVIDENCE REGISTER — Barran Dodger Archive</title>
 <style>
 :root{--bg:#0b0d10;--text:#e8e6e3;--muted:#9a9690;--accent:#c9a227;--border:#2a3038;--danger:#c44;--link:#7eb8da}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -18,21 +18,20 @@ h1{font-size:1.45rem;color:var(--accent);margin-bottom:.35rem}
 </style>
 </head>
 <body>
-<div class="brand"><a href="../index.html">Barran Dodger Archive</a> · independent page</div>
+<div class="brand"><a href="../index.html">Barran Dodger Archive</a> · independent page · full text</div>
 <main class="container">
-<h1>MASTER EVIDENCE REGISTER — Dr Richard William McLean (Barran Dodger)</h1>
-<p class="meta">Independent tab · entire source text · finding aid · not a court · not a verdict · Generated April 2026 · 2301 listed documents</p>
-<div class="disclaimer"><strong>Impartial reading — not a finding.</strong> This is an inventory of files as catalogued by the author. Titles and summaries in the register are not independently verified findings.</div>
+<h1>MASTER EVIDENCE REGISTER</h1>
+<p class="meta">Independent tab · full forensic itemised schedule · Urgent Legal Issues</p>
+<div class="disclaimer"><strong>Impartial reading — not a finding.</strong> Full source text loaded from preserved repository files with zero redaction. Allegations and interpretations are the author’s account unless independently established. Finding aid · not a court · not a verdict.</div>
 <p class="meta">
 <a href="the-rejected-witness.html">1. The Rejected Witness</a> ·
 <a href="the-mirror.html">2. The Mirror</a> ·
 <a href="master-evidence-register.html">3. Master Evidence Register</a>
- · <a href="../docs/source-texts/MASTER_EVIDENCE_REGISTER.txt">raw source</a>
 </p>
 <pre class="verbatim" id="src">Loading full text…</pre>
 </main>
 <script>
-fetch("../docs/source-texts/MASTER_EVIDENCE_REGISTER.txt").then(function(r){return r.text()}).then(function(t){document.getElementById("src").textContent=t;});
+fetch("../docs/source-texts/MASTER_EVIDENCE_REGISTER.txt").then(function(r){return r.text();}).then(function(t){document.getElementById("src").textContent=t;}).catch(function(e){document.getElementById("src").textContent="Failed to load source: "+e;});
 </script>
 </body>
 </html>
