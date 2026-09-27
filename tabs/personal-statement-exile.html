@@ -21,7 +21,7 @@ h1{font-size:1.45rem;color:var(--accent);margin-bottom:.35rem}
 <div class="brand"><a href="../index.html">Barran Dodger Archive</a> · independent page · full text</div>
 <main class="container">
 <h1>PERSONAL STATEMENT OF EXILE, INSTITUTIONAL DETRIMENT AND THE SEARCH FOR PROTECTION</h1>
-<p class="meta">Independent tab · full text · My account · allegations require independent examination</p>
+<p class="meta">Independent tab · full text · parts 1–2 · allegations require independent examination</p>
 <div class="disclaimer"><strong>Impartial reading — not a finding.</strong> Full source text loaded from preserved repository files with zero redaction. Allegations and interpretations are the author’s account unless independently established. Finding aid · not a court · not a verdict.</div>
 <p class="meta">
 <a href="the-rejected-witness.html">1. The Rejected Witness</a> ·
@@ -32,7 +32,10 @@ h1{font-size:1.45rem;color:var(--accent);margin-bottom:.35rem}
 <pre class="verbatim" id="src">Loading full text…</pre>
 </main>
 <script>
-fetch("../docs/source-texts/PERSONAL-STATEMENT-OF-EXILE.txt").then(function(r){return r.text();}).then(function(t){document.getElementById("src").textContent=t;}).catch(function(e){document.getElementById("src").textContent="Failed to load source: "+e;});
+Promise.all([
+  fetch("../docs/source-texts/PERSONAL-STATEMENT-OF-EXILE-part1.txt").then(function(r){return r.text();}),
+  fetch("../docs/source-texts/PERSONAL-STATEMENT-OF-EXILE-part2.txt").then(function(r){return r.text();}),
+]).then(function(parts){document.getElementById("src").textContent=parts.join("\n");}).catch(function(e){document.getElementById("src").textContent="Failed to load source: "+e;});
 </script>
 </body>
 </html>
