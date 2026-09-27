@@ -37,6 +37,12 @@
 #landing a{color:var(--link)}
 .enter{display:block;width:100%;margin:28px 0 8px;background:var(--accent);color:#070b10;font-weight:800;font-size:clamp(1.25rem,4.5vw,1.7rem);letter-spacing:.12em;border:0;border-radius:14px;padding:22px 16px;cursor:pointer}
 #archive[hidden],#landing[hidden]{display:none !important}
+
+.sent-wrap{background:#140c0c;border-bottom:1px solid #4a2a2a}
+.sent-label{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:#e7b4a8;padding:8px 16px 0;font-weight:700}
+.tabs.sent-tabs{border-top:0;background:#140c0c}
+.tab.sent-tab{border-color:#5a3030;background:#1a1010;color:#f3eee4}
+.tab.sent-tab.active{background:#e7b4a8;color:#140c0c;border-color:#e7b4a8}
 </style>
 </head>
 <body>
@@ -44,7 +50,7 @@
 <div class="kicker">PUBLIC DOCUMENTARY ARCHIVE</div>
 <h1>THE WITNESS REMAINS</h1>
 <p class="sub">Barran Dodger / Dr Richard William McLean. Finding aid · not a court · not a verdict.</p>
-<p class="sub"><a href="#gospels">Gospels</a> · <a href="#rejected-witness">Rejected Witness</a> · <a href="#the-mirror">The Mirror</a> · <a href="#master-evidence-register">Master Evidence Register</a> · <a href="#prophecy">Prophecy</a> · <a href="#crimes">Crimes</a> · <a href="#official">Official</a></p>
+<p class="sub"><a href="#cc01">Unanswered sent emails</a> · <a href="#gospels">Gospels</a> · <a href="#rejected-witness">Rejected Witness</a> · <a href="#the-mirror">The Mirror</a> · <a href="#master-evidence-register">Master Evidence Register</a> · <a href="#prophecy">Prophecy</a> · <a href="#crimes">Crimes</a> · <a href="#official">Official</a></p>
 <p class="sub">Independent tabs in order of importance: The Rejected Witness; The Mirror; Master Evidence Register. Entire source text in each tab.</p>
 <button type="button" class="enter" id="enter">ENTER THE RECORD</button>
 </div>
@@ -57,6 +63,29 @@
 <nav class="identity" id="identity"><a href="#bio" data-page="bio">About the Author</a><a href="#archive-about" data-page="archive-about">About the Archive</a><a href="#sources" data-page="sources">Sources</a></nav>
 </header>
 <div class="forensic-wrap"><div class="forensic-label">Forensic reports</div><nav class="tabs forensic-tabs" id="forensic-tabs"><button type="button" class="tab forensic-tab" data-page="r01"><span class="n">01</span>Master Evidence</button><button type="button" class="tab forensic-tab" data-page="r02"><span class="n">02</span>Chronology</button><button type="button" class="tab forensic-tab" data-page="r03"><span class="n">03</span>Architecture</button><button type="button" class="tab forensic-tab" data-page="r04"><span class="n">04</span>Institutional Map</button><button type="button" class="tab forensic-tab" data-page="r05"><span class="n">05</span>Contradictions</button><button type="button" class="tab forensic-tab" data-page="r06"><span class="n">06</span>Whistleblower</button><button type="button" class="tab forensic-tab" data-page="r07"><span class="n">07</span>Human Rights</button><button type="button" class="tab forensic-tab" data-page="r08"><span class="n">08</span>Financial</button><button type="button" class="tab forensic-tab" data-page="r09"><span class="n">09</span>Allegations</button><button type="button" class="tab forensic-tab" data-page="r10"><span class="n">10</span>Repository</button></nav></div>
+<div class="sent-wrap"><div class="sent-label">Sent emails — original PDFs — no reply on file</div><nav class="tabs sent-tabs" id="sent-tabs" aria-label="Sent emails with no reply on file"><button type="button" class="tab sent-tab" data-page="cc01" title="Estate attorney and sibling betrayal">Estate attorney and sibling betrayal</button>
+<button type="button" class="tab sent-tab" data-page="cc02" title="Ndis attempted murder">Ndis attempted murder</button>
+<button type="button" class="tab sent-tab" data-page="cc03" title="Cowards">Cowards</button>
+<button type="button" class="tab sent-tab" data-page="cc04" title="Brett from able point I demand a response">Brett from able point I demand a response</button>
+<button type="button" class="tab sent-tab" data-page="cc05" title="Current legally binding update on entrapment and targeting by Able Point">Current legally binding update on entrapment and targeting by Able Point</button>
+<button type="button" class="tab sent-tab" data-page="cc06" title="Gods reckoning">Gods reckoning</button>
+<button type="button" class="tab sent-tab" data-page="cc07" title="Gods vengeance for cowardly criminal conspiracy">Gods vengeance for cowardly criminal conspiracy</button>
+<button type="button" class="tab sent-tab" data-page="cc08" title="I want to say sorry">I want to say sorry</button>
+<button type="button" class="tab sent-tab" data-page="cc09" title="Submission of Forensic Evidence Corpus — Dr Richard William McLean — Proposed Constitutional and Administrative Law Matter">Submission of Forensic Evidence Corpus — Dr Richard William McLean — Proposed Constitutional and Administrative Law Matter</button>
+<button type="button" class="tab sent-tab" data-page="cc10" title="Cruel degrading treatment you accept payment to sustain">Cruel degrading treatment you accept payment to sustain</button>
+<button type="button" class="tab sent-tab" data-page="cc11" title="FORMAL REQUEST FOR INDEPENDENT INVESTIGATION ABLEPOINT">FORMAL REQUEST FOR INDEPENDENT INVESTIGATION ABLEPOINT</button>
+<button type="button" class="tab sent-tab" data-page="cc12" title="Starting a revolution.">Starting a revolution.</button>
+<button type="button" class="tab sent-tab" data-page="cc13" title="DEMAND FOR ACCOUNTABILITY">DEMAND FOR ACCOUNTABILITY</button>
+<button type="button" class="tab sent-tab" data-page="cc14" title="ACCOUNTABILITY, EVIDENCE AND FAIR DETERMINATION">ACCOUNTABILITY, EVIDENCE AND FAIR DETERMINATION</button>
+<button type="button" class="tab sent-tab" data-page="cc15" title="Statement to Cass — Formal Legal Objection and Notice of Reported Electronic Surveillance and Slander">Statement to Cass — Formal Legal Objection and Notice of Reported Electronic Surveillance and Slander</button>
+<button type="button" class="tab sent-tab" data-page="cc16" title="Formal Objection and Safeguarding Statement Concerning Privacy, Humiliation, Alleged Electronic Surveillance and Accountability">Formal Objection and Safeguarding Statement Concerning Privacy, Humiliation, Alleged Electronic Surveillance and Accountability</button>
+<button type="button" class="tab sent-tab" data-page="cc17" title="My erasure was by design April and Doug">My erasure was by design April and Doug</button>
+<button type="button" class="tab sent-tab" data-page="cc18" title="Good morning you beautiful imperfect mortals ;-)">Good morning you beautiful imperfect mortals ;-)</button>
+<button type="button" class="tab sent-tab" data-page="cc19" title="I’m frightened they will murder me or lock me up I’m innocent and I’m sane - society is crazy">I’m frightened they will murder me or lock me up I’m innocent and I’m sane - society is crazy</button>
+<button type="button" class="tab sent-tab" data-page="cc20" title="Conspiracy for my murder planned by my own blood family">Conspiracy for my murder planned by my own blood family</button>
+<button type="button" class="tab sent-tab" data-page="cc21" title="Steve iasonidis">Steve iasonidis</button>
+<button type="button" class="tab sent-tab" data-page="cc22" title="Urgent Evidentiary Notice — Alleged Surveillance, Entrapment, Sexual Exploitation, Audio/V2K Harassment and Safeguarding Concerns">Urgent Evidentiary Notice — Alleged Surveillance, Entrapment, Sexual Exploitation, Audio/V2K Harassment and Safeguarding Concerns</button>
+<button type="button" class="tab sent-tab" data-page="cc23" title="Statement about Able Point NDIS provider">Statement about Able Point NDIS provider</button></nav></div>
 <nav class="tabs" id="tabs" aria-label="Archive sections">
 <button type="button" class="tab active" data-page="home">Home</button>
 <button type="button" class="tab" data-page="crimes">Crimes occurring to Barran Dodger</button>
@@ -82,6 +111,7 @@
 (function(){
   var ROUTES = {
   "r01":"tabs/r01-master-evidence.html","r02":"tabs/r02-chronology.html","r03":"tabs/r03-architecture.html","r04":"tabs/r04-institutional-map.html","r05":"tabs/r05-contradictions.html","r06":"tabs/r06-whistleblower.html","r07":"tabs/r07-human-rights.html","r08":"tabs/r08-financial.html","r09":"tabs/r09-allegations.html","r10":"tabs/r10-repository.html",
+  "cc01":"tabs/cc01.html","cc02":"tabs/cc02.html","cc03":"tabs/cc03.html","cc04":"tabs/cc04.html","cc05":"tabs/cc05.html","cc06":"tabs/cc06.html","cc07":"tabs/cc07.html","cc08":"tabs/cc08.html","cc09":"tabs/cc09.html","cc10":"tabs/cc10.html","cc11":"tabs/cc11.html","cc12":"tabs/cc12.html","cc13":"tabs/cc13.html","cc14":"tabs/cc14.html","cc15":"tabs/cc15.html","cc16":"tabs/cc16.html","cc17":"tabs/cc17.html","cc18":"tabs/cc18.html","cc19":"tabs/cc19.html","cc20":"tabs/cc20.html","cc21":"tabs/cc21.html","cc22":"tabs/cc22.html","cc23":"tabs/cc23.html",
   "home":"tabs/home.html","bio":"tabs/bio.html","archive-about":"tabs/about-archive.html",
   "crimes":"tabs/crimes.html","gospels":"gospels-prophetic.html",
   "rejected-witness":"tabs/the-rejected-witness.html",
@@ -93,7 +123,7 @@
   };
   var tabsEl=document.getElementById('tabs'), identityEl=document.getElementById('identity'), content=document.getElementById('content'), cache={}, req=0;
   function setActive(id){
-    document.querySelectorAll('#tabs button, #forensic-tabs button').forEach(function(b){var on=b.getAttribute('data-page')===id;b.classList.toggle('active',on);b.setAttribute('aria-selected',on?'true':'false');});
+    document.querySelectorAll('#tabs button, #forensic-tabs button, #sent-tabs button').forEach(function(b){var on=b.getAttribute('data-page')===id;b.classList.toggle('active',on);b.setAttribute('aria-selected',on?'true':'false');});
     identityEl.querySelectorAll('a').forEach(function(a){a.classList.toggle('on',a.getAttribute('data-page')===id);});
   }
   function extractBody(html){var m=html.match(/<body[^>]*>([\s\S]*)<\/body>/i);var inner=m?m[1]:html;return inner.replace(/<script[\s\S]*?<\/script>/gi,'');}
@@ -112,6 +142,7 @@
   document.getElementById('enter').addEventListener('click',function(){show('home');});
   tabsEl.addEventListener('click',function(e){var b=e.target.closest('button[data-page]');if(b)show(b.getAttribute('data-page'));});
   document.getElementById('forensic-tabs').addEventListener('click',function(e){var b=e.target.closest('button[data-page]');if(b)show(b.getAttribute('data-page'));});
+  document.getElementById('sent-tabs').addEventListener('click',function(e){var b=e.target.closest('button[data-page]');if(b)show(b.getAttribute('data-page'));});
   identityEl.addEventListener('click',function(e){var a=e.target.closest('a[data-page]');if(a){e.preventDefault();show(a.getAttribute('data-page'));}});
   document.getElementById('overview').addEventListener('click',function(e){e.preventDefault();showLanding();});
   window.addEventListener('hashchange',route);
