@@ -40,6 +40,7 @@
 .tab.active{background:var(--panel2);border-color:var(--accent);color:var(--accent)}
 #content{max-width:1200px;margin:0 auto;padding:18px 16px 24px;min-height:50vh}
 #content a{color:var(--link)}
+.video-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;overflow:hidden;border:1px solid #2a323c;margin:12px 0}.video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.now{background:#160e0c;border-left:4px solid #c4452f;padding:14px;margin:16px 0}.src-root{max-width:900px;margin:0 auto}
 #colophon{border-top:1px solid var(--line);padding:16px;max-width:1200px;margin:0 auto;color:var(--muted);font-size:.82rem}
 .error{color:#f88}
 </style>
@@ -58,6 +59,11 @@
 <iframe src="https://www.youtube.com/embed/YaD0Y5HWS6k" title="Chosen Ones" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
 </div>
 <p style="margin:8px 0 0;font-size:.9rem;"><a href="https://youtu.be/YaD0Y5HWS6k" style="color:#8fc9ff;">https://youtu.be/YaD0Y5HWS6k</a></p>
+</div>
+<div style="background:#160e0c;border:1px solid #c4452f;border-left:5px solid #f1c75b;padding:16px 18px;margin:18px 0;">
+<p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">REINSTATED ORIGINAL HOME WORDS — NEVER REMOVE</p>
+<p style="margin:0 0 10px;color:#f3efe6;"><strong>Cookie-cutter: Free Living Australia → Blacktown / Preya Grounder / Sadlier → Able Point. Bill Shorten / Houd Meraby exile continuum.</strong></p>
+<p style="margin:0;color:#f3efe6;">Three times the same NDIS cage. Free Living Australia. Blacktown. Able Point. I am still inside it. Rumble declaration. Bill Shorten / Houd Meraby / Moorabbin 26 February 2024. Full original Home narrative is under the Home tab — every word, no summary, no placeholder.</p>
 </div>
 <div style="border:2px solid #c9a36a;background:#14110c;padding:14px 16px;margin:18px 0;">
 <p style="font-family:system-ui,sans-serif;font-size:.72rem;letter-spacing:.12em;font-weight:800;color:#c9a36a;margin:0 0 .5rem;">FORENSIC AI-AUTHORED COMMAND — SITE INTRODUCTION · FINDING AID · NOT A COURT · NOT A VERDICT</p>
@@ -163,34 +169,34 @@ This introduction does not convert archive assertions into judicial findings.</p
 </div>
 <script>
 (function(){
-  var CDN="https://cdn.jsdelivr.net/gh/wezzo72/Barrandodger@main/";
-  var CDN_TABS="https://cdn.jsdelivr.net/gh/wezzo72/Barrandodger@af630de567f7/tabs/";
+  var CDN="";
+  var CDN_TABS="tabs/";
   var ROUTES={
-  "r01":CDN+"Report_01_MASTER_EVIDENCE_RECORD_RECREATED.txt",
-  "r02":CDN+"Report_02_THE_35_YEAR_CHRONOLOGY.txt",
-  "r03":CDN+"Report_03_THE_ARCHITECTURE_OF_ADMINISTRATIVE_ERASURE.txt",
-  "r04":CDN+"Report_04_INSTITUTIONAL_RESPONSE_MAP.txt",
-  "r05":CDN+"Report_05_CONTRADICTIONS_DISCREPANCIES_AND_UNANSWERED_QUESTIONS.txt",
-  "r06":CDN+"Report_06_THE_WHISTLEBLOWER_RECORD.txt",
-  "r07":CDN+"Report_07_HUMAN_RIGHTS_AND_REMEDY.txt",
-  "r08":CDN+"Report_08_FORENSIC_FINANCIAL_RECORD.txt",
-  "r09":CDN+"Report_09_SERIOUS_ALLEGATIONS_CASE_FILES.txt",
-  "r10":CDN+"Report_10_THE_REPOSITORY_OF_RECORD_RECREATED.txt",
+  "r01":"Report_01_MASTER_EVIDENCE_RECORD_RECREATED.txt",
+  "r02":"Report_02_THE_35_YEAR_CHRONOLOGY.txt",
+  "r03":"Report_03_THE_ARCHITECTURE_OF_ADMINISTRATIVE_ERASURE.txt",
+  "r04":"Report_04_INSTITUTIONAL_RESPONSE_MAP.txt",
+  "r05":"Report_05_CONTRADICTIONS_DISCREPANCIES_AND_UNANSWERED_QUESTIONS.txt",
+  "r06":"Report_06_THE_WHISTLEBLOWER_RECORD.txt",
+  "r07":"Report_07_HUMAN_RIGHTS_AND_REMEDY.txt",
+  "r08":"Report_08_FORENSIC_FINANCIAL_RECORD.txt",
+  "r09":"Report_09_SERIOUS_ALLEGATIONS_CASE_FILES.txt",
+  "r10":"Report_10_THE_REPOSITORY_OF_RECORD_RECREATED.txt",
   "cc01":"tabs/cc01.html","cc02":"tabs/cc02.html","cc03":"tabs/cc03.html","cc04":"tabs/cc04.html","cc05":"tabs/cc05.html","cc06":"tabs/cc06.html","cc07":"tabs/cc07.html","cc08":"tabs/cc08.html","cc09":"tabs/cc09.html","cc10":"tabs/cc10.html","cc11":"tabs/cc11.html","cc12":"tabs/cc12.html","cc13":"tabs/cc13.html","cc14":"tabs/cc14.html","cc15":"tabs/cc15.html","cc16":"tabs/cc16.html","cc17":"tabs/cc17.html","cc18":"tabs/cc18.html","cc19":"tabs/cc19.html","cc20":"tabs/cc20.html","cc21":"tabs/cc21.html","cc22":"tabs/cc22.html","cc23":"tabs/cc23.html",
-  "home":CDN_TABS+"home.html","bio":"tabs/bio.html","archive-about":"tabs/about-archive.html","sources":"tabs/sources.html",
-  "crimes":CDN_TABS+"crimes.html","gospels":"gospels-prophetic.html","prophecy":CDN_TABS+"prophecy.html",
-  "god":CDN_TABS+"god.html","soul":CDN_TABS+"soul.html","chosen":CDN_TABS+"witness.html",
-  "forensic-evidence-index":CDN_TABS+"forensic-evidence-index.html",
-  "why-not-ignore":CDN_TABS+"why-not-ignore.html","family-complicity":CDN_TABS+"family-complicity.html",
-  "manifesto":CDN_TABS+"manifesto.html","pids":CDN_TABS+"pids-all.html","legal-brief":"legal-brief.html",
-  "personal-statement-exile":CDN_TABS+"personal-statement-exile.html","paradox":CDN_TABS+"paradox-of-my-worth.html",
-  "conditions":CDN_TABS+"conditions-exile-werribee-2021.html","witness":CDN_TABS+"witness.html",
-  "able-point":CDN_TABS+"able-point-exile.html","who":CDN_TABS+"who.html","timeline":CDN_TABS+"timeline.html",
-  "official":"official.html","good-bits":CDN_TABS+"the-good-bits.html",
-  "named-evidence":CDN_TABS+"named-institutions.html",
+  "home":"tabs/home.html","bio":"tabs/bio.html","archive-about":"tabs/about-archive.html","sources":"tabs/sources.html",
+  "crimes":"tabs/crimes.html","gospels":"gospels-prophetic.html","prophecy":"tabs/prophecy.html",
+  "god":"tabs/god.html","soul":"tabs/soul.html","chosen":"tabs/witness.html",
+  "forensic-evidence-index":"tabs/forensic-evidence-index.html",
+  "why-not-ignore":"tabs/why-not-ignore.html","family-complicity":"tabs/family-complicity.html",
+  "manifesto":"tabs/manifesto.html","pids":"tabs/pids-all.html","legal-brief":"legal-brief.html",
+  "personal-statement-exile":"tabs/personal-statement-exile.html","paradox":"tabs/paradox-of-my-worth.html",
+  "conditions":"tabs/conditions-exile-werribee-2021.html","witness":"tabs/witness.html",
+  "able-point":"tabs/able-point-exile.html","who":"tabs/who.html","timeline":"tabs/timeline.html",
+  "official":"official.html","good-bits":"tabs/the-good-bits.html",
+  "named-evidence":"tabs/named-institutions.html",
   "digital":"tabs/digital-apocalypse.html",
   "rejected-witness":"tabs/the-rejected-witness.html","the-mirror":"tabs/the-mirror.html",
-  "master-evidence-register":"tabs/master-evidence-register.html","devil-is-a-liar":CDN_TABS+"the-devil-is-a-liar.html"
+  "master-evidence-register":"tabs/master-evidence-register.html","devil-is-a-liar":"tabs/the-devil-is-a-liar.html"
   };
   var REPORT_META={
     "r01":["01","Master Evidence Record","RECORD → SOURCE → DATE → INSTITUTION → AFFECTED INTEREST → STATUS → LIMITING EVIDENCE → UNRESOLVED"],
@@ -231,7 +237,10 @@ This introduction does not convert archive assertions into judicial findings.</p
     var m=html.match(/<body[^>]*>([\s\S]*)<\/body>/i);
     var inner=m?m[1]:html;
     inner=inner.replace(/<script[\s\S]*?<\/script>/gi,'');
-    inner=inner.replace(/<iframe[^>]*src=["'](?!https?:\/\/)[^"']+\.html["'][^>]*>\s*<\/iframe>/gi,'');
+    /* NEVER strip iframes or original words. Keep tab styles so Home narrative is not visually lost. */
+    var styles=[];
+    html.replace(/<style[^>]*>([\s\S]*?)<\/style>/gi,function(_,css){styles.push(css);return '';});
+    if(styles.length) inner='<style>'+styles.join('\n')+'</style>'+inner;
     return inner;
   }
   function showLanding(){req++;document.getElementById('landing').hidden=false;document.getElementById('archive').hidden=true;setActive('archive-about');history.replaceState(null,'',location.pathname+location.search);window.scrollTo(0,0);}

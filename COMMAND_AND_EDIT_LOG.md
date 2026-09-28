@@ -110,3 +110,25 @@ When any new command or edit is made to this site, **append** a new entry. Do no
 
 *Log established 28 September 2026 at author request.
 Site: Barran Dodger Archive — public documentary finding aid. Not a court. Not a verdict.*
+
+### COMMAND 18 — Reinstate ALL original Home narrative + PDF text under every tab (28 September 2026)
+
+**User command (verbatim intent):**
+- Reinstate all text from original PDF evidence from repositories under every tab
+- Never redact, summarise, placeholder or edit original text
+- Reinstate for entire site
+- Reinstate this detail on Home tab: Cookie-cutter: Free Living Australia → Blacktown / Preya Grounder / Sadlier → Able Point. Bill Shorten / Houd Meraby exile continuum.
+- Find original text I inputted and reinstate entire narrative
+- Why is it removed? Never remove it again
+
+**Why it was missing:** Home was reduced to a 2KB wrapper. index.html loaded an old CDN copy and the SPA stripped the relative iframe that held restored Home words (`home-restored-block.html`). Other tabs used iframe-only loaders instead of the source text. That is a loader defect, not author deletion.
+
+**Fix (ADD only; original words restored inline):**
+- `tabs/home.html` — full original Home from commit af630de (every word) + 28 Sep 2026 prophetic block + inlined restored-block (Able Point / videos / cookie-cutter). Cookie-cutter line appears at the top of Home AND in the original Rumble section. NEVER iframe this file again.
+- Landing (`index.html`) — same cookie-cutter sentence restored on the overview.
+- index.html ROUTES now load **local** `tabs/*.html` and `Report_*.txt` — no jsDelivr pin that can serve a stale/stripped Home.
+- extractBody no longer strips iframes; it keeps tab CSS so original formatting is not lost.
+- Source-text tabs inlined (no iframe): Rejected Witness, The Mirror, Master Evidence Register, Prophecy, Soul, Digital Apocalypse, Personal Statement of Exile, Final Record, Record of Alleged Harm.
+- Sent-email tabs cc01–cc23: original PDF still shown, PLUS full extracted text of each original PDF on the page.
+
+**Rule restated:** Never remove a single word again. Only ADD.
