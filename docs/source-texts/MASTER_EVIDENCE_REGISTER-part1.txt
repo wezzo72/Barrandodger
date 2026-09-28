@@ -1,0 +1,284 @@
+THE WITNESS REMAINS - URGENT LEGAL ISSUES — FORENSIC ITEMISED SCHEDULE
+
+Dr Richard William McLean
+
+also known publicly as Barran Dodger
+
+Status: Urgent legal and evidentiary issues for independent legal review
+Primary documentary repository: Barran Dodger GitHub Archive
+Public documentary archive: Barran Dodger Archive
+Secondary GitHub identity: DrBarranDodger GitHub profile
+
+⸻
+
+IMPORTANT EVIDENTIARY QUALIFICATION
+
+This schedule records allegations, documentary issues and legal questions arising from the archive.
+
+It does not state that every allegation is proven.
+
+Where a matter has not been judicially determined, it is described as an allegation, assertion, reported event, documentary issue or matter requiring investigation.
+
+The purpose is to enable a lawyer, investigator, regulator, court, tribunal or other competent authority to examine the underlying evidence.
+
+The principal evidentiary rule is:
+
+Every serious allegation should be traceable to an identified document, date, person, institution and legal issue.
+
+⸻
+
+PART I — IMMEDIATE AND HIGH-CONSEQUENCE ISSUES
+
+1. ALLEGED RISK OF SERIOUS PHYSICAL HARM OR DEATH
+
+Allegation
+
+The archive contains allegations that conduct by unidentified and/or identified persons contributed to circumstances in which Dr McLean suffered serious physical and psychological harm and that there was, at various times, an alleged risk to his life.
+
+The archive further contains the claimant’s allegation that a prior fatal or near-fatal event should be examined to determine whether intentional conduct contributed to the event.
+
+Evidence to be examined
+
+	•	contemporaneous medical records;
+	•	ambulance records;
+	•	hospital records;
+	•	discharge summaries;
+	•	medication records;
+	•	police reports;
+	•	contemporaneous communications;
+	•	threats;
+	•	witness evidence;
+	•	photographs;
+	•	digital records;
+	•	chronology immediately preceding the event.
+
+Urgent legal questions
+
+	1.	What objectively happened?
+	2.	What caused the injury?
+	3.	Was intentional conduct alleged contemporaneously?
+	4.	Who knew of any alleged threat?
+	5.	What warnings were provided?
+	6.	What protective action was requested?
+	7.	What action was taken?
+	8.	Are there independent witnesses?
+	9.	Does the medical evidence support or contradict the alleged mechanism?
+
+Relevant law
+
+Potential Commonwealth offences depend upon the proven facts and jurisdiction. The Criminal Code Act 1995 contains provisions dealing with attempts and conspiracy, while the Crimes Act 1914 contains the Commonwealth offence of conspiracy to defeat justice.
+
+Archive evidence
+
+Barran Dodger — Crimes Register
+Barran Dodger — principal archive
+
+⸻
+
+2. ALLEGED CONSPIRACY OR COORDINATED CONDUCT
+
+Allegation
+
+The claimant alleges that actions by multiple institutions and individuals were coordinated to prevent him obtaining effective assistance, reporting alleged wrongdoing or exposing information.
+
+Legal significance
+
+A pattern of adverse decisions is not, by itself, proof of conspiracy.
+
+For a criminal conspiracy allegation, evidence of agreement, requisite intention and an overt act may be required. Commonwealth law expressly sets out elements for conspiracy to commit offences, while s 42 of the Crimes Act 1914 addresses conspiracy to defeat Commonwealth judicial power.
+
+Evidence required
+
+	•	emails between alleged participants;
+	•	meeting records;
+	•	instructions;
+	•	internal memoranda;
+	•	referrals;
+	•	shared case notes;
+	•	telephone records;
+	•	metadata;
+	•	unexplained coordination;
+	•	evidence of common purpose;
+	•	subsequent conduct consistent with an agreement.
+
+Urgent forensic question
+
+Is there evidence of actual coordination, or does the record instead demonstrate independent institutional decisions producing cumulative adverse consequences?
+
+That question should be determined from the documents rather than assumed.
+
+⸻
+
+3. ALLEGED INTERFERENCE WITH ACCESS TO JUSTICE
+
+Allegation
+
+The archive records repeated attempts to obtain:
+
+	•	police assistance;
+	•	legal representation;
+	•	administrative review;
+	•	human-rights investigation;
+	•	disability complaints;
+	•	compensation;
+	•	Ombudsman review;
+	•	PID investigation;
+	•	corruption investigation.
+
+The claimant alleges that the cumulative effect prevented effective access to justice.
+
+⸻
+
+PART II — NDIS AND DISABILITY ISSUES
+
+4. ALLEGED NDIS NEGLECT, ABUSE AND SAFEGUARDING FAILURES
+
+Allegation
+
+The archive contains allegations of:
+
+	1.	neglect;
+	2.	abuse;
+	3.	inadequate safeguarding;
+	4.	failure to respond to complaints;
+	5.	failure to intervene;
+	6.	financial hardship;
+	7.	provider misconduct;
+	8.	inadequate support;
+	9.	conflicts of interest;
+	10.	alleged continuation of harmful arrangements.
+
+Relevant legislation
+
+The National Disability Insurance Scheme Act 2013 is currently in force.
+
+The NDIS Practice Standards also impose requirements concerning participant rights, privacy, dignity, informed choice and provider responsibilities.
+
+⸻
+
+5. ALLEGED NDIS CODE OF CONDUCT BREACHES
+
+The alleged conduct should be tested against the applicable NDIS Code of Conduct and Practice Standards.
+
+Relevant issues include:
+
+	1.	respect for rights;
+	2.	privacy;
+	3.	dignity;
+	4.	safe and competent support;
+	5.	honesty and transparency;
+	6.	prevention of abuse and neglect;
+	7.	response to safety concerns;
+	8.	conflicts of interest;
+	9.	financial conduct;
+	10.	professional boundaries;
+	11.	sexual misconduct;
+	12.	complaint handling.
+
+⸻
+
+6. ALLEGED SEXUAL MISCONDUCT BY AN NDIS-RELATED WORKER
+
+Allegation
+
+The archive records an allegation that an NDIS-related worker accessed complaints, attended the claimant’s home, engaged in sexual activity with him and subsequently disappeared from contact.
+
+Evidence required
+
+	1.	worker identity;
+	2.	provider employment records;
+	3.	access logs;
+	4.	complaint records;
+	5.	communications;
+	6.	appointment records;
+	7.	telephone records;
+	8.	witness evidence;
+	9.	provider investigation;
+	10.	NDIS Commission records;
+	11.	police records;
+	12.	medical evidence where relevant.
+
+No criminal conclusion should be drawn until the evidence is independently assessed.
+
+⸻
+
+7. ALLEGED FINANCIAL COERCION THROUGH DISABILITY SERVICES
+
+Allegation
+
+The archive records an allegation concerning approximately $300 per week in rent and an alleged remaining disposable amount of approximately $40 per week.
+
+Urgent questions
+
+	•	Who received the money?
+	•	Under what agreement?
+	•	Was the arrangement authorised?
+	•	Was accommodation provided?
+	•	Was the amount commercially reasonable?
+	•	Was the claimant pressured or coerced?
+	•	Were NDIS funds involved?
+	•	Were financial records maintained?
+	•	Did the provider disclose the arrangement?
+	•	Were alternative arrangements available?
+
+⸻
+
+8. ALLEGED FAILURE TO PROTECT FROM ABUSE, NEGLECT OR EXPLOITATION
+
+The NDIS framework expressly recognises protection from abuse, neglect, violence and exploitation as an important aspect of the regulatory scheme.
+
+The investigation should determine:
+
+	1.	what risk was reported;
+	2.	when it was reported;
+	3.	who received the report;
+	4.	what evidence accompanied it;
+	5.	what safeguarding response followed;
+	6.	whether escalation occurred;
+	7.	whether the provider remained involved;
+	8.	whether the NDIS Commission was notified;
+	9.	what reasons were given for closure.
+
+⸻
+
+PART III — DISABILITY DISCRIMINATION
+
+9. ALLEGED DISABILITY DISCRIMINATION
+
+The Disability Discrimination Act 1992 prohibits disability discrimination in specified areas including employment, services and facilities and administration of Commonwealth laws and programs.
+
+Issues requiring investigation
+
+	1.	Was the claimant treated differently because of disability?
+	2.	Was a condition imposed that disadvantaged him?
+	3.	Was reasonable adjustment required?
+	4.	Was an adjustment refused?
+	5.	Did disability-related assumptions affect decision-making?
+	6.	Were Commonwealth programs administered differently because of disability?
+	7.	Was the adverse treatment connected to disability?
+
+⸻
+
+PART IV — HUMAN RIGHTS
+
+10. AUSTRALIAN HUMAN RIGHTS COMMISSION COMPLAINTS
+
+The archive identifies complaints to the Australian Human Rights Commission and allegations that documented concerns were not investigated.
+
+Urgent documentary questions
+
+	1.	What complaint was lodged?
+	2.	When?
+	3.	What evidence accompanied it?
+	4.	What jurisdiction was identified?
+	5.	What response was provided?
+	6.	Was the complaint terminated?
+	7.	Under what statutory provision?
+	8.	Were review mechanisms available?
+	9.	Was relevant evidence considered?
+
+A refusal to investigate does not itself prove the underlying allegation or establish misconduct by the Commission.
+
+⸻
+
+[CONTINUED IN part2–part6 — full forensic schedule continues without redaction]
