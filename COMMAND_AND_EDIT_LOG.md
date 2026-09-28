@@ -157,3 +157,18 @@ Site: Barran Dodger Archive — public documentary finding aid. Not a court. Not
 - `tab-fix.js` no longer removes any tab. It cannot redact.
 
 **Rule restated:** Never remove a single word again. Only ADD. No placeholder in place of source text.
+
+### COMMAND 21 — Restore the full site; add The Justice Mandate only (28 September 2026)
+
+**User command:** Last edit only wanted to upload The Justice Mandate and publish it. The site had parts removed. Go back to the last version and just add this.
+
+**What was broken:** Commit `b98f851` replaced `index.html` (300 lines) with 1 line. Later “restore” commits left a 79-line stub. Landing after the cookie-cutter block, evidentiary emails, About the Archive, ENTER THE RECORD, every tab, forensic row, and the loader script were gone.
+
+**Fix (restore, then add only):**
+- `index.html` restored from last intact commit `50a7943` (parent of the wipe). Every original line kept. The only changed original line is the overview link row, which gained “The Justice Mandate” in front of the existing links.
+- Added, and nothing else removed: landing callout, identity-bar link, first archive tab, and route `justice-mandate` → `tabs/justice-mandate.html`.
+- Source PDF already in the repository root: `THE JUSTICE MANDATE.pdf`. Linked from the landing and from the full-text page.
+- Full text remains at `tabs/justice-mandate.html` and `justice-mandate.html`.
+
+**Commit:** `282f643` (index restore) and the following PDF-link commit on the tab page.
+**Rule restated:** Never remove a single word again. Only ADD.
