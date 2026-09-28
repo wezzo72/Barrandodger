@@ -20,22 +20,26 @@ h1{font-size:1.45rem;color:var(--accent);margin-bottom:.35rem}
 <body>
 <div class="brand"><a href="../index.html">Barran Dodger Archive</a> · independent page · full text</div>
 <main class="container">
-<h1>PERSONAL STATEMENT OF EXILE, INSTITUTIONAL DETRIMENT AND THE SEARCH FOR PROTECTION</h1>
-<p class="meta">Independent tab · full text · parts 1–2 · allegations require independent examination</p>
-<div class="disclaimer"><strong>Impartial reading — not a finding.</strong> Full source text loaded from preserved repository files with zero redaction. Allegations and interpretations are the author’s account unless independently established. Finding aid · not a court · not a verdict.</div>
+<h1>PERSONAL STATEMENT OF EXILE</h1>
+<p class="meta">Independent tab · Institutional Detriment and the Search for Protection · full text</p>
+<div class="disclaimer"><strong>Impartial reading — not a finding.</strong> Full source text loaded from preserved repository files with zero redaction. Allegations and interpretations are the author's account unless independently established. Finding aid · not a court · not a verdict.</div>
 <p class="meta">
-<a href="the-rejected-witness.html">1. The Rejected Witness</a> ·
-<a href="the-mirror.html">2. The Mirror</a> ·
-<a href="master-evidence-register.html">3. Master Evidence Register</a>
- · <a href="prophecy.html">Prophecy</a>
+<a href="the-rejected-witness.html">Rejected Witness</a> ·
+<a href="the-mirror.html">The Mirror</a> ·
+<a href="master-evidence-register.html">Master Evidence</a> ·
+<a href="digital-apocalypse.html">Digital Apocalypse</a> ·
+<a href="prophecy.html">Prophecy</a> ·
+<a href="personal-statement-exile.html">Personal Statement</a> ·
+<a href="final-record.html">Final Record</a> ·
+<a href="record-of-alleged-harm.html">Record of Alleged Harm</a>
 </p>
 <pre class="verbatim" id="src">Loading full text…</pre>
 </main>
 <script>
 Promise.all([
-  fetch("../docs/source-texts/PERSONAL-STATEMENT-OF-EXILE-part1.txt").then(function(r){return r.text();}),
-  fetch("../docs/source-texts/PERSONAL-STATEMENT-OF-EXILE-part2.txt").then(function(r){return r.text();}),
-]).then(function(parts){document.getElementById("src").textContent=parts.join("\n");}).catch(function(e){document.getElementById("src").textContent="Failed to load source: "+e;});
+  fetch("../docs/source-texts/PERSONAL-STATEMENT-OF-EXILE-part1.txt").then(function(r){if(!r.ok)throw new Error("part1: "+r.status);return r.text();}),
+  fetch("../docs/source-texts/PERSONAL-STATEMENT-OF-EXILE-part2.txt").then(function(r){if(!r.ok)throw new Error("part2: "+r.status);return r.text();})
+]).then(function(parts){document.getElementById("src").textContent=parts.join("\n\n");}).catch(function(e){document.getElementById("src").textContent="Failed to load: "+e;});
 </script>
 </body>
 </html>
