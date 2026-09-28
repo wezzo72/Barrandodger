@@ -4,8 +4,76 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
 <title>THE WITNESS REMAINS — Barran Dodger Archive</title>
+<style>
+:root{--bg:#070b10;--panel:#0e151d;--panel2:#151f29;--ink:#eef3f7;--muted:#a9b4bf;--line:#293642;--accent:#f1c75b;--link:#8fc9ff}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}
+#landing{max-width:760px;margin:0 auto;padding:28px 16px 80px}
+#landing h1{font-size:clamp(1.5rem,5vw,2.2rem);line-height:1.2;margin:.3rem 0}
+#landing h2{color:var(--accent);font-size:1.1rem;margin:1.2rem 0 .5rem}
+#landing .kicker{letter-spacing:.14em;font-size:.72rem;color:var(--accent);font-weight:800}
+#landing .sub{color:var(--muted);margin:0 0 1rem}
+#landing a{color:var(--link)}
+#landing p{margin:0 0 1rem}
+.enter{display:inline-block;margin-top:12px;padding:14px 28px;background:var(--accent);color:#070b10;border:0;border-radius:6px;font-weight:800;font-size:1rem;cursor:pointer}
+#archive[hidden],#landing[hidden]{display:none !important}
+#chrome{position:sticky;top:0;z-index:50;background:rgba(7,11,16,.98);border-bottom:1px solid var(--line)}
+#chrome header{padding:10px 16px 6px;max-width:1200px;margin:0 auto}
+.eyebrow{font-size:.72rem;letter-spacing:.12em;color:var(--accent);font-weight:700}
+.eyebrow a{color:var(--link);margin-left:10px;font-weight:600;letter-spacing:0;text-transform:none}
+#chrome h1{font-size:clamp(1.05rem,3.5vw,1.55rem);margin:4px 0 0;line-height:1.2}
+.identity{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0}
+.identity a{display:inline-block;text-decoration:none;color:var(--ink);border:1px solid var(--accent);padding:4px 9px;border-radius:999px;font-size:.75rem}
+.identity a.on{background:var(--accent);color:#070b10;font-weight:700}
+.forensic-wrap{background:#0b0a08;border-bottom:1px solid #3a3328}
+.forensic-label{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#c9a36a;padding:8px 16px 0;font-weight:700}
+.tabs.forensic-tabs{border-top:0;background:#0b0a08}
+.tab.forensic-tab{border-radius:2px;border-color:#3f4c5a;background:#14110c;color:#e8e0d4;font-size:.76rem}
+.tab.forensic-tab .n{color:#c9a36a;font-weight:700;margin-right:.3em}
+.tab.forensic-tab.active{background:#c9a36a;color:#0b0a08;border-color:#c9a36a}
+.sent-wrap{background:#0a0c10;border-bottom:1px solid #2a323c}
+.sent-label{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:#8fc9ff;padding:8px 16px 0;font-weight:700}
+.tabs.sent-tabs{border-top:0;background:#0a0c10}
+.tab.sent-tab{border-radius:2px;border-color:#2a3a4a;background:#0e151d;color:#c5d4e0;font-size:.72rem;max-width:none}
+.tab.sent-tab.active{background:#8fc9ff;color:#070b10;border-color:#8fc9ff}
+a.tab.sent-tab{text-decoration:none}
+.tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:4px;padding:6px 12px 10px;border-top:1px solid var(--line)}
+.tab{flex:0 0 auto;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:6px 9px;border-radius:8px;white-space:nowrap;cursor:pointer;font:inherit;font-size:.8rem}
+.tab.active{background:var(--panel2);border-color:var(--accent);color:var(--accent)}
+#content{max-width:1200px;margin:0 auto;padding:18px 16px 24px;min-height:50vh}
+#content a{color:var(--link)}
+.video-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;overflow:hidden;border:1px solid #2a323c;margin:12px 0}.video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.now{background:#160e0c;border-left:4px solid #c4452f;padding:14px;margin:16px 0}.src-root{max-width:900px;margin:0 auto}
+#colophon{border-top:1px solid var(--line);padding:16px;max-width:1200px;margin:0 auto;color:var(--muted);font-size:.82rem}
+.error{color:#f88}
+</style>
 </head>
 <body>
-<p>See commit follow-up — loading full file.</p>
+<div id="landing">
+<div class="kicker">PUBLIC DOCUMENTARY ARCHIVE</div>
+<h1>THE WITNESS REMAINS</h1>
+<p class="sub">Barran Dodger / Dr Richard William McLean. This page is the overview. The full record is one step in — every section, already written, no loader.</p>
+<p class="kicker">FINDING AID · NOT A COURT · NOT A VERDICT</p>
+<p class="sub"><a href="#justice-mandate">The Justice Mandate</a> · <a href="#gospels">Gospels</a> · <a href="#prophecy">The Prophecy</a> · <a href="#crimes">Crimes occurring to Barran Dodger</a> · <a href="#official">Official Government Documents</a> · <a href="#r01">Forensic 01–10</a> · <a href="#bio">About the Author</a></p>
+<div style="background:#120e08;border:1px solid #c4452f;border-left:5px solid #f1c75b;padding:16px 18px;margin:18px 0;">
+<p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">PROPHETIC CORROBORATION — 28 SEPTEMBER 2026</p>
+<p style="margin:0 0 10px;color:#f3efe6;"><strong>Chosen one.</strong> Today's date: 28 September 2026. This video corroborates identity as a chosen one. My enemies tried to break me because acknowledging my testimony is humiliating for their professional life and cowardice for accepting money to entrap and harm me all the while feigning ignorance or non-awareness of my situation as a deceitful lie.</p>
+<div style="position:relative;width:100%;aspect-ratio:16/9;background:#000;overflow:hidden;border:1px solid #2a323c;margin:12px 0;">
+<iframe src="https://www.youtube.com/embed/YaD0Y5HWS6k" title="Chosen Ones" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+<p style="margin:8px 0 0;font-size:.9rem;"><a href="https://youtu.be/YaD0Y5HWS6k" style="color:#8fc9ff;">https://youtu.be/YaD0Y5HWS6k</a></p>
+</div>
+<div style="background:#120e08;border:1px solid #c9a36a;border-left:5px solid #f1c75b;padding:16px 18px;margin:18px 0;">
+<p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">THE JUSTICE MANDATE — FULL TEXT ON THIS SITE</p>
+<p style="margin:0 0 10px;color:#f3efe6;">Prophetic introduction and academic synopsis. Every word of the paper is on its own page. Public links preserved. Finding aid · not a court · not a verdict.</p>
+<p style="margin:0 0 8px;"><a href="#justice-mandate" style="color:#8fc9ff;font-weight:700">Open The Justice Mandate in full</a></p>
+<p style="margin:0;font-size:.9rem;"><a href="https://github.com/wezzo72/Barrandodger">https://github.com/wezzo72/Barrandodger</a><br/>
+<a href="https://wezzo72.github.io/Barrandodger/">https://wezzo72.github.io/Barrandodger/</a><br/>
+<a href="https://github.com/wezzo72/Barrandodger/blob/main/index.html">https://github.com/wezzo72/Barrandodger/blob/main/index.html</a></p>
+</div>
+<div style="background:#160e0c;border:1px solid #c4452f;border-left:5px solid #f1c75b;padding:16px 18px;margin:18px 0;">
+<p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">REINSTATED ORIGINAL HOME WORDS — NEVER REMOVE</p>
+<p style="margin:0 0 10px;color:#f3efe6;"><strong>Cookie-cutter: Free Living Australia → Blacktown / Preya Grounder / Sadlier → Able Point. Bill Shorten / Houd Meraby exile continuum.</strong></p>
+<p style="margin:0;color:#f3efe6;">Three times the same NDIS cage. Free Living Australia. Blacktown. Able Point. I am still inside it. Rumble declaration. Bill Shorten / Houd Meraby / Moorabbin 26 February 2024. Full original Home narrative is under the Home tab — every word, no summary, no placeholder.</p>
+</div>
+</div>
 </body>
 </html>
