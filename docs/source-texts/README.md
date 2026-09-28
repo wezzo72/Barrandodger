@@ -1,22 +1,27 @@
-Full source texts for independent tabs and named documents — zero redaction.
-
-PRIMARY (order of importance)
-1. THE-REJECTED-WITNESS.txt — The Chosen Witness / Gospel for the Unseen Nations
-2. THE-MIRROR.txt — No One Has the Right to Destroy a Soul
-3. MASTER_EVIDENCE_REGISTER.txt — Urgent Legal Issues / Forensic Itemised Schedule
-
-PROPHECY
-- THE-PROPHECY-part1.txt
-- THE-PROPHECY-part2.txt
-- THE-PROPHECY.txt (combined where available)
-
-PERSONAL & ARCHIVE STATEMENTS
-- PERSONAL-STATEMENT-OF-EXILE.txt
-- NO-ONE-HAS-THE-RIGHT-TO-DESTROY-A-SOUL.txt
-- FINAL-RECORD.txt
-- THE-RECORD-OF-ALLEGED-HARM.txt
-- WHY-THESE-ALLEGATIONS.txt
-- DIGITAL-APOCALYPSE.txt
+# Barran Dodger — Full source texts (zero redaction)
 
 Finding aid. Not a court. Not a verdict.
+
+## Published on this branch
+
+### Core independent tabs
+1. THE-REJECTED-WITNESS.txt
+2. THE-MIRROR.txt
+3. MASTER_EVIDENCE_REGISTER-part1.txt (+ remaining parts publishing)
+
+### Prophecy & personal
+- THE-PROPHECY-part1.txt, THE-PROPHECY-part2.txt
+- PERSONAL-STATEMENT-OF-EXILE-part1.txt, PERSONAL-STATEMENT-OF-EXILE-part2.txt
+- NO-ONE-HAS-THE-RIGHT-TO-DESTROY-A-SOUL.txt
+- FINAL-RECORD.txt
+- BIO.txt
+
+### Full uploaded corpus (parts)
+- DIGITAL-APOCALYPSE-part1.txt, part2.txt, part3.txt (COMPLETE)
+- THE-RECORD-OF-ALLEGED-HARM-part1.txt (+ part2–3 publishing)
+- WHY-THESE-ALLEGATIONS-part1.txt (+ part2–4 publishing)
+- ARCHITECTURE-OF-ERASURE-part1.txt (+ part2–3 publishing)
+- MASTER_EVIDENCE_REGISTER-part1.txt (+ part2–6 publishing)
+
 All text is the author’s account unless independently established.
+Preserve the evidence. Examine the record.
