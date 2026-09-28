@@ -132,3 +132,15 @@ Site: Barran Dodger Archive — public documentary finding aid. Not a court. Not
 - Sent-email tabs cc01–cc23: original PDF still shown, PLUS full extracted text of each original PDF on the page.
 
 **Rule restated:** Never remove a single word again. Only ADD.
+
+### COMMAND 19 — Evidentiary email tab list restored above original tabs + today’s letter (28 September 2026)
+
+**User command:** Where is the list of evidentiary emails tab horizontal list? It’s been removed. Add this one of today’s date and embed all 20+ emails from the repositories under a tab named after each email subject line. Never redact. Only ADD. Include this tab list above original tab list.
+
+**Fix (ADD only):**
+- Horizontal evidentiary-email tab row placed **above** forensic reports and **above** the original tab list, with **full original subject lines** (no 220px clip).
+- Same list also on the landing/overview so it is visible without clicking Enter.
+- Today’s sent mail added as first tab: **Assassination and human sacrifice of disabled man** (28 Sep 2026, 1:09 pm) — original PDF + full extracted text, zero redaction.
+- Existing cc01–cc23 remain, each still carrying original PDF + extracted text.
+
+**Files:** `index.html`, `tabs/cc24.html`, `Assassination and human sacrifice of disabled man.pdf`
