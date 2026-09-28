@@ -8,43 +8,42 @@
 :root{--bg:#070b10;--panel:#0e151d;--panel2:#151f29;--ink:#eef3f7;--muted:#a9b4bf;--line:#293642;--accent:#f1c75b;--link:#8fc9ff}
 *{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}
 #landing{max-width:760px;margin:0 auto;padding:28px 16px 80px}
-#landing h1{font-size:clamp(1.8rem,6vw,2.6rem);line-height:1.15;margin:.2rem 0 .4rem}
+#landing h1{font-size:clamp(1.5rem,5vw,2.2rem);line-height:1.2;margin:.3rem 0}
 #landing .kicker{letter-spacing:.14em;font-size:.72rem;color:var(--accent);font-weight:800}
 #landing .sub{color:var(--muted);margin:0 0 1rem}
 #landing a{color:var(--link)}
-.enter{display:inline-block;margin-top:12px;padding:14px 28px;background:var(--accent);color:#070b10;border:0;border-radius:6px;font-weight:800;font-size:1rem;cursor:pointer;letter-spacing:.04em}
-.enter:hover{filter:brightness(1.08)}
+#landing p{margin:0 0 1rem}
+.enter{display:inline-block;margin-top:12px;padding:14px 28px;background:var(--accent);color:#070b10;border:0;border-radius:6px;font-weight:800;font-size:1rem;cursor:pointer}
 #archive[hidden],#landing[hidden]{display:none !important}
 #chrome{position:sticky;top:0;z-index:50;background:rgba(7,11,16,.98);border-bottom:1px solid var(--line)}
-#chrome header{padding:12px 16px 8px;max-width:1200px;margin:0 auto}
+#chrome header{padding:10px 16px 6px;max-width:1200px;margin:0 auto}
 .eyebrow{font-size:.72rem;letter-spacing:.12em;color:var(--accent);font-weight:700}
 .eyebrow a{color:var(--link);margin-left:10px;font-weight:600;letter-spacing:0;text-transform:none}
-#chrome h1{font-size:clamp(1.1rem,4vw,1.75rem);margin:4px 0 0;line-height:1.2}
+#chrome h1{font-size:clamp(1.05rem,3.5vw,1.55rem);margin:4px 0 0;line-height:1.2}
 .credit{margin:4px 0 0;font-size:.68rem;color:var(--muted)}
-.identity{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 0}
-.identity a{display:inline-block;text-decoration:none;color:var(--ink);border:1px solid var(--accent);padding:5px 10px;border-radius:999px;font-size:.78rem}
+.identity{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0}
+.identity a{display:inline-block;text-decoration:none;color:var(--ink);border:1px solid var(--accent);padding:4px 9px;border-radius:999px;font-size:.75rem}
 .identity a.on{background:var(--accent);color:#070b10;font-weight:700}
 .forensic-wrap{background:#0b0a08;border-bottom:1px solid #3a3328}
 .forensic-label{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#c9a36a;padding:8px 16px 0;font-weight:700}
 .tabs.forensic-tabs{border-top:0;background:#0b0a08}
-.tab.forensic-tab{border-radius:2px;border-color:#3f4c5a;background:#14110c;color:#e8e0d4;font-size:.78rem}
-.tab.forensic-tab .n{color:#c9a36a;font-weight:700;margin-right:.35em}
+.tab.forensic-tab{border-radius:2px;border-color:#3f4c5a;background:#14110c;color:#e8e0d4;font-size:.76rem}
+.tab.forensic-tab .n{color:#c9a36a;font-weight:700;margin-right:.3em}
 .tab.forensic-tab.active{background:#c9a36a;color:#0b0a08;border-color:#c9a36a}
-.tab.forensic-tab.active .n{color:#0b0a08}
 .sent-wrap{background:#0a0c10;border-bottom:1px solid #2a323c}
 .sent-label{font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:#8fc9ff;padding:8px 16px 0;font-weight:700}
 .tabs.sent-tabs{border-top:0;background:#0a0c10}
-.tab.sent-tab{border-radius:2px;border-color:#2a3a4a;background:#0e151d;color:#c5d4e0;font-size:.72rem;max-width:220px;overflow:hidden;text-overflow:ellipsis}
+.tab.sent-tab{border-radius:2px;border-color:#2a3a4a;background:#0e151d;color:#c5d4e0;font-size:.72rem;max-width:200px;overflow:hidden;text-overflow:ellipsis}
 .tab.sent-tab.active{background:#8fc9ff;color:#070b10;border-color:#8fc9ff}
-.tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:5px;padding:6px 12px 10px;border-top:1px solid var(--line)}
-.tab{flex:0 0 auto;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:7px 10px;border-radius:8px;white-space:nowrap;cursor:pointer;font:inherit;font-size:.82rem}
+.tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:4px;padding:6px 12px 10px;border-top:1px solid var(--line)}
+.tab{flex:0 0 auto;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:6px 9px;border-radius:8px;white-space:nowrap;cursor:pointer;font:inherit;font-size:.8rem}
 .tab.active{background:var(--panel2);border-color:var(--accent);color:var(--accent)}
-#content{max-width:1200px;margin:0 auto;padding:20px 16px 24px;min-height:50vh}
+#content{max-width:1200px;margin:0 auto;padding:18px 16px 24px;min-height:50vh}
 #content a{color:var(--link)}
 #content .src-root{display:block;color:var(--ink)}
-#colophon{border-top:1px solid var(--line);padding:18px 16px 40px;max-width:1200px;margin:0 auto;color:var(--muted);font-size:.82rem}
+#colophon{border-top:1px solid var(--line);padding:16px;max-width:1200px;margin:0 auto;color:var(--muted);font-size:.82rem}
 #colophon a{color:var(--link);margin-right:12px}
-#error,.error{color:#f88}
+.error{color:#f88}
 #open-source{font-size:.8rem;color:var(--muted);margin:0 0 12px}
 </style>
 </head>
@@ -52,30 +51,28 @@
 <div id="landing">
 <div class="kicker">PUBLIC DOCUMENTARY ARCHIVE</div>
 <h1>THE WITNESS REMAINS</h1>
-<p class="sub">Barran Dodger / Dr Richard William McLean. Finding aid · not a court · not a verdict.</p>
-<p class="sub"><a href="#cc01">Unanswered sent emails</a> · <a href="#gospels">Gospels</a> · <a href="#rejected-witness">Rejected Witness</a> · <a href="#the-mirror">The Mirror</a> · <a href="#master-evidence-register">Master Evidence Register</a> · <a href="#prophecy">Prophecy</a> · <a href="#crimes">Crimes</a> · <a href="#official">Official</a></p>
-
-<div style="margin:20px 0;padding:18px 16px;background:#0e151d;border:1px solid #293642;border-radius:6px;">
-<p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 12px;">WHAT THIS ARCHIVE IS</p>
-<p><strong>Barran Dodger</strong> is the public name used by <strong>Dr Richard William McLean</strong> — Australian writer, artist, researcher, documentarian, and self-described whistleblower and human-rights advocate.</p>
-<p>Through the Barran Dodger Archive and associated digital repositories, McLean has assembled government correspondence, legal and administrative records, research materials, personal testimony, creative works and other documentary material. The archive is designed not merely as autobiography, but as a <strong>public finding aid</strong> through which the underlying record can be examined.</p>
-<p>The defining feature of the work is not simply what is written. <strong>It is what is preserved.</strong></p>
-<p>For decades, McLean has accumulated correspondence, government records, legal documents, institutional responses, personal records, research materials and other evidence relating to events that he says fundamentally altered the course of his life.</p>
-<p><strong>Purpose:</strong> The archive is intended to provide readers with access to the underlying record. Its purpose is not to require belief. <em>It is to make examination possible.</em></p>
-<p>A testimony is testimony. A document is a document. An allegation is an allegation. A finding requires evidence and proper determination.</p>
-<p style="margin:0;"><em>Preserve the evidence. Preserve the testimony. Make the record public. Let the evidence be examined.</em></p>
-</div>
+<p class="sub">Barran Dodger / Dr Richard William McLean. This page is the overview. The full record is one step in — every section, already written, no loader.</p>
+<p class="kicker">FINDING AID · NOT A COURT · NOT A VERDICT</p>
+<p class="sub"><a href="#gospels">Gospels</a> · <a href="#prophecy">Prophecy</a> · <a href="#crimes">Crimes</a> · <a href="#official">Official</a> · <a href="#cc01">Sent emails</a> · <a href="#rejected-witness">Rejected Witness</a></p>
 
 <div style="background:#120e08;border:1px solid #c4452f;border-left:5px solid #f1c75b;padding:16px 18px;margin:18px 0;">
 <p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">PROPHETIC CORROBORATION — 28 SEPTEMBER 2026</p>
 <p style="margin:0 0 10px;color:#f3efe6;"><strong>Chosen one.</strong> Today's date: 28 September 2026. This video corroborates identity as a chosen one. My enemies tried to break me because acknowledging my testimony is humiliating for their professional life and cowardice for accepting money to entrap and harm me all the while feigning ignorance or non-awareness of my situation as a deceitful lie.</p>
 <div style="position:relative;width:100%;aspect-ratio:16/9;background:#000;overflow:hidden;border:1px solid #2a323c;margin:12px 0;">
-<iframe src="https://www.youtube.com/embed/YaD0Y5HWS6k" title="Chosen Ones — Get READY to Silence Every Enemy FOREVER" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+<iframe src="https://www.youtube.com/embed/YaD0Y5HWS6k" title="Chosen Ones" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
 </div>
-<p style="margin:8px 0 0;font-size:.9rem;"><a href="https://youtu.be/YaD0Y5HWS6k" style="color:#8fc9ff;">https://youtu.be/YaD0Y5HWS6k</a> · <a href="https://www.youtube.com/watch?v=YaD0Y5HWS6k" style="color:#8fc9ff;">youtube.com/watch?v=YaD0Y5HWS6k</a></p>
+<p style="margin:8px 0 0;font-size:.9rem;"><a href="https://youtu.be/YaD0Y5HWS6k" style="color:#8fc9ff;">https://youtu.be/YaD0Y5HWS6k</a></p>
 </div>
 
-<p class="sub">Independent tabs in order of importance: The Rejected Witness; The Mirror; Master Evidence Register. Entire source text in each tab.</p>
+<h1>About the Archive</h1>
+<p class="sub">Barran Dodger Archive — public documentary record</p>
+<p>Through the Barran Dodger Archive and associated digital repositories, McLean has assembled government correspondence, legal and administrative records, research materials, personal testimony, creative works and other documentary material. The archive is designed not merely as autobiography, but as a public finding aid through which the underlying record can be examined.</p>
+<p>The defining feature of the work is not simply what is written. It is what is preserved.</p>
+<p>For decades, McLean has accumulated correspondence, government records, legal documents, institutional responses, personal records, research materials and other evidence relating to events that he says fundamentally altered the course of his life. Rather than allowing that material to remain dispersed across agencies, proceedings, correspondence chains and private files, he has sought to bring it together into a searchable and publicly accessible documentary archive.</p>
+<p><strong>Purpose:</strong> provide readers with access to the underlying record. Not to require belief. To make examination possible.</p>
+<p>A testimony is testimony. A document is a document. An allegation is an allegation. A finding requires evidence and proper determination.</p>
+<p><em>Preserve the evidence. Preserve the testimony. Make the record public. Let the evidence be examined.</em></p>
+
 <button type="button" class="enter" id="enter">ENTER THE RECORD</button>
 </div>
 
@@ -84,8 +81,14 @@
 <header>
 <div class="eyebrow">PUBLIC DOCUMENTARY ARCHIVE <a href="#archive-about" id="overview">Overview</a></div>
 <h1>THE WITNESS REMAINS</h1>
-<p class="credit"><a href="#gospels" style="color:var(--link)">Gospels</a> · <a href="#rejected-witness" style="color:var(--link)">Rejected Witness</a> · <a href="#the-mirror" style="color:var(--link)">The Mirror</a> · <a href="#master-evidence-register" style="color:var(--link)">Register</a></p>
-<nav class="identity" id="identity"><a href="#bio" data-page="bio">About the Author</a><a href="#archive-about" data-page="archive-about">About the Archive</a><a href="#sources" data-page="sources">Sources</a></nav>
+<p class="credit"><a href="#gospels" style="color:var(--link)">Gospels</a> · <a href="#rejected-witness" style="color:var(--link)">Rejected Witness</a> · <a href="#the-mirror" style="color:var(--link)">The Mirror</a> · <a href="#master-evidence-register" style="color:var(--link)">Register</a> · <a href="#crimes" style="color:var(--link)">Crimes</a></p>
+<nav class="identity" id="identity">
+<a href="#bio" data-page="bio">About the Author</a>
+<a href="#archive-about" data-page="archive-about">About the Archive</a>
+<a href="#sources" data-page="sources">Sources</a>
+<a href="#who" data-page="who">Who</a>
+<a href="#timeline" data-page="timeline">Timeline</a>
+</nav>
 </header>
 
 <div class="forensic-wrap"><div class="forensic-label">Forensic reports</div>
@@ -103,59 +106,85 @@
 </nav></div>
 
 <div class="sent-wrap"><div class="sent-label">Sent emails — original PDFs — no reply on file</div>
-<nav class="tabs sent-tabs" id="sent-tabs" aria-label="Sent emails with no reply on file">
-<button type="button" class="tab sent-tab" data-page="cc01" title="Estate attorney and sibling betrayal">Estate attorney and sibling betrayal</button>
-<button type="button" class="tab sent-tab" data-page="cc02" title="Ndis attempted murder">Ndis attempted murder</button>
-<button type="button" class="tab sent-tab" data-page="cc03" title="Cowards">Cowards</button>
-<button type="button" class="tab sent-tab" data-page="cc04" title="Brett from able point I demand a response">Brett from able point I demand a response</button>
-<button type="button" class="tab sent-tab" data-page="cc05" title="Current legally binding update on entrapment">Current legally binding update on entrapment</button>
-<button type="button" class="tab sent-tab" data-page="cc06" title="Gods reckoning">Gods reckoning</button>
-<button type="button" class="tab sent-tab" data-page="cc07" title="Gods vengeance for cowardly criminal conspiracy">Gods vengeance for cowardly criminal conspiracy</button>
-<button type="button" class="tab sent-tab" data-page="cc08" title="I want to say sorry">I want to say sorry</button>
-<button type="button" class="tab sent-tab" data-page="cc09" title="Submission of Forensic Evidence Corpus">Submission of Forensic Evidence Corpus</button>
-<button type="button" class="tab sent-tab" data-page="cc10" title="Cruel degrading treatment">Cruel degrading treatment</button>
-<button type="button" class="tab sent-tab" data-page="cc11" title="FORMAL REQUEST FOR INDEPENDENT INVESTIGATION ABLEPOINT">FORMAL REQUEST FOR INDEPENDENT INVESTIGATION ABLEPOINT</button>
-<button type="button" class="tab sent-tab" data-page="cc12" title="Starting a revolution.">Starting a revolution.</button>
-<button type="button" class="tab sent-tab" data-page="cc13" title="DEMAND FOR ACCOUNTABILITY">DEMAND FOR ACCOUNTABILITY</button>
-<button type="button" class="tab sent-tab" data-page="cc14" title="ACCOUNTABILITY, EVIDENCE AND FAIR DETERMINATION">ACCOUNTABILITY, EVIDENCE AND FAIR DETERMINATION</button>
-<button type="button" class="tab sent-tab" data-page="cc15" title="Statement to Cass">Statement to Cass</button>
-<button type="button" class="tab sent-tab" data-page="cc16" title="Notice of entrapment">Notice of entrapment</button>
-<button type="button" class="tab sent-tab" data-page="cc17" title="Legal notice">Legal notice</button>
-<button type="button" class="tab sent-tab" data-page="cc18" title="Further notice">Further notice</button>
-<button type="button" class="tab sent-tab" data-page="cc19" title="Record of non-response">Record of non-response</button>
-<button type="button" class="tab sent-tab" data-page="cc20" title="Sent correspondence">Sent correspondence</button>
-<button type="button" class="tab sent-tab" data-page="cc21" title="Sent 21">Sent 21</button>
-<button type="button" class="tab sent-tab" data-page="cc22" title="Sent 22">Sent 22</button>
-<button type="button" class="tab sent-tab" data-page="cc23" title="Sent 23">Sent 23</button>
+<nav class="tabs sent-tabs" id="sent-tabs" aria-label="Sent emails">
+<button type="button" class="tab sent-tab" data-page="cc01">Estate attorney and sibling betrayal</button>
+<button type="button" class="tab sent-tab" data-page="cc02">Ndis attempted murder</button>
+<button type="button" class="tab sent-tab" data-page="cc03">Cowards</button>
+<button type="button" class="tab sent-tab" data-page="cc04">Brett from able point</button>
+<button type="button" class="tab sent-tab" data-page="cc05">Legally binding update Able Point</button>
+<button type="button" class="tab sent-tab" data-page="cc06">Gods reckoning</button>
+<button type="button" class="tab sent-tab" data-page="cc07">Gods vengeance</button>
+<button type="button" class="tab sent-tab" data-page="cc08">I want to say sorry</button>
+<button type="button" class="tab sent-tab" data-page="cc09">Submission of Forensic Evidence Corpus</button>
+<button type="button" class="tab sent-tab" data-page="cc10">Cruel degrading treatment</button>
+<button type="button" class="tab sent-tab" data-page="cc11">FORMAL REQUEST INVESTIGATION ABLEPOINT</button>
+<button type="button" class="tab sent-tab" data-page="cc12">Starting a revolution</button>
+<button type="button" class="tab sent-tab" data-page="cc13">DEMAND FOR ACCOUNTABILITY</button>
+<button type="button" class="tab sent-tab" data-page="cc14">ACCOUNTABILITY EVIDENCE FAIR DETERMINATION</button>
+<button type="button" class="tab sent-tab" data-page="cc15">Statement to Cass</button>
+<button type="button" class="tab sent-tab" data-page="cc16">Notice of entrapment</button>
+<button type="button" class="tab sent-tab" data-page="cc17">Legal notice</button>
+<button type="button" class="tab sent-tab" data-page="cc18">Further notice</button>
+<button type="button" class="tab sent-tab" data-page="cc19">Record of non-response</button>
+<button type="button" class="tab sent-tab" data-page="cc20">Sent correspondence</button>
+<button type="button" class="tab sent-tab" data-page="cc21">Sent 21</button>
+<button type="button" class="tab sent-tab" data-page="cc22">Sent 22</button>
+<button type="button" class="tab sent-tab" data-page="cc23">Sent 23</button>
 </nav></div>
 
 <nav class="tabs" id="tabs" aria-label="Archive sections">
 <button type="button" class="tab" data-page="home">Home</button>
-<button type="button" class="tab" data-page="crimes">Crimes</button>
-<button type="button" class="tab" data-page="gospels">Gospels</button>
 <button type="button" class="tab" data-page="rejected-witness">The Rejected Witness</button>
 <button type="button" class="tab" data-page="the-mirror">The Mirror</button>
 <button type="button" class="tab" data-page="master-evidence-register">Master Evidence Register</button>
-<button type="button" class="tab" data-page="prophecy">Prophecy</button>
-<button type="button" class="tab" data-page="god">God Exists</button>
 <button type="button" class="tab" data-page="devil-is-a-liar">The Devil Is a Liar</button>
-<button type="button" class="tab" data-page="soul">No One Has the Right to Destroy a Soul</button>
-<button type="button" class="tab" data-page="forensic-evidence-index">Forensic Evidence Index</button>
-<button type="button" class="tab" data-page="official">Official Government Documents</button>
-<button type="button" class="tab" data-page="witness">The Witness Remains</button>
-<button type="button" class="tab" data-page="legal-brief">Legal Brief</button>
 <button type="button" class="tab" data-page="digital-apocalypse">Digital Apocalypse</button>
 <button type="button" class="tab" data-page="final-record">Final Record</button>
 <button type="button" class="tab" data-page="record-of-alleged-harm">Record of Harm</button>
-<button type="button" class="tab" data-page="personal-statement-exile">Personal Statement</button>
+<button type="button" class="tab" data-page="crimes">Crimes</button>
+<button type="button" class="tab" data-page="gospels">Gospels</button>
+<button type="button" class="tab" data-page="prophecy">Prophecy</button>
+<button type="button" class="tab" data-page="god">God Exists</button>
+<button type="button" class="tab" data-page="soul">No One Has the Right to Destroy a Soul</button>
+<button type="button" class="tab" data-page="witness">The Witness Remains</button>
+<button type="button" class="tab" data-page="forensic-evidence-index">Forensic Evidence Index</button>
+<button type="button" class="tab" data-page="official">Official Government Documents</button>
+<button type="button" class="tab" data-page="legal-brief">Legal Brief</button>
+<button type="button" class="tab" data-page="personal-statement-exile">Personal Statement of Exile</button>
 <button type="button" class="tab" data-page="who">Who</button>
-<button type="button" class="tab" data-page="techniques">Techniques</button>
+<button type="button" class="tab" data-page="timeline">Timeline</button>
 <button type="button" class="tab" data-page="manifesto">Manifesto</button>
+<button type="button" class="tab" data-page="pids">PIDs</button>
+<button type="button" class="tab" data-page="paradox">Paradox of My Worth</button>
+<button type="button" class="tab" data-page="conditions">Conditions of Exile</button>
+<button type="button" class="tab" data-page="able-point">Able Point</button>
+<button type="button" class="tab" data-page="why-not-ignore">Why Not Ignore</button>
+<button type="button" class="tab" data-page="family-complicity">Family Complicity</button>
+<button type="button" class="tab" data-page="family-notice">Family Notice</button>
+<button type="button" class="tab" data-page="good-bits">The Good Bits</button>
+<button type="button" class="tab" data-page="tv-recording">TV Wi-Fi Audio</button>
+<button type="button" class="tab" data-page="record-essay">Record That Refused to Disappear</button>
+<button type="button" class="tab" data-page="ahrc-letter">AHRC Letter</button>
+<button type="button" class="tab" data-page="named-evidence">Named Institutions</button>
+<button type="button" class="tab" data-page="techniques">Techniques</button>
+<button type="button" class="tab" data-page="primary">Primary Sources</button>
+<button type="button" class="tab" data-page="documents">Documents</button>
+<button type="button" class="tab" data-page="legal">Legal</button>
+<button type="button" class="tab" data-page="fedcourt">Federal Court DSS</button>
+<button type="button" class="tab" data-page="ndis">NDIS</button>
+<button type="button" class="tab" data-page="ombudsman">Ombudsman</button>
+<button type="button" class="tab" data-page="legalaid">Legal Aid</button>
+<button type="button" class="tab" data-page="declarations">Declarations</button>
+<button type="button" class="tab" data-page="police-statement">Police / Exhibits</button>
+<button type="button" class="tab" data-page="bio">Bio</button>
+<button type="button" class="tab" data-page="sources">Sources</button>
 </nav>
 </div>
 <main id="content" aria-live="polite"></main>
 <div id="colophon"><strong>Public documentary archive.</strong> Finding aid. Not a court. Not a verdict.
-<p style="margin:.6rem 0 0"><a href="#gospels">Gospels</a><a href="#rejected-witness">Rejected Witness</a><a href="#the-mirror">The Mirror</a><a href="#master-evidence-register">Register</a></p></div>
+<a href="https://github.com/wezzo72/Barrandodger">GitHub</a>
+<a href="https://wezzo72.github.io/Barrandodger/">Mirror</a>
+</div>
 </div>
 
 <script>
@@ -164,27 +193,37 @@
   "r01":"tabs/r01-master-evidence.html","r02":"tabs/r02-chronology.html","r03":"tabs/r03-architecture.html","r04":"tabs/r04-institutional-map.html","r05":"tabs/r05-contradictions.html","r06":"tabs/r06-whistleblower.html","r07":"tabs/r07-human-rights.html","r08":"tabs/r08-financial.html","r09":"tabs/r09-allegations.html","r10":"tabs/r10-repository.html",
   "cc01":"tabs/cc01.html","cc02":"tabs/cc02.html","cc03":"tabs/cc03.html","cc04":"tabs/cc04.html","cc05":"tabs/cc05.html","cc06":"tabs/cc06.html","cc07":"tabs/cc07.html","cc08":"tabs/cc08.html","cc09":"tabs/cc09.html","cc10":"tabs/cc10.html","cc11":"tabs/cc11.html","cc12":"tabs/cc12.html","cc13":"tabs/cc13.html","cc14":"tabs/cc14.html","cc15":"tabs/cc15.html","cc16":"tabs/cc16.html","cc17":"tabs/cc17.html","cc18":"tabs/cc18.html","cc19":"tabs/cc19.html","cc20":"tabs/cc20.html","cc21":"tabs/cc21.html","cc22":"tabs/cc22.html","cc23":"tabs/cc23.html",
   "home":"tabs/home.html","bio":"tabs/bio.html","archive-about":"tabs/about-archive.html",
-  "crimes":"tabs/crimes.html","gospels":"gospels-prophetic.html",
-  "rejected-witness":"tabs/the-rejected-witness.html",
-  "the-mirror":"tabs/the-mirror.html",
-  "master-evidence-register":"tabs/master-evidence-register.html",
-  "prophecy":"tabs/prophecy.html","god":"tabs/god.html","devil-is-a-liar":"tabs/the-devil-is-a-liar.html","soul":"tabs/soul.html",
-  "forensic-evidence-index":"tabs/forensic-evidence-index.html","official":"official.html",
-  "witness":"tabs/witness.html","legal-brief":"legal-brief.html","sources":"SOURCES.html",
+  "crimes":"tabs/crimes.html","gospels":"gospels-prophetic.html","prophecy":"tabs/prophecy.html",
+  "god":"tabs/god.html","soul":"tabs/soul.html","chosen":"tabs/witness.html",
+  "forensic-evidence-index":"tabs/forensic-evidence-index.html",
+  "why-not-ignore":"tabs/why-not-ignore.html","family-complicity":"tabs/family-complicity.html",
+  "manifesto":"tabs/manifesto.html","pids":"tabs/pids-all.html","legal-brief":"legal-brief.html",
+  "personal-statement-exile":"tabs/personal-statement-exile.html","paradox":"tabs/paradox-of-my-worth.html",
+  "conditions":"tabs/conditions-exile-werribee-2021.html","witness":"tabs/witness.html",
+  "able-point":"tabs/able-point-exile.html","who":"tabs/who.html","timeline":"tabs/timeline.html",
+  "official":"official.html","declarations":"tabs/pids.html",
+  "legal-affidavits":"documents.html","police-statement":"tabs/exhibits.html","good-bits":"tabs/the-good-bits.html",
+  "tv-recording":"tabs/tv-wifi-audio.html","record-essay":"tabs/record-that-refused-to-disappear.html",
+  "ahrc-letter":"tabs/ahrc-4jul2023.html","family-notice":"tabs/family-notice.html","documents":"documents.html",
+  "primary":"tabs/sources.html","named-evidence":"tabs/named-institutions.html","video-exhibit":"tabs/tv-wifi-audio.html",
+  "legal":"legal-brief.html","fedcourt":"tabs/n03-federal-court-dss-comcare.html","ndis":"tabs/able-point-exile.html",
+  "ombudsman":"tabs/n02-pids-recorded-outcomes.html","legalaid":"tabs/exhibits.html",
+  "sources":"tabs/sources.html","techniques":"tabs/techniques.html",
+  "rejected-witness":"tabs/the-rejected-witness.html","the-mirror":"tabs/the-mirror.html",
+  "master-evidence-register":"tabs/master-evidence-register.html","devil-is-a-liar":"tabs/the-devil-is-a-liar.html",
   "digital-apocalypse":"tabs/digital-apocalypse.html","final-record":"tabs/final-record.html",
-  "record-of-alleged-harm":"tabs/record-of-alleged-harm.html","personal-statement-exile":"tabs/personal-statement-exile.html",
-  "who":"tabs/who.html","techniques":"tabs/techniques.html","manifesto":"tabs/manifesto.html","apocalypse":"tabs/digital-apocalypse.html"
+  "record-of-alleged-harm":"tabs/record-of-alleged-harm.html","apocalypse":"tabs/digital-apocalypse.html"
   };
   var tabsEl=document.getElementById('tabs'), identityEl=document.getElementById('identity'), content=document.getElementById('content'), cache={}, req=0;
   function setActive(id){
     document.querySelectorAll('#tabs button, #forensic-tabs button, #sent-tabs button').forEach(function(b){var on=b.getAttribute('data-page')===id;b.classList.toggle('active',on);b.setAttribute('aria-selected',on?'true':'false');});
-    identityEl.querySelectorAll('a').forEach(function(a){a.classList.toggle('on',a.getAttribute('data-page')===id);});
+    if(identityEl) identityEl.querySelectorAll('a').forEach(function(a){a.classList.toggle('on',a.getAttribute('data-page')===id);});
   }
   function extractBody(html){var m=html.match(/<body[^>]*>([\s\S]*)<\/body>/i);var inner=m?m[1]:html;return inner.replace(/<script[\s\S]*?<\/script>/gi,'');}
   function showLanding(){req++;document.getElementById('landing').hidden=false;document.getElementById('archive').hidden=true;setActive('archive-about');history.replaceState(null,'',location.pathname+location.search);window.scrollTo(0,0);}
   async function show(id){
     if(id==='archive-about'||id==='about'){showLanding();return;}
-    var href=ROUTES[id];if(!href)return;var my=++req;
+    var href=ROUTES[id];if(!href){content.innerHTML='<p class="error">No route for '+id+'</p>';return;}var my=++req;
     try{
       var html=cache[href];if(!html){var res=await fetch(href,{cache:'no-cache'});if(!res.ok)throw new Error(res.status);html=await res.text();if(my!==req)return;cache[href]=html;}
       if(my!==req)return;
@@ -196,8 +235,9 @@
   document.getElementById('enter').addEventListener('click',function(){show('home');});
   tabsEl.addEventListener('click',function(e){var b=e.target.closest('button[data-page]');if(b)show(b.getAttribute('data-page'));});
   document.getElementById('forensic-tabs').addEventListener('click',function(e){var b=e.target.closest('button[data-page]');if(b)show(b.getAttribute('data-page'));});
-  document.getElementById('sent-tabs').addEventListener('click',function(e){var b=e.target.closest('button[data-page]');if(b)show(b.getAttribute('data-page'));});
-  identityEl.addEventListener('click',function(e){var a=e.target.closest('a[data-page]');if(a){e.preventDefault();show(a.getAttribute('data-page'));}});
+  var sentEl=document.getElementById('sent-tabs');
+  if(sentEl) sentEl.addEventListener('click',function(e){var b=e.target.closest('button[data-page]');if(b)show(b.getAttribute('data-page'));});
+  if(identityEl) identityEl.addEventListener('click',function(e){var a=e.target.closest('a[data-page]');if(a){e.preventDefault();show(a.getAttribute('data-page'));}});
   document.getElementById('overview').addEventListener('click',function(e){e.preventDefault();showLanding();});
   window.addEventListener('hashchange',route);
   route();
