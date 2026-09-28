@@ -144,3 +144,16 @@ Site: Barran Dodger Archive — public documentary finding aid. Not a court. Not
 - Existing cc01–cc23 remain, each still carrying original PDF + extracted text.
 
 **Files:** `index.html`, `tabs/cc24.html`, `Assassination and human sacrifice of disabled man.pdf`
+
+### COMMAND 20 — God Exists full text restored; redaction script deleted (28 September 2026)
+
+**User command:** God Exists text missing at #god. Reinstate all text in each tab from original PDFs in the source repositories. Do this for every tab with redacted text. Never summarise or use a placeholder. Delete any script that redacts presently.
+
+**Fix (original words only — no summary):**
+- `tabs/god.html` — placeholder removed. Full text of *God exists by Barran Dodger and he can save you too* (Drive original PDF, SHA256 d71cf22bc67849088eb1211e65ed69dfc8242211855d11786091cacb0f587238) placed on the tab in full.
+- Same tab also carries the complete extracted text of `144-reasons-chosen-witness.pdf` and `Dr-McLean-Wrote-Directly-to-God-Barran-Dodger.pdf`, the repository PDFs previously cited instead of the text.
+- Source copies: `docs/source-texts/GOD-EXISTS-BY-BARRAN-DODGER.txt` and the two companion extracts.
+- Paper tabs and short document tabs that only linked a PDF now also carry the full extracted PDF text on the page.
+- `tab-fix.js` no longer removes any tab. It cannot redact.
+
+**Rule restated:** Never remove a single word again. Only ADD. No placeholder in place of source text.
