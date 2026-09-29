@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,7 +52,7 @@ a.tab.sent-tab{text-decoration:none}
 <div class="kicker">PUBLIC DOCUMENTARY ARCHIVE</div>
 <div style="background:#160e0c;border:1px solid #c4452f;border-left:5px solid #f1c75b;padding:14px 16px;margin:14px 0 18px;">
 <p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">ADDED 29 SEPTEMBER 2026</p>
-<p style="margin:0;"><a href="BARRAN%20DODGER%20%26%20HIS%20THERAPY%20DOG%20NEEDS%20YOUR%20URGENT%20HELP%20.pdf" target="_blank" rel="noopener">BARRAN DODGER & HIS THERAPY DOG NEEDS YOUR URGENT HELP.pdf</a></p>
+<p style="margin:0;"><a href="BARRAN-DODGER-HIS-THERAPY-DOG-NEEDS-YOUR-URGENT-HELP.pdf" target="_blank" rel="noopener">BARRAN DODGER & HIS THERAPY DOG NEEDS YOUR URGENT HELP.pdf</a></p>
 </div>
 <h1>THE WITNESS REMAINS</h1>
 <p class="sub">Barran Dodger / Dr Richard William McLean. This page is the overview. The full record is one step in — every section, already written, no loader.</p>
@@ -261,7 +262,7 @@ This introduction does not convert archive assertions into judicial findings.</p
     document.querySelectorAll('#tabs button, #forensic-tabs button, #sent-tabs button').forEach(function(b){b.classList.toggle('active',b.getAttribute('data-page')===id);});
     if(identityEl) identityEl.querySelectorAll('a').forEach(function(a){a.classList.toggle('on',a.getAttribute('data-page')===id);});
   }
-  function esc(s){return String(s).replace(/&/g,'&').replace(/</g,'<').replace(/>/g,'>');}
+  function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
   function renderReport(id, text){
     var m=REPORT_META[id]||['??','Forensic Report',''];
     var n=m[0], title=m[1], cmd=m[2];
@@ -312,3 +313,8 @@ This introduction does not convert archive assertions into judicial findings.</p
 </script>
 </body>
 </html>
+```
+
+Sources
+[1] BARRAN-DODGER-HIS-THERAPY-DOG-NEEDS-YOUR-URGENT-HELP.pdf https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/2171435419/fe5fd75c-cae4-440c-bbdb-a7550e7aebee/BARRAN-DODGER-HIS-THERAPY-DOG-NEEDS-YOUR-URGENT-HELP.pdf
+[2] pasted_text_1790659904.txt https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/2171435419/789c4227-f8e4-447d-96e2-ea12c342a666/pasted_text_1790659904.txt
