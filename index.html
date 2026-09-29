@@ -291,7 +291,7 @@ This introduction does not convert archive assertions into judicial findings.</p
     var href=ROUTES[id];if(!href){content.innerHTML='<p class="error">No route for '+id+'</p>';return;}var my=++req;
     try{
       var html=cache[href];if(!html){var res=await fetch(href,{cache:'no-cache',mode:'cors'});if(!res.ok)throw new Error(res.status);html=await res.text();if(my!==req)return;cache[href]=html;}
-      if(my!==req)return;
+ s     if(my!==req)return;
       if(/^r\d{2}$/.test(id)){content.innerHTML=renderReport(id, html);}else{content.innerHTML='<div class="src-root">'+extractBody(html)+'</div>';}
       document.getElementById('landing').hidden=true;document.getElementById('archive').hidden=false;setActive(id);history.replaceState(null,'','#'+id);window.scrollTo(0,0);
     }catch(e){if(my!==req)return;document.getElementById('landing').hidden=true;document.getElementById('archive').hidden=false;content.innerHTML='<p class="error">Could not load.</p><p><a href="'+href+'">Open → '+href+'</a></p>';setActive(id);}k
@@ -307,6 +307,9 @@ This introduction does not convert archive assertions into judicial findings.</p
   route();
 })();
 </script>
+  <p><a href="THE-WITNESS-REMAINS-Barran-Dodger-Archive.pdf" target="_blank" rel="noopener">READ THE WITNESS REMAINS — Barran Dodger Archive (PDF)</a></p>
+
+
   <p><a href="BARRAN-DODGER-HIS-THERAPY-DOG-NEEDS-YOUR-URGENT-HELP.pdf" target="_blank">READ THE URGENT DOCUMENT: Barran, Dodger &amp; His Therapy Dog Needs Your Urgent Help (PDF)</a></p>
 
 </body>
