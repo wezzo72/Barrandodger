@@ -262,7 +262,7 @@ This introduction does not convert archive assertions into judicial findings.</p
 
     "home":"tabs/home.html",
     "justice-mandate":"tabs/justice-mandate.html",
-    "barran-help":"BARRAN-DODGER-HIS-THERAPY-DOG-NEEDS-YOUR-URGENT-HELP.pdf",
+    "barran-help":"tabs/barran-help.html",
     "bio":"tabs/bio.html",
     "archive-about":"tabs/about-archive.html",
     "sources":"tabs/sources.html",
@@ -395,28 +395,6 @@ This introduction does not convert archive assertions into judicial findings.</p
     }
 
     var current=++req;
-
-    // Special handling for the PDF tab: always open directly, no fetch
-    if(href==="BARRAN-DODGER-HIS-THERAPY-DOG-NEEDS-YOUR-URGENT-HELP.pdf"){
-      document.getElementById("landing").hidden=true;
-      document.getElementById("archive").hidden=false;
-      setActive(id);
-      history.replaceState(null,"","#"+id);
-
-      // Build a simple page that links to and embeds the PDF
-      var pdfUrl=href;
-
-      content.innerHTML=
-        '<div class="src-root">'+
-        '<h1 style="font-family:system-ui,sans-serif;font-size:1.55rem;color:#f3eee4;margin:.2rem 0 .35rem">Barran Dodger &amp; His Therapy Dog Needs Your Urgent Help</h1>'+
-        '<p style="color:#a9a090;font-family:system-ui,sans-serif;font-size:.95rem;margin:0 0 1rem">This tab displays the PDF. If it does not appear below, use the direct link.</p>'+
-        '<p style="margin:0 0 1rem"><a href="'+pdfUrl+'" target="_blank" rel="noopener" style="color:#8fc9ff">Open BARRAN-DODGER-HIS-THERAPY-DOG-NEEDS-YOUR-URGENT-HELP.pdf in a new window</a></p>'+
-        '<iframe src="'+pdfUrl+'" title="Barran Dodger and His Therapy Dog Needs Your Urgent Help" style="width:100%;height:80vh;border:1px solid #3f4c5a;background:#fff"></iframe>'+
-        '</div>';
-
-      window.scrollTo(0,0);
-      return;
-    }
 
     try{
       var html=cache[href];
