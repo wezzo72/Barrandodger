@@ -1,0 +1,3 @@
+560 URLs crawled 2026-09-30. Full list generated from sitemaps + 660-row index.
+See EMERGENCY_MIRROR.md. Homepage https://barrandodger.com/ HTTP 200.
+Only failure: https://barrandodger.com/evidence HTTP 404.
