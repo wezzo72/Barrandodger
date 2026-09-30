@@ -4,31 +4,89 @@ on:
 jobs:
   ingest:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Download live site assets
+      - name: Fetch JS bundle and every listed page
         run: |
           set -euo pipefail
-          mkdir -p site-mirror/assets site-mirror/html
+          mkdir -p site-mirror/assets site-mirror/html site-mirror/inventories
           curl -L --fail --retry 3 -o site-mirror/assets/index-Bk4DJqLv.js \
             https://barrandodger.com/assets/index-Bk4DJqLv.js
           sha256sum site-mirror/assets/index-Bk4DJqLv.js | tee site-mirror/assets/SHA256.txt
-          ls -lh site-mirror/assets/index-Bk4DJqLv.js
-          curl -L --fail -o site-mirror/html/index.html https://barrandodger.com/
-          curl -L --fail -o site-mirror/html/start-here.html https://barrandodger.com/start-here || true
-          curl -L --fail -o site-mirror/html/donate.html https://barrandodger.com/donate || true
-          curl -L --fail -o site-mirror/html/gospel.html https://barrandodger.com/gospel || true
-          curl -L --fail -o site-mirror/html/archive.html https://barrandodger.com/archive || true
-      - name: Commit into repository
+          python3 << 'PY'
+          import json, re, time, urllib.request, urllib.parse
+          from pathlib import Path
+          ORIGIN = 'https://barrandodger.com'
+          OUT = Path('site-mirror/html')
+          INV = Path('site-mirror/inventories')
+          UA = 'BarranDodgerPreserve/1.0 GitHubAction'
+          urls = set()
+          for sm in ['sitemap-news.xml','sitemap-main.xml','sitemap-forensic.xml','sitemap-publications.xml','sitemap-gospel.xml','sitemap-pages.xml']:
+              try:
+                  req = urllib.request.Request(ORIGIN+'/'+sm, headers={'User-Agent': UA})
+                  body = urllib.request.urlopen(req, timeout=30).read().decode('utf-8','replace')
+                  for loc in re.findall(r'<loc>\s*([^<]+)', body):
+                      loc = loc.strip().split('#')[0]
+                      if 'barrandodger.com' in loc:
+                          urls.add(loc)
+              except Exception as e:
+                  print('sitemap fail', sm, e)
+          idx = Path('site-mirror/SITE_INDEX_660.txt')
+          if idx.exists():
+              for line in idx.read_text().splitlines():
+                  line = line.strip()
+                  if line.startswith('/'):
+                      urls.add(ORIGIN + line)
+                  elif line.startswith('http'):
+                      urls.add(line)
+          urls.add(ORIGIN + '/')
+          clean = []
+          for u in sorted(urls):
+              path = urllib.parse.urlparse(u).path
+              clean.append(u)
+          print('URLS', len(clean))
+          def slug(url):
+              path = urllib.parse.urlparse(url).path.strip('/') or 'index'
+              return path.replace('/', '__') + '.html'
+          rows = []
+          ok = fail = 0
+          for i, url in enumerate(clean, 1):
+              dest = OUT / slug(url)
+              dest.parent.mkdir(parents=True, exist_ok=True)
+              req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': 'text/html'})
+              try:
+                  with urllib.request.urlopen(req, timeout=45) as r:
+                      data = r.read(); code = r.status
+              except urllib.error.HTTPError as e:
+                  data = e.read() if e.fp else b''; code = e.code
+              except Exception as e:
+                  rows.append({'url': url, 'status': 0, 'bytes': 0, 'error': str(e)})
+                  fail += 1
+                  continue
+              dest.write_bytes(data)
+              rows.append({'url': url, 'status': code, 'bytes': len(data), 'file': str(dest)})
+              if 200 <= code < 400: ok += 1
+              else: fail += 1
+              if i % 50 == 0:
+                  print(f'progress {i}/{len(clean)} ok={ok} fail={fail}', flush=True)
+              time.sleep(0.15)
+          INV.mkdir(parents=True, exist_ok=True)
+          INV.joinpath('pages.jsonl').write_text('\n'.join(json.dumps(r) for r in rows) + '\n')
+          summary = f'captured={ok} failed={fail} total={len(clean)}\n'
+          INV.joinpath('CAPTURE.txt').write_text(summary)
+          print(summary)
+          PY
+      - name: Commit snapshots
         run: |
           git config user.name "wezzo72"
           git config user.email "wezzo72@users.noreply.github.com"
-          git add site-mirror/assets site-mirror/html
+          git add site-mirror
           git diff --cached --quiet && echo "no changes" && exit 0
-          git commit -m "Ingest barrandodger.com JS bundle and key HTML (emergency preserve)"
+          git commit -m "Ingest every listed barrandodger.com page HTML plus JS bundle"
           git pull --rebase origin main
           git push
