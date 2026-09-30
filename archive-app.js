@@ -19,6 +19,7 @@
   "legal-brief": "legal-brief.html",
   "personal-statement-exile": "tabs/personal-statement-exile.html",
   "witness": "tabs/witness.html",
+  "the-witness-remains": "tabs/the-witness-remains.html",
   "able-point": "tabs/able-point-exile.html",
   "official": "official.html",
   "evidence": "evidence/allegation-matrix.html",
@@ -28,6 +29,31 @@
   var identityEl = document.getElementById('identity');
   var content = document.getElementById('content');
   var cache = {};
+  function injectWitnessTab(){
+    if(identityEl && !identityEl.querySelector('[data-page="the-witness-remains"]')){
+      var a = document.createElement('a');
+      a.href = '#the-witness-remains';
+      a.setAttribute('data-page', 'the-witness-remains');
+      a.textContent = 'THE WITNESS REMAINS · 30 Sep 2026';
+      identityEl.insertBefore(a, identityEl.firstChild);
+    }
+    if(tabsEl && !tabsEl.querySelector('[data-page="the-witness-remains"]')){
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'tab';
+      b.setAttribute('data-page', 'the-witness-remains');
+      b.textContent = 'THE WITNESS REMAINS · 30 Sep 2026';
+      tabsEl.insertBefore(b, tabsEl.firstChild);
+    }
+    var landing = document.getElementById('landing');
+    if(landing && !document.getElementById('twr-2026-09-30-callout')){
+      var box = document.createElement('div');
+      box.id = 'twr-2026-09-30-callout';
+      box.setAttribute('style', 'background:#160e0c;border:1px solid #c4452f;border-left:5px solid #f1c75b;padding:14px 16px;margin:14px 0 18px;');
+      box.innerHTML = '<p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">ADDED 30 SEPTEMBER 2026</p><p style="margin:0;"><a href="#the-witness-remains">THE WITNESS REMAINS</a> · <a href="tabs/the-witness-remains.html">standalone tab</a> · <a href="statements/THE-WITNESS-REMAINS-30-SEPTEMBER-2026.md">markdown file</a></p>';
+      landing.insertBefore(box, landing.firstChild);
+    }
+  }
   function setActive(id){
     if(tabsEl) tabsEl.querySelectorAll('button').forEach(function(b){
       var on = b.getAttribute('data-page') === id;
@@ -37,6 +63,9 @@
     if(fEl) fEl.querySelectorAll('button').forEach(function(b){
       var on = b.getAttribute('data-page') === id;
       b.classList.toggle('active', on);
+    });
+    if(identityEl) identityEl.querySelectorAll('a').forEach(function(a){
+      a.classList.toggle('on', a.getAttribute('data-page') === id);
     });
   }
   function extractBody(html){
@@ -81,6 +110,7 @@
       setActive(id);
     }
   }
+  injectWitnessTab();
   var fEl = document.getElementById('forensic-tabs');
   if(fEl) fEl.addEventListener('click', function(e){
     var b = e.target.closest('button[data-page]');
