@@ -1,0 +1,34 @@
+name: ingest-live-site
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/ingest-live-site.yml"
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download live site assets
+        run: |
+          set -euo pipefail
+          mkdir -p site-mirror/assets site-mirror/html
+          curl -L --fail --retry 3 -o site-mirror/assets/index-Bk4DJqLv.js \
+            https://barrandodger.com/assets/index-Bk4DJqLv.js
+          sha256sum site-mirror/assets/index-Bk4DJqLv.js | tee site-mirror/assets/SHA256.txt
+          ls -lh site-mirror/assets/index-Bk4DJqLv.js
+          curl -L --fail -o site-mirror/html/index.html https://barrandodger.com/
+          curl -L --fail -o site-mirror/html/start-here.html https://barrandodger.com/start-here || true
+          curl -L --fail -o site-mirror/html/donate.html https://barrandodger.com/donate || true
+          curl -L --fail -o site-mirror/html/gospel.html https://barrandodger.com/gospel || true
+          curl -L --fail -o site-mirror/html/archive.html https://barrandodger.com/archive || true
+      - name: Commit into repository
+        run: |
+          git config user.name "wezzo72"
+          git config user.email "wezzo72@users.noreply.github.com"
+          git add site-mirror/assets site-mirror/html
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "Ingest barrandodger.com JS bundle and key HTML (emergency preserve)"
+          git push
