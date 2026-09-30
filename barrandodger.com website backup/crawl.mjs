@@ -60,13 +60,18 @@ async function capture(page, job) {
   let lastErr;
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      await page.goto(job.url, { waitUntil: "domcontentloaded", timeout: 45000 });
+      await page.goto(job.url, { waitUntil: process.env.SLOW ? "networkidle" : "domcontentloaded", timeout: 60000 });
+      const budget = process.env.SLOW ? 25000 : 9000;
       const start = Date.now();
       let chars = 0;
-      while (Date.now() - start < 9000) {
-        chars = await page.evaluate(() => (document.body && document.body.innerText ? document.body.innerText.trim().length : 0));
+      while (Date.now() - start < budget) {
+        try {
+          chars = await page.evaluate(() => (document.body && document.body.innerText ? document.body.innerText.trim().length : 0));
+        } catch (e) {
+          throw e;
+        }
         if (chars > 700) break;
-        await page.waitForTimeout(400);
+        await page.waitForTimeout(500);
       }
       const title = await page.title();
       const links = await page.evaluate(() =>
@@ -140,7 +145,12 @@ async function capture(page, job) {
     } catch (err) {
       lastErr = err;
       console.error("RETRY", job.n, job.url, attempt, err.message);
-      await page.waitForTimeout(1500 * attempt);
+      try {
+        await page.waitForTimeout(1500 * attempt);
+      } catch (e) {
+        console.error("PAGE DEAD", job.n, e.message);
+        return { n: job.n, url: job.url, path: job.urlPath, error: "page crashed: " + err.message, saved_at: new Date().toISOString(), dead: true };
+      }
     }
   }
   const fail = {
@@ -179,12 +189,24 @@ const workers = [
 ];
 let ok = 0;
 let fail = 0;
-for (let i = 0; i < jobs.length; i += workers.length) {
-  const batch = jobs.slice(i, i + workers.length);
-  const results = await Promise.all(batch.map((job, idx) => capture(workers[idx], job)));
-  for (const result of results) {
-    if (result.error) fail++;
-    else ok++;
+if (process.env.SLOW) {
+  let page = await context.newPage();
+  for (const job of jobs) {
+    const result = await capture(page, job);
+    if (result.error || result.dead) {
+      fail++;
+      try { await page.close(); } catch (e) {}
+      page = await context.newPage();
+    } else ok++;
+  }
+} else {
+  for (let i = 0; i < jobs.length; i += workers.length) {
+    const batch = jobs.slice(i, i + workers.length);
+    const results = await Promise.all(batch.map((job, idx) => capture(workers[idx], job)));
+    for (const result of results) {
+      if (result.error) fail++;
+      else ok++;
+    }
   }
 }
 await browser.close();

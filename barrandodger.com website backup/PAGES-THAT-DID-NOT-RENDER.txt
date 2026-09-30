@@ -1,0 +1,37 @@
+# Pages the live site did not render
+
+These 11 addresses returned HTTP 200, but the site's own script threw `o.join is not a function` and left the page body empty. The HTML, PDF, and link file are still saved. They contain the title and the shell the server sent. They do not contain an article body, because the live page did not draw one. Nothing was invented in their place.
+
+- 15. 318,571+ Downloads — Milestone Verification | Barran Dodger Archive
+  https://barrandodger.com/318571-downloads
+  text characters on the rendered page: 20
+- 49. Apex Moral Cowardice — Mobbing, Puppet Masters & Pawns | Barran Dodger
+  https://barrandodger.com/apex-moral-cowardice-mobbing-paper
+  text characters on the rendered page: 20
+- 70. I DARE YOU TO PROVE ME WRONG | 2,304 Documents | Australian Government Corruption Exposed
+  https://barrandodger.com/ben-disclosure
+  text characters on the rendered page: 20
+- 187. Barran Dodger Legal & Ethical Trust Fund | 240+ Blockchain-Verified Documents Exposing Australian Government Corruption | Whistleblower Dr Richard McLean
+  https://barrandodger.com/evidence
+  text characters on the rendered page: 0
+- 246. Forensic Entrapment: Poverty & V2K — The Three-Pronged Attack | Barran Dodger
+  https://barrandodger.com/forensic-entrapment-poverty-v2k
+  text characters on the rendered page: 20
+- 298. Group Mobbing — Forensic Analysis of Coordinated Persecution | Barran Dodger
+  https://barrandodger.com/group-mobbing-forensic-analysis
+  text characters on the rendered page: 20
+- 388. Mobbing Defection Paper — When Pawns Break Ranks | Barran Dodger
+  https://barrandodger.com/mobbing-defection-paper
+  text characters on the rendered page: 20
+- 424. The Poverty Trap Failed — $400/fortnight Didn't Stop the Archive | Barran Dodger
+  https://barrandodger.com/poverty-trap-failed
+  text characters on the rendered page: 20
+- 450. Puppet Masters and Pawns — The Architecture of Persecution | Barran Dodger
+  https://barrandodger.com/puppet-masters-and-pawns
+  text characters on the rendered page: 20
+- 542. The Pawns Will Defect — Institutional Mobbing Analysis | Barran Dodger
+  https://barrandodger.com/the-pawns-will-defect
+  text characters on the rendered page: 20
+- 617. V2K & Gang Stalking — Forensic Analysis | Barran Dodger
+  https://barrandodger.com/v2k-gang-stalking-forensic-analysis
+  text characters on the rendered page: 20
