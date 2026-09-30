@@ -1,9 +1,6 @@
 name: ingest-live-site
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - ".github/workflows/ingest-live-site.yml"
 jobs:
   ingest:
     runs-on: ubuntu-latest
@@ -11,6 +8,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Download live site assets
         run: |
           set -euo pipefail
@@ -31,4 +30,5 @@ jobs:
           git add site-mirror/assets site-mirror/html
           git diff --cached --quiet && echo "no changes" && exit 0
           git commit -m "Ingest barrandodger.com JS bundle and key HTML (emergency preserve)"
+          git pull --rebase origin main
           git push
