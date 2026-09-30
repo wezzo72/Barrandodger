@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SHA-256 registry — 30 September 2026 — Barran Dodger Archive</title>
+<style>
+body{margin:0;background:#f3eee4;color:#0b0a08;font-family:Georgia,serif;line-height:1.5}
+.wrap{max-width:1100px;margin:auto;padding:24px 14px 80px}
+.kicker{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.12em;font-size:.72rem;color:#8B2E2A;font-weight:800}
+h1{font-size:1.45rem;color:#8B2E2A}
+.sub{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#3f4c5a;font-size:.9rem}
+.hash{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.75rem;background:#e8e0d4;border:1px solid #c9a36a;padding:10px;word-break:break-all}
+table{border-collapse:collapse;width:100%;font-size:.82rem}
+th,td{border:1px solid #c9a36a;padding:6px 7px;vertical-align:top}
+th{background:#e8e0d4;text-align:left}
+td.mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.72rem;word-break:break-all}
+a{color:#3f4c5a}
+nav a{margin-right:12px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:.85rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+<a href="../index.html">Archive home</a>
+<a href="the-witness-remains.html">THE WITNESS REMAINS</a>
+<a href="therapy-dog-urgent-help.html">Urgent help</a>
+</nav>
+<p class="kicker">NEW TAB · 30 SEPTEMBER 2026 · FINDING AID · NOT A COURT · NOT A VERDICT</p>
+<h1>SHA-256 registry</h1>
+<p class="sub">#WitnessRemains #SHA256 #30Sep2026 #BarranDodger · Bitcoin tip recorded 969,269</p>
+<p>This page lists SHA-256 of raw file bytes for every file under <code>tabs/</code> and <code>statements/</code>, plus selected root writings. A hash shows that a file matches a digest. It is not a court finding and it is not a Bitcoin transaction by itself.</p>
+<p>Preservation layers already in place: Git history on this repository, GitHub Pages copies, and the live-site JS bundle previously ingested. Embedding every file as an on-chain Bitcoin transaction is not possible from here. The registry root below is the digest to stamp if you later submit an OpenTimestamps proof.</p>
+<p class="hash" id="root">Registry root SHA-256: f352c4500f84d50e14f9964c6dee95d9f52b158b912b96fe5539c9692678854c</p>
+<p class="sub">Also recorded: live JS bundle SHA-256 <code>30538906dd8f69f41119780de0bde01d62bf42ab5731f930c79622d1bae450f7</code> (site-mirror/assets/index-Bk4DJqLv.js).</p>
+<table id="t"><thead><tr><th>#</th><th>Document</th><th>Bytes</th><th>SHA-256</th><th>Open</th></tr></thead><tbody></tbody></table>
+<p class="sub">If the table is empty, open the JSON or refresh after GitHub Pages updates.</p>
+</div>
+<script>
+fetch("../statements/SHA256-REGISTRY-30-SEPTEMBER-2026.json",{cache:"no-cache"})
+.then(function(r){return r.json()})
+.then(function(meta){
+  if(meta.registry_root_sha256){
+    document.getElementById("root").textContent="Registry root SHA-256: "+meta.registry_root_sha256+" · files "+meta.count+" · Bitcoin tip "+meta.bitcoin_tip_recorded;
+  }
+})
+.catch(function(){});
+fetch("https://raw.githubusercontent.com/wezzo72/Barrandodger/main/statements/SHA256-REGISTRY-30-SEPTEMBER-2026.items.json",{cache:"no-cache"})
+.then(function(r){return r.json()})
+.then(function(items){
+  var tb=document.querySelector("#t tbody");
+  items.forEach(function(r,i){
+    var tr=document.createElement("tr");
+    tr.innerHTML="<td>"+(i+1)+"</td><td><code>"+r.path+"</code></td><td>"+r.bytes+"</td><td class=mono>"+r.sha256+"</td><td><a href=\"../"+r.path+"\">page</a> · <a href=\"https://github.com/wezzo72/Barrandodger/blob/main/"+r.path+"\">github</a></td>";
+    tb.appendChild(tr);
+  });
+})
+.catch(function(){
+  document.querySelector("#t tbody").innerHTML="<tr><td colspan=5>Item list JSON is being added next to this page.</td></tr>";
+});
+</script>
+</body>
+</html>
