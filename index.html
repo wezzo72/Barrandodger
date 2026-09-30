@@ -430,6 +430,28 @@ BARRAN DODGER &amp; HIS THERAPY DOG NEEDS YOUR URGENT HELP.pdf
 
 </div>
 
+
+<div style="background:#160e0c;border:1px solid #c4452f;border-left:5px solid #f1c75b;padding:14px 16px;margin:14px 0 18px;">
+
+<p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">
+ADDED 30 SEPTEMBER 2026 · MOBBING · SAFETY OF THE CROWD · SHA-256 STAMPED
+</p>
+
+<p style="margin:0 0 8px;">
+<a href="#mobbing">Mobbing and the Safety of the Crowd</a>
+— Believing a Comfortable Lie Over a Hard Truth. Full text on its own tab. Nothing else on this page was removed.
+</p>
+
+<p style="margin:0;font-size:.9rem;">
+<a href="MOBBING-AND-THE-SAFETY-OF-THE-CROWD.pdf">MOBBING-AND-THE-SAFETY-OF-THE-CROWD.pdf</a><br/>
+<a href="docs/source-texts/MOBBING-AND-THE-SAFETY-OF-THE-CROWD.txt">Canonical text</a><br/>
+SHA-256 of the canonical text: 8081a222d6c1b08be32ae6f1eb084edf95da273ce3dd984b34512e23e9e2add5<br/>
+SHA-256 of the PDF: e0bb4f54c43e0875ec757abf6eb468361d43de0d62c00dc5627cc87d5b1afac4<br/>
+<a href="#sha256-stamps">SHA-256 stamps for every PDF and page</a>
+</p>
+
+</div>
+
 <h1>THE WITNESS REMAINS</h1>
 
 <p class="sub">
@@ -439,6 +461,8 @@ Barran Dodger / Dr Richard William McLean. This page is the overview. The full r
 <p class="kicker">FINDING AID · NOT A COURT · NOT A VERDICT</p>
 
 <p class="sub">
+<a href="#mobbing">Mobbing and the Safety of the Crowd</a> ·
+<a href="#sha256-stamps">SHA-256 stamps</a> ·
 <a href="#home">Home</a> ·
 <a href="#justice-mandate">The Justice Mandate</a> ·
 <a href="#barran-help">Barran Dodger &amp; His Therapy Dog Needs Your Urgent Help</a> ·
@@ -595,6 +619,14 @@ The Justice Mandate
 
 <a href="#barran-help" data-page="barran-help">
 Barran Dodger &amp; His Therapy Dog Needs Your Urgent Help
+</a>
+
+<a href="#mobbing" data-page="mobbing">
+Mobbing and the Safety of the Crowd
+</a>
+
+<a href="#sha256-stamps" data-page="sha256-stamps">
+SHA-256 stamps
 </a>
 
 <a href="#bio" data-page="bio">About the Author</a>
@@ -778,6 +810,14 @@ Forensic reports
 
 <button type="button" class="tab" data-page="barran-help">
 3 · Barran Dodger &amp; His Therapy Dog Needs Your Urgent Help
+</button>
+
+<button type="button" class="tab" data-page="mobbing" style="border-color:#f1c75b;color:#f1c75b;font-weight:700">
+Mobbing and the Safety of the Crowd
+</button>
+
+<button type="button" class="tab" data-page="sha256-stamps">
+SHA-256 stamps — all PDFs and pages
 </button>
 
 <button type="button" class="tab" data-page="bio">
@@ -974,7 +1014,9 @@ var ROUTES={
 "rejected-witness":"tabs/the-rejected-witness.html",
 "the-mirror":"tabs/the-mirror.html",
 "master-evidence-register":"tabs/master-evidence-register.html",
-"devil-is-a-liar":"tabs/the-devil-is-a-liar.html"
+"devil-is-a-liar":"tabs/the-devil-is-a-liar.html",
+"mobbing":"tabs/mobbing-safety-of-the-crowd.html",
+"sha256-stamps":"tabs/sha256-stamps.html"
 
 };
 
@@ -2278,6 +2320,83 @@ EXAMINE IT.
 }
 
 
+
+function showStamp(path, host){
+
+host=host||content;
+
+var prev=host.querySelector("[data-injected-stamp='1']");
+
+if(prev)
+prev.remove();
+
+var box=document.createElement("div");
+
+box.setAttribute("data-injected-stamp","1");
+
+box.style.cssText="margin:16px;padding:12px 14px;border:1px solid #c9a36a;background:#14110c;color:#f3efe6;font-size:.82rem;line-height:1.45";
+
+box.innerHTML="<strong>SHA-256 STAMP</strong> — digest of the preserved file. The file was not rewritten to insert this line.<br><span data-stamp-line>Looking up "+esc(path)+"…</span>";
+
+host.appendChild(box);
+
+function paint(map){
+
+var line=box.querySelector("[data-stamp-line]");
+
+if(!line)
+return;
+
+var rec=map[path];
+
+if(!rec){
+
+line.textContent="No stamp recorded yet for "+path;
+
+return;
+
+}
+
+line.textContent=path+" · "+rec.bytes+" bytes · SHA-256 "+rec.sha256;
+
+}
+
+if(window.__shaMap){
+
+paint(window.__shaMap);
+
+return;
+
+}
+
+fetch("statements/SHA256-ALL-PDFS-AND-PAGES.json",{cache:"no-cache"})
+
+.then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+
+.then(function(data){
+
+var map={};
+
+(data.files||[]).forEach(function(f){ map[f.path]=f; });
+
+window.__shaMap=map;
+
+paint(map);
+
+})
+
+.catch(function(){
+
+var line=box.querySelector("[data-stamp-line]");
+
+if(line)
+line.textContent="Stamp registry could not be loaded.";
+
+});
+
+}
+
+
 function showLanding(){
 
 req++;
@@ -2293,6 +2412,8 @@ null,
 "",
 location.pathname+location.search
 );
+
+showStamp("index.html", document.getElementById("landing"));
 
 window.scrollTo(0,0);
 
@@ -2340,6 +2461,8 @@ document.getElementById("landing").hidden=true;
 document.getElementById("archive").hidden=false;
 
 content.innerHTML=renderHelpPdf();
+
+showStamp(href);
 
 setActive(id);
 
@@ -2403,6 +2526,8 @@ extractBody(html)+
 document.getElementById("landing").hidden=true;
 
 document.getElementById("archive").hidden=false;
+
+showStamp(href);
 
 setActive(id);
 

@@ -1,0 +1,7 @@
+title: Mobbing and the Safety of the Crowd — Believing a Comfortable Lie Over a Hard Truth
+canonical_text_sha256: 8081a222d6c1b08be32ae6f1eb084edf95da273ce3dd984b34512e23e9e2add5
+canonical_text_bytes: 11428
+pdf_sha256: e0bb4f54c43e0875ec757abf6eb468361d43de0d62c00dc5627cc87d5b1afac4
+pdf_bytes: 48237
+date: 30 September 2026
+rule: full text retained; no redaction; no summary; no placeholder

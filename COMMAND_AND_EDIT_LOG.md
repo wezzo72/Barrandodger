@@ -172,3 +172,31 @@ Site: Barran Dodger Archive — public documentary finding aid. Not a court. Not
 
 **Commit:** `282f643` (index restore) and the following PDF-link commit on the tab page.
 **Rule restated:** Never remove a single word again. Only ADD.
+
+### COMMAND 22 — Mobbing and the Safety of the Crowd, full text, plus SHA-256 stamps (30 September 2026)
+
+**User command (intent, not a replacement of the writing):**
+- Add SHA-256 stamps to all PDFs and pages
+- Add the supplied writing as a PDF in the repository, with a clearer title that includes mobbing
+- Add the entire text as its own tab
+- Do not edit the rest of the page
+- Never redact, summarise, or use placeholders
+- Always include all text under every tab
+- Source the text from the repository
+- Reinstate any and all text, plus anything removed
+
+**Title added (the author’s words were not retitled in place of the text):**
+Mobbing and the Safety of the Crowd — Believing a Comfortable Lie Over a Hard Truth
+
+**Author text:** kept in full, including the author’s spelling, under the new tab and inside the PDF. The canonical bytes are `docs/source-texts/MOBBING-AND-THE-SAFETY-OF-THE-CROWD.txt` (same bytes also at `statements/MOBBING-AND-THE-SAFETY-OF-THE-CROWD.txt`).
+
+**SHA-256 of that canonical UTF-8 text:** `8081a222d6c1b08be32ae6f1eb084edf95da273ce3dd984b34512e23e9e2add5`
+
+**PDF:** `MOBBING-AND-THE-SAFETY-OF-THE-CROWD.pdf`
+**SHA-256 of the PDF file:** `e0bb4f54c43e0875ec757abf6eb468361d43de0d62c00dc5627cc87d5b1afac4`
+
+**What was not done:** No existing page’s prose was deleted. `index.html` only gained the new callout, the new tab, the new links, and a stamp line under whatever tab is open. Existing PDF bytes were not rewritten. A hash printed inside an old PDF would have changed that PDF. The stamps of those files are the digests of the bytes as preserved.
+
+**Stamp list:** `SHA256SUMS.txt`, `statements/SHA256-ALL-PDFS-AND-PAGES.json`, and the tab SHA-256 stamps. Every PDF and every HTML page in the repository is listed.
+
+**Rule restated:** Never remove a single word again. Only ADD.
