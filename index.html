@@ -415,7 +415,206 @@ pre{
 <div id="landing">
 
 <div class="kicker">PUBLIC DOCUMENTARY ARCHIVE</div>
+<!-- ============================================================
+     BEGIN: THE DOCUMENTARY TRAP — ADDITION ONLY
+     Existing archive content is not replaced or removed.
+     ============================================================ -->
 
+<style>
+#documentary-trap-major-paper{
+  margin:24px 0;
+  padding:28px;
+  border:2px solid #f1c75b;
+  border-left:7px solid #f1c75b;
+  background:linear-gradient(135deg,#17130d,#241d12);
+  color:#fff;
+  box-shadow:0 8px 30px rgba(0,0,0,.25);
+}
+
+#documentary-trap-major-paper .dt-badge{
+  display:inline-block;
+  padding:6px 10px;
+  margin-bottom:12px;
+  background:#f1c75b;
+  color:#17130d;
+  font-weight:900;
+  letter-spacing:.08em;
+  font-size:.78rem;
+}
+
+#documentary-trap-major-paper h2{
+  margin:4px 0 10px;
+  color:#f1c75b;
+  font-size:clamp(1.7rem,4vw,2.8rem);
+  line-height:1.1;
+}
+
+#documentary-trap-major-paper .dt-lead{
+  font-size:1.15rem;
+  font-weight:700;
+}
+
+#documentary-trap-major-paper p{
+  line-height:1.7;
+  max-width:900px;
+}
+
+#documentary-trap-major-paper .dt-central{
+  margin:20px 0;
+  padding:18px;
+  border-left:5px solid #f1c75b;
+  background:rgba(255,255,255,.06);
+  font-size:1.05rem;
+  line-height:1.7;
+}
+
+#documentary-trap-major-paper .dt-actions{
+  margin:18px 0 0;
+}
+
+#documentary-trap-major-paper .dt-actions a{
+  display:inline-block;
+  margin:5px 8px 5px 0;
+  padding:12px 18px;
+  text-decoration:none;
+  font-weight:900;
+}
+
+#documentary-trap-major-paper .dt-open{
+  background:#f1c75b;
+  color:#17130d!important;
+}
+
+#documentary-trap-major-paper .dt-pdf{
+  border:1px solid #f1c75b;
+  color:#f1c75b!important;
+}
+
+#documentary-trap-major-paper .dt-stamp{
+  margin:16px 0 0;
+  font-size:.82rem;
+  opacity:.75;
+}
+
+.documentary-trap-main-tab{
+  border-color:#f1c75b!important;
+  color:#f1c75b!important;
+  font-weight:900!important;
+}
+</style>
+
+<section id="documentary-trap-major-paper">
+
+  <div class="dt-badge">
+    MAJOR EVIDENCE &amp; JUSTICE DOCUMENT
+  </div>
+
+  <h2>
+    THE DOCUMENTARY TRAP
+  </h2>
+
+  <p class="dt-lead">
+    When the System’s Own Record Becomes the Evidence
+  </p>
+
+  <p>
+    <strong>
+      35 Years of Institutional Records, Decisions, Correspondence and Evidence —
+      Preserved, Indexed and Open to Independent Examination.
+    </strong>
+  </p>
+
+  <p>
+    This document brings together the documentary record and asks a simple
+    evidentiary question:
+    <strong>
+      what do the records themselves establish about what institutions knew,
+      received, considered, decided, recorded, omitted, or left unresolved?
+    </strong>
+  </p>
+
+  <p>
+    It deliberately distinguishes documentary evidence from allegation,
+    personal testimony, faith, interpretation, chronology, causation,
+    institutional involvement, and claims of coordination. The archive does
+    not treat an allegation as automatically established fact.
+  </p>
+
+  <div class="dt-central">
+
+    <strong>The central question:</strong><br>
+
+    What actually happened — and what can the documentary record establish?
+
+  </div>
+
+  <div class="dt-actions">
+
+    <a
+      class="dt-open"
+      href="THE-DOCUMENTARY-TRAP-MAJOR-EVIDENCE-JUSTICE-DOCUMENT.pdf"
+      target="_blank"
+      rel="noopener">
+      OPEN DOCUMENT
+    </a>
+
+    <a
+      class="dt-pdf"
+      href="THE-DOCUMENTARY-TRAP-MAJOR-EVIDENCE-JUSTICE-DOCUMENT.pdf"
+      target="_blank"
+      rel="noopener">
+      PDF — TIMESTAMPED MASTER
+    </a>
+
+  </div>
+
+  <p class="dt-stamp">
+    Preserved master document • 1 October 2026 • Documentary evidence presented for independent examination.
+  </p>
+
+</section>
+
+<script>
+(function(){
+
+  function addDocumentaryTrapTab(){
+
+    var tabs = document.getElementById("tabs");
+
+    if(!tabs) return;
+
+    if(document.getElementById("documentary-trap-main-tab"))
+      return;
+
+    var tab = document.createElement("a");
+
+    tab.id = "documentary-trap-main-tab";
+    tab.className = "tab documentary-trap-main-tab";
+    tab.href = "THE-DOCUMENTARY-TRAP-MAJOR-EVIDENCE-JUSTICE-DOCUMENT.pdf";
+    tab.target = "_blank";
+    tab.rel = "noopener";
+    tab.textContent = "THE DOCUMENTARY TRAP — PROPHETIC DOCUMENT";
+
+    tabs.insertBefore(tab, tabs.firstChild);
+
+  }
+
+  if(document.readyState === "loading"){
+    document.addEventListener(
+      "DOMContentLoaded",
+      addDocumentaryTrapTab
+    );
+  }else{
+    addDocumentaryTrapTab();
+  }
+
+})();
+
+</script>
+
+<!-- ============================================================
+     END: THE DOCUMENTARY TRAP — ADDITION ONLY
+     ============================================================ -->
 <div style="background:#160e0c;border:1px solid #c4452f;border-left:5px solid #f1c75b;padding:14px 16px;margin:14px 0 18px;">
 
 <p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">
