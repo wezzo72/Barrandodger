@@ -1,0 +1,25 @@
+INTAKE 2 October 2026 — official documents not already in wezzo72/Barrandodger
+
+Already in the repository before this intake: 2,377 PDFs.
+This pass copied official government and tribunal records that a name check showed were absent.
+
+COPIED
+2023-07-01-letter-to-Attorney-General-Prime-Minister-and-Gabrielle-Williams.pdf	462470	57ca1b41ed077a694f77ef904efc35e2280d65f6c57f54e4cd6c8642c206d491
+2025-05-19-Ombudsman-SA-2025-02795-email.txt	1444	566a8e915eee165ae41f032d0882cb89ddba0cdf6fa357016b44e62ad4d4504f
+2025-05-19-Ombudsman-SA-Information-Sheet.pdf	114248	50dec3a892e265410098a5faf05670e7606575a781c10456ac18313b1cf3362e
+2025-06-10-VOCAT-2024-6890-notice-of-refusal.pdf	86072	c81cd5f0af73badc8a7e6449b6200966d2cf87710ae98f315b96e34d6fd5655a
+2025-07-01-Transport-NSW-demerit-points-letter.pdf	1248950	b5df8956998cbfb44f28253c718e9069d36948235a71f333f82d4bbf72800958
+2025-08-18-NCAT-Generic-Correspondence.pdf	61377	fccc5f99ea2f80c6448b282326ca5cf6da28cc8f1422f131836634818db2c5d9
+2025-08-18-NCAT-Notice-of-Listing.pdf	66307	5fb73ba546b60ad81a877a7dc9a25d3be19b66379fbcca2304b3109971a850de
+2026-03-18-NCAT-Written-Reasons-Cover-Letter-for-Parties.pdf	209387	9658f506581e3e07a2eb571f7c0b3f35aeec7e3f6c66e8645373359d157e221d
+Centrelink-outcome-of-review-banned.pdf	1394986	4301494ac57c971740d4f8b6cdc629bfbed9aec2f28c32fe786fbeb138e22836
+Graeme-Head-NDIS-contract.pdf	2730249	89c4935a652a2393df8eeedfce39e41f5353f240ba0bde44be4ee3a48f0f2690
+Magistrate-evidence-Scott-Treadwell-Federal-Court-08-01-2024.pdf	3495385	1b988968dbf0d262e85231df5466f412ae36bf74433bc4fbbc0524c52d876140
+Mental-health-tribunal.pdf	3412348	338b4f0e617bb342592e30730628ed6b9c7478312a340525b2e7640fca3278f6
+Police-FOI-violent-assault-evidence.pdf	4203155	d014759159647db93d2dc491f0b62955981ed568de4d5efeb852b39914fbbbcb
+
+NOT COPIED THIS PASS
+NDIS PID copy.pdf — Google Drive file 14VKWWvJusnXqhsDMHlBu1pSRlK4svPsz — download failed twice.
+Files over GitHub's 100MB limit were not copied, including barrandodger_site_archive.zip (506,746,363 bytes), extensive whistleblower statement 07.06.2021.pdf (187,223,861 bytes), and the editable epub (171,119,040 bytes).
+A private video in Drive was not copied. It is not an official document.
+The Drive still contains hundreds of further PDFs and images. Many matching official names are already in myaidrive-pdfs, gmail-drive-sweep, and the site backup. This intake did not re-copy those.
