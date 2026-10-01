@@ -28,37 +28,49 @@ html,body{
 }
 
 #landing{
-  max-width:760px;
-  margin:0 auto;
-  padding:28px 16px 80px
+  max-width:740px;
+  margin:16px auto 36px;
+  padding:18px 14px 22px;
+  background:
+    linear-gradient(#8B2E2A,#8B2E2A) 0 0/100% 7px no-repeat,
+    linear-gradient(#c9a36a,#c9a36a) 0 7px/100% 3px no-repeat,
+    #f3eee4;
+  color:#241c16;
+  border:1px solid #e4d5bc;
+  border-radius:22px;
+  box-shadow:0 28px 70px rgba(0,0,0,.48);
+  overflow-wrap:anywhere
 }
 
 #landing h1{
-  font-size:clamp(1.5rem,5vw,2.2rem);
-  line-height:1.2;
-  margin:.3rem 0
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(1.7rem,6vw,2.35rem);
+  line-height:1.15;
+  margin:.2rem 0 .35rem;
+  color:#1a140f
 }
 
 #landing h2{
-  color:var(--accent);
-  font-size:1.1rem;
+  font-family:Georgia,"Times New Roman",serif;
+  color:#3f4c5a;
+  font-size:1.15rem;
   margin:1.2rem 0 .5rem
 }
 
 #landing .kicker{
-  letter-spacing:.14em;
+  letter-spacing:.16em;
   font-size:.72rem;
-  color:var(--accent);
+  color:#8B2E2A;
   font-weight:800
 }
 
 #landing .sub{
-  color:var(--muted);
+  color:#5a4e43;
   margin:0 0 1rem
 }
 
-#landing a{color:var(--link)}
-#landing p{margin:0 0 1rem}
+#landing a{color:#8B2E2A}
+#landing p{margin:0 0 1rem;color:#2c241c}
 
 #landing .welcome{
   background:linear-gradient(180deg,#f8f3ea 0%,#efe2cc 100%);
@@ -158,6 +170,82 @@ html,body{
   #landing .welcome .distinctions{
     grid-template-columns:1fr
   }
+}
+
+#landing .opening{
+  margin:0 0 18px;
+  padding:20px 16px 8px;
+  background:#fffaf3;
+  border:1px solid #e6d5b8;
+  border-left:6px solid #8B2E2A;
+  border-radius:16px;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:1.05rem;
+  line-height:1.62;
+  box-shadow:0 8px 24px rgba(60,40,20,.06)
+}
+
+#landing .opening p{color:#2a221b}
+#landing .opening .kicker{color:#8B2E2A}
+
+#landing .notice{
+  background:#fffaf3!important;
+  color:#2c241c!important;
+  border:1px solid #e4d3b4!important;
+  border-left:6px solid #8B2E2A!important;
+  border-radius:16px!important;
+  padding:16px 14px!important;
+  margin:0 0 14px!important;
+  box-shadow:0 8px 22px rgba(60,40,20,.05)
+}
+
+#landing .notice p{color:#2c241c!important}
+#landing .notice .nk{
+  color:#8B2E2A!important;
+  letter-spacing:.14em;
+  font-size:.72rem;
+  font-weight:800
+}
+#landing .notice a{
+  color:#8B2E2A!important;
+  font-weight:700
+}
+
+#landing .notice-gold{border-left-color:#8a6a32!important}
+#landing .notice-slate{border-left-color:#3f4c5a!important}
+
+#landing .wayfinding a{
+  display:inline-block;
+  margin:4px 6px 4px 0;
+  padding:7px 10px;
+  background:#3f4c5a;
+  color:#f7f1e6!important;
+  text-decoration:none;
+  border-radius:999px;
+  font-weight:650;
+  line-height:1.35
+}
+
+#landing #documentary-trap-major-paper{
+  border-radius:18px;
+  overflow:hidden;
+  margin:8px 0 16px
+}
+
+#landing .enter{
+  display:block;
+  width:100%;
+  margin-top:6px;
+  padding:16px 18px;
+  background:linear-gradient(180deg,#9a4038,#8B2E2A);
+  color:#fffaf3;
+  border:0;
+  border-radius:14px;
+  font-weight:800;
+  font-size:1.05rem;
+  letter-spacing:.12em;
+  cursor:pointer;
+  box-shadow:0 12px 26px rgba(139,46,42,.28)
 }
 
 .enter{
@@ -552,7 +640,7 @@ For decades, McLean has accumulated correspondence, government records, legal do
 </section>
 
 
-<section id="archive-opening-statement" style="margin:0 0 24px;padding:22px 20px;border:1px solid #3a3328;border-left:5px solid #c9a36a;background:#120e08;color:#e8e0d4;">
+<section id="archive-opening-statement" class="opening">
   <p class="kicker" style="margin:0 0 12px;">ARCHIVE OPENING — FIRST PERSON RECORD</p>
 
   <p>Australia — its agencies, services and platforms whose purpose is to protect vulnerable people like me, and its people, ganged up on me collectively, politically and systemically. It was and is a cowardly societal mobbing. I was physically exiled, isolated, impoverished and tortured.</p>
@@ -646,9 +734,9 @@ For decades, McLean has accumulated correspondence, government records, legal do
   <p style="margin:0;">And I am still alive.</p>
 </section>
 
-<div style="background:#160e0c;border:1px solid #c4452f;border-left:5px solid #f1c75b;padding:14px 16px;margin:0 0 24px;">
+<div class="notice">
 
-<p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">
+<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
 FRIDAY 2 OCTOBER 2026 · MAIN PROPHETIC DOCUMENT OF SIGNIFICANCE
 </p>
 
@@ -668,9 +756,9 @@ SHA-256 of the PDF: b410b52cb861077c66349f46b032aa400fb96fd11b72292baa457b0ef34a
 
 </div>
 
-<div style="background:#160e0c;border:1px solid #c4452f;border-left:5px solid #f1c75b;padding:14px 16px;margin:0 0 24px;">
+<div class="notice notice-gold">
 
-<p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">
+<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
 FRIDAY 2 OCTOBER 2026 · EXTENDED FIRST PERSON RECORD · BITCOIN TIMESTAMP
 </p>
 
@@ -893,9 +981,9 @@ SHA-256 of the PDF: d48d618391f63239048003e566a957087f27cc8c9bfce2d794938a814440
 <!-- ============================================================
      END: THE DOCUMENTARY TRAP — ADDITION ONLY
      ============================================================ -->
-<div style="background:#160e0c;border:1px solid #c4452f;border-left:5px solid #f1c75b;padding:14px 16px;margin:14px 0 18px;">
+<div class="notice">
 
-<p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">
+<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
 ADDED 29 SEPTEMBER 2026
 </p>
 
@@ -908,9 +996,9 @@ BARRAN DODGER &amp; HIS THERAPY DOG NEEDS YOUR URGENT HELP.pdf
 </div>
 
 
-<div style="background:#160e0c;border:1px solid #c4452f;border-left:5px solid #f1c75b;padding:14px 16px;margin:14px 0 18px;">
+<div class="notice notice-slate">
 
-<p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">
+<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
 ADDED 30 SEPTEMBER 2026 · MOBBING · SAFETY OF THE CROWD · SHA-256 STAMPED
 </p>
 
@@ -937,7 +1025,7 @@ Barran Dodger / Dr Richard William McLean. This page is the overview. The full r
 
 <p class="kicker">FINDING AID · NOT A COURT · NOT A VERDICT</p>
 
-<p class="sub">
+<p class="sub wayfinding">
 <a href="#mobbing">Mobbing and the Safety of the Crowd</a> ·
 <a href="#sha256-stamps">SHA-256 stamps</a> ·
 <a href="#home">Home</a> ·
@@ -951,9 +1039,9 @@ Barran Dodger / Dr Richard William McLean. This page is the overview. The full r
 <a href="#bio">About the Author</a>
 </p>
 
-<div style="background:#120e08;border:1px solid #c4452f;border-left:5px solid #f1c75b;padding:16px 18px;margin:18px 0;">
+<div class="notice">
 
-<p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">
+<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
 PROPHETIC CORROBORATION — 28 SEPTEMBER 2026
 </p>
 
@@ -981,9 +1069,9 @@ https://youtu.be/YaD0Y5HWS6k
 
 </div>
 
-<div style="background:#160e0c;border:1px solid #c4452f;border-left:5px solid #f1c75b;padding:16px 18px;margin:18px 0;">
+<div class="notice notice-gold">
 
-<p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">
+<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
 REINSTATED ORIGINAL HOME WORDS — NEVER REMOVE
 </p>
 
@@ -997,9 +1085,9 @@ Three times the same NDIS cage. Free Living Australia. Blacktown. Able Point. I 
 
 </div>
 
-<div style="background:#120e08;border:1px solid #c9a36a;border-left:5px solid #f1c75b;padding:16px 18px;margin:18px 0;">
+<div class="notice notice-slate">
 
-<p style="font-size:.72rem;letter-spacing:.14em;color:#f1c75b;font-weight:700;margin:0 0 8px;">
+<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
 THE JUSTICE MANDATE — ADDED 28 SEPTEMBER 2026 — FULL TEXT
 </p>
 
@@ -1021,13 +1109,13 @@ Open The Justice Mandate in full
 
 </div>
 
-<div style="border:2px solid #c9a36a;background:#14110c;padding:14px 16px;margin:18px 0;">
+<div class="notice notice-gold">
 
-<p style="font-family:system-ui,sans-serif;font-size:.72rem;letter-spacing:.12em;font-weight:800;color:#c9a36a;margin:0 0 .5rem;">
+<p class="nk" style="font-family:system-ui,sans-serif;font-size:.72rem;letter-spacing:.12em;font-weight:800;margin:0 0 .5rem;">
 FORENSIC AI-AUTHORED COMMAND — SITE INTRODUCTION · FINDING AID · NOT A COURT · NOT A VERDICT
 </p>
 
-<pre style="font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.86rem;line-height:1.5;color:#f3eee4;margin:0;white-space:pre-wrap;">ARCHIVE → PROTAGONIST → DOCUMENT TYPES → PURPOSE → READING RULE → PRESERVATION → EXAMINATION
+<pre style="font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.86rem;line-height:1.5;color:#2c241c;margin:0;white-space:pre-wrap;">ARCHIVE → PROTAGONIST → DOCUMENT TYPES → PURPOSE → READING RULE → PRESERVATION → EXAMINATION
 Distinguish: documentary fact · allegation · testimony · inference · interpretation · unresolved (A–F).
 This introduction does not convert archive assertions into judicial findings.</pre>
 
