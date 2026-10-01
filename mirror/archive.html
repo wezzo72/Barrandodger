@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="Browse all 660 preserved Barran Dodger archive records.">
+  <title>Complete Archive — Barran Dodger</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body data-page="archive">
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">BD</span>
+      <span>Barran Dodger<small>preserved archive</small></span>
+    </a>
+    <nav aria-label="Primary">
+      <a class="active" href="archive.html">Archive</a>
+      <a href="about.html">About</a>
+      <a href="support.html">Support</a>
+      <a class="nav-live" href="https://barrandodger.com/">Current site ↗</a>
+    </nav>
+    <button class="menu" aria-label="Open navigation">Menu</button>
+  </header>
+
+  <main class="wrap archive-page">
+    <div class="eyebrow">The complete catalogue · 660 records</div>
+    <h1>Archive index</h1>
+    <p class="lede">Search and browse every record in the preserved inventory. Results remain connected to the original captured files.</p>
+
+    <div class="toolbar">
+      <label class="search-field">
+        <span class="sr-only">Search archive</span>
+        <input id="archive-search" type="search" placeholder="Search title, URL, number or captured metadata…">
+        <button id="clear-search" type="button" aria-label="Clear search">×</button>
+      </label>
+      <select id="archive-filter" aria-label="Filter archive">
+        <option value="all">All archive pages</option>
+        <option value="text">Substantial captured text</option>
+        <option value="exceptions">Known render exceptions</option>
+      </select>
+      <select id="archive-sort" aria-label="Sort archive">
+        <option value="number">Archive number</option>
+        <option value="title">Title A–Z</option>
+      </select>
+    </div>
+
+    <div class="results-bar">
+      <span id="result-count">Loading complete inventory…</span>
+      <span id="result-status" aria-live="polite"></span>
+    </div>
+
+    <div id="archive-list" class="archive-list" aria-live="polite"></div>
+    <div id="empty" class="empty" hidden>
+      <h2>No records found</h2>
+      <p>Try a different title, URL, archive number or filter.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer wrap">
+    <span>All records are preserved source references.</span>
+    <a href="index.html">Back home ↑</a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="About the Barran Dodger preserved archive reconstruction and its integrity boundaries.">
+  <title>About & Integrity — Barran Dodger</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">BD</span>
+      <span>Barran Dodger<small>preserved archive</small></span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="archive.html">Archive</a>
+      <a class="active" href="about.html">About</a>
+      <a href="support.html">Support</a>
+      <a class="nav-live" href="https://barrandodger.com/">Current site ↗</a>
+    </nav>
+  </header>
+
+  <main class="wrap prose-page">
+    <div class="eyebrow">Archive integrity</div>
+    <h1>A presentation layer,<br><em>not a rewrite.</em></h1>
+    <p class="lede">This mirror is a static reconstruction of the public-facing reading experience around a preserved Barran Dodger website archive.</p>
+
+    <h2>What is preserved</h2>
+    <p>The catalogue uses the archive's manifest as its authoritative inventory. It exposes all 660 numbered records and links directly to available preserved HTML, PDF and link-list files inside <code>barrandodger.com website backup/</code>. The mirror does not duplicate those large files.</p>
+
+    <h2>What is not changed</h2>
+    <p>The repository root website, root index, archive directory, manifest, crawl script, assets, workflows and Pages configuration are outside <code>/mirror/</code> and remain untouched. The mirror is separate from the current live website.</p>
+
+    <h2>Known render exceptions</h2>
+    <p>Eleven captured records contain little or no article body because the original site's rendering process failed. They remain discoverable and are labelled: “Captured page — original article body unavailable in the preserved rendering.” No missing text is reconstructed.</p>
+    <ul>
+      <li>15 · /318571-downloads</li>
+      <li>49 · /apex-moral-cowardice-mobbing-paper</li>
+      <li>70 · /ben-disclosure</li>
+      <li>187 · /evidence</li>
+      <li>246 · /forensic-entrapment-poverty-v2k</li>
+      <li>298 · /group-mobbing-forensic-analysis</li>
+      <li>388 · /mobbing-defection-paper</li>
+      <li>424 · /poverty-trap-failed</li>
+      <li>450 · /puppet-masters-and-pawns</li>
+      <li>542 · /the-pawns-will-defect</li>
+      <li>617 · /v2k-gang-stalking-forensic-analysis</li>
+    </ul>
+
+    <h2>Inventory discrepancy</h2>
+    <p>The two crop-circles records are retained as separate manifest records: <code>/crop-circles-coded-glyphs-future</code> and <code>/crop-circles-coded-glyphs-disclosure</code>. The mirror does not merge, rename or infer a correction.</p>
+
+    <h2>Method</h2>
+    <p>Lightweight metadata is loaded client-side from the preserved JSONL manifest. Search covers the complete inventory; source material is opened only when requested. Archived HTML is treated as historical content and is never executed as part of the mirror shell.</p>
+
+    <p><a class="button" href="archive.html">Browse the complete archive →</a></p>
+  </main>
+
+  <footer class="site-footer wrap">
+    <span>Preservation boundary: new interface only</span>
+    <a href="index.html">Back home ↑</a>
+  </footer>
+</body>
+</html>

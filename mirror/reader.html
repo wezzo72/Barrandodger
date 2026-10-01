@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Archive record — Barran Dodger</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body data-page="reader">
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">BD</span>
+      <span>Barran Dodger<small>preserved archive</small></span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="archive.html">Archive</a>
+      <a href="about.html">About</a>
+      <a href="support.html">Support</a>
+      <a class="nav-live" href="https://barrandodger.com/">Current site ↗</a>
+    </nav>
+    <button class="menu" aria-label="Open navigation">Menu</button>
+  </header>
+
+  <main class="wrap prose-page">
+    <a class="text-link" href="archive.html">← Back to complete archive</a>
+    <div id="reader" class="reader"><p class="lede">Loading preserved record…</p></div>
+  </main>
+
+  <footer class="site-footer wrap">
+    <span>Preserved source material · new interface</span>
+    <a href="archive.html">Archive index ↑</a>
+  </footer>
+
+  <script>
+    async function reader() {
+      const n = Number(new URLSearchParams(location.search).get('n') || 1);
+      const EXCEPTIONS = new Set([15, 49, 70, 187, 246, 298, 388, 424, 450, 542, 617]);
+      const t = await (await fetch('../barrandodger.com website backup/manifest.jsonl')).text();
+      const r = t.split(/\r?\n/)
+        .filter(Boolean)
+        .map(x => { try { return JSON.parse(x); } catch { return null; } })
+        .filter(Boolean)
+        .find(x => Number(x.n) === n);
+
+      const el = document.querySelector('#reader');
+      if (!r) {
+        el.innerHTML = '<h1>Record not found</h1><p>Return to the complete archive index.</p>';
+        return;
+      }
+
+      const id = encodeURIComponent(r.id);
+      const root = '../barrandodger.com website backup/';
+      const prev = n > 1 ? `<a href="reader.html?n=${n - 1}">← Previous</a>` : '';
+      const next = n < 660 ? `<a href="reader.html?n=${n + 1}">Next →</a>` : '';
+
+      el.innerHTML = `
+        <div class="eyebrow">Archive record #${String(n).padStart(3, '0')}</div>
+        <h1>${esc(r.title || r.path || r.id)}</h1>
+        <p class="lede">Original URL: <a href="${esc(r.url || '')}" rel="noopener">${esc(r.url || '')}</a></p>
+        ${EXCEPTIONS.has(n) ? '<div class="notice"><div class="notice-icon">i</div><div><strong>Archive preservation note</strong><p>This page was captured, but the original site’s rendering process did not expose the article body. No missing text has been reconstructed.</p></div></div>' : ''}
+        <div class="archive-actions">
+          <a class="button" href="${root}html/${id}.html">Open preserved HTML ↗</a>
+          <a class="button outline" href="${root}pdf/${id}.pdf">Open preserved PDF ↗</a>
+          <a class="button outline" href="${root}links/${id}.txt">Open link list ↗</a>
+        </div>
+        <p class="reader-note">The source file opens directly from the preserved archive. Its historical content has not been rewritten by this interface.</p>
+        <div class="reader-nav">${prev}${next}</div>
+      `;
+    }
+
+    function esc(value) {
+      return String(value ?? '').replace(/[&<>\"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    }
+
+    reader();
+  </script>
+</body>
+</html>

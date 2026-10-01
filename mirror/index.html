@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="A reconstructed reading room for the complete preserved Barran Dodger archive.">
+  <meta property="og:title" content="Barran Dodger — Preserved Archive Reading Room">
+  <meta property="og:description" content="Browse all 660 preserved archive records without altering the historical source material.">
+  <meta property="og:type" content="website">
+  <title>Barran Dodger — Preserved Archive</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">BD</span>
+      <span>Barran Dodger<small>preserved archive</small></span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="archive.html">Archive</a>
+      <a href="about.html">About</a>
+      <a href="support.html">Support</a>
+      <a class="nav-live" href="https://barrandodger.com/">Current site ↗</a>
+    </nav>
+    <button class="menu" aria-label="Open navigation">Menu</button>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="eyebrow">A digital reading room · 660 records</div>
+      <h1>The record,<br><em>preserved.</em></h1>
+      <p class="hero-copy">A carefully indexed presentation layer for the preserved Barran Dodger website archive. Find the original pages, open the captured source files, and move through the collection without changing the material itself.</p>
+      <form class="hero-search" action="archive.html">
+        <label class="sr-only" for="home-search">Search the complete archive</label>
+        <input id="home-search" name="q" type="search" placeholder="Search titles, URLs, archive numbers…">
+        <button type="submit">Search archive</button>
+      </form>
+      <div class="hero-links">
+        <a class="button" href="archive.html">Browse all records <span>→</span></a>
+        <a href="about.html">How preservation works <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="stats wrap" aria-label="Archive statistics">
+      <div><strong id="stat-total">660</strong><span>archived records</span></div>
+      <div><strong id="stat-text">—</strong><span>with captured text</span></div>
+      <div><strong id="stat-pdf">—</strong><span>with preserved PDFs</span></div>
+      <div><strong>11</strong><span>render exceptions</span></div>
+    </section>
+
+    <section class="feature-grid wrap">
+      <div class="section-intro">
+        <div class="eyebrow">The collection</div>
+        <h2>Read the archive<br>on its own terms.</h2>
+        <p>Every record remains connected to the preserved HTML, PDF and link-list files where available. The interface adds context and navigation; it does not rewrite the source.</p>
+        <a class="text-link" href="archive.html">Enter the complete archive →</a>
+      </div>
+      <div class="feature-card">
+        <span class="card-number">01 / 660</span>
+        <h3>Start at the beginning</h3>
+        <p>Open the first captured record and follow the archive sequence forward.</p>
+        <a href="archive.html?n=1">Open record 001 →</a>
+      </div>
+      <div class="feature-card dark">
+        <span class="card-number">660 / 660</span>
+        <h3>Or go to the latest record</h3>
+        <p>The catalogue is complete through the final numbered record.</p>
+        <a href="archive.html?n=660">Open record 660 →</a>
+      </div>
+    </section>
+
+    <section class="notice wrap">
+      <div class="notice-icon">i</div>
+      <div>
+        <strong>Preservation notice</strong>
+        <p>This is a reconstruction and presentation layer, not the current live website. Historical pages are shown as preserved archive material. The original root website and archive remain separate and unchanged.</p>
+      </div>
+    </section>
+
+    <section class="split wrap">
+      <div>
+        <div class="eyebrow">Visit the present</div>
+        <h2>The current website is elsewhere.</h2>
+        <p>For current information, visit the public Barran Dodger website. This reading room is clearly separated from it and should not be treated as a current publication.</p>
+        <a class="button outline" href="https://barrandodger.com/">Visit barrandodger.com ↗</a>
+      </div>
+      <div>
+        <div class="eyebrow">Support</div>
+        <h2>Keep the record accessible.</h2>
+        <p>Find verified support information from the preserved public material, without payment processing in this mirror.</p>
+        <a class="text-link" href="support.html">View support information →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <span>BD · Preserved archive reading room</span>
+    <span><a href="about.html">Integrity & methodology</a> · <a href="404.html">404</a></span>
+  </footer>
+</body>
+</html>
