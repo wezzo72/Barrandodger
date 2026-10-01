@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-AU">
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Whistleblower’s Testimony of Survival, Preservation and Faith — Extended First Person Record — Barran Dodger</title>
-<style>
-body{margin:0;background:#f3eee4;color:#0b0a08;font-family:Georgia,serif;line-height:1.55}
-.wrap{max-width:820px;margin:0 auto;padding:24px 16px 80px}
-.kicker{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.12em;font-size:.72rem;color:#8B2E2A;font-weight:800}
-h1{font-size:1.55rem;line-height:1.25;margin:.4rem 0}
-.sub{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#3f4c5a}
-.stamp{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.78rem;background:#e8e0d4;border:1px solid #c9a36a;padding:12px;word-break:break-all}
-pre.body{white-space:pre-wrap;word-break:break-word;font-family:Georgia,serif;font-size:1.05rem;line-height:1.55;margin:1rem 0 0}
-a{color:#3f4c5a}
-nav a{margin-right:12px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:.85rem}
-</style>
-</head>
-<body>
-<div class="wrap">
-<nav>
-<a href="../index.html">Archive home</a>
-<a href="../WHISTLEBLOWERS-TESTIMONY-OF-SURVIVAL-PRESERVATION-AND-FAITH-EXTENDED-FIRST-PERSON-RECORD-2-OCTOBER-2026.pdf">PDF</a>
-<a href="../docs/source-texts/WHISTLEBLOWERS-TESTIMONY-EXTENDED-FIRST-PERSON-RECORD-2-OCTOBER-2026.txt">Canonical text</a>
-</nav>
-<p class="kicker">UPDATED FRIDAY 2 OCTOBER 2026 · EXTENDED FIRST PERSON RECORD · FULL TEXT · FINDING AID · NOT A COURT · NOT A VERDICT</p>
-<h1>Whistleblower’s Testimony of Survival, Preservation and Faith</h1>
-<p class="sub">Extended first-person record · Friday 2nd October, 2026<br/>Dr Barran Resonance Dodger</p>
-<p>Every word of this extended record is below, as supplied, including the author’s own spelling. Nothing on this page is a summary, a redaction, or a placeholder. This tab was updated. No other page’s wording was removed to place it. The opening statement on the landing page is unchanged.</p>
-<div class="stamp">
-<strong>SHA-256 STAMP</strong><br/>
-Canonical UTF-8 text (../docs/source-texts/WHISTLEBLOWERS-TESTIMONY-EXTENDED-FIRST-PERSON-RECORD-2-OCTOBER-2026.txt)<br/>
-f9fa2a9064e994e5054e4cae14cc87100aee10cd65b04caefa03510d2e69c7ff<br/><br/>
-PDF file (../WHISTLEBLOWERS-TESTIMONY-OF-SURVIVAL-PRESERVATION-AND-FAITH-EXTENDED-FIRST-PERSON-RECORD-2-OCTOBER-2026.pdf) · 118861 bytes<br/>
-d48d618391f63239048003e566a957087f27cc8c9bfce2d794938a8144406403<br/><br/>
-The PDF and this page both carry the same words. The hashes above are of the preserved files. Existing PDFs and pages were not rewritten in order to print a hash inside them.
-</div>
-<pre class="body">WHISTLEBLOWER’S TESTIMONY OF SURVIVAL, PRESERVATION AND FAITH - EXTENDED FIRST PERSON RECORD Friday 2nd October, 2026
+WHISTLEBLOWER’S TESTIMONY OF SURVIVAL, PRESERVATION AND FAITH - EXTENDED FIRST PERSON RECORD Friday 2nd October, 2026
 
 THE BARRAN DODGER ARCHIVE
 
@@ -414,7 +377,3 @@ THEY COULD NOT ERASE WHAT GOD PRESERVED.
 THE MIRROR REMAINS. THE RECORD REMAINS. THE WITNESS REMAINS.
 
 :::
-</pre>
-</div>
-</body>
-</html>
