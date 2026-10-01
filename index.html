@@ -552,9 +552,7 @@ pre{
 
     <a
       class="dt-open"
-      href="THE-DOCUMENTARY-TRAP-MAJOR-EVIDENCE-JUSTICE-DOCUMENT.pdf"
-      target="_blank"
-      rel="noopener">
+      href="#documentary-trap">
       OPEN DOCUMENT
     </a>
 
@@ -586,14 +584,13 @@ pre{
     if(document.getElementById("documentary-trap-main-tab"))
       return;
 
-    var tab = document.createElement("a");
+    var tab = document.createElement("button");
 
+    tab.type = "button";
     tab.id = "documentary-trap-main-tab";
     tab.className = "tab documentary-trap-main-tab";
-    tab.href = "THE-DOCUMENTARY-TRAP-MAJOR-EVIDENCE-JUSTICE-DOCUMENT.pdf";
-    tab.target = "_blank";
-    tab.rel = "noopener";
-    tab.textContent = "THE DOCUMENTARY TRAP — PROPHETIC DOCUMENT";
+    tab.setAttribute("data-page", "documentary-trap");
+    tab.textContent = "THE DOCUMENTARY TRAP";
 
     tabs.insertBefore(tab, tabs.firstChild);
 
@@ -814,6 +811,8 @@ PUBLIC DOCUMENTARY ARCHIVE
 What Follows Betrayal
 </a>
 
+<a href="#documentary-trap" data-page="documentary-trap">The Documentary Trap</a>
+
 <a href="#home" data-page="home">Home</a>
 
 <a href="#justice-mandate" data-page="justice-mandate">
@@ -1002,6 +1001,10 @@ Forensic reports
 
 
 <nav class="tabs" id="tabs">
+
+<button type="button" class="tab documentary-trap-main-tab" id="documentary-trap-main-tab" data-page="documentary-trap">
+THE DOCUMENTARY TRAP
+</button>
 
 <button type="button" class="tab" data-page="what-follows-betrayal" style="border-color:#f1c75b;color:#f1c75b;font-weight:700">
 What Follows Betrayal
@@ -1234,7 +1237,8 @@ var ROUTES={
 "master-evidence-register":"tabs/master-evidence-register.html",
 "devil-is-a-liar":"tabs/the-devil-is-a-liar.html",
 "mobbing":"tabs/mobbing-safety-of-the-crowd.html",
-"sha256-stamps":"tabs/sha256-stamps.html"
+"sha256-stamps":"tabs/sha256-stamps.html",
+"documentary-trap":"tabs/documentary-trap.html"
 
 };
 
