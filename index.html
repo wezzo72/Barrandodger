@@ -60,6 +60,106 @@ html,body{
 #landing a{color:var(--link)}
 #landing p{margin:0 0 1rem}
 
+#landing .welcome{
+  background:linear-gradient(180deg,#f8f3ea 0%,#efe2cc 100%);
+  color:#2c241c;
+  border:1px solid #e4d3b4;
+  border-radius:18px;
+  padding:26px 22px 20px 24px;
+  margin:0 0 28px;
+  box-shadow:0 18px 40px rgba(0,0,0,.32);
+  position:relative;
+  overflow:hidden
+}
+
+#landing .welcome::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  width:8px;
+  background:linear-gradient(180deg,#8B2E2A 0%,#c9a36a 100%)
+}
+
+#landing .welcome h1{
+  font-family:Georgia,"Times New Roman",serif;
+  color:#1c1612;
+  font-size:clamp(1.9rem,6.2vw,2.55rem);
+  line-height:1.12;
+  margin:0 0 .4rem
+}
+
+#landing .welcome .sub{
+  color:#8B2E2A;
+  font-weight:700;
+  margin:0 0 1rem;
+  font-size:1.02rem
+}
+
+#landing .welcome p{
+  color:#3a3228
+}
+
+#landing .welcome h2{
+  font-family:Georgia,"Times New Roman",serif;
+  color:#3f4c5a;
+  font-size:1.28rem;
+  margin:1.15rem 0 .4rem
+}
+
+#landing .welcome .kept{
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:1.12rem;
+  line-height:1.4;
+  color:#1c1612;
+  background:#fffaf3;
+  border-left:4px solid #c9a36a;
+  padding:12px 14px;
+  border-radius:0 12px 12px 0
+}
+
+#landing .welcome .distinctions{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8px;
+  margin:0 0 1rem
+}
+
+#landing .welcome .distinctions p{
+  margin:0;
+  background:#fffaf3;
+  border:1px solid #e6d7bc;
+  border-radius:12px;
+  padding:11px 12px;
+  font-family:Georgia,"Times New Roman",serif;
+  color:#1c1612
+}
+
+#landing .welcome .close{
+  margin:0;
+  background:#3f4c5a;
+  color:#f7f1e6;
+  border-radius:12px;
+  padding:14px 16px
+}
+
+#landing .welcome .close em{
+  font-style:normal;
+  font-family:Georgia,"Times New Roman",serif;
+  color:#f7f1e6
+}
+
+@media(max-width:560px){
+  #landing .welcome{
+    padding:22px 16px 16px 20px;
+    border-radius:16px
+  }
+  #landing .welcome .distinctions{
+    grid-template-columns:1fr
+  }
+}
+
 .enter{
   display:inline-block;
   margin-top:12px;
@@ -414,6 +514,8 @@ pre{
 
 <div id="landing">
 
+<section class="welcome">
+
 <h1>About the Archive</h1>
 
 <p class="sub">Barran Dodger Archive — public documentary record</p>
@@ -422,7 +524,7 @@ pre{
 Through the Barran Dodger Archive and associated digital repositories, McLean has assembled government correspondence, legal and administrative records, research materials, personal testimony, creative works and other documentary material. The archive is designed not merely as autobiography, but as a public finding aid through which the underlying record can be examined.
 </p>
 
-<p>The defining feature of the work is not simply what is written. It is what is preserved.</p>
+<p class="kept">The defining feature of the work is not simply what is written. It is what is preserved.</p>
 
 <p>
 For decades, McLean has accumulated correspondence, government records, legal documents, institutional responses, personal records, research materials and other evidence relating to events that he says fundamentally altered the course of his life. Rather than allowing that material to remain dispersed across agencies, proceedings, correspondence chains and private files, he has sought to bring it together into a searchable and publicly accessible documentary archive.
@@ -436,16 +538,18 @@ For decades, McLean has accumulated correspondence, government records, legal do
 
 <p>It is to make examination possible.</p>
 
-<p>
-A testimony is testimony.<br/>
-A document is a document.<br/>
-An allegation is an allegation.<br/>
-A finding requires evidence and proper determination.
-</p>
+<div class="distinctions">
+<p>A testimony is testimony.</p>
+<p>A document is a document.</p>
+<p>An allegation is an allegation.</p>
+<p>A finding requires evidence and proper determination.</p>
+</div>
 
-<p>
+<p class="close">
 <em>Preserve the evidence. Preserve the testimony. Make the record public. Let the evidence be examined.</em>
 </p>
+
+</section>
 
 
 <section id="archive-opening-statement" style="margin:0 0 24px;padding:22px 20px;border:1px solid #3a3328;border-left:5px solid #c9a36a;background:#120e08;color:#e8e0d4;">
