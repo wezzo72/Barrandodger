@@ -4,13 +4,13 @@
   "oneDocument": true,
   "redacted": false,
   "summarised": false,
-  "timestamp": "2026-10-02T03:20:00+10:00",
+  "timestamp": "2026-10-02T06:52:00+10:00",
   "timezone": "Australia/Sydney",
   "documentPath": "statements/THE-PARADOX-OF-SURVIVAL-FROM-ERASURE-TO-VINDICATION.txt",
-  "documentBytes": 6254,
-  "documentSha256": "d770c75f906ee4aa73c13cce6521163cfec3930d233723fb9a54341e8bdee93c",
+  "documentBytes": 15602,
+  "documentSha256": "76b0c33f9b8854ddb9b7a650ca33bc66aa63dbea00cf5ad1a40e92dae6b5127b",
   "hashRule": "SHA-256 of UTF-8 bytes: index + newline + timestamp + newline + previous + newline + payload + newline. Payload of block 0 is GENESIS. Payload of block 1 is the document SHA-256.",
-  "note": "This is an archive hash-chain sealed to the exact file bytes. It is not a Bitcoin transaction and not a court finding.",
+  "note": "Block 1 sealed the 03:20 text. Block 2 seals this file after the verbatim addition of 2 October 2026, 6:52am Sydney. Archive hash-chain of the exact file bytes. Not a Bitcoin transaction. Not a court finding.",
   "blocks": [
     {
       "index": 0,
@@ -25,6 +25,17 @@
       "previous": "621794efaf680c8b512ff0b1b6ba2df02a11cdb4566ade10f627a4d03b2cbe73",
       "payload": "d770c75f906ee4aa73c13cce6521163cfec3930d233723fb9a54341e8bdee93c",
       "hash": "d5ac3ed19a9e4ae87b2e92f9367253773007e59f97a258057cb6b23bfb58340e"
+    },
+    {
+      "index": 2,
+      "timestamp": "2026-10-02T06:52:00+10:00",
+      "previous": "d5ac3ed19a9e4ae87b2e92f9367253773007e59f97a258057cb6b23bfb58340e",
+      "payload": "76b0c33f9b8854ddb9b7a650ca33bc66aa63dbea00cf5ad1a40e92dae6b5127b",
+      "pdfSha256": "815a216e6270d3bfd0c9910e821395cfc42038243634398ca4259696adf6a26f",
+      "hash": "946cb97eff46ae5a923a4f4e1d42014209a713083769285e53a33b6f9792a79c"
     }
-  ]
+  ],
+  "pdfPath": "statements/THE-PARADOX-OF-SURVIVAL-FROM-ERASURE-TO-VINDICATION.pdf",
+  "pdfSha256": "815a216e6270d3bfd0c9910e821395cfc42038243634398ca4259696adf6a26f",
+  "pdfBytes": 69134
 }
