@@ -595,6 +595,73 @@ pre{
     padding:15px
   }
 }
+
+#landing .hit-strip{
+  background:#fffaf3;
+  border:1px solid #e4d3b4;
+  border-left:6px solid #3f4c5a;
+  border-radius:16px;
+  padding:14px 14px 12px;
+  margin:0 0 14px;
+}
+#landing .hit-strip .nk{
+  color:#3f4c5a;
+  letter-spacing:.14em;
+  font-size:.72rem;
+  font-weight:800;
+  margin:0 0 8px;
+}
+#landing .hit-nums{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8px;
+  margin:0 0 10px;
+}
+#landing .hit-nums div{
+  background:#f3eee4;
+  border:1px solid #e6d7bc;
+  border-radius:12px;
+  padding:10px 12px;
+}
+#landing .hit-nums span{
+  display:block;
+  font-size:.72rem;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:#5a4e43;
+}
+#landing .hit-nums strong{
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:1.55rem;
+  color:#1a140f;
+}
+#landing .web-hit{
+  display:block;
+  width:100%;
+  padding:12px 14px;
+  background:#3f4c5a;
+  color:#f7f1e6;
+  border:0;
+  border-radius:12px;
+  font-weight:800;
+  letter-spacing:.12em;
+  cursor:pointer;
+}
+#landing .web-hit:disabled{opacity:.7;cursor:default}
+#landing .hit-note{
+  color:#5a4e43;
+  font-size:.82rem;
+  margin:8px 0 0;
+}
+#landing .hit-note a{color:#8B2E2A;font-weight:700}
+.visit-chip{
+  margin-left:8px;
+  color:#c9a36a;
+  letter-spacing:0;
+  font-weight:600;
+  text-transform:none;
+}
+
 </style>
 </head>
 
@@ -1155,6 +1222,17 @@ This introduction does not convert archive assertions into judicial findings.</p
 
 </div>
 
+
+<div class="hit-strip" id="hit-strip">
+<p class="nk">ATTENDANCE · NOT A FINDING</p>
+<div class="hit-nums">
+<div><span>Page visits</span><strong id="visit-count">—</strong></div>
+<div><span>Web hits</span><strong id="webhit-count">—</strong></div>
+</div>
+<button type="button" class="web-hit" id="web-hit">RECORD A WEB HIT</button>
+<p class="hit-note">A page visit is counted once per browser session. A web hit is counted only when this button is pressed. File downloads are counted separately. <a href="stats.html">Keeper’s ledger</a></p>
+</div>
+
 <button type="button" class="enter" id="enter">
 ENTER THE RECORD
 </button>
@@ -1171,6 +1249,7 @@ ENTER THE RECORD
 <div class="eyebrow">
 PUBLIC DOCUMENTARY ARCHIVE
 <a href="#archive-about" id="overview">Overview</a>
+<span class="visit-chip" id="visit-chip"></span>
 </div>
 
 <h1>THE WITNESS REMAINS</h1>
@@ -3314,37 +3393,92 @@ route();
 
 })();
 </script>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Your Page Title</title>
-  <!-- other head elements -->
-</head>
-<body>
-  <!-- your page content -->
-  <!-- Hit counter -->
-<div style="margin-top:20px; text-align:center; opacity:0.75; font-size:0.8rem;">
-  <a href="[https://hits.sh/wezzo72.github.io/Barrandodger/](https://hits.sh/wezzo72.github.io/Barrandodger/)" 
-     target="_blank" 
-     rel="noopener" 
-     aria-label="Website visitor statistics">
-    <img src="[https://hits.sh/wezzo72.github.io/Barrandodger.svg?style=flat&label=visits](https://hits.sh/wezzo72.github.io/Barrandodger.svg?style=flat&label=visits)" 
-         alt="Website visits" 
-         loading="lazy" 
-         style="height:20px; border:0;">
-  </a>
-</div>
 
+<script>
+(function(){
+  var API = "https://countapi.mileshilliard.com/api/v1/";
+  var VISITS = "bd-wezzo72-archive-visits";
+  var HITS = "bd-wezzo72-archive-webhits";
+  var DOWNLOADS = "bd-wezzo72-archive-downloads";
 
-  <script>
-    // your existing JavaScript
-  </script>
+  function paint(id, value){
+    var n = Number(value);
+    if (!isFinite(n)) return;
+    var text = n.toLocaleString();
+    var el = document.getElementById(id);
+    if (el) el.textContent = text;
+    if (id === "visit-count"){
+      var chip = document.getElementById("visit-chip");
+      if (chip) chip.textContent = text + " visits";
+    }
+  }
 
-  
+  function read(key){
+    return fetch(API + "get/" + key, {cache:"no-store"})
+      .then(function(r){ return r.json(); })
+      .then(function(d){ return d && d.value != null ? d.value : 0; })
+      .catch(function(){ return null; });
+  }
 
-</body>
-</html>
+  function bump(key){
+    var img = new Image();
+    img.referrerPolicy = "no-referrer";
+    img.src = API + "hit/" + encodeURIComponent(key) + "?t=" + Date.now();
+    return new Promise(function(resolve){
+      setTimeout(function(){ read(key).then(resolve); }, 350);
+    });
+  }
+
+  function show(key, id, shouldHit){
+    var job = shouldHit ? bump(key) : read(key);
+    job.then(function(value){
+      if (value == null) return;
+      paint(id, value);
+    });
+  }
+
+  var seen = false;
+  try { seen = sessionStorage.getItem("bd-visit") === "1"; } catch(e) {}
+  show(VISITS, "visit-count", !seen);
+  if (!seen){
+    try { sessionStorage.setItem("bd-visit", "1"); } catch(e) {}
+  }
+  show(HITS, "webhit-count", false);
+
+  var btn = document.getElementById("web-hit");
+  if (btn){
+    btn.addEventListener("click", function(){
+      btn.disabled = true;
+      btn.textContent = "RECORDING";
+      bump(HITS).then(function(value){
+        if (value != null) paint("webhit-count", value);
+        btn.disabled = false;
+        btn.textContent = "WEB HIT RECORDED";
+        setTimeout(function(){ btn.textContent = "RECORD A WEB HIT"; }, 1600);
+      });
+    });
+  }
+
+  function slug(name){
+    return String(name || "file")
+      .toLowerCase()
+      .replace(/\.[a-z0-9]+$/, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")
+      .slice(0, 80) || "file";
+  }
+
+  document.addEventListener("click", function(event){
+    var link = event.target.closest && event.target.closest("a[href]");
+    if (!link) return;
+    var href = link.getAttribute("href") || "";
+    if (!/\.(pdf|ots|txt|zip|epub)(\?|$)/i.test(href)) return;
+    var name = decodeURIComponent(href.split("/").pop().split("?")[0] || "file");
+    bump(DOWNLOADS);
+    bump("bd-wezzo72-dl-" + slug(name));
+  }, true);
+})();
+</script>
 
 </body>
 </html>
