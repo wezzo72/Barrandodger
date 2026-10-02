@@ -1,0 +1,28 @@
+name: Preserve Website Backup
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * 0"
+
+permissions:
+  contents: write
+
+jobs:
+  preserve:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run preservation script
+        run: python3 "barrandodger.com website backup/preserve-backup.py"
+
+      - name: Commit preservation records
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "barrandodger.com website backup/preservation/"
+          git diff --cached --quiet || git commit -m "Automated preservation record"
+          git pushl
