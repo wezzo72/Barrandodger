@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="noindex"/>
+<title>Keeper’s ledger — Barran Dodger Archive</title>
+<style>
+:root{--ink:#241c16;--muted:#5a4e43;--line:#e4d3b4;--ox:#8B2E2A;--slate:#3f4c5a}
+*{box-sizing:border-box}
+body{margin:0;background:#070b10;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.sheet{max-width:760px;margin:18px auto 36px;padding:18px 14px 22px;background:linear-gradient(#8B2E2A,#8B2E2A) 0 0/100% 7px no-repeat,linear-gradient(#c9a36a,#c9a36a) 0 7px/100% 3px no-repeat,#f3eee4;border:1px solid #e4d5bc;border-radius:22px}
+h1{font-family:Georgia,serif;font-size:1.7rem;margin:.2rem 0 .3rem}
+.kicker{letter-spacing:.14em;font-size:.72rem;color:var(--ox);font-weight:800}
+p{color:#2c241c;line-height:1.5}
+a{color:var(--ox)}
+label{display:block;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:12px 0 6px}
+input{width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;font:inherit;background:#fffaf3}
+button{margin-top:10px;padding:12px 14px;border:0;border-radius:12px;background:var(--slate);color:#f7f1e6;font-weight:800;letter-spacing:.08em;cursor:pointer}
+.err{color:var(--ox);font-weight:700}
+table{width:100%;border-collapse:collapse;margin:12px 0 18px;background:#fffaf3}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+td.n{text-align:right;font-family:Georgia,serif;font-size:1.15rem;white-space:nowrap}
+.note{font-size:.86rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<main class="sheet">
+<p class="kicker">FINDING AID · NOT A COURT · NOT A VERDICT</p>
+<h1>Keeper’s ledger</h1>
+<p>Attendance and download counts for the public archive. This page is a reading copy of the counters. It is not a judicial record.</p>
+<p><a href="./">Return to the archive</a></p>
+<section id="gate">
+<label for="pass">Ledger passphrase</label>
+<input id="pass" type="password" autocomplete="current-password" placeholder="Passphrase"/>
+<button type="button" id="unlock">OPEN THE LEDGER</button>
+<p class="err" id="err" hidden>That passphrase does not open the ledger.</p>
+</section>
+<section id="board" hidden>
+<p class="note">Counts increase when a browser loads the archive, when someone presses Record a web hit, or when a file link is clicked. A refresh of the same session does not add another page visit. The counters can be inflated by anyone who calls the public counting address, so treat them as attendance marks, not proof.</p>
+<table>
+<thead><tr><th>Mark</th><th>Count</th></tr></thead>
+<tbody id="rows"></tbody>
+</table>
+<button type="button" id="refresh">REFRESH COUNTS</button>
+<p class="note">GitHub’s own traffic page, which requires your GitHub login, shows repository views and clones. It does not count these file downloads. <a href="https://github.com/wezzo72/Barrandodger/graphs/traffic">Open GitHub traffic</a>.</p>
+</section>
+</main>
+<script>
+(function(){
+  var HASH = "fce8fd003a64faf96beee6b474f02913bd8b6b16d51b437ff953db8dc9e75d78";
+  var API = "https://countapi.mileshilliard.com/api/v1/get/";
+  var FILES = ['BARRAN-DODGER-HIS-THERAPY-DOG-NEEDS-YOUR-URGENT-HELP.pdf', 'MOBBING-AND-THE-SAFETY-OF-THE-CROWD.pdf', 'THE JUSTICE MANDATE.pdf', 'THE-DOCUMENTARY-TRAP-MAJOR-EVIDENCE-JUSTICE-DOCUMENT.pdf', 'THE-DOCUMENTARY-TRAP-FINAL-CLEAN-TEXT.pdf', 'THE-DOCUMENTARY-TRAP-FINAL-CLEAN-TEXT.pdf.ots', 'WHISTLEBLOWERS-TESTIMONY-OF-SURVIVAL-PRESERVATION-AND-FAITH-EXTENDED-FIRST-PERSON-RECORD-2-OCTOBER-2026.pdf', 'WHISTLEBLOWERS-TESTIMONY-OF-SURVIVAL-PRESERVATION-AND-FAITH-EXTENDED-FIRST-PERSON-RECORD-2-OCTOBER-2026.pdf.ots', 'THE-PARADOX-OF-SURVIVAL-FROM-ERASURE-TO-VINDICATION.pdf', 'MOBBING-AND-THE-SAFETY-OF-THE-CROWD.txt'];
+  function slug(name){
+    return String(name).toLowerCase().replace(/\.[a-z0-9]+$/,"").replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"").slice(0,80);
+  }
+  function sha256(text){
+    return crypto.subtle.digest("SHA-256", new TextEncoder().encode(text)).then(function(buf){
+      return Array.from(new Uint8Array(buf)).map(function(b){ return b.toString(16).padStart(2,"0"); }).join("");
+    });
+  }
+  function getCount(key){
+    return fetch(API + encodeURIComponent(key), {cache:"no-store"})
+      .then(function(r){ return r.json(); })
+      .then(function(d){ return d && d.value != null ? Number(d.value) : 0; })
+      .catch(function(){ return 0; });
+  }
+  function row(label, value){
+    return "<tr><td>" + label + "</td><td class=\"n\">" + Number(value).toLocaleString() + "</td></tr>";
+  }
+  function load(){
+    var jobs = [
+      getCount("bd-wezzo72-archive-visits").then(function(n){ return ["Page visits", n]; }),
+      getCount("bd-wezzo72-archive-webhits").then(function(n){ return ["Web-hit button", n]; }),
+      getCount("bd-wezzo72-archive-downloads").then(function(n){ return ["File downloads", n]; })
+    ].concat(FILES.map(function(name){
+      return getCount("bd-wezzo72-dl-" + slug(name)).then(function(n){ return [name, n]; });
+    }));
+    Promise.all(jobs).then(function(items){
+      document.getElementById("rows").innerHTML = items.map(function(item){ return row(item[0], item[1]); }).join("");
+    });
+  }
+  function openBoard(){
+    document.getElementById("gate").hidden = true;
+    document.getElementById("board").hidden = false;
+    load();
+  }
+  document.getElementById("unlock").addEventListener("click", function(){
+    sha256(document.getElementById("pass").value).then(function(hex){
+      if (hex === HASH){
+        try { sessionStorage.setItem("bd-ledger","1"); } catch(e) {}
+        openBoard();
+      } else {
+        document.getElementById("err").hidden = false;
+      }
+    });
+  });
+  document.getElementById("pass").addEventListener("keydown", function(e){
+    if (e.key === "Enter") document.getElementById("unlock").click();
+  });
+  document.getElementById("refresh").addEventListener("click", load);
+  try { if (sessionStorage.getItem("bd-ledger") === "1") openBoard(); } catch(e) {}
+})();
+</script>
+</body>
+</html>
