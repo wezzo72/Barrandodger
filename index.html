@@ -1,737 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
-<title>THE WITNESS REMAINS — Barran Dodger Archive</title>
-
-<style>
-:root{
-  --bg:#070b10;
-  --panel:#0e151d;
-  --panel2:#151f29;
-  --ink:#eef3f7;
-  --muted:#a9b4bf;
-  --line:#293642;
-  --accent:#f1c75b;
-  --link:#8fc9ff
-}
-
-*{box-sizing:border-box}
-
-html,body{
-  margin:0;
-  background:var(--bg);
-  color:var(--ink);
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-  line-height:1.55
-}
-
-#landing{
-  max-width:740px;
-  margin:16px auto 36px;
-  padding:18px 14px 22px;
-  background:
-    linear-gradient(#8B2E2A,#8B2E2A) 0 0/100% 7px no-repeat,
-    linear-gradient(#c9a36a,#c9a36a) 0 7px/100% 3px no-repeat,
-    #f3eee4;
-  color:#241c16;
-  border:1px solid #e4d5bc;
-  border-radius:22px;
-  box-shadow:0 28px 70px rgba(0,0,0,.48);
-  overflow-wrap:anywhere
-}
-
-#landing h1{
-  font-family:Georgia,"Times New Roman",serif;
-  font-size:clamp(1.7rem,6vw,2.35rem);
-  line-height:1.15;
-  margin:.2rem 0 .35rem;
-  color:#1a140f
-}
-
-#landing h2{
-  font-family:Georgia,"Times New Roman",serif;
-  color:#3f4c5a;
-  font-size:1.15rem;
-  margin:1.2rem 0 .5rem
-}
-
-#landing .kicker{
-  letter-spacing:.16em;
-  font-size:.72rem;
-  color:#8B2E2A;
-  font-weight:800
-}
-
-#landing .sub{
-  color:#5a4e43;
-  margin:0 0 1rem
-}
-
-#landing a{color:#8B2E2A}
-#landing p{margin:0 0 1rem;color:#2c241c}
-
-#landing .welcome{
-  background:linear-gradient(180deg,#f8f3ea 0%,#efe2cc 100%);
-  color:#2c241c;
-  border:1px solid #e4d3b4;
-  border-radius:18px;
-  padding:26px 22px 20px 24px;
-  margin:0 0 28px;
-  box-shadow:0 18px 40px rgba(0,0,0,.32);
-  position:relative;
-  overflow:hidden
-}
-
-#landing .welcome::before{
-  content:"";
-  position:absolute;
-  left:0;
-  top:0;
-  bottom:0;
-  width:8px;
-  background:linear-gradient(180deg,#8B2E2A 0%,#c9a36a 100%)
-}
-
-#landing .welcome h1{
-  font-family:Georgia,"Times New Roman",serif;
-  color:#1c1612;
-  font-size:clamp(1.9rem,6.2vw,2.55rem);
-  line-height:1.12;
-  margin:0 0 .4rem
-}
-
-#landing .welcome .sub{
-  color:#8B2E2A;
-  font-weight:700;
-  margin:0 0 1rem;
-  font-size:1.02rem
-}
-
-#landing .welcome p{
-  color:#3a3228
-}
-
-#landing .welcome h2{
-  font-family:Georgia,"Times New Roman",serif;
-  color:#3f4c5a;
-  font-size:1.28rem;
-  margin:1.15rem 0 .4rem
-}
-
-#landing .welcome .kept{
-  font-family:Georgia,"Times New Roman",serif;
-  font-size:1.12rem;
-  line-height:1.4;
-  color:#1c1612;
-  background:#fffaf3;
-  border-left:4px solid #c9a36a;
-  padding:12px 14px;
-  border-radius:0 12px 12px 0
-}
-
-#landing .welcome .distinctions{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:8px;
-  margin:0 0 1rem
-}
-
-#landing .welcome .distinctions p{
-  margin:0;
-  background:#fffaf3;
-  border:1px solid #e6d7bc;
-  border-radius:12px;
-  padding:11px 12px;
-  font-family:Georgia,"Times New Roman",serif;
-  color:#1c1612
-}
-
-#landing .welcome .close{
-  margin:0;
-  background:#3f4c5a;
-  color:#f7f1e6;
-  border-radius:12px;
-  padding:14px 16px
-}
-
-#landing .welcome .close em{
-  font-style:normal;
-  font-family:Georgia,"Times New Roman",serif;
-  color:#f7f1e6
-}
-
-@media(max-width:560px){
-  #landing .welcome{
-    padding:22px 16px 16px 20px;
-    border-radius:16px
-  }
-  #landing .welcome .distinctions{
-    grid-template-columns:1fr
-  }
-}
-
-#landing .opening{
-  margin:0 0 18px;
-  padding:20px 16px 8px;
-  background:#fffaf3;
-  border:1px solid #e6d5b8;
-  border-left:6px solid #8B2E2A;
-  border-radius:16px;
-  font-family:Georgia,"Times New Roman",serif;
-  font-size:1.05rem;
-  line-height:1.62;
-  box-shadow:0 8px 24px rgba(60,40,20,.06)
-}
-
-#landing .opening p{color:#2a221b}
-#landing .opening .kicker{color:#8B2E2A}
-
-#landing .notice{
-  background:#fffaf3!important;
-  color:#2c241c!important;
-  border:1px solid #e4d3b4!important;
-  border-left:6px solid #8B2E2A!important;
-  border-radius:16px!important;
-  padding:16px 14px!important;
-  margin:0 0 14px!important;
-  box-shadow:0 8px 22px rgba(60,40,20,.05)
-}
-
-#landing .notice p{color:#2c241c!important}
-#landing .notice .nk{
-  color:#8B2E2A!important;
-  letter-spacing:.14em;
-  font-size:.72rem;
-  font-weight:800
-}
-#landing .notice a{
-  color:#8B2E2A!important;
-  font-weight:700
-}
-
-#landing .notice-gold{border-left-color:#8a6a32!important}
-#landing .notice-slate{border-left-color:#3f4c5a!important}
-
-#landing .wayfinding a{
-  display:inline-block;
-  margin:4px 6px 4px 0;
-  padding:7px 10px;
-  background:#3f4c5a;
-  color:#f7f1e6!important;
-  text-decoration:none;
-  border-radius:999px;
-  font-weight:650;
-  line-height:1.35
-}
-
-#landing #documentary-trap-major-paper{
-  border-radius:18px;
-  overflow:hidden;
-  margin:8px 0 16px
-}
-
-#landing .enter{
-  display:block;
-  width:100%;
-  margin-top:6px;
-  padding:16px 18px;
-  background:linear-gradient(180deg,#9a4038,#8B2E2A);
-  color:#fffaf3;
-  border:0;
-  border-radius:14px;
-  font-weight:800;
-  font-size:1.05rem;
-  letter-spacing:.12em;
-  cursor:pointer;
-  box-shadow:0 12px 26px rgba(139,46,42,.28)
-}
-
-.enter{
-  display:inline-block;
-  margin-top:12px;
-  padding:14px 28px;
-  background:var(--accent);
-  color:#070b10;
-  border:0;
-  border-radius:6px;
-  font-weight:800;
-  font-size:1rem;
-  cursor:pointer
-}
-
-#archive[hidden],
-#landing[hidden]{
-  display:none!important
-}
-
-#chrome{
-  position:sticky;
-  top:0;
-  z-index:50;
-  background:rgba(7,11,16,.98);
-  border-bottom:1px solid var(--line)
-}
-
-#chrome header{
-  padding:10px 16px 6px;
-  max-width:1200px;
-  margin:0 auto
-}
-
-.eyebrow{
-  font-size:.72rem;
-  letter-spacing:.12em;
-  color:var(--accent);
-  font-weight:700
-}
-
-.eyebrow a{
-  color:var(--link);
-  margin-left:10px;
-  font-weight:600;
-  letter-spacing:0;
-  text-transform:none
-}
-
-#chrome h1{
-  font-size:clamp(1.05rem,3.5vw,1.55rem);
-  margin:4px 0 0;
-  line-height:1.2
-}
-
-.identity{
-  display:flex;
-  flex-wrap:wrap;
-  gap:6px;
-  margin:8px 0 0
-}
-
-.identity a{
-  display:inline-block;
-  text-decoration:none;
-  color:var(--ink);
-  border:1px solid var(--accent);
-  padding:4px 9px;
-  border-radius:999px;
-  font-size:.75rem
-}
-
-.identity a.on{
-  background:var(--accent);
-  color:#070b10;
-  font-weight:700
-}
-
-.forensic-wrap{
-  background:#0b0a08;
-  border-bottom:1px solid #3a3328
-}
-
-.forensic-label{
-  font-size:.68rem;
-  letter-spacing:.16em;
-  text-transform:uppercase;
-  color:#c9a36a;
-  padding:8px 16px 0;
-  font-weight:700
-}
-
-.tabs.forensic-tabs{
-  border-top:0;
-  background:#0b0a08
-}
-
-.tab.forensic-tab{
-  border-radius:2px;
-  border-color:#3f4c5a;
-  background:#14110c;
-  color:#e8e0d4;
-  font-size:.76rem
-}
-
-.tab.forensic-tab .n{
-  color:#c9a36a;
-  font-weight:700;
-  margin-right:.3em
-}
-
-.tab.forensic-tab.active{
-  background:#c9a36a;
-  color:#0b0a08;
-  border-color:#c9a36a
-}
-
-.sent-wrap{
-  background:#0a0c10;
-  border-bottom:1px solid #2a323c
-}
-
-.sent-label{
-  font-size:.68rem;
-  letter-spacing:.12em;
-  text-transform:uppercase;
-  color:#8fc9ff;
-  padding:8px 16px 0;
-  font-weight:700
-}
-
-.tabs.sent-tabs{
-  border-top:0;
-  background:#0a0c10
-}
-
-.tab.sent-tab{
-  border-radius:2px;
-  border-color:#2a3a4a;
-  background:#0e151d;
-  color:#c5d4e0;
-  font-size:.72rem;
-  max-width:none
-}
-
-.tab.sent-tab.active{
-  background:#8fc9ff;
-  color:#070b10;
-  border-color:#8fc9ff
-}
-
-.tabs{
-  display:flex;
-  flex-wrap:nowrap;
-  overflow-x:auto;
-  gap:4px;
-  padding:6px 12px 10px;
-  border-top:1px solid var(--line)
-}
-
-.tab{
-  flex:0 0 auto;
-  border:1px solid var(--line);
-  background:var(--panel);
-  color:var(--ink);
-  padding:6px 9px;
-  border-radius:8px;
-  white-space:nowrap;
-  cursor:pointer;
-  font:inherit;
-  font-size:.8rem
-}
-
-.tab.active{
-  background:var(--panel2);
-  border-color:var(--accent);
-  color:var(--accent)
-}
-
-#content{
-  max-width:1200px;
-  margin:0 auto;
-  padding:18px 16px 24px;
-  min-height:50vh
-}
-
-#content a{color:var(--link)}
-
-.src-root{
-  max-width:900px;
-  margin:0 auto
-}
-
-#colophon{
-  border-top:1px solid var(--line);
-  padding:16px;
-  max-width:1200px;
-  margin:0 auto;
-  color:var(--muted);
-  font-size:.82rem
-}
-
-.error{color:#f88}
-
-.pdf-page{
-  max-width:1180px;
-  margin:0 auto;
-  padding:4px 0 40px
-}
-
-.pdf-page h1{
-  font-size:clamp(1.4rem,4vw,2rem);
-  line-height:1.2;
-  margin:.2rem 0 .6rem
-}
-
-.pdf-page h2{
-  font-size:1.2rem;
-  color:#f1c75b;
-  margin:1.8rem 0 .6rem
-}
-
-.pdf-page h3{
-  font-size:1rem;
-  color:#f1c75b;
-  margin:1.4rem 0 .4rem
-}
-
-.pdf-page p{margin:.55rem 0}
-
-.pdf-page ul{
-  margin:.5rem 0 1rem 1.2rem
-}
-
-.pdf-page li{margin:.25rem 0}
-
-.pdf-page a{
-  color:var(--link);
-  text-decoration:underline
-}
-
-.pdf-intro{
-  color:var(--muted);
-  margin:0 0 10px
-}
-
-.pdf-actions{
-  display:flex;
-  flex-wrap:wrap;
-  gap:10px;
-  margin:12px 0 16px
-}
-
-.pdf-actions a{
-  display:inline-block;
-  border:1px solid var(--accent);
-  padding:8px 12px;
-  border-radius:6px;
-  text-decoration:none
-}
-
-.pdf-actions a.primary{
-  background:var(--accent);
-  color:#070b10!important;
-  font-weight:700
-}
-
-.pdf-frame{
-  display:block;
-  width:100%;
-  height:78vh;
-  min-height:620px;
-  border:1px solid var(--line);
-  background:#fff;
-  margin:0 0 28px
-}
-
-.help-section{
-  background:#0e151d;
-  border:1px solid var(--line);
-  padding:18px;
-  margin:18px 0
-}
-
-.help-section.gold{
-  border-color:#c9a36a;
-  background:#14110c
-}
-
-.help-section.red{
-  border-color:#c4452f;
-  border-left:5px solid #f1c75b;
-  background:#160e0c
-}
-
-.help-kicker{
-  font-size:.72rem;
-  letter-spacing:.14em;
-  color:#f1c75b;
-  font-weight:800;
-  margin:0 0 8px
-}
-
-.help-quote{
-  font-size:1.05rem;
-  font-weight:700;
-  color:#f3eee4;
-  margin:12px 0
-}
-
-.help-end{
-  text-align:center;
-  font-weight:800;
-  letter-spacing:.08em;
-  color:#f1c75b;
-  margin:24px 0
-}
-
-.help-links{
-  display:flex;
-  flex-wrap:wrap;
-  gap:8px;
-  margin:12px 0
-}
-
-.help-links a{
-  display:inline-block;
-  border:1px solid var(--line);
-  background:#0b1117;
-  padding:7px 10px;
-  border-radius:6px;
-  text-decoration:none!important
-}
-
-pre{
-  max-width:100%;
-  overflow-x:auto
-}
-
-@media(max-width:700px){
-  .pdf-frame{
-    height:70vh;
-    min-height:520px
-  }
-
-  .help-section{
-    padding:15px
-  }
-}
-</style>
-</head>
-
-<body>
-
-<div id="landing">
-
-<section class="welcome">
-
-<h1>About the Archive</h1>
-
-<p class="sub">Barran Dodger Archive — public documentary record</p>
-
-<p>
-Through the Barran Dodger Archive and associated digital repositories, McLean has assembled government correspondence, legal and administrative records, research materials, personal testimony, creative works and other documentary material. The archive is designed not merely as autobiography, but as a public finding aid through which the underlying record can be examined.
-</p>
-
-<p class="kept">The defining feature of the work is not simply what is written. It is what is preserved.</p>
-
-<p>
-For decades, McLean has accumulated correspondence, government records, legal documents, institutional responses, personal records, research materials and other evidence relating to events that he says fundamentally altered the course of his life. Rather than allowing that material to remain dispersed across agencies, proceedings, correspondence chains and private files, he has sought to bring it together into a searchable and publicly accessible documentary archive.
-</p>
-
-<h2>Purpose</h2>
-
-<p>The Barran Dodger Archive is intended to provide readers with access to the underlying record.</p>
-
-<p>Its purpose is not to require belief.</p>
-
-<p>It is to make examination possible.</p>
-
-<div class="distinctions">
-<p>A testimony is testimony.</p>
-<p>A document is a document.</p>
-<p>An allegation is an allegation.</p>
-<p>A finding requires evidence and proper determination.</p>
-</div>
-
-<p class="close">
-<em>Preserve the evidence. Preserve the testimony. Make the record public. Let the evidence be examined.</em>
-</p>
+<section id="archive-opening-first-person-record">
+
+<h2>ARCHIVE OPENING — FIRST PERSON RECORD</h2>
+
+<p>Australia — its agencies, services and platforms whose purpose is to protect vulnerable people like me, and its people, ganged up on me collectively, politically and systemically. It was and is a cowardly societal mobbing. I was physically exiled, isolated, impoverished and tortured.</p>
+
+<p>For more than 35 years, the conditions of detriment imposed upon me have generated an extensive documentary record. The Government’s own official documents, in its own words and on its own letterheads, are preserved and published throughout this archive. This is an undeniable published and verifiable documentary record that anyone can examine against the underlying sources. The record documents a 35-year campaign of detriment that even solicited a fatal suicide attempt.</p>
+
+<p>God revived me from what FOI records call a fatal injury. Five years on from being resurrected, the conditions that solicited my suicide have continued through total stonewalling, financial abuse, isolation, denial of Legal Aid, an absurd inversion of Legal Aid’s very existence and purpose, and zero meaningful pathway to justice. These conditions deliberately recreate my situation of poverty, abuse, neglect, surveillance, entrapment and literal torture.</p>
+
+<p>I was betrayed by humanity for a divine-ordained purpose: to be a vessel for God’s glory.</p>
+
+<p>This website is the beginning of God’s revenge and vengeance against corruption. It is the reaction to a spiritual crime: deliberately harming one of God’s anointed and then pretending not to know what they were doing. My perpetrators know what they did. They enjoy harming me. Now, through this archive of their own official documented evidence, their cowardice is exposed, and their targeting of someone who never caused anyone harm is officially on the record.</p>
+
+<p>I was not expected to survive the exile, homelessness, isolation, humiliation, ritual character assassination, total administrative annihilation, intimate betrayal and familial betrayal. Yet I survived. I am alive. The people who believed they could erase me now have to confront the fact that I survived and that the evidence survived with me.</p>
+
+<p>They underestimated me. More importantly, they underestimated the God who sustained and preserved my life and this testimony for His purposes. They picked a fight with the God who kept me alive. They now realise that what they attempted to destroy has survived in documentary form and has been published for the world to examine.</p>
+
+<p>The spiritual term I use is sacrilege: a violation of something sacred. I understand what happened to me as a spiritual crime because I believe that deliberately harming one of God’s anointed, while attempting to erase the consequences and deny responsibility, constitutes a profound violation of what is sacred.</p>
+
+<p>God preserved me, preserved my testimony and allowed my betrayal to reveal character and corruption. I was forced to rely upon Him while collecting the evidence. That evidence is now published here on this website.</p>
+
+<p>An NDIS provider was forced to sign an NDA after confirming that a woman was paid to fabricate a report intended to destroy my reputation. Federal Police referred to the event as “regretful” but, importantly, “consensual”. No crime occurred apart from the weaponisation of my sexuality by homophobic law enforcement acting out of gay hate over an entire lifetime while pretending that they did not.</p>
+
+<p>The same person also confirmed in published text messages an alleged assassination attempt against a Federal Minister. I have expressly described that as an allegation. It has never been disproven by an official finding, nor has it been officially established as a fabrication. The published material therefore remains part of the documentary record requiring examination.</p>
+
+<p>I have been hospitalised in psychiatric institutions sixteen times. Those hospitalisations occurred within the broader circumstances of homelessness, designed poverty, institutional complicity and inaction by law enforcement and the legal fraternity. I am currently in exile and isolation, banned from Legal Aid, which is a betrayal of the very reason Legal Aid exists, and banned or restricted from the Ombudsman and NACC.</p>
+
+<p>I have pursued international avenues from within the same democracy of which I am a citizen, including matters involving the OHCHR and the International Criminal Court. The archive records the international reference material, including OHCHR reference UR/UST/23/AUS/17. These international submissions form part of the documented chronology of my attempts to obtain protection, scrutiny and justice.</p>
+
+<p>I demanded arrest so that my name could be cleared. No one came. No arrest occurred. No charge was laid against me. No criminal trial or other ordinary legal process was commenced against me in which the allegations could be tested. The significance is profound: I was subjected to the consequences of accusations and characterisation without being given the ordinary legal process through which guilt or innocence could be determined.</p>
+
+<p>No one acknowledges my relationship with a former ASIO agent. The Prime Minister referred me to the Attorney-General. The Attorney-General’s office referred me to the Ombudsman, where I am banned, and to AGIS to investigate ASIO. Those processes did not acknowledge or validate the five-year marriage-like relationship that I say existed.</p>
+
+<p>The PM Anthony Albanese responded to my plea and long letter via the Attorney-General Mark Dreyfus and his office. The AG office deliberately sent me to agencies they were aware were a dead end for me, such as the Ombudsman, where I’m banned, AGIS, who are tasked with investigating covert agencies who already refused to investigate my former fiancé of five years and ASIO employee who financially abused and exploited me and for which no single professional will even acknowledge the five year relationship even existed. My former fiancé’s ability to manipulate society systemically and politically is intelligent, sneaky, manipulative and frankly impressive.</p>
+
+<p>My paranoia is a documented reality. Here is a covert government agent parked outside my squat in Footscray circa 2022. (Link to video)</p>
+
+<p>Link</p>
+
+<p>Senior former fraud investigator of the NDIS Tony Ridley was deployed as a drug fuelled honey pot trap. He would have been well aware I was an unprotected whistleblower as a former support worker for the same agency. I recorded the encounter for safety. He indicated he may have killed people. I then learned he was a returned SAS soldier with a PHD in counter terrorism surveillance. I published the recording to save both his hide and mine, but he claims I ruined his life, so he electronically stalked me over me fleeing across three states via my phone and satellite technology, deploying live paid gang stalkers to intimidate and harass me wherever I went, leaving my existence in a state of fight or flight, scared for my life.</p>
+
+<p>Tony revealed a formal investigation of me with the aim to discredit and destroy me and made threats revealing his contact with my family, a woman I had regrettable but consensual sex with, and also knowledge of Alan (surname withheld), my younger partner from circa 2026-7, of which he otherwise would not have any knowledge of.</p>
+
+<p>He claimed it was very easy to compel and convince my family — sister Jodie, brother Brad, my parents Mum, Dad, Doug and April McLean, and Bruce McMaster, my wealthy uncle — to align with his targeting of me, essentially relating their cooperation as a deliberate attempt to isolate me and weaponise my blood family against me, not that I didn’t know that anyway, but he revealed the cruel not so covert communication with significant persons in my life.</p>
+
+<p>The NDIS send support workers already worded up on my case who are already committed to never helping me or creating a meaningful change to my circumstances. They are literally paid gang stalking social surveillance who then report detail about me to the corrupt powers that be linked to my entrapment by Able Point and of being entrapped to the same agency I used to work for and whose minister I allege attempted to assassinate me via a Lebanese criminal pretending to be a provider who I was told was “known in certain circles” and sent “to erase me”.</p>
+
+<p>I was only ever hospitalised after I attempted to obtain Legal Aid to have that relationship acknowledged for an equitable separation following what I describe as five years of financial exploitation by him. The relationship, the financial exploitation, the attempts to obtain legal recognition and the subsequent events are all part of the chronology preserved within this archive.</p>
+
+<p>There was total family betrayal beginning in childhood. Members of my family attended the funeral of the person who sexually abused me as a child only days after he died, on the same day as my fatal suicide attempt. They protected the abuser while I was falsely accused of being morally depraved.</p>
+
+<p>My family has totally excommunicated me. I believe they have been positioned to financially benefit from my permanent erasure and calculated death. The circumstances surrounding that family betrayal form part of the wider record of detriment that I have preserved.</p>
+
+<p>This was an allegiance of personal and professional interests that never thought their secret would be exposed.</p>
+
+<p>Now it is exposed.</p>
+
+<p>Not as revenge, but for truth and universal balance.</p>
+
+<p>In hindsight, I understand that my blood family were only ever invested in my harm, detriment and financial disadvantage, and that this was what their actions ultimately produced throughout my life. God allowed the betrayal to reveal their character, reveal corruption and reveal my divinely ordained purpose.</p>
+
+<p>The day of reckoning has arrived.</p>
+
+<p>I was not expected to survive the exile, homelessness, isolation, humiliation, ritual character assassination, total administrative annihilation, intimate betrayal and familial betrayal. Now I am alive, and those who participated in what happened to me must confront the fact that I survived.</p>
+
+<p>They are terrified because they underestimated me.</p>
+
+<p>They underestimated my survival.</p>
+
+<p>They underestimated the evidence.</p>
+
+<p>They underestimated the power of publication.</p>
+
+<p>Most importantly, they underestimated the God who sustained and preserved my life.</p>
+
+<p>They picked a fight with the God who kept me alive, preserved my testimony and brought me through circumstances in which I was not expected to survive. They now realise that my anointing, my divine protection and the testimony preserved through my survival cannot simply be erased.</p>
+
+<p>You cannot win a fight against God.</p>
+
+<p>You cannot erase what God has preserved.</p>
+
+<p>You cannot destroy testimony that has survived the destruction intended to silence it.</p>
+
+<p>God allowed my betrayal so that I would rely upon Him, collect the evidence and preserve the truth. What was once hidden, dispersed or denied is now published here on this website.</p>
+
+<p>The documents are here.</p>
+
+<p>The correspondence is here.</p>
+
+<p>The chronology is here.</p>
+
+<p>The decisions are here.</p>
+
+<p>The omissions are here.</p>
+
+<p>The institutional responses are here.</p>
+
+<p>The evidence is here.</p>
+
+<p>The world can now read it.</p>
+
+<p>This archive is therefore not merely the story of what happened to me. It is the surviving documentary record of what happened around me, what institutions recorded, what they did, what they failed to do, and what they cannot now pretend was never documented.</p>
+
+<p>The day of reckoning has arrived because the evidence has arrived.</p>
+
+<p>And I am still alive.</p>
 
 </section>
-
-
-<section id="archive-opening-statement" class="opening">
-  <p class="kicker" style="margin:0 0 12px;">ARCHIVE OPENING — FIRST PERSON RECORD</p>
-
-  <p>Australia — its agencies, services and platforms whose purpose is to protect vulnerable people like me, and its people, ganged up on me collectively, politically and systemically. It was and is a cowardly societal mobbing. I was physically exiled, isolated, impoverished and tortured.</p>
-
-  <p>For more than 35 years, the conditions of detriment imposed upon me have generated an extensive documentary record. The Government’s own official documents, in its own words and on its own letterheads, are preserved and published throughout this archive. This is an undeniable published and verifiable documentary record that anyone can examine against the underlying sources. The record documents a 35-year campaign of detriment that even solicited a fatal suicide attempt.</p>
-
-  <p>God revived me from what FOI records call a fatal injury. Five years on from being resurrected, the conditions that solicited my suicide have continued through total stonewalling, financial abuse, isolation, denial of Legal Aid, an absurd inversion of Legal Aid’s very existence and purpose, and zero meaningful pathway to justice. These conditions deliberately recreate my situation of poverty, abuse, neglect, surveillance, entrapment and literal torture.</p>
-
-  <p>I was betrayed by humanity for a divine-ordained purpose: to be a vessel for God’s glory.</p>
-
-  <p>This website is the beginning of God’s revenge and vengeance against corruption. It is the reaction to a spiritual crime: deliberately harming one of God’s anointed and then pretending not to know what they were doing. My perpetrators know what they did. They enjoy harming me. Now, through this archive of their own official documented evidence, their cowardice is exposed, and their targeting of someone who never caused anyone harm is officially on the record.</p>
-
-  <p>I was not expected to survive the exile, homelessness, isolation, humiliation, ritual character assassination, total administrative annihilation, intimate betrayal and familial betrayal. Yet I survived. I am alive. The people who believed they could erase me now have to confront the fact that I survived and that the evidence survived with me.</p>
-
-  <p>They underestimated me. More importantly, they underestimated the God who sustained and preserved my life and this testimony for His purposes. They picked a fight with the God who kept me alive. They now realise that what they attempted to destroy has survived in documentary form and has been published for the world to examine.</p>
-
-  <p>The spiritual term I use is sacrilege: a violation of something sacred. I understand what happened to me as a spiritual crime because I believe that deliberately harming one of God’s anointed, while attempting to erase the consequences and deny responsibility, constitutes a profound violation of what is sacred.</p>
-
-  <p>God preserved me, preserved my testimony and allowed my betrayal to reveal character and corruption. I was forced to rely upon Him while collecting the evidence. That evidence is now published here on this website.</p>
-
-  <p>An NDIS provider was forced to sign an NDA after confirming that a woman was paid to fabricate a report intended to destroy my reputation. Federal Police referred to the event as “regretful” but, importantly, “consensual”. No crime occurred apart from the weaponisation of my sexuality by homophobic law enforcement acting out of gay hate over an entire lifetime while pretending that they did not.</p>
-
-  <p>The same person also confirmed in published text messages an alleged assassination attempt against a Federal Minister. I have expressly described that as an allegation. It has never been disproven by an official finding, nor has it been officially established as a fabrication. The published material therefore remains part of the documentary record requiring examination.</p>
-
-  <p>I have been hospitalised in psychiatric institutions sixteen times. Those hospitalisations occurred within the broader circumstances of homelessness, designed poverty, institutional complicity and inaction by law enforcement and the legal fraternity. I am currently in exile and isolation, banned from Legal Aid, which is a betrayal of the very reason Legal Aid exists, and banned or restricted from the Ombudsman and NACC.</p>
-
-  <p>I have pursued international avenues from within the same democracy of which I am a citizen, including matters involving the OHCHR and the International Criminal Court. The archive records the international reference material, including OHCHR reference UR/UST/23/AUS/17. These international submissions form part of the documented chronology of my attempts to obtain protection, scrutiny and justice.</p>
-
-  <p>I demanded arrest so that my name could be cleared. No one came. No arrest occurred. No charge was laid against me. No criminal trial or other ordinary legal process was commenced against me in which the allegations could be tested. The significance is profound: I was subjected to the consequences of accusations and characterisation without being given the ordinary legal process through which guilt or innocence could be determined.</p>
-
-  <p>No one acknowledges my relationship with a former ASIO agent. The Prime Minister referred me to the Attorney-General. The Attorney-General’s office referred me to the Ombudsman, where I am banned, and to AGIS to investigate ASIO. Those processes did not acknowledge or validate the five-year marriage-like relationship that I say existed.</p>
-
-  <p>I was only ever hospitalised after I attempted to obtain Legal Aid to have that relationship acknowledged for an equitable separation following what I describe as five years of financial exploitation by him. The relationship, the financial exploitation, the attempts to obtain legal recognition and the subsequent events are all part of the chronology preserved within this archive.</p>
-
-  <p>There was total family betrayal beginning in childhood. Members of my family attended the funeral of the person who sexually abused me as a child only days after he died, on the same day as my fatal suicide attempt. They protected the abuser while I was falsely accused of being morally depraved.</p>
-
-  <p>My family has totally excommunicated me. I believe they have been positioned to financially benefit from my permanent erasure and calculated death. The circumstances surrounding that family betrayal form part of the wider record of detriment that I have preserved.</p>
-
-  <p>This was an allegiance of personal and professional interests that never thought their secret would be exposed.</p>
-
-  <p>Now it is exposed.</p>
-
-  <p>Not as revenge, but for truth and universal balance.</p>
-
-  <p>In hindsight, I understand that my blood family were only ever invested in my harm, detriment and financial disadvantage, and that this was what their actions ultimately produced throughout my life. God allowed the betrayal to reveal their character, reveal corruption and reveal my divinely ordained purpose.</p>
-
-  <p>The day of reckoning has arrived.</p>
-
-  <p>I was not expected to survive the exile, homelessness, isolation, humiliation, ritual character assassination, total administrative annihilation, intimate betrayal and familial betrayal. Now I am alive, and those who participated in what happened to me must confront the fact that I survived.</p>
-
-  <p>They are terrified because they underestimated me.</p>
-
-  <p>They underestimated my survival.</p>
-
-  <p>They underestimated the evidence.</p>
-
-  <p>They underestimated the power of publication.</p>
-
-  <p>Most importantly, they underestimated the God who sustained and preserved my life.</p>
-
-  <p>They picked a fight with the God who kept me alive, preserved my testimony and brought me through circumstances in which I was not expected to survive. They now realise that my anointing, my divine protection and the testimony preserved through my survival cannot simply be erased.</p>
-
-  <p>You cannot win a fight against God.</p>
-
-  <p>You cannot erase what God has preserved.</p>
-
-  <p>You cannot destroy testimony that has survived the destruction intended to silence it.</p>
-
-  <p>God allowed my betrayal so that I would rely upon Him, collect the evidence and preserve the truth. What was once hidden, dispersed or denied is now published here on this website.</p>
-
-  <p>The documents are here.</p>
-
-  <p>The correspondence is here.</p>
-
-  <p>The chronology is here.</p>
-
-  <p>The decisions are here.</p>
-
-  <p>The omissions are here.</p>
-
-  <p>The institutional responses are here.</p>
-
-  <p>The evidence is here.</p>
-
-  <p>The world can now read it.</p>
-
-  <p>This archive is therefore not merely the story of what happened to me. It is the surviving documentary record of what happened around me, what institutions recorded, what they did, what they failed to do, and what they cannot now pretend was never documented.</p>
-
-  <p>The day of reckoning has arrived because the evidence has arrived.</p>
-
-  <p style="margin:0;">And I am still alive.</p>
 </section>
 
 <div class="notice">
