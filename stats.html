@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keeper’s ledger — Barran Dodger</title>
+<style>
+body{margin:0;background:#f3eee4;color:#241c16;font-family:Georgia,"Times New Roman",serif}
+main{max-width:720px;margin:0 auto;padding:28px 18px 48px}
+h1{font-size:1.8rem;margin:0 0 .3rem}
+.sub{color:#3f4c5a;margin:0 0 1.2rem}
+.live{font-size:.85rem;letter-spacing:.08em;color:#8B2E2A;font-weight:700}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 18px}
+.card{background:#fffaf3;border:1px solid #e4d3b4;border-left:6px solid #3f4c5a;border-radius:12px;padding:12px 14px}
+.card span{display:block;font-family:-apple-system,sans-serif;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:#5c5148}
+.card strong{font-size:1.8rem}
+form{display:flex;gap:8px;margin:8px 0 0}
+input,button{font:inherit;padding:8px 10px}
+input{flex:1;border:1px solid #e4d3b4;background:#fff}
+button{background:#3f4c5a;color:#f3eee4;border:0;border-radius:8px}
+a{color:#8B2E2A}
+p{line-height:1.5}
+</style>
+</head>
+<body>
+<main>
+<p class="live" id="stamp">READING</p>
+<h1>Keeper’s ledger</h1>
+<p class="sub">Both sites. The numbers are read again every five seconds while this page is open. This page does not add a visit.</p>
+<h2>Barran Dodger Archive</h2>
+<div class="grid">
+<div class="card"><span>Page visits</span><strong id="a-visits">—</strong></div>
+<div class="card"><span>Web hits</span><strong id="a-hits">—</strong></div>
+<div class="card"><span>Downloads</span><strong id="a-dl">—</strong></div>
+</div>
+<h2>Barrandodger rebuild</h2>
+<div class="grid">
+<div class="card"><span>Page visits</span><strong id="r-visits">—</strong></div>
+<div class="card"><span>Downloads</span><strong id="r-dl">—</strong></div>
+</div>
+<h2>One file</h2>
+<p>Downloads of a named file are counted when the link is opened from a page that carries this counter. Look up the file name as it appears in the link.</p>
+<form id="look">
+<input id="file" name="file" placeholder="letter.pdf" autocomplete="off">
+<button type="submit">Look up</button>
+</form>
+<p id="file-result">—</p>
+<p><a href="index.html">Archive</a> · <a href="https://wezzo72.github.io/barrandodger-rebuild/">Rebuild</a></p>
+</main>
+<script>
+(function(){
+  var API = "https://countapi.mileshilliard.com/api/v1/get/";
+  var keys = {
+    "a-visits":"bd-wezzo72-archive-visits",
+    "a-hits":"bd-wezzo72-archive-webhits",
+    "a-dl":"bd-wezzo72-archive-downloads",
+    "r-visits":"bd-wezzo72-rebuild-visits",
+    "r-dl":"bd-wezzo72-rebuild-downloads"
+  };
+  function read(key){
+    return fetch(API + encodeURIComponent(key), {cache:"no-store"})
+      .then(function(r){ return r.json(); })
+      .then(function(d){ return d && d.value != null ? d.value : 0; })
+      .catch(function(){ return null; });
+  }
+  function paint(){
+    Object.keys(keys).forEach(function(id){
+      read(keys[id]).then(function(v){
+        var el = document.getElementById(id);
+        if (el && v != null) el.textContent = Number(v).toLocaleString();
+      });
+    });
+    var s = document.getElementById("stamp");
+    if (s) s.textContent = "LIVE · " + new Date().toLocaleTimeString();
+  }
+  function slug(name){
+    return String(name || "file").toLowerCase().replace(/\.[a-z0-9]+$/, "").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 80) || "file";
+  }
+  document.getElementById("look").addEventListener("submit", function(e){
+    e.preventDefault();
+    var name = document.getElementById("file").value.trim();
+    var key = "bd-wezzo72-dl-" + slug(name);
+    read(key).then(function(v){
+      document.getElementById("file-result").textContent = name + " — " + (v == null ? "unavailable" : Number(v).toLocaleString());
+    });
+  });
+  paint();
+  setInterval(paint, 5000);
+})();
+</script>
+</body>
+</html>
