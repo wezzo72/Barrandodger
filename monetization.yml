@@ -1,0 +1,38 @@
+# Public switches. Do not put payment secret keys, Stripe secrets, or AdSense approval claims in this file.
+# A false switch is not live. Empty URLs are not invented.
+monetization:
+  advertising: false
+  donations: true
+  memberships: false
+  publications: false
+  sponsorship: false
+  affiliates: false
+  newsletter: false
+  analytics: false
+
+adsense_publisher_id: ""
+donation_url: "support-the-archive.html#payid-bank"
+monthly_support_url: ""
+store_url: ""
+membership_url: ""
+newsletter_url: ""
+sponsorship_contact: ""
+analytics_id: ""
+affiliate_disclosure: "No affiliate links are active."
+
+# Already printed on the Barrandodger home page. Repeated, not a new account.
+payid: "0431300940"
+bank:
+  institution: "Commonwealth Bank"
+  account_name: "Richard McLean"
+  bsb: "063307"
+  account: "10140384"
+
+# When an approved publisher id is supplied and advertising is set to true,
+# an ad may be placed only in a header, a sidebar, or after a long editorial section.
+# These pages stay free of ads.
+ad_free_paths:
+  - archive-index.html
+  - dataset-methodology.html
+  - support-pathway.html
+  - official.html

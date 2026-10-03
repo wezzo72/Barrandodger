@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Dataset methodology — 4 October 2026</title>
+<style>
+body{margin:0;background:#f3eee4;color:#241c16;font:18px/1.55 Georgia,serif}
+main{max-width:820px;margin:0 auto;padding:28px 18px 72px}
+h1{font-size:1.7rem;line-height:1.2}
+h2{font-size:1.15rem;color:#3f4c5a;margin-top:1.6rem}
+a{color:#8B2E2A}
+table{width:100%;border-collapse:collapse;font-size:.95rem}
+th,td{border-bottom:1px solid #e4d3b4;text-align:left;padding:8px 6px;vertical-align:top}
+th{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:#3f4c5a}
+.note{background:#fffaf3;border-left:4px solid #3f4c5a;padding:12px 14px;margin:14px 0}
+code{font-size:.86rem}
+</style>
+</head>
+<body>
+<main>
+<p style="letter-spacing:.14em;font-size:.72rem;color:#8B2E2A;font-weight:700">FINDING AID · NOT A COURT · NOT A VERDICT</p>
+<h1>How the 4 October 2026 totals were counted</h1>
+<p>This page is the method. The numbers on the current-dataset block are taken from <a href="archive-manifest.json">archive-manifest.json</a>. Another person can repeat the count.</p>
+<div class="note">
+<p>A Git blob id means the file bytes match. It is not a SHA-256. A SHA-256 means a digest was recorded or could be computed. Neither one means that every sentence inside the file is true. Publication is not a finding.</p>
+</div>
+<h2>What was examined</h2>
+<p>On 4 October 2026 the public GitHub accounts <a href="https://github.com/wezzo72?tab=repositories">wezzo72</a> and <a href="https://github.com/drbarrandodger?tab=repositories">drbarrandodger</a> were listed. Every repository those accounts showed was opened. Eight had files. Three were empty: wezzo72/New, drbarrandodger/Bazdod-, and drbarrandodger/HTML-.</p>
+<p>For each repository with files, the default-branch git tree was read in full. GitHub reported none of those trees as truncated. The repositories are:</p>
+<ul>
+<li><a href="https://github.com/wezzo72/Barrandodger">wezzo72/Barrandodger</a></li>
+<li><a href="https://github.com/wezzo72/barrandodger-rebuild">wezzo72/barrandodger-rebuild</a></li>
+<li><a href="https://github.com/wezzo72/Backup">wezzo72/Backup</a></li>
+<li><a href="https://github.com/wezzo72/pdf-archive">wezzo72/pdf-archive</a></li>
+<li><a href="https://github.com/wezzo72/barran-dodger-archive">wezzo72/barran-dodger-archive</a> (a fork)</li>
+<li><a href="https://github.com/drbarrandodger/barran-dodger-archive">drbarrandodger/barran-dodger-archive</a></li>
+<li><a href="https://github.com/drbarrandodger/Barrandodger">drbarrandodger/Barrandodger</a> (a fork)</li>
+<li><a href="https://github.com/drbarrandodger/New-github-barran-dodger-website-">drbarrandodger/New-github-barran-dodger-website-</a></li>
+</ul>
+<h2>What was counted</h2>
+<p>A file instance is one path in one repository. The same bytes in another repository are another instance and the same document. Sameness of bytes is the Git blob id. Same id, counted once in a unique total. Different bytes are different documents, even if the filenames look alike. Files were not merged because a name looked similar.</p>
+<p>Paths inside <code>node_modules</code> are dependency files. 24,954 of those instances were excluded from the archive totals and are reported beside them. They are not evidence documents.</p>
+<p>A complete PDF, in this inventory, is a blob whose path ends in <code>.pdf</code> and whose size is greater than 500 bytes. Blobs of 500 bytes or fewer are counted separately as pointer or stub PDFs. That threshold comes from the earlier finding that many PDF paths in these trees are about 131-byte pointers, not the document.</p>
+<h2>Current totals</h2>
+<table>
+<thead><tr><th>Count</th><th>What it is</th></tr></thead>
+<tbody>
+<tr><td>3,215</td><td>Unique complete PDFs. This is the current PDF total across both accounts.</td></tr>
+<tr><td>3,667</td><td>Unique PDF blobs of every size, including stubs.</td></tr>
+<tr><td>452</td><td>Unique stub PDFs, 500 bytes or fewer.</td></tr>
+<tr><td>10,001</td><td>PDF file instances, including mirrors.</td></tr>
+<tr><td>21,211</td><td>Archive-path file instances, excluding node_modules. Not all of these are documents. HTML, text, JSON, and images are included.</td></tr>
+<tr><td>8,822</td><td>Unique blobs on those archive paths.</td></tr>
+<tr><td>8</td><td>Repositories with files. 3 further repositories were empty.</td></tr>
+</tbody>
+</table>
+<h2>Path keywords, not findings</h2>
+<p>Each unique complete PDF was labelled from words in its path. A file can carry more than one label. Do not add the rows. A label is not a court finding, and it is not a reading of the file.</p>
+<table>
+<thead><tr><th>Label</th><th>Unique complete PDFs</th><th>Words looked for</th></tr></thead>
+<tbody>
+<tr><td>Official or government path</td><td>410</td><td>official-drive, government-evidence, foi, ombudsman, oaic, ndia, ndis, comcare, aat-, ibac, lecc, ahrc, vocat, nacc</td></tr>
+<tr><td>Correspondence path</td><td>512</td><td>letter, email, gmail, correspondence</td></tr>
+<tr><td>Forensic path</td><td>437</td><td>forensic, report_0, chronology, evidence-record</td></tr>
+<tr><td>Statement or testimony path</td><td>211</td><td>statement, testimony, witness-remains, exile</td></tr>
+<tr><td>Legal path</td><td>45</td><td>legal-brief, legal brief, affidavit, tribunal</td></tr>
+<tr><td>Prophetic path</td><td>65</td><td>prophet, prophecy, prophetic</td></tr>
+<tr><td>Gospel path</td><td>62</td><td>gospel</td></tr>
+<tr><td>Essay path</td><td>43</td><td>essay, ai-essays</td></tr>
+<tr><td>No keyword matched</td><td>1,693</td><td>none of the above</td></tr>
+</tbody>
+</table>
+<p>Prophetic writing, gospel writing, testimony, and analysis stay in those classes. A hash does not move a text from testimony to fact.</p>
+<h2>Hashes</h2>
+<p><a href="https://github.com/wezzo72/Barrandodger/blob/main/SHA256SUMS.txt">SHA256SUMS.txt</a> contains 2,655 lines and 2,569 distinct SHA-256 values. A second list, in the gmail-drive sweep of 2 October 2026, contains 68. Those lists were read. The hashes were not recomputed against the files in this inventory. Three OpenTimestamps files (<code>.ots</code>) were found. The figure 891, printed on preserved pages as Bitcoin timestamps, was not reproduced from those three files. It remains on the preserved pages as a historical project-reported figure.</p>
+<h2>Years</h2>
+<p>808 of the 3,215 complete PDFs have a year from 1980 to 2026 written in the path. The earliest such year is 1981 and the latest is 2026. Files with no year in the name are not given a date. This is not the span of the archive. The sentence already on the archive page, January 1990 to June 2025, is the author's description and was not replaced.</p>
+<h2>Historical figures left standing</h2>
+<p>Older totals stay on the pages where they already appear. They are snapshots or project-reported figures, not this inventory's current total. They include 660 preservation pages, 48 and then 95 official-drive PDFs, 2,077 files, 562 files and 148 PDFs on 29 September 2026, and 2,840 PDFs with 5,583 files in wezzo72/Barrandodger alone. Preserved pages of the earlier public site also print 2,304, 3,643, 749, and 891. Those pages were not edited. 788 was not found as a document total. 4,082 was not found as a repository total.</p>
+<h2>What this count is not</h2>
+<ul>
+<li>Not a count of every page that has ever existed off GitHub.</li>
+<li>Not a count of Google Drive files that were never committed.</li>
+<li>Not a finding about any person or agency.</li>
+<li>Not a statement that two different PDFs with similar names are the same document. They are the same only when the bytes match.</li>
+<li>Not a SHA-256 of all 3,215 PDFs. That was not computed in this pass.</li>
+</ul>
+<p><a href="archive-index.html">Search the 3,215 PDFs</a> · <a href="archive-manifest.json">Manifest</a> · <a href="DATASET_CHANGELOG.md">Changelog</a> · <a href="index.html">Home</a></p>
+</main>
+</body>
+</html>
