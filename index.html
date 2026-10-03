@@ -633,9 +633,13 @@ pre{
 }
 #landing .hit-nums{
   display:grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:1fr 1fr 1fr;
   gap:8px;
   margin:0 0 10px;
+}
+@media (max-width:640px){
+  #landing .hit-nums{grid-template-columns:1fr 1fr}
+  #landing .hit-nums div:last-child{grid-column:1 / -1}
 }
 #landing .hit-nums div{
   background:#f3eee4;
@@ -1250,9 +1254,10 @@ This introduction does not convert archive assertions into judicial findings.</p
 <div class="hit-nums">
 <div><span>Page visits</span><strong id="visit-count">—</strong></div>
 <div><span>Web hits</span><strong id="webhit-count">—</strong></div>
+<div><span>Downloads</span><strong id="download-count">—</strong></div>
 </div>
 <button type="button" class="web-hit" id="web-hit">RECORD A WEB HIT</button>
-<p class="hit-note">A page visit is counted once per browser session. A web hit is counted only when this button is pressed. File downloads are counted separately. <a href="stats.html">Keeper’s ledger</a></p>
+<p class="hit-note">A page visit is counted once per browser session. A web hit is counted only when this button is pressed. Downloads update when a PDF, text, zip or epub is opened. The figures refresh while this page is open. <a href="stats.html">Keeper’s ledger</a></p>
 </div>
 
 <button type="button" class="enter" id="enter">
@@ -3466,6 +3471,12 @@ route();
     try { sessionStorage.setItem("bd-visit", "1"); } catch(e) {}
   }
   show(HITS, "webhit-count", false);
+  show(DOWNLOADS, "download-count", false);
+  setInterval(function(){
+    read(VISITS).then(function(v){ if (v != null) paint("visit-count", v); });
+    read(HITS).then(function(v){ if (v != null) paint("webhit-count", v); });
+    read(DOWNLOADS).then(function(v){ if (v != null) paint("download-count", v); });
+  }, 8000);
 
   var btn = document.getElementById("web-hit");
   if (btn){
@@ -3496,7 +3507,7 @@ route();
     var href = link.getAttribute("href") || "";
     if (!/\.(pdf|ots|txt|zip|epub)(\?|$)/i.test(href)) return;
     var name = decodeURIComponent(href.split("/").pop().split("?")[0] || "file");
-    bump(DOWNLOADS);
+    bump(DOWNLOADS).then(function(v){ if (v != null) paint("download-count", v); });
     bump("bd-wezzo72-dl-" + slug(name));
   }, true);
 })();
