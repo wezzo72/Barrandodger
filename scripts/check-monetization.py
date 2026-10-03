@@ -23,6 +23,18 @@ blob = p.read_text()
 for needle in ("sk_live_", "sk_test_", "whsec_", "BEGIN PRIVATE", "AKIA"):
     if needle in blob:
         bad.append("secret-like value: " + needle)
+
+yml = Path("monetization.yml")
+if yml.exists():
+    text = yml.read_text()
+    for needle in ("sk_live_", "sk_test_", "whsec_", "BEGIN PRIVATE", "AKIA"):
+        if needle in text:
+            bad.append("secret-like value in yml: " + needle)
+    if "advertising: false" not in text:
+        bad.append("monetization.yml must keep advertising: false until an approved publisher id is supplied")
+    if 'adsense_publisher_id: ""' not in text:
+        bad.append("adsense_publisher_id must stay empty until Google has approved one")
+
 if bad:
     print("\n".join(bad))
     sys.exit(1)
