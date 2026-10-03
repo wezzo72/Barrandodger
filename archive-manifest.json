@@ -1,0 +1,281 @@
+{
+  "inventory_date": "2026-10-04",
+  "generated_note": "Counted from GitHub git trees of the default branches. Identical bytes share one Git blob id and are counted once in unique totals. Git blob id is not SHA-256. A hash does not establish that the words in a file are true.",
+  "accounts": [
+    "wezzo72",
+    "drbarrandodger"
+  ],
+  "repositories_with_files": [
+    {
+      "owner": "drbarrandodger",
+      "repo": "Barrandodger",
+      "default_branch_tree_sha": "bfe095b3483509d0525b74c5997468019f50ecd6",
+      "truncated": false,
+      "fork": true,
+      "blob_count": 189,
+      "html_url": "https://github.com/drbarrandodger/Barrandodger",
+      "archive_path_blobs": 189,
+      "node_modules_blobs": 0,
+      "pdf_instances": 48,
+      "unique_pdf_blobs": 48,
+      "unique_complete_pdf_blobs": 48
+    },
+    {
+      "owner": "drbarrandodger",
+      "repo": "New-github-barran-dodger-website-",
+      "default_branch_tree_sha": "903b657c239175403bd709116af63aefcdb27709",
+      "truncated": false,
+      "fork": false,
+      "blob_count": 1433,
+      "html_url": "https://github.com/drbarrandodger/New-github-barran-dodger-website-",
+      "archive_path_blobs": 1433,
+      "node_modules_blobs": 0,
+      "pdf_instances": 531,
+      "unique_pdf_blobs": 530,
+      "unique_complete_pdf_blobs": 530
+    },
+    {
+      "owner": "drbarrandodger",
+      "repo": "barran-dodger-archive",
+      "default_branch_tree_sha": "de6d18e604a9173981bc45e9dd406f0d143c3b9d",
+      "truncated": false,
+      "fork": false,
+      "blob_count": 16018,
+      "html_url": "https://github.com/drbarrandodger/barran-dodger-archive",
+      "archive_path_blobs": 3541,
+      "node_modules_blobs": 12477,
+      "pdf_instances": 1335,
+      "unique_pdf_blobs": 513,
+      "unique_complete_pdf_blobs": 64
+    },
+    {
+      "owner": "wezzo72",
+      "repo": "Backup",
+      "default_branch_tree_sha": "b9bc54042b44d390529712fc574470e9266a2cdd",
+      "truncated": false,
+      "fork": false,
+      "blob_count": 2230,
+      "html_url": "https://github.com/wezzo72/Backup",
+      "archive_path_blobs": 2230,
+      "node_modules_blobs": 0,
+      "pdf_instances": 631,
+      "unique_pdf_blobs": 613,
+      "unique_complete_pdf_blobs": 613
+    },
+    {
+      "owner": "wezzo72",
+      "repo": "Barrandodger",
+      "default_branch_tree_sha": "612d7e28e79d082c179e5d6f0c11ce0652c90f09",
+      "truncated": false,
+      "fork": false,
+      "blob_count": 5584,
+      "html_url": "https://github.com/wezzo72/Barrandodger",
+      "archive_path_blobs": 5584,
+      "node_modules_blobs": 0,
+      "pdf_instances": 2840,
+      "unique_pdf_blobs": 2603,
+      "unique_complete_pdf_blobs": 2564
+    },
+    {
+      "owner": "wezzo72",
+      "repo": "barran-dodger-archive",
+      "default_branch_tree_sha": "34e6c5608cc8cf2d560f3f34ff17dc511b843cb6",
+      "truncated": false,
+      "fork": true,
+      "blob_count": 18419,
+      "html_url": "https://github.com/wezzo72/barran-dodger-archive",
+      "archive_path_blobs": 5942,
+      "node_modules_blobs": 12477,
+      "pdf_instances": 3674,
+      "unique_pdf_blobs": 2706,
+      "unique_complete_pdf_blobs": 2254
+    },
+    {
+      "owner": "wezzo72",
+      "repo": "barrandodger-rebuild",
+      "default_branch_tree_sha": "e09f75216b1b5dc3233eb83bf380b86442f5b3b2",
+      "truncated": false,
+      "fork": false,
+      "blob_count": 2000,
+      "html_url": "https://github.com/wezzo72/barrandodger-rebuild",
+      "archive_path_blobs": 2000,
+      "node_modules_blobs": 0,
+      "pdf_instances": 661,
+      "unique_pdf_blobs": 661,
+      "unique_complete_pdf_blobs": 661
+    },
+    {
+      "owner": "wezzo72",
+      "repo": "pdf-archive",
+      "default_branch_tree_sha": "4d4e25e5f2c9b6c8588d202ed7a046170adc28ea",
+      "truncated": false,
+      "fork": false,
+      "blob_count": 292,
+      "html_url": "https://github.com/wezzo72/pdf-archive",
+      "archive_path_blobs": 292,
+      "node_modules_blobs": 0,
+      "pdf_instances": 281,
+      "unique_pdf_blobs": 249,
+      "unique_complete_pdf_blobs": 249
+    }
+  ],
+  "empty_repositories_examined": [
+    {
+      "owner": "wezzo72",
+      "repo": "New",
+      "note": "examined 4 October 2026; GitHub reports size 0"
+    },
+    {
+      "owner": "drbarrandodger",
+      "repo": "Bazdod-",
+      "note": "examined 4 October 2026; GitHub reports size 0"
+    },
+    {
+      "owner": "drbarrandodger",
+      "repo": "HTML-",
+      "note": "examined 4 October 2026; GitHub reports size 0"
+    }
+  ],
+  "exclusions": {
+    "node_modules_blob_instances": 24954,
+    "why": "Dependency trees are not archive documents. They are excluded from archive totals and reported separately."
+  },
+  "totals": {
+    "archive_path_file_instances": 21211,
+    "unique_archive_path_blobs": 8822,
+    "pdf_file_instances": 10001,
+    "unique_pdf_blobs": 3667,
+    "unique_complete_pdfs_over_500_bytes": 3215,
+    "unique_stub_pdfs_500_bytes_or_fewer": 452,
+    "complete_pdf_instances": 7329,
+    "stub_pdf_instances": 2672,
+    "path_keyword_categories_of_unique_complete_pdfs": {
+      "official_or_government_path": 410,
+      "correspondence_path": 512,
+      "statement_or_testimony_path": 211,
+      "no_path_keyword": 1693,
+      "gospel_path": 62,
+      "forensic_path": 437,
+      "legal_path": 45,
+      "essay_path": 43,
+      "prophetic_path": 65
+    },
+    "path_keyword_note": "Categories overlap. Do not add them. A keyword in a path is not an official finding and not proof of the file's contents.",
+    "other_archive_path_types": {
+      "html": {
+        "instances": 2664,
+        "unique_blobs": 1860
+      },
+      "txt": {
+        "instances": 1811,
+        "unique_blobs": 904
+      },
+      "md": {
+        "instances": 92,
+        "unique_blobs": 65
+      },
+      "json": {
+        "instances": 97,
+        "unique_blobs": 49
+      },
+      "csv": {
+        "instances": 2,
+        "unique_blobs": 2
+      },
+      "ots": {
+        "instances": 3,
+        "unique_blobs": 3
+      },
+      "jpg": {
+        "instances": 73,
+        "unique_blobs": 51
+      },
+      "jpeg": {
+        "instances": 210,
+        "unique_blobs": 71
+      },
+      "png": {
+        "instances": 4331,
+        "unique_blobs": 1038
+      },
+      "pages": {
+        "instances": 13,
+        "unique_blobs": 12
+      }
+    },
+    "sha256_lists_found_not_recomputed": {
+      "wezzo72/Barrandodger/SHA256SUMS.txt": {
+        "lines": 2655,
+        "distinct_hashes": 2569
+      },
+      "wezzo72/Barrandodger/gmail-drive-sweep/richarddrawsstuff-2026-10-02/SHA256SUMS.txt": {
+        "lines": 68,
+        "distinct_hashes": 68
+      }
+    },
+    "opentimestamps_files": 3,
+    "filename_year_span_complete_pdfs": {
+      "pdfs_with_a_year_in_the_path": 787,
+      "earliest_year_found": 1981,
+      "latest_year_found": 2026,
+      "note": "This is only the years written into filenames. It is not the span of the archive."
+    }
+  },
+  "single_repository_still_true": {
+    "wezzo72/Barrandodger": {
+      "files_blobs": 5584,
+      "pdf_instances": 2840,
+      "note": "Counted again inside this same inventory. Not the cross-account total."
+    },
+    "preservation_copy_indexed_pages": 660,
+    "official_drive_pdfs_in_wezzo72_Barrandodger": 95,
+    "earlier_official_drive_batch": 48
+  },
+  "historical_figures_not_used_as_current_totals": [
+    {
+      "figure": "2,077 files and about 1,765 described as government correspondence",
+      "status": "Still printed on the archive page as the author's earlier description. Not replaced."
+    },
+    {
+      "figure": "562 files and 148 PDFs",
+      "status": "29 September 2026 finding-aid snapshot of wezzo72/Barrandodger. Still printed."
+    },
+    {
+      "figure": "2,840 PDFs and 5,583 files",
+      "status": "wezzo72/Barrandodger only. Still true for that repository. Not the total of both accounts."
+    },
+    {
+      "figure": "660 indexed pages",
+      "status": "Still the preservation crawl of the public site. One shelf."
+    },
+    {
+      "figure": "48 official-drive PDFs",
+      "status": "20 September 2026 batch. The folder now holds 95. Both figures stay."
+    },
+    {
+      "figure": "2,304",
+      "status": "Project-reported on preserved public-site pages, including as blockchain-verified documents and as SHA-256 sealed exhibits. Not reproduced by this git-tree inventory."
+    },
+    {
+      "figure": "3,643",
+      "status": "Project-reported on preserved public-site pages as primary source documents. Not reproduced by this git-tree inventory."
+    },
+    {
+      "figure": "749 PDFs",
+      "status": "Project-reported in a preserved archive-index title. Not the current unique-PDF count."
+    },
+    {
+      "figure": "891",
+      "status": "Project-reported on preserved pages as Bitcoin blockchain timestamps. This inventory found 3 OpenTimestamps files, not 891. The 891 figure stays as historical and was not deleted from those pages."
+    },
+    {
+      "figure": "788 PDFs",
+      "status": "Not found as a document total in this inventory. One nearby string is inside an ABN, not a file count."
+    },
+    {
+      "figure": "4,082",
+      "status": "Not found as a repository total in the trees or presentation pages examined."
+    }
+  ],
+  "methodology_version": "2026-10-04-git-tree-v1"
+}

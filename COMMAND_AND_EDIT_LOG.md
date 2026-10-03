@@ -218,3 +218,12 @@ Mobbing and the Safety of the Crowd — Believing a Comfortable Lie Over a Hard 
 **Files:** index.html, finding-aid-all-sources.html, official.html, official-government-pdfs.html, official-full.html, official-catalogue.html, documents.html, README.md, holdings-4-october-2026.html, and the presentation pages of wezzo72/barrandodger-rebuild including the website-backup front page.
 
 **Rule restated:** Never remove a single word. Only add. Numbers that are the present total are updated by placing the new total beside the old figure.
+
+
+### COMMAND 24 — Cross-account dataset inventory (4 October 2026)
+
+**User command:** Rebuild and synchronise the dataset across both sites, using every repository on wezzo72 and drbarrandodger. Do not invent numbers. Do not delete historical figures. Do not merge files because names look similar. Do not treat testimony as a finding.
+
+**What was added:** archive-manifest.json, archive-index.json, archive-index.html, dataset-methodology.html, DATASET_CHANGELOG.md, and a current-dataset block on both home pages. The current unique complete PDF count is 3,215. Earlier figures were left where they already stood. Preserved crawl pages were not edited. No PDF was deleted or renamed.
+
+**Rule restated:** Never remove a single word. Only add.
