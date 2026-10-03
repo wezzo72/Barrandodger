@@ -703,6 +703,40 @@ pre{
   margin:0 0 8px;
 }
 
+
+#landing .welcome .concertina{
+  margin:1.1rem 0 .2rem;
+  border:1px solid #e4d3b4;
+  border-radius:12px;
+  overflow:hidden;
+  background:#fffaf3
+}
+#landing .welcome .concertina details + details{border-top:1px solid #e4d3b4}
+#landing .welcome .concertina summary{
+  font-family:Georgia,"Times New Roman",serif;
+  cursor:pointer;
+  padding:14px 16px;
+  color:#1c1612;
+  font-size:1.05rem;
+  line-height:1.3;
+  list-style:none
+}
+#landing .welcome .concertina summary::-webkit-details-marker{display:none}
+#landing .welcome .concertina summary::before{
+  content:"+";
+  display:inline-block;
+  width:1.1em;
+  margin-right:.35em;
+  color:#8B2E2A;
+  font-weight:800
+}
+#landing .welcome .concertina details[open] summary::before{content:"\2013"}
+#landing .welcome .concertina details p{
+  margin:0;
+  padding:0 16px 14px 2.4em;
+  color:#3a3228
+}
+
 </style>
 </head>
 
@@ -744,6 +778,21 @@ For decades, McLean has accumulated correspondence, government records, legal do
 <p class="close">
 <em>Preserve the evidence. Preserve the testimony. Make the record public. Let the evidence be examined.</em>
 </p>
+
+<div class="concertina" id="about-concertina">
+<details>
+<summary>What is the Barran Dodger Archive</summary>
+<p>The Barran Dodger Archive is the public documentary record of Dr Richard William McLean, published under the name Barran Dodger. Its title on the site is The Witness Remains. It is a finding aid. It is not a court, and it is not a verdict. It is not an autobiography alone. It gathers the Government’s own correspondence and decisions, the 35-year chronology, a cumulative legal brief, forensic papers, personal testimony, recordings, and the gospels and prophetic writings. The purpose is to let a reader examine the underlying file, not to require belief. Underlined words in the first-person account open the named document or recording. A link is not a finding.</p>
+</details>
+<details>
+<summary>Is it a legal archive</summary>
+<p>No. Not in the official sense. It holds legal and administrative documents: freedom-of-information decisions, ombudsman and disclosure letters, court correspondence, and a legal brief assembled from that paper. Those are legal records. The archive that holds them is not a court registry, a government archive, or a lawyer’s file. It has no power to admit evidence, to decide a fact, or to bind anyone. A document kept here remains the document it was. Being published in the archive does not make it a finding.</p>
+</details>
+<details>
+<summary>What is the purpose of the archive</summary>
+<p>The purpose is to make the record examinable. The Barran Dodger Archive exists so that the Government’s own letters, the decisions, the testimony, the recordings and the associated writings of more than 35 years can be read by anyone, in one place, against one another. The purpose is not to require belief. It is to make examination possible. A testimony stays testimony. A document stays a document. An allegation stays an allegation. A finding would require evidence and a proper determination. It is not there to convict, to replace a court, or to stand in for the agencies that wrote the letters. It is there so the paper is public, and so it can still be read.</p>
+</details>
+</div>
 
 </section>
 
