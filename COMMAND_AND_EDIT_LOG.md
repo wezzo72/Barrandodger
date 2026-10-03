@@ -227,3 +227,12 @@ Mobbing and the Safety of the Crowd — Believing a Comfortable Lie Over a Hard 
 **What was added:** archive-manifest.json, archive-index.json, archive-index.html, dataset-methodology.html, DATASET_CHANGELOG.md, and a current-dataset block on both home pages. The current unique complete PDF count is 3,215. Earlier figures were left where they already stood. Preserved crawl pages were not edited. No PDF was deleted or renamed.
 
 **Rule restated:** Never remove a single word. Only add.
+
+
+### COMMAND 25 — Support pathway (4 October 2026)
+
+**User command:** Repeat the dataset command so the site can be supported, and add a pathway. Read here as a pathway to the ICC.
+
+**What was added:** support-pathway.html on both sites, and links to it. PayID addresses already printed on the preserved support page are repeated, not merged. ABN 78 833 496 164 was checked on the Australian Business Register. barrandodger.com/donate returned 404 and was not offered as a live button. The page states that a gift is not a filing and that this archive is not the International Criminal Court.
+
+**Rule restated:** Never remove a single word. Only add.
