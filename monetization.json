@@ -1,8 +1,22 @@
 {
   "advertising": false,
   "adsense_publisher_id": "",
-  "donations": false,
-  "donation_url": "",
+  "donations": true,
+  "donation_url": "support-the-archive.html#payid-bank",
+  "donation_methods_connected": [
+    "payid",
+    "bank_transfer"
+  ],
+  "payid": "0431300940",
+  "bank": {
+    "institution": "Commonwealth Bank",
+    "account_name": "Richard McLean",
+    "bsb": "063307",
+    "account": "10140384",
+    "source": "Already printed on index.html. Repeated, not newly collected."
+  },
+  "paypal_url": "",
+  "stripe_payment_link": "",
   "monthly_support": false,
   "monthly_support_url": "",
   "publications": false,
@@ -17,5 +31,5 @@
   "newsletter_url": "",
   "analytics": false,
   "analytics_id": "",
-  "note": "Nothing in this file is a live payment, ad, membership, or mailing-list account. Empty strings mean not connected. Do not put API keys in this file."
+  "note": "PayID and bank details are the ones already printed on the home page. PayPal and Stripe URLs are empty. Do not put API keys in this file."
 }

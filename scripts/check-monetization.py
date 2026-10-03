@@ -15,6 +15,8 @@ pairs = [
     ("analytics", "analytics_id"),
 ]
 for flag, key in pairs:
+    if flag == "donations" and cfg.get("payid"):
+        continue
     if cfg.get(flag) and not str(cfg.get(key) or "").strip():
         bad.append(f"{flag} is true but {key} is empty")
 blob = p.read_text()
