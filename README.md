@@ -31,3 +31,9 @@ ORIGINAL EVIDENCE MUST REMAIN PRESERVED. Website presentation may change. Underl
 Forty-eight government / agency PDFs downloaded from Google Drive by file ID (plus unique Gmail agency-letter attachments) are stored in [`docs/official-drive/`](docs/official-drive/). Catalogue: [`data/official-drive-binaries-2026-09-20.json`](data/official-drive-binaries-2026-09-20.json). Listing: [drive-official-binaries.html](https://wezzo72.github.io/Barrandodger/drive-official-binaries.html).
 
 These are the party's copies. They are not court findings.
+
+
+## Recounted 4 October 2026
+
+Added beside the forty-eight of 20 September 2026, which are not removed. `docs/official-drive/` now holds 95 PDFs. The repository tree holds 5,583 files, including 2,840 PDFs and 1,813 HTML files. The barrandodger.com preservation copy remains 660 indexed pages. Shelves and links: [holdings-4-october-2026.html](holdings-4-october-2026.html). A filename is not a finding.
+

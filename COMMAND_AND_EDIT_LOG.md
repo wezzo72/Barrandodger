@@ -200,3 +200,21 @@ Mobbing and the Safety of the Crowd — Believing a Comfortable Lie Over a Hard 
 **Stamp list:** `SHA256SUMS.txt`, `statements/SHA256-ALL-PDFS-AND-PAGES.json`, and the tab SHA-256 stamps. Every PDF and every HTML page in the repository is listed.
 
 **Rule restated:** Never remove a single word again. Only ADD.
+
+
+### COMMAND 23 — Recount holdings and link official-drive PDFs that were not on the list (4 October 2026)
+
+**User command (intent):** The repositories have more data and more PDFs. Edit the words on both sites so the numbers and totals reflect the new evidence. Update links and relevant pages across both sites. Do not remove anything or any words. Update numbers, and edit copy so it matches the data.
+
+**What was counted, from the public git trees, and not from a summary of anyone’s testimony:**
+
+- wezzo72/Barrandodger at the then-current main: 5,583 files, 2,840 PDFs, 1,813 HTML files.
+- docs/official-drive: 95 PDFs. The page had said 48, and 48 of the 95 filenames were not linked from official.html.
+- Preservation copy, in both repositories: 660 indexed pages, 660 rendered HTML, 660 crawled page PDFs, 660 link files. The rebuild backup folder also holds the archive statement PDF, so that folder has 661 PDF files.
+- Shelf PDFs inside Barrandodger, which are parts of the 2,840 and are not added again: myaidrive-pdfs 910; preservation-copy PDFs 660; gmail-drive-sweep 443; rendered-pdfs 374; docs 194; root 110; site-pdfs 107; imports 30; ai-essays 10; statements 1; tabs 1.
+
+**What was not done:** No sentence already on either site was deleted. Earlier figures (2,077; 1,765; 148; 562; 48; 47; 660; the 29 September 2026 catalogue; Backup 545 / 531 / 580; pdf-archive 897) stay on the page, with the new count written beside them. Backup, pdf-archive and the primary Releases were not re-counted. The 660 crawled HTML and PDF bytes were not edited.
+
+**Files:** index.html, finding-aid-all-sources.html, official.html, official-government-pdfs.html, official-full.html, official-catalogue.html, documents.html, README.md, holdings-4-october-2026.html, and the presentation pages of wezzo72/barrandodger-rebuild including the website-backup front page.
+
+**Rule restated:** Never remove a single word. Only add. Numbers that are the present total are updated by placing the new total beside the old figure.
