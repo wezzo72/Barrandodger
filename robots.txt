@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wezzo72.github.io/Barrandodger/sitemap.xml

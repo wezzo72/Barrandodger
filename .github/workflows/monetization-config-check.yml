@@ -1,0 +1,13 @@
+name: monetization-config-check
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - monetization.json
+      - scripts/check-monetization.py
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/check-monetization.py

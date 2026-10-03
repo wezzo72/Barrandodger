@@ -1,0 +1,21 @@
+{
+  "advertising": false,
+  "adsense_publisher_id": "",
+  "donations": false,
+  "donation_url": "",
+  "monthly_support": false,
+  "monthly_support_url": "",
+  "publications": false,
+  "store_url": "",
+  "memberships": false,
+  "membership_url": "",
+  "sponsorship": false,
+  "sponsorship_contact": "",
+  "affiliates": false,
+  "affiliate_disclosure": "No affiliate links are active. None are recommended on these pages.",
+  "newsletter": false,
+  "newsletter_url": "",
+  "analytics": false,
+  "analytics_id": "",
+  "note": "Nothing in this file is a live payment, ad, membership, or mailing-list account. Empty strings mean not connected. Do not put API keys in this file."
+}
