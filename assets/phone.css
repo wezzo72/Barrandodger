@@ -1,0 +1,10 @@
+@media (max-width: 760px) {
+  html { font-size: 118%; }
+  body, #landing, #content, .pdf-page { font-size: 19px; line-height: 1.62; }
+  .eyebrow, .forensic-label, .sent-label, .identity a, .kicker, .nk, .help-kicker, #colophon,
+  .hit-note, .ev-note, .tab, .tab.forensic-tab, .tab.sent-tab {
+    font-size: 16px !important;
+    letter-spacing: .04em;
+  }
+  .tab, .tab.forensic-tab, .tab.sent-tab { padding: 10px 12px; line-height: 1.35; }
+}
