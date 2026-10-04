@@ -302,5 +302,24 @@
     "stamped_sha256": "8a8dce1c603eb3f5f1afb25a23ac6d942ed264626b7ba0a1536709e339feee63",
     "stamped_bytes": 153930,
     "note": ""
+  },
+  {
+    "site": "Barrandodger",
+    "slug": "holdings-4-october-2026-repository-file",
+    "url": "https://wezzo72.github.io/Barrandodger/holdings-4-october-2026.html",
+    "status": "404 on Pages; file present in repo",
+    "http_date": "Sun, 04 Oct 2026 06:29:12 GMT",
+    "print_start_utc": "2026-10-04T06:29:55.309137+00:00",
+    "print_end_utc": "2026-10-04T06:29:56.497024+00:00",
+    "print_start_aedt": "2026-10-04 17:29:55 AEDT",
+    "print_end_aedt": "2026-10-04 17:29:56 AEDT",
+    "body_pages": 2,
+    "body_sha256": "e62a3dc349e2a909f701f21c8317d6dc18867b887461fe53c68f23a3039eecf5",
+    "source_file_sha256": "91253c9fa7ac05199ad81e5ad2c76ff3a7be8309179e0503cfbedba6b0a4c7d7",
+    "blob_sha": "30cb0ac156b66466e7b205130d8c018492c805fa",
+    "stamped_pdf": "2026-10-04T0629Z_holdings-4-october-2026.pdf",
+    "stamped_sha256": "f8f5f9c9b4db31d503d098426c43bbb5ab622daea5e5e8c5a8c44a1bcc5b3257",
+    "stamped_bytes": 41105,
+    "note": "GitHub Pages returned 404. This print is the repository file rendered locally."
   }
 ]

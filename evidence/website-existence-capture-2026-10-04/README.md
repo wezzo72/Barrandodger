@@ -40,3 +40,5 @@ Scope: landing page and main public pages linked from each landing. Not every ta
 Sidecar JSON files (`*.capture.json`) hold the response headers for the same requests. `capture-record.json` is the machine-readable copy of this table.
 
 Original evidence elsewhere in this repository is not altered by this folder.
+
+Added 4 October 2026, 17:29 AEDT, nothing above removed. `holdings-4-october-2026.html` is in the repository (`30cb0ac`) and was not served by GitHub Pages (HTTP 404 at 06:29:12 UTC). `Barrandodger/2026-10-04T0629Z_holdings-4-october-2026.pdf` is a print of that repository file. The earlier PDF remains the Pages 404 response.
