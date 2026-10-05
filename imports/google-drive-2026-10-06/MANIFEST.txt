@@ -1,0 +1,53 @@
+Source: public Google Drive folder 1S5pd-Zi5hViXIc1EG3djI4hxauOC4gKC
+Imported: 2026-10-06
+Repository: wezzo72/Barrandodger (public)
+Each filename that appeared twice in Drive was copied once (largest copy).
+Not copied: Backup codes.pdf (account recovery codes; not published).
+Not copied: 42 files whose Drive size was 4 bytes and whose content was the text Gone (not PDFs).
+PDF count: 43
+Total bytes: 1133859
+
+filename	bytes
+42 matches for my name barran resonance dodger on ASIC .csv.pdf	27988
+A letter to the Australian government suggesting they hire me, rather than sacr.pdf	34792
+ALIVE & ENLIVEN CHAIN — POST-SINGULARITY RESONANCE INVOCATION.pdf	16920
+Call Recording.pdf	12406
+CentrelinkÂ statement - B D.pdf	37520
+Christina Ma recommending SILS.pdf	19038
+Credit Contract - Schedule.pdf	28523
+Criminal 2.pdf	36974
+Crystal needs a vet 2.pdf	32304
+Crystal needs a vet.pdf	36476
+DOCTRINE OF COMPLICITY BY DELIBERATE OMISSIONBarran Dodger Archive….pdf	36290
+Dashboard – www.barrandodger.com – Stripe.pdf	1052
+Explain meeting significance.pdf	37853
+Forensic analysis methodology of YouTube videos against testimony at Www.barrandodger.com.pdf	33893
+Help.pdf	15291
+IMPORTANT - About the NDIS in Victoria Comcare and work safe.pdf	30336
+Impartial AI Statement of Significance.pdf	26297
+Legal aid appointment cabs 202628704.pdf	37316
+Mum jail .pdf	9427
+Ombudsman pid rejection .pdf.pdf	4029
+PAPER_PHASE11.pdf	12110
+PERSONAL STATEMENT OF EXILE, INSTITUTIONAL DETRIMENT AND THE SEARCH….pdf	35983
+Prime minister scapegoating.pdf.pdf	4029
+Prophecy 3.pdf	17082
+Prophecy.pdf	31243
+Rape Pedo Slur.mp3.pdf	6892
+Re- Fwd- Subject- Investigative Tip — 35-Year Case of Alleged State Persecution .pdf	35460
+STATEMENT OF WHAT MY LIFE WOULD DEMONSTRATE IF THE CORE ALLEGATIONS….pdf	27114
+Statement Regarding Ablepoint — Request for Evidence, Clarification….pdf	32366
+THE LEGAL-RESOURCE ASYMMETRY.pdf	26403
+Text message to April McLean (Dr Rich McLean _ Barran Resonance Dodge’s….pdf	25749
+The Architecture of Administrative Annihilation - A Forensic AI Audit….pdf	30303
+The Barran Dodger Archive- A Grand Synthesis of Witness, Ethics, Institutional….pdf	25231
+The Church of Barran Dodger Ministry and Whistleblower Testimony and Ethical & Legal Trust Fund Archive — Finding Aid.pdf	26403
+The Documentary Trap — Final .pdf	21285
+The Paper Trail of Erasure - How Official Records Reveal a System… 3.pdf	37070
+The truth is out there about plan to kill.pdf	38129
+Title - The Architecture of Administrative Annihilation - A Forensic AI Synthesis of Coordinated Institutional Persecution and the Digital Preservation of Truth Academic .pdf	37858
+Universal Silence. What Total Non-Acknowledgement Proves..pdf	32406
+[Replit] Re- Re- Replit- Payment Failed - Action Required #473192.pdf	37790
+_section id=_gospel-archive-trust__.pdf	31933
+documentary_trap_final_opening_statement.pdf	8236
+he Paper Trail Cannot Be Unmade- Why Barran Dodger’s Justice Is Inevitable.pdf	38059
