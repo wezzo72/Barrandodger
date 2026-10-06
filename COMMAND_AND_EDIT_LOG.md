@@ -200,3 +200,14 @@ Mobbing and the Safety of the Crowd — Believing a Comfortable Lie Over a Hard 
 **Stamp list:** `SHA256SUMS.txt`, `statements/SHA256-ALL-PDFS-AND-PAGES.json`, and the tab SHA-256 stamps. Every PDF and every HTML page in the repository is listed.
 
 **Rule restated:** Never remove a single word again. Only ADD.
+
+
+### COMMAND — Publish The Witness Remains, 6 October 2026
+
+**User command:** Publish this statement of today’s date in full at the top of both repositories. Include every word and include every hyperlink.
+
+**What was done:** The full statement of Tuesday 6 October 2026 was added, not substituted, at the top of `index.html` and at the top of `README.md` in wezzo72/Barrandodger (branch `codex/recreate-barrandodger`, the live archive) and in wezzo72/barrandodger-rebuild (branch `main`, the live rebuild). A standalone page `the-witness-remains-6-october-2026.html` was added in each. The source PDF was added unchanged as `THE-WITNESS-REMAINS-DR-BARRAN-DODGER-6-OCTOBER-2026.pdf`. SHA-256 of that PDF: `1c0d6a3f975574733ea9dd3af451599ac4b011883668b23a127adc0f1b1af12d`.
+
+**What was not done:** No existing word was deleted. No existing PDF bytes were rewritten.
+
+**Rule restated:** Never remove a single word. Only add.
