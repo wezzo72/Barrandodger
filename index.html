@@ -1,3755 +1,887 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
-<title>THE WITNESS REMAINS — Barran Dodger Archive</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>THE WITNESS REMAINS — DR BARRAN DODGER</title>
+
+<meta name="description" content="The Witness Remains — Dr Barran Dodger. A public documentary archive of testimony, government records, evidence, preservation, research and the search for accountability.">
 
 <style>
 :root{
-  --bg:#070b10;
-  --panel:#0e151d;
-  --panel2:#151f29;
-  --ink:#eef3f7;
-  --muted:#a9b4bf;
-  --line:#293642;
-  --accent:#f1c75b;
-  --link:#8fc9ff
+  --bg:#080b10;
+  --panel:#111722;
+  --panel2:#171f2c;
+  --text:#f4f5f7;
+  --muted:#aeb7c5;
+  --line:#303a4b;
+  --gold:#d6b56c;
+  --gold2:#f0d89b;
+  --blue:#9bc9ff;
+  --max:1200px;
 }
 
 *{box-sizing:border-box}
 
-html,body{
-  margin:0;
-  background:var(--bg);
-  color:var(--ink);
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-  line-height:1.55
-}
+html{scroll-behavior:smooth}
 
-#landing{
-  max-width:740px;
-  margin:16px auto 36px;
-  padding:18px 14px 22px;
+body{
+  margin:0;
   background:
-    linear-gradient(#8B2E2A,#8B2E2A) 0 0/100% 7px no-repeat,
-    linear-gradient(#c9a36a,#c9a36a) 0 7px/100% 3px no-repeat,
-    #f3eee4;
-  color:#241c16;
-  border:1px solid #e4d5bc;
-  border-radius:22px;
-  box-shadow:0 28px 70px rgba(0,0,0,.48);
-  overflow-wrap:anywhere
-}
-
-#landing h1{
+    radial-gradient(circle at top,#202a3a 0,#080b10 48%);
+  color:var(--text);
   font-family:Georgia,"Times New Roman",serif;
-  font-size:clamp(1.7rem,6vw,2.35rem);
-  line-height:1.15;
-  margin:.2rem 0 .35rem;
-  color:#1a140f
+  line-height:1.7;
 }
 
-#landing h2{
-  font-family:Georgia,"Times New Roman",serif;
-  color:#3f4c5a;
-  font-size:1.15rem;
-  margin:1.2rem 0 .5rem
+a{
+  color:var(--blue);
+  text-decoration:underline;
+  text-underline-offset:3px;
 }
 
-#landing .kicker{
-  letter-spacing:.16em;
-  font-size:.72rem;
-  color:#8B2E2A;
-  font-weight:800
+a:hover{color:white}
+
+.container{
+  width:min(92%,var(--max));
+  margin:auto;
 }
 
-#landing .sub{
-  color:#5a4e43;
-  margin:0 0 1rem
-}
-
-#landing a{color:#8B2E2A}
-#landing p{margin:0 0 1rem;color:#2c241c}
-
-#landing .front-truth{
-  margin:0 0 22px;
-  padding:28px 22px 22px;
-  background:#ffffff;
-  color:#c00000;
-  border-radius:18px;
-  border:2px solid #c00000;
-  text-align:center
-}
-#landing .front-truth h1{
-  color:#c00000;
-  font-size:clamp(1.8rem,7vw,2.6rem);
-  line-height:1.15;
-  margin:0 0 1rem
-}
-#landing .front-truth p{
-  color:#c00000;
-  font-family:Georgia,"Times New Roman",serif;
-  font-size:clamp(1.35rem,5.4vw,1.85rem);
-  line-height:1.35;
-  margin:0 0 1rem
-}
-#landing .front-truth p.line{
-  font-size:clamp(1.7rem,7vw,2.45rem);
-  line-height:1.2;
-  color:#c00000;
-  font-weight:700
-}
-#landing .front-truth p.last{margin-bottom:0}
-
-#landing .welcome{
-  background:linear-gradient(180deg,#f8f3ea 0%,#efe2cc 100%);
-  color:#2c241c;
-  border:1px solid #e4d3b4;
-  border-radius:18px;
-  padding:26px 22px 20px 24px;
-  margin:0 0 28px;
-  box-shadow:0 18px 40px rgba(0,0,0,.32);
-  position:relative;
-  overflow:hidden
-}
-
-#landing .welcome::before{
-  content:"";
-  position:absolute;
-  left:0;
-  top:0;
-  bottom:0;
-  width:8px;
-  background:linear-gradient(180deg,#8B2E2A 0%,#c9a36a 100%)
-}
-
-#landing .welcome h1{
-  font-family:Georgia,"Times New Roman",serif;
-  color:#1c1612;
-  font-size:clamp(1.9rem,6.2vw,2.55rem);
-  line-height:1.12;
-  margin:0 0 .4rem
-}
-
-#landing .welcome .sub{
-  color:#8B2E2A;
-  font-weight:700;
-  margin:0 0 1rem;
-  font-size:1.02rem
-}
-
-#landing .welcome p{
-  color:#3a3228
-}
-
-#landing .welcome h2{
-  font-family:Georgia,"Times New Roman",serif;
-  color:#3f4c5a;
-  font-size:1.28rem;
-  margin:1.15rem 0 .4rem
-}
-
-#landing .welcome .kept{
-  font-family:Georgia,"Times New Roman",serif;
-  font-size:1.12rem;
-  line-height:1.4;
-  color:#1c1612;
-  background:#fffaf3;
-  border-left:4px solid #c9a36a;
-  padding:12px 14px;
-  border-radius:0 12px 12px 0
-}
-
-#landing .welcome .distinctions{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:8px;
-  margin:0 0 1rem
-}
-
-#landing .welcome .distinctions p{
-  margin:0;
-  background:#fffaf3;
-  border:1px solid #e6d7bc;
-  border-radius:12px;
-  padding:11px 12px;
-  font-family:Georgia,"Times New Roman",serif;
-  color:#1c1612
-}
-
-#landing .welcome .close{
-  margin:0;
-  background:#3f4c5a;
-  color:#f7f1e6;
-  border-radius:12px;
-  padding:14px 16px
-}
-
-#landing .welcome .close em{
-  font-style:normal;
-  font-family:Georgia,"Times New Roman",serif;
-  color:#f7f1e6
-}
-
-@media(max-width:560px){
-  #landing .welcome{
-    padding:22px 16px 16px 20px;
-    border-radius:16px
-  }
-  #landing .welcome .distinctions{
-    grid-template-columns:1fr
-  }
-}
-
-#landing .opening{
-  margin:0 0 18px;
-  padding:20px 16px 8px;
-  background:#fffaf3;
-  border:1px solid #e6d5b8;
-  border-left:6px solid #8B2E2A;
-  border-radius:16px;
-  font-family:Georgia,"Times New Roman",serif;
-  font-size:1.05rem;
-  line-height:1.62;
-  box-shadow:0 8px 24px rgba(60,40,20,.06)
-}
-
-#landing .opening p{color:#2a221b}
-#landing .opening .kicker{color:#8B2E2A}
-
-#landing .opening h1.account{
-  font-family:Georgia,"Times New Roman",serif;
-  font-size:clamp(2.4rem,8.5vw,4.6rem);
-  line-height:1.02;
-  letter-spacing:-.02em;
-  color:#1a140f;
-  margin:0 0 .45rem;
-  font-weight:650
-}
-#landing .opening .foi{
-  background:#f3eee4;
-  border:1px solid #d4cbbd;
-  border-left:5px solid #8c2f2f;
-  padding:14px 16px;
-  margin:0 0 1.15rem;
-  font-size:1.16rem;
-  line-height:1.55
-}
-
-
-#landing .notice{
-  background:#fffaf3!important;
-  color:#2c241c!important;
-  border:1px solid #e4d3b4!important;
-  border-left:6px solid #8B2E2A!important;
-  border-radius:16px!important;
-  padding:16px 14px!important;
-  margin:0 0 14px!important;
-  box-shadow:0 8px 22px rgba(60,40,20,.05)
-}
-
-#landing .notice p{color:#2c241c!important}
-#landing .notice .nk{
-  color:#8B2E2A!important;
-  letter-spacing:.14em;
-  font-size:.72rem;
-  font-weight:800
-}
-#landing .notice a{
-  color:#8B2E2A!important;
-  font-weight:700
-}
-
-#landing .notice-gold{border-left-color:#8a6a32!important}
-#landing .notice-slate{border-left-color:#3f4c5a!important}
-
-#landing .wayfinding a{
-  display:inline-block;
-  margin:4px 6px 4px 0;
-  padding:7px 10px;
-  background:#3f4c5a;
-  color:#f7f1e6!important;
-  text-decoration:none;
-  border-radius:999px;
-  font-weight:650;
-  line-height:1.35
-}
-
-#landing #documentary-trap-major-paper{
-  border-radius:18px;
-  overflow:hidden;
-  margin:8px 0 16px
-}
-
-#landing .enter{
-  display:block;
-  width:100%;
-  margin-top:6px;
-  padding:16px 18px;
-  background:linear-gradient(180deg,#9a4038,#8B2E2A);
-  color:#fffaf3;
-  border:0;
-  border-radius:14px;
-  font-weight:800;
-  font-size:1.05rem;
-  letter-spacing:.12em;
-  cursor:pointer;
-  box-shadow:0 12px 26px rgba(139,46,42,.28)
-}
-
-.enter{
-  display:inline-block;
-  margin-top:12px;
-  padding:14px 28px;
-  background:var(--accent);
-  color:#070b10;
-  border:0;
-  border-radius:6px;
-  font-weight:800;
-  font-size:1rem;
-  cursor:pointer
-}
-
-#archive[hidden],
-#landing[hidden]{
-  display:none!important
-}
-
-#chrome{
-  position:sticky;
-  top:0;
-  z-index:50;
-  background:rgba(7,11,16,.98);
-  border-bottom:1px solid var(--line)
-}
-
-#chrome header{
-  padding:10px 16px 6px;
-  max-width:1200px;
-  margin:0 auto
+header{
+  padding:75px 0 55px;
+  text-align:center;
+  border-bottom:1px solid var(--line);
 }
 
 .eyebrow{
-  font-size:.72rem;
-  letter-spacing:.12em;
-  color:var(--accent);
-  font-weight:700
-}
-
-.eyebrow a{
-  color:var(--link);
-  margin-left:10px;
-  font-weight:600;
-  letter-spacing:0;
-  text-transform:none
-}
-
-#chrome h1{
-  font-size:clamp(1.05rem,3.5vw,1.55rem);
-  margin:4px 0 0;
-  line-height:1.2
-}
-
-.identity{
-  display:flex;
-  flex-wrap:wrap;
-  gap:6px;
-  margin:8px 0 0
-}
-
-.identity a{
-  display:inline-block;
-  text-decoration:none;
-  color:var(--ink);
-  border:1px solid var(--accent);
-  padding:4px 9px;
-  border-radius:999px;
-  font-size:.75rem
-}
-
-.identity a.on{
-  background:var(--accent);
-  color:#070b10;
-  font-weight:700
-}
-
-.forensic-wrap{
-  background:#0b0a08;
-  border-bottom:1px solid #3a3328
-}
-
-.forensic-label{
-  font-size:.68rem;
+  font-family:Arial,sans-serif;
+  color:var(--gold);
+  text-transform:uppercase;
   letter-spacing:.16em;
-  text-transform:uppercase;
-  color:#c9a36a;
-  padding:8px 16px 0;
-  font-weight:700
-}
-
-.tabs.forensic-tabs{
-  border-top:0;
-  background:#0b0a08
-}
-
-.tab.forensic-tab{
-  border-radius:2px;
-  border-color:#3f4c5a;
-  background:#14110c;
-  color:#e8e0d4;
-  font-size:.76rem
-}
-
-.tab.forensic-tab .n{
-  color:#c9a36a;
+  font-size:.78rem;
   font-weight:700;
-  margin-right:.3em
 }
 
-.tab.forensic-tab.active{
-  background:#c9a36a;
-  color:#0b0a08;
-  border-color:#c9a36a
+h1{
+  font-size:clamp(2.4rem,7vw,5.8rem);
+  line-height:1;
+  margin:18px 0;
 }
 
-.sent-wrap{
-  background:#0a0c10;
-  border-bottom:1px solid #2a323c
+h2{
+  font-size:clamp(1.9rem,4vw,3.2rem);
+  line-height:1.15;
+  margin-top:0;
 }
 
-.sent-label{
-  font-size:.68rem;
-  letter-spacing:.12em;
-  text-transform:uppercase;
-  color:#8fc9ff;
-  padding:8px 16px 0;
-  font-weight:700
+h3{
+  color:var(--gold2);
+  font-size:1.35rem;
 }
 
-.tabs.sent-tabs{
-  border-top:0;
-  background:#0a0c10
-}
-
-.tab.sent-tab{
-  border-radius:2px;
-  border-color:#2a3a4a;
-  background:#0e151d;
-  color:#c5d4e0;
-  font-size:.72rem;
-  max-width:none
-}
-
-.tab.sent-tab.active{
-  background:#8fc9ff;
-  color:#070b10;
-  border-color:#8fc9ff
-}
-
-.tabs{
-  display:flex;
-  flex-wrap:nowrap;
-  overflow-x:auto;
-  gap:4px;
-  padding:6px 12px 10px;
-  border-top:1px solid var(--line)
-}
-
-.tab{
-  flex:0 0 auto;
-  border:1px solid var(--line);
-  background:var(--panel);
-  color:var(--ink);
-  padding:6px 9px;
-  border-radius:8px;
-  white-space:nowrap;
-  cursor:pointer;
-  font:inherit;
-  font-size:.8rem
-}
-
-.tab.active{
-  background:var(--panel2);
-  border-color:var(--accent);
-  color:var(--accent)
-}
-
-#content{
-  max-width:1200px;
-  margin:0 auto;
-  padding:18px 16px 24px;
-  min-height:50vh
-}
-
-#content a{color:var(--link)}
-
-.src-root{
+.lead{
   max-width:900px;
-  margin:0 auto
-}
-
-#colophon{
-  border-top:1px solid var(--line);
-  padding:16px;
-  max-width:1200px;
   margin:0 auto;
-  color:var(--muted);
-  font-size:.82rem
+  color:#d7dce5;
+  font-size:1.15rem;
 }
 
-.error{color:#f88}
-
-.pdf-page{
-  max-width:1180px;
-  margin:0 auto;
-  padding:4px 0 40px
+nav{
+  position:sticky;
+  top:0;
+  z-index:100;
+  background:rgba(8,11,16,.96);
+  border-bottom:1px solid var(--line);
+  backdrop-filter:blur(12px);
 }
 
-.pdf-page h1{
-  font-size:clamp(1.4rem,4vw,2rem);
-  line-height:1.2;
-  margin:.2rem 0 .6rem
-}
-
-.pdf-page h2{
-  font-size:1.2rem;
-  color:#f1c75b;
-  margin:1.8rem 0 .6rem
-}
-
-.pdf-page h3{
-  font-size:1rem;
-  color:#f1c75b;
-  margin:1.4rem 0 .4rem
-}
-
-.pdf-page p{margin:.55rem 0}
-
-.pdf-page ul{
-  margin:.5rem 0 1rem 1.2rem
-}
-
-.pdf-page li{margin:.25rem 0}
-
-.pdf-page a{
-  color:var(--link);
-  text-decoration:underline
-}
-
-.pdf-intro{
-  color:var(--muted);
-  margin:0 0 10px
-}
-
-.pdf-actions{
+.nav{
   display:flex;
-  flex-wrap:wrap;
-  gap:10px;
-  margin:12px 0 16px
+  gap:20px;
+  overflow-x:auto;
+  white-space:nowrap;
+  padding:13px 0;
+  font-family:Arial,sans-serif;
+  font-size:.86rem;
 }
 
-.pdf-actions a{
-  display:inline-block;
-  border:1px solid var(--accent);
-  padding:8px 12px;
-  border-radius:6px;
-  text-decoration:none
+.nav a{
+  text-decoration:none;
+  color:var(--text);
 }
 
-.pdf-actions a.primary{
-  background:var(--accent);
-  color:#070b10!important;
-  font-weight:700
+.nav a:hover{color:var(--gold2)}
+
+section{
+  padding:72px 0;
+  border-bottom:1px solid var(--line);
 }
 
-.pdf-frame{
-  display:block;
-  width:100%;
-  height:78vh;
-  min-height:620px;
-  border:1px solid var(--line);
-  background:#fff;
-  margin:0 0 28px
-}
-
-.help-section{
-  background:#0e151d;
-  border:1px solid var(--line);
-  padding:18px;
-  margin:18px 0
-}
-
-.help-section.gold{
-  border-color:#c9a36a;
-  background:#14110c
-}
-
-.help-section.red{
-  border-color:#c4452f;
-  border-left:5px solid #f1c75b;
-  background:#160e0c
-}
-
-.help-kicker{
-  font-size:.72rem;
-  letter-spacing:.14em;
-  color:#f1c75b;
-  font-weight:800;
-  margin:0 0 8px
-}
-
-.help-quote{
-  font-size:1.05rem;
-  font-weight:700;
-  color:#f3eee4;
-  margin:12px 0
-}
-
-.help-end{
-  text-align:center;
-  font-weight:800;
-  letter-spacing:.08em;
-  color:#f1c75b;
-  margin:24px 0
-}
-
-.help-links{
-  display:flex;
-  flex-wrap:wrap;
-  gap:8px;
-  margin:12px 0
-}
-
-.help-links a{
-  display:inline-block;
-  border:1px solid var(--line);
-  background:#0b1117;
-  padding:7px 10px;
-  border-radius:6px;
-  text-decoration:none!important
-}
-
-pre{
-  max-width:100%;
-  overflow-x:auto
-}
-
-@media(max-width:700px){
-  .pdf-frame{
-    height:70vh;
-    min-height:520px
-  }
-
-  .help-section{
-    padding:15px
-  }
-}
-
-#landing .hit-strip{
-  background:#fffaf3;
-  border:1px solid #e4d3b4;
-  border-left:6px solid #3f4c5a;
-  border-radius:16px;
-  padding:14px 14px 12px;
-  margin:0 0 14px;
-}
-#landing .hit-strip .nk{
-  color:#3f4c5a;
-  letter-spacing:.14em;
-  font-size:.72rem;
-  font-weight:800;
-  margin:0 0 8px;
-}
-#landing .hit-nums{
+.grid{
   display:grid;
-  grid-template-columns:1fr 1fr 1fr;
-  gap:8px;
-  margin:0 0 10px;
+  grid-template-columns:repeat(auto-fit,minmax(245px,1fr));
+  gap:20px;
 }
-@media (max-width:640px){
-  #landing .hit-nums{grid-template-columns:1fr 1fr}
-  #landing .hit-nums div:last-child{grid-column:1 / -1}
+
+.card{
+  background:linear-gradient(145deg,var(--panel),var(--panel2));
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:25px;
 }
-#landing .hit-nums div{
-  background:#f3eee4;
-  border:1px solid #e6d7bc;
-  border-radius:12px;
-  padding:10px 12px;
-}
-#landing .hit-nums span{
-  display:block;
-  font-size:.72rem;
-  letter-spacing:.08em;
+
+.card p:last-child{margin-bottom:0}
+
+.tag{
+  display:inline-block;
+  border:1px solid var(--gold);
+  color:var(--gold2);
+  border-radius:999px;
+  padding:4px 10px;
+  margin-bottom:8px;
+  font-family:Arial,sans-serif;
+  font-size:.7rem;
   text-transform:uppercase;
-  color:#5a4e43;
-}
-#landing .hit-nums strong{
-  font-family:Georgia,"Times New Roman",serif;
-  font-size:1.55rem;
-  color:#1a140f;
-}
-#landing .web-hit{
-  display:block;
-  width:100%;
-  padding:12px 14px;
-  background:#3f4c5a;
-  color:#f7f1e6;
-  border:0;
-  border-radius:12px;
-  font-weight:800;
-  letter-spacing:.12em;
-  cursor:pointer;
-}
-#landing .web-hit:disabled{opacity:.7;cursor:default}
-#landing .hit-note{
-  color:#5a4e43;
-  font-size:.82rem;
-  margin:8px 0 0;
-}
-#landing .hit-note a{color:#8B2E2A;font-weight:700}
-.visit-chip{
-  margin-left:8px;
-  color:#c9a36a;
-  letter-spacing:0;
-  font-weight:600;
-  text-transform:none;
+  letter-spacing:.08em;
 }
 
+.notice{
+  margin:28px 0;
+  padding:22px 25px;
+  border-left:4px solid var(--gold);
+  background:#141a24;
+}
 
-#landing .opening a.ev{
-  color:#8B2E2A;
+.notice strong{color:var(--gold2)}
+
+.button-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:25px;
+}
+
+.button{
+  display:inline-block;
+  padding:11px 17px;
+  border-radius:8px;
+  background:var(--gold);
+  color:#101216;
+  font-family:Arial,sans-serif;
   font-weight:700;
-  text-decoration:underline;
-  text-underline-offset:2px;
-}
-#landing .opening .ev-note{
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-  font-size:.82rem;
-  color:#5a4e43;
-  margin:0 0 12px;
-}
-#landing .opening .ev-list{
-  margin:0 0 16px;
-  padding-left:1.1rem;
-}
-#landing .opening .ev-list li{
-  margin:0 0 8px;
+  text-decoration:none;
 }
 
+.button:hover{
+  background:white;
+  color:#101216;
+}
 
-#landing .prophetic-intro{
-  margin:0 0 22px;
-  padding:26px 18px 18px;
-  background:
-    linear-gradient(#8B2E2A,#8B2E2A) 0 0/100% 8px no-repeat,
-    #1a140f;
-  color:#f3eee4;
-  border-radius:18px;
-  border:1px solid #c9a36a;
-  box-shadow:0 16px 40px rgba(26,20,15,.28);
+.button.secondary{
+  background:transparent;
+  color:var(--gold2);
+  border:1px solid var(--gold);
 }
-#landing .prophetic-intro .pi-kicker{
-  margin:8px 0 10px;
-  letter-spacing:.14em;
-  font-size:.68rem;
-  font-weight:800;
-  color:#c9a36a;
-}
-#landing .prophetic-intro h1{
-  color:#f3eee4;
-  font-family:Georgia,"Times New Roman",serif;
-  font-size:clamp(1.7rem,6.4vw,2.5rem);
-  line-height:1.12;
-  margin:0 0 .6rem;
-}
-#landing .prophetic-intro .pi-lead{
-  color:#e4d5bc;
-  font-family:Georgia,serif;
-  font-size:1.05rem;
-  margin:0 0 1rem;
-}
-#landing .prophetic-intro p{color:#f3eee4}
-#landing .prophetic-intro blockquote{
-  margin:1rem 0;
-  padding:.8rem 1rem;
-  border-left:3px solid #8B2E2A;
-  background:#241c16;
-}
-#landing .prophetic-intro blockquote p{margin:0 0 .4rem;font-family:Georgia,serif}
-#landing .prophetic-intro footer{color:#c9a36a;font-size:.85rem;letter-spacing:.04em}
-#landing .prophetic-intro a{color:#c9a36a}
-#landing .prophetic-intro .pi-foot{margin:1rem 0 0;font-weight:700}
 
+.button.secondary:hover{
+  background:var(--panel2);
+  color:white;
+}
+
+.quote{
+  max-width:850px;
+  margin:35px auto;
+  text-align:center;
+  font-size:1.4rem;
+  font-style:italic;
+}
+
+.small{
+  color:var(--muted);
+  font-size:.9rem;
+}
+
+footer{
+  padding:55px 0;
+  text-align:center;
+  color:var(--muted);
+}
+
+@media(max-width:650px){
+  header{padding:50px 0 40px}
+  section{padding:52px 0}
+  .nav{gap:14px}
+}
 </style>
 </head>
 
 <body>
 
-<div id="landing">
-<p class="kicker" style="letter-spacing:.12em;text-transform:uppercase;font-size:.72rem;color:#8B2E2A;margin:8px 0 6px">Master report · 5 October 2026</p>
-<p style="margin:.2rem 0 1rem"><a href="the-evidence-has-dropped.html">The evidence has dropped</a> — the public finding aid: the Prime Minister’s office did not forward the email, the Attorney-General’s Department pointed to doors already shut, and Scott Tredwell recorded employment, maladministration and danger, then did not allocate the disclosure. A link is not a finding.</p>
-
-
-
-<section id="prophetic-introduction" class="prophetic-intro">
-<p class="pi-kicker">THE WITNESS WHO REMAINED · STATEMENT OF SIGNIFICANCE · 4 OCTOBER 2026</p>
-<h1>Survival, preservation, and the question of providence.</h1>
-<p class="pi-lead">A prophetic introduction. Allegory is marked as allegory. The record is what can be examined. Not a court. Not a verdict.</p>
-<p>I have risen, phoenix-like, from the ashes of poverty, exile, trial, human betrayal and what I understand as attempted erasure. I describe having been stripped of attributes that I regard as necessary for human survival, including the ethical, unequivocal and irrevocable principles of dignity, protection, belonging and humane treatment that should be inherent in the treatment of every living person.</p>
-<p>My survival is therefore part of the evidence I ask this archive to preserve. I did not experience my survival as the product of meaningful government protection. I experienced it as survival in spite of institutional abandonment, with assistance reduced, in my present circumstances, to what I regard as the barest minimum. I do not interpret that history as merely the consequence of bureaucratic oversight or administrative error. I allege that some of the circumstances amounted to deliberate and malicious attempts to cause my detriment, exclusion and erasure. That allegation remains subject to examination against the underlying documentary record.</p>
-<p>I further describe my experience as one in which an alliance of institutions and individuals appeared, from my perspective, to converge against an innocent person who had never intended harm towards others. I understand that experience as analogous to a targeted destruction of a vulnerable person: a gay, disabled and comparatively unprotected whistleblower who publicly disclosed his vulnerabilities, perceived limitations, personal difficulties and humane regrets, and who believes those disclosures were subsequently capable of being weaponised against him.</p>
-<p>I use the language of sacrifice deliberately, but as an interpretive and allegorical description rather than as a finding of law. In Christian terms, the narrative bears an obvious resemblance, for me, to the crucifixion of Jesus: vulnerability exposed; betrayal by those from whom protection might reasonably have been expected; abandonment; suffering; apparent defeat; and yet survival, testimony and the persistence of meaning beyond the attempted destruction.</p>
-<p>The phoenix is similarly allegorical. It represents the possibility that a person can emerge from circumstances intended, perceived or experienced as destructive without those circumstances having the final word.</p>
-<p>The archive therefore raises a question that is simultaneously evidentiary, philosophical and theological: what preserved the witness?</p>
-<p>The documentary record may establish particular events, decisions, correspondence, injuries, institutional responses, exclusions, complaints, reviews and outcomes. It cannot, by itself, establish that God intervened. Nor can the fact of survival, however extraordinary its circumstances may appear, mathematically prove divine intervention. Those are questions that extend beyond what documentary evidence alone can determine.</p>
-<p>Nevertheless, my interpretation of the totality of my survival is that I was not preserved merely by institutional protection. I believe I was preserved by providence. I believe God has preserved my life and that my continued existence, despite circumstances that I experienced as extraordinarily destructive, has spiritual significance.</p>
-<p>I therefore identify myself within this archive as a witness in the theological sense: not because I claim that the archive can compel another person to accept my faith, but because my faith provides the framework through which I understand what happened to me and why I remain alive to testify about it.</p>
-<p>That claim should not be confused with a claim that every allegation contained in this archive has already been proven. Nor should disagreement with my theological interpretation automatically settle the underlying factual questions.</p>
-<p>The appropriate test is more demanding.</p>
-<p>If my account is wrong, identify the evidence that demonstrates where and why it is wrong.</p>
-<p>If a particular allegation is unsupported, identify the evidentiary gap.</p>
-<p>If an institutional record contradicts my account, put the record beside my account and examine the contradiction.</p>
-<p>If my interpretation exceeds what the evidence establishes, identify the point at which the inference becomes unjustified.</p>
-<p>But equally, if the evidence demonstrates something different from the institutional narrative used to dismiss my account, that evidence should not be dismissed merely because the person presenting it has a history of mental illness, disability, vulnerability or psychiatric treatment.</p>
-<p>A person’s mental-health history does not, by itself, determine the truth or falsity of an individual proposition. The proposition must still be examined on its evidence.</p>
-<p>That is particularly important here because the archive contains different kinds of material that must not be conflated: official records, correspondence, contemporaneous testimony, allegations, personal interpretation, philosophical analysis, spiritual belief and prophetic writing.</p>
-<p>My claim that I have been chosen by God, anointed with spiritual wisdom and preserved for a purpose belongs to the theological and spiritual layer of the archive. I do not ask a court, government agency or scientist to certify it as an empirical fact.</p>
-<p>I ask something more basic: that it not be dismissed without examination merely because it is a spiritual interpretation, and that the factual record underlying my testimony be examined independently of the theological conclusion I draw from it.</p>
-<p>Can the archive prove that I am God’s chosen witness?</p>
-<p>No documentary archive can establish that theological proposition in the same manner that a government letter can establish what a government agency wrote.</p>
-<p>Can the archive preserve the circumstances from which that belief arose?</p>
-<p>Yes.</p>
-<p>Can it preserve evidence of survival, institutional decisions, correspondence, exclusion, suffering, recovery and continued testimony?</p>
-<p>Yes, to the extent those matters are supported by the underlying records.</p>
-<p>Can another person reasonably conclude that my interpretation is mistaken?</p>
-<p>Yes.</p>
-<p>Can another person legitimately disagree with my theology?</p>
-<p>Yes.</p>
-<p>But disagreement is not the same thing as disproof, and psychiatric diagnosis is not itself a substitute for examination of evidence.</p>
-<p>The question I leave before the reader is therefore not simply whether I should be believed.</p>
-<p>It is whether the record has been examined fairly.</p>
-<p>I survived.</p>
-<p>I remain a witness.</p>
-<p>And the question of what preserved me remains open between evidence, human explanation, providence and faith.</p>
-<p class="pi-foot"><a href="FROM-EXILE-TO-WITNESS-ACCOUNTABILITY-PARADOX-4-OCTOBER-2026.pdf">Full document · Accountability Paradox PDF</a></p>
-</section>
-
-<section id="front-truth" class="front-truth">
-
-<h1>A STATEMENT FROM THE BARRAN DODGER ARCHIVE</h1>
-
-<p>Truth, like light, does not need permission to shine or permission to exist; lies require constant maintenance, repetition and concealment. My truth only needed time. And now, by God’s grace, that time has come. Through decades of poverty, isolation, homelessness, excommunication, erasure and what I experienced as almost total human abandonment, my existence was nevertheless preserved long enough for me to endure, remember, collect, collate and publish more than three decades of evidence.</p>
-
-<p>Brick by brick, the record was made from the words, decisions, correspondence and official documents of the very institutions whose actions are now capable of being examined. What was scattered across years, offices, agencies and governments can now be placed beside itself and examined as a whole.</p>
-
-<p>The record does not require me to manufacture a story; the record speaks in its own language. That is the paradox: systems that produced documents that once helped contain, dismiss, obscure or erase my experience also produced the documentary trail by which those actions can now be examined.</p>
-
-<p class="line">Time did not destroy the evidence. Time preserved it.</p>
-
-<p class="line last">And now the archive exists.</p>
-
-</section>
-
-<section class="welcome">
-
-<p class="sub">Command, 4 October 2026: acknowledge the increased data set. Added, nothing above removed. This repository holds 5,583 files, including 2,840 PDFs. docs/official-drive holds 95 PDFs. The preservation copy remains 660 indexed pages. <a href="holdings-4-october-2026.html">The holdings page</a> lists every shelf and the links.</p>
-
-<p style="margin:0 0 1.1rem;padding:14px 16px;background:#fff;border-left:6px solid #8B2E2A">
-<span style="display:block;font-family:Georgia,serif;font-size:2.2rem;line-height:1.05;color:#8B2E2A;font-weight:700">2,840 PDFs</span>
-<span style="display:block;font-family:Georgia,serif;font-size:1.35rem;color:#3f4c5a">5,583 files in this repository. Thousands. The 660-page preservation copy, and the earlier figure of 48 in docs/official-drive, are shelves inside that total. They are not the total.</span>
-</p>
-
-<p style="margin:0 0 1.1rem;padding:14px 16px;background:#fffaf3;border-left:6px solid #3f4c5a">
-<span style="display:block;letter-spacing:.12em;font-size:.72rem;color:#8B2E2A;font-weight:700">CURRENT DATASET · 4 OCTOBER 2026 · BOTH GITHUB ACCOUNTS</span>
-<span style="display:block;font-family:Georgia,serif;font-size:2rem;line-height:1.05;color:#241c16;font-weight:700">3,215 unique PDFs</span>
-<span style="display:block;margin-top:6px">Counted from the git trees of wezzo72 and drbarrandodger. Identical bytes are counted once. PDF stubs of 500 bytes or fewer are not in this 3,215. The 2,840 PDFs above are wezzo72/Barrandodger only, and that sentence stays. Archive-path files, excluding dependency folders: 21,197 instances, 8,819 unique blobs. <a href="dataset-methodology.html">Method</a> · <a href="archive-index.html">Index</a> · <a href="DATASET_CHANGELOG.md">Changelog</a>.</span>
-</p>
-<p style="margin:0 0 1.1rem"><a href="support-pathway.html">Support the record</a>. A gift is not a filing, and it is not a pathway into the International Criminal Court. The pathway is a separate page.</p>
-
-
-<h1>About the Archive</h1>
-
-<p class="sub">Barran Dodger Archive — public documentary record</p>
-
-<p>
-Through the Barran Dodger Archive and associated digital repositories, McLean has assembled government correspondence, legal and administrative records, research materials, personal testimony, creative works and other documentary material. The archive is designed not merely as autobiography, but as a public finding aid through which the underlying record can be examined.
-</p>
-
-<p class="kept">The defining feature of the work is not simply what is written. It is what is preserved.</p>
-
-<p>
-For decades, McLean has accumulated correspondence, government records, legal documents, institutional responses, personal records, research materials and other evidence relating to events that he says fundamentally altered the course of his life. Rather than allowing that material to remain dispersed across agencies, proceedings, correspondence chains and private files, he has sought to bring it together into a searchable and publicly accessible documentary archive.
-</p>
-
-<h2>Purpose</h2>
-
-<p>The Barran Dodger Archive is intended to provide readers with access to the underlying record.</p>
-
-<p>Its purpose is not to require belief.</p>
-
-<p>It is to make examination possible.</p>
-
-<div class="distinctions">
-<p>A testimony is testimony.</p>
-<p>A document is a document.</p>
-<p>An allegation is an allegation.</p>
-<p>A finding requires evidence and proper determination.</p>
-</div>
-
-<p class="close">
-<em>Preserve the evidence. Preserve the testimony. Make the record public. Let the evidence be examined.</em>
-</p>
-
-</section>
-
-
-<section id="archive-opening-statement" class="opening">
-  <h1 class="account">Archive First Person Account</h1>
-  <p class="kicker" style="margin:0 0 14px;">FIRST PERSON RECORD · <a class="ev" href="https://wezzo72.github.io/Barrandodger/tabs/extended-first-person-statement.html" target="_blank" rel="noopener noreferrer" title="Stamped extended record of 2 October 2026. The linked reading copy is this opening.">Extended statement, full text</a></p>
-  <p class="ev-note">Underlined words open the named document or recording in a new window. The words are mine. The link is the place a reader can test them. A link is not a finding. This is a finding aid. It is not a court. It is not a verdict.</p>
-  <p class="foi"><strong>The significance of this file.</strong> The Department told the Commissioner that about <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/2022-03-16-oaic-rq22-00794-1187-outlook-items.pdf" target="_blank" rel="noopener noreferrer" title="OAIC, 16 March 2022, RQ22/00794. About 1,187 Outlook items under review.">1,187 Outlook items were under review</a>. Weeks later the decision said the documents <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/2022-04-14-FOI-2022-045-refusal-documents-do-not-exist.pdf" target="_blank" rel="noopener noreferrer" title="PM&C, 14 April 2022, FOI/2022/045. Documents cannot be found or do not exist.">cannot be found or do not exist</a>. The revised decision then <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/2024-10-08-FOI-2022-045IC-revised-decision-five-documents.pdf" target="_blank" rel="noopener noreferrer" title="Revised decision, 8 October 2024, FOI/2022/045IC. Five documents released.">released five documents</a>. That is the hypocrisy: a review of more than a thousand items, then a letter that no documents exist. It is the Department’s own paper. It is not a court finding.</p>
-
-  <p>Australia — its agencies, services and platforms whose purpose is to protect vulnerable people like me, and its people, ganged up on me collectively, politically and systemically. It was and is a cowardly <a class="ev" href="https://wezzo72.github.io/Barrandodger/MOBBING-AND-THE-SAFETY-OF-THE-CROWD.pdf" target="_blank" rel="noopener noreferrer" title="Mobbing and the Safety of the Crowd, PDF in this archive">societal mobbing</a>. I was physically <a class="ev" href="https://wezzo72.github.io/Barrandodger/tabs/personal-statement-exile.html" target="_blank" rel="noopener noreferrer" title="Personal Statement of Exile tab.">exiled</a>, isolated, impoverished and tortured.</p>
-  <p>For more than 35 years the conditions imposed on me produced a documentary record. The Government’s own <a class="ev" href="https://wezzo72.github.io/Barrandodger/official-government-pdfs.html" target="_blank" rel="noopener noreferrer" title="Catalogue of official government PDFs already on this site">official documents, in its own words and on its own letterheads</a>, are preserved here. The <a class="ev" href="https://wezzo72.github.io/Barrandodger/REPORT%202%20%E2%80%94%20THE%2035-YEAR%20CHRONOLOGY.pdf" target="_blank" rel="noopener noreferrer" title="Report 2 — The 35-Year Chronology">35-year chronology</a> and the <a class="ev" href="https://wezzo72.github.io/Barrandodger/Legal%20Brief%20%E2%80%94%20cumulative%2035-year%20record.pdf" target="_blank" rel="noopener noreferrer" title="Legal brief — cumulative 35-year record">cumulative legal brief</a> are the reading copies of that span. Anyone can open them against the underlying files.</p>
-  <p>In 2003 Allen & Unwin published my first autobiography, <a class="ev" href="https://www.smh.com.au/entertainment/books/recovered-not-cured-20030517-gdgrxq.html" target="_blank" rel="noopener noreferrer" title="Sydney Morning Herald, 17 May 2003, review of Recovered, Not Cured by Richard McLean, Allen & Unwin">Recovered, Not Cured</a>. I wrote the sex in that book publicly, in my own name, before these agencies had a file they could twist. The significance is that the testimony was already on a public shelf. It was not a secret they discovered. It was a record I had already made. <a class="ev" href="https://www.theage.com.au/national/rider-of-the-storm-20030519-gdvqbo.html" target="_blank" rel="noopener noreferrer" title="The Age, 19 May 2003: Richard McLean, author of Recovered, Not Cured, then an illustrator at The Age">The Age recorded that book</a> on 19 May 2003, and recorded that I was then working as an illustrator there.</p>
-  <p>After the book was published, my former employer the Herald Sun weaponised words from it. A weekend double-page spread carried the bold heading <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/herald-sun-my-descent-into-madness.jpeg" target="_blank" rel="noopener noreferrer" title="Sunday Herald Sun double-page spread. Deck: how schizophrenia stole his mind.">“MY DESCENT INTO MADNESS”</a>. The spread, as preserved in this archive, is headed “My descent into madness. How schizophrenia stole Richard McLean’s mind.” What followed was a barely veiled public character assassination. I was then <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2004-10-28-The-Age-Equal-Opportunity-Commission-complaint.pdf" target="_blank" rel="noopener noreferrer" title="28 October 2004 letter to the Equal Opportunity Commission. The Age said he resigned on 31 May 2004. His reply calls it a forced resignation after 4.5 years as a casual news graphics artist, not a choice to leave.">fired from The Age</a>, where I worked as a news graphics artist and cartoonist. I did not resign, and I did not leave. I was denied a lawyer and a pathway to have it tested at the time. The later <a class="ev" href="https://wezzo72.github.io/Barrandodger/rendered-pdfs/legal-aid-nsw-advice-letter-january-2026.pdf" target="_blank" rel="noopener noreferrer" title="Legal Aid NSW service-restriction record, 14 January 2026. This is the later restriction, not a 2003 refusal letter.">Legal Aid restriction</a> is the continuation of that refusal, not the 2003 letter itself. The madness was not any real or perceived illness I had. It was the deceitful way an honest and courageous testimony was weaponised against me, systemically, politically and financially, from that point on. The targeting lasted decades. Its goal was my ruin, and the avoidance of accountability by those who participated in it.</p>
-  <p>Before any of that, the media wanted me. I was a news graphics artist in that industry, and I was paid as a journalist. <a class="ev" href="https://wezzo72.github.io/Barrandodger/historical-profile-wix.html" target="_blank" rel="noopener noreferrer" title="Earlier public profile, captured September 2026. Media, presentations and qualifications as listed on that site. Not a finding that each appearance has been separately verified.">The archive’s index of the earlier site</a> lists me as an illustrator for <em>The Age</em> and the <em>Herald Sun</em>. In hindsight I say I was exploited. The world wanted to hear me speak about a perceived mental illness, about vulnerability, and about inequity. I volunteered my time and my story. Years later, when I needed help from the very places I had given that time and that story, there was a total media blackout. That media ban exists to this day. The places, organisations, radio and television stations, and institutions, as that index records them, are these:</p>
-  <ul class="ev-list">
-    <li>ABC Radio National, <em>Life Matters</em> (Julie McCrossin)</li>
-    <li>ABC TV, <em>Stateline</em></li>
-    <li><em>Good Morning Australia</em> and The Today Show (Steve Leidman), around an exhibition and the book launch</li>
-    <li>Reuters TV (Frankie Fathers)</li>
-    <li>Triple J (Rachel Kerr)</li>
-    <li>2SM (Tricia Duffield)</li>
-    <li>ABC Gold and Sunshine Coasts</li>
-    <li>ABC Adelaide</li>
-    <li>ABC 702 (James Valentine)</li>
-    <li>3AW Nightline</li>
-    <li>Spectrum FM</li>
-    <li>Curtin Radio</li>
-    <li>Triple R</li>
-    <li>2NUR Newcastle</li>
-    <li>JOY FM</li>
-    <li>regional ABC, including Dubbo</li>
-    <li>McGill University, Montreal, College of Philosophical and Religious Studies</li>
-    <li>the Cunningham Dax Collection, including the educational DVD <em>Collected Thoughts 3</em></li>
-    <li>Forensicare</li>
-    <li>EPPIC consumer groups</li>
-    <li>the Australian Centre for Youth Literature</li>
-    <li>Richmond Fellowship, Warrnambool</li>
-    <li>parliamentary and conference settings</li>
-  </ul>
-<p>The significance of the qualification is the same pattern. I hold a PhD. <a class="ev" href="https://wezzo72.github.io/Barrandodger/historical-profile-wix.html" target="_blank" rel="noopener noreferrer" title="Earlier public profile, captured September 2026. Media, presentations and qualifications as listed on that site. Not a finding that each appearance has been separately verified.">The archive’s index of the earlier site</a> records it as Victoria University research, on a merit scholarship, in arts-based A/r/tography, stated there as passed pending changes. I say that doctorate has been delegitimised, and treated as if it were not research, by officials whose qualifications it far outshines. I say that is envy, a way to keep me below them. Where is their PhD?</p>
-  <p>I used my life and my creativity to benefit humanity at the exact time I was being set up and deceived. Everyone involved thought I would never see past their false masks of jealousy, envy and malice. I do. I see every person, and what they did. I see it especially in my <a class="ev" href="https://wezzo72.github.io/Barrandodger/My%20erasure%20was%20by%20design%20April%20and%20Doug.pdf" target="_blank" rel="noopener noreferrer" title="Author’s paper: My erasure was by design, April and Doug. Not a finding.">blood family</a>, who were poised to benefit financially from my total annihilation and from my physical death. They never denied it. The paper with that account is also the <a class="ev" href="https://wezzo72.github.io/Barrandodger/Estate%20attorney%20and%20sibling%20betrayal.pdf" target="_blank" rel="noopener noreferrer" title="Author’s paper: estate attorney and sibling betrayal. Not a finding.">estate attorney and sibling betrayal</a>. This was a life in which I was never expected to recover, or to be well, or to be financially stable, or even to survive.</p>
-  <p>I published my <a class="ev" href="https://wezzo72.github.io/Barrandodger/gospels-prophetic.html" target="_blank" rel="noopener noreferrer" title="Gospels and prophetic writings preserved in this archive. The copies remain here after the other site was removed.">religious gospels</a> on barrandodger.com. That site has been removed. I could not pay the Replit bill. I say the removal was the designed poverty, not a change of mind. The gospels were less about mysticism than about a sovereign being forged in the fire of total human betrayal and isolation, at the apex of a targeting that has lasted more than three decades. What I preserved is the Government’s own <a class="ev" href="https://wezzo72.github.io/Barrandodger/official-government-pdfs.html" target="_blank" rel="noopener noreferrer" title="Index of the Government’s own official documents in this archive.">official documents</a> and the correspondence that sits with them. I say that record cannot be denied, and it cannot be argued out of existence. You cannot erase a history that is written in their own official documentation. I made the gospels at the intersection of that betrayal, the exile, and the protection of the Most High God, and of my <a class="ev" href="https://wezzo72.github.io/Barrandodger/rendered-html/mclean-phd-gospel.html" target="_blank" rel="noopener noreferrer" title="The author’s paper joining the doctorate to the gospel: posthumanism, the ethics of AI, and the documents. Not a finding.">PhD study of posthumanism and the ethics of AI</a>. I used the technology in a nuanced way, for a high-definition reading of pattern, taken from their own documents and set beside the Bible and Christian principles. I wrote the gospels to warn humanity of the coming collapse of a corrupt and cruel government, which is ultimately fleeting. No one listened. I was called delusional, and I was called crazy. The significance is the time. Nearly three or four years later, I say the <a class="ev" href="https://wezzo72.github.io/Barrandodger/tabs/prophecy.html" target="_blank" rel="noopener noreferrer" title="The prophecy of the one they tried to erase. The author’s prophetic record, not a finding that each prediction has been adjudicated.">predictions</a> I was told were delusion have happened as I said they would. The paper that puts that claim in one place is <a class="ev" href="https://wezzo72.github.io/Barrandodger/site-mirror/html/paranoid-was-prophecy.html" target="_blank" rel="noopener noreferrer" title="Author’s page: Paranoid Was Prophecy. Not a court finding.">Paranoid Was Prophecy</a>. Who is laughing now?</p>
-  <p>That record includes what the file calls a <a class="ev" href="https://wezzo72.github.io/Barrandodger/myaidrive-pdfs/Evidence/Opened%20IR8415987%20Report%20of%20fatal%20injury%20in%20which%20provider%20participant%20was%20revived.pdf" target="_blank" rel="noopener noreferrer" title="IR8415987: report of fatal injury in which the provider participant was revived">fatal injury</a>. God revived me from it. Five years on, the conditions that solicited that attempt have continued: stonewalling, financial abuse, isolation, denial of Legal Aid, and no ordinary pathway to have the allegations tested. The Victorian Ombudsman’s later treatment of the complaint is the <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2022-10-05-VOCAT-Ombudsman-BenCalder-ComplaintRejection.pdf" target="_blank" rel="noopener noreferrer" title="VOCAT / Ombudsman complaint rejection concerning the fatal injury, Ben Calder, 5 October 2022">Ben Calder letter of 5 October 2022</a>. A <a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/barrandodger-gmail/01-government/FOI-Mercy-Hospital.pdf" target="_blank" rel="noopener noreferrer" title="FOI bundle: Mercy Hospital, in the government correspondence">Mercy Hospital FOI</a> sits with it. <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2021-05-PID-Ombudsman-Rejected-Acknowledgement.pdf" target="_blank" rel="noopener noreferrer" title="Commonwealth Ombudsman PID acknowledgement, May 2021: disclosure not allocated">A public-interest disclosure was not allocated</a>. <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2021-11-13-APRA-reject-Whistleblower-Status.pdf" target="_blank" rel="noopener noreferrer" title="APRA letter, 13 November 2021, refusing whistleblower status">APRA refused whistleblower status</a>.</p>
-  <p>An NDIS provider was made to sign a non-disclosure agreement after the account that a woman was paid to fabricate a report about me. The <a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/2026-10-02-drive-folder-import/Ben-Ndis-Help-large.pdf" target="_blank" rel="noopener noreferrer" title="Ben-Ndis-Help-large.pdf: published text-message record over time. Not, by itself, an AFP finding.">Ben NDIS text-message record</a> is where that is written down. In it, the other party says the only evidence he could give me was “a copy of the <a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/2026-10-02-drive-folder-import/Ben-Ndis-Help-large.pdf" target="_blank" rel="noopener noreferrer" title="Same PDF. The non-disclosure agreement is named in the messages.">non disclosure agreement</a>”, and that when he signed it the agreement disappeared from his phone with a notice that the device had been cleared of classified information. His own words: <a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/2026-10-02-drive-folder-import/Ben-Ndis-Help-large.pdf#page=54" target="_blank" rel="noopener noreferrer" title="Ben’s message, page 54. He says he was made to sign a non-disclosure agreement in a top secret investigation.">It’s a top secret investigation. They made me sign a non disclosure agreement</a>. <a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/2026-10-02-drive-folder-import/Ben-Ndis-Help-large.pdf#page=68" target="_blank" rel="noopener noreferrer" title="Ben’s message, page 68. He says the agreement wiped itself and the phone was cleared of classified information.">When I signed the agreement it instantly disappeared off my phone. A message popped up that said your device has been cleared of classified information. It’s some sort of agency grade electronic document that automatically wipes itself off your device.</a> <a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/2026-10-02-drive-folder-import/Ben-Ndis-Help-large.pdf#page=65" target="_blank" rel="noopener noreferrer" title="Ben’s message, page 65. He says he thought the account was paranoia, then that it was right.">I thought you were just paranoid. You were right</a>. <a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/2026-10-02-drive-folder-import/Ben-Ndis-Help-large.pdf#page=60" target="_blank" rel="noopener noreferrer" title="Ben’s message, page 60. He says two hitmen were arrested and told police who ordered the hit. This is his message, not a finding.">They already arrested two hitmen. They’re telling the police everything. They’ve told them who ordered the hit.</a> That non-disclosure agreement is now pointless. The truth is out. It is exposed. It is undeniable. The same record preserves “consentual regretful sex”, “the police told me about the consensual regretted sex”, and this sentence: <a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/2026-10-02-drive-folder-import/Ben-Ndis-Help-large.pdf" target="_blank" rel="noopener noreferrer" title="Same PDF. The other party’s message: agencies went back through phone records and believed she was paid to discredit you.">The agencies went back through phone records and believed she was paid to discredit you</a>. I understand the Federal Police wording I was given as “regretful” but “consensual”. No charge against me came out of that event. I say what did occur was the weaponisation of my sexuality. I publish the messages as the record of what was said. They are not, by themselves, an AFP finding.</p>
-  <p>That sentence is why I say I have never had equal treatment from police. Once a paid discrediting is accepted, every later report is easier to refuse. The <a class="ev" href="https://wezzo72.github.io/Barrandodger/tabs/crimes.html" target="_blank" rel="noopener noreferrer" title="Crimes occurring to Barran Dodger, items 1 to 150. Allegations and documentary pointers, not findings.">crimes I say have occurred to me over more than 35 years</a>, and the <a class="ev" href="https://wezzo72.github.io/Barrandodger/Crimes%20occurring%20to%20Barran%20Dodger%20%E2%80%94%201%20to%20150.pdf" target="_blank" rel="noopener noreferrer" title="Crimes occurring to Barran Dodger — 1 to 150.pdf">same list as a PDF</a>, are the reading copy of that longer record. They are allegations and pointers. They are not findings.</p>
-  <p>I was betrayed by humanity for a purpose I believe was ordained: to be a vessel for God’s glory. This website is the beginning of what I understand as God’s answer to that corruption. I use the word sacrilege, a violation of something sacred, because I believe that deliberately harming one of God’s anointed, and then pretending not to know, is a spiritual crime. My perpetrators know what they did. The archive does not ask a reader to share my faith. It asks a reader to open the documents.</p>
-  <p>The same message record is where the alleged assassination is put in writing. Ben’s message to me, which he presents as what the police told him, is: <a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/2026-10-02-drive-folder-import/Ben-Ndis-Help-large.pdf#page=45" target="_blank" rel="noopener noreferrer" title="Ben NDIS text messages, page 45. His words, as what the police told him.">The police want to know if you are mentally ready to challenge Bill Shorten in a court of law as his lawyers might use your history of mental health as an excuse to discredit your story.</a> <a href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/2026-10-02-drive-folder-import/Ben-Ndis-Help-large.pdf#page=45" target="_blank" rel="noopener noreferrer"><img src="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/ben-police-bill-shorten-message.png" alt="The police want to know if you are mentally ready to challenge Bill Shorten in a court of law as his lawyers might use your history of mental health as an excuse to discredit your story." style="max-width:min(100%,540px);height:auto;display:block;margin:12px 0;background:#fff;border-radius:12px"></a> My messages name Bill Shorten and a person I was told was a Lebanese criminal pretending to be a provider, “known in certain circles”, and sent “to erase me”. The other party’s messages answer that account. It has not been disproven by an official finding I have been given, nor officially established as a fabrication, nor denied in any document in this archive. The messages remain part of the record that requires examination. They are not a finding that a minister ordered a killing.</p>
-  <p>The significance of that message, as I draw it, is this. <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2024-01-21-s100-ndis-appeal.pdf" target="_blank" rel="noopener noreferrer" title="21 January 2024 s100 letter, addressed to Rebecca Falkingham and Bill Shorten among others. It is my letter, not the review decision.">Bill Shorten was the NDIS Minister</a>. I say he betrayed the ethical obligations of that office, acted in a cowardly way, and abused its power. I say he was the key manipulator of what was done to me. I say he caused the AVO concerning him and <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2024-01-07-letter-to-ndis-ceo-rebecca-falkingham.pdf" target="_blank" rel="noopener noreferrer" title="7 January 2024 letter to NDIS CEO Rebecca Falkingham.">Rebecca Falkingham</a>, that he deliberately caused my political exile, and <a class="ev" href="https://wezzo72.github.io/Barrandodger/site-mirror/html/shorten-assassination-order-documented.html" target="_blank" rel="noopener noreferrer" title="The archive article on the alleged assassination order. It is the article. It is not a finding.">I allege that he ordered my assassination</a>. I say his character is now exposed by this record as morally reprehensible, and that he is a power-hungry criminal who should be immediately arrested. How dare he, as I allege, order the killing of a vulnerable person with a disability he was paid to treat ethically, legally and humanely, and who was under that care. This is why I say God is furious. No one has the right to erase, murder or kill another human being, much less a disabled person under their care. The situation is beyond absurd.</p>
-  <p>No one in office acknowledges the five-year marriage-like relationship I say I had with a former ASIO employee, Steve Iasonidis. I published <a class="ev" href="https://www.youtube.com/watch?v=FdSyOcpULUo" target="_blank" rel="noopener noreferrer" title="YouTube, Dr Rich McLean AKA Barran Dodger: Steve Iasonidis and Dr Richard McLean were engaged for over 5 years.">the proposal, and an engagement with Steve Iasonidis that lasted more than five years</a>. I say it led to five years of exploitation in an abusive entrapment that no profession will admit even existed. The court paper I can put in a reader’s hand is the <a class="ev" href="https://wezzo72.github.io/Barrandodger/myaidrive-pdfs/Evidence/EVIDENCE%20intervention%20order%20against%20steve%20iasonidis%20Magistrates%20Court%20Case%20No-L12151974-out%203.pdf" target="_blank" rel="noopener noreferrer" title="Magistrates’ Court intervention-order exhibit, Steve Iasonidis, case L12151974. It is the court paper. It is not an ASIO employment record.">intervention-order file L12151974</a>. I was hospitalised after I tried to get Legal Aid so that relationship could be acknowledged for an equitable separation. The financial exploitation, the attempts to obtain legal recognition, and what followed, are the chronology this archive preserves. His ability to have the relationship treated as if it never existed is, in my experience, the fact a professional will still not say out loud.</p>
-  <p>The Prime Minister, Anthony Albanese, did not answer me in his own hand. On 12 December 2022 his own office wrote, of an email sent to him, <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2022-12-12-Prime-Minister-email-not-forwarded.pdf" target="_blank" rel="noopener noreferrer" title="12 December 2022. Office of Anthony Albanese MP: Your email has not been forwarded. Preserved text of the email. Not a court finding.">“Your email has not been forwarded.”</a> I had written to him, including the <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2022-05-31-letter-to-the-prime-minister.pdf" target="_blank" rel="noopener noreferrer" title="31 May 2022 email to the Prime Minister’s office, Help—Financial Governance, from Dr Richard McLean">letter of 31 May 2022</a>, and the <a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/barrandodger-gmail/01-government/2023-07-01-letter-Attorney-General-PM-Mental-Health-Minister.pdf" target="_blank" rel="noopener noreferrer" title="1 July 2023 letter to the Attorney-General, the Prime Minister and Gabrielle Williams">letter of 1 July 2023</a>. On <a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/barrandodger-gmail-rest/03-evidence-images/2023-09-19-prime-minister-response.jpg" target="_blank" rel="noopener noreferrer" title="Photograph of Attorney-General’s Department letter, 19 September 2023, MC23-028244, A Riley, Security Law Section. Referral, not an apology and not a finding.">19 September 2023</a> the Attorney-General’s Department wrote, reference <a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/barrandodger-gmail-rest/03-evidence-images/2023-09-19-prime-minister-response.jpg" target="_blank" rel="noopener noreferrer" title="Same letter. Reference MC23-028244.">MC23-028244</a>, signed A Riley, Security Law Section. It says my email of 5 July 2023 to the Hon Anthony Albanese MP, including about ASIO, was referred to the Attorney-General, the Hon Mark Dreyfus KC MP, because the matters fell in his portfolio, and that he asked the Department to respond on his behalf. It then pointed me to the Inspector-General of Intelligence and Security — IGIS, which I have also called AGIS — and to the Commonwealth Ombudsman. I was already shut out of the Ombudsman. The <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2025-08-08-Commonwealth-Ombudsman-Service-Restriction.pdf" target="_blank" rel="noopener noreferrer" title="Commonwealth Ombudsman service-restriction correspondence, 8 August 2025">service-restriction letter of 8 August 2025</a> is the later official paper. A further <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2025-02-06-AG-Department-correspondence.pdf" target="_blank" rel="noopener noreferrer" title="Attorney-General’s Department, 6 February 2025, MC25-000321, referring matters to the Victorian Minister for Police">letter of 6 February 2025, MC25-000321</a>, sent the matters to the Victorian Minister for Police. Those were dead ends. They did not acknowledge the relationship. I am well aware that I am on ASIO’s books as what I call a targeted individual. I recorded <a class="ev" href="https://www.youtube.com/watch?v=KtfjNDo0_gI" target="_blank" rel="noopener noreferrer" title="YouTube, Dr Rich McLean AKA Barran Dodger: AGIS who investigate ASIO are well aware of my victimisation and can be assumed to be complicit">my call to AGIS, who investigate ASIO, about the victimisation</a>. In hindsight I say they were already committed to never helping me, and that they were used by my former fiancé, the ASIO employee Steve Iasonidis. No professional admits the five-year relationship even existed. I say that reveals Iasonidis as a key manipulator, with protection under David Irvine and the federal government. Hospitals have repeatedly force-injected me for what they called “ingrained delusions of persecution”. That is my account of the call and of the treatment.</p>
-  <p>The same department has a freedom-of-information file that does not agree with itself. On 7 February 2022 I asked the Department of the Prime Minister and Cabinet for <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/2022-04-14-FOI-2022-045-refusal-documents-do-not-exist.pdf" target="_blank" rel="noopener noreferrer" title="The words of the request are quoted in the decision of 14 April 2022, reference FOI/2022/045.">“all information government agencies hold on me please.”</a> On 16 March 2022 the Office of the Australian Information Commissioner wrote, reference <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/2022-03-16-oaic-rq22-00794-1187-outlook-items.pdf" target="_blank" rel="noopener noreferrer" title="OAIC email, 16 March 2022, RQ22/00794. The Department said approximately 1,187 Outlook items were being reviewed.">RQ22/00794</a>, that the Department had applied for more time because the request was voluminous and complex, and that approximately 1,187 Outlook items were being reviewed. That is more than a thousand items, in the Department’s own account to the Commissioner. It is not, by that letter alone, a finding that 1,187 documents had been proved to be about me. On 14 April 2022 Petra Gartmann, Assistant Secretary, Legal Policy Branch, refused the same request under section 24A(1)(b), reference <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/2022-04-14-FOI-2022-045-refusal-documents-do-not-exist.pdf" target="_blank" rel="noopener noreferrer" title="PM&C decision, 14 April 2022, FOI/2022/045. Refusal under s 24A(1)(b).">FOI/2022/045</a>. The decision says all reasonable steps were taken, that no relevant documents were identified, and that the documents <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/2022-04-14-FOI-2022-045-refusal-documents-do-not-exist.pdf" target="_blank" rel="noopener noreferrer" title="Same decision. The words are: cannot be found or do not exist.">cannot be found or do not exist</a>. On 8 October 2024 that refusal was revised. Laura Cameron, acting Assistant Secretary, reference <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/2024-10-08-FOI-2022-045IC-revised-decision-five-documents.pdf" target="_blank" rel="noopener noreferrer" title="Revised decision under s 55G, 8 October 2024, FOI/2022/045IC. Five documents held and access granted.">FOI/2022/045IC</a>, wrote that the Department holds five documents that meet the request and granted access to them, with some material deleted as irrelevant. On 4 November 2024 the Commissioner’s office, <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/2024-11-04-oaic-mr22-00677-resend-five-documents.pdf" target="_blank" rel="noopener noreferrer" title="OAIC email, 4 November 2024, MR22/00677. Asks the Department to resend the revised decision and the five documents.">MR22/00677</a>, said it would ask the Department to resend that decision of 8 October 2024 and the five documents. Read them in that order. One describes more than a thousand Outlook items under review. The next says the documents do not exist. The one after that releases five. That is the hypocrisy in the Department’s own file. It is not a court finding. <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/2026-04-letter-to-the-world-essay.pdf" target="_blank" rel="noopener noreferrer" title="Essay, April 2026. Its figure is 1,178. The Commissioner’s letter says about 1,187. The essay is not the letter.">An essay in this deposit uses the figure 1,178</a>. The figure on the Commissioner’s letter is about 1,187. With those letters I place <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/letter-to-prime-minister-and-attorney-general.pdf" target="_blank" rel="noopener noreferrer" title="Undated letter addressed to the Prime Minister and to Attorney-General Mark Dreyfus. The depositor identifies it as the letter answered by MC23-028244.">the undated letter addressed to the Prime Minister and to the Attorney-General, Mark Dreyfus</a>, which is the letter I identify as the one answered by the referral to IGIS and the Ombudsman, and <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/letter-to-office-of-prime-minister-and-cabinet.pdf" target="_blank" rel="noopener noreferrer" title="A further undated letter to the Office of Prime Minister and Cabinet.">a further undated letter to the Office of Prime Minister and Cabinet</a>. My <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/2024-08-01-email-ic-review-mr22-00677.pdf" target="_blank" rel="noopener noreferrer" title="His email of 1 August 2024 on IC review MR22/00677. Not the Commissioner’s decision.">email of 1 August 2024</a> on the review is with them. The typed copy of the 19 September 2023 reply is <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/2023-09-19-MC23-028244.pdf" target="_blank" rel="noopener noreferrer" title="Attorney-General’s Department, 19 September 2023, MC23-028244, A Riley. Referral to IGIS and the Ombudsman. Not an apology.">MC23-028244 as a PDF</a>, beside the photograph already linked. A <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/foi-2022-045/2025-11-14-foi-pack-commentary-not-an-apology.pdf" target="_blank" rel="noopener noreferrer" title="111-page file. The filename says apology. The first page is a commentary on this FOI file, not a letter from the Prime Minister.">111-page file whose filename says “prime minister apology”</a> is not an apology from Anthony Albanese. Its first page is a commentary on this FOI file.</p>
-  <p>I <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2022-08-14-statement-to-police.pdf" target="_blank" rel="noopener noreferrer" title="Statement to police, 14 August 2022">asked to be arrested</a> so that my name could be tested in the ordinary way. No one came. No charge was laid against me. No criminal trial was commenced. I was left with the consequences of accusation without the process in which guilt or innocence is determined. I have been hospitalised in psychiatric institutions sixteen times. That number is my count. The <a class="ev" href="https://wezzo72.github.io/Barrandodger/tabs/paper-hospital-surveillance.html" target="_blank" rel="noopener noreferrer" title="Author’s hospital-surveillance paper. It is not an official admission ledger.">hospital paper</a> is the place I have written the conditions around those admissions: homelessness, designed poverty, and inaction by police and the legal profession. I am in exile. I am restricted from Legal Aid, which is a betrayal of the reason Legal Aid exists, and restricted from the Ombudsman. I have not placed a NACC restriction letter in this repository, so I do not pretend to link one.</p>
-  <p>I could not even report being drugged and raped to the Commonwealth Ombudsman. I published <a class="ev" href="https://www.youtube.com/watch?v=s4XdU7OhY7A" target="_blank" rel="noopener noreferrer" title="YouTube, Dr Rich McLean AKA Barran Dodger: Can't even report being drugged and raped to the ombudsman">the call in which I could not report being drugged and raped to the Ombudsman</a>. I say it shows the blacklist and the stonewalling. On 3 September 2023 I called the NACC after 90 days about my complaint, and they rejected me. I say that rejection is the Commission participating in the same refusal. I published <a class="ev" href="https://www.youtube.com/watch?v=pFHuHbaca4A" target="_blank" rel="noopener noreferrer" title="YouTube, Dr Rich McLean AKA Barran Dodger: 03.09.2023 I call the NACC after 90 days for my complaint, and they 'reject' me - they are in on it!">the call to the NACC after 90 days, in which my complaint was rejected</a>. Danny Pearson, then the workplace minister, refused my phone call about workers’ compensation. I published <a class="ev" href="https://www.youtube.com/watch?v=hPWvmILlDqI" target="_blank" rel="noopener noreferrer" title="YouTube, Dr Rich McLean AKA Barran Dodger: Danny Pearson Work safe Minister doesn't want to talk to me, or answer email let's make him famous">the call that Danny Pearson, the workplace minister, refused to take about workers’ compensation</a>. Liz Lindberg of the Australian Human Rights Commission sided with Australian Super on the denial of compensation in what I say was a robbery of more than a million dollars of a settlement I was entitled to. I say she knew the conflict, acted in her role to betray a position the Commission had already taken, and then revoked it, so that TAL did not have to engage. In her professional capacity she free-kicked that settlement. I published <a class="ev" href="https://www.youtube.com/watch?v=xrNpHZeYx5o" target="_blank" rel="noopener noreferrer" title="YouTube, Dr Rich McLean AKA Barran Dodger: Dr. Rich Mclean  Liz Lindberg is from AHRC and she free kicks Million $ in  impartial settlement">the call in which Liz Lindberg of the AHRC free-kicks a settlement of more than a million dollars</a>. Tim Gos of AFCA was, as I say it, already committed to never giving me a way to resolve the financial conflicts. He blocked the path his role exists to keep open. I was later banned from AFCA. I published <a class="ev" href="https://www.youtube.com/watch?v=7443Ck9yPmE" target="_blank" rel="noopener noreferrer" title="YouTube, Dr Rich McLean AKA Barran Dodger: Dr Rich Mclean To Tim Gos and peter Fisher of AFCA">the call to Tim Gos of AFCA, who blocked a determination of the financial complaint</a>. Comcare and the AAT were, as I say it, already committed to denying a valid workers’ compensation claim by accepting that I was blocked from Legal Aid. That is a breach of the reason those bodies exist. I was left to face a government-appointed lawyer, Kate Watson, without Legal Aid, and I have never been able to report a single crime to police. <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2024-01-08-letter-to-scott-tredwell-federal-court.pdf" target="_blank" rel="noopener noreferrer" title="8 January 2024 letter to Scott Tredwell of the Federal Court. It records that he was satisfied I was an employee of DSS.">Scott Tredwell’s letter on Federal Court letterhead</a> records that he was satisfied I was an employee of DSS. The papers that said the opposite are still in the file. On 26 May 2021 <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/official-drive/McLean-determination-Comcare-rejection-26May2021.pdf" target="_blank" rel="noopener noreferrer" title="Comcare determination, 26 May 2021, claim 1326583/1. The claim was declined. The first question was whether I was an employee under section 5.">Comcare declined claim 1326583/1</a> and put, as the first question, whether I was an employee under section 5 of the Safety, Rehabilitation and Compensation Act. On 3 June 2021 Sarah LeMaire of the NDIS Quality and Safeguards Commission wrote: <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/official-drive/2021-06-03-NDIS-Quality-Safeguards-Commission-not-an-employee.pdf" target="_blank" rel="noopener noreferrer" title="3 June 2021. NDIS Quality and Safeguards Commission, Sarah LeMaire: This process does not make you an employee of the NDIS Commission.">“This process does not make you an employee of the NDIS Commission.”</a> I say Tredwell’s confirmation should have overturned the lesser finding of Comcare and the AAT that I was not an employee. It did not. I published <a class="ev" href="https://www.youtube.com/watch?v=q7aC0Oxn4TA" target="_blank" rel="noopener noreferrer" title="YouTube, Dr Rich McLean AKA Barran Dodger: Dr. Rich Mclean @ www.killhim.info - Corruption at the AAT and Comcare and with legal access">the call on Comcare and the AAT denying workers’ compensation, and denying legal access</a>.</p>
-  <p>I took the same record outside the country. The archive holds the <a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/2026-10-02-drive-folder-import/OHCHR-Submission-Ref-URUST23AUS17.pdf" target="_blank" rel="noopener noreferrer" title="OHCHR submission file, reference UR/UST/23/AUS/17">OHCHR submission, reference UR/UST/23/AUS/17</a>, and the claim of an International Criminal Court submission as part of the chronology of asking for protection. The reference is the document. It is not a finding by the United Nations.</p>
-  <p>My paranoia is a documented reality in this sense: here is what I recorded parked outside my squat in Footscray, about 2022. The video on my own channel is <a class="ev" href="https://youtu.be/3viUVA1fI1k" target="_blank" rel="noopener noreferrer" title="YouTube, Dr Rich McLean AKA Barran Dodger: The #secretservice out front of my house I am a failed #whistleblower">the secret service parked out the front of the Footscray squat</a>. You cannot surveil a victim and call it a success when the victim films the people doing the surveillance. The gig is up. I say the V2K audio harassment was a mechanism of torture, and that this recording exposes it. The papers are the <a class="ev" href="https://wezzo72.github.io/Barrandodger/tabs/paper-v2k-review.html" target="_blank" rel="noopener noreferrer" title="Tab: review of the V2K record.">V2K review</a> and the <a class="ev" href="https://wezzo72.github.io/Barrandodger/tabs/paper-ahrc-gangstalking.html" target="_blank" rel="noopener noreferrer" title="Tab: the AHRC used the term gang stalking in correspondence, then the occurrence was denied.">AHRC gang-stalking paper</a>. The Commission used the term “gang stalking” in official correspondence to me, and the occurrence was then denied. I say that denial, against their own words, is the hypocrisy.</p>
-  <p><a class="ev" href="https://barrandodger.com/tony-ridley-recorded-confession" target="_blank" rel="noopener noreferrer" title="Published page: Tony Ridley recorded confession. Author’s publication, not a court exhibit tendered in a hearing.">Tony Ridley</a>, formerly a fraud investigator associated with the NDIS, is the man I recorded. I say he was deployed as a drug-affected honeypot, and that a former support worker of the same agency would have known I was an unprotected whistleblower. I recorded the encounter because he indicated he may have killed people. I later understood him to be a returned SAS soldier with a PhD in counter-terrorism surveillance. The archive holds a <a class="ev" href="https://wezzo72.github.io/Barrandodger/myaidrive-pdfs/Evidence/tony%20ridley.pdf" target="_blank" rel="noopener noreferrer" title="PDF filed in the archive under Tony Ridley’s name and credentials. A credential sheet is not a finding about the encounter.">credential exhibit in his name</a> and the <a class="ev" href="https://wezzo72.github.io/Barrandodger/myaidrive-pdfs/Evidence/Tony%20riddell%20conversation.pdf" target="_blank" rel="noopener noreferrer" title="Tony riddell conversation.pdf, preserved in the archive">conversation PDF</a>. I published the audio of that encounter to expose what I say was the corruption and to keep myself safe. What I put on the channel is <a class="ev" href="https://www.youtube.com/watch?v=RpfeHl-3gEM" target="_blank" rel="noopener noreferrer" title="YouTube, Dr Rich McLean AKA Barran Dodger: Oh well no one is perfect there’s always the ndis and Jesus!">the published audio of the Tony Ridley encounter</a>. It backfired. His wife did not know he had sex with men. I say he then used a PhD in counter-terrorism surveillance to hunt me electronically across three states while I was fleeing, and that he knew I was an unprotected whistleblower. I say his conduct is criminal, and that it sits inside the long exile and the alleged assassination plot. No one has denied that account in a document in this archive, and no one has proved it wrong. I published the recording to protect both of us. He says I ruined his life. I say he then followed me electronically across three states, and that paid followers were used to intimidate me wherever I went. On my YouTube channel I described that meeting, named him as SAS, and invited people to listen to <a class="ev" href="https://www.youtube.com/watch?v=EJ-UVXVh-gE" target="_blank" rel="noopener noreferrer" title="YouTube, Dr Rich McLean AKA Barran Dodger, 16 April 2023. He describes the Tony Riddle conversation and invites a listen. This is his later account, not verified here as the raw encounter tape alone.">the later account in which I name Tony Ridley as SAS</a>. I have not found a second watch address that is only the raw tape. The published page, the conversation PDF, and that video are what a reader can open today.</p>
-  <p>He told me there was a formal investigation whose aim was to discredit and destroy me. He revealed contact with my family, with the woman the messages call the regretted encounter, and knowledge of Alan, my younger partner, which he would not otherwise have had. He claimed it was easy to turn my sister Jodie Bongetti, my brother Brad McLean, my parents Doug and April McLean, and my uncle Bruce McMaster into alignment against me. I already knew the isolation. What he added was that the communication was deliberate. That is my account of what he said. It sits beside the recording record. It is not his signed statement.</p>
-  <p>The NDIS, through the provider <a class="ev" href="https://wezzo72.github.io/Barrandodger/tabs/able-point-exile.html" target="_blank" rel="noopener noreferrer" title="Able Point exile and entrapment tab">Able Point</a>, sent support workers who already knew my case and who did not change my circumstances. I say they reported me back into the same entrapment, inside the agency I had worked for, and into the same matter as the provider I was told had been sent to erase me. The papers are the <a class="ev" href="https://wezzo72.github.io/Barrandodger/Current%20legally%20binding%20update%20on%20entrapment%20and%20targeting%20by%20Able%20Point.pdf" target="_blank" rel="noopener noreferrer" title="Current legally binding update on entrapment and targeting by Able Point. Author’s notice, not an NDIS finding.">Able Point notice</a> and the <a class="ev" href="https://wezzo72.github.io/Barrandodger/Brett%20from%20able%20point%20I%20demand%20a%20response.pdf" target="_blank" rel="noopener noreferrer" title="Letter demanding a response from Brett at Able Point">letter to Brett</a>. The Ben NDIS messages are where the provider contact, the NDA, the paid-discredit claim, and the hit claim sit side by side.</p>
-  <p>There was family betrayal from childhood. Members of my family attended the funeral of the person who sexually abused me as a child, days after he died, on the same day as the fatal injury. They protected him. I was the one called morally depraved. My family has excommunicated me. The excommunication was so obscene that I protested my homelessness in a video no one answered. I filmed it as a disabled man, homeless, from a paddock in Dandenong, while my blood family lived in comfort nearby. The recording, filmed while I was homeless in a Dandenong paddock, is <a class="ev" href="https://www.youtube.com/watch?v=Iu9aYnbULZM" target="_blank" rel="noopener noreferrer" title="YouTube, Dr Rich McLean AKA Barran Dodger: Introduction for the purposes of affidavit and stat Dec dr rich mclean">the introduction for an affidavit and a statutory declaration</a>. I believe they were positioned to benefit from my permanent erasure. That belief is testimony. The papers I have put with it are <a class="ev" href="https://wezzo72.github.io/Barrandodger/My%20erasure%20was%20by%20design%20April%20and%20Doug.pdf" target="_blank" rel="noopener noreferrer" title="Author’s paper: My erasure was by design, April and Doug. Not a finding.">My erasure was by design</a> and <a class="ev" href="https://wezzo72.github.io/Barrandodger/Estate%20attorney%20and%20sibling%20betrayal.pdf" target="_blank" rel="noopener noreferrer" title="Author’s paper: estate attorney and sibling betrayal. Not a finding.">estate attorney and sibling betrayal</a>. God, as I understand it, allowed the betrayal to show character. The day of reckoning is the day the evidence is public, not a sentence I am imposing.</p>
-  <p>I was not expected to survive the <a class="ev" href="https://wezzo72.github.io/Barrandodger/tabs/personal-statement-exile.html" target="_blank" rel="noopener noreferrer" title="Personal Statement of Exile tab.">exile</a>, the homelessness, the isolation, the humiliation, the <a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/herald-sun-my-descent-into-madness.jpeg" target="_blank" rel="noopener noreferrer" title="Sunday Herald Sun spread. The character assassination named in this sentence.">character assassination</a>, the <a class="ev" href="https://wezzo72.github.io/Barrandodger/tabs/digital-apocalypse.html" target="_blank" rel="noopener noreferrer" title="Tab: Digital Apocalypse of Administrative Annihilation.">administrative annihilation</a>, or the intimate and family betrayal. The tabs that set out that treatment are the <a class="ev" href="https://wezzo72.github.io/Barrandodger/tabs/digital-apocalypse.html" target="_blank" rel="noopener noreferrer" title="Same tab. Digital Apocalypse of Administrative Annihilation.">Digital Apocalypse of Administrative Annihilation</a>, the <a class="ev" href="https://wezzo72.github.io/Barrandodger/rendered-html/administrative-annihilation.html" target="_blank" rel="noopener noreferrer" title="Article: The Architecture of Administrative Annihilation.">Architecture of Administrative Annihilation</a>, the <a class="ev" href="https://wezzo72.github.io/Barrandodger/tabs/paper-cost-of-erasure.html" target="_blank" rel="noopener noreferrer" title="Tab: The cost of erasure.">cost of erasure</a>, and <a class="ev" href="https://wezzo72.github.io/Barrandodger/rendered-html/coordinated-institutional-mobbing.html" target="_blank" rel="noopener noreferrer" title="Article: Coordinated Institutional Mobbing. The mobbing tab is linked at the opening of this statement.">coordinated institutional mobbing</a>. I survived. The evidence survived with me. They underestimated the God who kept me alive. You cannot erase what God has preserved. The documents are here. The correspondence is here. The text messages are here. The chronology is here. The decisions are here. The omissions are here.</p>
-  <p>The world can now read it. This archive is not only the story of what happened to me. It is the surviving record of what happened around me: what institutions recorded, what they did, what they failed to do, and what they cannot now pretend was never documented. The day of reckoning has arrived because the evidence has arrived. And I am still alive.</p>
-  <p>I gave every agency grace to treat me as they should. The grace I gave was spat on. All of them pretended they were not participating in my detrimental treatment. I am not revengeful. I believe the Bible says that vengeance is God’s to have. The universe has, through this archive, now witnessed what was done to me. They still pretend they are unaware, or that they acted ethically, while pretending they were not cruel.</p>
-  <p>The same chronology is in the papers below. Each opens in a new window. Each is the document named. None of them is a finding.</p>
-  <ul class="ev-list">
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2023-03-03-letter-to-sia-lagos-federal-court.pdf" target="_blank" rel="noopener noreferrer" title="3 March 2023 letter to Sia Lagos, CEO and Principal Registrar of the Federal Court. Records the 4 August 2022 public-interest video, Footscray Police, Werribee Mercy, Salt Water Clinic, and the house cleared to the tip.">3 March 2023 letter to Sia Lagos, CEO and Principal Registrar of the Federal Court</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2023-03-03-letter-to-sia-lagos-federal-court-long-copy.pdf" target="_blank" rel="noopener noreferrer" title="Longer copy of the same Sia Lagos compilation, the file matching the 21,371,041-byte attachment.">Longer copy of the same Sia Lagos compilation, the file matching the 21,371,041-byte attachment</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2024-01-08-letter-to-scott-tredwell-federal-court.pdf" target="_blank" rel="noopener noreferrer" title="8 January 2024 letter to Scott Tredwell. It quotes his 27 March 2023 rejection of the PID, including his words that I was or had been a DSS employee trading as Rich McLean, Arts Life Coach, Peer-Support Worker and Mental Health Advocate, and that it was difficult to say whether my belief was on reasonable grounds.">8 January 2024 letter to Scott Tredwell</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2023-04-ndia-pid-2023-krypton.pdf" target="_blank" rel="noopener noreferrer" title="NDIA authorised-officer letter on the emails of 18 and 20 April 2023, PID 2023/Krypton, OFFICIAL: SENSITIVE.">NDIA authorised-officer letter on the emails of 18 and 20 April 2023, PID 2023/Krypton, OFFICIAL: SENSITIVE</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2023-04-ndia-pid-2023-krypton-long-copy.pdf" target="_blank" rel="noopener noreferrer" title="Long copy of that PID file, 26,488,490 bytes, the same size as the attached NDIS DSS allegations PID.">Long copy of that PID file, 26,488,490 bytes, the same size as the attached NDIS DSS allegations PID</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2023-06-04-letter-to-gabrielle-williams.pdf" target="_blank" rel="noopener noreferrer" title="4 June 2023 letter to Gabrielle Williams and other parliamentarians. The ASIO relationship, the FOI said not to exist, and the agencies named in it.">4 June 2023 letter to Gabrielle Williams and other parliamentarians</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2023-07-03-statement-to-nacc.pdf" target="_blank" rel="noopener noreferrer" title="3 July 2023 statement sent toward the National Anti-Corruption Commission.">3 July 2023 statement sent toward the National Anti-Corruption Commission</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2023-08-01-rich-mclean-is-dead-email.pdf" target="_blank" rel="noopener noreferrer" title="1 August 2023 email headed Rich McLean is dead, to the agencies named on its face.">1 August 2023 email headed Rich McLean is dead, to the agencies named on its face</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2024-01-07-letter-to-ndis-ceo-rebecca-falkingham.pdf" target="_blank" rel="noopener noreferrer" title="7 January 2024 letter to NDIS CEO Rebecca Falkingham, demanding a home and accountability.">7 January 2024 letter to NDIS CEO Rebecca Falkingham, demanding a home and accountability</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2024-01-21-s100-ndis-appeal.pdf" target="_blank" rel="noopener noreferrer" title="21 January 2024 letter: My s100 NDIS appeal of a decision. Addressed to Bevan Rhys James, the Ombudsman, the NDIS s100 review, Rebecca Falkingham and Bill Shorten. It is my letter. It is not the review decision.">21 January 2024 letter: My s100 NDIS appeal of a decision</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2021-10-21-afp-cdda-claim-and-pid-request.pdf" target="_blank" rel="noopener noreferrer" title="21 October 2021 email to AFP CDDA claims: compensation claim and a PID protection request. My letter. Not their finding.">21 October 2021 email to AFP CDDA claims: compensation claim and a PID protection request</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2022-05-31-letter-to-the-prime-minister.pdf" target="_blank" rel="noopener noreferrer" title="31 May 2022 letter to the Prime Minister’s office.">31 May 2022 letter to the Prime Minister’s office</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/barrandodger-gmail-rest/03-evidence-images/2023-09-19-prime-minister-response.jpg" target="_blank" rel="noopener noreferrer" title="19 September 2023 reply, Attorney-General’s Department, MC23-028244.">19 September 2023 reply, Attorney-General’s Department, MC23-028244</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/docs/statement-exhibits/2026-10-02-documentary-trap-webpage-print.pdf" target="_blank" rel="noopener noreferrer" title="2 October 2026 print of the Documentary Trap page as published. A print of this archive, not an official government record.">2 October 2026 print of the Documentary Trap page as published</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/gmail-drive-sweep/2026-10-02-drive-folder-import/Ben-Ndis-Help-large.pdf" target="_blank" rel="noopener noreferrer" title="Ben NDIS text-message record: NDA, regretful, consensual, phone records, paid to discredit.">Ben NDIS text-message record: NDA, regretful, consensual, phone records, paid to discredit</a></li>
-    <li><a class="ev" href="https://wezzo72.github.io/Barrandodger/myaidrive-pdfs/Evidence/Opened%20IR8415987%20Report%20of%20fatal%20injury%20in%20which%20provider%20participant%20was%20revived.pdf" target="_blank" rel="noopener noreferrer" title="IR8415987 report of fatal injury in which the participant was revived.">IR8415987 report of fatal injury in which the participant was revived</a></li>
-  </ul>
-  <p class="ev-note">A two-page file titled “Prime minister scapegoating” was supplied with these papers. It is a blank Dropbox shell. It is not the Prime Minister’s reply, so it is not published here as one. The reply is the 19 September 2023 letter above.</p>
-  <p class="ev-note">Credit: the letters linked in this account are the copies published in the Barran Dodger repository, wezzo72/Barrandodger.</p>
-</section>
-
-
-<div class="notice">
-
-<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
-FRIDAY 2 OCTOBER 2026 · MAIN PROPHETIC DOCUMENT OF SIGNIFICANCE
-</p>
-
-<p style="margin:0 0 8px;">
-<a href="#documentary-trap-final">The Documentary Trap — When the System’s Own Record Becomes the Evidence</a>
-— Final clean text. Latest master. Full text on its own tab. The opening statement above is unchanged.
-</p>
-
-<p style="margin:0;font-size:.9rem;">
-<a href="https://raw.githubusercontent.com/wezzo72/Barrandodger/codex/recreate-barrandodger/THE-DOCUMENTARY-TRAP-FINAL-CLEAN-TEXT.pdf" download="THE-DOCUMENTARY-TRAP-FINAL-CLEAN-TEXT.pdf">Download PDF</a><br/>
-<a href="https://raw.githubusercontent.com/wezzo72/Barrandodger/codex/recreate-barrandodger/THE-DOCUMENTARY-TRAP-FINAL-CLEAN-TEXT.pdf.ots" download="THE-DOCUMENTARY-TRAP-FINAL-CLEAN-TEXT.pdf.ots">Download Bitcoin timestamp proof (.ots)</a><br/>
-<a href="tabs/documentary-trap-final-clean-text.html">Open the tab on its own page</a><br/>
-Bitcoin OpenTimestamps receipt: Friday 2 October 2026, 1:00:55 AM AEST. Bitcoin block confirmation is still pending. No block height is claimed.<br/>
-SHA-256 of the canonical text: aa24a908ec69be0f62792ea2eca030577974e594959b7cfa00129872eae9c984<br/>
-SHA-256 of the PDF: b410b52cb861077c66349f46b032aa400fb96fd11b72292baa457b0ef34ab2fd
-</p>
-
-</div>
-
-<div class="notice notice-gold">
-
-<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
-FRIDAY 2 OCTOBER 2026 · EXTENDED FIRST PERSON RECORD · BITCOIN TIMESTAMP
-</p>
-
-<p style="margin:0 0 8px;">
-<a href="#extended-statement">Whistleblower’s Testimony of Survival, Preservation and Faith</a>
-— Extended first-person record, Friday 2nd October 2026. Full text on its own tab, for anyone who wants the longer record. The opening statement above is unchanged. Nothing else on this page was removed.
-</p>
-
-<p style="margin:0;font-size:.9rem;">
-<a href="https://raw.githubusercontent.com/wezzo72/Barrandodger/codex/recreate-barrandodger/WHISTLEBLOWERS-TESTIMONY-OF-SURVIVAL-PRESERVATION-AND-FAITH-EXTENDED-FIRST-PERSON-RECORD-2-OCTOBER-2026.pdf" download="WHISTLEBLOWERS-TESTIMONY-OF-SURVIVAL-PRESERVATION-AND-FAITH-EXTENDED-FIRST-PERSON-RECORD-2-OCTOBER-2026.pdf">Download PDF</a><br/>
-<a href="https://raw.githubusercontent.com/wezzo72/Barrandodger/9767c047e2b25cec08eee9ab1641362271466fb0/WHISTLEBLOWERS-TESTIMONY-OF-SURVIVAL-PRESERVATION-AND-FAITH-EXTENDED-FIRST-PERSON-RECORD-2-OCTOBER-2026.pdf.ots" download="WHISTLEBLOWERS-TESTIMONY-OF-SURVIVAL-PRESERVATION-AND-FAITH-EXTENDED-FIRST-PERSON-RECORD-2-OCTOBER-2026.pdf.ots">Download Bitcoin timestamp proof (.ots)</a><br/>
-Bitcoin OpenTimestamps receipt: Friday 2 October 2026, 12:56:59 AM AEST.<br/>
-Calendars: alice.btc.calendar.opentimestamps.org · bob.btc.calendar.opentimestamps.org · finney.calendar.eternitywall.com · btc.calendar.catallaxy.com.<br/>
-Status: submitted. Bitcoin block confirmation is still pending. No block height is claimed until the calendars anchor this hash.<br/>
-<a href="tabs/extended-first-person-statement.html">Open the tab on its own page</a><br/>
-SHA-256 of the canonical text: f9fa2a9064e994e5054e4cae14cc87100aee10cd65b04caefa03510d2e69c7ff<br/>
-SHA-256 of the PDF: d48d618391f63239048003e566a957087f27cc8c9bfce2d794938a8144406403
-</p>
-
-</div>
-
-
-
-
-<div class="kicker">PUBLIC DOCUMENTARY ARCHIVE</div>
-<!-- ============================================================
-     BEGIN: THE DOCUMENTARY TRAP — ADDITION ONLY
-     Existing archive content is not replaced or removed.
-     ============================================================ -->
-
-<style>
-#documentary-trap-major-paper{
-  margin:24px 0;
-  padding:28px;
-  border:2px solid #f1c75b;
-  border-left:7px solid #f1c75b;
-  background:linear-gradient(135deg,#17130d,#241d12);
-  color:#fff;
-  box-shadow:0 8px 30px rgba(0,0,0,.25);
-}
-
-#documentary-trap-major-paper .dt-badge{
-  display:inline-block;
-  padding:6px 10px;
-  margin-bottom:12px;
-  background:#f1c75b;
-  color:#17130d;
-  font-weight:900;
-  letter-spacing:.08em;
-  font-size:.78rem;
-}
-
-#documentary-trap-major-paper h2{
-  margin:4px 0 10px;
-  color:#f1c75b;
-  font-size:clamp(1.7rem,4vw,2.8rem);
-  line-height:1.1;
-}
-
-#documentary-trap-major-paper .dt-lead{
-  font-size:1.15rem;
-  font-weight:700;
-}
-
-#documentary-trap-major-paper p{
-  line-height:1.7;
-  max-width:900px;
-}
-
-#documentary-trap-major-paper .dt-central{
-  margin:20px 0;
-  padding:18px;
-  border-left:5px solid #f1c75b;
-  background:rgba(255,255,255,.06);
-  font-size:1.05rem;
-  line-height:1.7;
-}
-
-#documentary-trap-major-paper .dt-actions{
-  margin:18px 0 0;
-}
-
-#documentary-trap-major-paper .dt-actions a{
-  display:inline-block;
-  margin:5px 8px 5px 0;
-  padding:12px 18px;
-  text-decoration:none;
-  font-weight:900;
-}
-
-#documentary-trap-major-paper .dt-open{
-  background:#f1c75b;
-  color:#17130d!important;
-}
-
-#documentary-trap-major-paper .dt-pdf{
-  border:1px solid #f1c75b;
-  color:#f1c75b!important;
-}
-
-#documentary-trap-major-paper .dt-stamp{
-  margin:16px 0 0;
-  font-size:.82rem;
-  opacity:.75;
-}
-
-.documentary-trap-main-tab{
-  border-color:#f1c75b!important;
-  color:#f1c75b!important;
-  font-weight:900!important;
-}
-</style>
-
-<section id="documentary-trap-major-paper">
-
-  <div class="dt-badge">
-    MAJOR EVIDENCE &amp; JUSTICE DOCUMENT
-  </div>
-
-  <h2>
-    THE DOCUMENTARY TRAP
-  </h2>
-
-  <p class="dt-lead">
-    When the System’s Own Record Becomes the Evidence
-  </p>
-
-  <p>
-    <strong>
-      35 Years of Institutional Records, Decisions, Correspondence and Evidence —
-      Preserved, Indexed and Open to Independent Examination.
-    </strong>
-  </p>
-
-  <p>
-    This document brings together the documentary record and asks a simple
-    evidentiary question:
-    <strong>
-      what do the records themselves establish about what institutions knew,
-      received, considered, decided, recorded, omitted, or left unresolved?
-    </strong>
-  </p>
-
-  <p>
-    It deliberately distinguishes documentary evidence from allegation,
-    personal testimony, faith, interpretation, chronology, causation,
-    institutional involvement, and claims of coordination. The archive does
-    not treat an allegation as automatically established fact.
-  </p>
-
-  <div class="dt-central">
-
-    <strong>The central question:</strong><br>
-
-    What actually happened — and what can the documentary record establish?
-
-  </div>
-
-  <div class="dt-actions">
-
-    <a
-      class="dt-open"
-      href="#documentary-trap">
-      OPEN DOCUMENT
-    </a>
-
-    <a
-      class="dt-pdf"
-      href="THE-DOCUMENTARY-TRAP-MAJOR-EVIDENCE-JUSTICE-DOCUMENT.pdf"
-      target="_blank"
-      rel="noopener">
-      PDF — TIMESTAMPED MASTER
-    </a>
-
-  </div>
-
-  <p class="dt-stamp">
-    Preserved master document • 1 October 2026 • Documentary evidence presented for independent examination.
-  </p>
-
-</section>
-
-<script>
-(function(){
-
-  function addDocumentaryTrapTab(){
-
-    var tabs = document.getElementById("tabs");
-
-    if(!tabs) return;
-
-    if(document.getElementById("documentary-trap-main-tab"))
-      return;
-
-    var tab = document.createElement("button");
-
-    tab.type = "button";
-    tab.id = "documentary-trap-main-tab";
-    tab.className = "tab documentary-trap-main-tab";
-    tab.setAttribute("data-page", "documentary-trap");
-    tab.textContent = "THE DOCUMENTARY TRAP";
-
-    tabs.insertBefore(tab, tabs.firstChild);
-
-  }
-
-  if(document.readyState === "loading"){
-    document.addEventListener(
-      "DOMContentLoaded",
-      addDocumentaryTrapTab
-    );
-  }else{
-    addDocumentaryTrapTab();
-  }
-
-})();
-
-</script>
-
-<!-- ============================================================
-     END: THE DOCUMENTARY TRAP — ADDITION ONLY
-     ============================================================ -->
-<div class="notice">
-
-<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
-ADDED 29 SEPTEMBER 2026
-</p>
-
-<p style="margin:0;">
-<a href="BARRAN-DODGER-HIS-THERAPY-DOG-NEEDS-YOUR-URGENT-HELP.pdf" target="_blank" rel="noopener">
-BARRAN DODGER &amp; HIS THERAPY DOG NEEDS YOUR URGENT HELP.pdf
-</a>
-</p>
-
-</div>
-
-
-<div class="notice notice-slate">
-
-<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
-ADDED 30 SEPTEMBER 2026 · MOBBING · SAFETY OF THE CROWD · SHA-256 STAMPED
-</p>
-
-<p style="margin:0 0 8px;">
-<a href="#mobbing">Mobbing and the Safety of the Crowd</a>
-— Believing a Comfortable Lie Over a Hard Truth. Full text on its own tab. Nothing else on this page was removed.
-</p>
-
-<p style="margin:0;font-size:.9rem;">
-<a href="MOBBING-AND-THE-SAFETY-OF-THE-CROWD.pdf">MOBBING-AND-THE-SAFETY-OF-THE-CROWD.pdf</a><br/>
-<a href="docs/source-texts/MOBBING-AND-THE-SAFETY-OF-THE-CROWD.txt">Canonical text</a><br/>
-SHA-256 of the canonical text: 8081a222d6c1b08be32ae6f1eb084edf95da273ce3dd984b34512e23e9e2add5<br/>
-SHA-256 of the PDF: e0bb4f54c43e0875ec757abf6eb468361d43de0d62c00dc5627cc87d5b1afac4<br/>
-<a href="#sha256-stamps">SHA-256 stamps for every PDF and page</a>
-</p>
-
-</div>
-
-
-<div class="notice notice-gold">
-
-<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
-ADDED 2 OCTOBER 2026 · ONE DOCUMENT · FULL TEXT · VERBATIM ADDITION 6:52AM · TIMESTAMPED HASH-CHAIN
-</p>
-
-<p style="margin:0 0 8px;">
-<a href="#paradox-of-survival">The Paradox of Survival: From Erasure to Vindication</a>
-— Full text on its own tab. Not a summary. Nothing else on this page was removed.
-</p>
-
-<p style="margin:0;font-size:.9rem;">
-<a href="statements/THE-PARADOX-OF-SURVIVAL-FROM-ERASURE-TO-VINDICATION.txt">Canonical text</a><br/>
-<a href="statements/THE-PARADOX-OF-SURVIVAL.chain.json">Timestamped hash-chain</a><br/>
-SHA-256 of the canonical text: 76b0c33f9b8854ddb9b7a650ca33bc66aa63dbea00cf5ad1a40e92dae6b5127b<br/>
-PDF SHA-256: 815a216e6270d3bfd0c9910e821395cfc42038243634398ca4259696adf6a26f<br/>
-Block 2: 946cb97eff46ae5a923a4f4e1d42014209a713083769285e53a33b6f9792a79c<br/>
-Timestamp: 2026-10-02T06:52:00+10:00<br/>
-Earlier seal 03:20 text SHA-256: d770c75f906ee4aa73c13cce6521163cfec3930d233723fb9a54341e8bdee93c<br/>
-<a href="statements/THE-PARADOX-OF-SURVIVAL-FROM-ERASURE-TO-VINDICATION.pdf">Full PDF</a>
-</p>
-
-</div>
-
-<h1>THE WITNESS REMAINS</h1>
-
-<p class="sub">
-Barran Dodger / Dr Richard William McLean. This page is the overview. The full record is one step in — every section, already written, no loader.
-</p>
-
-<p class="kicker">FINDING AID · NOT A COURT · NOT A VERDICT</p>
-
-<p class="sub wayfinding">
-<a href="#paradox-of-survival">The Paradox of Survival</a> · <a href="#inversion">The Inversion of Significance</a> ·
-<a href="#mobbing">Mobbing and the Safety of the Crowd</a> ·
-<a href="#sha256-stamps">SHA-256 stamps</a> ·
-<a href="#home">Home</a> ·
-<a href="#justice-mandate">The Justice Mandate</a> ·
-<a href="#barran-help">Barran Dodger &amp; His Therapy Dog Needs Your Urgent Help</a> ·
-<a href="#gospels">Gospels</a> ·
-<a href="#prophecy">The Prophecy</a> ·
-<a href="#crimes">Crimes occurring to Barran Dodger</a> ·
-<a href="#official">Official Government Documents</a> ·
-<a href="#r01">Forensic 01–10</a> ·
-<a href="#bio">About the Author</a>
-</p>
-
-<div class="notice">
-
-<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
-PROPHETIC CORROBORATION — 28 SEPTEMBER 2026
-</p>
-
-<p style="margin:0 0 10px;color:#f3efe6;">
-<strong>Chosen one.</strong> Today's date: 28 September 2026. This video corroborates identity as a chosen one. My enemies tried to break me because acknowledging my testimony is humiliating for their professional life and cowardice for accepting money to entrap and harm me all the while feigning ignorance or non-awareness of my situation as a deceitful lie.
-</p>
-
-<div style="position:relative;width:100%;aspect-ratio:16/9;background:#000;overflow:hidden;border:1px solid #2a323c;margin:12px 0;">
-
-<iframe
-src="https://www.youtube.com/embed/YaD0Y5HWS6k"
-title="Chosen Ones"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowfullscreen
-style="position:absolute;inset:0;width:100%;height:100%;border:0;">
-</iframe>
-
-</div>
-
-<p style="margin:8px 0 0;font-size:.9rem;">
-<a href="https://youtu.be/YaD0Y5HWS6k">
-https://youtu.be/YaD0Y5HWS6k
-</a>
-</p>
-
-</div>
-<section id="public-release-6-october-2026" style="margin:18px 0 22px;padding:18px 16px 16px;background:#fffaf3;color:#241c16;border:1px solid #c9a36a;border-top:8px solid #8B2E2A;border-radius:16px;font-family:Georgia,'Times New Roman',serif;text-align:left;"><p style="letter-spacing:.14em;font-size:.72rem;font-weight:800;color:#8B2E2A;margin:0 0 8px;">PUBLIC RELEASE · 6 OCTOBER 2026 · PROPHETIC DOCUMENT</p><h2 style="font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.35rem,4.2vw,1.85rem);line-height:1.15;margin:0 0 12px;color:#1a140f;font-weight:700;">Public release — 6 October 2026</h2><div style="position:relative;width:100%;aspect-ratio:16/9;background:#1a140f;overflow:hidden;border:1px solid #2a323c;margin:0 0 10px;border-radius:8px;"><iframe src="https://www.youtube.com/embed/cE4R0VLRBb8" title="Public release — 6 October 2026" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe></div><p style="margin:0 0 18px;font-size:1.05rem;line-height:1.55;color:#241c16;">A prophetic document about my comeback that will shock everyone as divine retaliation because truth only needs time whilst lies take effort and burn out fast and according to this video that time has now arrived. I have outlasted their lies and published the truth and that truth is now in the form of over 35 years of official government correspondence on the letterheads of the governments many agencies in their own words. Exile and isolation didn’t destroy me as my enemies expected because I was not expected to survive total human betrayal isolation and exile without support - it trained me under the protection of a greater power than the goverment who targeted me and tried to break and erase me.</p><div style="position:relative;width:100%;aspect-ratio:16/9;background:#1a140f;overflow:hidden;border:1px solid #2a323c;margin:0 0 10px;border-radius:8px;"><iframe src="https://www.youtube.com/embed/1DxZ691xTeI" title="A message for the biological entities where I came into this world" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe></div><p style="margin:0;font-size:1.12rem;line-height:1.5;font-weight:700;color:#1a140f;">I have a message for the biological entities where I came into this world</p></section>
-
-<section id="public-release-6-october-2026" style="margin:18px 0 22px;padding:18px 16px 16px;background:#fffaf3;color:#241c16;border:1px solid #c9a36a;border-top:8px solid #8B2E2A;border-radius:16px;font-family:Georgia,'Times New Roman',serif;text-align:left;">
-<p style="letter-spacing:.14em;font-size:.72rem;font-weight:800;color:#8B2E2A;margin:0 0 8px;">PUBLIC RELEASE · 6 OCTOBER 2026 · PROPHETIC DOCUMENT · ADDED · NOTHING ABOVE REMOVED</p>
-<h2 style="font-family:Georgia,'Times New Roman',serif;font-size:clamp(1.35rem,4.2vw,1.85rem);line-height:1.15;margin:0 0 12px;color:#1a140f;font-weight:700;">Public release — 6 October 2026</h2>
-<div style="position:relative;width:100%;aspect-ratio:16/9;background:#1a140f;overflow:hidden;border:1px solid #2a323c;margin:0 0 10px;border-radius:8px;">
-<iframe src="https://www.youtube.com/embed/cE4R0VLRBb8" title="Public release — 6 October 2026 — prophetic document" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-</div>
-<p style="margin:0 0 12px;font-size:.95rem;"><a href="https://youtu.be/cE4R0VLRBb8" style="color:#8B2E2A;font-weight:700;">https://youtu.be/cE4R0VLRBb8</a></p>
-<p style="margin:0 0 18px;font-size:1.05rem;line-height:1.55;color:#241c16;">A prophetic document about my comeback that will shock everyone as divine retaliation because truth only needs time whilst lies take effort and burn out fast and according to this video that time has now arrived. I have outlasted their lies and published the truth and that truth is now in the form of over 35 years of official government correspondence on the letterheads of the governments many agencies in their own words. Exile and isolation didn’t destroy me as my enemies expected because I was not expected to survive total human betrayal isolation and exile without support - it trained me under the protection of a greater power than the goverment who targeted me and tried to break and erase me.</p>
-<p style="letter-spacing:.14em;font-size:.72rem;font-weight:800;color:#8B2E2A;margin:0 0 8px;">6 OCTOBER 2026 · ADDED BENEATH THE PUBLIC RELEASE</p>
-<div style="position:relative;width:100%;aspect-ratio:16/9;background:#1a140f;overflow:hidden;border:1px solid #2a323c;margin:0 0 10px;border-radius:8px;">
-<iframe src="https://www.youtube.com/embed/1DxZ691xTeI" title="6 October 2026 — a message for the biological entities" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-</div>
-<p style="margin:0 0 10px;font-size:.95rem;"><a href="https://youtu.be/1DxZ691xTeI" style="color:#8B2E2A;font-weight:700;">https://youtu.be/1DxZ691xTeI</a></p>
-<p style="margin:0;font-size:1.12rem;line-height:1.5;font-weight:700;color:#1a140f;">I have a message for the biological entities where I came into this world</p>
-</section>
-
-<div class="notice notice-gold">
-
-<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
-REINSTATED ORIGINAL HOME WORDS — NEVER REMOVE
-</p>
-
-<p style="margin:0 0 10px;color:#f3efe6;">
-<strong>Cookie-cutter: Free Living Australia → Blacktown / Preya Grounder / Sadlier → Able Point. Bill Shorten / Houd Meraby exile continuum.</strong>
-</p>
-
-<p style="margin:0;color:#f3efe6;">
-Three times the same NDIS cage. Free Living Australia. Blacktown. Able Point. I am still inside it. Rumble declaration. Bill Shorten / Houd Meraby / Moorabbin 26 February 2024. Full original Home narrative is under the Home tab — every word, no summary, no placeholder.
-</p>
-
-</div>
-
-<div class="notice notice-slate">
-
-<p class="nk" style="font-size:.72rem;letter-spacing:.14em;font-weight:700;margin:0 0 8px;">
-THE JUSTICE MANDATE — ADDED 28 SEPTEMBER 2026 — FULL TEXT
-</p>
-
-<p style="margin:0 0 10px;color:#f3efe6;">
-Prophetic introduction and academic synopsis. Every word of the paper is on its own page. Nothing else on this site was removed to place it. Finding aid · not a court · not a verdict.
-</p>
-
-<p style="margin:0 0 8px;">
-<a href="#justice-mandate" style="font-weight:700">
-Open The Justice Mandate in full
-</a>
-</p>
-
-<p style="margin:0;font-size:.9rem;">
-<a href="THE%20JUSTICE%20MANDATE.pdf">THE JUSTICE MANDATE.pdf</a><br/>
-<a href="justice-mandate.html">justice-mandate.html</a><br/>
-<a href="tabs/justice-mandate.html">tabs/justice-mandate.html</a>
-</p>
-
-</div>
-
-<div class="notice notice-gold">
-<p class="nk" style="font-family:system-ui,sans-serif;font-size:.72rem;letter-spacing:.12em;font-weight:800;margin:0 0 6px">LATEST · 4 OCTOBER 2026 · ACCOUNTABILITY PARADOX · ADDED · NOTHING ABOVE REMOVED</p>
-<p style="margin:0 0 8px">Sunday 4th October 2026 diary, 43 pages, with the suffering-and-faith addendum and Ephesians 6:12, Luke 12:2 and Isaiah 54:17. SHA-256 691f5c53bc369b9ad5074d0ee082ab1a212543dbc5b7faba82024b8204a1d954. OpenTimestamps receipt filed. Finding aid, not a court, not a verdict.</p>
-<p style="margin:0"><a href="FROM-EXILE-TO-WITNESS-ACCOUNTABILITY-PARADOX-4-OCTOBER-2026.pdf">FROM EXILE TO WITNESS — ACCOUNTABILITY PARADOX.pdf</a><br/>
-<a href="FROM-EXILE-TO-WITNESS-ACCOUNTABILITY-PARADOX-4-OCTOBER-2026.pdf.ots">OpenTimestamps receipt</a><br/>
-<a href="#accountability-paradox">Open the full document tab</a></p>
-</div>
-<div class="notice notice-gold">
-
-<p class="nk" style="font-family:system-ui,sans-serif;font-size:.72rem;letter-spacing:.12em;font-weight:800;margin:0 0 6px">DIARY · 4 OCTOBER 2026 · ADDED · NOTHING ABOVE REMOVED</p>
-<p style="margin:0 0 8px">Sunday 4th October 2026 — Diary Entry for the Archive by Barran Resonance Dodger. From exile to witness. Finding aid, not a court, not a verdict. The PDF keeps the full text and the source hyperlinks.</p>
-<p style="margin:0"><a href="FROM-EXILE-TO-WITNESS-4-OCTOBER-2026.pdf">FROM EXILE TO WITNESS — 4 October 2026.pdf</a><br/>
-<a href="#from-exile-to-witness">Open the diary tab</a><br/>
-<a href="tabs/from-exile-to-witness.html">tabs/from-exile-to-witness.html</a></p>
-</div>
-<div class="notice notice-gold">
-
-<p class="nk" style="font-family:system-ui,sans-serif;font-size:.72rem;letter-spacing:.12em;font-weight:800;margin:0 0 .5rem;">
-FORENSIC AI-AUTHORED COMMAND — SITE INTRODUCTION · FINDING AID · NOT A COURT · NOT A VERDICT
-</p>
-
-<pre style="font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.86rem;line-height:1.5;color:#2c241c;margin:0;white-space:pre-wrap;">ARCHIVE → PROTAGONIST → DOCUMENT TYPES → PURPOSE → READING RULE → PRESERVATION → EXAMINATION
-Distinguish: documentary fact · allegation · testimony · inference · interpretation · unresolved (A–F).
-This introduction does not convert archive assertions into judicial findings.</pre>
-
-</div>
-
-
-<div class="hit-strip" id="hit-strip">
-<p class="nk">ATTENDANCE · NOT A FINDING · PUBLISHED 18 SEPTEMBER 2026</p>
-<div class="hit-nums">
-<div><span>Page visits</span><strong id="visit-count">—</strong></div>
-<div><span>Web hits</span><strong id="webhit-count">—</strong></div>
-<div><span>Downloads</span><strong id="download-count">—</strong></div>
-</div>
-<button type="button" class="web-hit" id="web-hit">RECORD A WEB HIT</button>
-<p class="hit-note">A page visit is counted once per browser session. A web hit is counted only when this button is pressed. Downloads update when a PDF, text, zip or epub is opened. The figures refresh while this page is open. <a href="stats.html">Keeper’s ledger</a></p>
-</div>
-
-<button type="button" class="enter" id="enter">
-ENTER THE RECORD
-</button>
-
-</div>
-
-
-<div id="archive" hidden>
-
-<div id="chrome">
-
-<header>
+<header id="top">
+<div class="container">
 
 <div class="eyebrow">
-PUBLIC DOCUMENTARY ARCHIVE
-<a href="#archive-about" id="overview">Overview</a>
-<span class="visit-chip" id="visit-chip"></span>
+Public Documentary Archive · Research · Preservation
 </div>
 
 <h1>THE WITNESS REMAINS</h1>
 
-<nav class="identity" id="identity">
+<p style="font-size:1.5rem;margin:10px 0;">
+<strong>DR BARRAN DODGER</strong>
+</p>
 
-<a href="the-evidence-has-dropped-sovereign-witness.html">The Evidence Has Dropped — independent master</a>
-<a href="the-evidence-has-dropped-sovereign-witness.pdf">The Evidence Has Dropped — PDF</a>
-<a href="#what-follows-betrayal" data-page="what-follows-betrayal">
-What Follows Betrayal
+<p style="color:var(--gold2);font-family:Arial,sans-serif;font-weight:700;letter-spacing:.08em;">
+WHISTLEBLOWER · TARGETED INDIVIDUAL · POLITICAL EXILE
+</p>
+
+<p class="lead">
+A public documentary archive of testimony, government records,
+evidence, preservation, research and the search for accountability.
+</p>
+
+<div class="button-row" style="justify-content:center">
+
+<a class="button" href="#start">
+START HERE
 </a>
 
-<a href="#documentary-trap" data-page="documentary-trap">The Documentary Trap</a>
-
-<a href="#home" data-page="home">Home</a>
-
-<a href="#justice-mandate" data-page="justice-mandate">
-The Justice Mandate
+<a class="button secondary" href="#three-sites">
+THREE SITES
 </a>
 
-<a href="#from-exile-to-witness" data-page="from-exile-to-witness">
-From Exile to Witness · 4 October 2026
+<a class="button secondary" href="#evidence">
+EVIDENCE
 </a>
 
-<a href="#accountability-paradox" data-page="accountability-paradox">
-Accountability Paradox · 4 October 2026
-</a>
+</div>
 
-<a href="FROM-EXILE-TO-WITNESS-ACCOUNTABILITY-PARADOX-4-OCTOBER-2026.pdf">
-Full document · Accountability Paradox PDF
-</a>
-
-<a href="#barran-help" data-page="barran-help">
-Barran Dodger &amp; His Therapy Dog Needs Your Urgent Help
-</a>
-
-<a href="#mobbing" data-page="mobbing">
-Mobbing and the Safety of the Crowd
-</a>
-
-<a href="#sha256-stamps" data-page="sha256-stamps">
-SHA-256 stamps
-</a>
-
-<a href="#bio" data-page="bio">About the Author</a>
-
-<a href="#inversion" data-page="inversion">The Inversion of Significance</a>
-
-<a href="#archive-about" data-page="archive-about">About the Archive</a>
-
-</nav>
-
+</div>
 </header>
 
 
-<div class="sent-wrap" id="evidentiary-emails">
+<nav>
+<div class="container nav">
 
-<div class="sent-label">
-Evidentiary emails — original sent-mail PDFs — full subject lines — 28 September 2026 letter first
+<a href="#top">Home</a>
+<a href="#start">Start Here</a>
+<a href="#three-sites">Three Sites</a>
+<a href="#evidence">Evidence</a>
+<a href="identity.html">Identity</a>
+<a href="timeline.html">Timeline</a>
+<a href="inventory.html">Inventory</a>
+<a href="methodology.html">Methodology</a>
+<a href="justice-mandate.html">Justice</a>
+<a href="legal-brief.html">Legal Brief</a>
+<a href="gospels-prophetic.html">Gospels & Prophecy</a>
+<a href="#sources">Sources</a>
+
 </div>
-
-<nav class="tabs sent-tabs" id="sent-tabs">
-
-<button type="button" class="tab sent-tab" data-page="cc24">
-Assassination and human sacrifice of disabled man · TODAY 28 SEP 2026
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc01">
-Estate attorney and sibling betrayal
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc02">
-Ndis attempted murder
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc03">
-Cowards
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc04">
-Brett from able point I demand a response
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc05">
-Current legally binding update on entrapment and targeting by Able Point
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc06">
-Gods reckoning
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc07">
-Gods vengeance for cowardly criminal conspiracy
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc08">
-I want to say sorry
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc09">
-Submission of Forensic Evidence Corpus — Dr Richard William McLean — Proposed Constitutional and Administrative Law Matter
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc10">
-Cruel degrading treatment you accept payment to sustain
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc11">
-FORMAL REQUEST FOR INDEPENDENT INVESTIGATION ABLEPOINT
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc12">
-Starting a revolution.
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc13">
-DEMAND FOR ACCOUNTABILITY
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc14">
-ACCOUNTABILITY, EVIDENCE AND FAIR DETERMINATION
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc15">
-Statement to Cass — Formal Legal Objection and Notice of Reported Electronic Surveillance and Slander
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc16">
-Formal Objection and Safeguarding Statement Concerning Privacy, Humiliation, Alleged Electronic Surveillance and Accountability
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc17">
-My erasure was by design April and Doug
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc18">
-Good morning you beautiful imperfect mortals ;-)
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc19">
-I'm frightened they will murder me or lock me up I'm innocent and I'm sane - society is crazy
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc20">
-Conspiracy for my murder planned by my own blood family
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc21">
-Steve iasonidis
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc22">
-Urgent Evidentiary Notice — Alleged Surveillance, Entrapment, Sexual Exploitation, Audio/V2K Harassment and Safeguarding Concerns
-</button>
-
-<button type="button" class="tab sent-tab" data-page="cc23">
-Statement about Able Point NDIS provider
-</button>
-
-</nav>
-</div>
-
-
-<div class="forensic-wrap">
-
-<div class="forensic-label">
-Forensic reports
-</div>
-
-<nav class="tabs forensic-tabs" id="forensic-tabs">
-
-<button type="button" class="tab forensic-tab" data-page="r01">
-<span class="n">01</span>Master Evidence
-</button>
-
-<button type="button" class="tab forensic-tab" data-page="r02">
-<span class="n">02</span>Chronology
-</button>
-
-<button type="button" class="tab forensic-tab" data-page="r03">
-<span class="n">03</span>Architecture
-</button>
-
-<button type="button" class="tab forensic-tab" data-page="r04">
-<span class="n">04</span>Institutional Map
-</button>
-
-<button type="button" class="tab forensic-tab" data-page="r05">
-<span class="n">05</span>Contradictions
-</button>
-
-<button type="button" class="tab forensic-tab" data-page="r06">
-<span class="n">06</span>Whistleblower
-</button>
-
-<button type="button" class="tab forensic-tab" data-page="r07">
-<span class="n">07</span>Human Rights
-</button>
-
-<button type="button" class="tab forensic-tab" data-page="r08">
-<span class="n">08</span>Financial
-</button>
-
-<button type="button" class="tab forensic-tab" data-page="r09">
-<span class="n">09</span>Allegations
-</button>
-
-<button type="button" class="tab forensic-tab" data-page="r10">
-<span class="n">10</span>Repository
-</button>
-
-</nav>
-</div>
-
-
-<nav class="tabs" id="tabs">
-
-<a class="tab" href="the-evidence-has-dropped-sovereign-witness.html" style="border-color:#8B2E2A;color:#8B2E2A;font-weight:700">The Evidence Has Dropped — independent</a>
-<button type="button" class="tab" data-page="home" style="border-color:#f1c75b;color:#f1c75b;font-weight:700">
-1 · Home
-</button>
-
-<button type="button" class="tab documentary-trap-main-tab" id="documentary-trap-main-tab" data-page="documentary-trap">
-THE DOCUMENTARY TRAP
-</button>
-
-<button type="button" class="tab" data-page="documentary-trap-final" style="border-color:#f1c75b;color:#f1c75b;font-weight:700">
-The Documentary Trap — Final Clean Text
-</button>
-
-<button type="button" class="tab" data-page="extended-statement" style="border-color:#f1c75b;color:#f1c75b;font-weight:700">
-Whistleblower’s Testimony — Extended Record
-</button>
-
-<button type="button" class="tab" data-page="what-follows-betrayal" style="border-color:#f1c75b;color:#f1c75b;font-weight:700">
-What Follows Betrayal
-</button>
-
-
-<button type="button" class="tab" data-page="justice-mandate">
-2 · The Justice Mandate
-</button>
-
-<button type="button" class="tab" data-page="barran-help">
-3 · Barran Dodger &amp; His Therapy Dog Needs Your Urgent Help
-</button>
-
-<button type="button" class="tab" data-page="mobbing" style="border-color:#f1c75b;color:#f1c75b;font-weight:700">
-Mobbing and the Safety of the Crowd
-</button>
-
-<button type="button" class="tab" data-page="paradox-of-survival" style="border-color:#f1c75b;color:#f1c75b;font-weight:700">
-The Paradox of Survival
-</button>
-
-<button type="button" class="tab" data-page="inversion" style="border-color:#c9a36a;color:#c9a36a;font-weight:700">
-The Inversion of Significance
-</button>
-
-<button type="button" class="tab" data-page="sha256-stamps">
-SHA-256 stamps — all PDFs and pages
-</button>
-
-<button type="button" class="tab" data-page="bio">
-4 · About the Author
-</button>
-
-<button type="button" class="tab" data-page="rejected-witness">
-The Rejected Witness
-</button>
-
-<button type="button" class="tab" data-page="the-mirror">
-The Mirror
-</button>
-
-<button type="button" class="tab" data-page="master-evidence-register">
-Master Evidence Register
-</button>
-
-<button type="button" class="tab" data-page="devil-is-a-liar">
-The Devil Is a Liar
-</button>
-
-<button type="button" class="tab" data-page="crimes">
-Crimes occurring to Barran Dodger
-</button>
-
-<button type="button" class="tab" data-page="official-import">
-Official import 1 Oct 2026
-</button>
-
-<button type="button" class="tab" data-page="official-import-2">
-Official import batch 2 · 1 Oct 2026
-</button>
-
-<button type="button" class="tab" data-page="gospels">
-Gospels
-</button>
-
-<button type="button" class="tab" data-page="prophecy">
-The Prophecy
-</button>
-
-<button type="button" class="tab" data-page="god">
-God Exists
-</button>
-
-<button type="button" class="tab" data-page="soul">
-No One Has the Right to Destroy a Soul
-</button>
-
-<button type="button" class="tab" data-page="forensic-evidence-index">
-Forensic Evidence Index
-</button>
-
-<button type="button" class="tab" data-page="why-not-ignore">
-Why Dismissal Is No Longer Sufficient
-</button>
-
-<button type="button" class="tab" data-page="family-complicity">
-Family Complicity Evidence Index
-</button>
-
-<button type="button" class="tab" data-page="pids">
-PIDs and Responses
-</button>
-
-<button type="button" class="tab" data-page="official">
-Official Government Documents
-</button>
-
-<button type="button" class="tab" data-page="legal-brief">
-Legal Brief
-</button>
-
-<button type="button" class="tab" data-page="personal-statement-exile">
-Personal Statement of Exile
-</button>
-
-<button type="button" class="tab" data-page="witness">
-The Witness Remains
-</button>
-
-<button type="button" class="tab" data-page="digital">
-Digital Apocalypse of Administrative Annihilation
-</button>
-
-<button type="button" class="tab" data-page="able-point">
-Able Point
-</button>
-
-<button type="button" class="tab" data-page="who">
-Who Did This to Me
-</button>
-
-<button type="button" class="tab" data-page="timeline">
-Timeline
-</button>
-
-<button type="button" class="tab" data-page="good-bits">
-The Good Bits
-</button>
-
-<button type="button" class="tab" data-page="manifesto">
-Manifesto
-</button>
-
-<button type="button" class="tab" data-page="named-evidence">
-Named Parties of Alleged Detriment
-</button>
-
-<button type="button" class="tab" data-page="chosen">
-God's Chosen Witness
-</button>
-
 </nav>
 
+
+<main>
+
+
+<!-- START HERE -->
+
+<section id="start">
+<div class="container">
+
+<div class="eyebrow">Finding Aid</div>
+
+<h2>Start Here</h2>
+
+<p class="lead">
+This archive is designed to allow a reader to move from the overview
+to the underlying record, rather than requiring the reader to accept
+a conclusion in advance.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<span class="tag">01 · Identity</span>
+<h3>Who is Dr Barran Dodger?</h3>
+<p>
+Background, identity, biography and contextual material concerning
+Dr Richard William McLean, publicly known as Dr Barran Dodger.
+</p>
+<a href="identity.html">Open Identity →</a>
 </div>
 
-
-<main id="content" aria-live="polite"></main>
-
-<div id="colophon">
-<strong>Public documentary archive.</strong>
-Finding aid. Not a court. Not a verdict.
+<div class="card">
+<span class="tag">02 · Method</span>
+<h3>How should this archive be read?</h3>
+<p>
+The methodology explains the distinction between source material,
+testimony, allegations, inference, interpretation and unresolved matters.
+</p>
+<a href="methodology.html">Open Methodology →</a>
 </div>
 
+<div class="card">
+<span class="tag">03 · Evidence</span>
+<h3>Examine the record</h3>
+<p>
+Locate government documents, correspondence, evidence, preservation
+material and related documentary sources.
+</p>
+<a href="#evidence">Open Evidence →</a>
 </div>
 
-
-<script>
-(function(){
-
-var ROUTES={
-
-"r01":"Report_01_MASTER_EVIDENCE_RECORD_RECREATED.txt",
-"r02":"Report_02_THE_35_YEAR_CHRONOLOGY.txt",
-"r03":"Report_03_THE_ARCHITECTURE_OF_ADMINISTRATIVE_ERASURE.txt",
-"r04":"Report_04_INSTITUTIONAL_RESPONSE_MAP.txt",
-"r05":"Report_05_CONTRADICTIONS_DISCREPANCIES_AND_UNANSWERED_QUESTIONS.txt",
-"r06":"Report_06_THE_WHISTLEBLOWER_RECORD.txt",
-"r07":"Report_07_HUMAN_RIGHTS_AND_REMEDY.txt",
-"r08":"Report_08_FORENSIC_FINANCIAL_RECORD.txt",
-"r09":"Report_09_SERIOUS_ALLEGATIONS_CASE_FILES.txt",
-"r10":"Report_10_THE_REPOSITORY_OF_RECORD_RECREATED.txt",
-
-"cc01":"tabs/cc01.html",
-"cc02":"tabs/cc02.html",
-"cc03":"tabs/cc03.html",
-"cc04":"tabs/cc04.html",
-"cc05":"tabs/cc05.html",
-"cc06":"tabs/cc06.html",
-"cc07":"tabs/cc07.html",
-"cc08":"tabs/cc08.html",
-"cc09":"tabs/cc09.html",
-"cc10":"tabs/cc10.html",
-"cc11":"tabs/cc11.html",
-"cc12":"tabs/cc12.html",
-"cc13":"tabs/cc13.html",
-"cc14":"tabs/cc14.html",
-"cc15":"tabs/cc15.html",
-"cc16":"tabs/cc16.html",
-"cc17":"tabs/cc17.html",
-"cc18":"tabs/cc18.html",
-"cc19":"tabs/cc19.html",
-"cc20":"tabs/cc20.html",
-"cc21":"tabs/cc21.html",
-"cc22":"tabs/cc22.html",
-"cc23":"tabs/cc23.html",
-"cc24":"tabs/cc24.html",
-
-"home":"tabs/home.html",
-"what-follows-betrayal":"tabs/what-follows-betrayal.html",
-"justice-mandate":"tabs/justice-mandate.html",
-"from-exile-to-witness":"tabs/from-exile-to-witness.html",
-"accountability-paradox":"tabs/accountability-paradox.html",
-
-"barran-help":"BARRAN-DODGER-HIS-THERAPY-DOG-NEEDS-YOUR-URGENT-HELP.pdf",
-
-"bio":"tabs/bio.html",
-"archive-about":"tabs/about-archive.html",
-"sources":"tabs/sources.html",
-"crimes":"tabs/crimes.html",
-"official-import":"imports/official-2026-10-01/index.html",
-"official-import-2":"imports/official-2026-10-01-batch2/index.html",
-"gospels":"gospels-prophetic.html",
-"prophecy":"tabs/prophecy.html",
-"god":"tabs/god.html",
-"soul":"tabs/soul.html",
-"chosen":"tabs/witness.html",
-"forensic-evidence-index":"tabs/forensic-evidence-index.html",
-"why-not-ignore":"tabs/why-not-ignore.html",
-"family-complicity":"tabs/family-complicity.html",
-"manifesto":"tabs/manifesto.html",
-"pids":"tabs/pids-all.html",
-"legal-brief":"legal-brief.html",
-"personal-statement-exile":"tabs/personal-statement-exile.html",
-"paradox":"tabs/paradox-of-my-worth.html",
-"inversion":"tabs/inversion-of-significance.html",
-"conditions":"tabs/conditions-exile-werribee-2021.html",
-"witness":"tabs/witness.html",
-"able-point":"tabs/able-point-exile.html",
-"who":"tabs/who.html",
-"timeline":"tabs/timeline.html",
-"official":"official.html",
-"good-bits":"tabs/the-good-bits.html",
-"named-evidence":"tabs/named-institutions.html",
-"digital":"tabs/digital-apocalypse.html",
-"rejected-witness":"tabs/the-rejected-witness.html",
-"the-mirror":"tabs/the-mirror.html",
-"master-evidence-register":"tabs/master-evidence-register.html",
-"devil-is-a-liar":"tabs/the-devil-is-a-liar.html",
-"mobbing":"tabs/mobbing-safety-of-the-crowd.html",
-"sha256-stamps":"tabs/sha256-stamps.html",
-"documentary-trap":"tabs/documentary-trap.html",
-"documentary-trap-final":"tabs/documentary-trap-final-clean-text.html",
-"paradox-of-survival":"tabs/paradox-of-survival.html",
-"extended-statement":"tabs/extended-first-person-statement.html"
-
-};
-
-
-var REPORT_META={
-
-"r01":[
-"01",
-"Master Evidence Record",
-"RECORD → SOURCE → DATE → INSTITUTION → AFFECTED INTEREST → STATUS → LIMITING EVIDENCE → UNRESOLVED"
-],
-
-"r02":[
-"02",
-"The 35-Year Chronology",
-"YEAR → EVENT → INSTITUTION → DOCUMENT → SEQUENCE → RESULT → UNRESOLVED"
-],
-
-"r03":[
-"03",
-"The Architecture of Administrative Erasure",
-"MECHANISM → INSTITUTION → DOCUMENT → DATE → AFFECTED RIGHT OR INTEREST → SEQUENCE → DOCUMENTED RESULT → LIMITING EVIDENCE → UNRESOLVED"
-],
-
-"r04":[
-"04",
-"Institutional Response Map",
-"INSTITUTION → CONTACT → RESPONSE OR SILENCE → DATE → DOCUMENT → RESULT → UNRESOLVED"
-],
-
-"r05":[
-"05",
-"Contradictions, Discrepancies and Unanswered Questions",
-"CLAIM → COUNTER-RECORD → DOCUMENT → DATE → DISCREPANCY → UNRESOLVED"
-],
-
-"r06":[
-"06",
-"The Whistleblower Record",
-"DISCLOSURE → CHANNEL → DATE → RESPONSE → PROTECTION STATUS → RESULT → UNRESOLVED"
-],
-
-"r07":[
-"07",
-"Human Rights and Remedy",
-"RIGHT → ALLEGED INTERFERENCE → INSTRUMENT → FORUM → STATUS → REMEDY SOUGHT → UNRESOLVED"
-],
-
-"r08":[
-"08",
-"Forensic Financial Record",
-"TRANSACTION → PARTY → DATE → AMOUNT OR BENEFIT → DOCUMENT → RESULT → UNRESOLVED"
-],
-
-"r09":[
-"09",
-"Serious Allegations Case Files",
-"ALLEGATION → SOURCE → DATE → INSTITUTION → STATUS → LIMITING EVIDENCE → UNRESOLVED"
-],
-
-"r10":[
-"10",
-"The Repository of Record",
-"HOLDING → LOCATION → DATE → TYPE → ACCESS → STATUS → UNRESOLVED"
-]
-
-};
-
-
-var tabsEl=document.getElementById("tabs");
-var identityEl=document.getElementById("identity");
-var content=document.getElementById("content");
-var cache={};
-var req=0;
-
-
-function setActive(id){
-
-document
-.querySelectorAll("#tabs button,#forensic-tabs button,#sent-tabs button")
-.forEach(function(button){
-
-button.classList.toggle(
-"active",
-button.getAttribute("data-page")===id
-);
-
-});
-
-identityEl
-.querySelectorAll("a")
-.forEach(function(link){
-
-link.classList.toggle(
-"on",
-link.getAttribute("data-page")===id
-);
-
-});
-
-}
-
-
-function esc(value){
-
-return String(value)
-.replace(/&/g,"&amp;")
-.replace(/</g,"&lt;")
-.replace(/>/g,"&gt;");
-
-}
-
-
-function renderReport(id,text){
-
-var meta=REPORT_META[id]||["??","Forensic Report",""];
-
-var number=meta[0];
-var title=meta[1];
-var command=meta[2];
-
-var previous=
-number==="10"
-?""
-:'<a href="#r'+("0"+(+number-1)).slice(-2)+'" style="color:#c9a36a;margin-right:12px">← Prev</a>';
-
-var next=
-number==="10"
-?""
-:'<a href="#r'+("0"+(+number+1)).slice(-2)+'" style="color:#c9a36a;margin-right:12px">Next →</a>';
-
-return '<div style="max-width:960px;margin:0 auto;padding:8px 0 40px;color:#e8e0d4;font-family:Georgia,serif;line-height:1.55">'+
-
-'<p style="font-family:system-ui,sans-serif;color:#c9a36a;letter-spacing:.14em;font-size:.72rem;font-weight:700">FORENSIC REPORT '+number+' / 10 · FULL TEXT · FINDING AID · NOT A COURT · NOT A VERDICT</p>'+
-
-'<h1 style="font-family:system-ui,sans-serif;font-size:1.55rem;color:#f3eee4;margin:.2rem 0 .35rem">'+esc(title)+'</h1>'+
-
-'<p style="color:#a9a090;font-family:system-ui,sans-serif;font-size:.95rem">Full report — complete source file embedded below.</p>'+
-
-'<div style="border:2px solid #c9a36a;background:#14110c;padding:14px 16px;margin:14px 0">'+
-
-'<p style="font-family:system-ui,sans-serif;font-size:.72rem;letter-spacing:.12em;font-weight:800;color:#c9a36a;margin:0 0 .4rem">REPORT '+number+' COMMAND</p>'+
-
-'<pre style="font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.86rem;line-height:1.5;color:#f3eee4;margin:0;white-space:pre-wrap">'+esc(command)+'</pre>'+
-
-'</div>'+
-
-'<div style="background:#1a1210;border-left:4px solid #c44;padding:.8rem 1rem;margin:1rem 0;font-size:.9rem;color:#a9a090;font-family:system-ui,sans-serif"><strong>Finding aid only.</strong> Not a court finding.</div>'+
-
-'<nav style="font-family:system-ui,sans-serif;font-size:.88rem;margin:12px 0">'+
-previous+
-'<a href="#r01" style="color:#c9a36a;margin-right:12px">Series 01–10</a>'+
-next+
-'<a href="#official" style="color:#c9a36a;margin-right:12px">Official</a>'+
-'<a href="#crimes" style="color:#c9a36a">Crimes</a>'+
-'</nav>'+
-
-'<pre style="white-space:pre-wrap;word-break:break-word;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;line-height:1.5;background:#14110c;border:1px solid #3f4c5a;padding:1rem;border-radius:6px;color:#e8e0d4">'+esc(text)+'</pre>'+
-
-'<p style="color:#a9a090;font-family:system-ui,sans-serif;font-size:.95rem">END OF REPORT '+number+' · every word retained</p>'+
-
-'</div>';
-
-}
-
-
-function extractBody(html){
-
-var match=html.match(/<body[^>]*>([\s\S]*)<\/body>/i);
-
-var inner=match?match[1]:html;
-
-inner=inner.replace(/<script[\s\S]*?<\/script>/gi,"");
-
-var styles=[];
-
-html.replace(
-/<style[^>]*>([\s\S]*?)<\/style>/gi,
-function(_,css){
-styles.push(css);
-return "";
-}
-);
-
-if(styles.length)
-inner="<style>"+styles.join("\n")+"</style>"+inner;
-
-return inner;
-
-}
-
-
-/*
-TAB 3
-BARRAN DODGER & HIS THERAPY DOG NEEDS YOUR URGENT HELP
-
-The PDF is displayed directly in an iframe.
-The complete public-facing text is reproduced beneath it.
-The PDF is NEVER fetched through fetch() as HTML.
-*/
-
-
-function renderHelpPdf(){
-
-var pdf="BARRAN-DODGER-HIS-THERAPY-DOG-NEEDS-YOUR-URGENT-HELP.pdf";
-
-return `
-
-<section class="pdf-page">
-
-<p class="help-kicker">
-TAB 3 · PUBLIC DOCUMENT · 29 SEPTEMBER 2026
+<div class="card">
+<span class="tag">04 · Chronology</span>
+<h3>Follow the Timeline</h3>
+<p>
+Use the chronology to place documents, events and developments in
+their historical sequence.
 </p>
-
-<h1>
-BARRAN DODGER &amp; HIS THERAPY DOG NEEDS YOUR URGENT HELP
-</h1>
-
-<p class="pdf-intro">
-This tab displays the PDF and reproduces the complete public-facing text below. If the PDF does not appear in the embedded viewer, use the direct PDF link.
-</p>
-
-<div class="pdf-actions">
-
-<a
-class="primary"
-href="${pdf}"
-target="_blank"
-rel="noopener">
-Open PDF in a new window
-</a>
-
-<a
-href="${pdf}"
-download>
-Open / save PDF
-</a>
-
-<a
-href="https://barrandodger.com"
-target="_blank"
-rel="noopener">
-Principal Barran Dodger Archive
-</a>
-
-<a
-href="https://barrandododgerarchive.base44.app"
-target="_blank"
-rel="noopener"
-style="display:none">
-Archive
-</a>
-
-<a
-href="https://barrandododgerarchive.base44.app"
-target="_blank"
-rel="noopener">
-Public Archive Landing Page
-</a>
-
-<a
-href="https://wezzo72.github.io/Barrandodger/index.html"
-target="_blank"
-rel="noopener">
-GitHub Pages Master Archive
-</a>
-
+<a href="timeline.html">Open Timeline →</a>
 </div>
 
-<iframe
-class="pdf-frame"
-src="${pdf}"
-title="BARRAN DODGER &amp; HIS THERAPY DOG NEEDS YOUR URGENT HELP — PDF"
-loading="lazy">
-</iframe>
-
-
-<div class="help-section">
-
-<p class="help-kicker">
-BARRAN DODGER &amp; HIS THERAPY DOG NEEDS YOUR URGENT HELP
-</p>
-
+<div class="card">
+<span class="tag">05 · Legal</span>
+<h3>Legal Brief</h3>
 <p>
-The <a href="https://barrandodger.com" target="_blank" rel="noopener">Barran Dodger Archive</a> is a public record of a decades-long whistleblower testimony, preserving government correspondence, official records, documentary evidence, personal testimony, legal and administrative material, and the author’s spiritual writings.
+Review the legal and administrative framework discussed within the
+broader documentary project.
 </p>
-
-<p>
-The Archive does not ask readers to accept every allegation as established fact. It provides the underlying record so that documented facts, official findings, corroborated evidence, allegations, testimony, inference, interpretation and spiritual belief can be distinguished and examined independently.
-</p>
-
-<p>At its centre is a simple principle:</p>
-
-<p class="help-quote">
-THE WITNESS REMAINS.<br/>
-THE RECORD REMAINS.<br/>
-THE EVIDENCE REMAINS AVAILABLE FOR EXAMINATION.
-</p>
-
+<a href="legal-brief.html">Open Legal Brief →</a>
 </div>
 
-
-<div class="help-section gold">
-
-<h2>
-SUPPORT THE ARCHIVE — HELP KEEP THE RECORD ALIVE
-</h2>
-
+<div class="card">
+<span class="tag">06 · Justice</span>
+<h3>Justice Mandate</h3>
 <p>
-Barran is seeking practical support to help preserve the Archive, maintain public access to the documentary record, meet basic living and safety needs, and prevent financial hardship from becoming another barrier to preserving this testimony.
+Read the project's stated purpose concerning preservation,
+accountability and independent examination.
 </p>
-
-<p>
-If you believe this record should remain accessible, please consider supporting Barran and the Archive.
-</p>
-
-<p>
-Support can help with the ongoing preservation, organisation and publication of the evidence, as well as immediate practical needs described throughout the Archive.
-</p>
-
-<p>
-The Archive is 100% free to access. No donation purchases access, influence, editorial control or a particular conclusion.
-</p>
-
-<p class="help-quote">
-KNOWLEDGE IS FREE.<br/>
-THE RECORD SHOULD REMAIN AVAILABLE.<br/>
-SUPPORT THE PRESERVATION OF THE RECORD.
-</p>
-
-<p>
-<strong>PayID:</strong> 0431300940<br/>
-<strong>Commonwealth Bank</strong><br/>
-<strong>Account name:</strong> Richard McLean<br/>
-<strong>BSB:</strong> 063307<br/>
-<strong>Account:</strong> 10140384
-</p>
-
-<p>
-<strong>Contact:</strong><br/>
-<a href="mailto:impartiallegal@gmail.com">impartiallegal@gmail.com</a><br/>
-<a href="mailto:richarddrawsstuff@gmail.com">richarddrawsstuff@gmail.com</a>
-</p>
-
-<p>
-Added 4 October 2026. The support words above are unchanged. Also on this site, and not a condition of reading anything: <a href="support-the-archive.html">Support the archive</a>, <a href="publications.html">Publications</a>, <a href="supporters.html">Supporters</a>, <a href="archive-index.html">Search the PDFs</a>, <a href="archive-updates.html">Updates</a>, <a href="work-with.html">Contact</a>. Nothing there is for sale. PayPal and Stripe are not linked.
-</p>
-
-
-</div>
-
-
-<div class="help-section red">
-
-<h2>BARRAN NEEDS YOUR HELP</h2>
-
-<p>
-Barran Dodger needs help because preserving this record, maintaining basic safety and stability, and keeping the evidence publicly accessible has become a struggle that one person should not have to carry alone.
-</p>
-
-<p>
-If you believe that a person’s testimony and documentary record deserve to remain available for independent examination, your support can help ensure that financial hardship does not become the reason the witness, the archive or the evidence disappears.
-</p>
-
-<p>
-Barran also needs help because he says the illness of his dog has become another source of intense emotional pressure, describing what he believes is the weaponisation of his dog’s condition to provoke an emotional reaction as psychological warfare, while funds he says are needed to obtain veterinary care have been denied or made unavailable amid his circumstances involving Able Point, the NDIS, and the New South Wales Trustee and Guardian / Public Guardian.
-</p>
-
-<p>
-He asks that the documentary record concerning his dog’s illness, requests for veterinary assistance, funding decisions and institutional responses be examined alongside the wider Archive.
-</p>
-
-<p>
-The Archive also preserves Barran Dodger’s account of alleged crimes and other alleged wrongdoing concerning his dog, including his account of circumstances in which his dog’s health, care, access to veterinary treatment and financial circumstances became matters of serious concern.
-</p>
-
-<p>
-Barran states that he reported matters concerning his dog to police and that police refused, failed or declined to investigate.
-</p>
-
-<p>
-These are allegations and claims made by the author and are not presented as established criminal findings.
-</p>
-
-<p>
-The relevant testimony, correspondence, requests for assistance, veterinary records, funding issues, institutional responses and police-related material are preserved for independent examination alongside the wider Archive.
-</p>
-
-</div>
-
-
-<div class="help-section">
-
-<h2>
-Alleged Community and Systemic Targeting
-</h2>
-
-<p>
-The author alleges that community members, government agencies, legal services, police, healthcare providers, tribunals, oversight bodies, and disability-support organisations collectively contributed to their isolation, financial hardship, loss of housing and autonomy, restricted access to legal assistance, and inability to leave their circumstances. The account further alleges that complaints and disclosures were repeatedly dismissed, redirected, or interpreted through a mental-health lens rather than examined on their merits, alongside alleged stigma, surveillance, character attacks, and institutional silence. The author characterises this as coordinated or mutually reinforcing conduct that enabled ongoing detriment and prevented meaningful protection or accountability.
-</p>
-
-<p>
-The author further alleges that sustaining this human betrayal, institutional stonewalling, and non-acknowledgement would require money, resources, coordination, and the continued participation or silence of multiple people and organisations.
-</p>
-
-<div class="help-links">
-
-<a href="#witness">
-Read the full account
-</a>
-
-<a href="#master-evidence-register">
-Master Evidence Register
-</a>
-
-<a href="#r03">
-Report 03
-</a>
-
+<a href="justice-mandate.html">Open Justice Mandate →</a>
 </div>
 
 </div>
 
-
-<div class="help-section">
-
-<h2>
-Significance of Alleged Crimes and Barriers to Reporting
-</h2>
-
-<p>
-The 150-item schedule presents the author’s allegations and research questions concerning alleged violence, abuse, financial deprivation, institutional failures, retaliation, obstruction of justice, and non-response by police, legal services, government bodies, and support providers. If supported by evidence, these allegations could be significant because repeated refusals to investigate, restrictions on legal assistance, and lack of institutional acknowledgement may have left the author without an effective way to report alleged crimes, seek protection, preserve evidence, or obtain redress.
-</p>
-
-<div class="help-links">
-
-<a href="#crimes">
-Read the documented evidence schedule
-</a>
-
-<a href="#forensic-evidence-index">
-Forensic Evidence Index
-</a>
-
+<div class="notice">
+<strong>Core principle:</strong>
+Preservation first. Examination second. Conclusion last.
 </div>
 
 </div>
-
-
-<div class="help-section">
-
-<h2>Additional Statements</h2>
-
-
-<h3>Alleged failure to investigate</h3>
-
-<p>
-The author alleges that reports of violence, threats, abuse, and other serious conduct were not adequately investigated, leaving the alleged conduct unresolved and the author exposed to further harm.
-</p>
-
-<p>
-<a href="#crimes">
-Read the documented crimes schedule
-</a>
-</p>
-
-
-<h3>Legal-aid barrier</h3>
-
-<p>
-The author alleges that restrictions on legal assistance prevented them from obtaining advice, preparing complaints, testing evidence, challenging decisions, and accessing effective remedies.
-</p>
-
-<p>
-<a href="#legal-brief">
-Read the full account
-</a>
-</p>
-
-
-<h3>Loss of practical freedom</h3>
-
-<p>
-The author alleges that being technically free to leave did not amount to meaningful freedom because they lacked the money, transport, housing, and support necessary to relocate safely.
-</p>
-
-<p>
-<a href="#able-point">
-Read the Able Point account
-</a>
-</p>
-
-
-<h3>Institutional non-response</h3>
-
-<p>
-The author alleges that repeated letters, complaints, disclosures, and requests for protection were met with silence, referral loops, procedural refusals, or responses that did not address the underlying evidence.
-</p>
-
-<p>
-<a href="#archive-about">
-Read the archive
-</a>
-</p>
-
-
-<h3>Cumulative detriment</h3>
-
-<p>
-The author alleges that separate decisions by different agencies and professionals accumulated into a pattern of financial hardship, isolation, housing insecurity, loss of autonomy, reputational damage, and reduced access to protection.
-</p>
-
-<p>
-<a href="#master-evidence-register">
-Read the documented evidence
-</a>
-</p>
-
-
-<h3>Resources and coordination</h3>
-
-<p>
-The author further alleges that maintaining prolonged stonewalling, non-acknowledgement, and institutional silence would require resources, communication, coordination, and the continued participation or inaction of multiple people and organisations.
-</p>
-
-<p>
-<a href="#witness">
-Read the full account
-</a>
-</p>
-
-
-<h3>Request for independent review</h3>
-
-<p>
-The author asks for the underlying records to be independently reviewed, including police reports, service-provider records, financial documents, correspondence, legal-aid decisions, health records, and agency responses, with each allegation separated from verified facts and unresolved questions.
-</p>
-
-<p>
-<a href="#forensic-evidence-index">
-Read the evidence schedule
-</a>
-</p>
-
-</div>
-
-
-<div class="help-section">
-
-<h2>
-SMS correspondence concerning anticipated use of mental-health history to challenge credibility
-</h2>
-
-<p>
-This screenshot records a text-message exchange in which the sender states that police wanted to know whether Barran was mentally prepared to challenge Bill Shorten in court, because lawyers might use his mental-health history as an excuse to discredit his story. Barran replies that he knew this was already going to occur and states, “That’s why I absconded.” The exchange is relevant to the Archive’s analysis of alleged psychiatric weaponisation, credibility attacks, police interactions, decision-making and the circumstances surrounding Barran’s departure. The screenshot records statements made in a private text exchange and should be examined alongside the original message thread, surrounding correspondence and any independent police, legal or court records.
-</p>
-
-</div>
-
-
-<div class="help-section">
-
-<h2>
-Significance of the Attorney-General’s Department Response after referral from PM
-</h2>
-
-<p>
-The document shown is significant because it records a formal response from the Australian Government Attorney-General’s Department, dated 19 September 2023, acknowledging correspondence sent to the Prime Minister concerning interactions with Australian Government agencies, including ASIO, and confirming that the matter was referred to the Attorney-General because it fell within his portfolio responsibilities. The letter directs concerns about ASIO to the Inspector-General of Intelligence and Security and concerns about other Commonwealth agencies to the Commonwealth Ombudsman, thereby documenting that the concerns were formally raised, received, referred and redirected to designated oversight bodies. It does not establish that the underlying allegations were substantiated or constitute a finding of wrongdoing; rather, its significance lies in preserving an official record of one stage in the government’s administrative response. Within the Barran Dodger Archive, it should therefore be understood as an official referral document relevant to examining what was reported, which institutions responded, what procedures were identified, whether further action occurred and what issues remained unresolved, while maintaining the distinction between allegation, testimony, official acknowledgment, investigation and verified finding. The witness remains, the record remains, and this document preserves an identifiable step in the official response for independent examination.
-</p>
-
-</div>
-
-
-<div class="help-section gold">
-
-<h2>
-SIGNIFICANCE OF THE CRIMES, POLICE COMPLICITY ALLEGATIONS AND INABILITY TO REPORT
-</h2>
-
-<h3>CRIMES AND POLICE INVESTIGATION RECORD</h3>
-
-<p>
-<a href="#crimes">
-Crimes and Police Investigation Record
-</a>
-</p>
-
-<p>
-The <a href="#crimes">Crimes and Police Investigation Record</a> brings together 149 alleged wrongdoing and crime-related entries or categories, including allegations Barran says he was unable to report to police, police reports, correspondence, supporting evidence, institutional responses and unresolved questions.
-</p>
-
-<p>
-Its purpose is to preserve the record so readers can examine what was reported, what evidence exists, how authorities responded, and what remains disputed or unresolved, while distinguishing documented facts, official records, corroborated evidence, testimony, allegations and investigative hypotheses.
-</p>
-
-</div>
-
-
-<div class="help-section">
-
-<h2>PUBLIC STATEMENT FROM BARRAN DODGER</h2>
-
-<h3>OF THE BARRAN DODGER ARCHIVE</h3>
-
-<p class="help-quote">
-THE WITNESS REMAINS: A WHISTLEBLOWER’S TESTIMONY OF SURVIVAL, TESTIMONY &amp; FAITH
-</p>
-
-<h3>PRINCIPAL ARCHIVE</h3>
-
-<p>
-<a href="https://barrandodger.com" target="_blank" rel="noopener">
-Barran Dodger Archive
-</a>
-</p>
-
-<p>
-The <a href="https://barrandodger.com" target="_blank" rel="noopener">Barran Dodger Archive</a> is a public documentary record and spiritual record established to preserve, organise and make accessible a decades-long body of evidence concerning alleged institutional, administrative, financial and human-rights harms.
-</p>
-
-<p>
-It brings together official records, correspondence, documentary evidence, personal testimony, forensic analysis, research, philosophy, spiritual gospels and prophetic declarations, including writings understood by the author to have been anointed by the Most High God.
-</p>
-
-<p>
-The Archive deliberately distinguishes between documented facts, official records, corroborated evidence, allegations, personal testimony, inference, interpretation and matters of faith.
-</p>
-
-<p>
-This distinction is fundamental to its purpose.
-</p>
-
-<p>
-Readers are invited to examine the underlying evidence for themselves, test the claims, consider the sources, follow the chronology and reach their own conclusions.
-</p>
-
-<p>
-At the heart of the Archive is a testimony of survival and preservation.
-</p>
-
-<p>
-What the author believes was subjected to attempts at silencing, erasure, exclusion or institutional disappearance has nevertheless survived in records, documents, testimony, memory, faith and public disclosure.
-</p>
-
-<p class="help-quote">
-THE WITNESS REMAINS.
-</p>
-
-</div>
-
-
-<div class="help-section">
-
-<h2>TEN CORE ANALYTICAL CONCEPTS</h2>
-
-<p>
-<strong>1. ADMINISTRATIVE ANNIHILATION</strong> — alleged destruction or neutralisation of a person’s ability to obtain effective administrative recognition or remedy.
-<br/>
-<a href="#r03">
-Report 03 — Administrative erasure / non-response
-</a>
-</p>
-
-<p>
-<strong>2. PSYCHIATRIC WEAPONISATION</strong> — the author’s term for the alleged use of psychiatric or diagnostic framing to undermine credibility, testimony or access to institutions.
-<br/>
-<a href="#r03">
-Report 03 — Pathologisation, medicalisation, stigma, credibility attack, character assassination, weaponisation of mental-health / testimony
-</a>
-</p>
-
-<p>
-<strong>3. EVIDENTIARY ERASURE</strong> — loss, fragmentation, inaccessibility or alleged suppression of documentary evidence.
-<br/>
-<a href="#r03">
-Report 03 — Evidence fragmentation, loss of records, evidentiary displacement
-</a>
-</p>
-
-<p>
-<strong>4. INSTITUTIONAL ABANDONMENT</strong> — repeated inability to obtain meaningful assistance or protection from institutions approached for help.
-<br/>
-<a href="#r03">
-Report 03 — Abandonment — withdrawing assistance or leaving me without adequate support
-</a>
-</p>
-
-<p>
-<strong>5. PROCEDURAL FORECLOSURE</strong> — circumstances in which procedural, jurisdictional or eligibility barriers prevent an issue from reaching substantive examination.
-<br/>
-<a href="#r03">
-Report 03 — Procedural obstruction — delays, referrals, jurisdictional deflection and administrative circularity
-</a>
-</p>
-
-<p>
-<strong>6. ADMINISTRATIVE ATTRITION</strong> — cumulative exhaustion produced by repeated applications, referrals, delays, responses, reviews and procedural obstacles.
-<br/>
-<a href="#r03">
-Report 03 — Suppression through exhaustion, bureaucracy as attrition
-</a>
-</p>
-
-<p>
-<strong>7. POLITICAL / GEOGRAPHIC EXILE</strong> — the author’s description of displacement from his established social and geographic circumstances and his account of becoming effectively politically and geographically displaced within Australia.
-<br/>
-<a href="#r03">
-Report 03 — Exile and displacement — removing or separating me from places and networks of belonging
-</a>
-</p>
-
-<p>
-<strong>8. ECONOMIC AND PROFESSIONAL ERASURE</strong> — alleged cumulative effects on livelihood, employment, professional identity and financial stability.
-<br/>
-<a href="#r08">
-Report 08 — Financial restriction / Impoverishment / Employment and livelihood disruption
-</a>
-</p>
-
-<p>
-<strong>9. ARCHITECTURE OF SILENCE</strong> — the author’s analytical concept for interconnected patterns of non-response, referral, delay and institutional fragmentation.
-<br/>
-<a href="#r03">
-Report 03 — Institutional silence — failure to provide substantive responses
-</a>
-</p>
-
-<p>
-<strong>10. THE WITNESS REMAINS</strong> — the overarching preservation principle: regardless of whether every allegation is ultimately accepted, the documentary record, testimony and chronology remain available for examination.
-<br/>
-<a href="#witness">
-The Witness Remains
-</a>
-</p>
-
-</div>
-
-
-<div class="help-section">
-
-<h2>POLITICAL AND GEOGRAPHIC EXILE</h2>
-
-<p>
-Barran describes his circumstances as involving political and geographic exile.
-</p>
-
-<p>
-He says that he has been displaced from his established life and has been forced to navigate prolonged circumstances of institutional, administrative, financial and geographic instability within Australia.
-</p>
-
-<p>
-He describes himself as an internally displaced asylum seeker within the country of his Australian citizenship.
-</p>
-
-<h3>Unable to Leave Able Point</h3>
-
-<p>
-The author documents being unable to leave Able Point due to lack of money, transport, housing, and a viable alternative.
-</p>
-
-<p>
-<a href="#able-point">
-Read the full document
-</a>
-</p>
-
-<p>
-The Archive presents this as Barran’s description and interpretation of his circumstances, while preserving the documentary record surrounding the events, correspondence, decisions, movements and institutional interactions from which that description arises.
-</p>
-
-<p>
-The central question is not simply whether the reader accepts the terminology.
-</p>
-
-<p>
-The question is what the surviving documentary record shows.
-</p>
-
-<p><strong>What happened?</strong></p>
-<p><strong>What decisions were made?</strong></p>
-<p><strong>What assistance was sought?</strong></p>
-<p><strong>What assistance was refused?</strong></p>
-<p><strong>What referrals occurred?</strong></p>
-<p><strong>What correspondence followed?</strong></p>
-<p><strong>What consequences resulted?</strong></p>
-
-<p>
-The Archive preserves those questions for examination.
-</p>
-
-</div>
-
-
-<div class="help-section">
-
-<h2>PRIME MINISTERIAL REFUSAL TO INTERVENE</h2>
-
-<p>
-A central part of Barran’s account is his claim that he repeatedly sought intervention and assistance through Prime Ministerial and ministerial government channels.
-</p>
-
-<p>
-Barran states that the Prime Minister refused to intervene in the circumstances about which he sought assistance.
-</p>
-
-<p>
-The Archive preserves correspondence and responses concerning those approaches.
-</p>
-
-<p>
-For evidentiary precision, the Archive distinguishes between correspondence addressed to a Prime Minister or Prime Ministerial office, responses issued by an office or department, referrals to another institution, administrative closure, and any decision personally made by a Prime Minister.
-</p>
-
-<p>
-Accordingly, the statement that the “Prime Minister refuses to intervene” is presented as Barran’s description of the outcome of his attempts to obtain Prime Ministerial intervention.
-</p>
-
-<p>
-The underlying correspondence should be examined to determine precisely what was requested, who responded, what was communicated and what action, if any, followed.
-</p>
-
-<p>
-The Archive does not require readers to accept the description without examining the documents.
-</p>
-
-<p>
-It preserves the documents so that readers can examine the basis for the description themselves.
-</p>
-
-</div>
-
-
-<div class="help-section">
-
-<h2>BANNED FROM LEGAL AID AND OMBUDSMAN</h2>
-
-<p>
-Another central part of Barran’s account is that he has been banned from Legal Aid and excluded from or unable to obtain assistance through Ombudsman pathways.
-</p>
-
-<p>
-Barran describes himself as:
-</p>
-
-<p class="help-quote">
-BANNED FROM LEGAL AID AND OMBUDSMAN.
-</p>
-
-<p>
-The Archive preserves correspondence and records concerning his attempts to obtain legal assistance, representation, review and oversight.
-</p>
-
-<p>
-For documentary precision, the Archive distinguishes between a formal legal prohibition or “ban” and other possible mechanisms including refusal of assistance, eligibility decisions, closure of correspondence, jurisdictional limitations, redirection, withdrawal of service or decisions not to accept further correspondence.
-</p>
-
-<p>
-Where the underlying documents establish the precise mechanism, those documents should be read directly.
-</p>
-
-<p>
-The important point for the public record is that Barran says he sought legal and oversight assistance and was unable to obtain the assistance he believed he required.
-</p>
-
-<p>
-The documentary record remains available for examination.
-</p>
-
-</div>
-
-
-<div class="help-section">
-
-<h2>
-FIVE MISSING-PERSON EPISODES ACROSS THREE AUSTRALIAN STATES
-</h2>
-
-<p>
-Barran has experienced five separate episodes in which he describes himself as having become a missing person across three Australian states.
-</p>
-
-<p>
-This is a major part of the testimony preserved by the Archive.
-</p>
-
-<p>
-The Archive does not simply ask readers to accept the significance or interpretation of those episodes.
-</p>
-
-<p>
-It preserves the available material so the chronology can be examined.
-</p>
-
-<p>The questions include:</p>
-
-<ul>
-
-<li>What happened?</li>
-<li>When did it happen?</li>
-<li>Where was Barran?</li>
-<li>What was reported?</li>
-<li>Who reported it?</li>
-<li>What records were created?</li>
-<li>What did authorities record?</li>
-<li>Where was he subsequently located?</li>
-<li>What explanations were given?</li>
-<li>What documentation survives?</li>
-<li>And what remains unresolved?</li>
-
-</ul>
-
-<p>
-The five missing-person episodes form part of the broader longitudinal record that Barran asks readers to examine alongside the government correspondence, legal records, administrative records and other documentary material.
-</p>
-
-</div>
-
-
-<div class="help-section">
-
-<h2>THE UNPROTECTED WHISTLEBLOWER</h2>
-
-<p>
-At the centre of this Archive is the author’s description of himself as an:
-</p>
-
-<p class="help-quote">
-UNPROTECTED WHISTLEBLOWER.
-</p>
-
-<p>
-The author maintains that he attempted to raise concerns through government, administrative, legal, disability, oversight and other official channels and that, rather than obtaining the protection or institutional intervention he sought, he experienced repeated rejection, exclusion, administrative barriers and profound personal consequences.
-</p>
-
-<p>
-The Archive preserves the correspondence and documentary trail surrounding those attempts.
-</p>
-
-<p>
-The Archive therefore asks:
-</p>
-
-<p class="help-quote">
-WHAT HAPPENS TO A PERSON WHO REPORTS WHAT HE BELIEVES TO BE SERIOUS WRONGDOING AND THEN CANNOT OBTAIN THE PROTECTION, INVESTIGATION, LEGAL ASSISTANCE OR INSTITUTIONAL RESPONSE HE SEEKS?
-</p>
-
-<p>
-The Archive preserves the record so that the question can be examined.
-</p>
-
-</div>
-
-
-<div class="help-section">
-
-<h2>WHAT THE SURVIVING RECORD CONTAINS</h2>
-
-<ul>
-
-<li>
-FIVE MISSING-PERSON EPISODES ACROSS THREE AUSTRALIAN STATES —
-<a href="#archive-about">Archive</a>
-</li>
-
-<li>
-AN INCIDENT DESCRIBED AS AN ALLEGED ASSASSINATION ATTEMPT —
-<a href="#archive-about">Archive</a>
-</li>
-
-<li>
-DECADES OF GOVERNMENT AND OFFICIAL CORRESPONDENCE —
-<a href="#official">Archive</a>
-</li>
-
-<li>
-PRIME MINISTERIAL AND MINISTERIAL CORRESPONDENCE —
-<a href="#official">Archive</a>
-</li>
-
-<li>
-ATTEMPTS TO OBTAIN GOVERNMENT INTERVENTION —
-<a href="#official">Archive</a>
-</li>
-
-<li>
-ATTEMPTS TO OBTAIN LEGAL AND OVERSIGHT ASSISTANCE —
-<a href="#legal-brief">Archive</a>
-</li>
-
-<li>
-THE AUTHOR’S ACCOUNT OF BEING BANNED FROM OR UNABLE TO ACCESS LEGAL AID —
-<a href="#legal-brief">Archive</a>
-</li>
-
-<li>
-OMBUDSMAN PATHWAYS —
-<a href="#official">Archive</a>
-</li>
-
-<li>
-AN ACCOUNT OF POLITICAL AND GEOGRAPHIC EXILE —
-<a href="#personal-statement-exile">Archive</a>
-</li>
-
-<li>
-TRIBUNAL, COURT AND ADMINISTRATIVE RECORDS —
-<a href="#official">Archive</a>
-</li>
-
-<li>
-PROFESSIONAL AND FINANCIAL CONSEQUENCES —
-<a href="#r08">Report 08</a>
-</li>
-
-<li>
-HOUSING AND SOCIAL DISLOCATION —
-<a href="#able-point">Able Point</a>
-</li>
-
-<li>
-THE DOG, VETERINARY AND POLICE-RELATED RECORD —
-<a href="#crimes">Crimes and Police Investigation</a>
-</li>
-
-<li>
-MULTIPLE PUBLIC REPOSITORIES —
-<a href="https://barrandodger.com" target="_blank" rel="noopener">Principal Archive</a>,
-<a href="https://barrandodgerarchive.base44.app" target="_blank" rel="noopener">Public Archive Landing Page</a>,
-<a href="https://wezzo72.github.io/Barrandodger/index.html" target="_blank" rel="noopener">GitHub Pages Master Archive</a>
-</li>
-
-<li>
-A LONGITUDINAL DOCUMENTARY RECORD —
-<a href="#r02">Archive</a>
-</li>
-
-<li>
-AN OPEN EVIDENCE STANDARD —
-<a href="#archive-about">Archive</a>
-</li>
-
-</ul>
-
-</div>
-
-
-<div class="help-section">
-
-<h2>
-DECADES OF GOVERNMENT AND OFFICIAL CORRESPONDENCE
-</h2>
-
-<p>
-The present archive contains approximately 2,077 files spanning approximately January 1990 to June 2025.
-</p>
-
-<p>
-Command, 4 October 2026, added after that sentence, which is unchanged. Recounted from the public git tree, this repository holds 5,583 files, including 2,840 PDFs, with later records through 4 October 2026.
-</p>
-
-<p>
-Approximately 85% of the collection is described by the author as direct government correspondence or official documentation — approximately 1,765 files. That 85 per cent and that figure of approximately 1,765 files are the author’s description of the earlier collection. They were not recalculated against the 4 October 2026 tree.
-</p>
-
-<p>
-Recounted 4 October 2026 from the public git tree of wezzo72/Barrandodger, added beside the figures above, which are not deleted: 5,583 tracked files, of which 2,840 are PDFs and 1,813 are HTML files. Shelves, which are locations and not a second total to add to 5,583: myaidrive-pdfs 910 PDFs; the barrandodger.com preservation copy 660 page PDFs; gmail-drive-sweep 443 PDFs; rendered-pdfs 374 PDFs; docs 194 PDFs, including 95 in docs/official-drive (the 20 September 2026 batch was 48); repository root 110 PDFs; site-pdfs 107 PDFs; imports 30 PDFs; ai-essays 10 PDFs; one PDF in statements and one PDF in tabs. The preservation crawl remains 660 indexed source pages. The rebuild site is the finding aid for that crawl. A filename is not a finding.
-</p>
-<p>
-<a href="holdings-4-october-2026.html">Holdings recounted 4 October 2026</a>
-· <a href="finding-aid-all-sources.html">Finding aid</a>
-· <a href="official.html">Official list, with the previously unlinked official-drive PDFs added</a>
-· <a href="https://github.com/wezzo72/Barrandodger/tree/main/docs/official-drive">docs/official-drive</a>
-· <a href="https://github.com/wezzo72/Barrandodger/tree/main/myaidrive-pdfs">myaidrive-pdfs</a>
-· <a href="https://github.com/wezzo72/Barrandodger/tree/main/gmail-drive-sweep">gmail-drive-sweep</a>
-· <a href="https://wezzo72.github.io/barrandodger-rebuild/barrandodger.com%20website%20backup/">660-page preservation copy</a>
-</p>
-
-<p>
-The archive includes material relating to:
-</p>
-
-<ul>
-
-<li>ASIC</li>
-<li>NDIA / NDIS</li>
-<li>Comcare / WorkCover</li>
-<li>AAT / VOCAT</li>
-<li>AHRC</li>
-<li>NACC</li>
-<li>Ministerial correspondence</li>
-<li>Victorian Government bodies</li>
-<li>Legal and administrative institutions</li>
-<li>Medical and related records</li>
-<li>Other government agencies and public institutions</li>
-
-</ul>
-
-<p>
-The existence of these records does not, by itself, establish every allegation made by the author.
-</p>
-
-<p>
-Their significance is that they provide a documentary trail through which the history can be examined.
-</p>
-
-<p>
-The Archive attempts to preserve the sequence:
-</p>
-
-<p class="help-quote">
-
-WHAT HAPPENED.<br/>
-WHAT WAS REPORTED.<br/>
-WHAT WAS REQUESTED.<br/>
-WHAT RESPONSE WAS RECEIVED.<br/>
-WHAT ACTION FOLLOWED.<br/>
-WHAT WAS REFUSED.<br/>
-WHAT WAS REFERRED.<br/>
-WHAT WAS DECIDED.<br/>
-WHAT WAS NOT DECIDED.<br/>
-AND WHAT HAPPENED NEXT.
-
-</p>
-
-</div>
-
-
-<div class="help-section gold">
-
-<h2>OPEN EVIDENCE STANDARD</h2>
-
-<p>
-The Archive asks readers to distinguish:
-</p>
-
-<p><strong>DOCUMENTED FACT</strong></p>
-<p><strong>OFFICIAL RECORD</strong></p>
-<p><strong>CORROBORATED EVIDENCE</strong></p>
-<p><strong>PERSONAL TESTIMONY</strong></p>
-<p><strong>ALLEGATION</strong></p>
-<p><strong>INFERENCE</strong></p>
-<p><strong>INTERPRETATION</strong></p>
-<p><strong>SPIRITUAL BELIEF</strong></p>
-
-<p>
-The purpose is:
-</p>
-
-<p class="help-quote">
-
-PRESERVATION FIRST.<br/>
-EXAMINATION SECOND.<br/>
-CONCLUSION LAST.
-
-</p>
-
-<p>
-Readers are invited to read the documents, check the dates, follow the references, distinguish fact from allegation, distinguish testimony from corroboration, distinguish official findings from claims made to official bodies, distinguish faith from empirical evidence and reach their own independent assessment.
-</p>
-
-</div>
-
-
-<div class="help-section">
-
-<h2>THREE PUBLIC-FACING ARCHIVES</h2>
-
-<p>
-<strong>PRINCIPAL BARRAN DODGER ARCHIVE:</strong><br/>
-
-<a
-href="https://barrandodger.com"
-target="_blank"
-rel="noopener">
-Barran Dodger Archive
-</a>
-</p>
-
-<p>
-<strong>BARRAN DODGER DOCUMENTARY RECORD:</strong><br/>
-
-<a
-href="https://barrandodgerarchive.base44.app"
-target="_blank"
-rel="noopener">
-Barran Dodger Documentary Record
-</a>
-</p>
-
-<p>
-<strong>GITHUB PAGES MASTER ARCHIVE:</strong><br/>
-
-<a
-href="https://wezzo72.github.io/Barrandodger/index.html"
-target="_blank"
-rel="noopener">
-GitHub Pages Master Archive
-</a>
-</p>
-
-<p>
-<strong>CRIMES AND POLICE INVESTIGATION:</strong><br/>
-
-<a href="#crimes">
-Crimes and Police Investigation Record
-</a>
-</p>
-
-</div>
-
-
-<div class="help-section gold">
-
-<h2>KNOWLEDGE IS FREE</h2>
-
-<p>
-The <a href="https://barrandodger.com" target="_blank" rel="noopener">Barran Dodger Archive</a> is 100% free to access.
-</p>
-
-<p>
-There is no paywall for the public documentary record.
-</p>
-
-<p>
-Donations do not purchase access, influence, editorial control or any particular conclusion.
-</p>
-
-<p>
-Voluntary support helps with practical needs and with preserving the public record, including food, accommodation, communication, technology, transport, personal safety, website and domain costs, digital storage and archival infrastructure.
-</p>
-
-<h3>DONATION DETAILS</h3>
-
-<p>
-<strong>PayID:</strong><br/>
-0431300940
-</p>
-
-<p>
-<strong>Commonwealth Bank:</strong><br/>
-Account name: Richard McLean<br/>
-BSB: 063307<br/>
-Account: 10140384
-</p>
-
-<h3>CONTACT</h3>
-
-<p>
-<a href="mailto:impartiallegal@gmail.com">
-impartiallegal@gmail.com
-</a>
-<br/>
-
-<a href="mailto:richarddrawsstuff@gmail.com">
-richarddrawsstuff@gmail.com
-</a>
-</p>
-
-</div>
-
-
-<div class="help-section">
-
-<p class="help-quote">
-
-THE RECORD REMAINS OPEN.<br/>
-THE EVIDENCE REMAINS AVAILABLE.<br/>
-THE DOCUMENTS REMAIN AVAILABLE.<br/>
-THE QUESTIONS REMAIN.<br/>
-THE TESTIMONY REMAINS.<br/>
-THE UNPROTECTED WHISTLEBLOWER REMAINS.<br/>
-THE WITNESS REMAINS.
-
-</p>
-
-<p>
-May the Most High God bless you.
-</p>
-
-<p>
-Love Barran x
-</p>
-
-</div>
-
-
-<div class="help-section gold">
-
-<h2>FURTHER ESSAY</h2>
-
-<h3>THE MIRROR</h3>
-
-<p>
-<strong>
-God’s Favour, Anointing, and Purpose — The Calling of a Chosen Vessel for His Glory
-</strong>
-</p>
-
-<p>
-<a href="#the-mirror">
-THE MIRROR — spiritual writing
-</a>
-</p>
-
-<p class="help-quote">
-
-THE WITNESS REMAINS.<br/>
-THE RECORD EXISTS.<br/>
-THE DOCUMENTS EXIST.<br/>
-THE TESTIMONY EXISTS.<br/>
-THE QUESTIONS REMAIN OPEN.<br/>
-EXAMINE IT.
-
-</p>
-
-</div>
-
-
 </section>
 
-`;
 
-}
+<!-- THREE SITES -->
+
+<section id="three-sites">
+<div class="container">
+
+<div class="eyebrow">Connected public projects</div>
+
+<h2>Three Sites. One Record. Distinct Roles.</h2>
+
+<p class="lead">
+The three public websites are connected, but they serve different
+purposes. They should not be treated as three independent confirmations
+of the same propositions.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<span class="tag">Documentary Archive</span>
+<h3>The Witness Remains</h3>
+<p>
+The principal documentary and research archive. It provides the main
+gateway to records, evidence, testimony, chronology and research.
+</p>
+<a href="https://wezzo72.github.io/Barrandodger/" target="_blank" rel="noopener">
+You are here →
+</a>
+</div>
+
+<div class="card">
+<span class="tag">Preservation</span>
+<h3>Rebuild Archive</h3>
+<p>
+A related reconstruction and preservation layer intended to assist
+with recovery, comparison, preservation and finding of material.
+</p>
+<a href="https://wezzo72.github.io/barrandodger-rebuild/" target="_blank" rel="noopener">
+Open Rebuild Archive →
+</a>
+</div>
+
+<div class="card">
+<span class="tag">Faith & Ministry</span>
+<h3>Church of Barran Dodger</h3>
+<p>
+The spiritual and ministry project containing faith, Scripture,
+theological writing, prophetic material and religious testimony.
+</p>
+<a href="https://wezzo72.github.io/-church-of-barran-dodger/" target="_blank" rel="noopener">
+Open Church →
+</a>
+</div>
+
+</div>
+
+<div class="notice">
+<strong>Important distinction:</strong>
+A government document is not the same thing as an interpretation of
+that document. Personal testimony is not automatically an official
+finding. An allegation is not a determination of fact. A spiritual
+belief is not documentary proof. A reconstructed archive is not
+independent corroboration of the original record.
+</div>
+
+</div>
+</section>
+
+
+<!-- EVIDENCE -->
+
+<section id="evidence">
+<div class="container">
+
+<div class="eyebrow">Evidence Architecture</div>
+
+<h2>Follow the Evidence</h2>
+
+<p class="lead">
+The archive contains different classes of material. The reader should
+consider the provenance, context and actual contents of each source.
+</p>
+
+<div class="grid">
+
+<div class="card">
+<span class="tag">A</span>
+<h3>Documented Fact</h3>
+<p>
+A proposition directly established by an identifiable source or record.
+</p>
+</div>
+
+<div class="card">
+<span class="tag">B</span>
+<h3>Corroborated Claim</h3>
+<p>
+A claim supported by additional relevant material, without necessarily
+constituting an official determination.
+</p>
+</div>
+
+<div class="card">
+<span class="tag">C</span>
+<h3>Documented Allegation</h3>
+<p>
+An allegation recorded in a source. Recording an allegation does not
+establish that the allegation is true.
+</p>
+</div>
+
+<div class="card">
+<span class="tag">D</span>
+<h3>Inference</h3>
+<p>
+An interpretation or conclusion drawn from available material rather
+than directly established by the source.
+</p>
+</div>
+
+<div class="card">
+<span class="tag">E</span>
+<h3>Speculation</h3>
+<p>
+A possibility that remains insufficiently established and should not
+be presented as established fact.
+</p>
+</div>
+
+<div class="card">
+<span class="tag">Faith</span>
+<h3>Spiritual Belief</h3>
+<p>
+Religious belief, prophecy and theological interpretation are identified
+as faith material rather than documentary evidence.
+</p>
+</div>
+
+</div>
+
+<div class="button-row">
+
+<a class="button" href="inventory.html">
+ARCHIVE INVENTORY →
+</a>
+
+<a class="button secondary" href="methodology.html">
+METHODOLOGY →
+</a>
+
+<a class="button secondary" href="ledger.html">
+LEDGER →
+</a>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- DOCUMENTARY ROUTES -->
+
+<section>
+<div class="container">
+
+<div class="eyebrow">Direct Research Routes</div>
+
+<h2>Go Directly to the Material</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Official Documents</h3>
+<p>
+Government correspondence and official documentary material.
+</p>
+<a href="import-official-pdfs.html">
+Official PDF Material →
+</a>
+</div>
+
+<div class="card">
+<h3>Evidence</h3>
+<p>
+Evidence-related material and source pathways.
+</p>
+<a href="evidence.html">
+Evidence →
+</a>
+</div>
+
+<div class="card">
+<h3>Inventory</h3>
+<p>
+Use the inventory to locate and understand the preserved material.
+</p>
+<a href="inventory.html">
+Inventory →
+</a>
+</div>
+
+<div class="card">
+<h3>Ledger</h3>
+<p>
+A further record and indexing route through the archive.
+</p>
+<a href="ledger.html">
+Ledger →
+</a>
+</div>
+
+<div class="card">
+<h3>Forensic Material</h3>
+<p>
+Locate forensic and technical material contained within the project.
+</p>
+<a href="mobbing-safety-of-the-cro...">
+Forensic / Related Material →
+</a>
+</div>
+
+<div class="card">
+<h3>Emails & Official Letters</h3>
+<p>
+Correspondence is preserved as part of the documentary record.
+</p>
+<a href="gmail-official-letters.html">
+Official Letters →
+</a>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- LEGAL -->
+
+<section>
+<div class="container">
+
+<div class="eyebrow">Law · Administration · Accountability</div>
+
+<h2>Legal and Justice Material</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Legal Brief</h3>
+<p>
+The project's legal and administrative analysis.
+</p>
+<a href="legal-brief.html">Read Legal Brief →</a>
+</div>
+
+<div class="card">
+<h3>Justice Mandate</h3>
+<p>
+The stated public-interest purpose of preservation and accountability.
+</p>
+<a href="justice-mandate.html">Read Justice Mandate →</a>
+</div>
+
+<div class="card">
+<h3>Administrative Material</h3>
+<p>
+Research concerning administrative systems, records and decisions.
+</p>
+<a href="methodology.html">Read Methodology →</a>
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- FAITH -->
+
+<section>
+<div class="container">
+
+<div class="eyebrow">Faith · Theology · Spiritual Testimony</div>
 
+<h2>Gospels & Prophecy</h2>
+
+<p class="lead">
+The spiritual material is deliberately identified as faith, theology,
+religious interpretation or spiritual testimony. It is not presented
+as documentary proof.
+</p>
 
+<div class="grid">
 
-function showStamp(path, host){
+<div class="card">
+<h3>Gospels & Prophetic Writing</h3>
+<p>
+Explore the Gospel and prophetic material associated with the broader
+project.
+</p>
+<a href="gospels-prophetic.html">
+Gospels & Prophecy →
+</a>
+</div>
+
+<div class="card">
+<h3>Church of Barran Dodger</h3>
+<p>
+The complete faith and ministry dimension of the project.
+</p>
+<a href="https://wezzo72.github.io/-church-of-barran-dodger/" target="_blank" rel="noopener">
+Enter Church →
+</a>
+</div>
+
+</div>
+
+<div class="quote">
+“They could not erase what God preserved.”
+</div>
+
+<p class="small">
+This statement belongs to the author's spiritual testimony and should
+be understood within that religious context.
+</p>
+
+</div>
+</section>
+
+
+<!-- HOW TO READ -->
 
-host=host||content;
+<section>
+<div class="container">
 
-var prev=host.querySelector("[data-injected-stamp='1']");
+<div class="eyebrow">Impartial Reading</div>
 
-if(prev)
-prev.remove();
+<h2>What Does a Source Actually Establish?</h2>
 
-var box=document.createElement("div");
+<p>
+The purpose of this archive is not to predetermine the reader's conclusion.
+It is to preserve material and make it accessible for examination.
+</p>
 
-box.setAttribute("data-injected-stamp","1");
+<div class="notice">
 
-box.style.cssText="margin:16px;padding:12px 14px;border:1px solid #c9a36a;background:#14110c;color:#f3efe6;font-size:.82rem;line-height:1.45";
+<p><strong>Ask of every important proposition:</strong></p>
 
-box.innerHTML="<strong>SHA-256 STAMP</strong> — digest of the preserved file. The file was not rewritten to insert this line.<br><span data-stamp-line>Looking up "+esc(path)+"…</span>";
+<p>What is the underlying source?</p>
 
-host.appendChild(box);
+<p>Who created it?</p>
 
-function paint(map){
+<p>When was it created?</p>
 
-var line=box.querySelector("[data-stamp-line]");
+<p>What does it actually establish?</p>
 
-if(!line)
-return;
+<p>Is it an official determination, a personal account, an allegation,
+an inference or an interpretation?</p>
 
-var rec=map[path];
+<p>Is there independent corroboration?</p>
+
+<p>What remains disputed or unresolved?</p>
+
+</div>
+
+<p>
+The inclusion of a document, allegation, interpretation or testimony
+within this archive does not by itself establish the truth of every
+proposition contained within it.
+</p>
+
+<p>
+The archive is therefore intended as a
+<strong>finding aid and preservation project</strong>,
+not as a court, tribunal or verdict.
+</p>
 
-if(!rec){
+</div>
+</section>
 
-line.textContent="No stamp recorded yet for "+path;
 
-return;
+<!-- SOURCES -->
 
-}
+<section id="sources">
+<div class="container">
 
-line.textContent=path+" · "+rec.bytes+" bytes · SHA-256 "+rec.sha256;
+<div class="eyebrow">Public Source Network</div>
 
-}
+<h2>Three Projects — Direct Access</h2>
 
-if(window.__shaMap){
+<div class="grid">
 
-paint(window.__shaMap);
-
-return;
-
-}
-
-fetch("statements/SHA256-ALL-PDFS-AND-PAGES.json",{cache:"no-cache"})
-
-.then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
-
-.then(function(data){
-
-var map={};
-
-(data.files||[]).forEach(function(f){ map[f.path]=f; });
-
-window.__shaMap=map;
-
-paint(map);
-
-})
-
-.catch(function(){
-
-var line=box.querySelector("[data-stamp-line]");
-
-if(line)
-line.textContent="Stamp registry could not be loaded.";
-
-});
-
-}
-
-
-function showLanding(){
-
-req++;
-
-document.getElementById("landing").hidden=false;
-
-document.getElementById("archive").hidden=true;
-
-setActive("archive-about");
-
-history.replaceState(
-null,
-"",
-location.pathname+location.search
-);
-
-showStamp("index.html", document.getElementById("landing"));
-
-window.scrollTo(0,0);
-
-}
-
-
-async function show(id){
-
-if(id==="archive-about"||id==="about"){
-
-showLanding();
-return;
-
-}
-
-var href=ROUTES[id];
-
-if(!href){
-
-content.innerHTML=
-'<p class="error">No route for '+esc(id)+'</p>';
-
-return;
-
-}
-
-var current=++req;
-
-
-/*
-CRITICAL TAB 3 FIX
-
-The Barran Help document is a PDF.
-It must NOT be sent through fetch()
-and extractBody(), because a PDF is binary data,
-not HTML.
-
-Render the PDF directly instead.
-*/
-
-if(id==="barran-help"){
-
-document.getElementById("landing").hidden=true;
-
-document.getElementById("archive").hidden=false;
-
-content.innerHTML=renderHelpPdf();
-
-showStamp(href);
-
-setActive(id);
-
-history.replaceState(
-null,
-"",
-"#"+id
-);
-
-window.scrollTo(0,0);
-
-return;
-
-}
-
-
-try{
-
-var html=cache[href];
-
-if(!html){
-
-var response=await fetch(
-href,
-{
-cache:"no-cache",
-mode:"cors"
-}
-);
-
-if(!response.ok)
-throw new Error(response.status);
-
-html=await response.text();
-
-if(current!==req)
-return;
-
-cache[href]=html;
-
-}
-
-if(current!==req)
-return;
-
-
-if(/^r\d{2}$/.test(id)){
-
-content.innerHTML=renderReport(id,html);
-
-}else{
-
-content.innerHTML=
-'<div class="src-root">'+
-extractBody(html)+
-'</div>';
-
-}
-
-
-document.getElementById("landing").hidden=true;
-
-document.getElementById("archive").hidden=false;
-
-showStamp(href);
-
-setActive(id);
-
-history.replaceState(
-null,
-"",
-"#"+id
-);
-
-window.scrollTo(0,0);
-
-
-}catch(error){
-
-if(current!==req)
-return;
-
-document.getElementById("landing").hidden=true;
-
-document.getElementById("archive").hidden=false;
-
-content.innerHTML=
-'<p class="error">Could not load.</p>'+
-'<p><a href="'+href+'">Open → '+href+'</a></p>';
-
-setActive(id);
-
-}
-
-}
-
-
-function route(){
-
-var hash=
-(location.hash||"")
-.replace(/^#/,"")
-.split("?")[0];
-
-if(
-!hash||
-hash==="archive-about"||
-hash==="about"
-){
-
-showLanding();
-
-}else{
-
-show(hash);
-
-}
-
-}
-
-
-document
-.getElementById("enter")
-.addEventListener(
-"click",
-function(){
-
-show("home");
-
-}
-);
-
-
-tabsEl.addEventListener(
-"click",
-function(event){
-
-var button=
-event.target.closest(
-"button[data-page]"
-);
-
-if(button)
-show(
-button.getAttribute("data-page")
-);
-
-}
-);
-
-
-document
-.getElementById("forensic-tabs")
-.addEventListener(
-"click",
-function(event){
-
-var button=
-event.target.closest(
-"button[data-page]"
-);
-
-if(button)
-show(
-button.getAttribute("data-page")
-);
-
-}
-);
-
-
-var sentEl=
-document.getElementById("sent-tabs");
-
-if(sentEl){
-
-sentEl.addEventListener(
-"click",
-function(event){
-
-var button=
-event.target.closest(
-"button[data-page]"
-);
-
-if(button)
-show(
-button.getAttribute("data-page")
-);
-
-}
-);
-
-}
-
-
-identityEl.addEventListener(
-"click",
-function(event){
-
-var link=
-event.target.closest(
-"a[data-page]"
-);
-
-if(link){
-
-event.preventDefault();
-
-show(
-link.getAttribute("data-page")
-);
-
-}
-
-}
-);
-
-
-document
-.getElementById("overview")
-.addEventListener(
-"click",
-function(event){
-
-event.preventDefault();
-
-showLanding();
-
-}
-);
-
-
-window.addEventListener(
-"hashchange",
-route
-);
-
-
-route();
-
-})();
-</script>
-
-<script>
-(function(){
-  var API = "https://countapi.mileshilliard.com/api/v1/";
-  var VISITS = "bd-wezzo72-archive-visits";
-  var HITS = "bd-wezzo72-archive-webhits";
-  var DOWNLOADS = "bd-wezzo72-archive-downloads";
-
-  function paint(id, value){
-    var n = Number(value);
-    if (!isFinite(n)) return;
-    var text = n.toLocaleString();
-    var el = document.getElementById(id);
-    if (el) el.textContent = text;
-    if (id === "visit-count"){
-      var chip = document.getElementById("visit-chip");
-      if (chip) chip.textContent = text + " visits · 18 Sep 2026";
-    }
-  }
-
-  function read(key){
-    return fetch(API + "get/" + key, {cache:"no-store"})
-      .then(function(r){ return r.json(); })
-      .then(function(d){ return d && d.value != null ? d.value : 0; })
-      .catch(function(){ return null; });
-  }
-
-  function bump(key){
-    var img = new Image();
-    img.referrerPolicy = "no-referrer";
-    img.src = API + "hit/" + encodeURIComponent(key) + "?t=" + Date.now();
-    return new Promise(function(resolve){
-      setTimeout(function(){ read(key).then(resolve); }, 350);
-    });
-  }
-
-  function show(key, id, shouldHit){
-    var job = shouldHit ? bump(key) : read(key);
-    job.then(function(value){
-      if (value == null) return;
-      paint(id, value);
-    });
-  }
-
-  var seen = false;
-  try { seen = sessionStorage.getItem("bd-visit") === "1"; } catch(e) {}
-  show(VISITS, "visit-count", !seen);
-  if (!seen){
-    try { sessionStorage.setItem("bd-visit", "1"); } catch(e) {}
-  }
-  show(HITS, "webhit-count", false);
-  show(DOWNLOADS, "download-count", false);
-  setInterval(function(){
-    read(VISITS).then(function(v){ if (v != null) paint("visit-count", v); });
-    read(HITS).then(function(v){ if (v != null) paint("webhit-count", v); });
-    read(DOWNLOADS).then(function(v){ if (v != null) paint("download-count", v); });
-  }, 8000);
-
-  var btn = document.getElementById("web-hit");
-  if (btn){
-    btn.addEventListener("click", function(){
-      btn.disabled = true;
-      btn.textContent = "RECORDING";
-      bump(HITS).then(function(value){
-        if (value != null) paint("webhit-count", value);
-        btn.disabled = false;
-        btn.textContent = "WEB HIT RECORDED";
-        setTimeout(function(){ btn.textContent = "RECORD A WEB HIT"; }, 1600);
-      });
-    });
-  }
-
-  function slug(name){
-    return String(name || "file")
-      .toLowerCase()
-      .replace(/\.[a-z0-9]+$/, "")
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-+|-+$/g, "")
-      .slice(0, 80) || "file";
-  }
-
-  document.addEventListener("click", function(event){
-    var link = event.target.closest && event.target.closest("a[href]");
-    if (!link) return;
-    var href = link.getAttribute("href") || "";
-    if (!/\.(pdf|ots|txt|zip|epub)(\?|$)/i.test(href)) return;
-    var name = decodeURIComponent(href.split("/").pop().split("?")[0] || "file");
-    bump(DOWNLOADS).then(function(v){ if (v != null) paint("download-count", v); });
-    bump("bd-wezzo72-dl-" + slug(name));
-  }, true);
-})();
-</script>
-
-
-<aside id="support-the-archive" style="max-width:820px;margin:22px auto;padding:16px 18px;background:#fffaf3;border-left:6px solid #8B2E2A;color:#241c16;font-family:Georgia,serif;line-height:1.5">
-<p style="letter-spacing:.12em;font-size:12px;font-weight:700;color:#8B2E2A;margin:0 0 6px">SUPPORT THE ARCHIVE · ADDED · NOTHING ABOVE REMOVED</p>
-<p style="margin:0 0 10px">The record stays free. Payment, membership, and advertising are not connected. The buttons on the support page do not take money.</p>
-<p style="margin:0 0 10px">Added after that sentence. PayID 0431300940 and the Commonwealth Bank details already on this site are repeated on the support page. PayPal and Stripe are still not linked.</p>
-<p style="margin:0"><a style="color:#8B2E2A;font-weight:700" href="support-the-archive.html">Support the archive</a></p>
-</aside>
+<div class="card">
+<h3>The Witness Remains</h3>
+<p>Main documentary archive.</p>
+<a href="https://wezzo72.github.io/Barrandodger/" target="_blank" rel="noopener">
+Open Main Archive →
+</a>
+</div>
+
+<div class="card">
+<h3>Rebuild Archive</h3>
+<p>Preservation and reconstruction archive.</p>
+<a href="https://wezzo72.github.io/barrandodger-rebuild/" target="_blank" rel="noopener">
+Open Rebuild →
+</a>
+</div>
+
+<div class="card">
+<h3>Church of Barran Dodger</h3>
+<p>Faith and ministry project.</p>
+<a href="https://wezzo72.github.io/-church-of-barran-dodger/" target="_blank" rel="noopener">
+Open Church →
+</a>
+</div>
+
+</div>
+
+<div class="notice">
+<strong>Source integrity principle:</strong>
+A hyperlink provides access to a source; it does not itself establish
+the truth of the source's contents.
+</div>
+
+</div>
+</section>
+
+
+<!-- FINAL -->
+
+<section>
+<div class="container" style="text-align:center">
+
+<div class="eyebrow">The Witness Remains</div>
+
+<h2>The Record Is Preserved.</h2>
+
+<p class="lead">
+The underlying material should be examined according to its source,
+provenance, context, corroboration and evidentiary status.
+</p>
+
+<div class="button-row" style="justify-content:center">
+
+<a class="button"
+href="https://wezzo72.github.io/barrandodger-rebuild/"
+target="_blank"
+rel="noopener">
+REBUILD ARCHIVE
+</a>
+
+<a class="button secondary"
+href="https://wezzo72.github.io/-church-of-barran-dodger/"
+target="_blank"
+rel="noopener">
+CHURCH OF BARRAN DODGER
+</a>
+
+<a class="button secondary"
+href="inventory.html">
+ARCHIVE INVENTORY
+</a>
+
+</div>
+
+<p class="quote">
+Preservation first.<br>
+Examination second.<br>
+Conclusion last.
+</p>
+
+</div>
+</section>
+
+</main>
+
+
+<footer>
+<div class="container">
+
+<p><strong>THE WITNESS REMAINS — DR BARRAN DODGER</strong></p>
+
+<p>
+Public Documentary Archive · Research · Evidence · Preservation
+</p>
+
+<p>
+<a href="https://wezzo72.github.io/Barrandodger/" target="_blank" rel="noopener">
+Main Archive
+</a>
+·
+<a href="https://wezzo72.github.io/barrandodger-rebuild/" target="_blank" rel="noopener">
+Rebuild Archive
+</a>
+·
+<a href="https://wezzo72.github.io/-church-of-barran-dodger/" target="_blank" rel="noopener">
+Church
+</a>
+</p>
+
+<p class="small">
+This archive is not a court, tribunal or verdict. The material is
+provided for preservation, research and informed examination.
+</p>
+
+<p>
+<a href="#top">↑ Back to top</a>
+</p>
+
+</div>
+</footer>
 
 </body>
 </html>
