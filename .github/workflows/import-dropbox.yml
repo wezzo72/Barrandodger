@@ -1,0 +1,42 @@
+name: Import Barrandodger ZIP from Dropbox
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Download ZIP from Dropbox
+        run: |
+          curl -L "https://www.dropbox.com/scl/fi/lej9altqyqbujltuouusw/Barrandodger-main-2.zip?rlkey=4mkuxtajtd5isw4qrbchjwtea&st=bdb9yloz&dl=1" \
+            -o archive.zip
+
+      - name: Extract ZIP
+        run: |
+          mkdir -p imported-pdfs
+          unzip -q archive.zip -d imported-pdfs
+
+      - name: Find PDFs
+        run: |
+          echo "PDF count:"
+          find imported-pdfs -type f -iname "*.pdf" | wc -l
+
+      - name: Show extracted size
+        run: |
+          du -sh imported-pdfs
+
+      - name: Commit extracted files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add imported-pdfs
+          git commit -m "Import PDFs from Dropbox archive" || echo "Nothing new to commit"
+          git push
