@@ -16,6 +16,7 @@
     ["Archive", "https://wezzo72.github.io/Barrandodger/"],
     ["Rebuild", "https://wezzo72.github.io/barrandodger-rebuild/"],
     ["Church", "https://wezzo72.github.io/-church-of-barran-dodger/"],
+    ["Publishing house", "https://wezzo72.github.io/-church-of-barran-dodger/publishing-house.html"],
     ["Gospels", "https://wezzo72.github.io/Barrandodger/gospels-prophetic.html"],
     ["Course", "https://wezzo72.github.io/-church-of-barran-dodger/course.html"],
     ["Support", "https://wezzo72.github.io/-church-of-barran-dodger/contribute.html"],
