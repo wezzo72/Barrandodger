@@ -1,0 +1,617 @@
+MASTER COMMAND — MONETISE AND BUILD SUSTAINABLE REVENUE INTO THE BARRAN DODGER WEBSITES
+
+TARGET WEBSITES
+
+https://wezzo72.github.io/barrandodger-rebuild/
+
+https://wezzo72.github.io/Barrandodger/
+
+SOURCE REPOSITORIES
+
+https://github.com/wezzo72?tab=repositories
+
+https://github.com/drbarrandodger?tab=repositories
+
+OBJECTIVE
+
+Transform the Barran Dodger websites from static archive/finding-aid websites into sustainable, professionally structured, monetisation-ready websites while preserving the integrity, independence and evidentiary character of the archive.
+
+DO NOT turn the archive into a commercial-looking advertising site.
+
+DO NOT allow advertising to obscure evidence, testimony, documents or navigation.
+
+DO NOT make claims that visitors must donate, purchase something or click advertisements in order to access evidence.
+
+The primary purpose remains preservation, documentation, research, testimony and public access.
+
+The secondary purpose is to create legitimate revenue streams that can help fund:
+
+	•	hosting
+	•	domain costs
+	•	archive preservation
+	•	document digitisation
+	•	research
+	•	forensic analysis
+	•	accessibility
+	•	website development
+	•	legal/documentary research
+	•	publication
+	•	ongoing archive maintenance
+	•	the creator’s work
+
+==================================================
+
+	1.	AUDIT THE CURRENT WEBSITES
+    ==================================================
+
+Inspect both websites and their source repositories.
+
+Identify:
+
+	•	current navigation
+	•	page structure
+	•	existing donation links
+	•	existing payment links
+	•	existing external links
+	•	PDFs
+	•	archive sections
+	•	essays
+	•	books
+	•	statements
+	•	research
+	•	evidence indexes
+	•	audience-facing content
+	•	contact pages
+	•	privacy pages
+	•	terms pages
+	•	analytics
+	•	existing advertising code
+	•	existing monetisation
+	•	broken links
+	•	pages suitable for monetisation
+	•	pages that should remain advertisement-free
+
+Do not alter substantive evidence merely to facilitate monetisation.
+
+==================================================
+2. CREATE A MONETISATION STRATEGY
+
+Implement multiple revenue channels rather than relying on a single source.
+
+Priority order:
+
+	1.	Direct reader support
+	2.	Paid publications / books / downloadable editions
+	3.	Membership/supporter model
+	4.	Donations
+	5.	Ethical sponsorship
+	6.	Advertising
+	7.	Affiliate links where genuinely relevant
+	8.	Speaking/research/consulting opportunities
+	9.	Licensing/publication permissions where appropriate
+
+The archive should remain freely accessible wherever possible.
+
+==================================================
+3. CREATE A “SUPPORT THE ARCHIVE” SYSTEM
+
+Create a highly visible but non-intrusive:
+
+SUPPORT THE ARCHIVE
+
+section.
+
+Explain that contributions help maintain:
+
+	•	evidence preservation
+	•	document hosting
+	•	research
+	•	digitisation
+	•	website maintenance
+	•	accessibility
+	•	publication
+	•	archive development
+
+Provide configurable buttons for:
+
+DONATE
+
+SUPPORT MONTHLY
+
+BUY / SUPPORT PUBLICATIONS
+
+CONTACT FOR SUPPORT / COLLABORATION
+
+Do not invent payment-provider accounts or URLs.
+
+Use placeholders/configuration variables until actual payment links are supplied.
+
+==================================================
+4. CREATE A PUBLICATION / STORE AREA
+
+Create:
+
+PUBLICATIONS
+
+with subsections such as:
+
+BOOKS
+
+REPORTS
+
+ARCHIVE EDITIONS
+
+RESEARCH
+
+SPECIAL DOCUMENTS
+
+Where appropriate allow visitors to purchase:
+
+	•	books
+	•	ebooks
+	•	professionally formatted reports
+	•	curated archive editions
+	•	research publications
+	•	print editions
+	•	artwork/publications
+	•	other legitimate original works
+
+Do not charge for access to primary evidence that is intentionally designated as freely available.
+
+Instead monetise optional curated editions, books and additional publications.
+
+==================================================
+5. MEMBERSHIP / SUPPORTER MODEL
+
+Create a:
+
+SUPPORTERS
+
+or
+
+MEMBERSHIP
+
+page.
+
+Allow future integration with a legitimate membership/payment platform.
+
+Potential tiers:
+
+FREE READER
+
+ARCHIVE SUPPORTER
+
+RESEARCH SUPPORTER
+
+PATRON
+
+Do not promise benefits that do not exist.
+
+Possible benefits include:
+
+	•	supporter acknowledgement
+	•	periodic archive updates
+	•	research notes
+	•	behind-the-scenes development updates
+	•	early access to new publications
+	•	downloadable curated editions
+	•	supporter newsletters
+
+Primary evidence should not be concealed solely to force membership.
+
+==================================================
+6. ADVERTISING
+
+Prepare the websites for Google AdSense or another compliant advertising network.
+
+Do not fabricate an AdSense publisher ID.
+
+Create a central configuration variable such as:
+
+ADSENSE_PUBLISHER_ID
+
+and leave it unset until the actual approved publisher ID is supplied.
+
+Prepare the site architecture so the actual AdSense code can subsequently be inserted into the HTML .
+
+Use Google’s current verification/approval process.
+
+Google requires the publisher to have access to the site’s HTML and reviews sites for compliance before ads can be shown.
+
+Do not claim that AdSense approval has been obtained until it actually has.
+
+==================================================
+7. AD PLACEMENT POLICY
+
+Advertising must never interfere with:
+
+	•	evidence
+	•	PDF viewing
+	•	legal documents
+	•	testimony
+	•	archive navigation
+	•	accessibility
+	•	emergency/help information
+	•	important warnings
+	•	document provenance
+
+Preferred locations:
+
+	•	restrained header/banner area
+	•	sidebar on suitable desktop pages
+	•	between major editorial sections
+	•	end of long-form articles
+	•	archive landing pages
+
+Avoid:
+
+	•	pop-ups covering evidence
+	•	deceptive buttons
+	•	fake download buttons
+	•	advertisements disguised as archive links
+	•	excessive advertising
+	•	ads immediately beside sensitive allegations in a way that implies endorsement
+	•	advertisements that make the archive difficult to read
+
+Create an:
+
+AD-FREE EVIDENCE VIEW
+
+where practical.
+
+==================================================
+8. ETHICAL SPONSORSHIP
+
+Create:
+
+SPONSOR / PARTNER WITH THE ARCHIVE
+
+page.
+
+Allow legitimate organisations to support:
+
+	•	preservation
+	•	accessibility
+	•	research
+	•	digital archiving
+	•	arts
+	•	journalism
+	•	human-rights research
+	•	historical/documentary projects
+
+Clearly label sponsored material.
+
+Never allow a sponsor to purchase favourable treatment of evidence.
+
+Never alter documentary conclusions because of sponsorship.
+
+==================================================
+9. AFFILIATE MONETISATION
+
+Create an optional affiliate-link framework.
+
+Only recommend products/services genuinely relevant to the subject matter.
+
+Potential legitimate categories include:
+
+	•	books
+	•	archival supplies
+	•	digital preservation tools
+	•	research resources
+	•	accessibility tools
+	•	publishing services
+	•	educational resources
+
+Clearly disclose affiliate relationships.
+
+Never create fake recommendations merely to generate commission.
+
+==================================================
+10. AUTHOR / CREATOR SERVICES
+
+Create a:
+
+WORK WITH BARRAN DODGER
+
+section offering legitimate services where appropriate, such as:
+
+	•	writing
+	•	research
+	•	archival research
+	•	documentary consultation
+	•	AI ethics research
+	•	visual communication
+	•	publication
+	•	speaking
+	•	historical/documentary consultation
+	•	evidence-archive design
+	•	digital preservation consultation
+
+Do not imply professional qualifications beyond those actually documented.
+
+Do not provide legal, medical or other regulated professional services unless appropriately authorised.
+
+==================================================
+11. CREATE A NEWSLETTER
+
+Create:
+
+ARCHIVE UPDATES
+
+Allow visitors to subscribe to future updates.
+
+Use the newsletter for:
+
+	•	newly added documents
+	•	archive milestones
+	•	new publications
+	•	research updates
+	•	site developments
+	•	important archive announcements
+
+Do not automatically subscribe visitors.
+
+Include an unsubscribe mechanism.
+
+==================================================
+12. ANALYTICS
+
+Prepare privacy-conscious analytics.
+
+Measure:
+
+	•	page views
+	•	document views
+	•	PDF clicks
+	•	search usage
+	•	popular archive sections
+	•	referral sources
+	•	supporter conversions
+	•	publication sales
+	•	newsletter subscriptions
+
+Do not collect unnecessary personal information.
+
+Document the analytics/privacy practices.
+
+==================================================
+13. SEO
+
+Optimise the websites for legitimate search discovery.
+
+Generate:
+
+	•	descriptive page titles
+	•	meta descriptions
+	•	canonical URLs
+	•	Open Graph metadata
+	•	sitemap.xml
+	•	robots.txt
+	•	structured metadata where appropriate
+	•	descriptive PDF titles
+	•	archive index pages
+	•	author information
+	•	publication information
+
+DO NOT manipulate search rankings through spam.
+
+DO NOT generate hundreds of meaningless pages merely for SEO.
+
+The archive’s large documentary dataset should become genuinely searchable and discoverable.
+
+==================================================
+14. MONETISATION DASHBOARD
+
+Create an internal configuration file that allows the owner to enable/disable:
+
+	•	advertising
+	•	donations
+	•	monthly support
+	•	publications
+	•	memberships
+	•	sponsorship
+	•	affiliate links
+	•	newsletter
+	•	analytics
+
+Example:
+
+monetization:
+advertising: false
+donations: true
+memberships: false
+publications: true
+sponsorship: false
+affiliates: false
+newsletter: true
+analytics: false
+
+Do not activate services that have not actually been configured.
+
+==================================================
+15. REVENUE TRANSPARENCY
+
+Create an optional:
+
+ARCHIVE SUSTAINABILITY
+
+page explaining that revenue supports ongoing archive preservation and development.
+
+Where appropriate publish broad categories of expenditure rather than exposing private financial information.
+
+Potential categories:
+
+	•	hosting
+	•	domains
+	•	software
+	•	digitisation
+	•	archival storage
+	•	research
+	•	accessibility
+	•	publication
+	•	professional services
+
+==================================================
+16. PRIVACY / LEGAL COMPLIANCE
+
+Create or update:
+
+PRIVACY
+
+TERMS
+
+COOKIES / TRACKING
+
+DISCLOSURES
+
+ADVERTISING DISCLOSURE
+
+AFFILIATE DISCLOSURE
+
+SPONSORSHIP DISCLOSURE
+
+Do not claim legal compliance without actually implementing the relevant requirements.
+
+Ensure the monetisation architecture can accommodate Australian privacy requirements and applicable overseas visitors’ requirements where relevant.
+
+==================================================
+17. PRESERVE THE ARCHIVE’S INDEPENDENCE
+
+The following principle must remain prominent:
+
+MONETISATION DOES NOT DETERMINE THE CONTENT OF THE ARCHIVE.
+
+Advertising, donations, memberships, sponsorships or purchases must not influence:
+
+	•	classification of evidence
+	•	documentary descriptions
+	•	allegations
+	•	findings
+	•	interpretation
+	•	archive inclusion
+	•	historical conclusions
+
+Cryptographic verification must continue to mean integrity/provenance rather than proof of substantive truth.
+
+==================================================
+18. CREATE A PROFESSIONAL HOME PAGE
+
+The homepage should present:
+
+THE WITNESS REMAINS
+
+BARRAN DODGER ARCHIVE
+
+A concise explanation of the archive.
+
+CURRENT DATASET
+
+DOCUMENTARY EVIDENCE
+
+RESEARCH
+
+PUBLICATIONS
+
+SUPPORT THE ARCHIVE
+
+LATEST ARCHIVE UPDATES
+
+SEARCH THE ARCHIVE
+
+CONTACT
+
+The monetisation components must be visible but secondary to the actual archive.
+
+==================================================
+19. MOBILE-FIRST DESIGN
+
+Optimise all monetisation and archive pages for iPhone/mobile viewing.
+
+Buttons must be:
+
+	•	large enough to tap
+	•	clearly labelled
+	•	accessible
+	•	keyboard accessible
+	•	screen-reader compatible
+
+Do not use intrusive mobile pop-ups.
+
+==================================================
+20. AUTOMATED DEPLOYMENT
+
+Integrate monetisation changes into the existing GitHub Pages build process.
+
+Use GitHub Actions where appropriate.
+
+The build should:
+
+	1.	validate the website
+	2.	generate archive indexes
+	3.	generate current dataset statistics
+	4.	insert configured monetisation components
+	5.	validate links
+	6.	validate required metadata
+	7.	build the site
+	8.	deploy to GitHub Pages
+
+Do not expose secret payment credentials or API keys in the public repository.
+
+==================================================
+21. CONFIGURATION
+
+Create a clearly documented configuration file for:
+
+	•	AdSense publisher ID
+	•	donation URL
+	•	monthly support URL
+	•	publication/store URL
+	•	membership URL
+	•	newsletter URL
+	•	sponsorship contact
+	•	affiliate disclosure
+	•	analytics ID
+
+Use environment variables or GitHub Actions secrets for anything confidential.
+
+Never commit private API keys, payment secrets or authentication tokens.
+
+==================================================
+22. FINAL MONETISATION REPORT
+
+After implementation report:
+
+MONETISATION FEATURES CREATED
+
+Advertising:
+Donations:
+Monthly support:
+Publications:
+Membership:
+Sponsorship:
+Affiliate framework:
+Newsletter:
+Analytics:
+SEO:
+Privacy:
+Disclosure:
+
+CONFIGURATION STILL REQUIRED
+
+List every external account/payment/service that must be connected manually.
+
+DO NOT CLAIM THAT MONEY CAN BE RECEIVED UNTIL THE RELEVANT PAYMENT ACCOUNT IS ACTUALLY CONNECTED.
+
+FINAL OBJECTIVE
+
+Create a sustainable digital publication and archive.
+
+The archive remains free and evidence-focused.
+
+Visitors can voluntarily support the work.
+
+Original publications and services can generate revenue.
+
+Advertising can provide additional revenue where approved.
+
+The site’s credibility, documentary integrity and independence must remain more important than monetisation.
