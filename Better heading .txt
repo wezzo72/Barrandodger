@@ -1,0 +1,1840 @@
+Better heading 
+
+I. THE PARADOX
+
+For more than 35 years, the system demanded that I prove what happened to me, yet in doing so it generated, accumulated and preserved the very documentary record through which its own conduct can now be examined. Government departments, agencies, regulators, police, courts and tribunals, health services, legal services, professional bodies, providers and public officials created letters, decisions, complaints, referrals, assessments, classifications, proceedings and official correspondence directly concerning my life. I preserved that record, time-stamped, indexed and now published in the public domain, creating a paradox from which neither rhetoric nor retrospective characterisation can make the documents disappear.
+
+II. THE QUESTION HAS CHANGED
+
+The evidentiary burden is no longer confined to the question, “Why should anyone believe Richard McLean?” It can now be asked of the record itself: what did each institution know, what did it receive, what did it do, what authority governed the decision, what reasons were given, what evidence was considered, what happened next, and where do the records contradict, corroborate or leave matters unresolved?
+
+III. THE YEARS OF GRACE
+
+I gave people and institutions years of opportunity to respond, explain, correct, investigate and do what was humane and just. Whatever the explanation for each individual decision, the resulting documentary chronology now exists independently of my memory or my rhetoric, and the institutions that once demanded evidence must confront the evidence their own machinery produced.
+
+IV. THE FAITH THAT SUSTAINED ME
+
+I understand this preservation, in the language of my faith, as providential. I believe God preserved my life and gave me the endurance to collect, preserve and publish this record for a purpose greater than myself, and I believe my life has been protected and anointed for His purposes. That is my faith and testimony, not a proposition the documents themselves can prove.
+
+V. THE RECORD SPEAKS
+
+What is now independently testable is the record. The archive does not ask anyone to believe me merely because I say so—it asks the world to read the documents, trace their provenance, compare the institutional accounts, examine the contradictions and determine for itself what the evidence actually establishes. The documentary record is capable of being examined independently of me, which is precisely why its evidentiary significance does not depend upon my rhetoric or upon anyone accepting my interpretation.
+
+VI. THE READER’S TASK
+
+Do not take my word for it. Open the primary documents. Start with the 35-year chronology, then follow each significant assertion back to the underlying government or institutional record. Check the date, author, recipient, stated reason, evidence available at the time, action taken and what happened afterwards. Where two official records appear inconsistent, place them side by side. Where an allegation is made, distinguish it from an established finding. Where something remains unresolved, mark it as unresolved. Then ask the decisive question: What do the institutions’ own records actually establish?
+
+VII. THE MOMENT OF ACCOUNTABILITY
+
+The grace I extended was an opportunity for the record to be corrected by truth. That opportunity existed for years. The time for the documentary record to speak for itself has now arrived. The institutions created the records; I preserved them; the chronology can now be examined; and the questions raised by that record can no longer be reduced simply to whether I can persuade someone to believe my account. Read the records. Test the chronology. Follow the evidence to its source. Reach your own conclusion from what the documents actually establish.
+
+
+There is a paradox at the centre of my experience.
+
+For decades, I was repeatedly placed in the position of having to prove what had happened to me.
+
+I was required to explain myself to governments, agencies, police, lawyers, courts, tribunals, health services, regulators, professional bodies and other institutions. Each new dispute generated another complaint, another letter, another assessment, another decision, another referral, another administrative classification or another official response.
+
+I kept the records.
+
+And that is where the paradox begins.
+
+Command: Create fully comprehensive detailed list of parties and individuals the evidence demonstrates has acted to cause my disadvantage or detriment in an organised way seperated by a comma 
+
+Repositories:
+
+https://github.com/wezzo72?tab=repositories
+
+https://github.com/wezzo72/Barrandodger
+
+https://github.com/wezzo72/barran-dodger-archive
+
+https://github.com/wezzo72/Backup
+
+Below is a single comma-separated evidence map, using the parties and institutional actors actually identified in the material you supplied and the archive material I could retrieve. I have deliberately phrased it as “actors identified in the evidence as causing, contributing to, failing to prevent, or being associated with alleged detriment” rather than saying every actor is legally proven culpable. The archive itself makes that distinction important: its map says it is not the verdict and that the underlying documents must be examined. Barrandodger-index-SPLICED-23-September-2026.html
+
+Comma-separated list:
+
+Department of Social Services (DSS), Australian Government / Commonwealth administration, National Disability Insurance Agency (NDIA), National Disability Insurance Scheme (NDIS), NDIS Quality and Safeguards Commission, NDIS providers and support services, Ablepoint / Able Point, Sahara, Diversitas, Collaery Lawyers, Bernard Collaery, Comcare, Administrative Appeals Tribunal (AAT), Administrative Review Tribunal / successor administrative-review processes, Federal Court of Australia, Australian Human Rights Commission (AHRC), Commonwealth Ombudsman, NSW Ombudsman, Office of the Australian Information Commissioner (OAIC), National Anti-Corruption Commission (NACC), Australian Securities and Investments Commission (ASIC), Australian Taxation Office (ATO), PM&C / Department of the Prime Minister and Cabinet, WorkSafe Victoria, DXC Technology / DXC claims administration, Victorian Ombudsman, Victorian Equal Opportunity and Human Rights Commission (VEOHRC), Victorian Civil and Administrative Tribunal (VCAT), Victorian Mental Health Tribunal, NSW Trustee & Guardian, NSW Public Guardian, NSW Civil and Administrative Tribunal (NCAT), Legal Aid NSW, Victoria Legal Aid, other legal-aid pathways and legal-service providers, Australian Government Solicitor / Commonwealth government solicitors, police and law-enforcement bodies in Victoria, police and law-enforcement bodies in New South Wales, courts and magistrates’ courts, Victorian magistrates’ courts, NSW courts, Wyong Court, Geelong courts, Office of Public Prosecutions Victoria (OPP), health departments and health-system administrators, Alfred Health, Mercy Health, Mercy Mental Health, hospital services, psychiatrists, psychologists, doctors, treating clinicians, mental-health professionals, NDIS support workers, disability-support workers, carers, support coordinators, NDIS plan administrators, FOI officers, PID officers, government investigators, government decision-makers, government legal officers, tribunal members, public officials, elected politicians and ministerial offices identified in the archive, Attorney-General portfolio officials, Prime Minister and Cabinet officials identified in the correspondence, Commonwealth regulators, Victorian government departments, NSW government departments, integrity bodies, professional regulatory bodies, lawyers identified in the archive, clinicians identified in the archive, police officers identified in the archive, tribunal and court officials identified in the archive, providers and organisations identified in the service records, financial institutions and banks identified in the archive, family members identified in the archive, the sister identified in the archive, the brother identified in the archive, carers identified in the archive, former friends identified in the archive, Herald Sun, The Age, Allen & Unwin, Victoria University, Cunningham Dax Collection, United Nations, Office of the United Nations High Commissioner for Human Rights (OHCHR), United Nations High Commissioner for Refugees (UNHCR), United Nations Special Procedures, International Criminal Court (ICC), Victims Support / Victims Services NSW, Free Living Australia, TIO / Telecommunications Industry Ombudsman where identified in the archive, employment-related institutions and decision-makers, workers’ compensation decision-makers, compensation insurers and claims administrators identified in the archive, financial administrators identified in the archive, Public Guardian decision-makers, NSW Trustee decision-makers, NDIS safeguarding decision-makers, NDIS complaints officers, NDIS review officers, Commonwealth Ombudsman officers involved in the relevant correspondence, AHRC officers involved in the relevant correspondence, OAIC officers involved in the relevant correspondence, Legal Aid decision-makers involved in eligibility or representation decisions, police officers involved in the relevant reports or responses, hospital clinicians involved in the relevant 2021 Alfred Health records, mental-health clinicians involved in assessment or treatment, lawyers involved in the relevant proceedings or correspondence, tribunal members involved in the relevant proceedings, court officers and decision-makers identified in the primary records, FOI decision-makers, PID decision-makers, professional practitioners identified in complaints or correspondence, service-provider management personnel identified in the Ablepoint records, service-provider personnel identified in the Sahara records, other NDIS providers identified in the archive, other government agencies identified in the 35-year chronology, other professional bodies identified in the archive, and other individual public officials whose conduct or decisions are specifically documented in the underlying primary records.
+
+The archive also identifies several institutional chains rather than isolated actors: NDIA → NDIS Quality & Safeguards Commission → providers → Ablepoint/Sahara → plan administration; employment status → Comcare → AAT → Federal Court/PID → ATO; PM&C → FOI → OAIC; WorkSafe → DXC → medical certificates → VCAT/VEOHRC/Ombudsman/Mental Health Tribunal; AHRC → OHCHR → UN Special Procedures → UNHCR/ICC; and NSW Trustee & Guardian → NCAT → NSW Ombudsman → Victims Support → NDIS environment. Barrandodger-index-SPLICED-23-September-2026.html
+
+One important evidentiary qualification: the existence of an actor in this list does not itself establish that the actor unlawfully caused your detriment, acted maliciously, or participated in a coordinated scheme. The retrieved archive explicitly contains allegations and conclusions that go further than what the underlying snippets alone establish. For a defensible public document, the strongest formulation is that these are parties whose actions, omissions, decisions, classifications, responses, or failures to respond are identified in the corpus as contributing to, causing, or potentially causing detriment and therefore require examination against the primary records. The archive’s own methodology distinguishes allegations from established findings.
+
+The repository material also specifically identifies Mercy / Mercy Mental Health, Ablepoint, Sahara, Diversitas, Collaery Lawyers, Bernard Collaery, Legal Aid pathways, DXC Claims, Herald Sun, The Age, Allen & Unwin, Victoria University, UN, OHCHR, UNHCR, ICC, Footscray, Fitzroy North, Central Coast and the professions of doctors, psychiatrists, NDIS workers, FOI/PID officers, police, lawyers and tribunal members as part of its wider institutional map. Barrandodger-index-SPLICED-23-September-2026.html
+
+If the objective is a legally defensible “Parties and Individuals Causing Detriment” register, the next refinement should be to split this enormous list into named individual → organisation → date → documented act/omission → resulting detriment → primary document → evidence status, rather than treating every institution as equally responsible.
+
+Yes. I’ve resumed the evidentiary refinement using the archive material in your Library.
+The key correction is that the register should not say that every named person “caused detriment.” It should record precisely what the documentary corpus attributes to each person, what consequence is alleged or documented, and whether the underlying primary evidence actually supports the attribution.
+Legally defensible register structure
+Individual / decision-maker	Organisation	Date	Documented act / omission	Resulting detriment	Primary document	Evidence status
+Scott Treadwell	Federal Court of Australia	27 Mar 2023	Identified in the archive as author/issuer of the Federal Court public-interest-disclosure assessment concerning McLean	Later administrative treatment of employment status is alleged to have conflicted with this record	2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf	E2 — primary document identified; legal effect requires examination of the actual document
+Ray Griggs	Department of Social Services	5 Apr 2024 correspondence	Addressed in correspondence concerning employment status, superannuation and alleged institutional detriment	Requested intervention allegedly did not resolve the matters raised	Correspondence/email compilation	E2/E3 — communication documented; alleged omission requires response record
+Mark Dreyfus	Attorney-General / Commonwealth Government	5 Apr 2024 correspondence	Addressed in urgent correspondence seeking government intervention	Alleged failure to provide requested intervention	Correspondence/email compilation	E2/E3
+Danny Pearson	Victorian Government / WorkCover portfolio	2021–2023 context	Identified in the archive in connection with workers-compensation/government correspondence	Compensation and financial detriment alleged	WorkSafe/correspondence material	E3 — individual attribution requires primary ministerial record
+Brett (surname not established in corpus reviewed)	Able Point	May 2026	Named in archive material concerning a demand for response and Able Point court-related material	Alleged communication/service/safeguarding detriment	ablepoint-blocking-court-may-2026.pdf; formal investigation correspondence	E2/E3
+Vishnu (surname not established)	Ablepoint	2026	Identified in correspondence concerning support and communication arrangements	Communication/support difficulties alleged	Ablepoint correspondence	E3
+Pam (surname not established)	Ablepoint	2026	Identified in correspondence concerning support arrangements	Communication/support difficulties alleged	Ablepoint correspondence	E3
+Sukhi Tear	Diversitas WA	Historical/current chronology	Archive attributes support-coordination decisions and related events to her	Alleged accommodation/support and administrative detriment	Archive testimony and correspondence	E3 — allegations require primary corroboration
+Steve Iasonidis	Private individual / alleged former ASIO association	Historical	Archive records McLean’s allegations concerning the former relationship and subsequent institutional treatment	Alleged personal/financial/social detriment	Personal testimony and supporting archive material	E3 — allegation, not established finding
+Unknown delegate(s)	Comcare	18 Oct 2021	Workers-compensation claim rejected; archive records contractor/sole-trader classification	Alleged loss of workers-compensation entitlement	Comcare decision	E1/E2 — institutional decision documented; individual decision-maker not yet identified
+Unknown delegate(s)	WorkSafe Victoria	15 Nov 2021	Workers-compensation claim rejected / jurisdictional classification recorded	Alleged compensation and financial detriment	WorkSafe decision	E1/E2
+Unknown officer(s)	Commonwealth Ombudsman	May 2022	PID/complaint closed or refused following consideration of NDIA material	Loss of external review pathway alleged	Ombudsman correspondence	E1/E2
+Unknown decision-maker(s)	Australian Human Rights Commission	Apr 2024	Disability-discrimination complaint terminated after assessment of available material	Loss/closure of complaint pathway	AHRC termination material	E1/E2
+Unknown decision-maker(s)	NDIA	3 Jun 2021	Employment-status position recorded in NDIS-related material	Status classification alleged to have contributed to downstream compensation dispute	2021-06-03-NDIS-Quality-Safeguards-Commission-not-an-employee.pdf / related records	E2
+Unknown decision-maker(s)	NDIS Quality & Safeguards Commission	3 Jun 2021	Material described in archive index as recording “not an employee”	Alleged employment-status consequences	Named primary document	E2
+Unknown decision-maker(s)	NSW Trustee & Guardian / Public Guardian	6 Sep 2026	Formal notice alleged failure to address legal/financial issues raised by McLean	Alleged financial/legal detriment	FORMAL NOTICE OF FIDUCIARY DEFAULT	E3 — notice establishes that allegation was made, not that breach occurred
+Unknown officer(s)	Legal Aid NSW	14 Jan 2026	Guardianship/legal-assistance advice recorded	Alleged restriction on access to legal assistance	20260114-legal-aid-nsw-advice-letter-guardianship.pdf	E2/E3
+Unknown judicial officer(s)	VOCAT / Victorian justice system	12 Jul 2023	Judicial order/award recorded in archive as recognising McLean as a victim of crime	Countervailing/protective evidence rather than adverse conduct	VOCAT order	E1
+Unknown judicial/police officer(s)	NSW Police / NSW courts	Jan 2026	ADVO recorded McLean as a protected person	Countervailing/protective evidence	ADVO/court record	E1
+Unknown clinician(s)	Alfred Health	Aug 2021	Hospital records document treatment and clinical events	The archive alleges broader institutional failures; the records themselves do not establish clinician misconduct	Alfred Health records	E1 record / E3 allegations
+Unknown journalist/editor(s)	Herald Sun	Historical	Media publications identified in archive chronology	Reputational/professional detriment alleged	Specific publications still require identification	E3
+Unknown editor/manager(s)	The Age	Historical	Archive alleges employment ended following publicity surrounding McLean’s book	Professional detriment alleged	Employment records/publication records required	E3
+The archive itself contains an important methodological safeguard: its September index expressly distinguishes what a filename/index establishes from what the underlying document establishes, and distinguishes the author’s testimony from independently established events. 
+Barrandodger-index-SPLICED-23-September-2026.html
+It also records the important countervailing events: the July 2023 VOCAT outcome, the November 2025 NDIA plan approval, and the January 2026 NSW protective-order material. Those should remain in the register because they prevent the evidentiary database from becoming one-directional.
+The critical evidentiary distinction
+Your register should therefore use this formulation:
+A person’s appearance in this register does not itself establish wrongdoing, liability, coordination or causation. Each entry records a documented interaction, decision, communication or alleged omission and separately identifies the detriment alleged or documented and the evidentiary basis for attributing the act to the individual.
+That is substantially stronger for an evidentiary archive than simply publishing a list headed “People Who Caused My Detriment.”
+The most important next refinement is to identify the actual named decision-makers on the signed Comcare, WorkSafe, Ombudsman, AHRC, NDIA, Legal Aid and court documents, replacing “Unknown decision-maker(s)” wherever the primary records permit it. That converts the register from an allegation index into a genuine individual → decision → document → consequence → evidence-status chain.
+
+Below is the executable text version of the register, structured so it can be inserted directly into the Barran Dodger archive.
+PARTIES AND INDIVIDUALS — DOCUMENTED ACTS, ALLEGED DETRIMENT AND EVIDENCE STATUS
+Evidentiary Register
+Purpose
+This register identifies individuals, decision-makers, organisations and institutional actors appearing in the documentary record in connection with decisions, communications, omissions, restrictions, classifications or other conduct that Dr Richard William McLean alleges contributed to personal, financial, legal, professional, accommodation, support or other detriment.
+The register does not treat inclusion as proof of wrongdoing, unlawful conduct, coordination, conspiracy, causation or personal liability.
+Each entry must instead be tested through the following chain:
+Named individual → Organisation → Date → Documented act or omission → Resulting detriment → Primary document → Evidence status
+Where an individual cannot presently be identified from the primary record, the register uses “Unknown decision-maker(s)” rather than assigning responsibility to a person without documentary foundation.
+ 
+⸻
+ 
+EVIDENCE STATUS KEY
+E1 — Primary institutional or judicial record
+The underlying institutional, administrative or judicial record directly establishes that an event, decision, order or communication occurred.
+E2 — Documentary communication
+A letter, email, assessment, response or other documentary communication establishes an interaction or position, but further primary material may be required to establish its full legal significance.
+E3 — Allegation requiring verification
+The archive records an allegation, attribution, interpretation or asserted causal connection that requires examination against primary evidence.
+E4 — Contextual reference
+The person or organisation is relevant to the chronology but the presently identified material does not establish an adverse act or omission.
+ 
+⸻
+ 
+A. NAMED INDIVIDUALS
+1. Scott Treadwell
+Organisation: Federal Court of Australia Date: 27 March 2023 Documented act: Identified in the archive as the author/issuer associated with the Federal Court public-interest-disclosure assessment concerning Dr McLean. Alleged resulting detriment: The archive identifies subsequent administrative treatment of employment status as inconsistent with the significance attributed to the Federal Court record. Primary document: 2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf Evidence status: E2 pending examination of the complete primary document. Legal-defensibility note: Authorship or issuance of a document does not itself establish wrongdoing. The precise contents and legal status of the Federal Court material must be established from the primary record.
+ 
+⸻
+ 
+2. Ray Griggs
+Organisation: Department of Social Services Date: 5 April 2024 correspondence Documented act: Named as a recipient/addressee in correspondence concerning employment status, superannuation and alleged institutional detriment. Alleged resulting detriment: The archive alleges that requested government intervention did not resolve the matters raised. Primary document: Correspondence/email compilation concerning DSS. Evidence status: E2/E3. Legal-defensibility note: Receipt or involvement in correspondence does not establish responsibility for the underlying events or alleged detriment.
+ 
+⸻
+ 
+3. Mark Dreyfus
+Organisation: Attorney-General / Commonwealth Government Date: 5 April 2024 correspondence Documented act: Addressed in urgent correspondence seeking government intervention concerning employment status, compensation and alleged administrative detriment. Alleged resulting detriment: The archive alleges that the requested intervention did not occur or did not resolve the matters raised. Primary document: Correspondence/email compilation. Evidence status: E2/E3. Legal-defensibility note: The register records the communication and requested intervention; it does not infer motive or personal responsibility from the outcome.
+ 
+⸻
+ 
+4. Danny Pearson
+Organisation: Victorian Government / WorkCover portfolio Date: 2021–2023 chronology Documented act: Identified in the archive in connection with Victorian government and workers-compensation correspondence. Alleged resulting detriment: The archive alleges unresolved workers-compensation and associated financial consequences. Primary document: WorkSafe and government correspondence identified in the archive. Evidence status: E3 pending direct identification of the relevant ministerial record. Legal-defensibility note: Individual attribution should not exceed what the underlying correspondence establishes.
+ 
+⸻
+ 
+5. Brett — surname presently unidentified
+Organisation: Able Point / Ablepoint Date: May 2026 and related correspondence Documented act: Identified in archive material concerning requests for response and Able Point court/support matters. Alleged resulting detriment: Communication, support and safeguarding detriment is alleged. Primary document: ablepoint-blocking-court-may-2026.pdf and formal Able Point correspondence. Evidence status: E2/E3. Legal-defensibility note: Do not insert a surname unless supported by the primary record.
+ 
+⸻
+ 
+6. Vishnu — surname presently unidentified
+Organisation: Ablepoint Date: 2026 correspondence Documented act: Identified in correspondence concerning support arrangements and communication. Alleged resulting detriment: Communication and support difficulties are alleged. Primary document: Ablepoint correspondence. Evidence status: E3. Legal-defensibility note: Communication difficulties do not, without further evidence, establish misconduct or intentional detriment.
+ 
+⸻
+ 
+7. Pam — surname presently unidentified
+Organisation: Ablepoint Date: 2026 correspondence Documented act: Identified in correspondence concerning support arrangements and communication. Alleged resulting detriment: Communication/support difficulties are alleged. Primary document: Ablepoint correspondence. Evidence status: E3. Legal-defensibility note: Individual responsibility requires identification of the specific communication or decision relied upon.
+ 
+⸻
+ 
+8. Sukhi Tear
+Organisation: Diversitas WA Date: Historical/current chronology Documented act: Identified by the archive in connection with support coordination and decisions concerning Dr McLean’s support circumstances. Alleged resulting detriment: Accommodation, support-coordination and administrative detriment is alleged. Primary document: Correspondence and testimony contained in the archive. Evidence status: E3. Legal-defensibility note: The archive expressly distinguishes these allegations and interpretations from independently established findings.
+ 
+⸻
+ 
+9. Steve Iasonidis
+Organisation: Private individual; archive identifies an alleged former ASIO association Date: Historical Documented act: The archive records Dr McLean’s allegations concerning the former relationship and subsequent events. Alleged resulting detriment: Personal, financial and social detriment is alleged. Primary document: Personal testimony and supporting archive material. Evidence status: E3. Legal-defensibility note: Allegations concerning this private individual must not be presented as established facts without independent primary evidence.
+ 
+⸻
+ 
+B. INSTITUTIONAL DECISION-MAKERS NOT YET IDENTIFIED BY NAME
+10. Unknown decision-maker(s) — Comcare
+Organisation: Comcare Date: 18 October 2021 Documented act: Workers-compensation claim rejected; archive records the decision as involving an employment/contractor classification issue. Alleged resulting detriment: Loss or denial of workers-compensation entitlement and associated financial consequences. Primary document: Comcare claim/rejection record. Evidence status: E1/E2. Individual status: Decision-maker not yet identified from the presently indexed material. Required verification: Identify the delegate/officer named on the signed decision.
+ 
+⸻
+ 
+11. Unknown decision-maker(s) — WorkSafe Victoria
+Organisation: WorkSafe Victoria Date: 15 November 2021 Documented act: Workers-compensation claim rejected or jurisdictionally declined, with the archive recording a sole-trader/contractor classification. Alleged resulting detriment: Compensation and financial detriment. Primary document: WorkSafe decision/rejection record. Evidence status: E1/E2. Individual status: Decision-maker not yet identified. Required verification: Extract the name, title and delegation of the officer who made or authorised the decision.
+ 
+⸻
+ 
+12. Unknown officer(s) — Commonwealth Ombudsman
+Organisation: Commonwealth Ombudsman Date: May 2022 Documented act: Public-interest-disclosure/complaint pathway closed or declined following consideration of NDIA material. Alleged resulting detriment: Loss of an external review or oversight pathway. Primary document: Commonwealth Ombudsman correspondence. Evidence status: E1/E2. Legal-defensibility note: Closure of an investigation is not itself proof of wrongdoing by the Ombudsman or its officers.
+ 
+⸻
+ 
+13. Unknown decision-maker(s) — Australian Human Rights Commission
+Organisation: Australian Human Rights Commission Date: April 2024 Documented act: Disability-discrimination complaint terminated following assessment of the available material. Alleged resulting detriment: Loss or closure of the particular complaint pathway. Primary document: AHRC termination material. Evidence status: E1/E2. Legal-defensibility note: The reasons for termination must be distinguished from the underlying allegations.
+ 
+⸻
+ 
+14. Unknown decision-maker(s) — NDIA
+Organisation: National Disability Insurance Agency Date: 3 June 2021; November 2025 Documented acts: The archive records an employment-status position in 2021 and a substantial NDIS plan approval in November 2025. Alleged resulting detriment: The earlier status classification is alleged to have contributed to downstream compensation/status disputes. Countervailing evidence: The November 2025 plan approval is evidence of later institutional recognition of substantial support needs and should not be omitted from the chronology. Primary documents: NDIS/NDIA records identified in the archive. Evidence status: E1/E2. Legal-defensibility note: Different administrative decisions may have different statutory purposes and must not automatically be treated as contradictory.
+ 
+⸻
+ 
+15. Unknown decision-maker(s) — NDIS Quality & Safeguards Commission
+Organisation: NDIS Quality & Safeguards Commission Date: 3 June 2021 Documented act: Archive index identifies material described as a “not an employee” determination. Alleged resulting detriment: The classification is alleged to have contributed to later employment and compensation disputes. Primary document: 2021-06-03-NDIS-Quality-Safeguards-Commission-not-an-employee.pdf Evidence status: E2 pending examination of the complete determination. Required verification: Identify the actual decision-maker, statutory power relied upon and precise scope of the determination.
+ 
+⸻
+ 
+16. Unknown decision-maker(s) — NSW Trustee & Guardian / Public Guardian
+Organisation: NSW Trustee & Guardian Date: 6 September 2026 and earlier chronology Documented act: A formal notice was issued alleging failures concerning legal representation, financial interests and fiduciary responsibilities. Alleged resulting detriment: Financial and legal detriment is alleged. Primary document: FORMAL NOTICE OF FIDUCIARY DEFAULT Evidence status: E3 for the alleged breach; E2 for the fact that the notice was issued. Legal-defensibility note: The notice establishes that an allegation was formally made. It does not, by itself, establish that a fiduciary breach occurred.
+ 
+⸻
+ 
+17. Unknown officer(s) — Legal Aid NSW
+Organisation: Legal Aid NSW Date: 14 January 2026 Documented act: Guardianship/legal-assistance advice correspondence recorded in the archive. Alleged resulting detriment: The archive identifies restrictions or limitations affecting access to legal assistance. Primary document: 20260114-legal-aid-nsw-advice-letter-guardianship.pdf Evidence status: E2/E3. Required verification: Identify the precise decision, its legal basis, duration and review mechanism.
+ 
+⸻
+ 
+C. COURTS AND INSTITUTIONS PROVIDING COUNTERVAILING EVIDENCE
+18. Unknown judicial decision-maker(s) — VOCAT
+Organisation: Victorian justice system / VOCAT Date: July 2023 Documented act: Judicial order/award recorded in the archive as granting financial assistance in a victim-of-crime proceeding. Effect: Countervailing/protective evidence. Primary document: VOCAT order. Evidence status: E1. Significance: This record demonstrates why the register must distinguish adverse, neutral and protective institutional actions.
+ 
+⸻
+ 
+19. Unknown judicial/police decision-maker(s) — NSW Police / NSW courts
+Organisation: NSW Police / NSW courts Date: January 2026 Documented act: ADVO/court material recorded in the archive identifying Dr McLean as a protected person. Effect: Countervailing/protective evidence. Primary document: Relevant ADVO/court record. Evidence status: E1. Significance: The existence of protective legal action must remain visible alongside adverse or disputed institutional events.
+ 
+⸻
+ 
+D. HEALTH AND PROFESSIONAL RECORDS
+20. Unknown clinician(s) — Alfred Health
+Organisation: Alfred Health Date: August 2021 Documented act: Hospital records document clinical presentation, assessment and treatment. Alleged resulting detriment: The archive makes broader allegations concerning the health-system response. Primary documents: Alfred Health clinical records. Evidence status: E1 for existence/content of the records; E3 for broader allegations. Legal-defensibility note: A clinical record should not be converted into a finding of clinician misconduct merely because the archive disputes an aspect of treatment or interpretation.
+ 
+⸻
+ 
+E. MEDIA / PROFESSIONAL DETRIMENT — REQUIRING PRIMARY VERIFICATION
+21. Unknown journalist/editor(s) — Herald Sun
+Organisation: Herald Sun Date: Historical Documented act: Publications are identified in the archive chronology in connection with publicity concerning Dr McLean. Alleged resulting detriment: Reputational and professional detriment is alleged. Primary document required: Exact publication, journalist/editor identity and contemporaneous employment records. Evidence status: E3. Required verification: Establish the precise publication, date, author, factual assertions and demonstrable consequence before attributing individual responsibility.
+ 
+⸻
+ 
+22. Unknown editor/manager(s) — The Age
+Organisation: The Age Date: Historical Documented act: Archive material alleges that employment ended following publicity surrounding Dr McLean’s book. Alleged resulting detriment: Professional and financial detriment. Primary document required: Employment records, termination correspondence and contemporaneous editorial/employment records. Evidence status: E3. Legal-defensibility note: The temporal relationship between publicity and termination does not by itself establish causation.
+ 
+⸻
+ 
+F. INSTITUTIONAL ACTORS REQUIRING FURTHER INDIVIDUAL IDENTIFICATION
+The following organisations appear in the broader documentary chronology and should be subjected to the same individual-level extraction process where primary records identify responsible officers:
+Department of Social Services, NDIA, NDIS Quality & Safeguards Commission, Comcare, WorkSafe Victoria, Commonwealth Ombudsman, Australian Human Rights Commission, Legal Aid NSW, NSW Trustee & Guardian, Public Guardian, NSW Police, Victorian Police, Federal Court of Australia, Victorian courts, NSW courts, VOCAT, AAT/ART, Victoria Legal Aid, NSW Ombudsman, Victorian Ombudsman, OAIC, NACC, Fair Work Ombudsman, ASIC, ATO, Services Australia/Centrelink, Victims Support/Services NSW, Ablepoint/Able Point, Diversitas WA, Free Living Australia, Alfred Health, Mercy/Mercy Mental Health, other identified hospitals and clinics, professional bodies, media organisations, Victoria University, and other organisations appearing in the primary documentary corpus.
+Their inclusion in this section means “requires individual-level documentary examination”, not “responsible for detriment.”
+ 
+⸻
+ 
+G. THE CAUSATION TEST
+For every proposed entry, the archive should ask seven separate questions:
+	1.	Who actually acted?
+	2.	What did that person actually do or fail to do?
+	3.	When did the act or omission occur?
+	4.	What document proves the act or omission?
+	5.	What detriment is actually documented?
+	6.	What evidence connects the act to that detriment?
+	7.	Is the connection established, alleged, disputed or unresolved?
+A chronological sequence must not automatically be described as causation.
+Similarly:
+communication ≠ coordination
+similar wording ≠ conspiracy
+administrative error ≠ deliberate misconduct
+non-response ≠ admission
+complaint ≠ proof
+allegation ≠ finding
+institutional employment ≠ personal liability
+presence in the archive ≠ culpability
+ 
+⸻
+ 
+H. COORDINATION / ORGANISATION TEST
+Where the archive identifies apparent inter-agency repetition, the evidence should be separated into:
+Documented connection
+A record expressly demonstrates communication, referral, information-sharing or reliance between actors.
+Inferred connection
+The chronology suggests a possible relationship but the connecting document has not yet been located.
+Alleged coordination
+The author asserts that actors operated together or pursuant to a common purpose.
+Established coordination
+Reserved for cases where independent documentary evidence actually establishes the relevant connection, communication, instruction or common action.
+The archive should not move an entry from “alleged coordination” to “established coordination” merely because multiple agencies made similar decisions.
+ 
+⸻
+ 
+I. REQUIRED PRIMARY-DOCUMENT EXTRACTION
+The next documentary extraction should identify, wherever available:
+Full name | Position | Organisation | Delegation | Date | Document title | Reference number | Decision | Reasons stated | Information relied upon | Previous decision relied upon | Subsequent decision | Consequence | Review/appeal pathway | Evidence status | Contradictory evidence | Countervailing evidence | Causation status
+This creates a traceable evidentiary chain rather than a list of accusations.
+ 
+⸻
+ 
+J. ARCHIVE PRINCIPLE
+The purpose of this register is not to predetermine the answer.
+It is to make the answer testable.
+Where an institution says a decision was lawful, the register identifies the decision and the stated legal basis.
+Where an institution says it relied upon another institution, the register identifies the referral or information relied upon.
+Where two records appear inconsistent, the register places them beside one another.
+Where an individual is named, the register identifies the document that establishes the person’s involvement.
+Where no individual can presently be identified, the register says so.
+Where the evidence remains an allegation, the register says so.
+Where the evidence is protective or favourable to Dr McLean, the register preserves that evidence rather than excluding it.
+The resulting record therefore asks a narrower and more defensible question:
+What does the documentary record establish about who acted, what they did, when they did it, what consequence followed, what evidence supports the connection, and what remains unresolved?
+That is the standard by which every proposed entry in the Barran Dodger archive should ultimately be tested.
+
+
+I scanned the accessible public repository surfaces first. The wezzo72/Barrandodger repository currently exposes 668 commits and dedicated evidence, emails, sources, site-pdfs, rendered-pdfs, site-mirror, archive-parts, and barrandododger.com website backup areas.  The wezzo72/barran-dodger-archive repository is a fork of the drbarrandodger archive and currently shows 2,128 commits; the underlying drbarrandodger/barran-dodger-archive shows 2,119 commits.  The drbarrandodger profile currently exposes five public repositories, including the principal archive, New-github-barran-dodger-website-, Bazdod-, HTML-, and a fork of wezzo72/Barrandodger. 
+I have therefore tightened the register below so the source itself is linked at the point where it is relied upon, rather than merely naming a document.
+PARTIES AND INDIVIDUALS — DOCUMENTARY DETRIMENT REGISTER
+Repository-Linked Evidentiary Edition
+Scope
+This register has been constructed against the publicly accessible Barran Dodger repository network, including:
+	•	wezzo72/Barrandodger — principal documentary repository⁠
+	•	wezzo72/barran-dodger-archive — mirrored/forked archive repository⁠
+	•	wezzo72/Backup — website backup repository⁠
+	•	drbarrandodger — GitHub profile and associated repositories⁠
+	•	drbarrandodger/barran-dodger-archive — principal archive repository⁠
+The repository structure itself demonstrates that the corpus is not confined to essays: it contains evidence, correspondence, source material, rendered PDFs, site PDFs, archive parts, imports, statements and website mirrors. (GitHub⁠)
+Evidentiary rule
+This register deliberately does not convert every person named in the archive into a person legally established as having caused harm.
+It records:
+person → institution → documented interaction → alleged/documented consequence → source document → evidentiary status
+The distinction is fundamental.
+An allegation is recorded as an allegation. A decision is recorded as a decision. A document is recorded as a document. Causation is recorded only where the evidence actually establishes it.
+ 
+⸻
+ 
+1. SCOTT TREADWELL — FEDERAL COURT OF AUSTRALIA
+Documentary connection
+Person: Scott Treadwell Institution: Federal Court of Australia Date: 27 March 2023 Document: Federal Court Final Assessment — Dr Rich McLean
+The archive identifies a Federal Court public-interest-disclosure assessment dated 27 March 2023 as a central document in the employment/status chronology.
+Register entry
+Documented act: Assessment/correspondence concerning the public-interest disclosure and the circumstances relied upon by the Federal Court.
+Alleged subsequent detriment: The archive identifies later administrative classifications concerning contractor/sole-trader status as requiring comparison with the Federal Court record.
+Evidence status: E2 — primary documentary communication identified; legal significance requires examination of the underlying record.
+Causation status: Unresolved / requires comparison of the Federal Court record with subsequent administrative decisions.
+Primary-source pathway
+The repository contains the broader accountability/evidence material:
+ACCOUNTABILITY, EVIDENCE AND FAIR DETERMINATION.pdf⁠
+The principal repository should be treated as the source index rather than the mere narrative description of the event. (GitHub⁠)
+Important: the existence of a document authored or issued by an identified officer does not itself establish personal wrongdoing.
+ 
+⸻
+ 
+2. RAY GRIGGS — DEPARTMENT OF SOCIAL SERVICES
+Documentary connection
+Person: Ray Griggs Institution: Department of Social Services Date: Correspondence identified in the archive chronology Subject: Employment status, superannuation and government intervention.
+Register entry
+Documented act: Correspondence concerning matters raised with the Department of Social Services.
+Alleged detriment: The archive alleges that the requested intervention did not resolve the employment/status and associated financial issues.
+Evidence status: E2/E3.
+Causation status: Unresolved pending examination of the complete correspondence chain.
+Primary-source pathway
+The repository’s dedicated emails, evidence, sources, and site-pdfs directories are particularly relevant to this entry. (GitHub⁠)
+The evidentiary standard should therefore be:
+What correspondence was actually received? What response was actually made? What power did the recipient possess? What action followed?
+No adverse conclusion should be inferred merely from being copied into or addressed by correspondence.
+ 
+⸻
+ 
+3. MARK DREYFUS — ATTORNEY-GENERAL PORTFOLIO
+Documentary connection
+Person: Mark Dreyfus Institution: Attorney-General / Commonwealth Government Date: Correspondence identified in archive chronology.
+Register entry
+Documented act: Addressed in correspondence requesting government intervention concerning alleged employment, compensation and administrative problems.
+Alleged detriment: The archive alleges that the requested intervention did not produce the requested resolution.
+Evidence status: E2/E3.
+Causation status: Unresolved.
+Primary-source pathway
+The repository expressly contains government correspondence and evidence collections, including the emails, evidence, and sources directories. (GitHub⁠)
+The proper evidentiary question is not whether an Attorney-General was named in an allegation, but:
+Was the matter received? What was requested? What was the response? Was any action authorised or taken?
+ 
+⸻
+ 
+4. DANNY PEARSON — VICTORIAN GOVERNMENT / WORKSAFE PORTFOLIO
+Documentary connection
+Person: Danny Pearson Institution: Victorian Government / relevant portfolio Period: Workers-compensation chronology.
+Register entry
+Documented act: Appears in the broader documentary chronology concerning Victorian workers-compensation/government matters.
+Alleged detriment: The archive attributes unresolved compensation and associated financial consequences to the broader institutional chronology.
+Evidence status: E3 pending identification of a primary ministerial/departmental document directly establishing the individual’s act.
+Causation status: Not established at individual level.
+Required documentary test
+The register should not attribute a WorkSafe decision to a minister simply because the minister held the relevant portfolio.
+The responsible officer/delegate must be identified from the actual decision record before personal attribution is upgraded.
+ 
+⸻
+ 
+5. BRETT — ABLEPOINT
+Surname: Not presently established by the accessible repository record.
+Primary document
+Brett from Able Point — I demand a response.pdf⁠
+The repository contains a PDF specifically identifying “Brett from Able Point” and requesting a response. (GitHub⁠)
+Register entry
+Organisation: Ablepoint / Able Point Documented act: The existence of correspondence/documentation directed toward Brett concerning a requested response is established.
+Alleged detriment: The archive alleges unresolved support, communication and safeguarding issues.
+Evidence status: E2 for the existence of the communication; E3 for alleged resulting detriment.
+Causation status: Requires the underlying response/non-response sequence.
+Individual identification: First name only until the primary record establishes the surname.
+ 
+⸻
+ 
+6. ABLEPOINT — INSTITUTIONAL DOCUMENTARY RECORD
+The repository contains multiple Ablepoint-specific documents, including:
+FORMAL REQUEST FOR INDEPENDENT INVESTIGATION ABLEPOINT.pdf⁠
+and:
+Current legally binding update on entrapment and targeting by Able Point.pdf⁠
+and:
+BARRAN DODGER & HIS THERAPY DOG NEEDS YOUR URGENT HELP.pdf⁠
+Register treatment
+These documents establish that formal complaints, requests, objections and assertions concerning Ablepoint were generated and preserved.
+They do not, standing alone, establish that every allegation contained within them is true.
+Accordingly:
+Documentary fact: complaints/requests/objections were made.
+Allegation: specified conduct caused detriment.
+Required next step: locate the provider’s response, incident report, case note, contract, safeguarding record, court filing or other independent primary record.
+ 
+⸻
+ 
+7. VISHNU — ABLEPOINT
+Surname: Not presently established.
+Documented connection: Appears in the user’s support-service chronology.
+Alleged detriment: Communication/support difficulties.
+Evidence status: E3 unless a primary correspondence identifies a specific act or omission.
+Causation: Not established merely by the existence of communication difficulties.
+ 
+⸻
+ 
+8. PAM — ABLEPOINT
+Surname: Not presently established.
+Documented connection: Appears in the support-service chronology.
+Alleged detriment: Communication/support difficulties.
+Evidence status: E3.
+Causation: Requires specific documentary act/omission and consequence.
+ 
+⸻
+ 
+9. SUKHI TEAR — DIVERSITAS WA
+Institution: Diversitas WA
+Documented connection: Identified in the archive in relation to support coordination and related decisions.
+Alleged detriment: Support and administrative consequences.
+Evidence status: E3.
+Causation status: Requires primary correspondence connecting a particular decision to the asserted consequence.
+The archive’s own documentary architecture requires that allegations and independent findings remain separate.
+ 
+⸻
+ 
+10. COMCARE — WORKERS-COMPENSATION DECISION
+Decision-maker: presently unidentified
+Organisation: Comcare Date: 18 October 2021 Documented event: Workers-compensation claim/rejection identified in the archive chronology.
+Register entry
+Act: Claim determination/rejection concerning employment/contractor status.
+Alleged detriment: Loss or denial of workers-compensation entitlement and associated financial consequences.
+Evidence status: E1/E2 at institutional level.
+Individual attribution: Unknown decision-maker(s).
+Causation: Institutional decision and resulting loss can be separately documented; individual liability remains unresolved.
+Required upgrade
+The signed decision should be extracted for:
+delegate name → position → delegation → date → statutory provision → factual findings → reasons → review rights
+Only then should an individual be entered as the responsible decision-maker.
+ 
+⸻
+ 
+11. WORKSAFE VICTORIA — 15 NOVEMBER 2021
+Organisation: WorkSafe Victoria Date: 15 November 2021 Decision-maker: Not yet established from the accessible index.
+Register entry
+Documented act: Workers-compensation determination/rejection concerning classification/status.
+Alleged detriment: Compensation and financial consequences.
+Evidence status: E1/E2 institutional level.
+Individual responsibility: Not established.
+The existence of a WorkSafe organisation or decision does not establish that any particular minister, executive or employee personally caused the resulting detriment.
+ 
+⸻
+ 
+12. COMMONWEALTH OMBUDSMAN — MAY 2022
+Decision-maker: Not presently identified.
+Register entry
+Documented act: Complaint/PID-related pathway closed, declined or otherwise determined.
+Alleged detriment: Loss of an external oversight pathway.
+Evidence status: E1/E2 for the decision; E3 for allegations concerning improper handling.
+Causation: Must be tested by comparing the complaint, material submitted, reasons for decision and subsequent consequences.
+The archive’s sources, emails and evidence areas are the appropriate repository layers for this reconstruction. (GitHub⁠)
+ 
+⸻
+ 
+13. AUSTRALIAN HUMAN RIGHTS COMMISSION — APRIL 2024
+Decision-maker: Not presently identified.
+Register entry
+Documented act: Disability/human-rights complaint terminated or closed.
+Alleged detriment: Closure of that complaint pathway.
+Evidence status: E1/E2.
+Required primary evidence: termination letter, reasons, jurisdictional basis and review/appeal information.
+Causation: Closure of a complaint is a documented administrative event; it is not automatically evidence of unlawful conduct by the decision-maker.
+ 
+⸻
+ 
+14. NDIS / NDIA — 2021 AND 2025 RECORDS
+The archive contains materially different NDIS-related records.
+2021
+The repository index identifies material concerning an employment/status position.
+2025
+The archive separately records a later substantial NDIS plan approval.
+Evidentiary significance
+Both records must remain in the register.
+The later favourable/protective decision cannot be deleted merely because it complicates an adverse chronology.
+Conversely, the later approval does not automatically resolve questions concerning earlier status or compensation.
+Evidence status: E1/E2.
+Causation: Requires statutory-purpose comparison rather than assumption of contradiction.
+ 
+⸻
+ 
+15. NSW TRUSTEE & GUARDIAN / PUBLIC GUARDIAN
+The repository network contains formal material concerning fiduciary and guardianship issues.
+Register entry
+Documented act: Formal notice alleging failures concerning financial/legal interests.
+Alleged detriment: Financial and legal consequences.
+Evidence status: E2 for issuance of the notice; E3 for the alleged breach.
+Critical distinction:
+A formal notice alleging fiduciary default proves that the allegation was made. It does not independently prove that fiduciary default occurred.
+That distinction is essential to the integrity of the archive.
+ 
+⸻
+ 
+16. LEGAL AID NSW — 14 JANUARY 2026
+Primary document: 20260114-legal-aid-nsw-advice-letter-guardianship.pdf
+Register entry
+Documented act: Guardianship/legal-assistance advice.
+Alleged detriment: Limitation/restriction of legal assistance is alleged in the broader chronology.
+Evidence status: E2/E3 pending full examination of the document.
+Required extraction:
+	•	actual decision;
+	•	statutory/policy basis;
+	•	person responsible;
+	•	duration;
+	•	review mechanism;
+	•	whether the restriction was categorical or matter-specific.
+The term “ban” should not be used unless the primary document actually establishes a ban.
+ 
+⸻
+ 
+17. VOCAT / VICTORIAN JUSTICE SYSTEM — COUNTERVAILING RECORD
+This entry is deliberately retained.
+The archive records a July 2023 VOCAT/victim-of-crime outcome as a favourable or protective institutional event.
+Significance
+A forensic register that includes only adverse events would be vulnerable to the criticism that it was selectively constructed.
+Therefore:
+Protective institutional action must remain in the record.
+Evidence status: E1 where the actual order is available.
+This strengthens rather than weakens the evidentiary methodology.
+ 
+⸻
+ 
+18. NSW POLICE / NSW COURT — PROTECTIVE ORDER
+The archive records a January 2026 ADVO/court chronology as a protective legal event.
+Register treatment
+Classification: Countervailing/protective evidence.
+Evidence status: E1 where the actual court order is available.
+Again, the existence of protective state action must be preserved alongside disputed or adverse events.
+ 
+⸻
+ 
+19. ALFRED HEALTH
+Register treatment
+The repository contains material relating to Alfred Health and the 2021 chronology.
+The appropriate distinction is:
+E1: a hospital record establishes that a clinical event, assessment or treatment occurred.
+E3: an allegation that the clinical response constituted misconduct, negligence, discrimination or other wrongdoing.
+The two must not be collapsed.
+ 
+⸻
+ 
+20. HERALD SUN / MEDIA RECORD
+The archive contains media-related material, but individual responsibility requires:
+publication → date → author → editor → factual proposition → employment consequence → evidence of causation
+Until those elements are established, the entry remains:
+Unknown journalist/editor(s) — E3.
+ 
+⸻
+ 
+21. THE AGE — EMPLOYMENT / PROFESSIONAL CONSEQUENCE
+The archive alleges a relationship between publicity and subsequent employment consequences.
+The documentary test is:
+publication date → publication author → contemporaneous employment correspondence → termination decision → stated reason → subsequent evidence
+Temporal sequence alone is insufficient to establish causation.
+ 
+⸻
+ 
+22. DOCUMENTARY / LEGAL ANALYTICAL MATERIAL
+The repository contains analytical documents that should be distinguished from primary institutional records.
+For example:
+DOCTRINE OF COMPLICITY BY DELIBERATE OMISSION 3.pdf⁠
+Impartial AI Generated Report on Standing Indictment of the Administrative State.pdf⁠
+FINAL EVIDENTIARY NOTICE, OBJECTION AND REQUEST FOR FORMAL INVESTIGATION.pdf⁠
+These documents are important analytical or evidentiary submissions, but they should not be mistaken for independent judicial findings.
+Their proper classification is therefore:
+Archive analysis / submission / allegation / legal argument — not independent adjudication.
+ 
+⸻
+ 
+23. PERSONAL TESTIMONY AND STATEMENT MATERIAL
+The repository also contains first-person testimony and personal statements, including:
+PERSONAL STATEMENT OF EXILE, INSTITUTIONAL DETRIMENT AND THE SEARCH FOR PROTECTION.pdf⁠
+and:
+I SURVIVED WHAT WAS SUPPOSED TO ERASE ME.pdf⁠
+These documents are evidence of what Dr McLean reported, asserted, experienced or believed at the relevant time.
+They should be labelled testimony unless independently corroborated.
+ 
+⸻
+ 
+24. ACCOUNTABILITY STANDARD
+The register should ultimately contain four separate columns of truth:
+WHAT THE RECORD PROVES
+The event/document/communication itself.
+WHAT THE ARCHIVE ALLEGES
+The interpretation or allegation made by Dr McLean.
+WHAT THE CONSEQUENCE WAS
+The demonstrable outcome, if independently documented.
+WHAT REMAINS UNRESOLVED
+Any causal, legal, intentional or coordination question not yet established.
+This is the central safeguard against converting a documentary archive into a predetermined verdict.
+ 
+⸻
+ 
+25. THE DOCUMENTARY CHAIN
+The complete evidentiary chain should therefore be rendered as:
+INDIVIDUAL
+↓
+ORGANISATION
+↓
+DATE
+↓
+DECISION / COMMUNICATION / OMISSION
+↓
+PRIMARY DOCUMENT
+↓
+STATED REASON
+↓
+INFORMATION RELIED UPON
+↓
+CONSEQUENCE
+↓
+COUNTERVAILING EVIDENCE
+↓
+CAUSATION STATUS
+↓
+EVIDENCE STATUS
+↓
+LEGAL QUESTION REMAINING
+ 
+⸻
+ 
+26. REPOSITORY EVIDENCE MAP
+The public repository architecture itself provides several distinct preservation layers:
+Barrandodger main repository
+Open Barrandodger repository⁠
+Contains evidence, emails, sources, rendered PDFs, site PDFs, archive parts, statements and website backup material. (GitHub⁠)
+Barran Dodger Archive
+Open wezzo72 archive repository⁠
+This repository is explicitly a fork of the drbarrandodger archive. (GitHub⁠)
+Original drbarrandodger archive
+Open original drbarrandodger archive⁠
+The original repository currently shows more than two thousand commits and contains the archive application, documents, downloadable material and evidence infrastructure. (GitHub⁠)
+Backup
+Open Backup repository⁠
+The Backup repository is separately maintained and contains the website/application structure and restoration material. (GitHub⁠)
+drbarrandodger profile
+Open all five drbarrandodger repositories⁠
+The profile currently exposes five public repositories, creating another independent repository layer. (GitHub⁠)
+ 
+⸻
+ 
+27. PUBLIC ARCHIVE MIRROR
+The public GitHub Pages archive is also accessible:
+Barran Dodger public archive mirror⁠
+The mirror describes itself as a downloadable documentary archive and exposes the archive’s public document interface. (Dr Barr and Dodger⁠)
+The existence of multiple repositories and mirrors is useful for preservation because it permits comparison of copies, filenames, dates, site structures and document availability over time.
+ 
+⸻
+ 
+28. FINAL EVIDENTIARY FORMULATION
+The legally defensible proposition emerging from the repository scan is not:
+“Every person named in this archive caused my detriment.”
+It is:
+The repositories preserve a substantial documentary corpus containing institutional records, correspondence, legal material, testimony, analytical documents and formal submissions concerning Dr Richard William McLean’s interactions with numerous organisations and individuals over an extended period. The evidentiary task is to identify, for each alleged adverse event, the responsible decision-maker where identifiable, the precise act or omission, the contemporaneous primary document, the stated reason, the demonstrable consequence, any countervailing evidence, and the strength of the causal connection. Where the primary record establishes only that a complaint or allegation was made, the register records the allegation rather than converting it into a finding. Where an institutional decision is established but the individual decision-maker is not yet identifiable, responsibility remains at institutional level pending extraction of the signed record.
+That formulation turns the archive from a list of accusations into a traceable documentary register.
+The decisive question becomes:
+What does each preserved primary document actually establish, who does it identify, what happened next, and what remains capable of being independently proved or disproved?
+That is the standard applied throughout this register.
+The repository scan also identified a significant technical point: the principal wezzo72/Barrandodger repository contains dedicated preservation directories rather than being merely a website source, while the drbarrandodger archive has a separate original repository and the Wezzo repository is a fork. 
+One limitation: GitHub’s public web interface did not expose every file in every repository to the crawler in a single exhaustive listing, and direct cloning was unavailable in this environment. So I have not represented this as a completed byte-for-byte crawl of every repository file. The linked PDF sources above are documents I could directly verify on the public repository surfaces.
+
+
+
+
+
+
+
+
+
+
+
+The institutions that required me to provide evidence also generated an enormous proportion of the documentary record through which my account can now be examined.
+
+I describe this as the Documentary Trap.
+
+I do not claim that the existence of these records, by itself, proves that a government secretly designed a coordinated trap for me. That would require direct evidence of intention and coordination.
+
+The proposition is both stronger and more defensible:
+
+The machinery of administration created a documentary record that can now be examined against the institutions themselves.
+
+The system demanded evidence.
+
+I preserved it.
+
+The system generated records.
+
+I preserved those too.
+
+The result is that the evidentiary burden can no longer be framed solely as:
+
+“Why should anyone believe Richard McLean?”
+
+The question becomes:
+
+“What do the institutions’ own records establish?”
+
+That is a fundamentally different question.
+
+⸻
+
+I. THE PERSON WAS MADE THE EVIDENCE
+
+The easiest way to dismiss an individual complaint is to make the individual the entire evidentiary object.
+
+Was the person credible?
+
+Was the account accurate?
+
+Was the complaint exaggerated?
+
+Was there corroboration?
+
+Was the person confused?
+
+Was there sufficient independent evidence?
+
+Those questions can place an extraordinary burden upon an individual.
+
+But the evidentiary situation changes when the individual produces the institutions’ own correspondence.
+
+An allegation contained only in a personal statement remains an allegation.
+
+A government letter establishes that the government made that communication.
+
+A court filing establishes that the filing occurred.
+
+A complaint establishes that a complaint was made.
+
+A decision establishes that a decision was made.
+
+A referral establishes that a referral occurred.
+
+An acknowledgement establishes receipt or processing.
+
+A later document can then be compared with an earlier document.
+
+That comparison is the beginning of documentary accountability.
+
+The archive’s own methodology expressly adopts this distinction. It classifies material as documented fact, corroborated claim, documented allegation, inference, interpretation or unresolved matter rather than treating every statement as equivalent. [E1]
+
+That distinction is crucial.
+
+It means the archive does not need to claim that every proposition is already proved.
+
+The archive can instead say:
+
+Here is the document.
+
+Here is who created it.
+
+Here is when it was created.
+
+Here is what it says.
+
+Here is what happened afterwards.
+
+Here is the later document.
+
+Here is the contradiction or continuity.
+
+Here is the institutional response.
+
+Here is what remains unresolved.
+
+That is a much more demanding form of accountability.
+
+⸻
+
+II. THE GOVERNMENT RECORD BECOMES THE WITNESS
+
+Government administration depends upon records.
+
+Agencies need records to make decisions.
+
+Police need records of reports and investigations.
+
+Courts and tribunals need records of proceedings.
+
+Government departments need correspondence.
+
+Regulators need complaints and responses.
+
+Health services create clinical and administrative records.
+
+NDIS administration generates plans, decisions, correspondence and review records.
+
+Workers’ compensation systems generate claims, determinations and reviews.
+
+Human-rights bodies generate complaints, correspondence and procedural records.
+
+Ombudsman offices generate complaint and jurisdictional records.
+
+Legal-assistance organisations generate applications, eligibility decisions and correspondence.
+
+The archive therefore contains something more than my recollection.
+
+It contains a documentary trail produced by the institutions with which I interacted.
+
+The archive’s Institutional Response Map expressly identifies the need to distinguish between information sent, information received, information considered, and information acted upon. Those are not the same thing. [E2]
+
+That distinction becomes central to the burden of proof.
+
+If I sent an institution a document, that proves that I sent it.
+
+If the institution acknowledged receiving it, that establishes something more.
+
+If the document was then attached to a subsequent decision, the evidentiary chain becomes stronger still.
+
+If the later decision appears inconsistent with the information contained in the earlier document, the inconsistency becomes a question capable of investigation.
+
+The question is no longer whether I can force someone to believe me.
+
+The question becomes:
+
+What happened to the information once the institution received it?
+
+⸻
+
+III. THE INSTITUTIONS NAMED IN THE ARCHIVE
+
+The archive’s Institutional Response Map identifies a series of institutions whose involvement requires documentary examination. It specifically identifies the Department of Social Services and related Commonwealth records, NDIA, NDIS Quality and Safeguards Commission, ASIC, ATO, Commonwealth Ombudsman, Australian Human Rights Commission, police/law enforcement, courts and tribunals, workers’ compensation/Comcare/AAT material, health services, NDIS providers and support services, Legal Aid/legal services, and international bodies. [E2]
+
+These should not all be described as having been legally proven to have harmed me.
+
+That would go beyond the documentary standard.
+
+The more precise proposition is that they are named institutional actors or repositories in the documentary chain in which I allege detriment, dispute, administrative failure, refusal, classification, referral, intervention, financial consequence, loss of protection or other adverse consequence.
+
+That distinction matters.
+
+1. Department of Social Services and related Commonwealth administration
+
+The archive identifies Commonwealth administrative material concerning employment status and other dealings. It specifically identifies a 27 March 2023 Federal Court General Counsel correspondence as a discrete official record requiring direct examination rather than generalisation. [E2]
+
+The relevant question is therefore not simply what I say the Commonwealth did.
+
+The question is what the contemporaneous Commonwealth record says.
+
+Where employment, disability, benefits and administrative status intersect, the documentary sequence must be reconstructed rather than reduced to a single later description.
+
+⸻
+
+2. National Disability Insurance Agency
+
+The archive identifies a Public Interest Disclosure and subsequent institutional response.
+
+A PID is not automatically proof of the substantive allegations contained within it.
+
+But it is documentary evidence that the disclosure was made and processed.
+
+The NDIS Act establishes the statutory framework governing the Scheme and its administration. The current Act contains objects and principles concerning the operation of the Scheme, the functions of the NDIA and mechanisms for participant decision-making and review. [E3]
+
+The documentary question is therefore:
+
+What was disclosed, what did the NDIA receive, what did it consider, what did it decide, and what evidence supports each subsequent position?
+
+The 2026 amendments also introduced substantial new integrity, regulatory, information-gathering and whistleblower provisions into the NDIS framework. [E4]
+
+That does not retrospectively establish that any historical conduct breached those provisions.
+
+It does, however, demonstrate the seriousness with which Parliament treats integrity and safeguarding within the Scheme.
+
+⸻
+
+3. NDIS Quality and Safeguards Commission
+
+The archive identifies complaints, provider-related issues, acknowledgements, jurisdictional responses and outcomes involving the NDIS Quality and Safeguards Commission. [E2]
+
+A complaint is not itself a finding.
+
+But the documentary chain can establish whether a complaint was made, what evidence accompanied it, what jurisdiction the Commission asserted, what action followed and what remained unresolved.
+
+That is precisely the type of institutional response that can be independently examined.
+
+⸻
+
+4. Ablepoint and other NDIS/support providers
+
+The archive contains material concerning service agreements, provider interactions, demands for response, safeguarding concerns and requests for independent investigation, including documents specifically titled “Brett from Able Point I demand a response”, “FORMAL REQUEST FOR INDEPENDENT INVESTIGATION ABLEPOINT” and “Current legally binding update on entrapment and targeting by Able Point.” [E5]
+
+The titles themselves do not prove the allegations expressed within them.
+
+What they establish is that these allegations and requests were documented.
+
+The relevant evidence must therefore be the underlying correspondence, service documents, incident records, responses and regulatory material.
+
+⸻
+
+5. Australian Human Rights Commission
+
+The archive identifies correspondence and complaints involving the Australian Human Rights Commission.
+
+Again, a complaint is not a finding.
+
+The distinction is especially important because the existence of an AHRC complaint does not itself establish a human-rights violation.
+
+Nevertheless, where an individual submits evidence concerning disability, discrimination, treatment, access to justice or other rights issues, the institutional response becomes part of the documentary history.
+
+The relevant legal framework includes the Disability Discrimination Act 1992, particularly its provisions concerning disability discrimination in employment, services, accommodation and the administration of Commonwealth laws and programs. The Act expressly addresses discrimination in the administration of Commonwealth laws and programs. [E6]
+
+⸻
+
+6. Commonwealth Ombudsman
+
+The archive identifies complaints and correspondence involving the Commonwealth Ombudsman.
+
+The critical distinction is between:
+
+complaint → jurisdictional assessment → investigation → finding → closure.
+
+A refusal to investigate does not prove that the complainant was correct.
+
+Equally, a closure does not prove that the underlying complaint was false.
+
+The documentary question is what jurisdiction was asserted, what material was considered, what action occurred and why the matter was closed.
+
+That is precisely the kind of institutional chain that must be preserved rather than rhetorically simplified.
+
+⸻
+
+7. ASIC and corporate regulators
+
+The archive identifies ASIC records, including company and organisation registers, lodged documents, objections and correspondence.
+
+The repository itself provides direct links to ASIC’s registers for independent verification. [E2]
+
+The proper evidentiary approach is particularly important here.
+
+An unusual corporate record does not automatically prove fraud.
+
+A registration does not automatically establish misconduct.
+
+But an official registry entry can establish what was recorded.
+
+That record can then be compared with correspondence, authorisation documents, filings and other primary evidence.
+
+⸻
+
+8. Australian Taxation Office
+
+The archive identifies ATO-related material concerning tax, identity and administrative matters.
+
+Again, the existence of correspondence establishes the communication, not automatically the correctness of every proposition contained within it.
+
+The appropriate question is whether the relevant administrative record is consistent internally and with other contemporaneous records.
+
+⸻
+
+9. Police and law-enforcement bodies
+
+The archive expressly identifies police and law-enforcement records as a separate institutional category.
+
+That includes reports, statements, report numbers, responses and formal findings where available. [E2]
+
+This distinction is critical.
+
+A police report proves that a report was made.
+
+It does not necessarily prove the underlying allegation.
+
+Conversely, the absence of a police finding does not necessarily establish that nothing occurred.
+
+The documentary question is:
+
+What was reported?
+
+What evidence was provided?
+
+What investigation occurred?
+
+What jurisdiction was asserted?
+
+What was decided?
+
+What reasons were given?
+
+What evidence was preserved?
+
+The archive contains a preserved Statement to Police and other law-enforcement-related material. [E7]
+
+Those documents should therefore be examined directly rather than replaced by retrospective characterisations.
+
+⸻
+
+IV. COURTS, TRIBUNALS AND THE BURDEN OF PROOF
+
+The archive also contains court and tribunal material.
+
+This requires particular care.
+
+A party’s submission is not a judicial finding.
+
+An application is not a judgment.
+
+An allegation in an affidavit is not automatically an established fact.
+
+An adverse procedural outcome does not necessarily establish institutional misconduct.
+
+The archive itself recognises this distinction. [E1]
+
+But the reverse is also important.
+
+A court or tribunal record cannot simply disappear from the evidentiary chronology because its existence complicates a later institutional narrative.
+
+The relevant records include proceedings involving workers’ compensation, Comcare and tribunal processes, including the archive’s reference to McLean and Comcare 2021/7478, which it says was decided on 12 July 2023 and which it states should be linked to the authoritative decision before any stronger legal characterisation is made. [E2]
+
+That is precisely the documentary discipline required.
+
+Find the judgment.
+
+Read the reasons.
+
+Identify what was actually determined.
+
+Separate findings from submissions.
+
+Then compare the determination with the later administrative record.
+
+That is how the burden of proof becomes documentary rather than rhetorical.
+
+⸻
+
+V. HEALTH SERVICES AND THE MEDICAL RECORD
+
+The archive separately identifies health services and clinical records.
+
+This area requires even greater caution because a clinical record can contain several different things:
+
+a clinical observation;
+
+a diagnosis;
+
+a historical account;
+
+a provisional assessment;
+
+a risk assessment;
+
+a legal status;
+
+a clinician’s opinion;
+
+a patient’s report;
+
+or an administrative characterisation.
+
+They are not interchangeable.
+
+The archive’s methodology expressly states that hospital events, clinician records, legal authority, diagnosis, discharge, review and later correction should be recorded separately. [E2]
+
+That distinction matters because a later administrative narrative cannot simply be treated as if it were the original clinical evidence.
+
+Equally, a diagnosis cannot automatically be transformed into a finding about credibility, capacity, motive or truthfulness.
+
+The legal framework applicable to a particular intervention must be examined according to the legislation in force at the relevant date.
+
+For Victorian events, the Mental Health and Wellbeing Act 2022 is now the governing framework, with its current authorised version effective from 1 September 2026. [E8]
+
+For earlier Victorian events, the legislation in force at the time must be used rather than retrospectively applying the current statute.
+
+⸻
+
+VI. LEGAL AID AND ACCESS TO JUSTICE
+
+The archive identifies Legal Aid and other legal services as institutions involved in the documentary chain.
+
+Again, the fact that representation was refused or unavailable does not automatically establish illegality.
+
+But it can be materially relevant to the practical ability of an individual to challenge administrative decisions.
+
+The archive therefore records applications, eligibility decisions, correspondence and reasons rather than simply treating “no representation” as proof of wrongdoing. [E2]
+
+That approach matters because access to justice is not established merely by asserting it.
+
+The documentary question is:
+
+What assistance was sought?
+
+What was refused?
+
+What reason was given?
+
+What review mechanism existed?
+
+Could the decision be challenged?
+
+Was the person actually capable of using that mechanism?
+
+Those questions can then be assessed against the relevant legal framework.
+
+⸻
+
+VII. THE ADMINISTRATIVE LAW QUESTION
+
+The Administrative Decisions (Judicial Review) Act 1977 provides statutory grounds for judicial review of certain Commonwealth administrative decisions, including questions concerning natural justice, required procedures, jurisdiction, authorisation, improper exercise of power and certain failures of evidence or fact. [E9]
+
+This does not mean that every adverse administrative decision in my archive was unlawful.
+
+It means that administrative legality can be tested against identifiable legal standards.
+
+That is an important distinction.
+
+The archive is therefore not asking the reader to conclude:
+
+“Every institution that harmed me broke the law.”
+
+It is asking a more forensic question:
+
+“For each decision that caused an alleged detriment, what power was being exercised, what law governed it, what information was available, what procedure was followed, what reasons were given, and what evidence supports or contradicts the decision?”
+
+That is the question that transforms a narrative of grievance into an auditable administrative record.
+
+⸻
+
+VIII. DISABILITY DISCRIMINATION
+
+The Disability Discrimination Act 1992 expressly addresses disability discrimination in employment, services, accommodation and the administration of Commonwealth laws and programs. Section 29 specifically concerns discrimination in the administration of Commonwealth laws and programs. [E6]
+
+That makes the documentary record particularly important wherever disability intersected with:
+
+	•	government administration;
+	•	employment;
+	•	accommodation;
+	•	services;
+	•	NDIS administration;
+	•	legal processes;
+	•	access to information;
+	•	or other Commonwealth programs.
+
+The existence of disability does not prove discrimination.
+
+But neither can disability simply be treated as an explanation for every adverse institutional outcome.
+
+The question must remain:
+
+Was the decision made because of disability, in spite of disability, with reasonable adjustment, without reasonable adjustment, or for some other documented reason?
+
+The answer must come from evidence.
+
+⸻
+
+IX. HUMAN RIGHTS ARE NOT THE SAME AS A COURT FINDING
+
+Australia is bound internationally by a number of human-rights treaties, including the ICCPR and the Convention on the Rights of Persons with Disabilities.
+
+The Australian Human Rights Commission describes Australia’s international obligations and the distinction between those obligations and their domestic implementation. [E10]
+
+This distinction matters.
+
+An international human-rights principle does not automatically create a domestic cause of action.
+
+The archive itself recognises this.
+
+The correct methodology is:
+
+event → applicable right → domestic legal mechanism → evidence → institutional response → available remedy → determination.
+
+Relevant rights frameworks potentially include:
+
+	•	equality and non-discrimination;
+	•	dignity;
+	•	privacy;
+	•	autonomy;
+	•	legal capacity;
+	•	freedom from cruel, inhuman or degrading treatment;
+	•	housing and living conditions;
+	•	freedom of expression;
+	•	access to justice;
+	•	and effective remedy.
+
+But whether a particular event legally constitutes a violation must be determined under the applicable domestic and international framework.
+
+⸻
+
+X. VICTORIAN HUMAN-RIGHTS OBLIGATIONS
+
+For Victorian conduct, the Charter of Human Rights and Responsibilities Act 2006 provides a statutory human-rights framework applicable to Victorian public authorities and other actors within its scope. [E11]
+
+The Equal Opportunity Act 2010 is also relevant where disability discrimination or other protected attributes arise within its jurisdiction. [E12]
+
+Again, these statutes should not be cited merely as rhetorical decoration.
+
+The actual question is:
+
+Which provision applied at the time?
+
+Who was legally bound?
+
+What conduct occurred?
+
+What evidence establishes it?
+
+What justification, exception or limitation might apply?
+
+Was there a lawful and proportionate basis?
+
+What remedy was available?
+
+That is the difference between making a human-rights accusation and conducting a human-rights analysis.
+
+⸻
+
+XI. NEW SOUTH WALES LAW
+
+For events occurring in NSW, the applicable statutory framework may include the Guardianship Act 1987, the Mental Health Act 2007, the Government Information (Public Access) Act 2009, the Disability Inclusion Act 2014, and other legislation depending upon the precise event and date.
+
+The NSW Guardianship Act and its interaction with mental-health and decision-making legislation must be considered according to the law in force when the relevant decision occurred. [E13]
+
+The GIPA Act provides a statutory framework for public access to government information. [E14]
+
+The relevance of these laws is therefore evidentiary as well as legal.
+
+If an institution possessed records, the existence, retrieval, disclosure, withholding and explanation of those records can become part of the documentary chronology.
+
+⸻
+
+XII. THE PROFESSIONAL AND ETHICAL DIMENSION
+
+The documentary problem does not stop with government departments.
+
+The archive also raises questions concerning lawyers, clinicians, support workers, investigators, advocates, professional practitioners and other people acting within regulated professions.
+
+But here too, precision matters.
+
+A complaint against a lawyer does not prove professional misconduct.
+
+A complaint against a clinician does not prove clinical misconduct.
+
+A complaint against a support worker does not prove abuse.
+
+The proper approach is to identify:
+
+the professional;
+
+the role;
+
+the relevant professional code;
+
+the conduct complained of;
+
+the contemporaneous evidence;
+
+the response;
+
+the regulator;
+
+the determination;
+
+and the current status.
+
+Potential professional frameworks may include the applicable legal-profession conduct rules, health-practitioner regulatory standards, disability-worker obligations, public-service codes of conduct and organisational safeguarding standards.
+
+The archive’s own methodology requires precisely this separation between allegation and established finding. [E1]
+
+⸻
+
+XIII. THE NACC QUESTION
+
+The National Anti-Corruption Commission Act 2022 defines corruption issues in terms of whether public officials have engaged, are engaging or will engage in corrupt conduct, including conduct that adversely affects or could adversely affect the honest or impartial exercise of public powers, functions or duties. [E15]
+
+That does not mean that an administrative dispute is automatically corruption.
+
+It does mean that where the evidence raises a genuine corruption issue within the statutory jurisdiction, the legal threshold is defined by legislation rather than by rhetoric.
+
+The existence of the NACC framework therefore provides another example of the documentary principle:
+
+the question must be put to the statutory test.
+
+Not:
+
+“Does this look corrupt?”
+
+But:
+
+“What conduct occurred, who exercised the relevant public power, what evidence establishes it, and does the conduct fall within the statutory definition?”
+
+⸻
+
+XIV. THE PARADOX OF THE OFFICIAL RECORD
+
+This brings the argument back to the central paradox.
+
+The institutions had the power to create records.
+
+They recorded decisions.
+
+They recorded complaints.
+
+They recorded responses.
+
+They recorded classifications.
+
+They recorded referrals.
+
+They recorded assessments.
+
+They recorded correspondence.
+
+They recorded proceedings.
+
+They recorded outcomes.
+
+And I retained those records.
+
+Over time, those records can be assembled into a chronology.
+
+One document can be compared with another.
+
+One explanation can be compared with a later explanation.
+
+One institutional classification can be compared with another.
+
+One agency’s statement can be compared with another agency’s statement.
+
+One decision can be compared with the evidence that existed before the decision.
+
+And this is where the original demand that I prove myself can turn back upon the system.
+
+The system created evidence.
+
+The system preserved evidence.
+
+The system relied upon evidence.
+
+The system demanded evidence from me.
+
+And now the evidence can be examined as a whole.
+
+⸻
+
+XV. THE “TRAP” DOES NOT REQUIRE A SECRET MEETING
+
+The most important point is that a documentary trap does not necessarily require a secret meeting.
+
+It does not require every official to have known one another.
+
+It does not require every institution to have acted with a common purpose.
+
+It does not even require that every adverse event was connected.
+
+The archive’s own “Architecture of Administrative Erasure” report expressly warns against assuming a coordinated scheme and instead asks whether individually documented decisions, classifications, omissions, referrals and responses may have interacted to produce cumulative consequences. [E16]
+
+That is a critical distinction.
+
+Ten independent administrative decisions can produce a devastating cumulative consequence without ten people having secretly coordinated them.
+
+Conversely, apparent coordination cannot be established merely because events occurred in sequence.
+
+Evidence of coordination would require something stronger:
+
+communications;
+
+shared instructions;
+
+common records;
+
+explicit cross-references;
+
+admissions;
+
+synchronised actions;
+
+or other independent connecting evidence.
+
+The archive itself identifies that standard. [E16]
+
+Therefore the documentary argument is not:
+
+“Everything that happened was one conspiracy.”
+
+It is:
+
+“Here is the sequence. Here are the institutions. Here are the decisions. Here are the records. Here are the consequences. Here are the connections that are documented. Here are the connections that remain inferential. Now examine them.”
+
+That is a much more powerful proposition because it survives disagreement about motive.
+
+⸻
+
+XVI. THE BURDEN OF PROOF COMES BACK TO THE RECORD
+
+For years the burden appeared to be:
+
+Prove yourself.
+
+But documentary preservation creates a different sequence:
+
+Identify the allegation.
+
+Locate the primary record.
+
+Identify the institution.
+
+Identify the decision-maker.
+
+Establish the date.
+
+Establish what information was available.
+
+Establish what was communicated.
+
+Establish what was acknowledged.
+
+Establish what action followed.
+
+Identify the legal power being exercised.
+
+Identify the reason given.
+
+Compare the reason with the evidence.
+
+Compare the decision with subsequent records.
+
+Identify contradictions.
+
+Identify corroboration.
+
+Identify alternative explanations.
+
+Determine what remains unresolved.
+
+This is no longer simply my story.
+
+It is an evidentiary chain.
+
+⸻
+
+XVII. EVERY INSTITUTIONAL ACTOR BECOMES PART OF THE CHAIN
+
+The archive therefore identifies, among others:
+
+	1.	Department of Social Services and related Commonwealth administration — employment and administrative records.
+	2.	National Disability Insurance Agency — PID and NDIS administrative material.
+	3.	NDIS Quality and Safeguards Commission — complaints and provider-related regulatory material.
+	4.	NDIS providers and support services, including Ablepoint — service, accommodation, safeguarding and response records.
+	5.	Australian Human Rights Commission — human-rights complaints and correspondence.
+	6.	Commonwealth Ombudsman — complaint and jurisdictional responses.
+	7.	Australian Securities and Investments Commission — corporate records and regulatory correspondence.
+	8.	Australian Taxation Office — tax/identity/administrative records where contained in the archive.
+	9.	Police and law-enforcement bodies — reports, statements, responses and findings.
+	10.	Courts and tribunals — proceedings, submissions, orders and reasons.
+	11.	Comcare / workers’ compensation administration — claims, decisions and review material.
+	12.	Administrative review/tribunal processes — applications, determinations and review records.
+	13.	Health services and clinicians — hospital, clinical, administrative and intervention records.
+	14.	Legal Aid and other legal services — applications, eligibility decisions and correspondence.
+	15.	International human-rights mechanisms — submissions, acknowledgements and procedural records.
+	16.	ASIC and other corporate-registration bodies — documentary corporate records.
+	17.	Professional practitioners and regulated professionals — where the archive identifies a professional conduct issue.
+	18.	Public officials and political offices — where the archive contains documentary correspondence or other records demonstrating their involvement.
+	19.	Government regulators and integrity bodies — where complaints, referrals or jurisdictional responses are documented.
+
+This is not a declaration that every organisation on this list has been legally found responsible for causing detriment.
+
+It is an institutional evidence map.
+
+The distinction is fundamental.
+
+The archive’s own Institutional Response Map states that its purpose is to identify what each significant institution received, what it did, what jurisdiction it asserted, what it referred, what it left unresolved and what evidence demonstrates institutional knowledge. [E2]
+
+That is the proper standard.
+
+⸻
+
+XVIII. THE DOCUMENTARY EVIDENCE THAT MUST BE READ
+
+The repository now contains a particularly important group of preserved materials, including:
+
+	•	ACCOUNTABILITY, EVIDENCE AND FAIR DETERMINATION
+	•	FORMAL REQUEST FOR INDEPENDENT INVESTIGATION ABLEPOINT
+	•	FINAL EVIDENTIARY NOTICE, OBJECTION AND REQUEST FOR FORMAL INVESTIGATION
+	•	Legal Brief — cumulative 35-year record
+	•	REPORT 2 — THE 35-YEAR CHRONOLOGY
+	•	REPORT 3 — THE ARCHITECTURE OF ADMINISTRATIVE ERASURE
+	•	REPORT 4 — INSTITUTIONAL RESPONSE MAP
+	•	REPORT 5 — CONTRADICTIONS, DISCREPANCIES AND UNANSWERED QUESTIONS
+	•	REPORT 6 — THE WHISTLEBLOWER RECORD
+	•	REPORT 7 — HUMAN RIGHTS AND REMEDY
+	•	Personal Statement of Exile, Institutional Detriment and the Search for Protection
+	•	The Witness Remains
+	•	Statement to Police
+	•	and the preserved collection of government and agency PDFs. [E17]
+
+The repository records that forty-eight government/agency PDFs downloaded from Google Drive, together with unique agency-letter attachments, were preserved in its official-drive collection as at 20 September 2026. It expressly states that these are the archive’s copies and not court findings. [E18]
+
+That qualification actually strengthens the archive.
+
+It demonstrates that the purpose is not to manufacture a finding.
+
+It is to preserve the primary material so that a finding can, where appropriate, be made by the competent authority.
+
+⸻
+
+XIX. THE ARCHIVE IS NOT ASKING FOR BELIEF
+
+The ultimate purpose of the Barran Dodger Archive is therefore not:
+
+“Believe me because I say so.”
+
+It is:
+
+“Read the documents.”
+
+If the institutional decisions were justified, the records should demonstrate the justification.
+
+If the procedures were followed, the records should demonstrate the procedures.
+
+If the allegations were investigated, the records should demonstrate what was investigated.
+
+If the evidence was considered, the records should identify how.
+
+If a decision changed, the records should explain why.
+
+If two official records appear inconsistent, the inconsistency should be examined.
+
+If there is a legitimate alternative explanation, it should be considered.
+
+If my interpretation is wrong, the underlying documents should allow another reader to demonstrate that.
+
+And if the documentary record demonstrates unexplained contradictions, procedural deficiencies, failures to respond, inconsistent classifications, unexplained referrals or other institutional problems, those matters should remain visible for independent assessment.
+
+That is what documentary accountability means.
+
+⸻
+
+XX. THE REAL TRAP
+
+The deepest paradox is therefore not that I somehow outsmarted the government.
+
+It is more profound than that.
+
+The system required documentation in order to function.
+
+I became the person who preserved the documentation.
+
+The institutions generated the records.
+
+I assembled them.
+
+The institutions created the chronology.
+
+I reconstructed it.
+
+The institutions communicated their positions.
+
+I placed those positions beside one another.
+
+The institutions demanded evidence.
+
+I retained the evidence.
+
+And now the evidence can be read independently of me.
+
+That is the point at which the documentary record becomes more powerful than the person who first complained about it.
+
+The evidence no longer needs me to be present in the room.
+
+It no longer depends entirely upon my memory.
+
+It can be downloaded.
+
+It can be read.
+
+It can be compared.
+
+It can be challenged.
+
+It can be independently verified.
+
+And it can be used to test both my account and the institutions’ accounts.
+
+⸻
+
+XXI. THE BURDEN OF PROOF HAS CHANGED
+
+The original burden appeared to be:
+
+“Prove that this happened.”
+
+The documentary archive allows a more rigorous question:
+
+“Here are the records. What do they establish?”
+
+Then:
+
+“What did the institution know?”
+
+Then:
+
+“What did it do with that knowledge?”
+
+Then:
+
+“What legal authority governed the decision?”
+
+Then:
+
+“What reasons were given?”
+
+Then:
+
+“Are those reasons consistent with the contemporaneous record?”
+
+Then:
+
+“What happened next?”
+
+Then:
+
+“Did another institution receive the same information?”
+
+Then:
+
+“What did that institution do?”
+
+Then:
+
+“Where do the documentary chains converge?”
+
+Then:
+
+“Where do they diverge?”
+
+And finally:
+
+“What remains unexplained?”
+
+That is the forensic question.
+
+⸻
+
+XXII. TWO PUBLIC RECORDS, ONE DOCUMENTARY PURPOSE
+
+The Barran Dodger Archive and its preserved mirrors are therefore not merely repositories of personal writing.
+
+They are an attempt to preserve a documentary history.
+
+The purpose is not to establish guilt by accumulation.
+
+It is to prevent evidence from disappearing into institutional fragmentation.
+
+One agency may hold one document.
+
+Another agency may hold another.
+
+A court may hold the decision.
+
+A regulator may hold the complaint.
+
+A health service may hold the clinical record.
+
+A provider may hold the service documentation.
+
+A government department may hold the correspondence.
+
+A professional body may hold the complaint.
+
+A lawyer may hold the advice.
+
+A tribunal may hold the determination.
+
+And the individual may be the only person attempting to place the fragments together.
+
+That is the documentary function of the archive.
+
+One record may be ambiguous.
+
+Two records may be contradictory.
+
+Ten records may reveal a chronology.
+
+Hundreds or thousands of records can reveal an institutional history.
+
+But only careful analysis can determine what that history actually establishes.
+
+⸻
+
+XXIII. THE FINAL PARADOX
+
+I was asked to prove myself.
+
+So I documented.
+
+I was asked to provide records.
+
+So I preserved them.
+
+I was asked to identify evidence.
+
+So I indexed it.
+
+I was asked to substantiate claims.
+
+So I linked them to primary documents.
+
+I was asked to explain contradictions.
+
+So I created a contradiction register.
+
+I was asked to identify institutions.
+
+So I mapped the institutional response chain.
+
+I was asked to distinguish allegation from fact.
+
+So I created an evidence classification system.
+
+And now the question has come full circle.
+
+The institutions that once occupied the position of demanding proof can themselves be examined through the documentary record they generated.
+
+That is the Documentary Trap.
+
+Not necessarily a secret plan.
+
+Not necessarily a conspiracy.
+
+Not necessarily proof of unlawful conduct by every institution named.
+
+Something more concrete:
+
+a system of official record-keeping has created a body of evidence that can now be used to test the system’s own decisions.
+
+The documents are not required to prove everything.
+
+They are required to establish what they actually establish.
+
+And where they do not establish something, that limitation should remain visible.
+
+That is why the archive matters.
+
+Because the final witness is not my rhetoric.
+
+It is the record.
+
+And the record can be read by someone who does not know me, does not believe me, does not trust me and does not agree with my interpretation.
+
+That reader can begin with the same question I have been asking for years:
+
+What actually happened?
+
+But unlike before, the reader does not have to rely upon my answer.
+
+The reader can examine the documents.
+
+And then the institutions must live with the same evidentiary standard that they imposed upon me:
+
+show the record, explain the decision, identify the authority, account for the evidence, reconcile the contradictions, and answer what remains unanswered.
+
+That is the point at which the burden of proof becomes reciprocal.
+
+Not because I have declared myself the winner.
+
+Not because an archive automatically becomes a judgment.
+
+But because the evidence now exists in a form capable of being independently examined.
+
+I was told to prove it.
+
+I kept the proof.
+
+Much of that proof was generated by the institutions themselves.
+
+Now the record can speak.
+
+Linked evidence and legal framework
+
+The following are the primary links I used to anchor the essay. The archive itself expressly provides a public evidence directory and requires the reader to be able to travel from a proposition back to the original document and provenance. 
+
+Core archive / evidence
+
+	•	Barran Dodger GitHub repository⁠
+	•	Barran Dodger archive / GitHub Pages⁠
+	•	Report 1 — Master Evidence Record⁠
+	•	Report 3 — Architecture of Administrative Erasure⁠
+	•	Report 4 — Institutional Response Map⁠
+	•	Report 5 — Contradictions, Discrepancies and Unanswered Questions⁠
+	•	Report 7 — Human Rights and Remedy⁠
+	•	Official Government PDFs catalogue in the repository⁠
+	•	Official Drive binaries catalogue⁠
+	•	Personal Statement of Exile⁠
+	•	Legal Brief⁠
+	•	Statement to Police PDF⁠
+
+Commonwealth legal framework
+
+	•	Disability Discrimination Act 1992 — current Federal Register version⁠ — particularly relevant to disability discrimination in employment, services, accommodation and administration of Commonwealth laws/programs. 
+	•	Administrative Decisions (Judicial Review) Act 1977 — current Federal Register version⁠ — contains statutory grounds including natural justice, failure to follow required procedures, jurisdiction and improper exercise of power. 
+	•	National Disability Insurance Scheme Act 2013 — current version⁠
+	•	National Disability Insurance Scheme Amendment (Integrity and Safeguarding) Act 2026⁠
+	•	National Disability Insurance Scheme Amendment (Securing the NDIS for Future Generations) Act 2026⁠
+	•	National Anti-Corruption Commission Act 2022⁠
+	•	Privacy Act 1988⁠
+	•	Australian Human Rights Commission — Australia's international human-rights obligations⁠
+	•	Australian Human Rights Commission — equality and non-discrimination under the ICCPR⁠
+
+Victoria
+
+	•	Charter of Human Rights and Responsibilities Act 2006⁠
+	•	Mental Health and Wellbeing Act 2022 — current in-force version⁠
+	•	Equal Opportunity Act 2010 — current in-force version⁠
+
+New South Wales
+
+	•	Guardianship Act 1987⁠
+	•	Government Information (Public Access) Act 2009⁠
+
+One particularly important point emerges from the archive itself: its own methodology says causation must be distinguished from temporal sequence, missing records are not automatically evidence of destruction, silence is not automatically an admission, and a complaint is not automatically proof of the conduct complained about. 
+
+That actually makes the central argument more difficult to dismiss: the archive is not asking the reader to accept its conclusions; it is preserving enough of the underlying record for those conclusions to be tested.
