@@ -1,0 +1,42 @@
+FORENSIC AI DIGITAL ARCHIVE VALUE ASSESSMENT
+STAMP RECORD — 8 OCTOBER 2026
+
+Recorded: Thursday 8 October 2026, 20:38:40 Australian Eastern Daylight Time (AEDT, UTC+11)
+UTC: 2026-10-08T09:38:40Z
+ISO-8601: 2026-10-08T20:38:40+11:00
+
+This file records bytes and a time. It is not a finding. It is not a certified valuation. It is not a sale price. Appearance is not a finding.
+
+PDF
+File: FORENSIC-AI-DIGITAL-ARCHIVE-VALUE-ASSESSMENT-8-OCTOBER-2026.pdf
+Bytes: 122023
+SHA-256: 31eff9199c2cc30d5491a503aadcc66db76f72441e7240bf5a6294679e0fbe76
+OpenTimestamps: FORENSIC-AI-DIGITAL-ARCHIVE-VALUE-ASSESSMENT-8-OCTOBER-2026.pdf.ots
+
+Calendar submission at the record time, status pending Bitcoin confirmation:
+- https://alice.btc.calendar.opentimestamps.org
+- https://bob.btc.calendar.opentimestamps.org
+- https://finney.calendar.eternitywall.com
+- https://btc.calendar.catallaxy.com
+
+A pending calendar attestation shows the digest was submitted. After the calendars are confirmed in a Bitcoin block, the same .ots file can be upgraded. The proof then shows these PDF bytes existed before that block. It does not show that the assessment is true.
+
+CANONICAL TEXT
+File: FORENSIC-AI-DIGITAL-ARCHIVE-VALUE-ASSESSMENT-8-OCTOBER-2026.txt
+Bytes: 25487
+SHA-256: b57c5abd5536dd0105f019927ac29c2701fd4d41aa7b097ddba491f4cfcffb95
+
+READING PAGE
+File: forensic-ai-digital-archive-value-assessment-8-october-2026.html
+Bytes: 35827
+SHA-256: 5fc86cb0c5f3b99df17d977c86f7ff27c990ceed503f2e9f76c3464ff87e2f9a
+The PDF was sealed before the reading-page stamp line was added, so the PDF digest above is unchanged.
+
+ASSESSMENT DATE ON THE FACE OF THE REPORT
+8 October 2026
+
+CENTRAL INDICATIVE FIGURE
+A$350,000
+Low A$175,000
+High A$500,000–A$650,000+
+Historical / cultural value: not responsibly monetisable

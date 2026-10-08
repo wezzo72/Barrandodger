@@ -236,3 +236,26 @@ Mobbing and the Safety of the Crowd — Believing a Comfortable Lie Over a Hard 
 **What was added:** support-pathway.html on both sites, and links to it. PayID addresses already printed on the preserved support page are repeated, not merged. ABN 78 833 496 164 was checked on the Australian Business Register. barrandodger.com/donate returned 404 and was not offered as a live button. The page states that a gift is not a filing and that this archive is not the International Criminal Court.
 
 **Rule restated:** Never remove a single word. Only add.
+
+
+### COMMAND 26 — Forensic AI digital archive value assessment, PDF, stamp and timestamp (8 October 2026)
+
+**User command:** Add this report of today’s date and export as PDF. Add it to the repository. Add a timestamp.
+
+**What was added, and nothing already in the repository was removed:**
+
+- `FORENSIC-AI-DIGITAL-ARCHIVE-VALUE-ASSESSMENT-8-OCTOBER-2026.pdf` — the assessment, 15 pages. Assessment date 8 October 2026. Recorded Thursday 8 October 2026, 20:38:40 Australian Eastern Daylight Time (2026-10-08T09:38:40Z).
+- `FORENSIC-AI-DIGITAL-ARCHIVE-VALUE-ASSESSMENT-8-OCTOBER-2026.txt` — canonical text of the same assessment.
+- `forensic-ai-digital-archive-value-assessment-8-october-2026.html` — reading copy. A link was added on the home page. No existing sentence on that page was deleted.
+- `FORENSIC-AI-DIGITAL-ARCHIVE-VALUE-ASSESSMENT-8-OCTOBER-2026.pdf.ots` — OpenTimestamps proof of the PDF bytes. At submission the calendars had accepted the digest and Bitcoin confirmation was still pending.
+- `stamps/FORENSIC-AI-DIGITAL-ARCHIVE-VALUE-ASSESSMENT-8-OCTOBER-2026.stamp.txt` — SHA-256, byte length and record time.
+- `stamps/FORENSIC-AI-DIGITAL-ARCHIVE-VALUE-ASSESSMENT-8-OCTOBER-2026.stamp.txt.ots` — OpenTimestamps proof of that stamp record.
+- New lines only, at the end of `SHA256SUMS.txt`.
+
+**PDF SHA-256:** `31eff9199c2cc30d5491a503aadcc66db76f72441e7240bf5a6294679e0fbe76`
+
+**Central indicative figure printed in the assessment:** A$350,000. Low A$175,000. High A$500,000–A$650,000+. Historical and cultural value: not responsibly monetisable.
+
+**What this commit does not say:** The assessment is not a certified valuation, not a sale price, not a court and not a verdict. A hash is not a finding that the text is true.
+
+**Rule restated:** Never remove a single word. Only add.
