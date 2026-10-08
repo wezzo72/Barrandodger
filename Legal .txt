@@ -1,0 +1,2173 @@
+THE WITNESS REMAINS - URGENT LEGAL ISSUES — FORENSIC ITEMISED SCHEDULE
+
+Dr Richard William McLean
+
+also known publicly as Barran Dodger
+
+Status: Urgent legal and evidentiary issues for independent legal review
+Primary documentary repository: Barran Dodger GitHub Archive⁠
+Public documentary archive: Barran Dodger Archive⁠
+Secondary GitHub identity: DrBarranDodger GitHub profile⁠
+
+⸻
+
+IMPORTANT EVIDENTIARY QUALIFICATION
+
+This schedule records allegations, documentary issues and legal questions arising from the archive.
+
+It does not state that every allegation is proven.
+
+Where a matter has not been judicially determined, it is described as an allegation, assertion, reported event, documentary issue or matter requiring investigation.
+
+The purpose is to enable a lawyer, investigator, regulator, court, tribunal or other competent authority to examine the underlying evidence.
+
+The principal evidentiary rule is:
+
+Every serious allegation should be traceable to an identified document, date, person, institution and legal issue.
+
+⸻
+
+PART I — IMMEDIATE AND HIGH-CONSEQUENCE ISSUES
+
+1. ALLEGED RISK OF SERIOUS PHYSICAL HARM OR DEATH
+
+Allegation
+
+The archive contains allegations that conduct by unidentified and/or identified persons contributed to circumstances in which Dr McLean suffered serious physical and psychological harm and that there was, at various times, an alleged risk to his life.
+
+The archive further contains the claimant’s allegation that a prior fatal or near-fatal event should be examined to determine whether intentional conduct contributed to the event.
+
+Evidence to be examined
+
+	•	contemporaneous medical records;
+	•	ambulance records;
+	•	hospital records;
+	•	discharge summaries;
+	•	medication records;
+	•	police reports;
+	•	contemporaneous communications;
+	•	threats;
+	•	witness evidence;
+	•	photographs;
+	•	digital records;
+	•	chronology immediately preceding the event.
+
+Urgent legal questions
+
+	1.	What objectively happened?
+	2.	What caused the injury?
+	3.	Was intentional conduct alleged contemporaneously?
+	4.	Who knew of any alleged threat?
+	5.	What warnings were provided?
+	6.	What protective action was requested?
+	7.	What action was taken?
+	8.	Are there independent witnesses?
+	9.	Does the medical evidence support or contradict the alleged mechanism?
+
+Relevant law
+
+Potential Commonwealth offences depend upon the proven facts and jurisdiction. The Criminal Code Act 1995 contains provisions dealing with attempts and conspiracy, while the Crimes Act 1914 contains the Commonwealth offence of conspiracy to defeat justice.
+
+Criminal Code Act 1995 — Federal Register⁠
+
+Crimes Act 1914 — Federal Register⁠
+
+Archive evidence
+
+Barran Dodger — Crimes Register⁠
+
+Barran Dodger — principal archive⁠
+
+⸻
+
+2. ALLEGED CONSPIRACY OR COORDINATED CONDUCT
+
+Allegation
+
+The claimant alleges that actions by multiple institutions and individuals were coordinated to prevent him obtaining effective assistance, reporting alleged wrongdoing or exposing information.
+
+Legal significance
+
+A pattern of adverse decisions is not, by itself, proof of conspiracy.
+
+For a criminal conspiracy allegation, evidence of agreement, requisite intention and an overt act may be required. Commonwealth law expressly sets out elements for conspiracy to commit offences, while s 42 of the Crimes Act 1914 addresses conspiracy to defeat Commonwealth judicial power.
+
+Evidence required
+
+	•	emails between alleged participants;
+	•	meeting records;
+	•	instructions;
+	•	internal memoranda;
+	•	referrals;
+	•	shared case notes;
+	•	telephone records;
+	•	metadata;
+	•	unexplained coordination;
+	•	evidence of common purpose;
+	•	subsequent conduct consistent with an agreement.
+
+Urgent forensic question
+
+Is there evidence of actual coordination, or does the record instead demonstrate independent institutional decisions producing cumulative adverse consequences?
+
+That question should be determined from the documents rather than assumed.
+
+⸻
+
+3. ALLEGED INTERFERENCE WITH ACCESS TO JUSTICE
+
+Allegation
+
+The archive records repeated attempts to obtain:
+
+	•	police assistance;
+	•	legal representation;
+	•	administrative review;
+	•	human-rights investigation;
+	•	disability complaints;
+	•	compensation;
+	•	Ombudsman review;
+	•	PID investigation;
+	•	corruption investigation.
+
+The claimant alleges that the cumulative effect prevented effective access to justice.
+
+Relevant law
+
+The precise legal cause depends upon the institution and event.
+
+For Commonwealth judicial processes, Crimes Act 1914 s 42 expressly addresses conspiracy to obstruct, prevent, pervert or defeat the course of justice in relation to Commonwealth judicial power.
+
+Evidence
+
+Official Records Catalogue⁠
+
+PIDs and Responses⁠
+
+Legal Brief archive section⁠
+
+⸻
+
+PART II — NDIS AND DISABILITY ISSUES
+
+4. ALLEGED NDIS NEGLECT, ABUSE AND SAFEGUARDING FAILURES
+
+Allegation
+
+The archive contains allegations of:
+
+	1.	neglect;
+	2.	abuse;
+	3.	inadequate safeguarding;
+	4.	failure to respond to complaints;
+	5.	failure to intervene;
+	6.	financial hardship;
+	7.	provider misconduct;
+	8.	inadequate support;
+	9.	conflicts of interest;
+	10.	alleged continuation of harmful arrangements.
+
+Relevant legislation
+
+The National Disability Insurance Scheme Act 2013 is currently in force, with the latest compilation identified by the Federal Register as C2026C00401, compilation date 19 September 2026.
+
+National Disability Insurance Scheme Act 2013 — current legislation⁠
+
+The NDIS Practice Standards also impose requirements concerning participant rights, privacy, dignity, informed choice and provider responsibilities.
+
+NDIS Provider Registration and Practice Standards Rules 2018⁠
+
+NDIS Quality Indicators for Practice Standards⁠
+
+Archive evidence
+
+NDIS material — Barran Dodger GitHub archive⁠
+
+Complete Crimes Register⁠
+
+⸻
+
+5. ALLEGED NDIS CODE OF CONDUCT BREACHES
+
+The alleged conduct should be tested against the applicable NDIS Code of Conduct and Practice Standards.
+
+Relevant issues include:
+
+	1.	respect for rights;
+	2.	privacy;
+	3.	dignity;
+	4.	safe and competent support;
+	5.	honesty and transparency;
+	6.	prevention of abuse and neglect;
+	7.	response to safety concerns;
+	8.	conflicts of interest;
+	9.	financial conduct;
+	10.	professional boundaries;
+	11.	sexual misconduct;
+	12.	complaint handling.
+
+The Practice Standards expressly address participant rights, person-centred supports, privacy and dignity, informed choice and provider responsibilities.
+
+⸻
+
+6. ALLEGED SEXUAL MISCONDUCT BY AN NDIS-RELATED WORKER
+
+Allegation
+
+The archive records an allegation that an NDIS-related worker accessed complaints, attended the claimant’s home, engaged in sexual activity with him and subsequently disappeared from contact.
+
+Evidence required
+
+	1.	worker identity;
+	2.	provider employment records;
+	3.	access logs;
+	4.	complaint records;
+	5.	communications;
+	6.	appointment records;
+	7.	telephone records;
+	8.	witness evidence;
+	9.	provider investigation;
+	10.	NDIS Commission records;
+	11.	police records;
+	12.	medical evidence where relevant.
+
+Legal issues
+
+Depending on the evidence, possible issues may include:
+
+	•	sexual assault;
+	•	abuse of professional position;
+	•	breach of professional boundaries;
+	•	privacy;
+	•	safeguarding;
+	•	NDIS Code of Conduct;
+	•	provider registration obligations.
+
+No criminal conclusion should be drawn until the evidence is independently assessed.
+
+⸻
+
+7. ALLEGED FINANCIAL COERCION THROUGH DISABILITY SERVICES
+
+Allegation
+
+The archive records an allegation concerning approximately $300 per week in rent and an alleged remaining disposable amount of approximately $40 per week.
+
+Urgent questions
+
+	•	Who received the money?
+	•	Under what agreement?
+	•	Was the arrangement authorised?
+	•	Was accommodation provided?
+	•	Was the amount commercially reasonable?
+	•	Was the claimant pressured or coerced?
+	•	Were NDIS funds involved?
+	•	Were financial records maintained?
+	•	Did the provider disclose the arrangement?
+	•	Were alternative arrangements available?
+
+Relevant legal framework
+
+The applicable NDIS Act, Practice Standards and general Australian civil/criminal law must be considered according to the actual contractual arrangement.
+
+NDIS Act 2013⁠
+
+NDIS Practice Standards Rules⁠
+
+⸻
+
+8. ALLEGED FAILURE TO PROTECT FROM ABUSE, NEGLECT OR EXPLOITATION
+
+The NDIS framework expressly recognises protection from abuse, neglect, violence and exploitation as an important aspect of the regulatory scheme.
+
+The investigation should determine:
+
+	1.	what risk was reported;
+	2.	when it was reported;
+	3.	who received the report;
+	4.	what evidence accompanied it;
+	5.	what safeguarding response followed;
+	6.	whether escalation occurred;
+	7.	whether the provider remained involved;
+	8.	whether the NDIS Commission was notified;
+	9.	what reasons were given for closure.
+
+⸻
+
+PART III — DISABILITY DISCRIMINATION
+
+9. ALLEGED DISABILITY DISCRIMINATION
+
+The Disability Discrimination Act 1992 prohibits disability discrimination in specified areas including employment, services and facilities and administration of Commonwealth laws and programs. The current compilation identifies ss 5 and 6 on direct and indirect discrimination and s 24 concerning goods, services and facilities.
+
+Disability Discrimination Act 1992 — current legislation⁠
+
+Issues requiring investigation
+
+	1.	Was the claimant treated differently because of disability?
+	2.	Was a condition imposed that disadvantaged him?
+	3.	Was reasonable adjustment required?
+	4.	Was an adjustment refused?
+	5.	Did disability-related assumptions affect decision-making?
+	6.	Were Commonwealth programs administered differently because of disability?
+	7.	Was the adverse treatment connected to disability?
+
+⸻
+
+PART IV — HUMAN RIGHTS
+
+10. AUSTRALIAN HUMAN RIGHTS COMMISSION COMPLAINTS
+
+The archive identifies complaints to the Australian Human Rights Commission and allegations that documented concerns were not investigated.
+
+The Australian Human Rights Commission Act 1986 remains in force.
+
+Australian Human Rights Commission Act 1986 — Federal Register⁠
+
+Urgent documentary questions
+
+	1.	What complaint was lodged?
+	2.	When?
+	3.	What evidence accompanied it?
+	4.	What jurisdiction was identified?
+	5.	What response was provided?
+	6.	Was the complaint terminated?
+	7.	Under what statutory provision?
+	8.	Were review mechanisms available?
+	9.	Was relevant evidence considered?
+
+A refusal to investigate does not itself prove the underlying allegation or establish misconduct by the Commission.
+
+⸻
+
+11. ALLEGED FAILURE TO PROVIDE REASONABLE ACCOMMODATION
+
+The claimant alleges that disability-related needs were not adequately accommodated.
+
+The DDA’s objects include eliminating discrimination in the administration of Commonwealth laws and programs and promoting equality before the law.
+
+Evidence
+
+	•	disability documentation;
+	•	requests for adjustment;
+	•	agency responses;
+	•	service records;
+	•	correspondence;
+	•	medical evidence;
+	•	functional assessments;
+	•	decisions;
+	•	reasons.
+
+⸻
+
+PART V — WHISTLEBLOWING AND PUBLIC-INTEREST DISCLOSURES
+
+12. PUBLIC INTEREST DISCLOSURE STATUS
+
+The archive identifies numerous alleged Public Interest Disclosures and rejection decisions.
+
+The Public Interest Disclosure Act 2013 establishes a Commonwealth framework for disclosure and investigation of wrongdoing and maladministration and includes protections against reprisals.
+
+Public Interest Disclosure Act 2013 — current legislation⁠
+
+Critical legal question
+
+The PID Act’s definition of public interest disclosure depends upon matters including the status of the discloser, the recipient and the statutory requirements for the particular type of disclosure.
+
+Accordingly, each rejected PID should be tested individually.
+
+Evidence required
+
+	1.	claimant’s employment status at the relevant time;
+	2.	agency;
+	3.	date;
+	4.	disclosure;
+	5.	recipient;
+	6.	alleged disclosable conduct;
+	7.	statutory basis for rejection;
+	8.	review;
+	9.	subsequent consequences;
+	10.	any alleged reprisal.
+
+⸻
+
+13. ALLEGED WHISTLEBLOWER RETALIATION
+
+The PID Act contains specific provisions concerning reprisals, compensation, injunctions, apologies and other orders.
+
+The investigation should therefore determine:
+
+	•	whether a qualifying disclosure existed;
+	•	whether the claimant was a protected discloser;
+	•	whether an adverse action occurred;
+	•	timing;
+	•	causal connection;
+	•	decision-maker knowledge;
+	•	reasons given;
+	•	alternative explanation.
+
+⸻
+
+PART VI — CORRUPTION AND MALADMINISTRATION
+
+14. ALLEGED CORRUPTION
+
+The archive contains allegations involving:
+
+	•	ASIC;
+	•	NACC;
+	•	government departments;
+	•	disability agencies;
+	•	police;
+	•	other public bodies.
+
+The legal question is not simply whether the claimant considers conduct corrupt.
+
+The investigation must identify the statutory definition applicable to the conduct and determine whether the evidence satisfies it.
+
+Evidence
+
+Official Records Catalogue⁠
+
+PIDs and Responses⁠
+
+Crimes Register⁠
+
+⸻
+
+15. ALLEGED FAILURE OF THE NACC TO INVESTIGATE
+
+The claimant alleges that corruption matters were reported to the National Anti-Corruption Commission and were not investigated.
+
+The urgent legal question is:
+
+What jurisdiction did NACC have over each disclosure, what information was supplied, what decision was made, and what statutory reason supported that decision?
+
+The relevant evidence should include the original referral, acknowledgement, assessment, decision and any review correspondence.
+
+⸻
+
+PART VII — OMBUDSMAN AND ADMINISTRATIVE REVIEW
+
+16. ALLEGED MALADMINISTRATION
+
+The claimant alleges repeated failure by agencies to provide effective administrative remedies.
+
+The Ombudsman Act 1976 establishes the Commonwealth Ombudsman and defines its functions and powers.
+
+Ombudsman Act 1976 — Federal Register⁠
+
+Investigation questions
+
+For every Ombudsman complaint:
+
+	1.	complaint date;
+	2.	subject;
+	3.	evidence;
+	4.	jurisdiction;
+	5.	investigation decision;
+	6.	reasons;
+	7.	recommendations;
+	8.	response;
+	9.	closure;
+	10.	review rights.
+
+⸻
+
+PART VIII — PRIVACY AND SURVEILLANCE
+
+17. ALLEGED PRIVACY BREACHES
+
+The claimant alleges:
+
+	•	unauthorised access to information;
+	•	surveillance;
+	•	disclosure;
+	•	misuse of personal information;
+	•	digital interference;
+	•	access to complaints;
+	•	possible hacking.
+
+The Privacy Act 1988 is currently in force, with the Federal Register identifying compilation C2026C00227.
+
+Privacy Act 1988 — Federal Register⁠
+
+Evidence required
+
+	•	access logs;
+	•	privacy complaints;
+	•	system audit records;
+	•	emails;
+	•	metadata;
+	•	provider records;
+	•	device forensic evidence;
+	•	disclosure records.
+
+A claim of hacking or covert surveillance should not be attributed to a particular person or agency without technical evidence capable of establishing attribution.
+
+⸻
+
+PART IX — POLICE AND CRIMINAL COMPLAINTS
+
+18. ALLEGED FAILURE TO ACCEPT OR INVESTIGATE CRIME REPORTS
+
+The archive contains numerous allegations that crimes could not effectively be reported or investigated.
+
+The immediate requirement is a Police Reporting Register containing:
+
+	1.	incident;
+	2.	date;
+	3.	location;
+	4.	alleged offence;
+	5.	reporting method;
+	6.	police station/unit;
+	7.	event number;
+	8.	officer;
+	9.	evidence supplied;
+	10.	decision;
+	11.	reason;
+	12.	review.
+
+This is substantially stronger evidence than simply stating that police “refused to help”.
+
+⸻
+
+19. ALLEGED ASSAULTS
+
+The Crimes Register contains allegations concerning:
+
+	•	physical assaults;
+	•	hospital assaults;
+	•	assaults by contracted persons;
+	•	alleged sexual assaults;
+	•	alleged drug-facilitated assault;
+	•	threats.
+
+Each incident requires its own evidentiary file.
+
+Required evidence
+
+	•	medical records;
+	•	photographs;
+	•	police reports;
+	•	witness statements;
+	•	contemporaneous messages;
+	•	CCTV;
+	•	forensic evidence;
+	•	provider records.
+
+⸻
+
+20. ALLEGED STALKING AND HARASSMENT
+
+The archive identifies allegations of stalking, intimidation and harassment.
+
+Potential legal characterisation depends on jurisdiction and conduct.
+
+Evidence should establish:
+
+	•	repeated conduct;
+	•	dates;
+	•	communications;
+	•	physical proximity;
+	•	threats;
+	•	unwanted contact;
+	•	witnesses;
+	•	digital evidence;
+	•	resulting fear or harm.
+
+⸻
+
+PART X — FAMILY VIOLENCE
+
+21. ALLEGED FAMILY-VIOLENCE FAILURES
+
+The claimant alleges institutional failures concerning family violence.
+
+The Family Law Act 1975 defines family violence in s 4AB to include violent, threatening or other behaviour that coerces or controls a family member or causes fear, with examples including assault, sexual assault, stalking, property damage and unreasonable denial of financial autonomy.
+
+Family Law Act 1975 — Federal Register⁠
+
+Evidence
+
+	•	AVO material;
+	•	police records;
+	•	Safe Steps correspondence;
+	•	medical records;
+	•	financial records;
+	•	housing records;
+	•	provider records;
+	•	communications;
+	•	witness evidence.
+
+The existence of an AVO or family dispute must not itself be treated as proof of every underlying allegation.
+
+⸻
+
+PART XI — MEDICAL AND PSYCHIATRIC TREATMENT
+
+22. ALLEGED INVOLUNTARY TREATMENT
+
+The claimant alleges:
+
+	•	involuntary hospitalisation;
+	•	forced medication;
+	•	chemical restraint;
+	•	disputed psychiatric characterisations;
+	•	treatment under mental-health legislation.
+
+Evidence required
+
+	1.	statutory authority;
+	2.	treatment order;
+	3.	clinical assessment;
+	4.	medication chart;
+	5.	restraint documentation;
+	6.	observation records;
+	7.	review process;
+	8.	discharge summary;
+	9.	independent medical evidence.
+
+The legal framework governing these events may depend upon the State or Territory in which they occurred.
+
+⸻
+
+23. ALLEGED MISUSE OF PSYCHIATRIC LABELS
+
+The claimant disputes psychiatric descriptions used in institutional records.
+
+The proper forensic question is not whether a diagnosis is “true” based upon the claimant’s disagreement.
+
+The question is:
+
+What evidence supported the diagnosis at the time, what clinical process was followed, what alternative explanations were considered, and did the diagnosis subsequently affect administrative or legal decisions?
+
+⸻
+
+PART XII — EMPLOYMENT AND COMPENSATION
+
+24. WORKCOVER AND COMCARE
+
+The claimant alleges unpaid or inadequately resolved compensation matters.
+
+Required evidence
+
+	•	employment contract;
+	•	employment history;
+	•	injury reports;
+	•	workers’ compensation claim;
+	•	liability determination;
+	•	medical evidence;
+	•	payment history;
+	•	review;
+	•	tribunal/court proceedings.
+
+Urgent question
+
+Whether any unpaid amount is legally owed must be calculated from the primary compensation records.
+
+⸻
+
+25. ALLEGED UNLAWFUL TERMINATION OR EMPLOYMENT DETRIMENT
+
+The archive identifies alleged employment loss and professional consequences.
+
+Potential issues may include:
+
+	•	discrimination;
+	•	adverse action;
+	•	wrongful termination;
+	•	contractual breach;
+	•	workers’ compensation retaliation;
+	•	defamation.
+
+Each requires separate legal analysis.
+
+⸻
+
+PART XIII — FINANCIAL HARM
+
+26. TAX DEBT
+
+The claimant identifies an approximately $80,000 tax liability.
+
+This should be treated as a specific dispute requiring primary ATO records, including:
+
+	•	assessment;
+	•	notices;
+	•	tax returns;
+	•	objections;
+	•	correspondence;
+	•	review decisions.
+
+The existence of a tax liability does not itself establish wrongdoing.
+
+⸻
+
+27. BANKRUPTCY AND FINANCIAL DESTABILISATION
+
+The claimant identifies bankruptcy as a major consequence.
+
+The forensic calculation should separate:
+
+	1.	actual debt;
+	2.	disputed debt;
+	3.	lost income;
+	4.	lost business;
+	5.	compensation allegedly unpaid;
+	6.	expenses;
+	7.	housing costs;
+	8.	disability-service costs;
+	9.	tax liabilities;
+	10.	consequential loss.
+
+⸻
+
+28. ALLEGED $125,000 FRAUD
+
+The claimant’s brief refers to an alleged $125,000 fraud.
+
+This is a high-priority financial allegation.
+
+Evidence required
+
+	•	bank records;
+	•	transaction history;
+	•	contracts;
+	•	signatures;
+	•	correspondence;
+	•	identity records;
+	•	ASIC records;
+	•	police reports;
+	•	DSS records;
+	•	Federal Court records;
+	•	contemporaneous admissions, if any.
+
+The amount should not be treated as established until independently reconciled against primary financial records.
+
+⸻
+
+29. ALLEGED $500,000 DEBT
+
+The brief also refers to an alleged debt of approximately $500,000 involving a former partner.
+
+This should be treated as a separate civil/financial claim.
+
+Required evidence includes:
+
+	•	loan agreement;
+	•	bank transfers;
+	•	acknowledgements;
+	•	correspondence;
+	•	repayment history;
+	•	witnesses;
+	•	judgments;
+	•	limitation issues.
+
+⸻
+
+PART XIV — ASIC AND CORPORATE IDENTITY
+
+30. ALLEGED FRAUDULENT BUSINESS REGISTRATIONS
+
+The archive contains allegations concerning fraudulent or unauthorised:
+
+	•	ABN registrations;
+	•	ACN registrations;
+	•	company records;
+	•	identity use;
+	•	corporate filings.
+
+Required evidence
+
+	•	original ASIC extracts;
+	•	historical company records;
+	•	application forms;
+	•	director details;
+	•	signatures;
+	•	dates;
+	•	IP/device information where available;
+	•	correspondence;
+	•	ABR records;
+	•	bank records.
+
+Legal question
+
+Whether an entry was fraudulent must be established from the underlying registration evidence.
+
+⸻
+
+PART XV — DIGITAL IDENTITY AND CYBERSECURITY
+
+31. ALLEGED HACKING
+
+The claimant reports alleged hacking and digital interference.
+
+Evidence required
+
+	•	device forensic images;
+	•	authentication logs;
+	•	login history;
+	•	password-reset notices;
+	•	IP addresses;
+	•	email headers;
+	•	account recovery records;
+	•	hosting records;
+	•	GitHub activity;
+	•	website logs.
+
+Critical forensic principle
+
+Suspicious digital activity establishes a forensic lead, not automatically the identity of the perpetrator.
+
+⸻
+
+32. ALLEGED DESTRUCTION OR INTERFERENCE WITH DIGITAL IDENTITY
+
+The archive alleges damage to:
+
+	•	websites;
+	•	accounts;
+	•	publishing;
+	•	business identity;
+	•	digital records.
+
+The forensic investigation should identify:
+
+platform → account → owner → event → timestamp → log → change → responsible credentials → recovery evidence.
+
+⸻
+
+PART XVI — MEDIA AND REPUTATION
+
+33. ALLEGED DEFAMATION AND CHARACTER ASSASSINATION
+
+The claimant alleges false accusations and reputational damage.
+
+Evidence required
+
+	1.	exact publication;
+	2.	date;
+	3.	author;
+	4.	publisher;
+	5.	audience;
+	6.	exact words;
+	7.	factual meaning;
+	8.	evidence of falsity;
+	9.	evidence of damage;
+	10.	correction/refusal;
+	11.	legal response.
+
+No person should be publicly labelled a criminal solely because the claimant alleges that person made a false accusation.
+
+⸻
+
+34. ALLEGED MEDIA MISREPRESENTATION
+
+The archive contains allegations involving media organisations.
+
+These should be divided into:
+
+	•	factual inaccuracy;
+	•	editorial treatment;
+	•	omission;
+	•	defamation;
+	•	employment;
+	•	copyright;
+	•	privacy;
+	•	publication of disputed allegations.
+
+Each requires separate evidence.
+
+⸻
+
+PART XVII — ACCESS TO LEGAL ASSISTANCE
+
+35. ALLEGED FAILURE TO OBTAIN LEGAL REPRESENTATION
+
+The claimant reports unsuccessful attempts to obtain legal representation.
+
+The evidentiary record should include:
+
+	•	applications;
+	•	dates;
+	•	eligibility decisions;
+	•	refusal reasons;
+	•	conflict-of-interest reasons;
+	•	capacity limitations;
+	•	correspondence;
+	•	referrals.
+
+This establishes the factual history without assuming that a refusal was unlawful.
+
+⸻
+
+36. DISABILITY ADVOCACY
+
+The claimant reports unsuccessful attempts to obtain disability advocacy.
+
+The investigation should establish:
+
+	•	date of request;
+	•	organisation;
+	•	issue presented;
+	•	evidence supplied;
+	•	eligibility;
+	•	response;
+	•	reason for refusal;
+	•	alternative assistance offered.
+
+⸻
+
+PART XVIII — FINANCIAL INSTITUTIONS
+
+37. AFCA / FINANCIAL COMPLAINTS
+
+The claimant reports difficulty pursuing financial complaints and states that he was banned or prevented from further engagement with AFCA.
+
+This should be supported by:
+
+	•	AFCA correspondence;
+	•	membership/client records;
+	•	complaint numbers;
+	•	closure letters;
+	•	reasons;
+	•	review rights.
+
+The legal significance depends upon the exact AFCA decision and applicable framework.
+
+⸻
+
+38. HEALTH INSURANCE / HCF
+
+The claimant alleges that HCF refused income or financial assistance despite disability-related evidence.
+
+The matter should be separated into:
+
+	•	insurance contract;
+	•	policy terms;
+	•	claim;
+	•	medical evidence;
+	•	refusal;
+	•	internal review;
+	•	external review;
+	•	financial loss.
+
+⸻
+
+PART XIX — PUBLICATION AND EVIDENCE PRESERVATION
+
+39. PUBLIC ARCHIVE
+
+The archive itself is a significant preservation mechanism.
+
+Primary access points include:
+
+Barran Dodger GitHub Repository⁠
+
+Barran Dodger Live Archive⁠
+
+DrBarranDodger GitHub⁠
+
+Barran Dodger Archive — Base44⁠
+
+Barran Dodger public website⁠
+
+The existence of a public archive does not authenticate every document contained within it.
+
+For litigation purposes, originals, metadata and chain of custody remain important.
+
+⸻
+
+PART XX — URGENT FORENSIC PRIORITIES
+
+40. PRIORITY ONE — PERSONAL SAFETY
+
+Immediately preserve evidence concerning any current threat, including:
+
+	•	threats;
+	•	stalking;
+	•	physical harm;
+	•	communications;
+	•	police reports;
+	•	medical records;
+	•	witnesses.
+
+If there is an immediate physical danger, emergency services should be contacted rather than relying upon the archive or online publication as a safety mechanism.
+
+⸻
+
+41. PRIORITY TWO — PRESERVE ORIGINAL DOCUMENTS
+
+Preserve:
+
+	•	original PDFs;
+	•	emails;
+	•	attachments;
+	•	metadata;
+	•	photographs;
+	•	recordings;
+	•	medical records;
+	•	bank statements;
+	•	government letters;
+	•	tribunal orders.
+
+Do not edit the original evidence.
+
+Create working copies for annotation.
+
+⸻
+
+42. PRIORITY THREE — BUILD A MASTER CHRONOLOGY
+
+Every event should be reduced to:
+
+DATE → EVENT → ACTOR → DOCUMENT → LEGAL DUTY → RESPONSE → HARM → REVIEW → OUTCOME.
+
+⸻
+
+43. PRIORITY FOUR — BUILD AN EVIDENCE MATRIX
+
+Every allegation should receive:
+
+	•	unique evidence number;
+	•	date;
+	•	source;
+	•	document title;
+	•	page;
+	•	actor;
+	•	allegation;
+	•	legal issue;
+	•	corroboration;
+	•	contradiction;
+	•	evidentiary status.
+
+⸻
+
+44. PRIORITY FIVE — SEPARATE PROVEN FACT FROM ALLEGATION
+
+The master document should use five labels:
+
+ESTABLISHED DOCUMENTARY FACT
+
+Directly demonstrated by an authenticated primary record.
+
+DOCUMENTED CLAIM
+
+The claimant made the claim and a record of that claim exists.
+
+CORROBORATED ALLEGATION
+
+Multiple independent sources support the proposition.
+
+UNCORROBORATED ALLEGATION
+
+The allegation remains to be independently established.
+
+LEGAL QUESTION
+
+The facts may establish a legal issue requiring determination by a competent authority.
+
+This structure will make the archive considerably more useful to independent legal reviewers.
+
+⸻
+
+PART XXI — MASTER URGENT ISSUES REGISTER
+
+45. THE CURRENT URGENT ISSUE LIST
+
+The legal brief presently identifies the following principal matters requiring review:
+
+	1.	Immediate physical-safety concerns.
+	2.	Alleged threats to life.
+	3.	Alleged attempted killing or intentional harm requiring independent investigation.
+	4.	Alleged conspiracy or coordinated conduct.
+	5.	Alleged interference with access to justice.
+	6.	Alleged failure to investigate reported crimes.
+	7.	Alleged NDIS neglect.
+	8.	Alleged NDIS abuse.
+	9.	Alleged safeguarding failures.
+	10.	Alleged NDIS Code of Conduct breaches.
+	11.	Alleged provider misconduct.
+	12.	Alleged sexual misconduct by an NDIS-related worker.
+	13.	Alleged financial exploitation.
+	14.	Alleged coercive financial control.
+	15.	Alleged conflicts of interest.
+	16.	Alleged failure to respond to complaints.
+	17.	Alleged disability discrimination.
+	18.	Alleged failure to provide reasonable accommodation.
+	19.	Alleged misuse of disability-related information.
+	20.	AHRC complaint-handling issues.
+	21.	Public Interest Disclosure eligibility issues.
+	22.	Rejected PID issues.
+	23.	Alleged whistleblower retaliation.
+	24.	NACC referral/investigation issues.
+	25.	Ombudsman complaint-handling issues.
+	26.	Police complaint and investigation issues.
+	27.	IBAC/ICAC jurisdiction and complaint issues.
+	28.	Alleged physical assault.
+	29.	Alleged sexual assault.
+	30.	Alleged drug-facilitated assault.
+	31.	Alleged stalking.
+	32.	Alleged harassment.
+	33.	Alleged threats.
+	34.	Alleged family violence.
+	35.	Family-violence protection failures.
+	36.	AVO-related issues.
+	37.	Alleged involuntary medical treatment.
+	38.	Alleged forced medication.
+	39.	Alleged chemical restraint.
+	40.	Disputed psychiatric characterisation.
+	41.	Medical-record accuracy.
+	42.	WorkCover issues.
+	43.	Comcare issues.
+	44.	Unpaid compensation.
+	45.	Employment termination/detriment.
+	46.	Professional and business losses.
+	47.	Tax liability dispute.
+	48.	Bankruptcy and debt.
+	49.	Alleged $125,000 fraud.
+	50.	Alleged approximately $500,000 debt.
+	51.	Alleged fraudulent corporate registrations.
+	52.	ABN/ACN identity issues.
+	53.	ASIC records.
+	54.	Digital identity destruction.
+	55.	Alleged hacking.
+	56.	Alleged unauthorised surveillance.
+	57.	Privacy issues.
+	58.	Online interference.
+	59.	Defamation.
+	60.	Character-assassination allegations.
+	61.	Media publication disputes.
+	62.	Publisher disputes.
+	63.	Lost royalties.
+	64.	Financial-service disputes.
+	65.	AFCA issues.
+	66.	Health-insurance issues.
+	67.	Disability advocacy failures.
+	68.	Legal Aid issues.
+	69.	Failure to obtain legal representation.
+	70.	Housing instability.
+	71.	Homelessness.
+	72.	Alleged forced or coerced relocation.
+	73.	Economic deprivation.
+	74.	Loss of professional opportunities.
+	75.	Loss of business opportunities.
+	76.	Loss of reputation.
+	77.	Failure of institutional safeguarding.
+	78.	Repeated jurisdictional referrals.
+	79.	Repeated complaint closures.
+	80.	Potential systemic maladministration.
+
+⸻
+
+PART XXII — PRINCIPAL LEGISLATIVE INDEX
+
+46. Commonwealth legislation directly relevant to issues identified in this brief
+
+Disability
+
+Disability Discrimination Act 1992⁠
+
+The current compilation identifies direct and indirect disability discrimination and provisions concerning services, employment and administration of Commonwealth laws and programs.
+
+NDIS
+
+National Disability Insurance Scheme Act 2013⁠
+
+The current Federal Register identifies the latest compilation as C2026C00401, dated 19 September 2026.
+
+NDIS provider standards
+
+NDIS Provider Registration and Practice Standards Rules 2018⁠
+
+These rules establish NDIS Practice Standards applicable to registered providers.
+
+NDIS quality indicators
+
+NDIS Quality Indicators for Practice Standards Guidelines 2018⁠
+
+The current compilation is dated 1 July 2026.
+
+Whistleblowing
+
+Public Interest Disclosure Act 2013⁠
+
+The Act provides the Commonwealth framework for public-interest disclosures, investigation and protections against reprisals.
+
+Human rights
+
+Australian Human Rights Commission Act 1986⁠
+
+The current compilation is identified by the Federal Register as C2026C00214.
+
+Privacy
+
+Privacy Act 1988⁠
+
+The current compilation is C2026C00227.
+
+Administrative review / Ombudsman
+
+Ombudsman Act 1976⁠
+
+The current compilation is C2026C00208.
+
+Criminal conspiracy / Commonwealth offences
+
+Criminal Code Act 1995⁠
+
+The Criminal Code contains Commonwealth conspiracy provisions.
+
+Crimes Act 1914⁠
+
+Section 42 addresses conspiracy to defeat Commonwealth judicial power and sets out agreement, intention and overt-act elements.
+
+Family violence
+
+Family Law Act 1975⁠
+
+Section 4AB provides the Commonwealth definition of family violence for the purposes of that Act.
+
+⸻
+
+PART XXIII — MASTER EVIDENCE LINKS
+
+47. PRIMARY ARCHIVE
+
+Barran Dodger — GitHub Repository⁠
+
+48. PUBLIC DOCUMENTARY WEBSITE
+
+Barran Dodger — Public Archive⁠
+
+49. SECOND GITHUB PROFILE
+
+DrBarranDodger — GitHub⁠
+
+50. CRIMES REGISTER
+
+Crimes — Items 1–150⁠
+
+51. OFFICIAL DOCUMENT CATALOGUE
+
+Official Records Catalogue⁠
+
+52. PID EVIDENCE
+
+Public Interest Disclosures and Responses⁠
+
+53. LEGAL BRIEF
+
+Legal Brief — Archive Copy⁠
+
+54. REPORTS
+
+Forensic Reports — Archive⁠
+
+55. PUBLIC ARCHIVE
+
+Barran Dodger Archive — Base44⁠
+
+56. SECOND PUBLIC-FACING WEBSITE
+
+Barran Dodger — Documentary Record⁠
+
+⸻
+
+PART XXIV — FINAL URGENT LEGAL FORMULATION
+
+The central legal request arising from this schedule is:
+
+That an appropriately independent and competent legal, regulatory, investigative or judicial authority examine the underlying primary records, construct a verified chronology, identify the applicable statutory duties, determine whether those duties were discharged, assess the evidence supporting or contradicting each allegation, identify any unresolved criminal or civil matters, preserve relevant evidence, and determine what remedies or further investigations are legally available.
+
+The archive does not require the reader to accept every proposition.
+
+It provides the documentary pathway through which the propositions can be tested.
+
+The distinction between:
+
+FACT
+
+DOCUMENTED CLAIM
+
+CORROBORATED ALLEGATION
+
+UNCORROBORATED ALLEGATION
+
+LEGAL ISSUE
+
+and
+
+MATTER REQUIRING DETERMINATION
+
+should be maintained throughout the entire master document.
+
+That distinction is not a weakness in the case.
+
+It is the mechanism by which the evidentiary record can be subjected to independent scrutiny.
+
+⸻
+
+THE WITNESS REMAINS
+
+The record is preserved.
+
+The evidence is identified.
+
+The allegations are itemised.
+
+The applicable legal frameworks are identified.
+
+The unresolved questions remain open for independent determination.
+
+The evidence should speak for itself. 
+
+
+THE WITNESS REMAINS
+FORMAL LEGAL BRIEF AND FORENSIC REPORT
+In relation to the documentary record of Dr Richard William McLean
+also known publicly as Barran Dodger
+Date: 27 September 2026 Status: Evidentiary briefing document — allegations, documentary evidence and issues requiring independent determination Principal public repository: Barran Dodger — GitHub Archive Public archive: Barran Dodger Documentary Archive Additional archive: DrBarranDodger — GitHub
+ 
+⸻
+ 
+PART I — EXECUTIVE LEGAL BRIEF
+1. PURPOSE
+This Legal Brief presents the documentary record concerning Dr Richard William McLean and identifies the principal legal, administrative, human-rights, disability, financial, employment, medical, criminal and public-interest issues raised by that record.
+It is intended to provide a structured pathway through the evidence.
+It is not a judgment, conviction, judicial finding or declaration of criminal liability.
+Where the record contains an allegation rather than an established fact, the allegation is identified as such.
+Where the archive contains a primary government or institutional document, the document should be examined in its original context.
+Where corroboration remains outstanding, the matter is identified as requiring further investigation.
+The principal objective is therefore:
+To establish, document and preserve the factual record; identify the legal questions arising from it; identify the evidence capable of proving or disproving those questions; and distinguish established documentary facts from allegations, inference, interpretation and matters of faith.
+ 
+⸻
+ 
+2. PRINCIPAL ISSUE
+The central issue raised by the archive is whether a prolonged sequence of alleged administrative, financial, disability-service, employment, medical, legal and personal harms represents:
+	1.	a collection of unrelated disputes;
+	2.	repeated maladministration or institutional failure;
+	3.	failures of safeguarding and reasonable response;
+	4.	unlawful discrimination or other rights violations;
+	5.	individual misconduct;
+	6.	failures to investigate complaints;
+	7.	failures of duty or statutory compliance;
+	8.	or, if supported by further evidence, coordinated conduct involving multiple actors.
+The documentary record should be examined without presupposing the answer.
+ 
+⸻
+ 
+3. SCOPE OF THE DOCUMENTARY RECORD
+The public archive contains dedicated sections for:
+	•	official government documents;
+	•	correspondence;
+	•	official PDFs;
+	•	document dossiers;
+	•	PIDs;
+	•	reports;
+	•	forensic analysis;
+	•	evidence graphs;
+	•	testimony;
+	•	personal statements;
+	•	the Crimes schedule;
+	•	the Legal Brief;
+	•	the “Command”;
+	•	the “Inversion”;
+	•	exile/displacement material;
+	•	and related research.
+The principal repository is:
+Barrandodger — complete public GitHub repository
+The archive also contains an:
+Official Records Catalogue
+which identifies public records including FOI material, Ombudsman correspondence, AAT material, Comcare and WorkSafe records, PID decisions, NDIS correspondence, NCAT/NSW Trustee material, LECC, IBAC, AHRC, AFCA, CDDA and AFP correspondence, together with Federal Court PID material and discharge summaries.
+ 
+⸻
+ 
+4. EVIDENCE CLASSIFICATION
+The archive’s Crimes schedule uses an evidentiary classification which should govern this brief.
+A — Primary evidence
+A document directly generated by an agency, court, tribunal, provider, employer, government department or other relevant institution.
+B — Documentary evidence requiring completion or verification
+Material that appears documentary but requires additional pages, authentication, original copies or contextual verification.
+C — Corroboration required
+An allegation or proposition supported by some material but requiring independent evidence before a firm conclusion can be drawn.
+D — Narrative/testimony
+The author’s own account, recollection, interpretation or personal testimony.
+H — High-consequence allegation
+An allegation which, if established, could have serious criminal, civil, human-rights or public-interest consequences.
+H does not mean proven.
+This distinction is essential throughout the present report.
+ 
+⸻
+ 
+5. CORE DOCUMENTARY PROPOSITION
+The documentary record establishes, at minimum, that the claimant has repeatedly interacted with numerous Australian institutions and has made repeated complaints, applications, requests for assistance, disclosures and challenges concerning alleged harm.
+The record also contains agency responses, refusals, referrals, determinations, correspondence and other institutional documents.
+The important forensic question is therefore not simply whether a complaint was made.
+It is:
+What was alleged, what evidence accompanied the allegation, what did the receiving institution know, what legal authority did it possess, what action did it take, what reasons did it provide, and what happened afterwards?
+ 
+⸻
+ 
+PART II — PRINCIPAL ALLEGATIONS
+6. ALLEGED HUMAN-RIGHTS VIOLATIONS
+The archive raises allegations concerning:
+	1.	discrimination;
+	2.	disability-related discrimination;
+	3.	denial of reasonable assistance;
+	4.	privacy;
+	5.	dignity;
+	6.	access to services;
+	7.	access to justice;
+	8.	treatment within health institutions;
+	9.	alleged family-violence-related failures;
+	10.	economic deprivation;
+	11.	homelessness;
+	12.	institutional neglect;
+	13.	alleged retaliation following complaints;
+	14.	alleged failure to investigate.
+The governing Commonwealth statute includes the Australian Human Rights Commission Act 1986, which remains in force and provides the statutory framework for the Australian Human Rights Commission.
+Australian Human Rights Commission Act 1986 — Federal Register
+The fact that a complaint was rejected, closed or not investigated does not itself prove that the underlying human-rights allegation was true or false.
+The relevant evidence must establish:
+	•	what complaint was lodged;
+	•	what evidence was provided;
+	•	what jurisdiction existed;
+	•	what decision was made;
+	•	what statutory basis was relied upon;
+	•	and whether review mechanisms were available.
+ 
+⸻
+ 
+7. NDIS AND DISABILITY-SERVICE ALLEGATIONS
+The brief alleges serious concerns involving NDIS-related services and providers, including:
+	1.	neglect;
+	2.	inadequate safeguarding;
+	3.	financial hardship;
+	4.	alleged coercive financial arrangements;
+	5.	failure to respond to complaints;
+	6.	alleged failure to respond to violence or abuse;
+	7.	alleged sexual misconduct;
+	8.	alleged conflicts of interest;
+	9.	alleged failure to provide effective advocacy;
+	10.	alleged failure to investigate complaints;
+	11.	alleged continuation of arrangements the claimant says were harmful;
+	12.	alleged failure to provide appropriate support during periods of vulnerability.
+The NDIS Code of Conduct applies to NDIS providers and persons employed or otherwise engaged by NDIS providers. The Code requires, among other things, respect for individual rights and privacy, safe and competent services, integrity, honesty and transparency, action on safety concerns, and reasonable steps to prevent and respond to violence, exploitation, neglect, abuse and sexual misconduct.
+NDIS Code of Conduct — Federal Register of Legislation
+The NDIS Act also provides the statutory framework for the Code and identifies non-compliance as a civil-penalty matter.
+Accordingly, each alleged incident should be tested against:
+Issue A — Conduct
+What exactly occurred?
+Issue B — Code coverage
+Was the person or provider subject to the Code?
+Issue C — Knowledge
+Was the provider aware of the alleged risk?
+Issue D — Response
+What action was taken?
+Issue E — Reasonableness
+Was the response consistent with the applicable legal and professional obligations?
+Issue F — Harm
+What actual loss or injury resulted?
+ 
+⸻
+ 
+8. ALLEGED SEXUAL MISCONDUCT
+The archive contains an allegation concerning an NDIS-related worker who allegedly:
+	•	accessed complaints;
+	•	attended the claimant’s home;
+	•	engaged in sexual activity;
+	•	and subsequently disappeared from contact.
+This allegation is recorded in the archive as a serious allegation requiring documentary and independent corroboration.
+The relevant evidence should include, where available:
+	1.	worker identity;
+	2.	employment/provider records;
+	3.	complaint-access records;
+	4.	communications;
+	5.	appointment records;
+	6.	phone records;
+	7.	contemporaneous messages;
+	8.	witness evidence;
+	9.	provider investigation records;
+	10.	NDIS Commission records;
+	11.	police records;
+	12.	medical evidence where relevant.
+The allegation must remain distinguished from any established finding.
+ 
+⸻
+ 
+9. PUBLIC-INTEREST DISCLOSURES
+The archive contains a dedicated:
+PID and Responses section
+and identifies disputes concerning:
+	•	eligibility;
+	•	employment status;
+	•	rejection of disclosures;
+	•	agency responses;
+	•	alleged whistleblower retaliation;
+	•	access to review;
+	•	and institutional responses to complaints.
+A key legal question is whether each disclosure was assessed under the correct statutory framework.
+The investigation should reconstruct:
+Disclosure → receiving authority → jurisdiction → assessment → reasons → review → outcome → subsequent consequences.
+ 
+⸻
+ 
+10. ALLEGED FAILURE TO INVESTIGATE
+The archive identifies numerous situations in which the claimant says that complaints were:
+	•	rejected;
+	•	redirected;
+	•	closed;
+	•	referred elsewhere;
+	•	not investigated;
+	•	or otherwise failed to produce the requested investigation.
+This creates a distinct legal issue from the truth of the underlying allegation.
+There are therefore two separate questions:
+Question 1
+Was the underlying alleged misconduct actually committed?
+Question 2
+Did the institution properly discharge its legal or administrative responsibility in responding to the complaint?
+A failure to establish Question 1 does not automatically answer Question 2.
+ 
+⸻
+ 
+11. POLICE AND LAW-ENFORCEMENT ISSUES
+The Crimes schedule contains allegations concerning inability to report incidents to police, alleged failures to investigate, alleged police misconduct and alleged failures of law-enforcement response.
+The relevant evidence should include:
+	•	police event numbers;
+	•	statements;
+	•	recorded calls;
+	•	complaint forms;
+	•	body-worn-camera material;
+	•	police notes;
+	•	correspondence;
+	•	refusal notices;
+	•	supervisory reviews;
+	•	internal complaint outcomes.
+The existence of an unsuccessful police complaint does not itself establish either that the alleged crime occurred or that police misconduct occurred.
+ 
+⸻
+ 
+12. ALLEGED CONSPIRACY
+The archive raises allegations of coordinated conduct involving multiple institutions and individuals.
+This is a particularly high evidentiary threshold.
+Under s 11.5 of the Commonwealth Criminal Code, conspiracy requires an agreement between persons, the requisite intention that the offence be committed pursuant to that agreement, and an overt act pursuant to the agreement.
+Criminal Code Act 1995 — Federal Register
+Therefore:
+A sequence of adverse events does not, without additional evidence, establish a criminal conspiracy.
+Evidence capable of advancing such an allegation would include:
+	1.	communications between alleged participants;
+	2.	instructions;
+	3.	agreements;
+	4.	shared plans;
+	5.	coordinated actions;
+	6.	contemporaneous knowledge;
+	7.	documentary cross-referencing;
+	8.	financial links;
+	9.	witness testimony;
+	10.	digital evidence.
+ 
+⸻
+ 
+13. ALLEGED ATTEMPT TO CAUSE DEATH
+The archive contains its most serious allegations under the Crimes schedule, including allegations that conduct contributed to or was intended to contribute to the claimant’s death.
+The appropriate legal approach is exceptionally strict.
+The report should not state as established fact that a person attempted to murder the claimant unless competent evidence establishes the necessary elements.
+The evidence should instead be assembled under:
+13.1 Medical chronology
+	•	injury;
+	•	admission;
+	•	treatment;
+	•	medication;
+	•	clinical observations;
+	•	discharge.
+13.2 Threat chronology
+	•	alleged threats;
+	•	communications;
+	•	witnesses;
+	•	contemporaneous reports.
+13.3 Causation
+	•	what caused the injury;
+	•	whether intentional conduct is alleged;
+	•	whether alternative explanations exist;
+	•	what independent experts conclude.
+13.4 Institutional knowledge
+	•	who knew about the risk;
+	•	when;
+	•	what intervention was requested;
+	•	what response followed.
+The archive itself identifies this as a high-consequence allegation rather than a proven homicide finding.
+ 
+⸻
+ 
+14. ALLEGED FORCED MEDICATION AND MENTAL-HEALTH INTERVENTION
+The claimant alleges:
+	•	involuntary hospitalisation;
+	•	forced medication;
+	•	chemical restraint;
+	•	use of psychiatric diagnoses in circumstances disputed by the claimant;
+	•	and treatment under mental-health legislation.
+These matters must be reconstructed from primary records.
+Required evidence includes:
+	1.	admission records;
+	2.	statutory forms;
+	3.	treatment orders;
+	4.	medication charts;
+	5.	restraint records;
+	6.	nursing notes;
+	7.	medical notes;
+	8.	discharge summaries;
+	9.	review documents;
+	10.	independent expert assessment.
+The existence of a psychiatric diagnosis does not establish that every allegation made by the claimant is false.
+Conversely, disagreement with a diagnosis does not establish that the diagnosis was improperly made.
+The legal question is what the contemporaneous records establish.
+ 
+⸻
+ 
+15. ALLEGED SURVEILLANCE, HACKING AND DIGITAL HARASSMENT
+The Crimes schedule contains allegations concerning:
+	•	surveillance;
+	•	hacking;
+	•	digital intrusion;
+	•	online interference;
+	•	identity destruction;
+	•	organised harassment;
+	•	alleged intelligence involvement.
+These matters require technical evidence.
+The appropriate evidentiary standard includes:
+	•	device imaging;
+	•	account logs;
+	•	server records;
+	•	metadata;
+	•	IP evidence;
+	•	authentication;
+	•	cybersecurity expert analysis;
+	•	provider records;
+	•	contemporaneous screenshots;
+	•	chain of custody.
+Attribution to an intelligence agency or other organisation cannot safely be inferred merely from the experience of being monitored or from unexplained online events.
+ 
+⸻
+ 
+16. FINANCIAL HARM
+The claimant alleges significant financial consequences including:
+	•	bankruptcy;
+	•	debt;
+	•	unpaid compensation;
+	•	tax liabilities;
+	•	business losses;
+	•	lost income;
+	•	disputed financial entitlements;
+	•	provider charges;
+	•	denied assistance;
+	•	alleged financial exploitation.
+These matters should be converted into an auditable damages schedule.
+For every amount:
+Claim → documentary source → calculation → causation → mitigation → independent verification → legal basis.
+No global damages figure should be treated as established until that process has been completed.
+ 
+⸻
+ 
+17. WORKPLACE AND COMPENSATION ISSUES
+The archive identifies employment and compensation disputes involving:
+	•	WorkCover;
+	•	Comcare;
+	•	employment records;
+	•	compensation claims;
+	•	alleged non-payment;
+	•	alleged termination;
+	•	professional consequences.
+The relevant documents should be organised chronologically.
+For each claim:
+	1.	employer;
+	2.	employment period;
+	3.	injury/event;
+	4.	claim date;
+	5.	determination;
+	6.	review;
+	7.	appeal;
+	8.	medical evidence;
+	9.	amount claimed;
+	10.	amount paid;
+	11.	amount disputed;
+	12.	final legal position.
+ 
+⸻
+ 
+18. TAXATION ISSUES
+The claimant’s brief identifies a disputed tax liability of approximately $80,000.
+This should be treated as a specific financial dispute, not automatically as evidence of corruption.
+The evidence required includes:
+	•	assessment;
+	•	notice of assessment;
+	•	tax returns;
+	•	correspondence;
+	•	objections;
+	•	ATO reasons;
+	•	review decisions;
+	•	underlying income records;
+	•	limitation issues;
+	•	payment history.
+The legal question is whether the assessment was correct, reviewable and lawfully administered.
+ 
+⸻
+ 
+19. BANKRUPTCY
+The claimant identifies bankruptcy as a major consequence of the broader financial circumstances.
+The forensic analysis should distinguish:
+	•	debts actually incurred;
+	•	disputed debts;
+	•	statutory liabilities;
+	•	judgments;
+	•	business losses;
+	•	lost income;
+	•	consequential losses;
+	•	and alleged institutional causes.
+Bankruptcy itself is a legal status.
+It does not independently establish why the bankruptcy occurred.
+ 
+⸻
+ 
+20. HOMELESSNESS AND ALLEGED EXILE
+The archive describes periods of homelessness and what the claimant calls internal exile.
+The report records that terminology as the claimant’s description.
+To establish a legally cognisable claim arising from displacement, evidence would be required showing:
+	1.	housing circumstances;
+	2.	relevant decisions;
+	3.	responsible actor;
+	4.	authority relied upon;
+	5.	warnings;
+	6.	alternatives;
+	7.	requests for assistance;
+	8.	available accommodation;
+	9.	resulting displacement;
+	10.	foreseeable consequences.
+The distinction between voluntary relocation, administrative displacement, family-violence displacement, housing failure, and unlawful forced removal must be preserved.
+ 
+⸻
+ 
+21. ALLEGED FAMILY-VIOLENCE-RELATED FAILURES
+The claimant alleges that institutions failed to protect him from family violence and continued arrangements he says prolonged the circumstances.
+This should be investigated through:
+	•	family-violence reports;
+	•	police records;
+	•	AVO material;
+	•	medical records;
+	•	provider records;
+	•	housing records;
+	•	correspondence;
+	•	requests for assistance;
+	•	risk assessments;
+	•	agency responses.
+The fact that a person alleges family violence does not itself establish the allegation.
+Equally, an agency’s refusal to act does not necessarily establish that no risk existed.
+The evidence must be examined.
+ 
+⸻
+ 
+22. ALLEGED DEFAMATION, VILIFICATION AND FALSE ACCUSATIONS
+The claimant alleges that false accusations damaged his reputation and resulted in social and institutional consequences.
+Potentially relevant evidence includes:
+	•	the exact statement;
+	•	date;
+	•	speaker/publisher;
+	•	audience;
+	•	context;
+	•	evidence of falsity;
+	•	evidence of publication;
+	•	resulting damage;
+	•	responses or corrections;
+	•	applicable privilege or statutory protections.
+The exact words should be preserved rather than paraphrased.
+ 
+⸻
+ 
+23. MEDIA AND PUBLISHING ISSUES
+The claimant alleges adverse treatment involving media and publishing organisations.
+These allegations should be separated into:
+Editorial disagreement
+A publisher or media outlet declining to publish material.
+Employment/contract dispute
+Termination or contractual disagreement.
+Defamation
+Publication of allegedly false and damaging material.
+Copyright/intellectual property
+Unauthorised use or alteration.
+Other misconduct
+Any conduct capable of independent legal characterisation.
+Each requires separate evidence and legal analysis.
+ 
+⸻
+ 
+PART III — NAMED INSTITUTIONS
+24. INSTITUTIONAL MATRIX
+The archive refers to numerous institutions, including:
+	•	NDIS;
+	•	NDIS Quality and Safeguards Commission;
+	•	Department of Social Services;
+	•	ASIC;
+	•	AHRC;
+	•	NACC;
+	•	Ombudsman bodies;
+	•	AFCA;
+	•	Comcare;
+	•	WorkCover/WorkSafe;
+	•	AAT;
+	•	Federal Court;
+	•	police;
+	•	IBAC;
+	•	ICAC;
+	•	AFP;
+	•	Legal Aid;
+	•	disability advocacy organisations;
+	•	health institutions;
+	•	private disability providers;
+	•	financial institutions;
+	•	media organisations.
+The inclusion of an institution in the archive means that it appears in the claimant’s documentary history.
+It does not constitute a finding of wrongdoing.
+ 
+⸻
+ 
+25. INDIVIDUALS
+The archive names individual persons in connection with particular allegations.
+For publication and legal purposes, the following rule should apply:
+No individual should be described as a criminal, murderer, conspirator, corrupt official, terrorist, abuser or other offender unless the relevant proposition has been established by a competent court, tribunal or other authoritative finding, or the statement is clearly identified as an allegation attributed to the claimant.
+This protects the integrity of the archive while preserving the claimant’s right to document his allegations.
+ 
+⸻
+ 
+PART IV — CRIMES SCHEDULE
+26. THE 150-ITEM CRIMES REGISTER
+The archive maintains a dedicated:
+CRIMES — ITEMS 1–150
+The 150 entries include allegations/research questions concerning:
+	1.	coercive legal proceedings;
+	2.	disability discrimination;
+	3.	sexual assault;
+	4.	childhood abuse;
+	5.	physical assault;
+	6.	hospital assault;
+	7.	vilification;
+	8.	documented human-rights concerns;
+	9.	alleged coordinated victimisation;
+	10.	surveillance;
+	11.	financial exploitation;
+	12.	employment exploitation;
+	13.	underpayment;
+	14.	fraud;
+	15.	suicidal crisis associated with alleged abuse;
+	16.	drug-related issues;
+	17.	police non-intervention;
+	18.	physical harm;
+	19.	mental-health legislation;
+	20.	alleged intentional harm;
+	21.	public-official non-intervention;
+	22.	whistleblower protection;
+	23.	NDIS service removal;
+	24.	neglect;
+	25.	FOI/PID issues;
+	26.	international assistance;
+	27.	family-violence assistance;
+	28.	childhood redress;
+	29.	emergency financial aid;
+	30.	bankruptcy;
+	31.	property occupation;
+	32.	defamation;
+	33.	business losses;
+	34.	stalking;
+	35.	violent crime;
+	36.	deception;
+	37.	privacy;
+	38.	fraud;
+	39.	royalties;
+	40.	compensation;
+	41.	government non-intervention;
+	42.	drug-facilitated sexual assault;
+	43.	contracted-person assault;
+	44.	theft;
+	45.	conspiracy;
+	46.	public defamation;
+	47.	employment termination;
+	48.	government-investigation harassment;
+	49.	provider sexual assault;
+	50.	hacking;
+	51.	digital identity destruction;
+	52.	coerced relocation;
+	53.	professional malpractice;
+	54.	further conspiracy allegations;
+	55.	unjust targeting;
+	56.	political scapegoating;
+	57.	assault;
+	58.	removal from home;
+	59.	corruption;
+	60.	withheld financial assistance;
+	61.	workers’ compensation;
+	62.	political corruption;
+	63.	sound-based harassment;
+	64.	targeted persecution;
+	65.	alleged cover-up;
+	66.	hospital liability;
+	67.	financial obligations;
+	68.	threats/extortion;
+	69.	inability to report;
+	70.	false accusations;
+together with further entries extending the register to 150.
+The complete list should be read directly from the archive rather than reconstructed from memory:
+Open the complete Crimes Register
+ 
+⸻
+ 
+27. LEGAL SIGNIFICANCE OF THE CRIMES REGISTER
+The Crimes register should be treated as an investigative index.
+It identifies questions requiring documentary examination.
+It should not be presented as a list of 150 proven offences.
+The evidentiary classifications contained in the archive allow each entry to be progressively upgraded where independent evidence is obtained.
+ 
+⸻
+ 
+PART V — FORENSIC ANALYSIS
+28. SYSTEMICITY
+The claimant’s central contention is that the record is not merely a series of isolated incidents.
+That proposition can be tested objectively.
+The forensic indicators include:
+	1.	repeated complaints;
+	2.	repeated institutional contact;
+	3.	repeated adverse outcomes;
+	4.	repeated jurisdictional referrals;
+	5.	repeated requests for assistance;
+	6.	repeated financial consequences;
+	7.	repeated disability-service issues;
+	8.	repeated allegations of inadequate investigation;
+	9.	repeated requests for review;
+	10.	continuing consequences over time.
+These indicators demonstrate a pattern of repeated institutional interaction.
+They do not, without more, establish a coordinated conspiracy.
+ 
+⸻
+ 
+29. THE “UNSPOKEN COMMAND” HYPOTHESIS
+The archive uses concepts including:
+	•	Administrative Neutralisation;
+	•	Administrative Attrition;
+	•	Command of Silence;
+	•	Categorical Exclusion;
+	•	Weaponisation of Time;
+	•	Economic and Professional Erasure;
+	•	Social and Geographic Dislocation;
+	•	Pathologisation;
+	•	Identity Dilution.
+These should be treated as analytical hypotheses.
+The most defensible formulation is:
+The cumulative record raises the question whether multiple administrative processes operated in a functionally similar manner, repeatedly preventing the claimant’s complaints from producing an effective remedy. The documentary record should be examined to determine whether this resulted from ordinary institutional fragmentation, maladministration, systemic bias, inadequate safeguards, or deliberate coordination.
+This is the appropriate forensic question.
+ 
+⸻
+ 
+30. THE “SACRIFICE” ALLEGATION
+The archive identifies an alleged statement associated with an NDIS manager:
+“You will be sacrificed.”
+The statement should be treated as an allegation until the original communication is located and authenticated.
+The evidentiary questions are:
+	1.	Did the statement occur?
+	2.	Who made it?
+	3.	In what context?
+	4.	When?
+	5.	To whom?
+	6.	Was it recorded contemporaneously?
+	7.	Does an original email, message or recording exist?
+	8.	Is there corroboration?
+	9.	What did the speaker mean?
+	10.	What occurred afterwards?
+If authenticated, the statement could become significant contextual evidence.
+Its legal significance cannot be determined without the surrounding evidence.
+ 
+⸻
+ 
+31. CAUSATION
+A recurring issue throughout the brief is causation.
+The report must distinguish:
+Event
+from
+alleged wrongdoing
+from
+legal breach
+from
+actual harm
+from
+causation
+from
+quantified loss.
+For example:
+A benefit was denied.
+does not automatically establish:
+the denial was unlawful.
+And:
+the denial was unlawful
+does not automatically establish:
+the denial caused every subsequent loss.
+Each causal step requires evidence.
+ 
+⸻
+ 
+32. EVIDENTIARY GAPS
+The archive identifies matters requiring further investigation.
+These include:
+	•	original documents;
+	•	authentication;
+	•	missing pages;
+	•	independent witnesses;
+	•	police records;
+	•	medical records;
+	•	financial records;
+	•	digital forensic evidence;
+	•	original communications;
+	•	agency internal records;
+	•	metadata;
+	•	expert evidence;
+	•	causal analysis.
+These gaps should be treated as a research agenda rather than ignored.
+ 
+⸻
+ 
+33. REQUIRED FORENSIC EVIDENCE REGISTER
+Every allegation should ultimately be entered into a table containing:
+No.	Allegation	Date	Actor	Evidence	Classification	Corroboration	Legal issue	Status
+1	[allegation]	[date]	[actor]	[document]	A/B/C/D/H	[source]	[law]	Open
+2	[allegation]	[date]	[actor]	[document]	A/B/C/D/H	[source]	[law]	Open
+3	[allegation]	[date]	[actor]	[document]	A/B/C/D/H	[source]	[law]	Open
+The purpose is to ensure that every serious proposition can be audited.
+ 
+⸻
+ 
+PART VI — RELIEF AND ACTION SOUGHT
+34. REQUEST FOR INDEPENDENT REVIEW
+The appropriate request arising from this brief is for an independent competent authority to:
+	1.	receive the documentary archive;
+	2.	preserve the original records;
+	3.	authenticate disputed documents;
+	4.	construct a chronology;
+	5.	identify relevant decision-makers;
+	6.	identify statutory duties;
+	7.	review complaint-handling processes;
+	8.	assess NDIS Code compliance where applicable;
+	9.	assess financial claims;
+	10.	assess employment and compensation matters;
+	11.	examine medical and safeguarding records;
+	12.	examine allegations of violence and sexual misconduct;
+	13.	examine allegations of digital intrusion where technical evidence exists;
+	14.	determine whether criminal referrals are warranted;
+	15.	determine whether civil or administrative remedies are available;
+	16.	identify unresolved evidence;
+	17.	provide reasons for each determination.
+ 
+⸻
+ 
+35. REQUEST FOR PRESERVATION OF RECORDS
+The claimant seeks preservation of potentially relevant records including:
+	•	government correspondence;
+	•	complaint records;
+	•	case-management records;
+	•	NDIS records;
+	•	provider records;
+	•	medical records;
+	•	police records;
+	•	telephone records;
+	•	email records;
+	•	electronic metadata;
+	•	financial records;
+	•	tribunal records;
+	•	employment records;
+	•	PID records;
+	•	FOI records;
+	•	internal decision-making records.
+Preservation is particularly important where records may otherwise be destroyed under ordinary retention schedules.
+ 
+⸻
+ 
+36. REQUEST FOR AN INDEPENDENT CHRONOLOGY
+The archive should ultimately be reduced to a verified chronology:
+DATE → EVENT → DOCUMENT → ACTOR → KNOWLEDGE → DECISION → RESPONSE → CONSEQUENCE → REVIEW → OUTCOME.
+This chronology should become the principal litigation and investigation document.
+ 
+⸻
+ 
+37. LEGAL POSITION
+The present brief does not ask a reader to accept every allegation as established.
+It asks that:
+	1.	primary records be examined;
+	2.	allegations be investigated where legally appropriate;
+	3.	disputed evidence be authenticated;
+	4.	contradictory evidence be disclosed;
+	5.	legal duties be identified;
+	6.	decision-making be reviewed;
+	7.	causation be assessed;
+	8.	and unresolved questions be answered.
+ 
+⸻
+ 
+38. CONCLUSION
+The documentary record presents a substantial and complex history of interactions between the claimant and Australian government agencies, tribunals, disability providers, health institutions, financial bodies, employers and other organisations.
+The record contains both documentary evidence and allegations.
+Some matters may be capable of verification directly from primary records.
+Others require independent corroboration.
+Some propositions are legal questions rather than established facts.
+The central forensic task is therefore to reconstruct the record without either exaggerating or minimising it.
+The decisive questions are:
+What happened?
+Who knew?
+Who acted?
+Who had a legal duty?
+What evidence proves the event?
+What evidence contradicts it?
+What harm resulted?
+What remedy was available?
+Was the remedy provided?
+And, where a serious allegation remains unresolved, what evidence is required to determine it?
+The archive provides the starting evidentiary corpus for answering those questions.
+Its purpose is preservation, accessibility and independent examination.
+ 
+⸻
+ 
+39. FINAL FORENSIC STATEMENT
+The claimant’s case should not be reduced to either of two extremes:
+“Everything alleged is proven.”
+or
+“Nothing alleged is credible.”
+The proper legal approach is documentary.
+Each proposition must be tested against its source.
+Each source must be authenticated where necessary.
+Each allegation must be measured against the applicable legal elements.
+Each institutional response must be considered in context.
+Each claimed loss must be quantified.
+Each causal proposition must be independently supported.
+And each serious allegation must remain clearly distinguished from a proven finding until competent authority determines otherwise.
+Accordingly:
+THE PURPOSE OF THIS LEGAL BRIEF IS TO PRESERVE THE RECORD, IDENTIFY THE ISSUES, TRACE THE EVIDENCE, AND ENABLE INDEPENDENT DETERMINATION.
+THE RECORD REMAINS OPEN.
+THE EVIDENCE REMAINS AVAILABLE.
+THE WITNESS REMAINS.
+ 
+⸻
+ 
+PRINCIPAL SOURCE INDEX
+Barran Dodger — principal GitHub archive
+Barran Dodger — live public archive
+DrBarranDodger — GitHub profile
+Official Records Catalogue
+Legal Brief — archive source
+Crimes 1–150 — archive source
+Reports — archive source
+PIDs and Responses
+NDIS Code of Conduct — Federal Register
+National Disability Insurance Scheme Act 2013
+Australian Human Rights Commission Act 1986
+Criminal Code Act 1995
+ 
+⸻
+ 
+Document status: Master Legal Brief Evidentiary status: Forensic briefing / finding aid Not a judicial determination Not legal advice All allegations remain subject to evidence, corroboration and competent legal determination.
+
