@@ -214,5 +214,6 @@ Promise.all([0,1,2].map(i=>fetch('papers/phd-part-'+i+'.txt').then(r=>r.ok?r.tex
 .then(parts=>{document.getElementById('body').textContent=parts.join('');})
 .catch(()=>{document.getElementById('body').textContent='Load failed — use Download PDF or Print.';});
 </script>
+<script src="https://wezzo72.github.io/Barrandodger/download-counter.js" defer></script>
 </body>
 </html>
