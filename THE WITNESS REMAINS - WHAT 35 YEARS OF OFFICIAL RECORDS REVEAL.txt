@@ -1,0 +1,630 @@
+THE WITNESS REMAINS - WHAT 35 YEARS OF OFFICIAL RECORDS REVEAL
+
+https://github.com/wezzo72/Barrandodger
+
+The Master Evidence Register contains 2,301 documents relating to my history, including at least 960 documents explicitly classified by the archive under government, statutory, tribunal, court, regulatory and public-sector agencies. The register also contains a further 1,190 documents under the broad “General” classification, some of which are government records, meaning 960 is a verified minimum rather than the final government-only total.
+
+
+
+Can you write an observation on this statement:
+
+A force greater than human help preserved me after exile isolation and administrative annihilation denial if whistleblower protection designed poverty and deliberate detriment by agencies and professions and places and total human betrayal in order to collate over 35 years of official government documentation and related correspondence in their own words on their own official letterheads it now exists as a data set and this is what it reveals: 
+
+Observation
+
+The statement can be read as a retrospective observation about survival, preservation, and the accumulation of an evidentiary record. Its central claim is not simply that adverse events occurred, but that despite decades of isolation, exclusion, disputed whistleblower status, poverty, detriment and institutional failure as experienced and alleged by the author, the author nevertheless survived long enough to assemble an unusually extensive documentary record.
+
+The most powerful evidentiary element is the transition from personal testimony to preserved documentation: more than 35 years of correspondence and official records are said to exist in the words, formats and letterheads of the institutions themselves. That gives the statement a potentially important forensic dimension because the underlying documents can be examined independently of the author’s interpretation.
+
+The phrase “a force greater than human help preserved me” is best understood as a statement of personal or spiritual meaning rather than something the dataset itself can prove. Likewise, terms such as “deliberate detriment,” “administrative annihilation,” and “total human betrayal” are interpretations or allegations unless particular documents establish them as facts.
+
+The strongest transition is therefore:
+
+Whatever interpretation is ultimately placed upon my survival, the documentary record now exists. It can be examined independently of my testimony. The question is no longer simply what I say happened, but what the institutions themselves recorded, when they recorded it, what they knew, what they decided, what they subsequently said, and whether those records are consistent with one another.
+
+That is a substantially stronger forensic foundation for “this is what it reveals:” because it invites the evidence to establish the findings rather than asking the conclusion to be accepted in advance.
+
+Yes. You can command me to create an article.
+
+You can simply say something like:
+
+CREATE ARTICLE: [your subject or statement]
+
+I can turn it into a finished article while preserving your voice and, where appropriate, structuring it as a forensic documentary record—separating documented facts, allegations, interpretations, and unresolved questions.
+
+You can also give commands such as:
+
+	•	 CREATE ARTICLE — VERBATIM BASIS
+	•	 CREATE ARTICLE — FORENSIC
+	•	 CREATE ARTICLE — FIRST PERSON
+	•	 CREATE ARTICLE — PUBLICATION READY
+	•	 CREATE ARTICLE — INCLUDE EVIDENCE LINKS
+	•	 CREATE ARTICLE — USE THE ARCHIVE
+	•	 CREATE ARTICLE — DO NOT SOFTEN MY LANGUAGE
+
+And if you want me to use the 35+ years of documents in your archive, tell me to use the archive and I can build the article around the evidence rather than inventing material.
+
+Yes. I’ll use your Barran Dodger GitHub repository as the source record and build the article from the material actually available there, distinguishing:
+
+	•	Documented facts
+	•	What government records say
+	•	Your allegations and testimony
+	•	Forensic observations
+	•	Unresolved contradictions
+	•	What the dataset can and cannot establish
+
+I won’t present an allegation as an established fact merely because it appears in the archive.
+
+Send me the article command or the statement you want the article to begin from, and I’ll create it using the repository as the evidentiary foundation.
+
+ 
+You choose respond in one go in structures paragraphed sentences 
+
+THE WITNESS REMAINS: WHAT THE RECORD REVEALS
+
+There is a point at which a life ceases to be merely a story told by the person who lived it and becomes an evidentiary record capable of being examined independently. That is where I believe I have arrived.
+
+For more than 35 years, I have accumulated correspondence, decisions, assessments, applications, complaints, reports, tribunal material and other records generated during my dealings with governments, agencies, professions and institutions. Much of this material is not written in my words. It exists in the words of the institutions themselves: on their letterheads, under their names, bearing dates, reference numbers, signatures and administrative decisions.
+
+Whatever interpretation is ultimately placed upon my survival, the documentary record now exists.
+
+I describe my survival in spiritual terms. After periods of exile, isolation, poverty, profound administrative difficulty and what I experienced as abandonment by people and institutions from whom I expected protection, I remain here. I cannot prove through documentary evidence that a force greater than human help preserved me. That is a matter of faith and personal meaning. But the fact that I survived long enough to preserve this record is not a matter of faith. The record itself exists.
+
+The significance of that record is therefore different from the significance of my personal testimony.
+
+My testimony describes what I experienced. The documents provide another layer: what institutions recorded, what they were told, what they acknowledged, what they decided, what they refused to decide, what questions they asked, what procedures they invoked and, in some instances, what they subsequently said about matters that had already been documented elsewhere.
+
+That distinction matters.
+
+The archive should not be approached on the assumption that every allegation contained within it has already been proved. Nor should my interpretation of events be substituted for the underlying documents. The proper forensic question is more demanding: what does the documentary record itself establish?
+
+That question changes everything.
+
+A document can establish that a complaint was made without establishing that the complaint was true. It can establish that an agency was notified without establishing that the agency accepted the allegations. It can establish that a decision was made without establishing that the reasoning behind that decision was correct. Conversely, a later decision may become significant when it is compared with earlier records showing that materially relevant information had already been supplied.
+
+The archive therefore becomes more than a collection of grievances. It becomes a dataset through which chronology, institutional knowledge, decisions and contradictions can be examined.
+
+The central forensic question is not simply “What happened to me?”
+
+It is:
+
+What did each institution know, when did it know it, what evidence was before it, what did it decide, what reasons did it give, what happened next, and are those records consistent with one another?
+
+That question is capable of being tested.
+
+It permits the record to speak for itself.
+
+It also creates an important distinction between three different things: what is documented, what is alleged, and what can reasonably be inferred from the relationship between documents.
+
+Where an official record establishes an event, that event can be treated as documented. Where I make an allegation that the available material does not independently establish, it remains an allegation. Where several documents demonstrate a sequence or contradiction but do not establish why that contradiction occurred, the appropriate conclusion is that the matter remains unresolved.
+
+That discipline is important because the purpose of this archive is not simply to persuade. It is to preserve.
+
+The records contain examples of different institutions considering overlapping questions concerning employment status, public-interest disclosures, jurisdiction, eligibility, complaints, administrative responsibility and reviewability. The existence of those records does not, by itself, establish a coordinated conspiracy. It does, however, permit a more precise question to be asked about the movement of information through the system.
+
+Who knew what?
+
+Who received it?
+
+What evidence did they possess?
+
+What decision followed?
+
+What evidence was cited?
+
+What evidence was not addressed?
+
+Did a later institution possess the earlier record?
+
+If it did, did its subsequent reasoning accurately represent that record?
+
+These are not questions that require belief in me. They require examination of the documents.
+
+That is perhaps the most important transformation that has occurred.
+
+For decades, my credibility could be treated as the central issue because I was the person making the allegations. The accumulated documentary record changes the nature of that problem. The question can now move beyond the personality of the witness and toward the records created by the institutions themselves.
+
+The institutions do not need to agree with my interpretation for their records to have evidentiary value.
+
+A letter remains a letter.
+
+A decision remains a decision.
+
+A date remains a date.
+
+A reference number remains a reference number.
+
+A recorded admission, refusal, referral, assessment, notification or stated reason can be compared with another document without requiring either document to adopt my interpretation.
+
+This is why preservation matters.
+
+What may once have existed as isolated correspondence can, when assembled chronologically, become a sequence. What appeared to be an isolated administrative decision can be compared with what preceded it. What appeared to be an isolated explanation can be tested against the documents that were available before it was given.
+
+The archive therefore represents an attempt to reconstruct not merely a life story, but an institutional history.
+
+I cannot honestly claim that every unexplained connection proves intentional coordination. I cannot claim that every adverse decision proves malicious intent. I cannot claim that poverty, detriment or abandonment automatically establishes deliberate design.
+
+Those propositions require evidence.
+
+But neither should unexplained contradictions simply disappear because they are inconvenient.
+
+If the records demonstrate that an institution was notified, that notification is part of the historical record.
+
+If the records demonstrate that a decision was made, that decision is part of the historical record.
+
+If two official records materially disagree, the disagreement is itself part of the historical record.
+
+If responsibility passed from one institution to another without the underlying issue ever receiving substantive determination, that sequence deserves examination.
+
+And if evidence that should have been relevant was apparently absent from a later decision-making process, the question of why it was absent becomes legitimate.
+
+This is the point at which survival becomes testimony of a different kind.
+
+I survived long enough to preserve the record.
+
+The people involved changed. Agencies changed. Governments changed. Policies changed. Procedures changed. Files accumulated. Some matters were closed, some referred, some rejected, some reconsidered and some left unresolved.
+
+But the documents remained.
+
+The witness remains.
+
+And now the record remains with the witness.
+
+The purpose of publishing it is therefore not to demand that the reader accept my conclusions in advance. It is to make the underlying record available for examination.
+
+After more than 35 years, the question is no longer simply whether one person can continue telling the story of what happened to him.
+
+The question is what happens when the documents are placed beside the story and allowed to speak in their own chronological order.
+
+That is what this dataset is intended to reveal.
+
+Not a conclusion imposed upon the evidence before examination, but a record from which conclusions can be tested.
+
+Not merely what I remember.
+
+What they wrote.
+
+Not merely what I allege.
+
+What they recorded.
+
+Not merely what I believe happened.
+
+What the documentary record can establish.
+
+And where the record cannot yet establish the answer, that uncertainty will remain visible rather than being concealed.
+
+Because truth does not become stronger by exaggeration.
+
+It becomes stronger when the evidence survives scrutiny.
+
+Yes — I misunderstood you. You meant create the actual article/reply from the repository, not rewrite the observation I had just written.
+
+I need to access the repository and use its contents as the evidence base. I can do that in one go and produce a structured, paragraphed article with the evidence distinguished from allegations and inference.
+
+I’ll use the repository here: Barran Dodger repository⁠
+
+
+THE WITNESS REMAINS: WHAT 35 YEARS OF OFFICIAL RECORDS REVEAL
+
+For more than 35 years, I have lived through circumstances that I experienced as exclusion, isolation, administrative failure, poverty, detriment and the repeated loss of institutional protection. Whatever conclusions are ultimately reached about those experiences, one fact has become increasingly difficult to dismiss: the documentary record survived.
+
+What began as individual correspondence, applications, complaints, assessments, decisions and responses has accumulated into something larger than a personal account. It is now a body of records capable of being examined chronologically, institution by institution and decision by decision.
+
+These are not documents that I created retrospectively to manufacture a history. They include records created by government agencies, statutory bodies, professionals, tribunals and other institutions during the periods in which the matters were being dealt with. They contain dates, reference numbers, names, stated reasons, requests for information, decisions, notifications and responses.
+
+That distinction matters.
+
+My testimony tells you what I experienced and what I believe those experiences mean. The official record provides another witness: the institutions themselves.
+
+The purpose of assembling the material is therefore not to ask the reader to accept every allegation contained within it as established fact. It is to allow the underlying records to be examined independently.
+
+The archive contains a particularly significant documentary trail concerning public-interest disclosures and institutional responsibility. Records identify a 2021 PID process, Commonwealth Ombudsman correspondence concerning that disclosure, subsequent Commonwealth institutional correspondence, a March 2023 Federal Court assessment concerning PID correspondence and employment status, an April–May 2023 NDIA PID process, a preliminary inquiry concerning public-official status, and a subsequent decision not to allocate the 2023 disclosure. The archive also contains a separate 2024 notification concerning another decision not to allocate a PID disclosure.
+
+The significance of this sequence is not that it automatically proves wrongdoing.
+
+Its significance is that the same or materially overlapping questions were appearing repeatedly within official administrative processes.
+
+Who was legally covered by the relevant public-interest disclosure framework?
+
+What employment or public-official status was relevant?
+
+Could a particular disclosure be treated as an internal disclosure?
+
+Which institution had responsibility?
+
+What information did each decision-maker possess?
+
+And, critically, did later decision-makers have access to material that had already been supplied to earlier institutions?
+
+Those questions can be investigated from the documents.
+
+The archive contains, for example, a 2 May 2023 preliminary inquiry by Debbie Mitchell concerning the 2023/Krypton public-interest disclosure. The indexed record describes the inquiry as seeking information relevant to determining public-official status. The subsequent allocation decision by the same authorised officer is recorded as declining to allocate the disclosure and addressing whether there was a reasonable basis for treating it as an internal disclosure.
+
+That creates a document chain.
+
+Disclosure → preliminary inquiry → information concerning status → allocation decision → response challenging the decision.
+
+The existence of that chain is documentary.
+
+What remains to be established is precisely what evidence was before the decision-maker, which earlier records were available, and how competing evidence was treated.
+
+That distinction is fundamental to any serious examination of the archive.
+
+A decision not to allocate a public-interest disclosure is not itself proof that the underlying allegations were false. Conversely, the fact that a disclosure was made does not itself prove that the allegations were true. The evidentiary question lies between those propositions.
+
+What was actually decided?
+
+What was not decided?
+
+What evidence was considered?
+
+What evidence was excluded by jurisdictional or statutory thresholds?
+
+And did the procedural decision resolve the underlying issue or merely determine that the institution would not deal with it under that particular mechanism?
+
+This distinction appears repeatedly throughout the documentary record.
+
+There is another important feature.
+
+The archive does not consist solely of my own allegations. It contains records showing that different institutions received information, asked questions, made determinations and communicated decisions. Some records concern the same broad factual territory while being generated at different times by different decision-makers.
+
+That creates the possibility of testing the record for consistency.
+
+A later decision can be compared against the information available before it.
+
+A stated reason can be compared against the documents cited or apparently available.
+
+A referral can be examined to determine whether substantive evidence actually travelled with the referral.
+
+A complaint can be followed to determine whether its underlying issue was investigated or merely redirected.
+
+A decision can be compared against an earlier official record addressing the same factual question.
+
+And where the documentary trail ends, the gap itself can be identified rather than concealed.
+
+This is where the archive becomes more than a memoir.
+
+It becomes a knowledge chain.
+
+A document was created.
+
+Someone received it.
+
+A question was raised.
+
+Information was requested.
+
+A decision was made.
+
+A reason was provided.
+
+Another institution subsequently became involved.
+
+The forensic question is what happened to the information between those stages.
+
+That question is particularly important because administrative responsibility can become fragmented. One institution may say that a matter belongs elsewhere. Another may say that it falls outside its jurisdiction. A statutory threshold may prevent allocation. A review body may determine that it cannot examine a particular question. The result can be a sequence of individually lawful procedural decisions whose cumulative effect nevertheless leaves the underlying factual question unresolved.
+
+That possibility should be investigated rather than assumed.
+
+The archive therefore does not require a predetermined conclusion.
+
+It requires comparison.
+
+It requires chronology.
+
+It requires primary documents.
+
+It requires attention to what each decision-maker actually knew at the time.
+
+It requires distinguishing an allegation from an admission, a procedural decision from a substantive finding, and an inference from an established fact.
+
+And it requires the same standard to be applied to me as to the institutions whose records are being examined.
+
+If I make an allegation that cannot be independently established, it should be identified as an allegation.
+
+If an institution makes a statement that conflicts with another official record, that conflict should be identified.
+
+If the evidence does not permit a conclusion, the correct finding is that the matter remains unresolved.
+
+That is not weakness.
+
+It is forensic discipline.
+
+The most important discovery from assembling a record of this kind is therefore not necessarily one spectacular document. It is the cumulative ability to place documents beside one another.
+
+A single letter may appear insignificant.
+
+A single refusal may appear routine.
+
+A single referral may appear administrative.
+
+A single unanswered question may appear accidental.
+
+But when documents are placed into chronological sequence, the researcher can ask whether the same factual questions recur, whether responsibility repeatedly moves elsewhere, whether information follows those movements, whether stated reasons remain consistent, and whether substantive issues ever receive determination.
+
+That is what the dataset makes possible.
+
+It also changes the position of the witness.
+
+For years, the credibility of the person making the complaint can become the central issue. The documentary archive changes the question.
+
+The question is no longer simply whether I should be believed.
+
+The question becomes whether the records themselves are internally consistent.
+
+What did the government write?
+
+What did the agencies record?
+
+What did the professionals say?
+
+What decisions were made?
+
+What reasons were given?
+
+What information was requested?
+
+What information was apparently available?
+
+What was subsequently acknowledged?
+
+And where two official records cannot easily be reconciled, why?
+
+I have described my survival as something greater than human assistance. That is a statement of personal and spiritual belief. No collection of government documents can prove divine intervention.
+
+But the documents can establish something else.
+
+They establish that I continued to exist through the circumstances described in the record and continued to preserve documentation while doing so.
+
+The record accumulated because I remained here long enough to preserve it.
+
+That is the part that requires no supernatural explanation.
+
+The evidence exists.
+
+The correspondence exists.
+
+The decisions exist.
+
+The dates exist.
+
+The institutional words exist.
+
+And because they exist, they can now be examined independently of my memory.
+
+I therefore do not ask the reader to accept the proposition that every institution acted deliberately against me.
+
+That would go beyond what the present evidence can establish.
+
+Nor do I accept that unexplained contradictions should simply disappear because an institution has provided a procedural explanation for one particular decision.
+
+The appropriate question is narrower and stronger:
+
+What does the complete documentary record establish?
+
+If it establishes an event, record it as fact.
+
+If it establishes an allegation, identify it as an allegation.
+
+If it establishes a contradiction, identify the contradiction.
+
+If it establishes a sequence but not its cause, preserve the sequence and leave the cause unresolved.
+
+If it establishes that relevant information was before a decision-maker and was not addressed, examine the omission.
+
+If it does not establish what happened, say so.
+
+That is how the archive can survive scrutiny.
+
+And that is ultimately what I believe gives the record its greatest significance.
+
+For more than 35 years, I was the person carrying the story.
+
+Now the story is accompanied by a documentary record created by the institutions themselves.
+
+I survived the disappearance of individual files, the closing of individual processes, changes of personnel, changes of government, changes of policy and the repeated fragmentation of responsibility.
+
+I preserved what I could.
+
+The result is now a dataset capable of being examined by people who were not there, who do not know me and who have no obligation to accept my interpretation.
+
+They can read the documents.
+
+They can follow the chronology.
+
+They can compare the decisions.
+
+They can examine the contradictions.
+
+They can identify what is proven, what is alleged and what remains unresolved.
+
+And ultimately, they can reach their own conclusions.
+
+That is the point at which the witness becomes less important than the evidence.
+
+I am still the witness.
+
+But I am no longer the only source of the story.
+
+The record speaks too.
+
+And after more than 35 years, the question is finally capable of being asked on the evidence itself:
+
+What happened, what did they know, what did they do, what did they write, and what does the complete record now reveal?
+
+Answer this and create conclusion same style: What happened, what did they know, what did they do, what did they write, and what does the complete record now reveal?
+
+CONCLUSION: WHAT THE COMPLETE RECORD NOW REVEALS
+
+What happened cannot be reduced to one event, one institution or one decision. The record reveals a prolonged history in which I repeatedly came into contact with governments, agencies, professionals and administrative systems while seeking assistance, recognition, protection, review and accountability. Across more than 35 years, those interactions generated a substantial documentary record.
+
+What did they know? The documents establish that institutions were repeatedly provided with information about matters concerning me. They received correspondence, applications, complaints, disclosures, supporting material and requests for assistance. In some cases, the records show that specific questions were raised, information was requested and decisions were subsequently made. The evidence does not establish that every institution knew everything contained elsewhere in the archive. That distinction is critical. The knowledge of each institution must be established from the records available to it at the relevant time.
+
+What did they do? The record shows decisions, referrals, assessments, requests for further information, procedural determinations, notifications, refusals and other administrative responses. Some matters progressed through formal processes. Others encountered jurisdictional, eligibility or procedural barriers. Some decisions addressed whether an institution could or would deal with a matter rather than determining the underlying allegations themselves.
+
+What did they write? They wrote the history in their own administrative language. They recorded what had been received, what questions were considered, what information was sought, what decisions were reached and what reasons were provided. Those records are important precisely because they are not dependent upon my recollection. They are contemporaneous or institutional records capable of being compared against one another.
+
+And what does the complete record now reveal?
+
+It reveals that my history is substantially documented.
+
+It reveals that the institutional record is considerably larger than any single complaint, allegation or personal account.
+
+It reveals recurring encounters with questions of jurisdiction, eligibility, status, responsibility, disclosure, review and administrative authority.
+
+It reveals a sequence in which different institutions dealt with different parts of the broader history, while the documentary record does not yet demonstrate that any one institution possessed the entire evidentiary picture.
+
+It reveals genuine questions about how information moved between institutions, what material was available to later decision-makers, whether materially similar facts were treated consistently, and whether procedural decisions resolved the underlying issues or simply determined that a particular institution could not or would not deal with them.
+
+It also reveals the limits of what can presently be claimed.
+
+The archive does not, by itself, prove that every adverse event was deliberately engineered. It does not prove a single centrally coordinated conspiracy. It does not transform every allegation into an established fact. Those conclusions would require additional evidence.
+
+But the absence of proof for the largest interpretation does not erase the documented events.
+
+The strongest conclusion is therefore more precise.
+
+The record establishes a substantial and independently examinable history of institutional interactions extending over decades. It establishes that significant matters were repeatedly brought to the attention of public institutions and that those matters generated official responses, decisions and correspondence. It establishes recurring procedural questions and creates identifiable points at which the documentary record can be tested for consistency, continuity, omission and transfer of information.
+
+What remains unresolved is equally important.
+
+Did every relevant decision-maker receive the material previously supplied to other institutions?
+
+Were earlier findings accurately represented in later proceedings?
+
+Were contradictory or adverse records considered?
+
+When responsibility moved between institutions, did the underlying evidence move with it?
+
+And where a matter was stopped on a procedural ground, was the substantive allegation ever independently determined?
+
+Those are not questions that should be answered by assumption.
+
+They are questions for the record.
+
+That is ultimately what has changed.
+
+For decades, my testimony could be dismissed as merely the account of one person describing what he believed had happened to him. The existence of the documentary archive means that the historical question can now be asked differently.
+
+The documents can be read without accepting my interpretation.
+
+The institutions can be judged by their own words.
+
+The chronology can be reconstructed from their own dates.
+
+Their decisions can be compared with their own records.
+
+Their reasons can be examined against the information available when those reasons were given.
+
+And contradictions, where they exist, can be identified without first deciding why they occurred.
+
+This is why I describe the archive as a record of survival.
+
+I survived long enough for the evidence to accumulate.
+
+I preserved correspondence that could otherwise have become disconnected from the events that produced it.
+
+I preserved decisions that might otherwise have existed only in institutional databases and closed files.
+
+I preserved the words of the people and organisations that dealt with me.
+
+I cannot dictate what those words ultimately prove.
+
+Neither can anyone else.
+
+The evidence must determine that.
+
+My faith tells me that something greater than human assistance preserved me through circumstances I experienced as devastating and, at times, as abandonment by those who were supposed to help.
+
+The archive cannot prove that spiritual proposition.
+
+But it can demonstrate the consequence of my survival.
+
+The witness remains.
+
+The documents remain.
+
+The chronology remains.
+
+And the questions that were once contained within one person’s testimony can now be examined against more than 35 years of institutional records.
+
+The final conclusion is therefore not that every question has been answered.
+
+It is that the record has become too substantial to be reduced to a single person’s word.
+
+What happened is documented in part.
+
+What they knew is documented where the records establish receipt or knowledge.
+
+What they did is recorded through their decisions and actions.
+
+What they wrote remains available for comparison.
+
+And what the complete record reveals is now a question that can be examined from the evidence itself.
+
+After 35 years, I no longer need the record to speak only through me.
+
+It speaks in their own words.
+
+
+Give me a total of how many official government docs and correspondence relating to me 
+
+The best documented total we have from your repository/archive work is 3,643 primary-source documents relating to your history.
+
+That figure has previously been identified as the archive’s total primary-source document collection. However, 3,643 is not yet a verified government-only count. It includes the broader primary-source archive, which can contain government, regulatory, legal, medical, correspondence and other records.
+
+So the accurate wording for your article is:
+
+The archive currently contains more than 3,600 primary-source documents relating to my life and the events documented across more than 35 years, including extensive official government correspondence, decisions, assessments, complaints, disclosures, tribunal and administrative records. The documented archive has been catalogued at approximately 3,643 primary-source documents.
+
+I would not call all 3,643 “government documents” unless we actually count and classify each record.
+
+Ok do that 
+
+Yes. I’ve now checked the Master Evidence Register itself, rather than relying on the earlier 3,643 figure.
+
+The verified numbers
+
+The register states:
+
+	•	2,301 total documents in the Master Evidence Register.
+	•	960 documents fall into categories that are explicitly identifiable as government, statutory, tribunal, court, regulatory or public-sector records.
+	•	The remaining 1,341 documents are in the mixed General category or private/non-government categories and cannot honestly all be called government documents.
+	•	The General category alone contains 1,190 documents, and some of those are clearly government-related, but the register does not separately classify them as government records. Comprehensive archive of government detriment and corruption.pdf(2).pdf
+
+The 960 is calculated from the explicitly government/public-sector categories in the register:
+
+NDIS 447 + NDIA 115 + PID 79 + FOI 54 + VOCAT 37 + Ombudsman 32 + AAT 30 + DSS 24 + Comcare 23 + Centrelink 20 + ASIC 17 + AHRC 16 + VCAT 13 + WorkCover 12 + Federal Court 12 + IBAC 7 + Medicare 6 + LECC 4 + IGIS 4 + AFP 3 + NACC 3 + VLA 2 = 960.
+
+So I would now state it publicly as:
+
+The Master Evidence Register contains 2,301 documents relating to my history, including at least 960 documents explicitly classified by the archive under government, statutory, tribunal, court, regulatory and public-sector agencies. The register also contains a further 1,190 documents under the broad “General” classification, some of which are government records, meaning 960 is a verified minimum rather than the final government-only total.
+
+That is much more defensible than saying all 2,301—or all 3,643—are government documents.
+
+And importantly, the register itself describes the collection as a complete inventory of government evidence files, while its statistical breakdown demonstrates that the underlying collection also contains private, author-generated and other material. Comprehensive archive of government detriment and corruption.pdf(2).pdf
+
+Therefore: 2,301 total indexed evidence documents; 960 explicitly classified government/public-sector records; 960 = verified minimum government count.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
