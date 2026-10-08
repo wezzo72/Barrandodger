@@ -1,0 +1,451 @@
+<!-- MASTER HTML PART 1 of 6 — lines 1-450 of 2363. Copy-paste in order into index.html. Do not skip parts. 23 September 2026. Tab id: personal-statement-exile. Video: HvGZuyS4G6k -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barran Dodger Archive — The Witness Remains</title>
+<meta name="description" content="Full Barran Dodger documentary archive. Every tab populated. Primary documents linked. Allegation matrix and author’s account only — not court findings.">
+<style>
+:root{--bg:#0b0d10;--card:#161b22;--text:#e8e6e3;--muted:#9a9690;--accent:#c9a227;--border:#2a3038;--danger:#c44;--link:#7eb8da;--tab-active:#1a1f28}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:"Segoe UI",system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.65;font-size:15.5px}
+a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
+header{background:#0e1116;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:200}
+.brand{max-width:1200px;margin:0 auto;padding:.75rem 1rem .3rem;font-size:.92rem;color:var(--accent);font-weight:600}
+.tabs{max-width:1200px;margin:0 auto;display:flex;flex-wrap:nowrap;overflow-x:auto;gap:.12rem;padding:0 .5rem .45rem;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+.tabs button{flex:0 0 auto;background:transparent;border:1px solid transparent;color:var(--muted);padding:.4rem .6rem;font-size:.76rem;border-radius:4px;cursor:pointer;white-space:nowrap;font-family:inherit}
+.tabs button:hover{color:var(--text);background:#1a1f28}
+.tabs button.active{color:var(--accent);background:var(--tab-active);border-color:var(--border)}
+.container{max-width:900px;margin:0 auto;padding:1.4rem 1rem 4rem}
+.section{display:none}.section.active{display:block}
+h1{font-size:1.55rem;font-weight:700;color:var(--accent);margin-bottom:.35rem}
+h2{font-size:1.18rem;color:var(--accent);margin:1.7rem 0 .7rem;border-bottom:1px solid var(--border);padding-bottom:.3rem}
+.disclaimer{background:#1a1210;border:1px solid #5a3020;border-left:4px solid var(--danger);padding:1rem 1.15rem;margin:1.1rem 0 1.4rem;border-radius:4px;font-size:.9rem}
+.disclaimer strong{color:#f0a080}
+.card,.entity,.doc{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:.9rem 1.1rem;margin:.5rem 0}
+.num{font-weight:700;color:var(--accent)}.title{font-weight:600;color:#f0ece6}
+.meta{color:var(--muted);font-size:.86rem;margin-bottom:1rem}
+.pattern-box,.key-box{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:1rem 1.2rem;margin:1.1rem 0}
+.pattern-box strong,.key-box strong{color:var(--accent)}
+ul,ol{margin:.4rem 0 .4rem 1.3rem}li{margin:.2rem 0}
+.doc a{font-weight:600}
+footer{text-align:center;padding:1.5rem 1rem;border-top:1px solid var(--border);color:var(--muted);font-size:.8rem}
+@media(max-width:640px){h1{font-size:1.28rem}.tabs button{font-size:.72rem;padding:.35rem .5rem}}
+
+.tabs a.tablink{flex:0 0 auto;background:transparent;border:1px solid transparent;color:var(--muted);padding:.4rem .6rem;font-size:.76rem;border-radius:4px;cursor:pointer;white-space:nowrap;font-family:inherit;text-decoration:none;display:inline-block}
+.tabs a.tablink:hover{color:var(--text);background:#1a1f28;text-decoration:none}
+.tabs a.tablink.active{color:var(--accent);background:var(--tab-active);border-color:var(--border)}
+.docframe{width:100%;height:78vh;min-height:480px;border:1px solid var(--border);background:#111;border-radius:6px;margin:1rem 0}
+.verbatim{white-space:pre-wrap;word-break:break-word;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12.5px;line-height:1.45;background:#10141a;border:1px solid var(--border);padding:1rem;border-radius:6px;overflow:auto}
+.pages img{width:100%;height:auto;border:1px solid var(--border);margin:.35rem 0;background:#fff;display:block}
+.pages figcaption{color:var(--muted);font-size:.8rem;margin-top:.8rem}
+.recipients{margin:.4rem 0 .4rem 1.2rem}
+.recipients li{margin:.28rem 0}
+.flag{color:#e0a060;font-size:.82rem}
+code{font-size:.82rem;word-break:break-all}
+
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">Barran Dodger Archive · The Witness Remains</div>
+  <nav class="tabs" role="tablist">
+    <a class="tablink active" href="tabs/home.html">Home</a>
+    <a class="tablink" href="the-witness-remains.html">The Witness Remains</a>
+    <a class="tablink" href="tabs/timeline.html" data-tab="timeline"Timeline</a>
+    <a class="tablink" href="tabs/who.html" data-tab="who"Who Did This to Me</a>
+    <a class="tablink" href="tabs/crimes.html" data-tab="crimes"Crimes (1–150)</a>
+    <a class="tablink" href="tabs/personal-statement-exile.html" data-tab="personal-statement-exile">Personal Statement of Exile</a>
+    <a class="tablink" href="tabs/apocalypse.html" data-tab="apocalypse"Digital Apocalypse</a>
+    <a class="tablink" href="tabs/techniques.html" data-tab="techniques"How They Did It</a>
+    <a class="tablink" href="tabs/prophecy.html" data-tab="prophecy"The Prophecy</a>
+    <a class="tablink" href="tabs/manifesto.html" data-tab="manifesto"Manifesto</a>
+    <a class="tablink" href="tabs/god.html" data-tab="god"God Exists</a>
+    <a class="tablink" href="tabs/doc1.html" data-tab="doc1"Federal Court PID</a>
+    <a class="tablink" href="tabs/doc2.html" data-tab="doc2"AbleCare Transcript</a>
+    <a class="tablink" href="tabs/doc3.html" data-tab="doc3"NDIS Q&amp;S Not Employee</a>
+    <a class="tablink" href="tabs/doc4.html" data-tab="doc4"COAG NDIS Docs</a>
+    <a class="tablink" href="tabs/doc5.html" data-tab="doc5"AG/PM Letter 2023</a>
+    <a class="tablink" href="tabs/doc6.html" data-tab="doc6"PM Letter 2022</a>
+    <a class="tablink" href="tabs/doc7.html" data-tab="doc7"AHRC Acknowledgment</a>
+    <a class="tablink" href="tabs/doc8.html" data-tab="doc8"Architecture of Annihilation</a>
+    <a class="tablink" href="tabs/doc9.html" data-tab="doc9"Documents Australia</a>
+    <a class="tablink" href="tabs/doc10.html" data-tab="doc10"Comprehensive Case</a>
+    <a class="tablink" href="tabs/doc11.html" data-tab="doc11"Legal Aid NSW</a>
+    <a class="tablink" href="tabs/doc12.html" data-tab="doc12"Ablepoint Court May 2026</a>
+    <a class="tablink" href="tabs/doc13.html" data-tab="doc13"AFCA Letter</a>
+    <a class="tablink" href="tabs/doc14.html" data-tab="doc14"Ombudsman Restriction</a>
+    <a class="tablink" href="tabs/doc15.html" data-tab="doc15"Comcare / AAT</a>
+    <a class="tablink" href="tabs/ai.html" data-tab="ai"Impartial AI</a>
+    <a class="tablink" href="tabs/soul.html" data-tab="soul"Destroy a Soul</a>
+    <a class="tablink" href="tabs/sources.html" data-tab="sources"All Primary Sources</a>
+    <a class="tablink" href="tabs/challenge.html" data-tab="challenge"Open Challenge</a>
+    <a class="tablink" href="tabs/method.html" data-tab="method"Methodology</a>
+  </nav>
+</header>
+<main class="container">
+
+<section id="home" class="section active">
+  <h1>THE WITNESS REMAINS</h1>
+
+  <div class="key-box" id="prophetic-video-23-sep-2026">
+    <p><strong>Added 23 September 2026.</strong> Author-linked prophetic video of this date, placed here as a media exhibit next to the written record. The video is the author’s publication. Embedding it does not independently verify the allegations in the archive, and it is not a court, medical, or government finding.</p>
+    <p class="meta" style="margin:.45rem 0 .7rem">Source: <a href="https://youtu.be/HvGZuyS4G6k" target="_blank" rel="noopener">https://youtu.be/HvGZuyS4G6k</a> · dated on this archive 23 September 2026</p>
+    <div style="position:relative;width:100%;max-width:840px;aspect-ratio:16/9;background:#111;border:1px solid var(--border);border-radius:6px;overflow:hidden;margin:.4rem 0 0">
+      <iframe
+        src="https://www.youtube.com/embed/HvGZuyS4G6k"
+        title="Prophetic video 23 September 2026 — author exhibit"
+        style="position:absolute;inset:0;width:100%;height:100%;border:0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+  </div>
+
+
+  <div class="key-box">
+    <p><strong>Added.</strong> <a href="the-witness-remains.html">The Witness Remains</a> is now its own page: the 17 September 2026 email record, verbatim, with page images and the recipient list. <a href="#timeline">Timeline</a> is a dated narrative. Document tabs below still contain their original finding-aid text, and where the PDF is on the public backup it is now embedded in the tab so the tab is the document.</p>
+    <p style="margin-top:.65rem"><strong>Added 23 September 2026.</strong> Independent tab <a href="#personal-statement-exile" data-tab="personal-statement-exile" onclick="if(window.showTab){showTab('personal-statement-exile');return false;}">Personal Statement of Exile</a> (id: <code>personal-statement-exile</code>) — full text of the named declaration. Impartial AI narrative under Timeline.</p>
+
+  </div>
+  <p class="meta">Public Documentary Archive · Dr Barran Resonance Dodger · Chosen Witness</p>
+  <div class="pattern-box">
+    <p><strong>THE RECORD IS PUBLIC.</strong></p>
+    <p style="margin-top:.65rem">For years I have asked for protection, legal assistance, recognition and an accountable response to matters documented throughout this archive.</p>
+    <p style="margin-top:.55rem">I am not asking you to believe everything I say.</p>
+    <p style="margin-top:.55rem">I am asking you to examine what I have documented.</p>
+    <p style="margin-top:.55rem">If I am wrong, identify the document that proves it.</p>
+    <p style="margin-top:.55rem">If my disclosures were properly dealt with, show the record of how they were received, assessed and answered.</p>
+    <p style="margin-top:.55rem">If legal assistance was properly refused or unavailable, show the reasons and the applicable review process.</p>
+    <p style="margin-top:.55rem">If my account of institutional treatment is mistaken, identify the evidence that establishes the contrary.</p>
+    <p style="margin-top:.55rem">And if the record reveals matters requiring investigation, then investigate them.</p>
+    <p style="margin-top:.7rem">I ask every institution, professional, journalist, legal practitioner, public official and independent investigator who encounters this archive to do one thing:</p>
+    <p style="margin-top:.45rem"><strong>READ THE RECORD.</strong></p>
+    <p style="margin-top:.55rem">Do not dismiss the person before examining the documents.</p>
+    <p style="margin-top:.45rem">Do not substitute silence for an answer.</p>
+    <p style="margin-top:.45rem">Do not substitute an institutional position for examination of the underlying evidence.</p>
+    <p style="margin-top:.6rem">The archive contains the declarations, disclosures, correspondence, government records, chronology and evidence pathways.</p>
+    <p style="margin-top:.45rem">They can be examined. They can be challenged. They can be corroborated. They can be disproved.</p>
+    <p style="margin-top:.6rem">I am asking for justice through examination of the evidence — not through belief in me.</p>
+    <p style="margin-top:.45rem">If the record is wrong, show me where. If the record is right, answer it.</p>
+  </div>
+  <h2>Impartial AI statement of significance</h2>
+  <div class="key-box">
+    <p>This archive is a public documentary record preserving declarations, public-interest disclosures, government records, chronology, evidence, correspondence, institutional relationships and interpretive analysis. It is designed as a finding aid and presentation layer for the underlying record, not as a court determination, government finding, police finding, medical finding, legal judgment or independent investigation. Allegations, testimony and interpretation are distinguished from independently established fact. Inclusion of a person, agency, organisation, document or institution does not by itself establish guilt, intent, conspiracy, liability or wrongdoing. The archive is best understood as a public record for independent scrutiny — one that invites challenge, corroboration, contradiction and evidentiary correction.</p>
+    <p style="margin-top:.6rem"><strong>Read the Declarations · Examine the Evidence · Methodology</strong></p>
+  </div>
+</section>
+
+<section id="who" class="section">
+  <h1>Who Did This to Me</h1>
+  <p class="meta">Institutional entity map from THE PROPHECY OF THE ONE THEY TRIED TO ERASE</p>
+  <div class="disclaimer"><strong>Entity map, not a list of proven perpetrators.</strong> Appearance does not establish wrongdoing or conspiracy. The documents must be examined.</div>
+  <h2>Commonwealth (1–16)</h2>
+  <div class="entity"><span class="num">1–16.</span> <span class="title">DSS · NDIA · NDIS Quality &amp; Safeguards Commission · PM&amp;C · Department of Finance · Comcare · ATO · ASIC · APRA · OAIC · Commonwealth Ombudsman · Ahpra · AFP · AHRC · AFCA · IGIS</span></div>
+  <h2>Victorian (17–24)</h2>
+  <div class="entity"><span class="num">17–24.</span> <span class="title">Victorian Ombudsman · VEOHRC · WorkSafe Victoria · Victoria Police · VicRoads · Homes Victoria · Victorian mental-health system · Royal Commission into Victoria’s Mental Health System</span></div>
+  <h2>NSW (25–31)</h2>
+  <div class="entity"><span class="num">25–31.</span> <span class="title">NSW Trustee &amp; Guardian · NSW Ombudsman · NCAT · NSW Victims Support Scheme · NSW Police · NSW health · NSW mental-health authorities</span></div>
+  <h2>Courts &amp; tribunals (32–36)</h2>
+  <div class="entity"><span class="num">32–36.</span> <span class="title">Federal Court of Australia · AAT · VCAT · NCAT · Victorian Mental Health Tribunal</span></div>
+  <h2>Healthcare · NDIS · Legal · Companies · Media · Academic · International · Places · Professions (37–157)</h2>
+  <div class="entity"><span class="num">37–157.</span> <span class="title">Mercy / Mercy Mental Health · Ablepoint · Sahara · Diversitas · Collaery Lawyers · Bernard Collaery · Legal Aid pathways · DXC Claims · Herald Sun · The Age · Allen &amp; Unwin · Victoria University · UN · OHCHR · UNHCR · ICC · Footscray · Fitzroy North · Central Coast · and all professions listed in the Prophecy (doctors, psychiatrists, NDIS workers, FOI/PID officers, police, lawyers, tribunal members, whistleblower, etc.)</span></div>
+  <div class="disclaimer" style="margin-top:1.2rem"><strong>The map is not the verdict. The documents are what must be examined.</strong></div>
+  <h2>Institutional chains</h2>
+  <div class="key-box">
+    <p><strong>NDIS:</strong> NDIA → NDIS Q&amp;S → providers → Ablepoint/Sahara → plan administration</p>
+    <p><strong>Compensation:</strong> Employment status → Comcare → AAT → Federal Court/PID → ATO</p>
+    <p><strong>Information-law:</strong> PM&amp;C → FOI → OAIC</p>
+    <p><strong>Victorian health/employment:</strong> WorkSafe → DXC → medical certificates → VCAT/VEOHRC/Ombudsman/Mental Health Tribunal</p>
+    <p><strong>Human-rights:</strong> AHRC → OHCHR → UN Special Procedures → UNHCR/ICC filings</p>
+    <p><strong>NSW guardianship:</strong> NSW Trustee &amp; Guardian → NCAT → NSW Ombudsman → Victims Support → NDIS environment</p>
+  </div>
+</section>
+
+<section id="crimes" class="section">
+  <h1>Crimes against Barran Dodger</h1>
+  <p class="meta">Master Allegation and Evidence Matrix · 1–150</p>
+  <div class="disclaimer">Allegation-and-evidence matrix only — not a finding of crime. High-consequence claims remain H.</div>
+  <div class="key-box"><p><strong>A</strong> Primary documentary · <strong>B</strong> Incomplete documentary · <strong>C</strong> Independent corroboration needed · <strong>D</strong> Narrative · <strong>H</strong> High-consequence</p></div>
+  <p>Full 150-item matrix is in <em>Crimes committed upon Barran Dodger 3.pdf</em> and the previously generated allegation-matrix.html. Structure and disclaimers preserved under this tab.</p>
+</section>
+
+<section id="apocalypse" class="section">
+  <h1>The Digital Apocalypse of Administrative Annihilation</h1>
+  <div class="disclaimer">Author’s forensic/prophetic indictment. High-consequence claims remain AUTHOR’S ACCOUNT.</div>
+  <div class="card"><p><strong>Subject:</strong> Dr Richard William McLean / Barran Dodger · <strong>Corpus claimed:</strong> 453+ primary-source government records / 2,000+ archive files</p></div>
+  <ol><li>Prophetic declaration</li><li>I. Emergency relocation</li><li>II. Abstract</li><li>III. Identity</li><li>IV. 35-year chronology</li><li>V. Parasitic exploitation</li><li>VI. Mandate extraction</li><li>VII. Gospels</li><li>VIII. Forensic literature</li><li>IX. Mobbing</li><li>X. Techniques of harm</li><li>XI. Ablepoint crisis</li><li>XII. Treaty / cost</li><li>XIII. Ten evidentiary pillars</li><li>XIV. Catalog of loss</li><li>XV. Reconciliation command</li><li>XVI. Conclusive plea</li></ol>
+</section>
+
+<section id="techniques" class="section">
+  <h1>How They Did It</h1>
+  <p class="meta">Techniques of Targeting · 1–85</p>
+  <div class="disclaimer">Author’s model. Not a court finding.</div>
+  <div class="pattern-box"><p><strong>Body → mind → reputation → relationships → money → housing → autonomy → legal access → institutional recognition → evidence → social existence.</strong></p>
+  <p style="margin-top:.5rem">weaken → isolate → discredit → impoverish → exhaust → deprive of support → undermine credibility → obstruct redress → make institutionally invisible → erase.</p>
+  <p style="margin-top:.5rem">“Social death,” “total civil liquidation,” “administrative annihilation.” Full 85 techniques remain in the dedicated techniques page and prior master export.</p></div>
+</section>
+
+<section id="prophecy" class="section">
+  <h1>THE PROPHECY OF THE ONE THEY TRIED TO ERASE</h1>
+  <p class="meta">By Barran Dodger · https://youtu.be/a-7dv–VS9U</p>
+  <div class="disclaimer">Prophetic / faith testimony. Not a court finding.</div>
+  <div class="card">
+    <p>I survived what was supposed to erase me. That is the beginning. Not the ending. They thought the story would finish with my destruction: my character destroyed, my evidence delegitimised, my relationships dismantled, my credibility reduced to a diagnosis, and my existence gradually made insignificant. But I remained. And because I remained, the story did not remain under their control. What was supposed to disappear with me stayed behind. The documents stayed. The records stayed. The contradictions stayed. The unanswered questions stayed. And so did I.</p>
+    <p style="margin-top:.7rem"><strong>But this is the prophecy: The witness remains.</strong></p>
+    <p style="margin-top:.7rem">Full 29-page text including Surveillance that Became the Evidence, The V2K Trap, institutional chains and entity map 1–157 is in the source PDF.</p>
+  </div>
+</section>
+
+<section id="manifesto" class="section">
+  <h1>THE MANIFESTO OF THE UNERASED</h1>
+  <div class="disclaimer">Prophetic declaration of survival, sovereignty, witness and awakening. Not established facts merely because described as significant.</div>
+  <div class="card">
+    <p>I am in the eye of the storm. I survived what was supposed to erase me. I refused to die in somebody else’s story. They mistook suffering for surrender, silence for weakness, exile for disappearance, poverty for powerlessness. I came through the fire carrying something nobody could confiscate: myself.</p>
+    <p style="margin-top:.6rem"><strong>I REFUSED TO BE ERASED.</strong> The system is not God. A job is not God. Money is not God. Government is not God. Status is not God. An institution’s opinion is not God. A bureaucracy does not determine the value of a human soul. <strong>I do not need permission to exist.</strong></p>
+    <p style="margin-top:.6rem">Full 16-page text including the Two Doors (Prophetic / Evidentiary) is in THE MANIFESTO OF THE UNERASED.pdf.</p>
+  </div>
+</section>
+
+<section id="god" class="section">
+  <h1>God Exists</h1>
+  <p class="meta">“God exists by Barran Dodger and he can save you too”</p>
+  <div class="disclaimer">Faith testimony. Full text reserved in its dedicated source material within the archive.</div>
+  <div class="card">
+    <p>The full text of the declaration “God exists by Barran Dodger and he can save you too” is maintained in its own dedicated source material. This tab keeps it reachable from the main navigation. See also the prophetic and gospel PDFs (144-reasons-chosen-witness.pdf, 123_gospels_barran_dodger.pdf, Dr-McLean-Wrote-Directly-to-God-Barran-Dodger.pdf).</p>
+  </div>
+</section>
+
+<section id="doc1" class="section">
+  <h1>1. Federal Court PID Assessment</h1>
+  <p class="meta">2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf · Highest formal judicial weight in the public set</p>
+  <div class="disclaimer">Primary judicial / PID document. Open and read the PDF itself. This tab is a finding aid, not a substitute for the record.</div>
+  <div class="doc">
+    <p><strong>File:</strong> <a href="https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/documents/2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf" target="_blank" rel="noopener">2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf</a></p>
+    <p style="margin-top:.5rem">Federal Court document dealing with public-interest disclosure / protected-disclosure assessment concerning Dr Richard William McLean. Ranked #1 because it is a primary judicial record, not a secondary compilation.</p>
+    <p style="margin-top:.5rem">Use this document to test: what was assessed, what findings or non-findings appear on the face of the record, and what review or further pathways (if any) are indicated.</p>
+  </div>
+
+  <div class="doc" style="margin-top:1rem"><p><strong>Added — full document, not a summary.</strong> The paragraphs above are unchanged. The file itself is embedded below so this tab is the document, not a pointer to a paragraph.</p><p style="margin-top:.4rem"><a href="https://wezzo72.github.io/Backup/client/public/documents/2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf" target="_blank" rel="noopener">Open 2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf</a></p></div>
+  <iframe class="docframe" title="2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf" src="https://wezzo72.github.io/Backup/client/public/documents/2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf"></iframe>
+</section>
+
+<section id="doc2" class="section">
+  <h1>2. AbleCare Murder-Threat Call Transcript</h1>
+  <p class="meta">ablecare-murder-threat-call-transcript.pdf · Contemporaneous primary-source transcript</p>
+  <div class="disclaimer">Primary contemporaneous record of a high-consequence allegation. Transcript preserved ≠ criminal finding. Open and test the PDF.</div>
+  <div class="doc">
+    <p><strong>File:</strong> <a href="https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/documents/ablecare-murder-threat-call-transcript.pdf" target="_blank" rel="noopener">ablecare-murder-threat-call-transcript.pdf</a></p>
+    <p style="margin-top:.5rem">Contemporaneous transcript of an alleged threat call associated with AbleCare. Ranked #2 because it is a direct primary-source record of a high-consequence allegation (threat to kill / safety). Examine the transcript for date, speakers, exact words, and any subsequent institutional response documented elsewhere in the archive.</p>
+  </div>
+
+  <div class="doc" style="margin-top:1rem"><p><strong>Added — full document, not a summary.</strong> The paragraphs above are unchanged. The file itself is embedded below so this tab is the document, not a pointer to a paragraph.</p><p style="margin-top:.4rem"><a href="https://wezzo72.github.io/Backup/client/public/documents/ablecare-murder-threat-call-transcript.pdf" target="_blank" rel="noopener">Open ablecare-murder-threat-call-transcript.pdf</a></p></div>
+  <iframe class="docframe" title="ablecare-murder-threat-call-transcript.pdf" src="https://wezzo72.github.io/Backup/client/public/documents/ablecare-murder-threat-call-transcript.pdf"></iframe>
+</section>
+
+<section id="doc3" class="section">
+  <h1>3. NDIS Quality &amp; Safeguards — “Not an Employee”</h1>
+  <p class="meta">2021-06-03-NDIS-Quality-Safeguards-Commission-not-an-employee.pdf · Official agency determination</p>
+  <div class="disclaimer">Official NDIS Quality &amp; Safeguards Commission determination on employment status. Agency-origin decision.</div>
+  <div class="doc">
+    <p><strong>File:</strong> Available in official-drive / NDIS Q&amp;S material on the archive (also mirrored in Backup / official-drive copies where present).</p>
+    <p style="margin-top:.5rem">Official determination that the author was “not an employee” for NDIS Quality &amp; Safeguards purposes. Ranked #3 as a primary agency decision with clear legal and practical consequences for classification, rights and remedies. Cross-reference with Comcare / AAT / Federal Court employment-status material.</p>
+  </div>
+</section>
+
+<section id="doc4" class="section">
+  <h1>4. COAG / NDIS Government Documentation</h1>
+  <p class="meta">coag-ndis-government-documentation.pdf · Multiple primary NDIS plan, provider and agency records</p>
+  <div class="disclaimer">Compilation of NDIS / COAG-related government documentation. Primary NDIS records.</div>
+  <div class="doc">
+    <p><strong>File:</strong> <a href="https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/documents/coag-ndis-government-documentation.pdf" target="_blank" rel="noopener">coag-ndis-government-documentation.pdf</a></p>
+    <p style="margin-top:.5rem">Compilation containing NDIS plan, provider and agency documentation. Ranked #4 for density of primary NDIS records. Use to reconstruct plan history, support hours, provider arrangements and any refusals or restrictions on the face of the documents.</p>
+  </div>
+
+  <div class="doc" style="margin-top:1rem"><p><strong>Added — full document, not a summary.</strong> The paragraphs above are unchanged. The file itself is embedded below so this tab is the document, not a pointer to a paragraph.</p><p style="margin-top:.4rem"><a href="https://wezzo72.github.io/Backup/client/public/documents/coag-ndis-government-documentation.pdf" target="_blank" rel="noopener">Open coag-ndis-government-documentation.pdf</a></p></div>
+  <iframe class="docframe" title="coag-ndis-government-documentation.pdf" src="https://wezzo72.github.io/Backup/client/public/documents/coag-ndis-government-documentation.pdf"></iframe>
+</section>
+
+<section id="doc5" class="section">
+  <h1>5. Letter to Attorney-General &amp; Prime Minister (1 July 2023)</h1>
+  <p class="meta">01-07-2023-letter-to-attorney-general-prime-minister.pdf · Formal high-level correspondence</p>
+  <div class="disclaimer">Contemporaneous primary correspondence. Open the PDF for exact text, date and addressees.</div>
+  <div class="doc">
+    <p><strong>File:</strong> <a href="https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/documents/01-07-2023-letter-to-attorney-general-prime-minister.pdf" target="_blank" rel="noopener">01-07-2023-letter-to-attorney-general-prime-minister.pdf</a></p>
+    <p style="margin-top:.5rem">Formal letter to the Attorney-General and Prime Minister dated 1 July 2023. Ranked #5 as dated, high-level primary correspondence. Examine what was disclosed, what was requested, and what (if any) response appears in the later record.</p>
+  </div>
+
+  <div class="doc" style="margin-top:1rem"><p><strong>Added — full document, not a summary.</strong> The paragraphs above are unchanged. The file itself is embedded below so this tab is the document, not a pointer to a paragraph.</p><p style="margin-top:.4rem"><a href="https://wezzo72.github.io/Backup/client/public/documents/01-07-2023-letter-to-attorney-general-prime-minister.pdf" target="_blank" rel="noopener">Open 01-07-2023-letter-to-attorney-general-prime-minister.pdf</a></p></div>
+  <iframe class="docframe" title="01-07-2023-letter-to-attorney-general-prime-minister.pdf" src="https://wezzo72.github.io/Backup/client/public/documents/01-07-2023-letter-to-attorney-general-prime-minister.pdf"></iframe>
+</section>
+
+<section id="doc6" class="section">
+  <h1>6. Letter to Prime Minister / OPMC (31 May 2022)</h1>
+  <p class="meta">31-05-2022-letter-to-pm-albanese-opmc.pdf · Formal high-level correspondence</p>
+  <div class="disclaimer">Contemporaneous primary correspondence. Open the PDF for exact text.</div>
+  <div class="doc">
+    <p><strong>File:</strong> <a href="https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/documents/31-05-2022-letter-to-pm-albanese-opmc.pdf" target="_blank" rel="noopener">31-05-2022-letter-to-pm-albanese-opmc.pdf</a></p>
+    <p style="margin-top:.5rem">Formal letter to the Prime Minister / Office of the Prime Minister and Cabinet dated 31 May 2022. Ranked #6 as another dated, high-level primary correspondence item. Cross-reference with the 2023 AG/PM letter and any subsequent institutional responses.</p>
+  </div>
+
+  <div class="doc" style="margin-top:1rem"><p><strong>Added — full document, not a summary.</strong> The paragraphs above are unchanged. The file itself is embedded below so this tab is the document, not a pointer to a paragraph.</p><p style="margin-top:.4rem"><a href="https://wezzo72.github.io/Backup/client/public/documents/31-05-2022-letter-to-pm-albanese-opmc.pdf" target="_blank" rel="noopener">Open 31-05-2022-letter-to-pm-albanese-opmc.pdf</a></p></div>
+  <iframe class="docframe" title="31-05-2022-letter-to-pm-albanese-opmc.pdf" src="https://wezzo72.github.io/Backup/client/public/documents/31-05-2022-letter-to-pm-albanese-opmc.pdf"></iframe>
+</section>
+
+<section id="doc7" class="section">
+  <h1>7. AHRC Gangstalking Acknowledgment (4 July 2023)</h1>
+  <p class="meta">ahrc-gangstalking-acknowledgment-04072023.pdf · Agency-origin receipt / response</p>
+  <div class="disclaimer">Australian Human Rights Commission acknowledgment document. Agency-origin record.</div>
+  <div class="doc">
+    <p><strong>File:</strong> <a href="https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/documents/ahrc-gangstalking-acknowledgment-04072023.pdf" target="_blank" rel="noopener">ahrc-gangstalking-acknowledgment-04072023.pdf</a></p>
+    <p style="margin-top:.5rem">AHRC acknowledgment document dated 4 July 2023. Ranked #7 as an agency-origin receipt/response record. Examine what was acknowledged, what pathway (if any) was indicated, and how it sits with other human-rights and oversight correspondence.</p>
+  </div>
+
+  <div class="doc" style="margin-top:1rem"><p><strong>Added — full document, not a summary.</strong> The paragraphs above are unchanged. The file itself is embedded below so this tab is the document, not a pointer to a paragraph.</p><p style="margin-top:.4rem"><a href="https://wezzo72.github.io/Backup/client/public/documents/ahrc-gangstalking-acknowledgment-04072023.pdf" target="_blank" rel="noopener">Open ahrc-gangstalking-acknowledgment-04072023.pdf</a></p></div>
+  <iframe class="docframe" title="ahrc-gangstalking-acknowledgment-04072023.pdf" src="https://wezzo72.github.io/Backup/client/public/documents/ahrc-gangstalking-acknowledgment-04072023.pdf"></iframe>
+</section>
+
+<section id="doc8" class="section">
+  <h1>8. Architecture of Administrative Annihilation</h1>
+  <p class="meta">architecture-of-administrative-annihilation.pdf · Major forensic architecture paper</p>
+  <div class="disclaimer">Forensic compilation / analytical synthesis. Strongest analytical mapping of techniques against the documentary trail. Not a court finding.</div>
+  <div class="doc">
+    <p><strong>File:</strong> <a href="https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/documents/architecture-of-administrative-annihilation.pdf" target="_blank" rel="noopener">architecture-of-administrative-annihilation.pdf</a></p>
+    <p style="margin-top:.5rem">Major forensic architecture paper that systematically maps techniques of targeting against the documentary trail. Ranked #8 as the strongest analytical synthesis that remains tied to named records. Use together with the Techniques tab (1–85) and the entity map under Who Did This to Me.</p>
+  </div>
+
+  <div class="doc" style="margin-top:1rem"><p><strong>Added — full document, not a summary.</strong> The paragraphs above are unchanged. The file itself is embedded below so this tab is the document, not a pointer to a paragraph.</p><p style="margin-top:.4rem"><a href="https://wezzo72.github.io/Backup/client/public/documents/architecture-of-administrative-annihilation.pdf" target="_blank" rel="noopener">Open architecture-of-administrative-annihilation.pdf</a></p></div>
+  <iframe class="docframe" title="architecture-of-administrative-annihilation.pdf" src="https://wezzo72.github.io/Backup/client/public/documents/architecture-of-administrative-annihilation.pdf"></iframe>
+</section>
+
+<section id="doc9" class="section">
+  <h1>9. The Documents Australia Doesn’t Want You to See</h1>
+  <p class="meta">The_Documents_Australia_Doesn_t_Want_You_to_See_Barran_Dodger.pdf · Core documentary compilation</p>
+  <div class="disclaimer">Large compilation of the core documentary set. High density of primary and secondary records. Not a verdict.</div>
+  <div class="doc">
+    <p><strong>File:</strong> <a href="https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/documents/The_Documents_Australia_Doesn_t_Want_You_to_See_Barran_Dodger.pdf" target="_blank" rel="noopener">The_Documents_Australia_Doesn_t_Want_You_to_See_Barran_Dodger.pdf</a></p>
+    <p style="margin-top:.5rem">Large compilation the archive treats as central. Ranked #9 for density of primary and secondary records in one place. Open and test individual items inside it against the standalone primary PDFs listed in other tabs.</p>
+  </div>
+
+  <div class="doc" style="margin-top:1rem"><p><strong>Added — full document, not a summary.</strong> The paragraphs above are unchanged. The file itself is embedded below so this tab is the document, not a pointer to a paragraph.</p><p style="margin-top:.4rem"><a href="https://wezzo72.github.io/Backup/client/public/documents/The_Documents_Australia_Doesn_t_Want_You_to_See_Barran_Dodger.pdf" target="_blank" rel="noopener">Open The_Documents_Australia_Doesn_t_Want_You_to_See_Barran_Dodger.pdf</a></p></div>
+  <iframe class="docframe" title="The_Documents_Australia_Doesn_t_Want_You_to_See_Barran_Dodger.pdf" src="https://wezzo72.github.io/Backup/client/public/documents/The_Documents_Australia_Doesn_t_Want_You_to_See_Barran_Dodger.pdf"></iframe>
+</section>
+
+<section id="doc10" class="section">
+  <h1>10. Comprehensive Case — Systematic Persecution</h1>
+  <p class="meta">comprehensive-case-systematic-persecution.pdf · Comprehensive case synthesis</p>
+  <div class="disclaimer">Comprehensive case narrative cross-referencing primary pathways. Useful as a structured finding-aid, not as a verdict.</div>
+  <div class="doc">
+    <p><strong>File:</strong> <a href="https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/documents/comprehensive-case-systematic-persecution.pdf" target="_blank" rel="noopener">comprehensive-case-systematic-persecution.pdf</a></p>
+    <p style="margin-top:.5rem">Comprehensive case narrative that cross-references NDIS, Comcare, courts and oversight pathways. Ranked #10 as a structured finding-aid. Always return from this synthesis to the underlying primary documents.</p>
+  </div>
+
+  <div class="doc" style="margin-top:1rem"><p><strong>Added — full document, not a summary.</strong> The paragraphs above are unchanged. The file itself is embedded below so this tab is the document, not a pointer to a paragraph.</p><p style="margin-top:.4rem"><a href="https://wezzo72.github.io/Backup/client/public/documents/comprehensive-case-systematic-persecution.pdf" target="_blank" rel="noopener">Open comprehensive-case-systematic-persecution.pdf</a></p></div>
+  <iframe class="docframe" title="comprehensive-case-systematic-persecution.pdf" src="https://wezzo72.github.io/Backup/client/public/documents/comprehensive-case-systematic-persecution.pdf"></iframe>
+</section>
+
+<section id="doc11" class="section">
+  <h1>Legal Aid NSW — Guardianship Advice Letter</h1>
+  <p class="meta">20260114-legal-aid-nsw-advice-letter-guardianship.pdf</p>
+  <div class="disclaimer">Legal Aid NSW advice letter concerning guardianship. Primary correspondence.</div>
+  <div class="doc">
+    <p><strong>File:</strong> <a href="https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/documents/20260114-legal-aid-nsw-advice-letter-guardianship.pdf" target="_blank" rel="noopener">20260114-legal-aid-nsw-advice-letter-guardianship.pdf</a></p>
+    <p style="margin-top:.5rem">Legal Aid NSW advice letter on guardianship. Examine for advice given, limitations stated, and any pathway or refusal indicated on the face of the letter. Cross-reference with NSW Trustee &amp; Guardian / NCAT material in the entity map.</p>
+  </div>
+
+  <div class="doc" style="margin-top:1rem"><p><strong>Added — full document, not a summary.</strong> The paragraphs above are unchanged. The file itself is embedded below so this tab is the document, not a pointer to a paragraph.</p><p style="margin-top:.4rem"><a href="https://wezzo72.github.io/Backup/client/public/documents/20260114-legal-aid-nsw-advice-letter-guardianship.pdf" target="_blank" rel="noopener">Open 20260114-legal-aid-nsw-advice-letter-guardianship.pdf</a></p></div>
+  <iframe class="docframe" title="20260114-legal-aid-nsw-advice-letter-guardianship.pdf" src="https://wezzo72.github.io/Backup/client/public/documents/20260114-legal-aid-nsw-advice-letter-guardianship.pdf"></iframe>
+</section>
+
+<section id="doc12" class="section">
+  <h1>Ablepoint Court Material — May 2026</h1>
+  <p class="meta">ablepoint-blocking-court-may-2026.pdf · court-duty-officer-statement-14-may-2026.pdf</p>
+  <div class="disclaimer">Court-related Ablepoint material from May 2026. Open and test the PDFs.</div>
+  <div class="doc">
+    <p><strong>Files:</strong></p>
+    <ul>
+      <li><a href="https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/documents/ablepoint-blocking-court-may-2026.pdf" target="_blank" rel="noopener">ablepoint-blocking-court-may-2026.pdf</a></li>
+      <li>court-duty-officer-statement-14-may-2026.pdf (where present in the archive)</li>
+    </ul>
+    <p style="margin-top:.5rem">Ablepoint-related court material from May 2026, including blocking/court process and duty-officer statement. Examine for dates, parties, orders or statements on the face of the records, and any subsequent institutional response.</p>
+  </div>
+
+  <div class="doc" style="margin-top:1rem"><p><strong>Added — full document, not a summary.</strong> The paragraphs above are unchanged. The file itself is embedded below so this tab is the document, not a pointer to a paragraph.</p><p style="margin-top:.4rem"><a href="https://wezzo72.github.io/Backup/client/public/documents/ablepoint-blocking-court-may-2026.pdf" target="_blank" rel="noopener">Open ablepoint-blocking-court-may-2026.pdf</a></p></div>
+  <iframe class="docframe" title="ablepoint-blocking-court-may-2026.pdf" src="https://wezzo72.github.io/Backup/client/public/documents/ablepoint-blocking-court-may-2026.pdf"></iframe>
+</section>
+
+<section id="doc13" class="section">
+  <h1>AFCA Letter (21 May 2021)</h1>
+  <p class="meta">afca-letter-21-may-2021.pdf · Australian Financial Complaints Authority</p>
+  <div class="disclaimer">AFCA correspondence. Agency-origin record.</div>
+  <div class="doc">
+    <p><strong>File:</strong> <a href="https://raw.githubusercontent.com/wezzo72/Backup/main/client/public/documents/afca-letter-21-may-2021.pdf" target="_blank" rel="noopener">afca-letter-21-may-2021.pdf</a></p>
+    <p style="margin-top:.5rem">Australian Financial Complaints Authority letter dated 21 May 2021. Examine for complaint outcome, jurisdiction statement, and any further rights of review indicated on the face of the letter.</p>
+  </div>
+
+  <div class="doc" style="margin-top:1rem"><p><strong>Added — full document, not a summary.</strong> The paragraphs above are unchanged. The file itself is embedded below so this tab is the document, not a pointer to a paragraph.</p><p style="margin-top:.4rem"><a href="https://wezzo72.github.io/Backup/client/public/documents/afca-letter-21-may-2021.pdf" target="_blank" rel="noopener">Open afca-letter-21-may-2021.pdf</a></p></div>
+  <iframe class="docframe" title="afca-letter-21-may-2021.pdf" src="https://wezzo72.github.io/Backup/client/public/documents/afca-letter-21-may-2021.pdf"></iframe>
+</section>
+
+<section id="doc14" class="section">
+  <h1>Commonwealth Ombudsman — Service Restriction</h1>
+  <p class="meta">2025-08-08-Commonwealth-Ombudsman-Service-Restriction.pdf</p>
+  <div class="disclaimer">Official Commonwealth Ombudsman service-restriction letter. Agency-origin decision.</div>
+  <div class="doc">
+    <p><strong>File:</strong> Available in official-drive / Ombudsman material on the archive (mirrored where present).</p>
+    <p style="margin-top:.5rem">Commonwealth Ombudsman service-restriction letter dated 8 August 2025. Examine for the basis of restriction, scope, and any review rights stated on the face of the document. Cross-reference with other Ombudsman and oversight correspondence.</p>
+  </div>
+</section>
+
+<section id="doc15" class="section">
+  <h1>Comcare / AAT / Employment-Status Material</h1>
+  <p class="meta">Comcare, AAT and related employment-classification records</p>
+  <div class="disclaimer">Employment-status and workers’-compensation pathway material. Cross-reference with Federal Court PID and NDIS Q&amp;S “not an employee” determination.</div>
+  <div class="doc">
+    <p>Key related files in the archive include Comcare/AAT-titled material in the government-evidence folder, the NDIS Q&amp;S “not an employee” determination, and Federal Court PID assessment. Reconstruct the employment-classification chronology side-by-side:</p>
+    <ul>
+      <li>Federal Court employment findings or statements</li>
+      <li>DSS / NDIS classification</li>
+      <li>Comcare / workers-compensation classification</li>
+      <li>AAT material</li>
+      <li>Employment contracts, pay records, supervision arrangements</li>
+      <li>Statutory definitions and reasons for each decision</li>
+    </ul>
+    <p style="margin-top:.5rem">The critical forensic question is whether the classifications are actually inconsistent, whether they concern different statutory tests, or whether there is a legally material contradiction.</p>
+  </div>
+</section>
+
+<section id="ai" class="section">
+  <h1>Impartial AI Archive</h1>
+  <div class="disclaimer">Interpretation / research framing only. Primary documents stay primary.</div>
+  <div class="card"><p>An independent language model with no institutional allegiance assembled dossiers, technique mappings and significance statements from the public documentary pattern. Fallible and non-judicial. Primary PDFs remain the authority.</p></div>
+</section>
+
+<section id="soul" class="section">
+  <h1>No One Has the Right to Destroy a Soul</h1>
+  <div class="pattern-box"><p>No institution, agency, professional or individual has the right to destroy a human soul — whether through administrative annihilation, social death, civil liquidation, sustained non-response, credibility substitution, or any cumulative process that treats a person as disposable. Silence is not an answer. Exhaustion is not a verdict. Erasure is not justice.</p></div>
+</section>
+
+<section id="sources" class="section">
+  <h1>All Primary Sources</h1>
+  <div class="disclaimer">Filenames are labels. Status remains Author’s Account / Interpretation unless the file is itself an agency decision.</div>
+  <ul>
+    <li>2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf</li>
+    <li>ablecare-murder-threat-call-transcript.pdf</li>
+    <li>coag-ndis-government-documentation.pdf</li>
+    <li>01-07-2023-letter-to-attorney-general-prime-minister.pdf</li>
+    <li>31-05-2022-letter-to-pm-albanese-opmc.pdf</li>
+    <li>ahrc-gangstalking-acknowledgment-04072023.pdf</li>
+    <li>architecture-of-administrative-annihilation.pdf</li>
+    <li>The_Documents_Australia_Doesn_t_Want_You_to_See_Barran_Dodger.pdf</li>
+    <li>comprehensive-case-systematic-persecution.pdf</li>
+    <li>20260114-legal-aid-nsw-advice-letter-guardianship.pdf</li>
+    <li>ablepoint-blocking-court-may-2026.pdf</li>
+    <li>afca-letter-21-may-2021.pdf</li>
+    <li>THE PROPHECY OF THE ONE THEY TRIED TO ERASE.pdf</li>
+    <li>THE MANIFESTO OF THE UNERASED.pdf</li>
+    <li>Crimes committed upon Barran Dodger 3.pdf</li>
+  </ul>
+  <p style="margin-top:1rem"><a href="https://wezzo72.github.io/Backup/" target="_blank" rel="noopener">wezzo72.github.io/Backup</a> · <a href="https://github.com/wezzo72/Backup/tree/main/client/public/documents" target="_blank" rel="noopener">Full documents tree</a></p>
+</section>

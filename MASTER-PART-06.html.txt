@@ -1,0 +1,114 @@
+<!-- MASTER HTML PART 6 of 6 — lines 2251-2363 of 2363. Copy-paste in order into index.html. Do not skip parts. 23 September 2026. Tab id: personal-statement-exile. Video: HvGZuyS4G6k -->
+    <p style="margin-top:.55rem">I ask that this distinction be examined against the documentary record, including financial records, accommodation records, NDIS records, correspondence and other evidence contained in the archive.</p>
+  </div>
+
+  <h2>ELECTRONIC HARASSMENT AND WHAT I REPORT AS V2K</h2>
+  <div class="card">
+    <p>I report that I am electronically intercepted, harassed and surveilled with what I describe as unacknowledged V2K technology.</p>
+    <p style="margin-top:.55rem">I describe this as a deliberate technique of torture manifesting as audio harassment, including what I report as 24-hour blasphemous slurs intended to attack my sense of self.</p>
+    <p style="margin-top:.55rem">These are my reported experiences and allegations. I do not present the existence or mechanism of the technology as an independently established fact.</p>
+    <p style="margin-top:.55rem">I ask that these reports be distinguished from psychiatric interpretations of them and, where possible, independently investigated rather than automatically treated as symptoms of mental illness.</p>
+  </div>
+
+  <h2>MENTAL HEALTH TREATMENT AND THE CTO</h2>
+  <div class="card">
+    <p>A mental-health Community Treatment Order mandates my forced medication as the panacea for my treatment while, as I allege, refusing to acknowledge the entire situation described in this statement and the circumstances that I say are contributing to my distress.</p>
+    <p style="margin-top:.55rem">My concern is that the medication framework may address my reported distress without independently examining the circumstances I allege are causing or contributing to that distress.</p>
+    <p style="margin-top:.55rem">I ask that this distinction be examined rather than assuming that every reported experience is explained by a psychiatric diagnosis.</p>
+  </div>
+
+  <h2>NSW TRUSTEE AND GUARDIAN AND ACCESS TO JUSTICE</h2>
+  <div class="card">
+    <p>I allege that NSW Trustee and Guardian are gatekeepers to what I describe as my financial destruction.</p>
+    <p style="margin-top:.55rem">I further allege that financial administration and restrictions have actively contributed to circumstances in which access to legal assistance is effectively blocked, creating what I describe as a total legal-aid barrier and fundamentally restricting possible pathways to justice.</p>
+    <p style="margin-top:.55rem">These are serious allegations.</p>
+    <p style="margin-top:.55rem">I ask that they be assessed against the actual financial records, decisions, correspondence, applications for assistance, legal-aid responses and available review mechanisms rather than being accepted or rejected without examination.</p>
+  </div>
+
+  <p class="meta">End of named article as printed. Added 23 September 2026. Tab id: personal-statement-exile</p>
+</section>
+
+<section id="timeline" class="section">
+  <h1>Timeline</h1>
+  <p class="meta">Impartial chronology of dated records · not a verdict · <a href="timeline.html">Open the timeline page</a></p>
+  <div class="disclaimer"><strong>Method.</strong> A date is included only if it is printed on a message in the Witness Remains PDF or if it is the date in a filename already listed on this archive’s index. An email date is the date of the message, not proof of the events described in it. A filename date is a catalogue date, not a verified event date. Allegations are labelled as allegations. Nothing below finds that a crime, conspiracy, or coordinated mandate occurred.</div>
+  
+  <div class="key-box">
+    <p><strong>Impartial AI narrative — Personal Statement of Exile (23 September 2026).</strong> This archive added a named first-person statement titled “PERSONAL STATEMENT OF EXILE, INSTITUTIONAL DETRIMENT AND THE SEARCH FOR PROTECTION.” The statement is published in full on its own tab (<a href="#personal-statement-exile" data-tab="personal-statement-exile" onclick="if(window.showTab){showTab('personal-statement-exile');return false;}">#personal-statement-exile</a>). This note does not decide whether the account is true. It describes what the document says, how it sits next to material already on the site, and what a reader can test.</p>
+    <p style="margin-top:.7rem">The statement is written in the first person. It presents the author as an unprotected whistleblower who describes himself as being in political exile inside the country of his citizenship. It locates the account in more than three decades of contact with government agencies, professional systems, health and disability services, legal institutions and oversight bodies. The author states that he has placed the underlying material in a public archive so that allegations can be checked against documents rather than accepted because he makes them. The statement repeats that allegations are allegations unless independently established, and that the existence of a document does not by itself prove the alleged wrongdoing.</p>
+    <p style="margin-top:.7rem">The list of alleged harms is cumulative: alleged institutional abandonment and failure of protection; financial restriction; barriers to legal representation; alleged forced dependency on accommodation from which the author says he has no practical means of escape; administrative processes that he believes have reduced his ability to advocate for himself; professional and social isolation; characterisation of complaints as mental illness rather than matters requiring investigation; reported electronic interception, surveillance or unexplained audio harassment including what he describes as V2K; threats and safety concerns; alleged mistreatment of companion and therapy dog Crystal; alleged coordinated reputational damage; and what he describes as political exile and displacement. He alleges the combined effect has made independent legal, financial, medical, housing or media assistance extraordinarily difficult to obtain.</p>
+    <p style="margin-top:.7rem">On accommodation he records that he has no lease to Able Point, and alleges that formal “free to leave” does not equal a realistic capacity to leave because he has no financial mechanism, no vehicle and nowhere practical to go. On electronic harassment he reports experiences he describes as V2K and expressly does not present the existence or mechanism of that technology as an independently established fact. On mental health he refers to a Community Treatment Order mandating forced medication and asks that reported distress not be treated as fully explained by diagnosis without examining the circumstances he alleges. On finance he alleges NSW Trustee and Guardian restrictions have contributed to a total legal-aid barrier, and asks that this be assessed against financial records, decisions, correspondence and review mechanisms.</p>
+    <p style="margin-top:.7rem">The statement points to the existing Crimes matrix (1–150) and the archive index. A date of 23 September 2026 is the date this statement was added to the public HTML. It is not, by itself, a new agency determination. Presence of related files elsewhere in the archive shows documents were stored. It does not prove coordination, crime, or that every allegation is established. This narrative does not find that Able Point, NSW Trustee and Guardian, any clinician, or any other named body committed an offence.</p>
+  </div>
+<div class="key-box">
+    <p>The earlier timeline on this site was a filter over filename-dated catalogue rows. That catalogue is still on the <a href="timeline.html">timeline page</a>, underneath this narrative. It was not a chronology a reader could follow. This statement replaces that as the timeline tab. It does not delete the catalogue.</p>
+    <p style="margin-top:.7rem">Read in order, the public index and this September 2026 email compilation show a long correspondence between one person and a series of agencies, then a concentrated burst of the author’s own emails in the first half of September 2026. The agency filenames show that letters and determinations exist and are dated. They do not, by themselves, show that each decision was unlawful, coordinated, or aimed at erasure. The September emails show what the author reported, to whom, and that he asked several recipients to preserve records and to separate his experience from a finding of fact. They do not show that the recipients agreed, investigated, or accepted the allegations.</p>
+    <p style="margin-top:.7rem">Claims that reach further back — surveillance from at least 2002, a 2003 book, a 35-year span, fourteen psychiatric detentions, a clinical death in 2021, an assassination attempt — appear in the September emails as the author’s account. This timeline does not treat those as established events, because this compilation does not contain the primary record that would date them independently. They stay in the allegation column until a document on its face establishes them.</p>
+  </div>
+  <h2>Dated records on the face of the archive index</h2>
+  <p class="meta">Filename or description dates already published on the home index. Status: a file by that name is linked or described. Not a finding about its contents.</p>
+  <div class="card"><p><span class="num">21 May 2021.</span> AFCA letter. Filename on this index: afca-letter-21-may-2021.pdf.</p></div>
+  <div class="card"><p><span class="num">3 June 2021.</span> NDIS Quality & Safeguards Commission material described on this index as a “not an employee” determination. Filename referenced: 2021-06-03-NDIS-Quality-Safeguards-Commission-not-an-employee.pdf.</p></div>
+  <div class="card"><p><span class="num">31 May 2022.</span> Letter to the Prime Minister / Office of the Prime Minister and Cabinet. Filename: 31-05-2022-letter-to-pm-albanese-opmc.pdf.</p></div>
+  <div class="card"><p><span class="num">27 March 2023.</span> Federal Court public-interest disclosure assessment. Filename: 2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf.</p></div>
+  <div class="card"><p><span class="num">1 July 2023.</span> Letter to the Attorney-General and Prime Minister. Filename: 01-07-2023-letter-to-attorney-general-prime-minister.pdf.</p></div>
+  <div class="card"><p><span class="num">4 July 2023.</span> Australian Human Rights Commission acknowledgment. Filename: ahrc-gangstalking-acknowledgment-04072023.pdf.</p></div>
+  <div class="card"><p><span class="num">8 August 2025.</span> Commonwealth Ombudsman service-restriction letter, as described on this index. Filename referenced: 2025-08-08-Commonwealth-Ombudsman-Service-Restriction.pdf.</p></div>
+  <div class="card"><p><span class="num">14 January 2026.</span> Legal Aid NSW guardianship advice letter. Filename: 20260114-legal-aid-nsw-advice-letter-guardianship.pdf.</p></div>
+  <div class="card"><p><span class="num">14 May 2026.</span> Court duty officer statement, as named on this index: court-duty-officer-statement-14-may-2026.pdf.</p></div>
+  <div class="card"><p><span class="num">May 2026.</span> Ablepoint court material. Filename: ablepoint-blocking-court-may-2026.pdf. The filename dates the month, not a day.</p></div>
+  <h2>Dates printed inside the Witness Remains email compilation</h2>
+  <p class="meta">These are the dates of the author’s emails, or a timestamp the email itself attributes to a file. They establish when the message says it was sent. They do not establish that the events narrated in the message occurred.</p>
+  <div class="card"><p><span class="num">Friday 4 September 2026, 4:07 pm.</span> Email from Rich McLean. He demands a response from Able Point and describes what he believes was an organised campaign of detriment, surveillance, and audio harassment. Author’s account.</p></div>
+  <div class="card"><p><span class="num">Saturday 5 September 2026, 5:08 pm.</span> Email beginning “Dear all”. He says he is publishing under what he calls severe existential threats, and he addresses Rachael at Able Point. Author’s account.</p></div>
+  <div class="card"><p><span class="num">Sunday 6 September 2026, 1:48 am.</span> Email titled “What Was Scripted to Kill Me”. It alleges a coordinated campaign, an assassination attempt, conduct by an NDIS minister, a provider named Ben, slander, and the absence of arrest or charge. The email states that this is his account of what he experienced and alleged. Not a finding.</p></div>
+  <div class="card"><p><span class="num">Monday 7 September 2026.</span> Signature date on the text “The Extracted Mandate: Administrative Invisibility and the Forensic Architecture of Civil Erasure”. The text says the “mandate” is a retrospective pattern extracted from records, not a written command that the text has produced. Interpretation, not a finding of a secret order.</p></div>
+  <div class="card"><p><span class="num">Tuesday 8 September 2026, 3:28 am.</span> The Extracted Mandate text is sent again by email.</p></div>
+  <div class="card"><p><span class="num">Wednesday 9 September 2026, 10:56 am.</span> Email circulating “They Could Not Erase What God Preserved”, described in the message as prophetic testimony. Faith and autobiography, not an institutional finding.</p></div>
+  <div class="card"><p><span class="num">Saturday 12 September 2026, 8:30 pm.</span> “Statement to Cass — Formal Legal Objection and Notice of Reported Electronic Surveillance and Slander.” He asks Ablepoint to preserve records, not to treat his report as established fact, and not to treat the lack of a finding as proof the events did not occur. The notice is a document. The surveillance mechanism is his report.</p></div>
+  <div class="card"><p><span class="num">15 September 2026, 20:01:46 UTC.</span> Timestamp the compilation attributes to a file titled The_Unerased_Record_verbatim_bold_headings.md. This dates that file as described. It does not date every event the file discusses.</p></div>
+  <div class="card"><p><span class="num">Wednesday 16 September 2026, 10:13 am.</span> Short email about a mirror site and a newer finding-aid site, asking that it be passed on. The message names Able Point addresses.</p></div>
+  <div class="card"><p><span class="num">Thursday 17 September 2026, 2:22 pm.</span> Email quoted as “Dear Able Point”, inside the thread that carries the finding-aid description.</p></div>
+  <div class="card"><p><span class="num">Outer message, time not printed in the text layer.</span> The PDF’s outermost item is the subject line above, addressed to the recipient list on this tab. The text layer does not show a sent-time for that outer wrapper. The page images are included so that can be checked visually. Do not invent a time that is not printed.</p></div>
+  <h2>What a reader can actually do with this order</h2>
+  <div class="pattern-box">
+    <p>Start with the filename-dated agency letters, in the order above, and read those PDFs. Then read the September 2026 emails as a record of what was alleged afterwards and of how the author asked for the record to be preserved. Keep three columns: what an agency document states on its face, what the author reports experiencing, and what is still an unresolved question. This tab does not collapse those columns into one.</p>
+  </div>
+</section>
+
+</main>
+<footer>
+  Barran Dodger Digital Archive · Master single-page export · Every tab populated · Top-10 + additional strong documents as dedicated tabs · Allegation / author’s account only · Not court findings<br>
+  Primary evidence stores remain at wezzo72.github.io/Backup · Truth should be free
+<br>Added: The Witness Remains email (verbatim PDF, page images, recipient list) · Timeline narrative of dated records only · Document tabs embed the linked PDFs. Nothing previously published on this page was removed.
+</footer>
+<script>
+function showTab(id){
+  document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+  document.querySelectorAll('.tabs button, .tabs a.tablink').forEach(b=>b.classList.remove('active'));
+  var sec=document.getElementById(id);
+  if(sec) sec.classList.add('active');
+  var btn=document.querySelector('[data-tab="'+id+'"]');
+  if(btn) btn.classList.add('active');
+  if(history.replaceState) history.replaceState(null,'','#'+id);
+  window.scrollTo(0,0);
+}
+document.querySelectorAll('.tabs button').forEach(function(btn){
+  btn.addEventListener('click', function(){ showTab(btn.getAttribute('data-tab')); });
+});
+document.querySelectorAll('.tabs a.tablink[data-tab]').forEach(function(a){
+  a.addEventListener('click', function(ev){
+    var id=a.getAttribute('data-tab');
+    if(id && document.getElementById(id)){ ev.preventDefault(); showTab(id); }
+  });
+});
+if(location.hash){
+  var id=location.hash.replace('#','');
+  if(document.getElementById(id)) showTab(id);
+}
+</script>
+</body>
+</html>
+
+
+

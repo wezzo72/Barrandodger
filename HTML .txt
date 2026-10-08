@@ -1,0 +1,2147 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Barran Dodger Archive — The Witness Remains</title>
+
+<meta name="description"
+content="Barran Dodger documentary archive: primary-source finding aid, personal testimony, documentary records, forensic analyses, chronology and evidence methodology. Allegations are distinguished from established facts.">
+
+<style>
+:root{
+--bg:#0b0d10;
+--panel:#141920;
+--panel2:#1a2028;
+--text:#e9e7e2;
+--muted:#9da3aa;
+--gold:#c9a227;
+--blue:#79b7df;
+--red:#d66b5d;
+--green:#76b88a;
+--orange:#d7a05c;
+--border:#303741;
+}
+
+*{box-sizing:border-box}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+background:var(--bg);
+color:var(--text);
+font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+line-height:1.65;
+font-size:15.5px;
+}
+
+a{
+color:var(--blue);
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+header{
+position:sticky;
+top:0;
+z-index:1000;
+background:#0d1014;
+border-bottom:1px solid var(--border);
+}
+
+.brand{
+max-width:1200px;
+margin:auto;
+padding:12px 16px 7px;
+color:var(--gold);
+font-weight:700;
+}
+
+.tabs{
+max-width:1200px;
+margin:auto;
+display:flex;
+overflow-x:auto;
+gap:3px;
+padding:0 8px 9px;
+scrollbar-width:thin;
+}
+
+.tabs button{
+flex:0 0 auto;
+border:1px solid transparent;
+background:none;
+color:var(--muted);
+padding:7px 9px;
+border-radius:5px;
+cursor:pointer;
+font:inherit;
+font-size:12px;
+white-space:nowrap;
+}
+
+.tabs button:hover,
+.tabs button.active{
+color:var(--gold);
+background:var(--panel2);
+border-color:var(--border);
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:25px 18px 70px;
+}
+
+.section{
+display:none;
+}
+
+.section.active{
+display:block;
+}
+
+h1{
+color:var(--gold);
+font-size:1.65rem;
+margin:0 0 8px;
+}
+
+h2{
+color:var(--gold);
+font-size:1.2rem;
+border-bottom:1px solid var(--border);
+padding-bottom:6px;
+margin-top:30px;
+}
+
+h3{
+color:#ddd8c8;
+margin-top:23px;
+}
+
+.meta{
+color:var(--muted);
+font-size:.88rem;
+}
+
+.card,
+.document,
+.entity,
+.evidence{
+background:var(--panel);
+border:1px solid var(--border);
+border-radius:7px;
+padding:15px;
+margin:12px 0;
+}
+
+.notice{
+background:#201613;
+border:1px solid #654137;
+border-left:4px solid var(--red);
+padding:15px;
+border-radius:5px;
+margin:18px 0;
+}
+
+.method{
+background:#121a16;
+border:1px solid #314c3b;
+border-left:4px solid var(--green);
+padding:15px;
+border-radius:5px;
+margin:18px 0;
+}
+
+.claim{
+background:#211d12;
+border:1px solid #66542c;
+border-left:4px solid var(--orange);
+padding:15px;
+border-radius:5px;
+margin:15px 0;
+}
+
+.status{
+display:inline-block;
+padding:3px 7px;
+border-radius:4px;
+font-size:.74rem;
+font-weight:700;
+margin-right:5px;
+}
+
+.A{background:#244d35;color:#c7f1d2}
+.B{background:#27445b;color:#c9e8ff}
+.C{background:#604a24;color:#ffe0a0}
+.D{background:#513e58;color:#ead2f1}
+.E{background:#4a3232;color:#ffd0d0}
+.H{background:#652d2d;color:#ffd5d0}
+
+iframe{
+width:100%;
+min-height:500px;
+border:1px solid var(--border);
+border-radius:7px;
+background:#111;
+}
+
+.video{
+width:100%;
+aspect-ratio:16/9;
+border:0;
+border-radius:7px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin:15px 0;
+}
+
+th,td{
+border:1px solid var(--border);
+padding:9px;
+vertical-align:top;
+}
+
+th{
+color:var(--gold);
+background:var(--panel2);
+}
+
+code,
+pre{
+background:#0e1217;
+border:1px solid var(--border);
+border-radius:5px;
+}
+
+pre{
+padding:12px;
+overflow:auto;
+}
+
+.search{
+width:100%;
+padding:11px;
+border-radius:5px;
+border:1px solid var(--border);
+background:#0e1217;
+color:var(--text);
+margin:10px 0 18px;
+}
+
+.repo-list{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:10px;
+}
+
+.repo-item{
+display:block;
+background:var(--panel);
+border:1px solid var(--border);
+padding:13px;
+border-radius:6px;
+}
+
+footer{
+border-top:1px solid var(--border);
+text-align:center;
+color:var(--muted);
+padding:25px 15px;
+font-size:.82rem;
+}
+
+.small{
+color:var(--muted);
+font-size:.82rem;
+}
+
+@media(max-width:650px){
+.container{padding:20px 12px 50px}
+h1{font-size:1.35rem}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="brand">
+Barran Dodger Archive · The Witness Remains
+</div>
+
+<nav class="tabs" role="tablist">
+
+<button data-tab="home">Home</button>
+<button data-tab="witness">The Witness Remains</button>
+<button data-tab="timeline">Timeline</button>
+<button data-tab="who">Who Did This to Me</button>
+<button data-tab="crimes">Crimes</button>
+<button data-tab="personal-statement-exile">Personal Statement</button>
+<button data-tab="digital-apocalypse">Digital Apocalypse</button>
+<button data-tab="how-they-did-it">How They Did It</button>
+<button data-tab="prophecy">The Prophecy</button>
+<button data-tab="manifesto">Manifesto</button>
+<button data-tab="god-exists">God Exists</button>
+
+<button data-tab="federal-court">Federal Court PID</button>
+<button data-tab="ablecare">AbleCare Transcript</button>
+<button data-tab="ndis-qsc">NDIS Q&S</button>
+<button data-tab="coag">COAG / NDIS</button>
+<button data-tab="ag-pm-2023">AG / PM 2023</button>
+<button data-tab="pm-2022">PM 2022</button>
+<button data-tab="ahrc">AHRC</button>
+
+<button data-tab="architecture">Architecture of Annihilation</button>
+<button data-tab="documents-australia">Documents Australia</button>
+<button data-tab="comprehensive-case">Comprehensive Case</button>
+<button data-tab="legal-aid">Legal Aid NSW</button>
+<button data-tab="ablepoint">AblePoint Court</button>
+<button data-tab="afca">AFCA</button>
+<button data-tab="ombudsman">Ombudsman</button>
+<button data-tab="comcare">Comcare / AAT</button>
+
+<button data-tab="impartial-ai">Impartial AI</button>
+<button data-tab="destroy-soul">Destroy a Soul</button>
+<button data-tab="primary-sources">Primary Sources</button>
+<button data-tab="repository">GitHub Repository</button>
+<button data-tab="challenge">Open Challenge</button>
+<button data-tab="method">Methodology</button>
+
+</nav>
+</header>
+
+<main class="container">
+
+<!-- HOME -->
+
+<section id="home" class="section">
+
+<h1>THE WITNESS REMAINS</h1>
+
+<p class="meta">
+Barran Dodger Digital Documentary Archive · Master archive interface ·
+23 September 2026
+</p>
+
+<div class="notice">
+
+<strong>Archive status:</strong>
+
+This website is a documentary finding aid and presentation layer.
+It is not a court, tribunal, police investigation, government inquiry,
+medical assessment or independent forensic determination.
+
+Documents, allegations, testimony and interpretations must not be
+silently converted into established facts.
+
+</div>
+
+<iframe
+class="video"
+src="https://www.youtube.com/embed/HvGZuyS4G6k"
+title="The Witness Remains — 23 September 2026"
+allowfullscreen>
+</iframe>
+
+<p>
+Video source:
+<a href="https://youtu.be/HvGZuyS4G6k">
+https://youtu.be/HvGZuyS4G6k
+</a>
+</p>
+
+<h2>THE RECORD IS PUBLIC</h2>
+
+<p>
+I am not asking the reader to believe everything I say.
+I am asking the reader to examine what I have documented.
+</p>
+
+<p>
+If an allegation is wrong, identify the underlying document,
+the contrary evidence and the reason the allegation is wrong.
+If a disclosure was received, identify how it was assessed and
+what response followed.
+</p>
+
+<p>
+If legal assistance was refused, identify the reason, decision,
+review mechanism and applicable criteria.
+</p>
+
+<p>
+If an institution disputes an allegation, the archive should preserve
+that response rather than suppressing it.
+</p>
+
+<p>
+The purpose of this archive is therefore examination rather than belief.
+</p>
+
+<h2>IMPARTIAL AI STATEMENT OF SIGNIFICANCE</h2>
+
+<div class="method">
+
+<p>
+The archive should be read as a documentary corpus accompanied by
+an analytical finding aid.
+</p>
+
+<p>
+The existence of a document does not establish every proposition
+contained within it.
+</p>
+
+<p>
+The inclusion of an individual, organisation, agency or institution
+does not establish guilt, conspiracy, criminality, intent, liability
+or wrongdoing.
+</p>
+
+<p>
+AI-generated analysis is an analytical aid. It is not a judicial,
+governmental, police, medical or legal finding.
+</p>
+
+<p>
+The archive is deliberately structured so that readers can distinguish
+what a primary record establishes from what the author reports,
+infers, interprets or alleges.
+</p>
+
+</div>
+
+<h2>EVIDENCE STATUS</h2>
+
+<table>
+
+<tr>
+<th>Level</th>
+<th>Meaning</th>
+</tr>
+
+<tr>
+<td><span class="status A">A</span></td>
+<td>Established fact or authoritative determination.</td>
+</tr>
+
+<tr>
+<td><span class="status B">B</span></td>
+<td>Corroborated documentary claim.</td>
+</tr>
+
+<tr>
+<td><span class="status C">C</span></td>
+<td>Documented allegation requiring independent verification.</td>
+</tr>
+
+<tr>
+<td><span class="status D">D</span></td>
+<td>Inference, analysis or interpretation.</td>
+</tr>
+
+<tr>
+<td><span class="status E">E</span></td>
+<td>Speculation or proposition not established by the available record.</td>
+</tr>
+
+<tr>
+<td><span class="status H">H</span></td>
+<td>High-consequence allegation requiring particularly careful verification.</td>
+</tr>
+
+</table>
+
+</section>
+
+
+<!-- WITNESS REMAINS -->
+
+<section id="witness" class="section">
+
+<h1>THE WITNESS REMAINS</h1>
+
+<p class="meta">
+17 September 2026 · author/source material · documentary preservation record
+</p>
+
+<div class="notice">
+
+The following material preserves the author's source record.
+It should not be interpreted as independent confirmation of the
+allegations contained within it.
+
+</div>
+
+<h2>PRIMARY SOURCE</h2>
+
+<div class="document">
+
+<p>
+<strong>Witness Remains final record</strong>
+</p>
+
+<p>
+28-page PDF referenced by the archive:
+</p>
+
+<a href="docs/the-witness-remains-final-record.pdf">
+docs/the-witness-remains-final-record.pdf
+</a>
+
+<p>
+SHA-256:
+<code>
+2addbf2427a5d08e3de60ee7e251b7d19753c58bce14a1281cbed11404331241
+</code>
+</p>
+
+</div>
+
+<h2>PAGE PRESERVATION</h2>
+
+<p>
+The archive preserves page images so that truncation and presentation
+issues in the source record can be distinguished from later OCR or
+HTML reconstruction.
+</p>
+
+<div class="repo-list">
+
+<script>
+for(let i=1;i<=28;i++){
+let n=String(i).padStart(2,'0');
+document.write(
+'<a class="repo-item" href="assets/witness-remains/page-'+n+'.jpg">'+
+'Witness Remains — Page '+n+
+'</a>'
+);
+}
+</script>
+
+</div>
+
+<h2>RECIPIENT RECORD</h2>
+
+<p>
+The source record states that the email was circulated to a large
+recipient group. The archive preserves the supplied recipient record,
+including incomplete/truncated entries, rather than reconstructing
+missing characters.
+</p>
+
+<p>
+The source describes 127 distinct recipient addresses, of which the
+author's source classification identifies 117 as complete and 10 as
+cut off. These figures are preserved as source claims and should be
+verified against the original message/page images.
+</p>
+
+<h2>WHAT THE DOCUMENT ESTABLISHES</h2>
+
+<ul>
+<li>That a document containing the stated text exists within the archive.</li>
+<li>That the supplied PDF has the stated SHA-256 hash if independently reproduced.</li>
+<li>That the archive preserves page-level representations.</li>
+<li>That the author made the statements contained in the document.</li>
+</ul>
+
+<h2>WHAT IT DOES NOT BY ITSELF ESTABLISH</h2>
+
+<ul>
+<li>That every allegation in the document is true.</li>
+<li>That every named person or organisation committed wrongdoing.</li>
+<li>That reported surveillance mechanisms existed.</li>
+<li>That an alleged conspiracy existed.</li>
+<li>That silence by a recipient constitutes an admission.</li>
+<li>That circulation of the material constitutes corroboration.</li>
+</ul>
+
+</section>
+
+
+<!-- PERSONAL STATEMENT -->
+
+<section id="personal-statement-exile" class="section">
+
+<h1>
+PERSONAL STATEMENT OF EXILE, INSTITUTIONAL DETRIMENT AND THE SEARCH FOR PROTECTION
+</h1>
+
+<p class="meta">
+Named article · Independent tab · Added 23 September 2026 ·
+Author's account · Not a court finding
+</p>
+
+<div class="notice">
+
+<strong>Important evidentiary qualification:</strong>
+
+The statements below are the author's account.
+Allegations remain allegations unless independently established.
+The existence of a supporting document does not automatically establish
+the wrongdoing alleged in that document.
+
+</div>
+
+<div class="claim">
+
+<h2>THE STATEMENT</h2>
+
+<p>
+I am carrying the sin and ethical breach of every profession in the country.
+</p>
+
+<p>
+I carry the betrayal of every former friend and blood family members.
+</p>
+
+<p>
+I am in political exile.
+</p>
+
+<p>
+I am an unprotected whistleblower in breach of this democracy's
+fundamental legal principles.
+</p>
+
+<p>
+I am carrying what I understand to be the cumulative ethical failures,
+institutional betrayals and unresolved harms arising across more than
+three decades.
+</p>
+
+<p>
+I have documented my account.
+</p>
+
+<p>
+The following is my account.
+</p>
+
+</div>
+
+<h2>MY ALLEGATIONS OF WRONGDOING AND HARM</h2>
+
+<ul>
+
+<li>Institutional abandonment or failure of protection.</li>
+
+<li>Financial restriction and loss of resources.</li>
+
+<li>Barriers to legal representation and access to justice.</li>
+
+<li>Dependency upon accommodation and support services.</li>
+
+<li>Administrative processes that, in my account, reduced my ability
+to advocate for myself.</li>
+
+<li>Professional and social isolation.</li>
+
+<li>Complaints or experiences being interpreted through a mental-health
+framework rather than investigated on their own terms.</li>
+
+<li>Reported electronic interception, surveillance or unexplained
+audio experiences.</li>
+
+<li>Threats and safety concerns.</li>
+
+<li>Alleged mistreatment or inadequate treatment of my companion dog
+Crystal.</li>
+
+<li>Alleged reputational damage and social exclusion.</li>
+
+<li>What I describe as political exile and displacement.</li>
+
+<li>Cumulative difficulty obtaining legal, financial, medical,
+housing and media assistance.</li>
+
+</ul>
+
+<h2>I AM NOT A CRIMINAL — THIS IS WHAT I SAY IS OCCURRING TO ME</h2>
+
+<p>
+I am not a criminal.
+</p>
+
+<p>
+What I am describing is what I say is occurring to me.
+</p>
+
+<p>
+I describe myself as isolated and practically trapped within my
+accommodation circumstances.
+</p>
+
+<p>
+I say that formal freedom to leave does not necessarily constitute
+practical freedom where a person lacks the financial resources,
+transport, alternative housing and support necessary to leave safely.
+</p>
+
+<p>
+These propositions should be examined against the relevant financial,
+accommodation, NDIS, correspondence and decision records.
+</p>
+
+<h2>ALLEGED CRIMES AGAINST ME</h2>
+
+<div class="claim">
+
+<span class="status H">H</span>
+
+The archive contains a dedicated crimes matrix identifying
+150 alleged acts of wrongdoing. This is an allegation/evidence
+index, not a finding that crimes occurred.
+
+</div>
+
+<p>
+Source:
+<a href="#crimes" onclick="showTab('crimes')">
+Crimes — alleged harm and evidence matrix
+</a>
+</p>
+
+<p>
+Underlying source identified by the archive:
+<code>Crimes committed upon Barran Dodger 3.pdf</code>
+</p>
+
+<h2>ACCOMMODATION, FINANCIAL DEPENDENCY AND CONTAINMENT</h2>
+
+<p>
+The author alleges that formal freedom to leave accommodation can be
+different from practical freedom to leave where financial resources,
+transport, alternative housing and support are unavailable.
+</p>
+
+<p>
+The appropriate documentary test is therefore not simply whether a
+person is technically permitted to leave. It is whether the available
+financial, housing, support and administrative records demonstrate
+a realistic ability to relocate.
+</p>
+
+<p>
+This is an evidentiary question for the underlying records.
+</p>
+
+<h2>ELECTRONIC HARASSMENT AND WHAT I REPORT AS V2K</h2>
+
+<div class="claim">
+
+<span class="status H">H</span>
+
+The author reports electronic interception, harassment, surveillance
+and what he describes as V2K or voice-to-skull experiences.
+
+These experiences are preserved as reported experiences and allegations.
+The existence, mechanism or source of such phenomena is not established
+by this archive merely because the report exists.
+
+</div>
+
+<p>
+The archive therefore distinguishes:
+
+</p>
+
+<ul>
+<li>what was experienced or perceived;</li>
+<li>what was reported contemporaneously;</li>
+<li>what evidence was supplied;</li>
+<li>what mechanisms can independently be demonstrated;</li>
+<li>alternative explanations requiring assessment;</li>
+<li>and what remains unresolved.</li>
+</ul>
+
+<h2>MENTAL HEALTH TREATMENT AND THE CTO</h2>
+
+<p>
+The author disputes the proposition that every aspect of his reported
+experience should automatically be explained by a psychiatric diagnosis.
+</p>
+
+<p>
+The archive does not independently resolve that medical dispute.
+Clinical conclusions should be assessed against the actual clinical
+records, dates, diagnoses, treatment decisions and applicable legal
+frameworks.
+</p>
+
+<h2>NSW TRUSTEE AND GUARDIAN AND ACCESS TO JUSTICE</h2>
+
+<p>
+The author alleges that financial administration has materially
+restricted his ability to obtain legal assistance.
+</p>
+
+<p>
+This proposition should be assessed against financial statements,
+decisions, correspondence, applications, legal-assistance requests,
+reviews and the governing statutory framework.
+</p>
+
+<h2>DOCUMENTARY TEST</h2>
+
+<div class="method">
+
+<p>
+The central question is not whether the reader accepts the author's
+conclusion in advance.
+</p>
+
+<p>
+The question is:
+
+<strong>
+What do the underlying records actually establish?
+</strong>
+</p>
+
+</div>
+
+</section>
+
+
+<!-- TIMELINE -->
+
+<section id="timeline" class="section">
+
+<h1>DOCUMENTARY TIMELINE</h1>
+
+<p class="meta">
+Chronology of dated records · Not a verdict
+</p>
+
+<div class="notice">
+
+A date establishes that a document bears that date. It does not
+automatically establish that every event described in that document
+occurred as described.
+
+</div>
+
+<table>
+
+<tr>
+<th>Date</th>
+<th>Record</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>21 May 2021</td>
+<td>AFCA letter</td>
+<td>Primary document referenced by archive</td>
+</tr>
+
+<tr>
+<td>3 June 2021</td>
+<td>NDIS Quality & Safeguards Commission — “not an employee”</td>
+<td>Agency-origin determination</td>
+</tr>
+
+<tr>
+<td>31 May 2022</td>
+<td>PM / OPMC correspondence</td>
+<td>Primary correspondence</td>
+</tr>
+
+<tr>
+<td>27 March 2023</td>
+<td>Federal Court PID assessment</td>
+<td>Primary official record</td>
+</tr>
+
+<tr>
+<td>1 July 2023</td>
+<td>Attorney-General / Prime Minister correspondence</td>
+<td>Primary correspondence</td>
+</tr>
+
+<tr>
+<td>4 July 2023</td>
+<td>AHRC acknowledgment</td>
+<td>Primary correspondence</td>
+</tr>
+
+<tr>
+<td>8 August 2025</td>
+<td>Commonwealth Ombudsman service restriction</td>
+<td>Primary correspondence</td>
+</tr>
+
+<tr>
+<td>14 January 2026</td>
+<td>Legal Aid NSW guardianship advice</td>
+<td>Primary legal-service correspondence</td>
+</tr>
+
+<tr>
+<td>14 May 2026</td>
+<td>Court duty officer statement</td>
+<td>Source record</td>
+</tr>
+
+<tr>
+<td>May 2026</td>
+<td>AblePoint court material</td>
+<td>Source record</td>
+</tr>
+
+<tr>
+<td>4 September 2026</td>
+<td>Author's statement concerning alleged organised campaign</td>
+<td>C / author account</td>
+</tr>
+
+<tr>
+<td>5 September 2026</td>
+<td>Statement concerning threats and AblePoint</td>
+<td>C / H allegation</td>
+</tr>
+
+<tr>
+<td>6 September 2026</td>
+<td>“What Was Scripted to Kill Me”</td>
+<td>C / H allegation</td>
+</tr>
+
+<tr>
+<td>7–8 September 2026</td>
+<td>“The Extracted Mandate”</td>
+<td>D / retrospective interpretation</td>
+</tr>
+
+<tr>
+<td>9 September 2026</td>
+<td>“They Could Not Erase What God Preserved”</td>
+<td>Faith testimony</td>
+</tr>
+
+<tr>
+<td>12 September 2026</td>
+<td>Formal objection concerning reported surveillance and slander</td>
+<td>C / reported experience</td>
+</tr>
+
+<tr>
+<td>15 September 2026</td>
+<td>The_Unerased_Record_verbatim_bold_headings.md timestamp</td>
+<td>Provenance record</td>
+</tr>
+
+<tr>
+<td>16 September 2026</td>
+<td>Mirror / finding-aid correspondence</td>
+<td>Author/source record</td>
+</tr>
+
+<tr>
+<td>17 September 2026</td>
+<td>“Dear Able Point” / Witness Remains correspondence</td>
+<td>Primary source record</td>
+</tr>
+
+</table>
+
+</section>
+
+
+<!-- WHO -->
+
+<section id="who" class="section">
+
+<h1>WHO DID THIS TO ME?</h1>
+
+<p class="meta">
+Institutional/entity map · Not a finding of perpetration
+</p>
+
+<div class="notice">
+
+This page maps organisations, professions, agencies and individuals
+identified within the author's documentary corpus. Being named or
+listed does not establish that a person or organisation committed
+wrongdoing.
+
+</div>
+
+<h2>INSTITUTIONAL CATEGORIES</h2>
+
+<div class="repo-list">
+
+<div class="repo-item">Commonwealth Government agencies</div>
+<div class="repo-item">Victorian Government agencies</div>
+<div class="repo-item">NSW Government agencies</div>
+<div class="repo-item">Courts and tribunals</div>
+<div class="repo-item">NDIS and disability services</div>
+<div class="repo-item">Healthcare organisations</div>
+<div class="repo-item">Legal services</div>
+<div class="repo-item">Police and oversight bodies</div>
+<div class="repo-item">Financial institutions</div>
+<div class="repo-item">Media organisations</div>
+<div class="repo-item">Academic institutions</div>
+<div class="repo-item">Private organisations</div>
+<div class="repo-item">International bodies</div>
+<div class="repo-item">Individuals identified in source material</div>
+
+</div>
+
+<p>
+The underlying documents should always be examined before drawing
+a conclusion about any named entity.
+</p>
+
+</section>
+
+
+<!-- CRIMES -->
+
+<section id="crimes" class="section">
+
+<h1>ALLEGED CRIMES AGAINST BARRAN DODGER</h1>
+
+<p class="meta">
+1–150 allegation/evidence matrix · High-consequence allegations
+</p>
+
+<div class="notice">
+
+<strong>Critical qualification:</strong>
+
+This is an allegation and evidence index, not a criminal conviction,
+police finding, judicial determination or independent investigation.
+
+</div>
+
+<div class="claim">
+
+The archive identifies the source:
+
+<code>Crimes committed upon Barran Dodger 3.pdf</code>
+
+The underlying source should be treated as the controlling document
+for the exact wording of individual allegations.
+
+</div>
+
+<table>
+
+<tr>
+<th>#</th>
+<th>Allegation category</th>
+<th>Evidence question</th>
+<th>Status</th>
+</tr>
+
+<script>
+for(let i=1;i<=150;i++){
+document.write(
+'<tr>'+
+'<td>'+i+'</td>'+
+'<td>Alleged wrongdoing recorded in source corpus</td>'+
+'<td>Identify the underlying document, date, source and corroboration.</td>'+
+'<td><span class="status C">C</span> Requires source examination</td>'+
+'</tr>'
+);
+}
+</script>
+
+</table>
+
+</section>
+
+
+<!-- DIGITAL APOCALYPSE -->
+
+<section id="digital-apocalypse" class="section">
+
+<h1>THE DIGITAL APOCALYPSE</h1>
+
+<p class="meta">
+Forensic / prophetic / analytical source material
+</p>
+
+<div class="notice">
+
+This material combines documentary analysis with prophetic and
+interpretive language. It must not be treated as an independent
+finding that a coordinated conspiracy existed.
+
+</div>
+
+<h2>ANALYTICAL SUBJECT</h2>
+
+<p>
+The author's corpus presents a model in which administrative,
+financial, legal, professional, social and institutional pressures
+accumulate over time.
+</p>
+
+<p>
+The archive records this as the author's analytical framework.
+Individual causal relationships require examination against
+underlying records.
+</p>
+
+<h2>PROVENANCE</h2>
+
+<p>
+The source identifies a Digital Apocalypse document with SHA-256:
+</p>
+
+<code>
+44561cdc397c9c79e8c3f28c2e298cbcb461244992b3e804b2fd63e706d06a08
+</code>
+
+<p>
+A cryptographic hash or timestamp can establish provenance or
+integrity of a file. It does not independently prove the truth of
+the substantive allegations contained within that file.
+</p>
+
+</section>
+
+
+<!-- HOW -->
+
+<section id="how-they-did-it" class="section">
+
+<h1>HOW THEY DID IT</h1>
+
+<p class="meta">
+Author's explanatory model · Not an established institutional finding
+</p>
+
+<p>
+The author's model describes cumulative mechanisms operating across:
+</p>
+
+<ol>
+<li>Body</li>
+<li>Mind</li>
+<li>Reputation</li>
+<li>Relationships</li>
+<li>Money</li>
+<li>Housing</li>
+<li>Autonomy</li>
+<li>Legal access</li>
+<li>Institutional recognition</li>
+<li>Evidence</li>
+<li>Social existence</li>
+</ol>
+
+<h2>ALLEGED TECHNIQUES</h2>
+
+<p>
+The author's analysis uses concepts including weakening, isolation,
+discrediting, impoverishment, exhaustion, deprivation of support,
+undermining credibility, obstruction of redress, invisibility and
+erasure.
+</p>
+
+<div class="claim">
+
+These concepts constitute the author's analytical model.
+The archive does not establish that all participating institutions
+acted according to a common plan or intention.
+
+</div>
+
+</section>
+
+
+<!-- PROPHECY -->
+
+<section id="prophecy" class="section">
+
+<h1>THE PROPHECY</h1>
+
+<div class="claim">
+
+<p>
+“I survived what was supposed to erase me.”
+</p>
+
+<p>
+“But this is the prophecy: The witness remains.”
+</p>
+
+</div>
+
+<p>
+This material is preserved as prophetic and spiritual testimony.
+It is not presented as an empirical or judicial finding.
+</p>
+
+</section>
+
+
+<!-- MANIFESTO -->
+
+<section id="manifesto" class="section">
+
+<h1>MANIFESTO</h1>
+
+<p>
+The manifesto presents themes of survival, sovereignty, witness
+and awakening.
+</p>
+
+<div class="claim">
+
+<p><strong>I REFUSED TO BE ERASED.</strong></p>
+
+<p>
+The system is not God.
+</p>
+
+<p>
+I do not need permission to exist.
+</p>
+
+</div>
+
+<p>
+These are authorial and philosophical declarations.
+</p>
+
+</section>
+
+
+<!-- GOD EXISTS -->
+
+<section id="god-exists" class="section">
+
+<h1>GOD EXISTS</h1>
+
+<div class="claim">
+
+<strong>Author faith testimony / spiritual interpretation</strong>
+
+<p>
+The archive contains theological and prophetic material concerning
+God, the Most High, divine preservation, justice, witness and
+vindication.
+</p>
+
+<p>
+The proposition that God preserved the witness is presented here
+as the author's faith claim, not as a proposition that documentary
+forensic methods can independently prove or disprove.
+</p>
+
+</div>
+
+<h2>THEOLOGICAL SIGNIFICANCE</h2>
+
+<p>
+The author's interpretation draws upon biblical themes including
+Luke 8:17 and Psalm 23 and the proposition that what is concealed
+can ultimately be revealed.
+</p>
+
+</section>
+
+
+<!-- FEDERAL COURT -->
+
+<section id="federal-court" class="section">
+
+<h1>FEDERAL COURT PID ASSESSMENT</h1>
+
+<p class="meta">
+27 March 2023 · Primary official record
+</p>
+
+<div class="document">
+
+<p>
+Filename:
+<code>2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf</code>
+</p>
+
+<p>
+The author identifies this document as a Federal Court PID assessment.
+The actual document should be read directly to determine precisely
+what was assessed, what findings were made, what was not determined,
+and what review pathways were available.
+</p>
+
+</div>
+
+<a href="docs/2023-03-27-federal-court-final-assessment-dr-rich-mclean.pdf">
+Open Federal Court PID document
+</a>
+
+</section>
+
+
+<!-- ABLECARE -->
+
+<section id="ablecare" class="section">
+
+<h1>ABLECARE / MURDER-THREAT CALL TRANSCRIPT</h1>
+
+<p class="meta">
+Contemporaneous source transcript · High-consequence allegation
+</p>
+
+<div class="notice">
+
+A transcript preserves what the source records as having been said.
+It does not itself establish that a criminal offence occurred.
+
+</div>
+
+<p>
+The archive identifies this as a primary-source transcript concerning
+an alleged murder threat.
+</p>
+
+<p>
+Any criminal allegation should be assessed against the original audio,
+complete transcript, metadata, witnesses, subsequent reports and
+any official investigation or determination.
+</p>
+
+</section>
+
+
+<!-- NDIS -->
+
+<section id="ndis-qsc" class="section">
+
+<h1>NDIS QUALITY &amp; SAFEGUARDS — “NOT AN EMPLOYEE”</h1>
+
+<p class="meta">3 June 2021 · Agency-origin determination</p>
+
+<div class="document">
+
+<code>
+2021-06-03-NDIS-Quality-Safeguards-Commission-not-an-employee.pdf
+</code>
+
+<p>
+The source is described as an NDIS Quality & Safeguards Commission
+determination concerning employee status for its purposes.
+</p>
+
+<p>
+This classification should be distinguished from other statutory
+tests of employment status used by other agencies, courts or
+compensation systems.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- COAG -->
+
+<section id="coag" class="section">
+
+<h1>COAG / NDIS DOCUMENTS</h1>
+
+<p>
+This tab is a finding aid for government and NDIS source material.
+The underlying records should be used to examine provider,
+participant, plan, safeguarding and administrative processes.
+</p>
+
+</section>
+
+
+<!-- AG PM -->
+
+<section id="ag-pm-2023" class="section">
+
+<h1>ATTORNEY-GENERAL / PRIME MINISTER — 2023</h1>
+
+<p class="meta">1 July 2023</p>
+
+<div class="document">
+
+<code>
+01-07-2023-letter-to-attorney-general-prime-minister.pdf
+</code>
+
+<p>
+Primary correspondence referenced by the archive.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- PM 2022 -->
+
+<section id="pm-2022" class="section">
+
+<h1>PRIME MINISTER / OPMC — 2022</h1>
+
+<p class="meta">31 May 2022</p>
+
+<div class="document">
+
+<code>
+31-05-2022-letter-to-pm-albanese-opmc.pdf
+</code>
+
+<p>
+Primary correspondence referenced by the archive.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- AHRC -->
+
+<section id="ahrc" class="section">
+
+<h1>AUSTRALIAN HUMAN RIGHTS COMMISSION</h1>
+
+<p class="meta">4 July 2023 acknowledgment</p>
+
+<div class="document">
+
+<code>
+ahrc-gangstalking-acknowledgment-04072023.pdf
+</code>
+
+<p>
+The archive identifies an acknowledgment concerning correspondence
+about alleged gangstalking.
+</p>
+
+<p>
+An acknowledgment establishes receipt/communication unless the
+underlying correspondence says more. It should not automatically
+be treated as a finding that the underlying allegations were true.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- ARCHITECTURE -->
+
+<section id="architecture" class="section">
+
+<h1>THE ARCHITECTURE OF ADMINISTRATIVE ANNIHILATION</h1>
+
+<p class="meta">
+Analytical synthesis · Interpretation
+</p>
+
+<div class="claim">
+
+<span class="status D">D</span>
+
+The “architecture” is an analytical model describing recurring
+administrative processes and consequences identified by the author
+within the documentary corpus.
+
+</div>
+
+<p>
+It is not a finding by a court or government inquiry.
+</p>
+
+<p>
+The analysis examines chronology, institutional dependencies,
+classifications, referrals, omissions, correspondence and outcomes.
+</p>
+
+</section>
+
+
+<!-- DOCUMENTS AUSTRALIA -->
+
+<section id="documents-australia" class="section">
+
+<h1>THE DOCUMENTS AUSTRALIA DOESN'T WANT TO SEE</h1>
+
+<p>
+This is a documentary compilation title used by the archive.
+</p>
+
+<div class="notice">
+
+The title is the author's framing. It must not be interpreted as
+evidence that Australia as a whole has sought to suppress the
+documents.
+
+</div>
+
+<p>
+Underlying documentary material should be assessed individually.
+</p>
+
+</section>
+
+
+<!-- COMPREHENSIVE CASE -->
+
+<section id="comprehensive-case" class="section">
+
+<h1>COMPREHENSIVE CASE — SYSTEMATIC PERSECUTION</h1>
+
+<p class="meta">
+Structured finding aid · Author's case theory
+</p>
+
+<p>
+The archive presents a cumulative case theory involving administrative,
+financial, professional, social and legal consequences over an
+extended chronology.
+</p>
+
+<p>
+The archive does not treat the cumulative theory as automatically
+proven merely because many documents exist.
+</p>
+
+</section>
+
+
+<!-- LEGAL AID -->
+
+<section id="legal-aid" class="section">
+
+<h1>LEGAL AID NSW</h1>
+
+<p class="meta">14 January 2026</p>
+
+<div class="document">
+
+<code>
+20260114-legal-aid-nsw-advice-letter-guardianship.pdf
+</code>
+
+<p>
+The source is described as Legal Aid NSW advice concerning
+guardianship.
+</p>
+
+<p>
+The exact advice, eligibility reasoning and available review pathways
+should be taken from the original document.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- ABLEPOINT -->
+
+<section id="ablepoint" class="section">
+
+<h1>ABLEPOINT COURT MATERIAL</h1>
+
+<p class="meta">May 2026</p>
+
+<div class="notice">
+
+The archive contains allegations concerning accommodation,
+support, safeguarding and court proceedings. Allegations concerning
+individuals or organisations are not established merely by inclusion
+in this archive.
+
+</div>
+
+<p>
+Referenced material includes:
+</p>
+
+<code>ablepoint-blocking-court-may-2026.pdf</code>
+
+</section>
+
+
+<!-- AFCA -->
+
+<section id="afca" class="section">
+
+<h1>AFCA LETTER</h1>
+
+<p class="meta">21 May 2021</p>
+
+<div class="document">
+
+<code>afca-letter-21-may-2021.pdf</code>
+
+<p>
+Primary correspondence referenced by the archive.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- OMBUDSMAN -->
+
+<section id="ombudsman" class="section">
+
+<h1>COMMONWEALTH OMBUDSMAN</h1>
+
+<p class="meta">8 August 2025</p>
+
+<div class="document">
+
+<code>
+2025-08-08-Commonwealth-Ombudsman-Service-Restriction.pdf
+</code>
+
+<p>
+The archive identifies this as a service-restriction document.
+The precise grounds and scope must be taken from the original record.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- COMCARE -->
+
+<section id="comcare" class="section">
+
+<h1>COMCARE / AAT / EMPLOYMENT STATUS</h1>
+
+<p>
+The archive identifies documentary material concerning differing
+employment classifications.
+</p>
+
+<div class="method">
+
+The key forensic question is whether apparently different
+classifications arose from different statutory tests, different facts,
+different decision-makers, different periods or an actual
+inconsistency.
+
+</div>
+
+<p>
+The archive should therefore avoid treating different classifications
+as contradictory until the relevant legal tests and source documents
+have been compared.
+</p>
+
+</section>
+
+
+<!-- IMPARTIAL AI -->
+
+<section id="impartial-ai" class="section">
+
+<h1>IMPARTIAL AI ARCHIVE</h1>
+
+<div class="method">
+
+AI is used here as a research and finding-aid instrument.
+
+It is not a court.
+
+It is not a government inquiry.
+
+It is not a police investigation.
+
+It is not a medical authority.
+
+It cannot turn an allegation into an established fact merely through
+repetition or pattern recognition.
+
+</div>
+
+<h2>THE EXTRACTED MANDATE</h2>
+
+<div class="claim">
+
+<span class="status D">D</span>
+
+The phrase “extracted mandate” is a retrospective analytical
+interpretation of patterns identified within the corpus.
+
+It must not be presented as evidence that a literal written
+government command existed.
+
+</div>
+
+<p>
+The archive's analytical approach examines:
+</p>
+
+<ul>
+<li>chronology;</li>
+<li>repeated classifications;</li>
+<li>institutional referrals;</li>
+<li>documented omissions;</li>
+<li>contradictions;</li>
+<li>non-responses;</li>
+<li>jurisdictional transfers;</li>
+<li>documented consequences;</li>
+<li>dependencies between decisions.</li>
+</ul>
+
+<h2>PROVENANCE</h2>
+
+<p>
+The archive reports a corpus containing thousands of documents.
+Different pages have used different counts.
+All such counts should therefore be treated as project-reported
+unless independently reconciled against the repository inventory.
+</p>
+
+</section>
+
+
+<!-- DESTROY SOUL -->
+
+<section id="destroy-soul" class="section">
+
+<h1>NO ONE HAS THE RIGHT TO DESTROY A SOUL</h1>
+
+<div class="claim">
+
+<p>
+No one has the right to destroy a soul marked and pre-announced
+by the Most High.
+</p>
+
+<p>
+The author's faith interpretation is that this is why he believed
+he would ultimately be vindicated: human beings cannot finally
+control what God preserves.
+</p>
+
+</div>
+
+<p>
+This page preserves the theological significance of the archive.
+It is intentionally separated from documentary findings.
+</p>
+
+</section>
+
+
+<!-- PRIMARY SOURCES -->
+
+<section id="primary-sources" class="section">
+
+<h1>ALL PRIMARY SOURCES</h1>
+
+<p>
+The permanent source repositories identified by the archive include:
+</p>
+
+<div class="repo-list">
+
+<a class="repo-item"
+href="https://wezzo72.github.io/Barrandodger/">
+Wezzo72 Barrandodger — GitHub Pages
+</a>
+
+<a class="repo-item"
+href="https://github.com/wezzo72/Barrandodger">
+Wezzo72/Barrandodger — GitHub repository
+</a>
+
+<a class="repo-item"
+href="https://wezzo72.github.io/Backup/">
+Permanent Backup
+</a>
+
+<a class="repo-item"
+href="https://drbarrandodger.github.io/barran-dodger-archive/">
+DrBarranDodger Archive
+</a>
+
+<a class="repo-item"
+href="https://barrandodger.com">
+Barran Dodger
+</a>
+
+</div>
+
+<div class="notice">
+
+Repository links are supplied as archive sources.
+The present HTML does not claim that every file within those
+repositories has been independently examined.
+
+</div>
+
+</section>
+
+
+<!-- GITHUB REPOSITORY -->
+
+<section id="repository" class="section">
+
+<h1>GITHUB REPOSITORY</h1>
+
+<p class="meta">
+Source repository: wezzo72/Barrandodger
+</p>
+
+<p>
+This page is designed as the repository-facing finding aid.
+The repository itself remains the source of the underlying files.
+</p>
+
+<p>
+Repository:
+</p>
+
+<p>
+<a href="https://github.com/wezzo72/Barrandodger">
+https://github.com/wezzo72/Barrandodger
+</a>
+</p>
+
+<h2>REPOSITORY PRINCIPLES</h2>
+
+<ul>
+
+<li>Do not silently rename source documents.</li>
+
+<li>Do not delete source evidence merely because it is disputed.</li>
+
+<li>Preserve original filenames where possible.</li>
+
+<li>Record provenance.</li>
+
+<li>Distinguish source documents from analytical summaries.</li>
+
+<li>Identify duplicates rather than silently treating duplicates as
+additional evidence.</li>
+
+<li>Separate author testimony from independent records.</li>
+
+<li>Do not treat cryptographic integrity as proof of substantive truth.</li>
+
+</ul>
+
+<h2>LIVE REPOSITORY ACCESS</h2>
+
+<div class="repo-list">
+
+<a class="repo-item"
+href="https://github.com/wezzo72/Barrandodger">
+Browse repository
+</a>
+
+<a class="repo-item"
+href="https://github.com/wezzo72/Barrandodger/tree/main">
+Browse main branch
+</a>
+
+<a class="repo-item"
+href="https://github.com/wezzo72/Barrandodger/commits/main">
+View commit history
+</a>
+
+<a class="repo-item"
+href="https://github.com/wezzo72/Barrandodger/issues">
+Repository issues
+</a>
+
+</div>
+
+</section>
+
+
+<!-- OPEN CHALLENGE -->
+
+<section id="challenge" class="section">
+
+<h1>OPEN CHALLENGE</h1>
+
+<div class="method">
+
+<p>
+I am not asking you to believe everything I say.
+</p>
+
+<p>
+I am asking you to examine what I have documented.
+</p>
+
+</div>
+
+<h2>IF THE RECORD IS WRONG</h2>
+
+<ol>
+
+<li>Identify the document.</li>
+
+<li>Identify the proposition that is wrong.</li>
+
+<li>Provide the contrary evidence.</li>
+
+<li>Identify the applicable legal or factual framework.</li>
+
+<li>Explain the discrepancy.</li>
+
+<li>Preserve both versions of the record.</li>
+
+</ol>
+
+<h2>THE ARCHIVE INVITES CONTRADICTION</h2>
+
+<p>
+A documentary archive becomes stronger, not weaker, when genuine
+contrary evidence is preserved and clearly identified.
+</p>
+
+<p>
+The purpose is therefore not to prevent disagreement.
+It is to make disagreement traceable to documents.
+</p>
+
+</section>
+
+
+<!-- METHODOLOGY -->
+
+<section id="method" class="section">
+
+<h1>METHODOLOGY</h1>
+
+<h2>SOURCE HIERARCHY</h2>
+
+<ol>
+
+<li>
+Judicial or authoritative determination.
+</li>
+
+<li>
+Primary government record.
+</li>
+
+<li>
+Contemporaneous correspondence or log.
+</li>
+
+<li>
+Corroborated documentary material.
+</li>
+
+<li>
+Author testimony, interpretation or speculation.
+</li>
+
+</ol>
+
+<h2>NON-CONVERSION RULE</h2>
+
+<div class="method">
+
+Never silently convert:
+
+<ul>
+<li>allegation → fact</li>
+<li>inference → fact</li>
+<li>interpretation → fact</li>
+<li>AI output → finding</li>
+<li>hash → truth</li>
+<li>receipt → corroboration</li>
+<li>acknowledgment → agreement</li>
+<li>silence → admission</li>
+</ul>
+
+</div>
+
+<h2>CRYPTOGRAPHIC VERIFICATION</h2>
+
+<p>
+SHA-256 hashes, Git blob hashes, commit hashes, OpenTimestamps and
+blockchain seals can assist in demonstrating file integrity,
+provenance or existence at a particular time.
+</p>
+
+<p>
+They do not independently establish the truth of the substantive
+claims contained in a document.
+</p>
+
+<h2>DO NOT INVENT</h2>
+
+<p>
+The archive must not invent documents, people, events, quotations,
+laws, court findings, government findings, statistics, financial
+figures, corroboration, citations, sources, testimony, motives,
+criminal conduct or causal relationships.
+</p>
+
+<h2>PROJECT-REPORTED COUNTS</h2>
+
+<p>
+The archive has historically used several different corpus counts.
+Examples include figures for blockchain-authenticated documents,
+government documents, PDFs, forensic analyses, blockchain seals and
+total files.
+</p>
+
+<div class="notice">
+
+Because the counts have varied between archive versions, numerical
+claims should be labelled <strong>project-reported</strong> unless
+reconciled against a dated machine-generated repository inventory.
+
+</div>
+
+<h2>THREE-COLUMN READING METHOD</h2>
+
+<table>
+
+<tr>
+<th>Column 1</th>
+<th>Column 2</th>
+<th>Column 3</th>
+</tr>
+
+<tr>
+<td>What the agency/document states</td>
+<td>What the author reports</td>
+<td>What remains unresolved</td>
+</tr>
+
+</table>
+
+<p>
+This distinction is central to the archive's claim to documentary
+integrity.
+</p>
+
+</section>
+
+</main>
+
+
+<footer>
+
+Barran Dodger Digital Archive · The Witness Remains
+
+<br>
+
+Documentary finding aid · Allegations and author testimony clearly identified
+
+<br><br>
+
+Primary repositories:
+
+<a href="https://github.com/wezzo72/Barrandodger">
+github.com/wezzo72/Barrandodger
+</a>
+
+·
+
+<a href="https://wezzo72.github.io/Backup/">
+Permanent Backup
+</a>
+
+</footer>
+
+
+<script>
+
+function showTab(id){
+
+document.querySelectorAll('.section')
+.forEach(section => section.classList.remove('active'));
+
+document.querySelectorAll('.tabs button')
+.forEach(button => button.classList.remove('active'));
+
+const section=document.getElementById(id);
+
+if(!section){
+id='home';
+}
+
+const target=document.getElementById(id);
+
+if(target){
+target.classList.add('active');
+}
+
+const button=document.querySelector(
+'.tabs button[data-tab="'+id+'"]'
+);
+
+if(button){
+button.classList.add('active');
+}
+
+if(history.replaceState){
+history.replaceState(null,'','#'+id);
+}
+
+window.scrollTo({
+top:0,
+behavior:'smooth'
+});
+}
+
+
+document.querySelectorAll('.tabs button')
+.forEach(button => {
+
+button.addEventListener('click',function(){
+
+showTab(
+button.getAttribute('data-tab')
+);
+
+});
+
+});
+
+
+const initialHash=
+location.hash.replace('#','');
+
+if(initialHash &&
+document.getElementById(initialHash)){
+
+showTab(initialHash);
+
+}else{
+
+showTab('home');
+
+}
+
+</script>
+
+</body>
+</html>

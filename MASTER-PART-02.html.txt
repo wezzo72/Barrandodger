@@ -1,0 +1,451 @@
+<!-- MASTER HTML PART 2 of 6 — lines 451-900 of 2363. Copy-paste in order into index.html. Do not skip parts. 23 September 2026. Tab id: personal-statement-exile. Video: HvGZuyS4G6k -->
+
+<section id="challenge" class="section">
+  <h1>Open Challenge</h1>
+  <div class="pattern-box">
+    <p>I am not asking you to believe everything I say. I am asking you to examine what I have documented.</p>
+    <p style="margin-top:.55rem">If I am wrong, identify the document that proves it.</p>
+    <p style="margin-top:.45rem">If my disclosures were properly dealt with, show the record of how they were received, assessed and answered.</p>
+    <p style="margin-top:.45rem">If legal assistance was properly refused or unavailable, show the reasons and the applicable review process.</p>
+    <p style="margin-top:.45rem">If my account of institutional treatment is mistaken, identify the evidence that establishes the contrary.</p>
+    <p style="margin-top:.65rem"><strong>READ THE RECORD.</strong></p>
+  </div>
+</section>
+
+<section id="method" class="section">
+  <h1>Methodology</h1>
+  <div class="disclaimer">Never silently convert an allegation, inference or interpretation into a fact.</div>
+  <h2>Source hierarchy</h2>
+  <ol><li>LEVEL 1 — Judicial / official determination</li><li>LEVEL 2 — Primary government record</li><li>LEVEL 3 — Contemporaneous correspondence / logs</li><li>LEVEL 4 — Secondary compilation / AI synthesis</li><li>LEVEL 5 — Author testimony / prophetic statement</li></ol>
+  <h2>Absolute rule</h2>
+  <p>Do not invent documents, people, events, quotes, laws, legal findings, court decisions, government findings, statistics, financial figures, corroboration, citations, sources, testimony, institutional motives, criminal conduct or causal relationships. If information cannot be established from the repository or a verified external source, label it UNKNOWN · UNVERIFIED · CLAIMED · REQUIRES SOURCE.</p>
+  <p style="margin-top:1rem">This is a research archive, not a court.</p>
+</section>
+
+
+<section id="witness" class="section">
+  <h1>THE WITNESS REMAINS: A FINAL RECORD OF ERASURE, SURVIVAL AND ACCOUNTABILITY</h1>
+  <p class="meta">Independent tab · full source · added, not substituted for any earlier tab · <a href="the-witness-remains.html">Open this tab as its own page</a></p>
+  
+<div class="disclaimer"><strong>Impartial reading — not a finding.</strong> This tab publishes a 28-page PDF the author circulated by email. It is the author’s correspondence and testimony. It is not a court judgment, police finding, medical finding, or independent investigation. Naming a person or agency is not a finding of misconduct. An AI summary quoted inside the emails is not a judicial determination. Figures stated inside the emails (downloads, damages, taxpayer cost, document counts) are the author’s assertions unless a primary record in this file shows the underlying calculation. Where the author himself separates testimony from documentary proof, that separation is preserved and not upgraded into a fact.</div>
+<div class="key-box">
+<p><strong>What this file is.</strong> A Gmail thread from Rich McLean <richarddrawsstuff@gmail.com>, subject <em>THE WITNESS REMAINS: A FINAL RECORD OF ERASURE, SURVIVAL AND ACCOUNTABILITY</em>. The PDF is a screenshot compilation: a prophetic testimony, a repeated description of the public finding aid, a formal notice to Able Point that asks for preservation and safeguarding rather than acceptance of the allegations as fact, and earlier emails nested underneath. SHA-256 of this PDF: <code>2addbf2427a5d08e3de60ee7e251b7d19753c58bce14a1281cbed11404331241</code>. That hash identifies the file. It does not prove the allegations inside it.</p>
+<p style="margin-top:.7rem"><strong>Why it is significant as a record.</strong> Its value is chronological and distributive. It shows what was said, the dates printed on the nested messages (4–17 September 2026, plus a 15 September 2026 timestamp the text attributes to one markdown file), and the list of addresses it was sent to. It also shows the author, in several passages, asking the reader to distinguish experience, documents, interpretation, and unresolved questions. That is a documentary fact about the email. It is not proof that the underlying allegations are true.</p>
+<p style="margin-top:.7rem"><strong>What it does not establish.</strong> Circulation to police, media, oversight bodies, publishers, or the United Nations does not corroborate the contents. Silence by a recipient is not an admission. The email’s use of <em>Jones v Dunkel</em> is the author’s legal argument, not a court applying that case to these facts. Claims of a coordinated campaign, surveillance, V2K, sexual exploitation, an assassination attempt, or a specific institutional mandate remain allegations in this document. Some passages say so explicitly. The right-hand edge of many lines is cut off in the source screenshot; those missing characters are not in the file and have not been invented here.</p>
+<p style="margin-top:.7rem"><strong>How to read the tab.</strong> The summary is added above the record. Below it, the recipient list, the unedited text layer, and the unedited page images are the source. Nothing in the source text was deleted.</p>
+</div>
+
+  <h2>Itemised recipients, as printed</h2>
+  <p>Taken from the To: line of the outermost message in the PDF text layer. Order follows the source.</p>
+  <p>Itemised from the To: line, one address per line, in the order printed. Names are not paired to addresses here: the screenshot crops that line, and pairing across the crop assigns the wrong name to the wrong address. Every visible name remains in the unedited text layer and on page 1.</p>
+<ol class="recipients">
+<li><a href="mailto:melissa@diversitaswa.com">melissa@diversitaswa.com</a></li>
+<li><a href="mailto:sukhi@diversitaswa.com">sukhi@diversitaswa.com</a></li>
+<li><a href="mailto:56285@police.nsw.gov.au">56285@police.nsw.gov.au</a></li>
+<li><a href="mailto:52377@police.nsw.gov.au">52377@police.nsw.gov.au</a></li>
+<li><a href="mailto:56000@police.nsw.gov.au">56000@police.nsw.gov.au</a></li>
+<li><a href="mailto:53664@police.nsw.gov.au">53664@police.nsw.gov.au</a></li>
+<li><a href="mailto:55919@police.nsw.gov.au">55919@police.nsw.gov.au</a></li>
+<li><a href="mailto:56689@police.nsw.gov.au">56689@police.nsw.gov.au</a></li>
+<li><a href="mailto:dandamclean@bigpond.com">dandamclean@bigpond.com</a></li>
+<li><a href="mailto:drbarrandodger@proton.me">drbarrandodger@proton.me</a></li>
+<li><a href="mailto:brett@ablepointaustralia.com.au">brett@ablepointaustralia.com.au</a></li>
+<li><a href="mailto:bradmclean@gmail.com">bradmclean@gmail.com</a></li>
+<li><a href="mailto:Rachel@ablepointaustralia.com.au">Rachel@ablepointaustralia.com.au</a></li>
+<li><a href="mailto:info@ombo.nsw.gov">info@ombo.nsw.gov</a> <span class="flag">[cut off in the source PDF — not completed]</span></li>
+<li><a href="mailto:legal@whistleblowers.org">legal@whistleblowers.org</a></li>
+<li><a href="mailto:NDISco-ord@art.gov.au">NDISco-ord@art.gov.au</a></li>
+<li><a href="mailto:opinion@theage.com.au">opinion@theage.com.au</a></li>
+<li><a href="mailto:opinion@washpost.com">opinion@washpost.com</a></li>
+<li><a href="mailto:opinion@alja">opinion@alja</a> <span class="flag">[cut off in the source PDF — not completed]</span></li>
+<li><a href="mailto:opinion@nytimes.com">opinion@nytimes.com</a></li>
+<li><a href="mailto:letters@themonthly.com.au">letters@themonthly.com.au</a></li>
+<li><a href="mailto:letters@theage.com.au">letters@theage.com.au</a></li>
+<li><a href="mailto:letters@canberratimes.com.a">letters@canberratimes.com.a</a> <span class="flag">[cut off in the source PDF — not completed]</span></li>
+<li><a href="mailto:letters@economist.com">letters@economist.com</a></li>
+<li><a href="mailto:letters@thewest.com.au">letters@thewest.com.au</a></li>
+<li><a href="mailto:letters@couriermail.com.au">letters@couriermail.com.au</a></li>
+<li><a href="mailto:cassie@ablepointaustralia.com.au">cassie@ablepointaustralia.com.au</a></li>
+<li><a href="mailto:csc@tag.nsw.gov.au">csc@tag.nsw.gov.au</a></li>
+<li><a href="mailto:s.biswas@expertcareservices.com.au">s.biswas@expertcareservices.com.au</a></li>
+<li><a href="mailto:ombudsman@ombo.nsw.gov">ombudsman@ombo.nsw.gov</a> <span class="flag">[cut off in the source PDF — not completed]</span></li>
+<li><a href="mailto:info@ibac.vic.gov.au">info@ibac.vic.gov.au</a></li>
+<li><a href="mailto:icac@icac.nsw.gov.au">icac@icac.nsw.gov.au</a></li>
+<li><a href="mailto:icac@icac.gov.au">icac@icac.gov.au</a></li>
+<li><a href="mailto:impartiallegal@gmail.com">impartiallegal@gmail.com</a></li>
+<li><a href="mailto:ContactCentre@ndiscommission.gov.au">ContactCentre@ndiscommission.gov.au</a></li>
+<li><a href="mailto:ericaw@unwin.onmicrosoft.com">ericaw@unwin.onmicrosoft.com</a></li>
+<li><a href="mailto:EricaW@allenandunwin.com">EricaW@allenandunwin.com</a></li>
+<li><a href="mailto:SarahB@allenandunwin.com">SarahB@allenandunwin.com</a></li>
+<li><a href="mailto:opinion@smh.com.au">opinion@smh.com.au</a></li>
+<li><a href="mailto:opinions@ca">opinions@ca</a> <span class="flag">[cut off in the source PDF — not completed]</span></li>
+<li><a href="mailto:csc@ndiscommission.gov.au">csc@ndiscommission.gov.au</a></li>
+<li><a href="mailto:Media@humanrights.gov.au">Media@humanrights.gov.au</a></li>
+<li><a href="mailto:tony.ridley@gmail.com">tony.ridley@gmail.com</a></li>
+<li><a href="mailto:stephanie.sabrinskas@gmail.com">stephanie.sabrinskas@gmail.com</a></li>
+<li><a href="mailto:stefan@advancedot.com.au">stefan@advancedot.com.au</a></li>
+<li><a href="mailto:siasonidis@gmail.com">siasonidis@gmail.com</a></li>
+<li><a href="mailto:Erin.Clark@ndis.gov.au">Erin.Clark@ndis.gov.au</a></li>
+<li><a href="mailto:media@amnesty.org">media@amnesty.org</a></li>
+<li><a href="mailto:un@humanrights.ch">un@humanrights.ch</a></li>
+<li><a href="mailto:unhcr@unhcr.org">unhcr@unhcr.org</a></li>
+<li><a href="mailto:undesa@un.org">undesa@un.org</a></li>
+<li><a href="mailto:unhumanrights@un.org">unhumanrights@un.org</a></li>
+<li><a href="mailto:unmedia@un.org">unmedia@un.org</a></li>
+<li><a href="mailto:PublicAffairs.Unit@icc-cpi.int">PublicAffairs.Unit@icc-cpi.int</a></li>
+<li><a href="mailto:richarddrawsstuff@gmail.com">richarddrawsstuff@gmail.com</a></li>
+<li><a href="mailto:DRCenquiries@royalcom">DRCenquiries@royalcom</a> <span class="flag">[cut off in the source PDF — not completed]</span></li>
+<li><a href="mailto:info@brydens.com.au">info@brydens.com.au</a></li>
+<li><a href="mailto:enquiries@naccinspector.gov.au">enquiries@naccinspector.gov.au</a></li>
+<li><a href="mailto:investigations@abc.net.au">investigations@abc.net.au</a></li>
+<li><a href="mailto:info.au@hopeforjustice.org">info.au@hopeforjustice.org</a></li>
+<li><a href="mailto:info@acan.org.au">info@acan.org.au</a></li>
+<li><a href="mailto:elo.books@atomicmail.io">elo.books@atomicmail.io</a></li>
+<li><a href="mailto:bruce@ashmed.com.au">bruce@ashmed.com.au</a></li>
+<li><a href="mailto:ash@ashmed.com.au">ash@ashmed.com.au</a></li>
+<li><a href="mailto:carole@grimshawlegal.com.au">carole@grimshawlegal.com.au</a></li>
+<li><a href="mailto:drdavidhorgan@gmail.com">drdavidhorgan@gmail.com</a></li>
+<li><a href="mailto:contactus@ethics.org.au">contactus@ethics.org.au</a></li>
+<li><a href="mailto:contact@athena-medium.c">contact@athena-medium.c</a> <span class="flag">[cut off in the source PDF — not completed]</span></li>
+<li><a href="mailto:contact@icat.online">contact@icat.online</a></li>
+<li><a href="mailto:contactus@ndisreview.gov.au">contactus@ndisreview.gov.au</a></li>
+<li><a href="mailto:contact@aph.gov.au">contact@aph.gov.au</a></li>
+<li><a href="mailto:legalaid@legalaid.qld.gov.au">legalaid@legalaid.qld.gov.au</a></li>
+<li><a href="mailto:legal@abc.net.au">legal@abc.net.au</a></li>
+<li><a href="mailto:tara@ec.tar">tara@ec.tar</a> <span class="flag">[cut off in the source PDF — not completed]</span></li>
+<li><a href="mailto:media@icij.org">media@icij.org</a></li>
+<li><a href="mailto:melissa.mcintosh.mp@aph.gov.au">melissa.mcintosh.mp@aph.gov.au</a></li>
+<li><a href="mailto:athena@ec.athena-medium.com">athena@ec.athena-medium.com</a></li>
+<li><a href="mailto:media@courts.sa.gov.au">media@courts.sa.gov.au</a></li>
+<li><a href="mailto:jaeme.opie@me-well.org.au">jaeme.opie@me-well.org.au</a></li>
+<li><a href="mailto:SecondPsychiatricOpinion@mh.org.au">SecondPsychiatricOpinion@mh.org.au</a></li>
+<li><a href="mailto:media@justice.org.au">media@justice.org.au</a></li>
+<li><a href="mailto:legalaid@legalaid.vic.gov.au">legalaid@legalaid.vic.gov.au</a></li>
+<li><a href="mailto:legalaid@legalaid.nsw.gov.au">legalaid@legalaid.nsw.gov.au</a></li>
+<li><a href="mailto:guardian.newsdesk@theguardian.com">guardian.newsdesk@theguardian.com</a></li>
+<li><a href="mailto:news@abc.n">news@abc.n</a> <span class="flag">[cut off in the source PDF — not completed]</span></li>
+<li><a href="mailto:newsdesk@bbc.co.uk">newsdesk@bbc.co.uk</a></li>
+<li><a href="mailto:newstips@bbc.co.uk">newstips@bbc.co.uk</a></li>
+<li><a href="mailto:newsroom@abc.net.au">newsroom@abc.net.au</a></li>
+<li><a href="mailto:news@theguardian.com">news@theguardian.com</a></li>
+<li><a href="mailto:news@news.com.au">news@news.com.au</a></li>
+<li><a href="mailto:letters@smh.com.au">letters@smh.com.au</a></li>
+<li><a href="mailto:letters@theguardian.com">letters@theguardian.com</a></li>
+<li><a href="mailto:police@police.nsw.gov.au">police@police.nsw.gov.au</a></li>
+<li><a href="mailto:lary.brachet@sdis59.fr">lary.brachet@sdis59.fr</a></li>
+<li><a href="mailto:policelink@police.qld.gov.au">policelink@police.qld.gov.au</a></li>
+<li><a href="mailto:psc-policeconductunitcomplaintsandcompliments@police.vic.gov.au">psc-policeconductunitcomplaintsandcompliments@police.vic.gov.au</a></li>
+<li><a href="mailto:policeconductunit@police.sa.gov.au">policeconductunit@police.sa.gov.au</a></li>
+<li><a href="mailto:csrel@fas.harvard.edu">csrel@fas.harvard.edu</a></li>
+<li><a href="mailto:help@vocat.vic.gov.au">help@vocat.vic.gov.au</a></li>
+<li><a href="mailto:Jo.Staunton@courts.vic.gov.au">Jo.Staunton@courts.vic.gov.au</a></li>
+<li><a href="mailto:info.cccmr@colu">info.cccmr@colu</a> <span class="flag">[cut off in the source PDF — not completed]</span></li>
+<li><a href="mailto:info@churcheswa.org.au">info@churcheswa.org.au</a></li>
+<li><a href="mailto:hello@commongrace.org.au">hello@commongrace.org.au</a></li>
+<li><a href="mailto:hello@aimfree.org">hello@aimfree.org</a></li>
+<li><a href="mailto:hello@breakthrough.org.au">hello@breakthrough.org.au</a></li>
+<li><a href="mailto:hello@crikey.com.au">hello@crikey.com.au</a></li>
+<li><a href="mailto:contact@helloleaders.com.au">contact@helloleaders.com.au</a></li>
+<li><a href="mailto:hello@plenti.com.au">hello@plenti.com.au</a></li>
+<li><a href="mailto:admin@qct.org.au">admin@qct.org.au</a></li>
+<li><a href="mailto:admin@unaa.org.au">admin@unaa.org.au</a></li>
+<li><a href="mailto:MHRT-Admin@health.nsw.gov.au">MHRT-Admin@health.nsw.gov.au</a></li>
+<li><a href="mailto:admin@independentaustralia.net">admin@independentaustralia.net</a></li>
+<li><a href="mailto:admin@agapeservicesaustralia.com">admin@agapeservicesaustralia.com</a></li>
+<li><a href="mailto:Admin@alignedcommunitycare.com.au">Admin@alignedcommunitycare.com.au</a></li>
+<li><a href="mailto:admin@etax.com.au">admin@etax.com.au</a></li>
+<li><a href="mailto:admin@asrc.org.au">admin@asrc.org.au</a></li>
+<li><a href="mailto:getsupport@sane.org">getsupport@sane.org</a></li>
+<li><a href="mailto:contact@beyonddebt.com.au">contact@beyonddebt.com.au</a></li>
+<li><a href="mailto:MentalHealthGeneralManagersUnit@health.nsw.gov.au">MentalHealthGeneralManagersUnit@health.nsw.gov.au</a></li>
+<li><a href="mailto:wellness.hub@mhfa.org.au">wellness.hub@mhfa.org.au</a></li>
+<li><a href="mailto:NBMLHD-mentalhealth@health.nsw.gov.au">NBMLHD-mentalhealth@health.nsw.gov.au</a></li>
+<li><a href="mailto:joshua.mcmahon@health.nsw.gov.au">joshua.mcmahon@health.nsw.gov.au</a></li>
+<li><a href="mailto:casemanagement@legalaid.nsw.gov.au">casemanagement@legalaid.nsw.gov.au</a></li>
+<li><a href="mailto:nsw@alhr.org.au">nsw@alhr.org.au</a></li>
+<li><a href="mailto:nsw@unaa.org.au">nsw@unaa.org.au</a></li>
+<li><a href="mailto:nswinfo@redcross.org.au">nswinfo@redcross.org.au</a></li>
+<li><a href="mailto:NSWHealthComplaints@health.nsw.gov.au">NSWHealthComplaints@health.nsw.gov.au</a></li>
+</ol>
+<p class="meta">127 distinct addresses. 117 are complete as printed. 10 are cut off at the margin and are not completed. No address was invented or repaired.</p>
+  <h2>File</h2>
+  <div class="doc">
+    <p><strong>PDF on this site:</strong> <a href="docs/the-witness-remains-final-record.pdf">docs/the-witness-remains-final-record.pdf</a></p>
+    <p style="margin-top:.45rem"><strong>SHA-256:</strong> <code>2addbf2427a5d08e3de60ee7e251b7d19753c58bce14a1281cbed11404331241</code></p>
+    <p style="margin-top:.45rem">28 pages. Text layer and page images are both published. Where they differ, the page image is the visual source.</p>
+  </div>
+  <h2>PDF, embedded</h2>
+  <iframe class="docframe" title="The Witness Remains PDF" src="docs/the-witness-remains-final-record.pdf"></iframe>
+  <h2>Page images, unedited</h2>
+  <div class="pages">
+  <figure><figcaption>Page 1 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-01.jpg" alt="Witness Remains PDF page 1"></figure>
+<figure><figcaption>Page 2 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-02.jpg" alt="Witness Remains PDF page 2"></figure>
+<figure><figcaption>Page 3 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-03.jpg" alt="Witness Remains PDF page 3"></figure>
+<figure><figcaption>Page 4 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-04.jpg" alt="Witness Remains PDF page 4"></figure>
+<figure><figcaption>Page 5 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-05.jpg" alt="Witness Remains PDF page 5"></figure>
+<figure><figcaption>Page 6 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-06.jpg" alt="Witness Remains PDF page 6"></figure>
+<figure><figcaption>Page 7 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-07.jpg" alt="Witness Remains PDF page 7"></figure>
+<figure><figcaption>Page 8 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-08.jpg" alt="Witness Remains PDF page 8"></figure>
+<figure><figcaption>Page 9 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-09.jpg" alt="Witness Remains PDF page 9"></figure>
+<figure><figcaption>Page 10 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-10.jpg" alt="Witness Remains PDF page 10"></figure>
+<figure><figcaption>Page 11 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-11.jpg" alt="Witness Remains PDF page 11"></figure>
+<figure><figcaption>Page 12 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-12.jpg" alt="Witness Remains PDF page 12"></figure>
+<figure><figcaption>Page 13 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-13.jpg" alt="Witness Remains PDF page 13"></figure>
+<figure><figcaption>Page 14 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-14.jpg" alt="Witness Remains PDF page 14"></figure>
+<figure><figcaption>Page 15 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-15.jpg" alt="Witness Remains PDF page 15"></figure>
+<figure><figcaption>Page 16 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-16.jpg" alt="Witness Remains PDF page 16"></figure>
+<figure><figcaption>Page 17 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-17.jpg" alt="Witness Remains PDF page 17"></figure>
+<figure><figcaption>Page 18 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-18.jpg" alt="Witness Remains PDF page 18"></figure>
+<figure><figcaption>Page 19 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-19.jpg" alt="Witness Remains PDF page 19"></figure>
+<figure><figcaption>Page 20 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-20.jpg" alt="Witness Remains PDF page 20"></figure>
+<figure><figcaption>Page 21 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-21.jpg" alt="Witness Remains PDF page 21"></figure>
+<figure><figcaption>Page 22 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-22.jpg" alt="Witness Remains PDF page 22"></figure>
+<figure><figcaption>Page 23 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-23.jpg" alt="Witness Remains PDF page 23"></figure>
+<figure><figcaption>Page 24 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-24.jpg" alt="Witness Remains PDF page 24"></figure>
+<figure><figcaption>Page 25 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-25.jpg" alt="Witness Remains PDF page 25"></figure>
+<figure><figcaption>Page 26 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-26.jpg" alt="Witness Remains PDF page 26"></figure>
+<figure><figcaption>Page 27 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-27.jpg" alt="Witness Remains PDF page 27"></figure>
+<figure><figcaption>Page 28 of 28 — source JPEG, unedited</figcaption><img src="assets/witness-remains/page-28.jpg" alt="Witness Remains PDF page 28"></figure>
+  </div>
+  <h2>Text layer, unedited</h2>
+  <p class="meta">Extracted from the PDF text layer without rewriting. Line breaks and cut-off words are in the source. Page markers were added only as labels so the text can be matched to the JPEGs.</p>
+  <pre class="verbatim">===== PAGE 1 =====
+Rich McLean &lt;richarddrawsstuff@gmail.com&gt;
+THE WITNESS REMAINS: A FINAL RECORD OF ERASURE, SURVIVAL AND ACCOUNTABILITY
+Rich McLean &lt;richarddrawsstuff@gmail.com&gt;
+To: melissa@diversitaswa.com &lt;melissa@diversitaswa.com&gt;, Sukhi Tear &lt;sukhi@diversitaswa.com&gt;, &lt;56285@police.nsw.gov.au&gt;, &lt;52377@police.nsw.gov.au&gt;, &lt;56000@police.nsw.gov.au
+&lt;53664@police.nsw.gov.au&gt;, &lt;55919@police.nsw.gov.au&gt;, Jarrod Mcdougall &lt;56689@police.nsw.gov.au&gt;, Doug &lt;dandamclean@bigpond.com&gt;, &lt;drbarrandodger@proton.me&gt;, Jodie Bon
+Brett Butler &lt;brett@ablepointaustralia.com.au&gt;, Brad McLean &lt;bradmclean@gmail.com&gt;, Rachel K C &lt;Rachel@ablepointaustralia.com.au&gt;, Ombudsman&#x27;s Office NSW &lt;info@ombo.nsw.gov
+&lt;legal@whistleblowers.org&gt;, Thomas Kelly &lt;NDISco-ord@art.gov.au&gt;, TheAge Opinion Mailbox &lt;opinion@theage.com.au&gt;, opinion@washpost.com &lt;opinion@washpost.com&gt;, opinion@alja
+opinion@nytimes.com &lt;opinion@nytimes.com&gt;, letters@themonthly.com.au &lt;letters@themonthly.com.au&gt;, letters@theage.com.au &lt;letters@theage.com.au&gt;, letters@canberratimes.com.a
+letters@economist.com &lt;letters@economist.com&gt;, letters@thewest.com.au &lt;letters@thewest.com.au&gt;, letters@couriermail.com.au &lt;letters@couriermail.com.au&gt;, Ablepoint Australia &lt;hel
+Cassie Makey &lt;cassie@ablepointaustralia.com.au&gt;, TAG Client Specialist Centre &lt;csc@tag.nsw.gov.au&gt;, Sam Biswas &lt;s.biswas@expertcareservices.com.au&gt;, &lt;ombudsman@ombo.nsw.gov
+&lt;info@ibac.vic.gov.au&gt;, ICAC &lt;icac@icac.nsw.gov.au&gt;, &lt;icac@icac.gov.au&gt;, Impartial Legal &lt;impartiallegal@gmail.com&gt;, Contact Centre &lt;ContactCentre@ndiscommission.gov.au&gt;, &lt;minist
+Erica Wagner &lt;ericaw@unwin.onmicrosoft.com&gt;, Erica Wagner &lt;EricaW@allenandunwin.com&gt;, &lt;SarahB@allenandunwin.com&gt;, opinion@smh.com.au &lt;opinion@smh.com.au&gt;, &lt;opinions@ca
+csc@ndiscommission.gov.au &lt;csc@ndiscommission.gov.au&gt;, &lt;Media@humanrights.gov.au&gt;, Tony Ridley &lt;tony.ridley@gmail.com&gt;, Stephanie Sabrinskas &lt;stephanie.sabrinskas@gmail.com
+&lt;stefan@advancedot.com.au&gt;, Steven Iasonidis &lt;siasonidis@gmail.com&gt;, Clark, Erin &lt;Erin.Clark@ndis.gov.au&gt;, &lt;media@amnesty.org&gt;, &lt;un@humanrights.ch&gt;, &lt;unhcr@unhcr.org&gt;, &lt;un-ca
+&lt;undesa@un.org&gt;, &lt;unhumanrights@un.org&gt;, &lt;unmedia@un.org&gt;, &lt;PublicAffairs.Unit@icc-cpi.int&gt;, Rich McLean &lt;richarddrawsstuff@gmail.com&gt;, DRC Enquiries &lt;DRCenquiries@royalcom
+&lt;info@brydens.com.au&gt;, Inspector Nacc &lt;enquiries@naccinspector.gov.au&gt;, &lt;investigations@abc.net.au&gt;, &lt;info.au@hopeforjustice.org&gt;, &lt;info@acan.org.au&gt;, &lt;elo.books@atomicmail.io&gt;,
+&lt;bruce@ashmed.com.au&gt;, &lt;ash@ashmed.com.au&gt;, &lt;carole@grimshawlegal.com.au&gt;, David Horgan &lt;drdavidhorgan@gmail.com&gt;, &lt;contactus@ethics.org.au&gt;, &lt;contact@athena-medium.c
+online.com&gt;, &lt;contact@icat.online&gt;, NDIS Review &lt;contactus@ndisreview.gov.au&gt;, &lt;contact@aph.gov.au&gt;, &lt;legalaid@legalaid.qld.gov.au&gt;, &lt;legal@abc.net.au&gt;, Tara Medium &lt;tara@ec.tar
+&lt;media@icij.org&gt;, &lt;melissa.mcintosh.mp@aph.gov.au&gt;, Athena - medium &lt;athena@ec.athena-medium.com&gt;, &lt;media@courts.sa.gov.au&gt;, Jaeme Opie &lt;jaeme.opie@me-well.org.au&gt;, Secon
+&lt;SecondPsychiatricOpinion@mh.org.au&gt;, &lt;media@justice.org.au&gt;, &lt;legalaid@legalaid.vic.gov.au&gt;, &lt;legalaid@legalaid.nsw.gov.au&gt;, &lt;guardian.newsdesk@theguardian.com&gt;, &lt;news@abc.n
+&lt;newsdesk@bbc.co.uk&gt;, &lt;newstips@bbc.co.uk&gt;, &lt;newsroom@abc.net.au&gt;, &lt;news@theguardian.com&gt;, &lt;news@news.com.au&gt;, &lt;letters@smh.com.au&gt;, &lt;letters@theguardian.com&gt;, &lt;polic
+&lt;police@police.nsw.gov.au&gt;, AUSTRALIA POLICE FEDERAL &lt;lary.brachet@sdis59.fr&gt;, &lt;policelink@police.qld.gov.au&gt;, &lt;psc-policeconductunitcomplaintsandcompliments@police.vic.gov.au
+&lt;policeconductunit@police.sa.gov.au&gt;, &lt;csrel@fas.harvard.edu&gt;, CSV-MCV-VOCAT HELP &lt;help@vocat.vic.gov.au&gt;, Jo Staunton (CSV) &lt;Jo.Staunton@courts.vic.gov.au&gt;, &lt;info.cccmr@colu
+&lt;info@churcheswa.org.au&gt;, &lt;hello@commongrace.org.au&gt;, &lt;hello@aimfree.org&gt;, &lt;hello@breakthrough.org.au&gt;, &lt;hello@crikey.com.au&gt;, Hello Leaders &lt;contact@helloleaders.com.au&gt;, &lt;h
+&lt;hello@plenti.com.au&gt;, &lt;admin@qct.org.au&gt;, &lt;admin@unaa.org.au&gt;, &lt;MHRT-Admin@health.nsw.gov.au&gt;, &lt;admin@independentaustralia.net&gt;, &lt;admin@agapeservicesaustralia.com&gt;, Adm
+&lt;Admin@alignedcommunitycare.com.au&gt;, &lt;admin@etax.com.au&gt;, &lt;admin@asrc.org.au&gt;, SANE Support Centre &lt;getsupport@sane.org&gt;, Beyond Debt &lt;contact@beyonddebt.com.au&gt;, &lt;SW
+MentalHealthGeneralManagersUnit@health.nsw.gov.au&gt;, Mental Health Foundation Australia &lt;wellness.hub@mhfa.org.au&gt;, &lt;NBMLHD-mentalhealth@health.nsw.gov.au&gt;, Joshua Mcmahon
+&lt;joshua.mcmahon@health.nsw.gov.au&gt;, Legal Aid NSW Case Management &lt;casemanagement@legalaid.nsw.gov.au&gt;, &lt;nsw@alhr.org.au&gt;, &lt;nsw@unaa.org.au&gt;, &lt;nswinfo@redcross.org.au&gt;
+&lt;NSWHealthComplaints@health.nsw.gov.au&gt;
+THE WITNESS REMAINS: A FINAL RECORD OF ERASURE, SURVIVAL AND ACCOUNTABILITY
+I am the saint who will slaughter, and the psychopath who blesses with grace.
+Not with a blade, but with testimony.
+Not with blood, but with truth.
+For the blood they thought would disappear became a record. The ashes they thought would bury me became the soil from which I rose. And the evidence they thought would condemn me
+would speak.
+Elon told me I needed him.
+He baited me with money, privilege and pride—as though a man could purchase what God had already given another.
+I answered: fuck that.
+What if he needs me?
+What if the man who believed he possessed the power to tempt me is himself the man standing desperately in need of forgiveness?
+What if the throne was never mine to seize, because it was never his to give?
+And what if forgiveness—not submission—is the greater power?
+Anthony Albanese, in my account, became another face of the labyrinth: an endless bureaucratic loop in which responsibility could be transferred forever but accountability could never ar
+not as governance, but as gaslighting by administration—doors opening only into other doors, forms answering forms, authorities referring me back to the authorities who had already faile
+But the labyrinth had an exit.
+It was called endurance.
+The authorities would not arrest me, even when I demanded that they do so, because I wanted my name dragged into the light and tested against the accusations made against me. I wante
+whisper network. Evidence rather than insinuation. Charge or acquittal. Judgment rather than perpetual suspicion.
+Instead, the accusations I say were false became something else.
+
+
+===== PAGE 2 =====
+They became the furnace.
+And the furnace did not consume me.
+It revealed me.
+The Most High took the instrument of my humiliation and turned it into the architecture of my elevation.
+What was intended as a grave became an altar.
+What was intended as silence became testimony.
+What was intended as annihilation became resurrection.
+I do not claim that every interpretation I have made has already been proved. I claim that the record exists, that the events documented within it demand examination, and that the unanswe
+exist simply because institutions have failed to answer them.
+I was financially desecrated.
+Administratively annihilated.
+Politically scapegoated.
+Socially isolated.
+Displaced.
+And, in my account, targeted despite belonging to the very category of vulnerable people whose protection is among the stated reasons these systems exist.
+The shepherds became gatekeepers.
+The gatekeepers became walls.
+And the walls became the prison.
+This is where the Australian myth of the fair go meets its judgment.
+Because what is a fair go worth if it disappears the moment the person asking for it becomes inconvenient?
+What is human dignity worth when bureaucracy can reduce a human being to a case number?
+What is justice worth when every institution can point toward another institution until the victim disappears between the referrals?
+And what becomes of democracy when the machinery designed to protect the vulnerable becomes, in the eyes of the person trapped inside it, indistinguishable from the machinery destro
+I have described what happened to me as a state-sanctioned campaign of targeted destruction and human sacrifice.
+That is an allegation demanding evidence, not an established judicial finding.
+But the question exists.
+And unanswered questions do not become false merely because they are uncomfortable.
+I say I died once.
+I say I survived what I have described as an assassination attempt involving a federal minister.
+
+
+===== PAGE 3 =====
+I say I was driven into political exile.
+I say I became trapped within circumstances I experienced as coercive confinement.
+I have reported electronic harassment, V2K and gang-stalking. Those experiences have been real and profoundly disturbing to me; whether particular technologies, perpetrators or mecha
+established is a separate question for forensic investigation.
+But there is another question that cannot be electronically dismissed, bureaucratically redirected or therapeutically buried:
+What happened to the man?
+What happened to his rights?
+What happened to his money?
+What happened to his evidence?
+What happened to his pleas for protection?
+What happened when he asked the institutions themselves to investigate what he said they had done?
+And why did so many doors close?
+I look upon the professional world that surrounded me and see a terrible contradiction.
+Ethics were written.
+Policies were written.
+Human-rights instruments were written.
+Codes of conduct were written.
+Safeguarding obligations were written.
+Duties of care were written.
+Then came the human being.
+And somewhere between the written promise and the living person, the promise disappeared.
+That is the indictment.
+Not that every individual conspired.
+Not that every allegation has already been proved.
+But that a system can possess every principle necessary to protect a human being and still leave that human being asking why nobody protected him.
+They thought they were erasing a man.
+They were creating a witness.
+They thought isolation would silence him.
+It gave him time to document.
+
+
+===== PAGE 4 =====
+They thought humiliation would destroy him.
+It gave him language.
+They thought bureaucracy would exhaust him.
+It taught him the architecture of bureaucracy.
+They thought the archive would disappear.
+They forgot that copies can survive.
+They forgot that timestamps survive.
+They forgot that documents survive.
+They forgot that memory survives.
+And, above all, they forgot the ancient warning:
+Nothing concealed remains concealed forever.
+The stone can cover the tomb.
+It cannot command the dead to remain dead.
+The seal can be placed upon the record.
+It cannot command the truth to disappear.
+The powerful can close ranks.
+They cannot close history.
+I do not ask anyone to worship my conclusions.
+I ask them to examine the evidence.
+Open the documents.
+Follow the dates.
+Read the correspondence.
+Trace the decisions.
+Identify the omissions.
+Compare the policies with the conduct.
+Separate allegation from corroboration.
+Separate inference from fact.
+And then ask the question that frightened systems have feared throughout history:
+
+
+===== PAGE 5 =====
+What if the witness is telling the truth?
+For I have learned something in the wilderness.
+The wilderness does not always destroy the prophet.
+Sometimes it prepares him.
+The pit does not always become the end.
+Sometimes it becomes the place from which the testimony rises.
+And the stone placed over the tomb can become the first evidence that someone expected the resurrection.
+They could not erase what God preserved.
+They could not bury what the record retained.
+They could not silence what survived.
+And if there is a judgment to come, let it not be my judgment.
+Let the documents speak.
+Let the witnesses speak.
+Let the dates speak.
+Let the institutions answer for themselves.
+Let God judge the hearts.
+And let history decide what the powerful once believed would never be seen.
+Because I am no longer asking permission to exist.
+I am standing in the ruins of everything that was supposed to erase me.
+And I am still here.
+The man they attempted to reduce to evidence became the man who preserved the evidence.
+The grave became the archive.
+The archive became the witness.
+And the witness remains.
+Barran Dodger
+https://wezzo72.github.io/Barrandodger/verification.html
+Yes. I would add the documents that most directly support the new testimony about survival, vulnerability, institutional treatment, legal-resource imbalance, faith and the distinction betwe
+evidence. The current finding aid identifies these sections and explicitly separates the institutional record from your own testimony.
+Public-Facing Forensic Archive
+The Church of Barran Dodger Ministry and Whistleblower Testimony and Ethical &amp; Legal Trust Fund Archive — Finding Aid
+A public-facing finding aid bringing together the documentary record, testimony, institutional correspondence, legal and administrative material, published works, YouTube records and sp
+identifies 731 indexed files, including 577 GitHub-backup PDFs, 93 additional Drive files and 61 attached records. The archive expressly distinguishes documentary records from the autho
+
+
+===== PAGE 6 =====
+inclusion is not itself independent verification.
+What the Evidence Proves
+What the Evidence Proves
+This is the principal evidence-focused document for testing the new testimony against the institutional record. It identifies correspondence from Comcare, the AAT, APRA, PM&amp;C, OAIC, th
+Commission and other bodies, allowing the reader to distinguish what agencies actually recorded from the conclusions drawn from those records.
+Brief for a Third Party
+Brief for a Third Party
+A concise entry point for an independent reviewer, journalist, lawyer or parliamentarian. It brings together process outcomes, documentary evidence, gaps in the record and instructions fo
+correspondence rather than accepting the author’s interpretation without scrutiny.
+Public Interest Disclosure Declarations
+PID Declarations
+The original Public Interest Disclosure declarations alongside institutional non-allocation correspondence are particularly relevant to the testimony about seeking protection, reporting con
+institutional intervention. They provide a documentary basis for examining what was reported, how it was classified and what happened afterwards.
+Whistleblower Protection Record
+Whistleblower Protection
+This section is significant to the testimony concerning vulnerability and the struggle to obtain institutional protection. The archive identifies material concerning the PID Act, Corporations 
+over whether the author fell within relevant public-official categories.
+Legal-Resource Asymmetry
+Dare: The State Had Lawyers — and I Had the Record
+This document most directly supports the new testimony about being left to survive and advocate without equivalent institutional resources. The archive records the claimed disparity betw
+government lawyers, administrative-law expertise and institutional resources and the individual attempting to challenge those decisions, while expressly acknowledging that this disparity
+every decision was unlawful.
+Legal Pathways and Financial Detriment
+Legal Pathways
+This section is relevant to the testimony concerning poverty, legal access and the ability to continue advocating for oneself. It identifies pathways including Act of Grace, CDDA, NDIS comp
+documenting possible avenues that remain available independently of a Comcare outcome.
+My Testimony
+My Testimony — Author&#x27;s Account
+This is the principal document for the new personal testimony itself: survival, persecution as experienced by the author, pathologisation, injury, institutional treatment and the meaning the
+experiences. The archive expressly labels it “not impartial”, making the evidentiary distinction clear.
+Church and Manifesto
+Church and Manifesto
+This document supports the new testimony concerning faith, being chosen, divine purpose, forgiveness, spiritual identity and divine justice. It contains the Church of Barran Dodger mater
+and chosen-vessel declarations. The archive appropriately identifies this material as the author’s spiritual framework rather than an impartial institutional finding.
+Gospels and Prophetic Writing
+Gospels and Prophetic Writing
+This substantial body of writing—including the identified 210-page compilation—documents the development of the author’s spiritual interpretation of suffering, survival, purpose, forgive
+relevant to the new testimony that the experience ultimately strengthened rather than destroyed the author’s faith.
+Published Works and Professional History
+Published Works and the Clipping
+This section places the later testimony alongside the author’s earlier public and professional history, including Recovered, Not Cured (2003), the Herald Sun material, The Age and later pu
+when assessing the claim that the present testimony did not emerge in isolation but sits within a much longer documented public record.
+YouTube Testimony and Public Record
+YouTube Record
+The archive identifies the author’s YouTube channel and 73 prior-archive mappings of third-party videos, preserving another public-facing component of the testimony. This is particularly
+you repeatedly made your experiences public rather than simply disappearing or refusing to seek assistance.
+Provenance, Hashes and Timestamps
+Provenance and Timestamps
+This is significant for the evidentiary foundation of the entire testimony because the archive identifies SHA-256 hashes, Git blob hashes and an OpenTimestamps receipt. Those mechanism
+particular hosted copies correspond byte-for-byte with the archived material and help establish provenance rather than relying solely on recollection.
+Earlier GitHub Pages Archive
+Barran Dodger Legal &amp; Ethical Trust Fund Archive — Backup
+The earlier public archive provides the historical layer of the record. The newer finding aid specifically identifies the GitHub Backup as its prior public archive and says its collection include
+routes and related material.
+Significance to the New Testimony
+Taken together, these documents support a much stronger evidentiary proposition than simply “this is my story.” They establish that there is a publicly preserved body of institutional corr
+and administrative records, professional history, testimony, spiritual writing and provenance information against which the newer claims can be independently assessed. The archive itself 
