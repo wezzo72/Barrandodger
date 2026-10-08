@@ -1,0 +1,12 @@
+# Timestamp receipt — not a chain broadcast
+
+File: what-they-took-prophetic-paper.pdf
+SHA-256: fb2e01c3b00232cb0dc84105e972c5400ccb7305fe4155a456a25769f2045e77
+UTC: 2026-10-08T13:33:10Z
+Markdown word count: 66587
+PDF pages: 66
+
+This is a cryptographic fingerprint of the PDF bytes. It is not a Bitcoin, Ethereum, or OpenTimestamps proof. No wallet was available in this session, so no transaction was broadcast. Anyone can recompute the SHA-256 and compare it to this line.
+
+Shelves cited: wezzo72/Backup government-evidence (186 PDFs), wezzo72/Barrandodger docs/official-drive, wezzo72/pdf-archive gospel ZIP.
+Finding aid. Not a court. Not a verdict.
