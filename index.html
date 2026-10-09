@@ -87,16 +87,16 @@ h3{
   color:#d7dce5;
   font-size:1.15rem;
 }
-
+  
+  
 nav{
-  position:sticky;
-  top:0;
+  position:relative;
+  top:auto;
   z-index:100;
   background:rgba(8,11,16,.96);
   border-bottom:1px solid var(--line);
   backdrop-filter:blur(12px);
 }
-
 .nav{
   display:flex;
   gap:20px;
@@ -214,12 +214,92 @@ footer{
   section{padding:52px 0}
   .nav{gap:14px}
 }
+  /* FIXED TITLE BAR — MOBILE */
+.mobile-title-bar {
+  display: none;
+}
+html {
+  scroll-padding-top: 76px;
+}
+section[id] {
+  scroll-margin-top: 76px;
+}
+@media (max-width: 650px) {
+  body {
+    padding-top: calc(58px + env(safe-area-inset-top, 0px));
+  }
+  .mobile-title-bar {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: calc(58px + env(safe-area-inset-top, 0px));
+    padding: calc(8px + env(safe-area-inset-top, 0px)) 14px 8px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(8, 11, 16, .98);
+    border-bottom: 1px solid var(--gold);
+    box-shadow: 0 3px 14px rgba(0, 0, 0, .3);
+  }
+  .mobile-title-bar a {
+    color: var(--gold2);
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: clamp(15px, 4.2vw, 20px);
+    font-weight: 800;
+    text-align: center;
+    line-height: 1.2;
+  }
+  header {
+    padding: 22px 0 26px;
+  }
+  header h1 {
+    display: none;
+  }
+  nav {
+    position: relative;
+    top: auto;
+  }
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 15px;
+    overflow: visible;
+    white-space: normal;
+    padding: 12px 0;
+  }
+  section {
+    padding: 32px 0;
+    scroll-margin-top: 72px;
+  }
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+  }
+  .card {
+    padding: 19px;
+    min-width: 0;
+  }
+  #witness-remains-featured {
+    padding: 15px !important;
+    margin: 18px auto !important;
+  }
+  #witness-remains-featured h2 {
+    font-size: 1.5rem;
+  }
+}
 </style>
 </head>
 
 <body>
-<script src="prophecy-7-october-2026.js"></script><!-- prophecy-7-october-2026 -->
-
+<div class="mobile-title-bar">
+  <a href="#top" aria-label="Back to archive home">
+    THE WITNESS REMAINS
+  </a>
+</div>
+<script src="prophecy-7-october-2026.js"></script>
 <header id="top">
 <div class="container">
 
