@@ -1,10 +1,11 @@
 (function () {
-  if (document.getElementById("bd-eco")) return;
+  "use strict";
+  var ID = "bd-eco";
+  if (document.getElementById(ID)) return;
   var style = document.createElement("style");
   style.textContent = `
     #bd-eco {
       position: relative;
-      z-index: 100;
       display: block;
       width: 100%;
       box-sizing: border-box;
@@ -12,22 +13,21 @@
       background: #0b0d12;
       color: #f3eee4;
       border-bottom: 1px solid #303747;
-      font-family: Georgia, serif;
-      font-size: 15px;
-      line-height: 1.6;
+      font: 15px/1.6 Georgia, "Times New Roman", serif;
+      z-index: 10;
     }
     #bd-eco .bd-eco-tagline {
       margin: 0 0 7px;
       color: #d7b56d;
-      font-size: 12px;
+      font: 700 12px/1.5 Arial, sans-serif;
       letter-spacing: .08em;
-      text-transform: uppercase;
     }
     #bd-eco .bd-eco-links {
       display: flex;
       flex-wrap: wrap;
-      gap: 5px 14px;
+      gap: 6px 14px;
       margin: 0;
+      padding: 0;
     }
     #bd-eco a {
       color: #f0d99b;
@@ -35,11 +35,15 @@
       text-decoration: underline;
       text-underline-offset: 3px;
     }
+    #bd-eco a:focus-visible {
+      outline: 2px solid #f0d99b;
+      outline-offset: 3px;
+    }
   `;
-  document.head.appendChild(style);
+  (document.head || document.documentElement).appendChild(style);
   var bar = document.createElement("nav");
-  bar.id = "bd-eco";
-  bar.setAttribute("aria-label", "Barran Dodger ecosystem navigation");
+  bar.id = ID;
+  bar.setAttribute("aria-label", "Barran Dodger ecosystem");
   var label = document.createElement("p");
   label.className = "bd-eco-tagline";
   label.textContent = "THE RECORD STAYS FREE. FAITH IS NOT A FINDING.";
@@ -64,5 +68,15 @@
     row.appendChild(link);
   });
   bar.appendChild(row);
-  document.body.insertBefore(bar, document.body.firstChild);
+  function insertNavigation() {
+    if (!document.body || document.getElementById(ID)) return;
+    document.body.insertBefore(bar, document.body.firstChild);
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", insertNavigation, {
+      once: true
+    });
+  } else {
+    insertNavigation();
+  }
 })();
