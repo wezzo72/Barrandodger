@@ -1,0 +1,28 @@
+THE CROWNED WITNESS — BARRAN DODGER AND THE INDICTMENT OF NATIONS
+2026 RETROSPECTIVE EDITION
+10 October 2026
+
+Permanent PDF
+https://github.com/wezzo72/Barrandodger/blob/main/THE-CROWNED-WITNESS-BARRAN-DODGER-AND-THE-INDICTMENT-OF-NATIONS-2026-RETROSPECTIVE-10-OCTOBER-2026.pdf
+
+SHA-256
+87d35425226ff41fb76a6c3b98308209a73978ebc3bf6eb40b7d546624a82153
+
+Size
+83801 bytes
+
+OpenTimestamps
+Submitted 10 October 2026. The digest was accepted by four Bitcoin calendar servers:
+- https://alice.btc.calendar.opentimestamps.org
+- https://bob.btc.calendar.opentimestamps.org
+- https://finney.calendar.eternitywall.com
+- https://btc.calendar.catallaxy.com
+
+Receipt
+https://github.com/wezzo72/Barrandodger/blob/main/THE-CROWNED-WITNESS-BARRAN-DODGER-AND-THE-INDICTMENT-OF-NATIONS-2026-RETROSPECTIVE-10-OCTOBER-2026.pdf.ots
+
+The receipt proves this exact file was presented for timestamping.
+It does not prove the truth of the writing.
+Bitcoin writes the calendar anchor into a block in its own time.
+Until that anchor is upgraded into the receipt, the attestation is pending.
+A pending attestation is not a finding.
