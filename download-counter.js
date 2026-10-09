@@ -45,3 +45,12 @@
   function run() { document.querySelectorAll("a[href]").forEach(function (a) { if (isDownload(a)) attach(a); }); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
 })();
+
+(function () {
+  if (document.getElementById("bd-companion") || document.querySelector("script[data-bd-companion]")) return;
+  var s = document.createElement("script");
+  s.src = "https://wezzo72.github.io/Barrandodger/companion-resources.js";
+  s.defer = true;
+  s.setAttribute("data-bd-companion", "1");
+  document.head.appendChild(s);
+})();
