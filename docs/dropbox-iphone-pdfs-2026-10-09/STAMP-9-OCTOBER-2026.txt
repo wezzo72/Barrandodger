@@ -1,0 +1,22 @@
+IPHONE DROPBOX PDF IMPORT
+STAMP RECORD — 9 OCTOBER 2026
+
+Recorded: Friday 9 October 2026, 12:50:41 Australian Eastern Daylight Time (AEDT, UTC+11)
+UTC: 2026-10-09T01:50:41Z
+ISO-8601: 2026-10-09T12:50:41+1100
+
+Source folder: Iphone Pdfs
+Source link: https://www.dropbox.com/scl/fo/kabaswc2k19ghu9qe4zpr/ADI6g_KvixGK_la4apRuPeI?rlkey=3ki5ei8ugzt80457unu7v5sjz&dl=0
+
+This record says which files were added and which were left out. It is not a finding. A filename is not a finding. A hash shows bytes, not truth. Appearance is not a finding.
+
+PDF entries in the Dropbox folder: 1011
+Copied into this folder: 367
+Bytes copied: 493476476
+
+Not copied, identical bytes already in the repository: 271
+Not copied, same bytes as another file in this Dropbox folder: 350
+Not copied, Dropbox held a placeholder rather than a PDF: 21
+Not copied, larger than GitHub's 100 MB file limit: 2
+
+No existing repository path was changed. These files sit only under docs/dropbox-iphone-pdfs-2026-10-09/.
