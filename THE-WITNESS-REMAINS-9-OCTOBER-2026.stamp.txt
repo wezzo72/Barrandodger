@@ -1,0 +1,30 @@
+THE WITNESS REMAINS
+THE MAN THEY MISTOOK FOR HIS WOUND
+STAMP RECORD — 9 OCTOBER 2026
+
+Recorded: Friday 9 October 2026, 12:35:28 Australian Eastern Daylight Time (AEDT, UTC+11)
+UTC: 2026-10-09T01:35:28Z
+ISO-8601: 2026-10-09T12:35:28+11:00
+
+This file records bytes and a time. It is not a finding. It is not a court. It is not a verdict. A hash can show that these bytes existed. It cannot show that every statement in them is true. Appearance is not a finding.
+
+PDF
+File: THE-WITNESS-REMAINS-9-OCTOBER-2026.pdf
+Title on the face of the paper: THE WITNESS REMAINS — The Man They Mistook for His Wound
+Author named on the face: Dr Barran Dodger — the public identity used by Dr Richard William McLean
+Date on the face: 9 October 2026
+Pages: 31
+Bytes: 202044
+SHA-256: eb059632fb93c01defd31620e93184d38cbae052424e23d23eaf48e06144b206
+OpenTimestamps: THE-WITNESS-REMAINS-9-OCTOBER-2026.pdf.ots
+
+Calendar submission at the record time, status pending Bitcoin confirmation:
+- https://alice.btc.calendar.opentimestamps.org
+- https://bob.btc.calendar.opentimestamps.org
+- https://finney.calendar.eternitywall.com
+- https://btc.calendar.catallaxy.com
+
+A pending calendar attestation shows the digest was submitted. After the calendars are confirmed in a Bitcoin block, the same .ots file can be upgraded. The proof then shows these PDF bytes existed before that block. It does not show that the narrative is true, that an allegation has been substantiated, or that any person acted improperly.
+
+Editorial principle printed on the paper: Preservation first. Examination second. Conclusion last.
+Evidentiary principle printed on the paper: Every allegation must remain distinguishable from the document in which it appears, the inference drawn from it, and any independent finding ultimately made about it.
