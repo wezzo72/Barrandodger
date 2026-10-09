@@ -20,6 +20,8 @@
     ["Gospels", "https://wezzo72.github.io/Barrandodger/gospels-prophetic.html"],
     ["Course", "https://wezzo72.github.io/-church-of-barran-dodger/course.html"],
     ["Support", "https://wezzo72.github.io/-church-of-barran-dodger/contribute.html"],
+    ["Finance", "https://barran-dodger-finance.base44.app"],
+    ["Impossible Survivor", "https://wezzo72.github.io/Barrandodger/impossible-survivor.html"],
   ];
   sites.forEach(function (item, index) {
     if (index) row.appendChild(document.createTextNode(" · "));
