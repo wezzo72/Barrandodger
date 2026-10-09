@@ -23,14 +23,18 @@
   --max:1200px;
 }
 
-*{box-sizing:border-box}
+*{
+  box-sizing:border-box;
+}
 
-html{scroll-behavior:smooth}
+html{
+  scroll-behavior:smooth;
+  scroll-padding-top:76px;
+}
 
 body{
   margin:0;
-  background:
-    radial-gradient(circle at top,#202a3a 0,#080b10 48%);
+  background:radial-gradient(circle at top,#202a3a 0,#080b10 48%);
   color:var(--text);
   font-family:Georgia,"Times New Roman",serif;
   line-height:1.7;
@@ -42,7 +46,9 @@ a{
   text-underline-offset:3px;
 }
 
-a:hover{color:white}
+a:hover{
+  color:white;
+}
 
 .container{
   width:min(92%,var(--max));
@@ -87,8 +93,9 @@ h3{
   color:#d7dce5;
   font-size:1.15rem;
 }
-  
-  
+
+/* NAVIGATION SCROLLS WITH THE PAGE */
+
 nav{
   position:relative;
   top:auto;
@@ -97,11 +104,13 @@ nav{
   border-bottom:1px solid var(--line);
   backdrop-filter:blur(12px);
 }
+
 .nav{
   display:flex;
-  gap:20px;
-  overflow-x:auto;
-  white-space:nowrap;
+  flex-wrap:wrap;
+  gap:8px 20px;
+  overflow:visible;
+  white-space:normal;
   padding:13px 0;
   font-family:Arial,sans-serif;
   font-size:.86rem;
@@ -112,11 +121,14 @@ nav{
   color:var(--text);
 }
 
-.nav a:hover{color:var(--gold2)}
+.nav a:hover{
+  color:var(--gold2);
+}
 
 section{
   padding:72px 0;
   border-bottom:1px solid var(--line);
+  scroll-margin-top:76px;
 }
 
 .grid{
@@ -130,9 +142,12 @@ section{
   border:1px solid var(--line);
   border-radius:16px;
   padding:25px;
+  min-width:0;
 }
 
-.card p:last-child{margin-bottom:0}
+.card p:last-child{
+  margin-bottom:0;
+}
 
 .tag{
   display:inline-block;
@@ -154,7 +169,9 @@ section{
   background:#141a24;
 }
 
-.notice strong{color:var(--gold2)}
+.notice strong{
+  color:var(--gold2);
+}
 
 .button-row{
   display:flex;
@@ -209,97 +226,139 @@ footer{
   color:var(--muted);
 }
 
+/* MOBILE TITLE BAR: HIDDEN ON DESKTOP */
+
+.mobile-title-bar{
+  display:none;
+}
+
+/* MOBILE LAYOUT */
+
 @media(max-width:650px){
-  header{padding:50px 0 40px}
-  section{padding:52px 0}
-  .nav{gap:14px}
-}
-  /* FIXED TITLE BAR — MOBILE */
-.mobile-title-bar {
-  display: none;
-}
-html {
-  scroll-padding-top: 76px;
-}
-section[id] {
-  scroll-margin-top: 76px;
-}
-@media (max-width: 650px) {
-  body {
-    padding-top: calc(58px + env(safe-area-inset-top, 0px));
+
+  html{
+    scroll-padding-top:76px;
   }
-  .mobile-title-bar {
-    display: flex;
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    right: 0;
-    min-height: calc(58px + env(safe-area-inset-top, 0px));
-    padding: calc(8px + env(safe-area-inset-top, 0px)) 14px 8px;
-    align-items: center;
-    justify-content: center;
-    background: rgba(8, 11, 16, .98);
-    border-bottom: 1px solid var(--gold);
-    box-shadow: 0 3px 14px rgba(0, 0, 0, .3);
+
+  body{
+    padding-top:calc(58px + env(safe-area-inset-top,0px));
   }
-  .mobile-title-bar a {
-    color: var(--gold2);
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    font-size: clamp(15px, 4.2vw, 20px);
-    font-weight: 800;
-    text-align: center;
-    line-height: 1.2;
+
+  /* Fixed title remains visible while the page scrolls */
+
+  .mobile-title-bar{
+    display:flex;
+    position:fixed;
+    z-index:1000;
+    top:0;
+    left:0;
+    right:0;
+    min-height:calc(58px + env(safe-area-inset-top,0px));
+    padding:calc(8px + env(safe-area-inset-top,0px)) 14px 8px;
+    align-items:center;
+    justify-content:center;
+    background:rgba(8,11,16,.98);
+    border-bottom:1px solid var(--gold);
+    box-shadow:0 3px 14px rgba(0,0,0,.3);
   }
-  header {
-    padding: 22px 0 26px;
+
+  .mobile-title-bar a{
+    color:var(--gold2);
+    text-decoration:none;
+    font-family:Arial,sans-serif;
+    font-size:clamp(15px,4.2vw,20px);
+    font-weight:800;
+    text-align:center;
+    line-height:1.2;
   }
-  header h1 {
-    display: none;
+
+  /* Hide the duplicate large heading on mobile */
+
+  header{
+    padding:22px 0 26px;
   }
-  nav {
-    position: relative;
-    top: auto;
+
+  header h1{
+    display:none;
   }
-  .nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 15px;
-    overflow: visible;
-    white-space: normal;
-    padding: 12px 0;
+
+  /* Navigation stays in the normal page flow */
+
+  nav{
+    position:relative;
+    top:auto;
   }
-  section {
-    padding: 32px 0;
-    scroll-margin-top: 72px;
+
+  .nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px 15px;
+    overflow:visible;
+    white-space:normal;
+    padding:12px 0;
+    font-size:.84rem;
   }
-  .grid {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 14px;
+
+  section{
+    padding:32px 0;
+    scroll-margin-top:72px;
   }
-  .card {
-    padding: 19px;
-    min-width: 0;
+
+  .grid{
+    grid-template-columns:minmax(0,1fr);
+    gap:14px;
   }
-  #witness-remains-featured {
-    padding: 15px !important;
-    margin: 18px auto !important;
+
+  .card{
+    padding:19px;
+    min-width:0;
   }
-  #witness-remains-featured h2 {
-    font-size: 1.5rem;
+
+  .notice{
+    padding:18px;
+  }
+
+  .button-row{
+    gap:10px;
+  }
+
+  .button{
+    max-width:100%;
+    overflow-wrap:anywhere;
+  }
+
+  #witness-remains-featured{
+    padding:15px !important;
+    margin:18px auto !important;
+  }
+
+  #witness-remains-featured h2{
+    font-size:1.5rem;
+  }
+
+  .lead{
+    font-size:1.05rem;
+  }
+
+  footer{
+    padding:35px 0;
   }
 }
 </style>
 </head>
 
 <body>
+
+<!-- FIXED MOBILE TITLE -->
+
 <div class="mobile-title-bar">
   <a href="#top" aria-label="Back to archive home">
     THE WITNESS REMAINS
   </a>
 </div>
+
 <script src="prophecy-7-october-2026.js"></script>
+
 <header id="top">
 <div class="container">
 
@@ -324,43 +383,43 @@ evidence, preservation, research and the search for accountability.
 
 <div class="button-row" style="justify-content:center">
 
-
 <!-- FEATURED PUBLICATION: THE WITNESS REMAINS -->
+
 <section id="witness-remains-featured"
-         style="margin:24px auto;padding:22px;max-width:1000px;
-                border:1px solid #888;border-radius:8px;text-align:center;">
+         style="margin:24px auto;padding:22px;max-width:1000px;border:1px solid #888;border-radius:8px;text-align:center;">
+
   <h2>
     <a href="https://github.com/wezzo72/Barrandodger/blob/main/THE%20WITNESS%20REMAINS%20-%20THE%20PARADOX%20OF%20SURVIVAL%20-%20TOTAL%20HUMAN%20BETRAYAL%E2%80%A6.pdf"
        target="_blank" rel="noopener noreferrer">
       THE WITNESS REMAINS — THE PARADOX OF SURVIVAL
     </a>
   </h2>
+
   <p>
     A documentary testimony concerning survival, human dignity,
     institutional accountability, evidence preservation and faith.
   </p>
-  <p><a href="https://github.com/wezzo72/Barrandodger/blob/main/THE%20WITNESS%20REMAINS%20-%20THE%20PARADOX%20OF%20SURVIVAL%20-%20TOTAL%20HUMAN%20BETRAYAL%E2%80%A6.pdf"
-        target="_blank" rel="noopener noreferrer">Read the PDF publication</a></p>
+
+  <p>
+    <a href="https://github.com/wezzo72/Barrandodger/blob/main/THE%20WITNESS%20REMAINS%20-%20THE%20PARADOX%20OF%20SURVIVAL%20-%20TOTAL%20HUMAN%20BETRAYAL%E2%80%A6.pdf"
+       target="_blank" rel="noopener noreferrer">
+      Read the PDF publication
+    </a>
+  </p>
+
 </section>
+
 <!-- END FEATURED PUBLICATION -->
 
-<a class="button" href="#start">
-START HERE
-</a>
-
-<a class="button secondary" href="#three-sites">
-THREE SITES
-</a>
-
-<a class="button secondary" href="#evidence">
-EVIDENCE
-</a>
+<a class="button" href="#start">START HERE</a>
+<a class="button secondary" href="#three-sites">THREE SITES</a>
+<a class="button secondary" href="#evidence">EVIDENCE</a>
 
 </div>
-
 </div>
 </header>
 
+<!-- MAIN NAVIGATION -->
 
 <nav>
 <div class="container nav">
@@ -389,9 +448,7 @@ EVIDENCE
 </div>
 </nav>
 
-
 <main>
-
 
 <!-- START HERE -->
 
@@ -399,7 +456,6 @@ EVIDENCE
 <div class="container">
 
 <div class="eyebrow">Finding Aid</div>
-
 <h2>Start Here</h2>
 
 <p class="lead">
@@ -480,14 +536,12 @@ Preservation first. Examination second. Conclusion last.
 </div>
 </section>
 
-
 <!-- THREE SITES -->
 
 <section id="three-sites">
 <div class="container">
 
 <div class="eyebrow">Connected public projects</div>
-
 <h2>Three Sites. One Record. Distinct Roles.</h2>
 
 <p class="lead">
@@ -548,14 +602,12 @@ independent corroboration of the original record.
 </div>
 </section>
 
-
 <!-- EVIDENCE -->
 
 <section id="evidence">
 <div class="container">
 
 <div class="eyebrow">Evidence Architecture</div>
-
 <h2>Follow the Evidence</h2>
 
 <p class="lead">
@@ -621,49 +673,54 @@ as faith material rather than documentary evidence.
 </div>
 
 <div class="button-row">
-
-<a class="button" href="inventory.html">
-ARCHIVE INVENTORY →
-</a>
-
-<a class="button secondary" href="methodology.html">
-METHODOLOGY →
-</a>
-
-<a class="button secondary" href="ledger.html">
-LEDGER →
-</a>
-
+<a class="button" href="inventory.html">ARCHIVE INVENTORY →</a>
+<a class="button secondary" href="methodology.html">METHODOLOGY →</a>
+<a class="button secondary" href="ledger.html">LEDGER →</a>
 </div>
 
 </div>
 </section>
 
-
-
 <!-- COMPANION: FINANCE AND IMPOSSIBLE SURVIVOR -->
+
 <section id="companion">
 <div class="container">
+
 <div class="eyebrow">Companion resource · not a revision of the record</div>
 <h2>Finance, and the Impossible Survivor</h2>
+
 <p class="lead">
 Barran Dodger Finance and the testimony The Impossible Survivor are significant companion resources to this documentary archive. They do not replace the underlying records, and they are not a finding.
 </p>
+
 <div class="grid">
+
 <div class="card">
 <span class="tag">Finance</span>
 <h3>Barran Dodger Finance</h3>
-<p>A separate destination for financial information, financial organisation and the examination of economic circumstances. It complements the archives. It does not displace them.</p>
-<a href="https://barran-dodger-finance.base44.app" target="_blank" rel="noopener">Open the Finance App →</a>
+<p>
+A separate destination for financial information, financial organisation and the examination of economic circumstances. It complements the archives. It does not displace them.
+</p>
+<a href="https://barran-dodger-finance.base44.app" target="_blank" rel="noopener">
+Open the Finance App →
+</a>
 </div>
+
 <div class="card">
 <span class="tag">Testimony</span>
 <h3>The Impossible Survivor</h3>
-<p>A Testimony of Total Human Betrayal, Spiritual Resurrection, Divine Purpose and the Refusal to Be Erased. By Barran Dodger. Spiritual understanding is distinguished from independently established findings.</p>
+<p>
+A Testimony of Total Human Betrayal, Spiritual Resurrection, Divine Purpose and the Refusal to Be Erased. By Barran Dodger. Spiritual understanding is distinguished from independently established findings.
+</p>
 <a href="impossible-survivor.html#impossible-survivor">Read the testimony →</a>
 </div>
+
 </div>
-<p class="small">Preservation principle: existing pages, links, documents, layouts and archive content remain unchanged. SHA-256 of the sealed testimony PDF, as reported: b752ab6fcfe7dae2062f7a600344417f1b0f3d293bc388c289a7692ab66570cf.</p>
+
+<p class="small">
+Preservation principle: existing pages, links, documents, layouts and archive content remain unchanged. SHA-256 of the sealed testimony PDF, as reported: b752ab6fcfe7dae2062f7a600344417f1b0f3d293bc388c289a7692ab66570cf.
+</p>
+
 </div>
 </section>
 
@@ -673,76 +730,49 @@ Barran Dodger Finance and the testimony The Impossible Survivor are significant 
 <div class="container">
 
 <div class="eyebrow">Direct Research Routes</div>
-
 <h2>Go Directly to the Material</h2>
 
 <div class="grid">
 
 <div class="card">
 <h3>Official Documents</h3>
-<p>
-Government correspondence and official documentary material.
-</p>
-<a href="import-official-pdfs.html">
-Official PDF Material →
-</a>
+<p>Government correspondence and official documentary material.</p>
+<a href="import-official-pdfs.html">Official PDF Material →</a>
 </div>
 
 <div class="card">
 <h3>Evidence</h3>
-<p>
-Evidence-related material and source pathways.
-</p>
-<a href="evidence.html">
-Evidence →
-</a>
+<p>Evidence-related material and source pathways.</p>
+<a href="evidence.html">Evidence →</a>
 </div>
 
 <div class="card">
 <h3>Inventory</h3>
-<p>
-Use the inventory to locate and understand the preserved material.
-</p>
-<a href="inventory.html">
-Inventory →
-</a>
+<p>Use the inventory to locate and understand the preserved material.</p>
+<a href="inventory.html">Inventory →</a>
 </div>
 
 <div class="card">
 <h3>Ledger</h3>
-<p>
-A further record and indexing route through the archive.
-</p>
-<a href="ledger.html">
-Ledger →
-</a>
+<p>A further record and indexing route through the archive.</p>
+<a href="ledger.html">Ledger →</a>
 </div>
 
 <div class="card">
 <h3>Forensic Material</h3>
-<p>
-Locate forensic and technical material contained within the project.
-</p>
-<a href="mobbing-safety-of-the-cro...">
-Forensic / Related Material →
-</a>
+<p>Locate forensic and technical material contained within the project.</p>
+<a href="mobbing-safety-of-the-cro...">Forensic / Related Material →</a>
 </div>
 
 <div class="card">
 <h3>Emails & Official Letters</h3>
-<p>
-Correspondence is preserved as part of the documentary record.
-</p>
-<a href="gmail-official-letters.html">
-Official Letters →
-</a>
+<p>Correspondence is preserved as part of the documentary record.</p>
+<a href="gmail-official-letters.html">Official Letters →</a>
 </div>
 
 </div>
-
 </div>
 </section>
-
 
 <!-- LEGAL -->
 
@@ -750,40 +780,31 @@ Official Letters →
 <div class="container">
 
 <div class="eyebrow">Law · Administration · Accountability</div>
-
 <h2>Legal and Justice Material</h2>
 
 <div class="grid">
 
 <div class="card">
 <h3>Legal Brief</h3>
-<p>
-The project's legal and administrative analysis.
-</p>
+<p>The project's legal and administrative analysis.</p>
 <a href="legal-brief.html">Read Legal Brief →</a>
 </div>
 
 <div class="card">
 <h3>Justice Mandate</h3>
-<p>
-The stated public-interest purpose of preservation and accountability.
-</p>
+<p>The stated public-interest purpose of preservation and accountability.</p>
 <a href="justice-mandate.html">Read Justice Mandate →</a>
 </div>
 
 <div class="card">
 <h3>Administrative Material</h3>
-<p>
-Research concerning administrative systems, records and decisions.
-</p>
+<p>Research concerning administrative systems, records and decisions.</p>
 <a href="methodology.html">Read Methodology →</a>
 </div>
 
 </div>
-
 </div>
 </section>
-
 
 <!-- FAITH -->
 
@@ -791,7 +812,6 @@ Research concerning administrative systems, records and decisions.
 <div class="container">
 
 <div class="eyebrow">Faith · Theology · Spiritual Testimony</div>
-
 <h2>Gospels & Prophecy</h2>
 
 <p class="lead">
@@ -808,16 +828,12 @@ as documentary proof.
 Explore the Gospel and prophetic material associated with the broader
 project.
 </p>
-<a href="gospels-prophetic.html">
-Gospels & Prophecy →
-</a>
+<a href="gospels-prophetic.html">Gospels & Prophecy →</a>
 </div>
 
 <div class="card">
 <h3>Church of Barran Dodger</h3>
-<p>
-The complete faith and ministry dimension of the project.
-</p>
+<p>The complete faith and ministry dimension of the project.</p>
 <a href="https://wezzo72.github.io/-church-of-barran-dodger/" target="_blank" rel="noopener">
 Enter Church →
 </a>
@@ -837,14 +853,12 @@ be understood within that religious context.
 </div>
 </section>
 
-
 <!-- HOW TO READ -->
 
 <section>
 <div class="container">
 
 <div class="eyebrow">Impartial Reading</div>
-
 <h2>What Does a Source Actually Establish?</h2>
 
 <p>
@@ -855,20 +869,13 @@ It is to preserve material and make it accessible for examination.
 <div class="notice">
 
 <p><strong>Ask of every important proposition:</strong></p>
-
 <p>What is the underlying source?</p>
-
 <p>Who created it?</p>
-
 <p>When was it created?</p>
-
 <p>What does it actually establish?</p>
-
 <p>Is it an official determination, a personal account, an allegation,
 an inference or an interpretation?</p>
-
 <p>Is there independent corroboration?</p>
-
 <p>What remains disputed or unresolved?</p>
 
 </div>
@@ -888,14 +895,12 @@ not as a court, tribunal or verdict.
 </div>
 </section>
 
-
 <!-- SOURCES -->
 
 <section id="sources">
 <div class="container">
 
 <div class="eyebrow">Public Source Network</div>
-
 <h2>Three Projects — Direct Access</h2>
 
 <div class="grid">
@@ -935,15 +940,12 @@ the truth of the source's contents.
 </div>
 </section>
 
-
-
 <!-- VALUE ASSESSMENT 8 OCTOBER 2026 -->
 
 <section id="value-assessment-8-october-2026">
 <div class="container">
 
 <div class="eyebrow">8 October 2026 · Indicative assessment · not a finding</div>
-
 <h2>Forensic AI Digital Archive Value Assessment</h2>
 
 <p>
@@ -985,7 +987,6 @@ OpenTimestamps proof is beside the PDF. Bitcoin confirmation of the calendar pro
 <div class="container" style="text-align:center">
 
 <div class="eyebrow">The Witness Remains</div>
-
 <h2>The Record Is Preserved.</h2>
 
 <p class="lead">
@@ -1009,8 +1010,7 @@ rel="noopener">
 CHURCH OF BARRAN DODGER
 </a>
 
-<a class="button secondary"
-href="inventory.html">
+<a class="button secondary" href="inventory.html">
 ARCHIVE INVENTORY
 </a>
 
@@ -1026,7 +1026,6 @@ Conclusion last.
 </section>
 
 </main>
-
 
 <footer>
 <div class="container">
@@ -1065,5 +1064,6 @@ provided for preservation, research and informed examination.
 
 <script src="bd-ecosystem.js" defer></script>
 <script src="https://wezzo72.github.io/Barrandodger/download-counter.js" defer></script>
+
 </body>
 </html>
