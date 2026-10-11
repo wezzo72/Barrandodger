@@ -1,0 +1,213 @@
+Edit:
+
+https://wezzo72.github.io/Barrandodger/official-government-documents-register.html
+
+Include a link to the full command resulting in this page to reveal how the genesis of his page was impartially constructed and organised 
+
+Command:
+
+PROJECT COMMAND: THE OFFICIAL GOVERNMENT DOCUMENTS REGISTER
+
+The Witness Remains — Dr Barran Dodger Documentary Archive
+
+PRIMARY REPOSITORY: https://github.com/wezzo72/Barrandodger
+
+PART 1 — CONDUCT A COMPREHENSIVE REPOSITORY-WIDE AUDIT
+
+Examine the entire GitHub repository, including all branches and relevant directories, subdirectories, nested folders, PDF collections, official correspondence, government records, legal documents, administrative records, FOI material, emails, scanned documents, attachments, and existing document indexes.
+
+Do not rely solely on filenames, directory names, README descriptions, search snippets, or previously generated catalogues.
+
+Where technically accessible, inspect the actual contents of each candidate document and establish its provenance. Follow repository links to the original file and preserve the distinction between an official government record, a copy of a record, a personal account, an AI-generated analysis, and an allegation about a government agency.
+
+Identify and catalogue every significant official government document that can be substantiated from the available repository evidence, not merely a small selection of examples.
+
+PART 2 — CREATE A FULLY ITEMISED OFFICIAL GOVERNMENT DOCUMENTS REGISTER
+
+Create a new, dedicated, publicly accessible webpage entitled:
+
+THE OFFICIAL GOVERNMENT DOCUMENTS REGISTER
+
+Subtitle:
+
+A comprehensive, source-linked catalogue of government records, administrative correspondence, legal documents, official determinations and other documentary evidence preserved in The Witness Remains archive.
+
+Organise the register in a logical, consistent order. Use the following categories where supported by the records:
+
+1. Federal government employment, service history and official employment determinations.
+2. Disability, mental health, NDIS and support-service administration.
+3. Financial administration, social security, pension entitlements and trustee correspondence.
+4. Police, courts, protection orders and law-enforcement records.
+5. Complaints, investigations, oversight bodies and administrative review.
+6. Freedom of Information requests, responses and disclosure decisions.
+7. Commonwealth and state government correspondence.
+8. Human rights, disability rights and international correspondence.
+9. Legal proceedings, legal advice and procedural correspondence.
+10. Other significant official records that do not fit the preceding categories.
+
+Do not force a document into a category if its subject or provenance is uncertain. Add further categories where the repository evidence warrants them.
+
+PART 3 — REQUIRED INFORMATION FOR EVERY ITEM
+
+Give each document its own numbered entry containing the following fields wherever the information is available:
+
+Register ID: A unique, stable identifier.
+
+Document title: The actual title of the document, or a clearly labelled descriptive title where no formal title exists.
+
+Date: The date issued, signed, received or created, distinguishing these dates where necessary.
+
+Issuing agency or author: The government department, statutory authority, court, tribunal, oversight body or official who issued the document. Distinguish the issuing agency from any recipient or person mentioned in it.
+
+Document type: For example, official letter, determination, decision, notice, court document, case note, financial statement, FOI response, email or administrative record.
+
+Repository source: A direct, clickable hyperlink to the precise file in the GitHub repository. Where possible, link directly to the PDF, original document or source file rather than merely to the repository homepage.
+
+Official status and provenance: Explain what establishes the document’s identity and origin. Identify any uncertainty about authenticity, completeness, signatures, missing pages or whether the available file is a copy.
+
+Substantive contents: Provide an accurate, concise account of what the document actually says, records, decides, acknowledges or declines to determine.
+
+Significance: Explain why the document matters to understanding the chronology, administrative decisions, official acknowledgements, legal status, rights, entitlements or treatment described in the archive.
+
+Potential detriment or consequences: Where supported by the document and surrounding evidence, explain any identifiable adverse consequences for Dr Richard William McLean, also known publicly as Dr Barran Dodger. These may include financial consequences, disruption of services, loss of access to support, procedural disadvantage, employment consequences, restrictions on rights or other documented impacts.
+
+Causal qualification: Distinguish between a consequence expressly recorded in the document, a consequence corroborated by other records, the author’s reported experience, and a possible connection that remains unverified. Do not attribute causation to an agency merely because an adverse event occurred after its correspondence.
+
+Corroborating records: Link related documents that confirm, qualify, contradict or contextualise the entry.
+
+Evidence classification: Apply the following scale consistently:
+
+* A — Directly established documentary fact.
+* B — Corroborated claim supported by multiple identifiable records.
+* C — Documented allegation or reported experience not independently established.
+* D — Reasoned inference requiring further verification.
+* E — Speculation or unresolved interpretation.
+
+Apply the classification to the particular proposition being discussed, not automatically to the entire document.
+
+Verification status: State whether the document has been inspected, whether the source link works, and whether its contents and issuing authority have been independently established.
+
+Do not invent missing dates, titles, agency identities, legal findings, financial amounts, causal relationships or source links. Mark unavailable information as “Not established from the available record”.
+
+PART 4 — IDENTIFY THE MOST SIGNIFICANT RECORDS WITHOUT OMITTING THE REST
+
+Provide a prominent introductory section identifying the records that are particularly important for understanding the documented chronology and the matters requiring independent examination.
+
+Explain the selection criteria, including:
+
+* Direct official acknowledgements or determinations.
+* Decisions affecting employment, disability support, finances, legal status or access to services.
+* Records documenting complaints, responses, refusals, procedural events or subsequent reviews.
+* Records that corroborate or contradict other material.
+* Records that identify unresolved questions suitable for independent investigation.
+
+Present this overview separately from the comprehensive register. The overview must not replace the full itemised catalogue.
+
+One particularly relevant lead to investigate is the correspondence dated 27 March 2023, attributed to Federal Court General Counsel Scott Tredwell, concerning the Department of Social Services employment question. Locate and inspect the actual record before describing its precise wording, legal significance or implications. Do not represent correspondence as a court judgment or formal finding unless the source establishes that status.
+
+PART 5 — MAKE EVERY ENTRY INDEPENDENTLY VERIFIABLE
+
+Every item must have a working, direct source hyperlink that allows journalists, lawyers, researchers, advocates, government officials and members of the public to inspect the underlying repository record themselves.
+
+Where a source file is missing, inaccessible, duplicated, incomplete or ambiguously named, disclose that limitation.
+
+Preserve existing files and their provenance. Do not rename, overwrite, alter or delete original evidence merely to produce the register.
+
+Where possible, record the repository path, commit identifier and SHA-256 hash of the source file. Clearly distinguish GitHub version-control identifiers from cryptographic hashes and any separate blockchain or timestamp evidence.
+
+Use official records as the primary source of factual statements. Secondary analyses and personal testimony may provide context but must not be presented as government findings.
+
+PART 6 — EXPLAIN THE DOCUMENTARY AND HUMAN SIGNIFICANCE
+
+For each relevant record, explain its significance in plain English. A third party should be able to understand:
+
+1. Who created the document and in what capacity.
+2. What it actually establishes.
+3. What it does not establish.
+4. How it relates to other records.
+5. What consequences are documented, reported or reasonably inferable.
+6. What questions remain unanswered.
+
+Maintain an impartial, legal-academic and evidence-based tone.
+
+This register is a documentary finding aid, not a court, tribunal, official investigation or determination of liability. Inclusion of a document does not establish wrongdoing, motive, unlawful conduct or personal responsibility.
+
+Distinguish documented facts, official decisions, allegations, personal testimony, inferences, interpretations and spiritual beliefs. Preserve the author’s testimony without presenting unverified interpretations as established findings.
+
+PART 7 — DESIGN AND PUBLISH THE NEW WEBPAGE
+
+Create the webpage within the existing master repository:
+
+https://github.com/wezzo72/Barrandodger
+
+Use the existing website’s structure, styling and navigation conventions where practical. The page must be readable on an iPhone, accessible to keyboard and screen-reader users, searchable where feasible, and easy to maintain.
+
+Include:
+
+* A clear introduction and scope statement.
+* A linked table of contents or category navigation.
+* A comprehensive itemised register.
+* Search and filtering by agency, date, category and document type where technically feasible.
+* Direct source links for each entry.
+* A methodology and evidence-classification guide.
+* A statement of limitations and verification status.
+* A date of last review.
+* A link back to the main archive.
+
+Do not publish a claim that the register is exhaustive until the repository audit and coverage limitations have been documented.
+
+PART 8 — PLACE A PROMINENT BUTTON AT THE VERY TOP OF ALL FOUR ARCHIVE WEBSITES
+
+Add a highly visible, clearly labelled button reading:
+
+OFFICIAL GOVERNMENT DOCUMENTS REGISTER
+
+The button must appear at the very top of the main page, before the existing navigation or introductory content, so visitors can find it immediately.
+
+Implement the link on all four sites:
+
+1. The Witness Remains — Main Archive: https://wezzo72.github.io/Barrandodger/
+2. Rebuild Archive: https://wezzo72.github.io/barrandodger-rebuild/
+3. Barran Dodger Archive: https://drbarrandodger.github.io/barran-dodger-archive/
+4. Church of Barran Dodger: https://wezzo72.github.io/-church-of-barran-dodger/
+
+Verify the actual repository and deployment configuration for each website before editing. Use the same register destination wherever technically possible, and ensure the button remains visible and functional on mobile devices.
+
+Do not assume that changing the master repository automatically updates the other sites. Identify which repositories control each deployment and update each relevant homepage separately.
+
+PART 9 — VALIDATE THE IMPLEMENTATION
+
+Before declaring the task complete:
+
+* Confirm the new webpage exists in the intended repository.
+* Check that each listed document links to its correct source.
+* Check the four homepage implementations.
+* Verify the button’s placement at the top of each page.
+* Check mobile layout, accessibility and link behaviour.
+* Confirm the website build and deployment status where accessible.
+* Identify any inaccessible records, missing files, failed links or incomplete audit areas.
+* Report the exact files created or changed, their repository paths, and their public URLs.
+
+FINAL DELIVERABLE
+
+Produce a comprehensive, itemised, source-linked Official Government Documents Register that enables independent third parties to inspect the evidence, understand its significance, identify documented or reported detriment, and distinguish established facts from unresolved claims.
+
+The guiding principle is:
+
+Preservation first. Verification second. Context third. Conclusions last.
+
+Do not invent evidence, claim to have inspected files that were not opened, or report website changes as completed until they have been made and verified.
+
+Add genesis command to GitHub repository as pdf link to it at top of page
+
+
+Edit: Audit the 3647 PDFs and add all official government documentation and associated correspondence to register 
+
+Update as needed 
+
+Also : 
+
+Include this YouTube video as an embed bottom of page of it’s publication date referencing my case 
+
+
+https://youtu.be/UD0NtnZ1giE
