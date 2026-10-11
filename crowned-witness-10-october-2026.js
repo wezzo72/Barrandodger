@@ -35,7 +35,9 @@
       m.appendChild(document.createTextNode(" · four Bitcoin calendars · block confirmation pending"));
       el.appendChild(k); el.appendChild(t); el.appendChild(d); el.appendChild(m);
     }
-    if (document.body.firstChild !== el) document.body.insertBefore(el, document.body.firstChild);
+    var after = document.getElementById("offer-the-government-11-october-2026") || document.getElementById("itemised-list-11-october-2026") || document.getElementById("ogdr-banner");
+    if (after && after.parentNode === document.body) { if (after.nextSibling !== el) document.body.insertBefore(el, after.nextSibling); }
+    else if (document.body.firstChild !== el) document.body.insertBefore(el, document.body.firstChild);
   }
   function arm() {
     place();

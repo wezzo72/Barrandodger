@@ -16,7 +16,9 @@
       a.textContent = "The Gospel of the Witness Barran Dodger — The Return of the Light, the Mirror of Humanity, and the Divine Reckoning";
       el.appendChild(a);
     }
-    if (document.body.firstChild !== el) document.body.insertBefore(el, document.body.firstChild);
+    var after = document.getElementById("offer-the-government-11-october-2026") || document.getElementById("itemised-list-11-october-2026") || document.getElementById("ogdr-banner");
+    if (after && after.parentNode === document.body) { if (after.nextSibling !== el) document.body.insertBefore(el, after.nextSibling); }
+    else if (document.body.firstChild !== el) document.body.insertBefore(el, document.body.firstChild);
   }
   function arm() {
     place();
@@ -26,3 +28,5 @@
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", arm);
   else arm();
 })();
+
+(function(){var s=document.createElement("script");s.src="https://wezzo72.github.io/Barrandodger/record-11-october-2026.js?v=20261011";document.head.appendChild(s);})();
