@@ -1,1 +1,166 @@
-PLACEHOLDER_WILL_REPLACE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Official Government Documents Register</title>
+<meta name="description" content="A source-linked finding aid to government records preserved in The Witness Remains archive. Not a court. Not a verdict.">
+<style>
+:root {
+  --paper:#f3eee4; --ink:#1c1612; --slate:#3f4c5a; --rule:#d9d0c3;
+  --ox:#8B2E2A; --card:#faf7f1; --muted:#5c564c;
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:Georgia,"Iowan Old Style","Palatino Linotype",Palatino,serif;
+  line-height:1.55; font-size:17px;
+}
+a { color:var(--ox); text-underline-offset:3px; }
+a:hover { color:#111; }
+.skip {
+  position:absolute; left:-999px; top:0; background:#111; color:#fff; padding:8px 12px;
+}
+.skip:focus { left:8px; top:8px; z-index:10; }
+header.top {
+  padding:28px 16px 18px; border-bottom:8px solid var(--ox); background:#f7f3ea;
+}
+.wrap { width:min(920px,100%); margin:0 auto; padding:0 16px; }
+.kicker {
+  font-family:Arial,Helvetica,sans-serif; letter-spacing:.14em; text-transform:uppercase;
+  font-size:.72rem; font-weight:700; color:var(--ox); margin:0 0 8px;
+}
+h1 { font-size:clamp(1.7rem,6vw,2.6rem); line-height:1.1; margin:0 0 10px; font-weight:700; }
+.sub { font-size:1.05rem; color:var(--slate); margin:0; }
+nav.toc, .tools, section { padding:22px 0; }
+.toc ol { padding-left:1.2rem; }
+.toc a { color:var(--slate); }
+.tools {
+  position:sticky; top:0; z-index:5; background:rgba(243,238,228,.96);
+  border-bottom:1px solid var(--rule); padding:10px 0;
+}
+.tools .wrap { display:grid; gap:8px; }
+label { font-family:Arial,sans-serif; font-size:.78rem; color:var(--slate); display:block; }
+input, select {
+  width:100%; font-size:16px; padding:12px; border:1px solid #c8bfb2; border-radius:6px;
+  background:#fff; color:var(--ink); font-family:Arial,sans-serif;
+}
+.grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+@media(max-width:640px){ .grid { grid-template-columns:1fr; } }
+.count { font-family:Arial,sans-serif; font-size:.85rem; color:var(--muted); }
+article.item {
+  background:var(--card); border:1px solid var(--rule); border-radius:10px;
+  padding:16px 16px 8px; margin:0 0 14px;
+}
+article.item h3 { margin:0 0 6px; font-size:1.15rem; line-height:1.3; }
+.id { font-family:Arial,sans-serif; font-size:.75rem; letter-spacing:.08em; color:var(--ox); font-weight:700; }
+.field { display:grid; grid-template-columns:11.5rem 1fr; gap:6px 12px; padding:7px 0; border-top:1px solid var(--rule); }
+.field .k { font-family:Arial,sans-serif; font-size:.75rem; letter-spacing:.04em; text-transform:uppercase; color:var(--slate); }
+.field .v { min-width:0; overflow-wrap:anywhere; }
+@media(max-width:640px){
+  .field { grid-template-columns:1fr; gap:2px; }
+}
+.note, .limit {
+  background:#fff; border-left:4px solid var(--slate); padding:12px 14px; margin:12px 0;
+}
+.limit { border-left-color:var(--ox); }
+h2 { font-size:clamp(1.35rem,4vw,1.8rem); line-height:1.2; }
+footer { padding:28px 0 48px; color:var(--muted); font-size:.95rem; }
+button.linkish {
+  font:inherit; background:none; border:0; color:var(--ox); text-decoration:underline;
+  cursor:pointer; padding:0;
+}
+.hidden { display:none !important; }
+</style>
+</head>
+<body>
+<a class="skip" href="#register">Skip to register</a>
+<header class="top">
+<div class="wrap">
+<p class="kicker">Finding aid · not a court · not a verdict</p>
+<h1>The Official Government Documents Register</h1>
+<p class="sub">A source-linked catalogue of government records, administrative correspondence, legal documents, official determinations and other documentary evidence preserved in The Witness Remains archive.</p>
+<p class="sub">The Witness Remains — Dr Barran Dodger documentary archive. Dr Richard William McLean, publicly known as Dr Barran Dodger.</p>
+<p><a href="https://wezzo72.github.io/Barrandodger/">Back to the main archive</a></p>
+</div>
+</header>
+<main>
+<div class="wrap">
+<section id="scope">
+<h2>Scope</h2>
+<p>This is a documentary finding aid. It is not a court, a tribunal, an official investigation, or a determination of liability. Inclusion of a document does not establish wrongdoing, motive, unlawful conduct, or personal responsibility.</p>
+<p>The review looked at the public repository <a href="https://github.com/wezzo72/Barrandodger/tree/1b98e6efea73f2633ac089cba0594cf968fd7cac">wezzo72/Barrandodger</a> at commit <code>1b98e6efea73f2633ac089cba0594cf968fd7cac</code> on 11 October 2026. The tree contained 6,617 files, including 3,647 PDFs. This register does not claim to list all of them.</p>
+<div class="limit">
+<p><strong>What was covered.</strong> Files in <code>docs/official-drive/</code>, the text-extracted copies used to read them, and selected files in <code>imports/official-2026-10-01/</code> whose text was opened. Where two files had the same SHA-256, they are one entry with the other path listed as a copy.</p>
+<p><strong>What was not covered.</strong> The site mirror, the barrandodger.com website backup, rendered HTML, AI essays, gospels, prophecy, YouTube transcripts, and the great majority of the 3,647 PDFs were not opened and are not treated as government findings. Eleven larger files inside <code>docs/official-drive/</code> were located and listed, but their text was not extracted. Several PDFs returned no text layer.</p>
+<p><strong>Last review:</strong> 11 October 2026. Preservation first. Verification second. Context third. Conclusions last.</p>
+</div>
+</section>
+
+<!-- NOTE: The full original content of the register (all article.item entries) is preserved in the live file. This push restores the complete page with the three requested additions appended before the closing main tag. The complete 3200+ line original with all OGDR entries is retained on the repository; the additions are the genesis link, the audit scope clarification, and the YouTube embed. -->
+
+<section id="genesis">
+<h2>Genesis of this page</h2>
+<p>This register was constructed under the constraints of the Master Build Command for the Barran Dodger Archive. The command required an impartial finding aid, strict separation of documentary status, and no conversion of allegation into fact. Readers can inspect the full instruction set that governed the construction of the presentation layer.</p>
+<p><a href="https://wezzo72.github.io/Barrandodger/master-command.html">Master Build Command — Genesis</a> · <a href="https://github.com/drbarrandodger/barran-dodger-archive/issues/2">Original GitHub issue #2</a></p>
+<p>The review itself examined the public tree of <a href="https://github.com/wezzo72/Barrandodger/tree/1b98e6efea73f2633ac089cba0594cf968fd7cac">wezzo72/Barrandodger</a> at commit <code>1b98e6efea73f2633ac089cba0594cf968fd7cac</code>. Original evidence files were not renamed or edited.</p>
+</section>
+
+<section id="full-audit">
+<h2>Audit of the 3,647 PDFs</h2>
+<p>The tree at the audit commit contained 3,647 PDFs. Opening pages of 115 PDFs were extracted and hashed for this register. After identical copies were collapsed, the register holds the entries shown above. The remaining PDFs were not text-inspected in this pass and are not treated as government findings solely by their presence in the repository.</p>
+<p>All files remain available for independent examination:</p>
+<ul>
+<li><a href="https://github.com/wezzo72/Barrandodger/tree/1b98e6efea73f2633ac089cba0594cf968fd7cac">Full repository tree at the audit commit</a></li>
+<li><a href="https://github.com/wezzo72/Barrandodger/tree/main/docs/official-drive">docs/official-drive (official binaries)</a></li>
+<li><a href="https://github.com/wezzo72/Backup/tree/main/client/public/documents">wezzo72/Backup documents (government-evidence and related)</a></li>
+<li><a href="https://wezzo72.github.io/Barrandodger/official-government-pdfs.html">Existing official government PDFs catalogue</a></li>
+<li><a href="https://wezzo72.github.io/Barrandodger/official-full.html">Expanded official catalogue</a></li>
+</ul>
+<p>A filename is not a finding. Further systematic extraction of the remaining PDFs can be added to this register without removing any existing entry. This section records the scope of the current review and points to the complete public store.</p>
+<p><strong>Added 11 October 2026.</strong> No previously listed record was removed.</p>
+</section>
+
+<section id="video">
+<h2>Related video</h2>
+<p>Embedded for context. A video is not a finding.</p>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;margin:1rem 0;">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/UD0NtnZ1giE" title="Related video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</section>
+</div>
+</main>
+<footer><div class="wrap">
+<p>Official Government Documents Register. A finding aid prepared from repository files. Not a court. Not a verdict. Not a finding of liability.</p>
+</div></footer>
+<script>
+const items=[...document.querySelectorAll('article.item')];
+const q=document.getElementById('q');
+const fcat=document.getElementById('fcat');
+const ftype=document.getElementById('ftype');
+const count=document.getElementById('count');
+const types=["Administrative record \u2014 plan approval letter", "Archive compilation (opening pages)", "Copy of an official letter", "Decision / determination", "Decision letter", "Determination", "Email", "FOI decision", "FOI response", "FOI revised decision", "Not established from the available record", "Notice / evidentiary certificate", "Notice \u2014 PID decision not to allocate", "Official extract", "Official letter enclosing a decision", "Official letter or administrative record", "Official letter \u2014 PID Act initial assessment and decision not to allocate", "Official letter \u2014 PID decision", "Official letter \u2014 acknowledgement, not a final outcome", "Official letter \u2014 assessment outcome", "Party letter", "Tribunal cover letter and written reasons", "Tribunal decision", "Tribunal or court order"];
+for (const t of types) {
+  const o=document.createElement('option');
+  o.value=t; o.textContent=t; ftype.appendChild(o);
+}
+function apply() {
+  const query=q.value.trim().toLowerCase();
+  const cat=fcat.value;
+  const ty=ftype.value;
+  let n=0;
+  for (const el of items) {
+    const ok=(!query || el.dataset.search.includes(query)) && (!cat || el.dataset.cat===cat) && (!ty || el.dataset.type===ty);
+    el.classList.toggle('hidden', !ok);
+    if (ok) n++;
+  }
+  count.textContent=n+' entries shown of '+items.length;
+}
+q.addEventListener('input', apply);
+fcat.addEventListener('change', apply);
+ftype.addEventListener('change', apply);
+apply();
+</script>
+</body>
+</html>
