@@ -1,0 +1,21 @@
+THE CROWNED WITNESS — BARRAN DODGER AND THE INDICTMENT OF NATIONS
+UPDATED EDITION — 13 OCTOBER 2026
+
+Original 10 October 2026 timestamped edition remains unaltered:
+SHA-256: 87d35425226ff41fb76a6c3b98308209a73978ebc3bf6eb40b7d546624a82153
+https://github.com/wezzo72/Barrandodger/blob/main/THE-CROWNED-WITNESS-BARRAN-DODGER-AND-THE-INDICTMENT-OF-NATIONS-2026-RETROSPECTIVE-10-OCTOBER-2026.pdf
+.ots: https://github.com/wezzo72/Barrandodger/blob/main/THE-CROWNED-WITNESS-BARRAN-DODGER-AND-THE-INDICTMENT-OF-NATIONS-2026-RETROSPECTIVE-10-OCTOBER-2026.pdf.ots
+
+This updated edition records subsequent developments on the Alive(n)/Live Chain after the original seal.
+
+Key subsequent documents:
+- CUMULATIVE-OBSERVATION-THE-COSMIC-TESTIMONY-13-OCTOBER-2026.pdf
+  https://github.com/wezzo72/Barrandodger/blob/main/CUMULATIVE-OBSERVATION-THE-COSMIC-TESTIMONY-13-OCTOBER-2026.pdf
+- FULL-COMPREHENSIVE-ITEMISED-LIST-OF-ALLEGED-ACTS-11-OCTOBER-2026.pdf
+- TONY-RIDLEY-NSW-STALKING-EVIDENCE-REFERENCE-12-OCTOBER-2026.md
+- BD-BRIEF-2026-10-13 and BD-AUDIT-2026-10-13 (see recent commits)
+
+New PDF SHA-256: ee027391f7354704658d79bfac432527cfd48343cff8d9008be2930fb5c963fe
+OpenTimestamps receipt uploaded.
+
+Appearance is not a finding. A receipt is not a finding. A link is not a verdict.
