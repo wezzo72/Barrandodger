@@ -51,4 +51,9 @@
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", arm);
   else arm();
+  window.addEventListener("load", function () {
+    place();
+    [0, 400, 1200].forEach(function (ms) { setTimeout(place, ms); });
+  });
 })();
+
