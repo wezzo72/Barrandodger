@@ -1,0 +1,24 @@
+evidence_id,date,institution,filename,sha256,hash_status
+E001,2023-03-27,Federal Court authorised officer,Scott Tredwell PID assessment 27 March 2023,NOT_HASHED_THIS_SESSION,text extracted earlier; file hash not computed in Phase 12
+E002,2023,NDIA,PID 2023/Krypton composite,NOT_HASHED_THIS_SESSION,text extracted earlier
+E003,2023-06-18,DSS,Paula Stratton letter in DSS composite,NOT_HASHED_THIS_SESSION,text extracted earlier
+E004,2022-04-14,PM&C,EVIDENCE OPMC FOI REJECTION -2022-045 - Decision.pdf,1c41aa3c34478b251a1533096afde792ecc185958c2ac2643d398982558e2ef8,computed from downloaded archive PDF
+E005,2022-06-14,Victorian Ombudsman,2022-06-14_Vic_Ombudsman_Rejects_FOI_s29A.pdf,b84e87eb21d0454fe3320651b2d8bf4c672d4b3b356e49818295e951b0820de3,computed from downloaded archive PDF
+E006,2023-04-24,AAT,Notice of FOI decision - R Mclean - FOI ref 2023-0072.pdf,c1beb370b2e692c250d080fe6a675a22a64949ca8543b2a01c1ade404a287ead,computed from downloaded archive PDF
+E007,2024-10-08,PM&C,2025-11-14_FOI_2022_045IC_Revised_Decision_4.pdf,a94faeb4a0286042274f04bceebbd2666736f5140d11f10d21e8f2185fb1ca78,compilation file; attachment not separately hashed
+E008,2009-06-24,PM&C release,FOI-2022-045IC-Documents-for-release.pdf,b8b3d85e476b49f8d76ba9ee8d4458c4ed9241d298d4e84dc756332213013282,computed from downloaded archive PDF
+E009,2021-05-26,Comcare,McLean-determination-Comcare-rejection-26May2021.pdf,827b21f45bfddd80f0045a6e3aab3c7306105c619511c331d3bbe6ad1262cf49,computed from downloaded archive PDF
+E010,2023-07-12,AAT,ART-2021-7478 cover letter,fe78c73aec3be796c36505bfc0da91a41692460045a95b8ac461c4e0f0247d8e,computed from downloaded archive PDF
+E010R,2023-07-12,AAT,McLean-and-Comcare-FINAL-Decision.pdf,f3ac2264cbbf9c22fd52f1354a3bfffc10bb1a4a167d85161b3a1ec9526f1c30,reasons file
+E011,2023-08-08,AAT,aat decision rejection 8th august 2023 2.pdf,16fc1c61d31548ba99246ebd56ef6e7b81567df2cba2ee95085b788a49dc4472,computed from downloaded archive PDF
+E012,2025-08-08,Commonwealth Ombudsman,Commonwealth Ombudsman - Service Restriction - Dr Richard McLean 8 August 2025.pdf,41f3e57ac6105463e924bfe1f67657b2e4244c3119731c2cb8f576e25c1fbe6c,computed from downloaded archive PDF
+E013,2024-01-12,NDIA,Restricted contact letter Dr Richard McLean copy.pdf,5a88ff61ad198f7cc6d6f455b4e132e7ca1976ca501c130e0e13611e89d8c925,computed from downloaded archive PDF
+E014,2022-10-28,NDIS Commission,Notice of decision to refuse application to be a registered NDIS provider.pdf,cb7d56d3efd03d0e39a286c7ad023e44b9405d49076020166e3f029ac68201d5,computed from downloaded archive PDF
+E015,2019-07-01,NDIS Commission,registration.provider.certificate.pdf,c126a87f548b74dfc562b0fd783c12058e2a83c2b9cc4301b4e84c538441b161,computed from downloaded archive PDF
+E016S,2023-06-01,NDIA,2023.06.01_NDIA_DECISION_SIL-Decline_Kate-P-Ed-Duncan.pdf,e578addedc9f57af6351724762748a2a278ac2fbbf60907db4084e130b6c0cc3,computed from downloaded archive PDF
+E016P,2025-11-20,NDIA,2025-11-20_NDIS_Plan_Approval_366406.pdf,a20f71d154ff4e8d1e5a85b23e1fa9b7bd134ddb0a28e2c5ecca4122f0473126,computed from downloaded archive PDF
+E017,2025-11-19,LECC,2025-11-19_LECC_Out_Of_Jurisdiction.pdf,8420ec248220248ab5b7593f89c8f05eee3da79a932941dec77d017d27a553b3,computed from downloaded archive PDF
+E018,2024-08-24,LECC,Your complaint about the NSW Police Force Letter to Barran Dodger - 24 August 2024.pdf,24dc528f4600222a09d48b44a7b421d78b7f88342e26ff2b1e5250a01a1345b2,computed from downloaded archive PDF
+E019,2026-01-20,NSW Trustee and Guardian,2024-10-16_NSW_Trustee_Guardian_s122.pdf,b840caf359fe43417d830409440f5e8cc22902adce751e59e88c93ddbf0a98a9,computed from downloaded archive PDF
+E019N,2024,NCAT,2026-01-20_NCAT_Guardianship_Evidence.pdf,39676b149f91d5d41d0053dcf1310edc4f51a16686e82a61dcd95bed39757eb1,downloaded; orders not fully extracted; s 65 restriction noted
+E020,2026-01-14,Legal Aid NSW,20260114-legal-aid-nsw-advice-letter-guardianship.pdf,0165e9d09d34b342d794d9e65c5ef16d83d20053bb03bca5920ba7bc1d390fdb,computed from downloaded archive PDF
