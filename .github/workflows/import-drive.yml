@@ -19,7 +19,7 @@ jobs:
       - name: Download Drive folder
         run: |
           mkdir -p google-drive-import
-          gdown --folder "https://drive.google.com/drive/folders/1ce8fq6x61rIDYcn4RalMhyP0y6XGqVB5" -O google-drive-import
+         gdown --folder "https://drive.google.com/drive/folders/1ce8fq6x61rIDYcn4RalMhyP0y6XGqVB5" -O google-drive-import --remaining-ok
 
       - name: Count downloaded files
         run: |
