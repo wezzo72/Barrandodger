@@ -1,71 +1,41 @@
-
 name: Import public Google Drive folder
 
-"on":
-  workflow_dispatch:
+“on”:
+workflow\_dispatch:
 
 permissions:
-  contents: write
+contents: write
 
 jobs:
-  import:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+import:
+runs\-on: ubuntu\-latest
+steps:
+\- name: Check out repository
+uses: actions/checkout@v4
 
-      - name: Install downloader
-        run: python -m pip install gdown requests
+```
+  - name: Install downloader
+    run: python -m pip install gdown
 
-      - name: Download Drive folder
-        run: |
-          mkdir -p google-drive-import
-          gdown --folder "https://drive.google.com/drive/folders/1ce8fq6x61rIDYcn4RalMhyP0y6XGqVB5" -O google-drive-import
+  - name: Download Google Drive folder
+    run: |
+      mkdir -p google-drive-import
+      gdown --folder "https://drive.google.com/drive/folders/1ce8fq6x61rIDYcn4RalMhyP0y6XGqVB5" -O google-drive-import
 
-      - name: Shorten excessively long filenames
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          import hashlib
-          import json
+  - name: Count downloaded files
+    run: |
+      echo "Downloaded file count:"
+      find google-drive-import -type f | wc -l
 
-          root = Path("google-drive-import")
-          manifest = []
-          for path in sorted(root.rglob("*")):
-              if not path.is_file():
-                  continue
-              original = str(path.relative_to(root))
-              if len(path.name.encode("utf-8")) > 180:
-                  suffix = "".join(path.suffixes[-1:])[:20]
-                  digest = hashlib.sha256(path.name.encode("utf-8")).hexdigest()[:12]
-                  new_name = path.name[:100] + "-" + digest + suffix
-                  new_path = path.with_name(new_name)
-                  path.rename(new_path)
-                  path = new_path
-              manifest.append({
-                  "original_path": original,
-                  "saved_path": str(path.relative_to(root))
-              })
-          (root / "filename-manifest.json").write_text(
-              json.dumps(manifest, indent=2, ensure_ascii=False),
-              encoding="utf-8"
-          )
-          print(f"Files recorded in manifest: {len(manifest)}")
-          PY
-
-      - name: Count downloaded files
-        run: |
-          echo "Downloaded file count:"
-          find google-drive-import -type f | wc -l
-
-      - name: Commit imported files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add google-drive-import/
-          if git diff --cached --quiet; then
-            echo "No new files to commit."
-          else
-            git commit -m "Import public Google Drive archive"
-            git push
-          fi
+  - name: Commit imported files
+    run: |
+      git config user.name "github-actions[bot]"
+      git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      git add google-drive-import/
+      if git diff --cached --quiet; then
+        echo "No new files to commit."
+      else
+        git commit -m "Import public Google Drive archive"
+        git push
+      fi
+```
