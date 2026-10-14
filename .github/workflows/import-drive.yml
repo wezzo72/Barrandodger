@@ -1,7 +1,7 @@
 
 name: Import public Google Drive folder
 
-on:
+"on":
   workflow_dispatch:
 
 permissions:
