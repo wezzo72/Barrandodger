@@ -1,39 +1,40 @@
+
 name: Import public Google Drive folder
 
-“on”:
-workflow_dispatch:
+"on":
+  workflow_dispatch:
 
 permissions:
-contents: write
+  contents: write
 
 jobs:
-import:
-runs-on: ubuntu-latest
-steps:
-- name: Check out repository
-uses: actions/checkout@v4
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-  - name: Install downloader
-    run: python -m pip install gdown
+      - name: Install downloader
+        run: python -m pip install gdown
 
-  - name: Download Google Drive folder
-    run: |
-      mkdir -p google-drive-import
-      gdown --folder "https://drive.google.com/drive/folders/1ce8fq6x61rIDYcn4RalMhyP0y6XGqVB5" -O google-drive-import
+      - name: Download Google Drive folder
+        run: |
+          mkdir -p google-drive-import
+          gdown --folder "https://drive.google.com/drive/folders/1ce8fq6x61rIDYcn4RalMhyP0y6XGqVB5" -O google-drive-import
 
-  - name: Count downloaded files
-    run: |
-      echo "Downloaded file count:"
-      find google-drive-import -type f | wc -l
+      - name: Count downloaded files
+        run: |
+          echo "Downloaded file count:"
+          find google-drive-import -type f | wc -l
 
-  - name: Commit imported files
-    run: |
-      git config user.name "github-actions[bot]"
-      git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      git add google-drive-import/
-      if git diff --cached --quiet; then
-        echo "No new files to commit."
-      else
-        git commit -m "Import public Google Drive archive"
-        git push
-      fi
+      - name: Commit imported files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add google-drive-import/
+          if git diff --cached --quiet; then
+            echo "No new files to commit."
+          else
+            git commit -m "Import public Google Drive archive"
+            git push
+          fi
