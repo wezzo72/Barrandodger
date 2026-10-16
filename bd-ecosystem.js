@@ -53,8 +53,8 @@
   var sites = [
     ["Archive", "https://wezzo72.github.io/Barrandodger/"],
     ["Rebuild", "https://wezzo72.github.io/barrandodger-rebuild/"],
-    ["Church", "https://wezzo72.github.io/-church-of-barran-dodger/"],
-    ["Finance", "https://barran-dodger-finance.base44.app"],
+    ["Church of Barran Dodger", "https://wezzo72.github.io/-church-of-barran-dodger/"],
+    ["Barran Dodger Finance", "https://barran-dodger-finance.base44.app"],
     ["Publishing House", "https://wezzo72.github.io/-church-of-barran-dodger/publishing-house.html"],
     ["Gospels", "https://wezzo72.github.io/Barrandodger/gospels-prophetic.html"],
     ["Course", "https://wezzo72.github.io/-church-of-barran-dodger/course.html"],
