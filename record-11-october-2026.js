@@ -125,7 +125,6 @@
   }
   function arm() {
     place();
-    [0, 400, 900, 1800, 2600, 4000].forEach(function (ms) { setTimeout(place, ms); });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", arm);
   else arm();
