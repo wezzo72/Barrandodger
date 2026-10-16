@@ -1,0 +1,53 @@
+
+name: Forensic PDF Audit
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check audit scripts
+        run: |
+          python -m py_compile scripts/pdf_audit.py
+          python -m py_compile scripts/verify_quotes.py
+
+      - name: Check target document list
+        run: |
+          if [ ! -f docs/target_documents.csv ]; then
+            echo "ERROR: docs/target_documents.csv is missing"
+            exit 1
+          fi
+          echo "Target document list found:"
+          cat docs/target_documents.csv
+
+      - name: Run PDF inventory
+        run: |
+          python scripts/pdf_audit.py \
+            --manifest docs/target_documents.csv \
+            --output audit-results \
+            --delay 1
+
+      - name: Upload audit results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: forensic-pdf-audit-results
+          path: audit-results/
+          if-no-files-found: warn
+          retention-days: 30
+
