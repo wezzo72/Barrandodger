@@ -1,0 +1,1 @@
+This first version uses Python's standard library. It downloads listed PDFs, calculates SHA-256 hashes, records download errors and produces a CSV manifest. PDF text extraction and OCR will be added in the next stage.
