@@ -1,0 +1,12 @@
+Captured 16 October 2026 from https://barran-dodger-finance.base44.app/
+The front page and each public route were printed to PDF. Login, register and password pages were not saved.
+
+page-*.pdf is one public route, as it rendered.
+section-*.pdf is one named part of the front page.
+section-the-rules.pdf is https://barran-dodger-finance.base44.app/#rules
+
+Each .ots file is an OpenTimestamps receipt for the PDF of the same name.
+The receipt was accepted by public calendar servers on 16 October 2026.
+It is not yet a Bitcoin block confirmation. The calendar batches stamps into a later block.
+SHA256SUMS.txt is the SHA-256 of each PDF at the time of the stamp.
+A saved page is not a finding.
