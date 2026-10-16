@@ -30,3 +30,14 @@
 })();
 
 (function(){var s=document.createElement("script");s.src="https://wezzo72.github.io/Barrandodger/record-11-october-2026.js?v=20261011";document.head.appendChild(s);})();
+
+(function () {
+  var path = location.pathname || "";
+  if (path.indexOf("/-church-of-barran-dodger/") === -1) return;
+  if (document.querySelector("script[data-bd-network-reach]")) return;
+  var s = document.createElement("script");
+  s.src = "https://wezzo72.github.io/-church-of-barran-dodger/network-reach.js?v=20261016";
+  s.defer = true;
+  s.setAttribute("data-bd-network-reach", "1");
+  document.head.appendChild(s);
+})();
