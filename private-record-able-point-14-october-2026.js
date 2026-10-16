@@ -45,7 +45,10 @@
       m.appendChild(document.createTextNode(" · SHA-256 fa24e094cdd4fd558a644c1c791943bd4ffc281c855c044d082137707dde13eb · appearance is not a finding"));
       el.appendChild(m);
     }
-    if (document.body.firstChild !== el) document.body.insertBefore(el, document.body.firstChild);
+    var enemy = document.getElementById("enemy-within-16-october-2026");
+    if (enemy) {
+      if (enemy.nextSibling !== el) enemy.parentNode.insertBefore(el, enemy.nextSibling);
+    } else if (document.body.firstChild !== el) document.body.insertBefore(el, document.body.firstChild);
     busy = false;
   }
   function arm() {
