@@ -1,0 +1,17 @@
+THE ENEMY WITHIN - Family Betrayal, Community Power, Institutional Exile, and the Price of Integrity
+16 October 2026
+Author: Barran Dodger / Dr Richard William McLean
+
+SHA-256
+#e74e2b8743bff27e04069cd11b38250675ec72841cd788d71f5d6f18a9fe95f6
+
+OpenTimestamps receipt: THE-ENEMY-WITHIN-FAMILY-BETRAYAL-COMMUNITY-POWER-INSTITUTIONAL-EXILE-AND-THE-PRICE-OF-INTEGRITY-16-OCTOBER-2026.pdf.ots
+Submitted 16 October 2026 to the public Bitcoin calendars.
+Pending attestation: alice.btc.calendar.opentimestamps.org
+Pending attestation: bob.btc.calendar.opentimestamps.org
+Pending attestation: btc.calendar.catallaxy.com
+Bitcoin block confirmation: pending. The calendar receipt fixes this hash before the block is mined.
+
+A hash is not a finding.
+A receipt is not a verdict.
+Appearance is not a finding.
