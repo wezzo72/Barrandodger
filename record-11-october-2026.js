@@ -122,12 +122,9 @@
       document.body.insertBefore(item, document.body.firstChild);
       document.body.insertBefore(ridley, document.body.firstChild);
     }
-    var founding = document.getElementById("cumulative-observation-13-october-2026");
-    if (founding && document.body.firstChild !== founding) document.body.insertBefore(founding, document.body.firstChild);
   }
   function arm() {
     place();
-    [0, 400, 900, 1800, 2600, 4000].forEach(function (ms) { setTimeout(place, ms); });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", arm);
   else arm();
