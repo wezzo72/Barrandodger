@@ -1,0 +1,60 @@
+name: Operation Open Book — Repository Examination
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 1 * *"  # Optional monthly run
+
+permissions:
+  contents: read
+
+concurrency:
+  group: open-book-examination
+  cancel-in-progress: false
+
+jobs:
+  examine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Check out repository read-only
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install examination dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r examination/requirements.txt
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr poppler-utils
+
+      - name: Run sample verification
+        run: |
+          python examination/open_book.py \
+            --repo-root . \
+            --output-dir examination/output \
+            --sample 25 \
+            --manifest examination/output/run_manifest.json
+
+      - name: Run full examination
+        if: success()
+        run: |
+          python examination/open_book.py \
+            --repo-root . \
+            --output-dir examination/output \
+            --manifest examination/output/run_manifest.json
+
+      - name: Upload examination bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: operation-open-book-report-bundle
+          path: examination/output/
+          if-no-files-found: error
+          retention-days: 90
