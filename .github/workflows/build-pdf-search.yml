@@ -1,0 +1,172 @@
+
+name: Build searchable PDF archive
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  index-pdfs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install PDF and OCR tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils tesseract-ocr
+          python -m pip install --upgrade pymupdf
+
+      - name: Extract PDFs and build search files
+        shell: bash
+        run: |
+          mkdir -p output/text
+          python - <<'PY'
+          import os, csv, json, glob, subprocess, re, html
+          import fitz
+
+          os.makedirs("output/text", exist_ok=True)
+          records = []
+
+          paths = sorted(
+              p for p in glob.glob("**/*.pdf", recursive=True)
+              if ".git/" not in p and not p.startswith("output/")
+          )
+
+          for n, path in enumerate(paths, 1):
+              print(f"[{n}/{len(paths)}] {path}", flush=True)
+              rel = os.path.relpath(path, ".")
+              txt_path = f"output/text/{n:05d}.txt"
+              status = "text-extracted"
+              pages = []
+
+              try:
+                  doc = fitz.open(path)
+                  pages = [p.get_text("text") for p in doc]
+                  doc.close()
+
+                  # OCR image-only or nearly empty PDFs.
+                  if sum(len(x.strip()) for x in pages) < 80:
+                      ocr_path = f"/tmp/ocr-{n:05d}.pdf"
+                      result = subprocess.run(
+                          ["ocrmypdf", "--skip-text", "--deskew",
+                           "--output-type", "pdf", path, ocr_path],
+                          capture_output=True, text=True
+                      )
+                      if result.returncode == 0 and os.path.exists(ocr_path):
+                          doc = fitz.open(ocr_path)
+                          pages = [p.get_text("text") for p in doc]
+                          doc.close()
+                          status = "ocr-attempted"
+                      else:
+                          status = "ocr-failed-or-unavailable"
+
+                  with open(txt_path, "w", encoding="utf-8") as f:
+                      for i, page in enumerate(pages, 1):
+                          f.write(f"\n\n===== PAGE {i} =====\n\n{page}")
+
+                  records.append({
+                      "path": rel,
+                      "text_file": txt_path,
+                      "pages": len(pages),
+                      "status": status,
+                      "text": "\n".join(
+                          f"\n[Page {i}]\n{page}"
+                          for i, page in enumerate(pages, 1)
+                      )
+                  })
+              except Exception as e:
+                  records.append({
+                      "path": rel, "text_file": "",
+                      "pages": 0, "status": "error: " + str(e),
+                      "text": ""
+                  })
+
+          with open("output/inventory.csv", "w", newline="",
+                    encoding="utf-8-sig") as f:
+              w = csv.DictWriter(
+                  f, fieldnames=["path", "text_file", "pages", "status"]
+              )
+              w.writeheader()
+              for r in records:
+                  w.writerow({k: r[k] for k in w.fieldnames})
+
+          # Keep extracted text in a separate JSON file so the HTML
+          # can search all document contents, not merely filenames.
+          with open("output/documents.json", "w", encoding="utf-8") as f:
+              json.dump(records, f, ensure_ascii=False)
+
+          page = r"""<!doctype html>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <title>Barrandodger PDF Search</title>
+          <style>
+          body{font:16px system-ui;max-width:900px;margin:2rem auto;padding:0 1rem}
+          input{width:96%;padding:12px;font-size:16px}
+          .hit{border-top:1px solid #ccc;padding:12px 0}
+          pre{white-space:pre-wrap;overflow-wrap:anywhere}
+          </style>
+          <h1>PDF archive full-text search</h1>
+          <p>Searches extracted PDF text. Results identify the repository path;
+          page markers are included where available.</p>
+          <input id="q" placeholder="Search names, dates, phrases, or terms">
+          <p id="count">Loading index…</p><div id="results"></div>
+          <script>
+          let docs=[];
+          fetch("documents.json").then(r=>r.json()).then(d=>{
+            docs=d; document.getElementById("count").textContent=
+              d.length+" PDF records loaded.";
+          }).catch(()=>document.getElementById("count").textContent=
+            "Could not load documents.json. Keep it beside this HTML file.");
+          const q=document.getElementById("q");
+          q.addEventListener("input",()=>{
+            const term=q.value.trim().toLowerCase();
+            const out=document.getElementById("results");
+            out.replaceChildren();
+            if(term.length<2)return;
+            let hits=0;
+            for(const d of docs){
+              const text=d.text||"";
+              const pos=text.toLowerCase().indexOf(term);
+              if(pos<0)continue;
+              hits++;
+              const div=document.createElement("div");div.className="hit";
+              const title=document.createElement("strong");
+              title.textContent=d.path;div.appendChild(title);
+              const meta=document.createElement("p");
+              meta.textContent=d.pages+" pages · "+d.status;
+              div.appendChild(meta);
+              const pre=document.createElement("pre");
+              pre.textContent=text.slice(Math.max(0,pos-250),pos+700);
+              div.appendChild(pre);out.appendChild(div);
+              if(hits>=100)break;
+            }
+            document.getElementById("count").textContent=
+              hits+" matching documents shown (maximum 100).";
+          });
+          </script>"""
+          with open("output/search.html", "w", encoding="utf-8") as f:
+              f.write(page)
+          print(f"Finished: {len(records)} PDF records")
+          PY
+
+      - name: Install OCR wrapper
+        if: always()
+        run: sudo apt-get install -y ocrmypdf
+
+      - name: Package searchable archive
+        run: |
+          cd output
+          zip -qr ../searchable-pdf-archive.zip .
+
+      - name: Publish downloadable results
+        uses: actions/upload-artifact@v4
+        with:
+          name: searchable-pdf-archive
+          path: searchable-pdf-archive.zip
+          retention-days: 90
