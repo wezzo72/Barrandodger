@@ -1,0 +1,1 @@
+$(cat /tmp/file.b64)
