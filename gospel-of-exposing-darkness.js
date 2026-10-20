@@ -2,7 +2,7 @@
   if (window.__bdGospelExposingDarkness) return;
   window.__bdGospelExposingDarkness = true;
   var ID = "gospel-of-exposing-darkness-21-october-2026";
-  var PAGE = "https://wezzo72.github.io/-church-of-barran-dodger/the-gospel-of-exposing-darkness.html";
+  var PAGE = "https://wezzo72.github.io/Barrandodger/the-gospel-of-exposing-darkness.html";
   var PDF = "https://wezzo72.github.io/Barrandodger/2026-10-21-THE-GOSPEL-OF-EXPOSING-DARKNESS.pdf";
   function place() {
     if (!document.body) return;
