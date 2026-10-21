@@ -259,3 +259,25 @@ Mobbing and the Safety of the Crowd — Believing a Comfortable Lie Over a Hard 
 **What this commit does not say:** The assessment is not a certified valuation, not a sale price, not a court and not a verdict. A hash is not a finding that the text is true.
 
 **Rule restated:** Never remove a single word. Only add.
+
+
+### COMMAND 27 — The Paradox of Protection, the Witness and the Divine Reckoning (21 October 2026)
+
+**User command:** Repeat the same treatment and commands as other PDFs.
+
+**What was added, and nothing already in the repository was removed:**
+
+- `2026-10-21-THE-PARADOX-OF-PROTECTION-THE-WITNESS-AND-THE-DIVINE-RECKONING.pdf` — the testimony PDF, byte-for-byte the file already held in pdf-archive under its original filename. 162,583 bytes.
+- `the-paradox-of-protection-the-witness-and-the-divine-reckoning.html` — full reading copy. The testimony is not shortened. The hyperlinks in the PDF are kept. Where the PDF did not link a particular letter, no file URL was invented.
+- `2026-10-21-THE-PARADOX-OF-PROTECTION-THE-WITNESS-AND-THE-DIVINE-RECKONING.txt` — the same words as plain text.
+- `2026-10-21-THE-PARADOX-OF-PROTECTION-THE-WITNESS-AND-THE-DIVINE-RECKONING.pdf.sha256` — digest of the PDF bytes.
+- `paradox-of-protection-21-october-2026.js` — a front-of-archive note. One script line was added at the top of `index.html` on the main archive, the rebuild, and the Church site. No existing sentence was deleted.
+- The same PDF and reading page on barrandodger-rebuild and -church-of-barran-dodger.
+- A dated copy in pdf-archive at `other-non-government/2026-10-21__THE-PARADOX-OF-PROTECTION-THE-WITNESS-AND-THE-DIVINE-RECKONING.pdf`. The original filename in that repository was not replaced.
+- A section added to `records-added-21-october-2026.html` and to `pdf-archive/2026-10-21-ADDED.md`.
+
+**PDF SHA-256 of the preserved bytes:** `2b9e4a9f1b19c6fbdfe7c94256e3f0c38ca75f6c21fa22b5634175d827b7e019`
+
+**What the last page of the PDF prints, and what it is not:** The stamp screen inside the PDF says 154.7 kB and SHA-256 `6bd9df08e6f798a978251506982b75d782aebf6ac59ba861ea5dda003e945c74`, and that an OpenTimestamps receipt was created. That printed digest does not match the file. No new OpenTimestamps receipt was attached to these bytes in this commit. A hash is not a finding that the text is true.
+
+**Rule restated:** Never remove a single word. Only add.
