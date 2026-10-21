@@ -1,3 +1,32 @@
+
+/* philip-glass-letter: full letter at the top of the church homepage.
+   The church Pages workflow is not currently deploying, so this script,
+   already loaded by the live church homepage, places the letter first. */
+(function () {
+  if (window.__bdPhilipGlassLetter) return;
+  window.__bdPhilipGlassLetter = true;
+  var path = location.pathname || "";
+  var churchHome = /\/-church-of-barran-dodger\/?(?:index\.html)?$/i.test(path);
+  if (!churchHome) return;
+  function place(html) {
+    if (!html || document.getElementById("philip-glass-letter")) return;
+    var holder = document.createElement("div");
+    holder.innerHTML = html;
+    var node = holder.firstElementChild;
+    if (!node) return;
+    var go = function () {
+      if (document.getElementById("philip-glass-letter") || !document.body) return;
+      document.body.insertBefore(node, document.body.firstChild);
+    };
+    if (document.body) go();
+    else document.addEventListener("DOMContentLoaded", go);
+  }
+  fetch("https://wezzo72.github.io/Barrandodger/2026-10-22-letter-to-philip-glass.html", {cache: "no-store"})
+    .then(function (r) { return r.ok ? r.text() : ""; })
+    .then(place)
+    .catch(function () {});
+})();
+
 (function () {
   if (window.__bdPrivateRecord) return;
   window.__bdPrivateRecord = true;
