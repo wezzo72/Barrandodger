@@ -17,7 +17,11 @@
         + '<p style="margin:10px auto 0;max-width:44rem;font-size:.98rem;line-height:1.45;">A prophetic examination of evil, institutional power, human conduct, betrayal, injustice, and the triumph of truth. The full text is on its own page. Faith is not a finding.</p>'
         + '<p style="margin:12px auto 0;"><a href="' + PAGE + '" style="color:#8B2E2A;font-weight:700;">Read the full text</a> · <a href="' + PDF + '" style="color:#8B2E2A;font-weight:700;">PDF</a></p>';
     }
-    if (document.body.firstChild !== el) document.body.insertBefore(el, document.body.firstChild);
+    var newest = document.getElementById("added-records-22-october-2026");
+    if (newest) {
+      if (document.body.firstChild !== newest) document.body.insertBefore(newest, document.body.firstChild);
+      if (newest.nextSibling !== el) newest.parentNode.insertBefore(el, newest.nextSibling);
+    } else if (document.body.firstChild !== el) document.body.insertBefore(el, document.body.firstChild);
   }
   function arm() {
     place();
