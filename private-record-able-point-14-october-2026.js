@@ -18,8 +18,22 @@
       if (document.getElementById("philip-glass-letter") || !document.body) return;
       document.body.insertBefore(node, document.body.firstChild);
     };
+    function pin() {
+      var node = document.getElementById("philip-glass-letter");
+      if (!node || !document.body) return;
+      if (document.body.firstElementChild === node) return;
+      document.body.insertBefore(node, document.body.firstElementChild);
+    }
     if (document.body) go();
     else document.addEventListener("DOMContentLoaded", go);
+    var observer = new MutationObserver(pin);
+    function watch() {
+      if (!document.body) return;
+      observer.observe(document.body, {childList: true});
+      pin();
+    }
+    if (document.body) watch();
+    else document.addEventListener("DOMContentLoaded", watch);
   }
   fetch("https://wezzo72.github.io/Barrandodger/2026-10-22-letter-to-philip-glass.html", {cache: "no-store"})
     .then(function (r) { return r.ok ? r.text() : ""; })
