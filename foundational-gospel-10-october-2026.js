@@ -1,3 +1,5 @@
+(function(){if(window.__bdLegalBrief23Loader)return;window.__bdLegalBrief23Loader=true;var s=document.createElement("script");s.src="https://wezzo72.github.io/Barrandodger/legal-brief-23-october-2026.js?v=20261023a";(document.head||document.documentElement).appendChild(s);})();
+
 (function () {
   var ID = "bd-foundational-gospel-10";
   var HREF = "https://github.com/wezzo72/Barrandodger/blob/main/FOUNDATIONAL-GOSPEL-THE-WITNESS-REMAINS-10-OCTOBER-2026.pdf";
