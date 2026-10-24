@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forensic Integrity Protocol | Barran Dodger Archive</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    body { font-family: Georgia, serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 20px; background: #111; color: #eee; }
+    h1, h2 { color: #e8c987; }
+    .caution { background: #2a1a1a; border-left: 4px solid #a52a2a; padding: 15px; margin: 20px 0; }
+    .protocol-step { background: #1b1b1b; border: 1px solid #444; padding: 15px; margin: 15px 0; border-radius: 4px; }
+    a { color: #f0ce82; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="brand"><a href="index.html">Barran Dodger Archive</a></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="methodology.html">Method</a>
+    <a href="forensic-integrity-protocol.html">Integrity Protocol</a>
+  </nav>
+</header>
+<main>
+  <h1>Forensic Integrity Protocol</h1>
+  <p class="lede">Robust verification framework for factual reliability, intellectual clarity, and legal fortification of the entire archive.</p>
+
+  <div class="caution">
+    <strong>NOT A FINDING. NOT A VERDICT. NOT LEGAL ADVICE.</strong><br>
+    This protocol provides tools and language for independent examination. It does not establish that any allegation is true. A link, a hash, or a timestamp is not a finding. Readers must examine primary sources.
+  </div>
+
+  <h2>1. Cryptographic Integrity Verification</h2>
+  <div class="protocol-step">
+    <h3>SHA-256 Hash Verification</h3>
+    <ol>
+      <li>Download the source PDF or file from the GitHub repository (wezzo72/Barrandodger or linked mirrors).</li>
+      <li>Compute the SHA-256 hash locally using standard tools (e.g., <code>shasum -a 256 filename.pdf</code> on macOS/Linux, or certutil on Windows).</li>
+      <li>Compare against the published hash on the corresponding page or stamp.</li>
+      <li>Match confirms the file bytes have not been altered since the hash was recorded.</li>
+    </ol>
+  </div>
+  <div class="protocol-step">
+    <h3>OpenTimestamps (Bitcoin Calendar)</h3>
+    <p>Where .ots receipts exist, they provide a cryptographic proof that the file (or its hash) existed at or before a certain time, anchored to the Bitcoin blockchain via public calendars. Pending block confirmation does not invalidate the calendar submission. Independent verification tools for OpenTimestamps are publicly available.</p>
+  </div>
+  <div class="protocol-step">
+    <h3>Git History and Provenance</h3>
+    <p>Every commit on GitHub provides an immutable (to the extent of the platform's integrity) record of when content was added or modified, by whom, and the exact blob SHA. This serves as a digital chain-of-custody analogue.</p>
+  </div>
+
+  <h2>2. Evidence Classification and Probability Language</h2>
+  <p>To enhance factual precision and avoid converting allegation into fact:</p>
+  <ul>
+    <li><strong>A – Documented existence:</strong> The file or record exists; quoted text appears in the opening pages or as named. This is verifiable by inspection.</li>
+    <li><strong>B – Incomplete or partial:</strong> Further pages, context, or related records needed for fuller assessment.</li>
+    <li><strong>C – Corroboration needed:</strong> Consistent with other records but requires independent cross-check.</li>
+    <li><strong>D – Narrative / allegation / interpretation:</strong> Author’s account or framing. Not established as fact by the document alone.</li>
+    <li><strong>H – High-consequence claim:</strong> Do not treat as established without strong, multi-source corroboration.</li>
+  </ul>
+  <p><strong>Probability and weight language (use precisely):</strong></p>
+  <ul>
+    <li>“The record is consistent with…” (supports but does not prove)</li>
+    <li>“Does not contradict…”</li>
+    <li>“Requires independent verification of…”</li>
+    <li>“The existence of the correspondence is established; the accuracy of any underlying allegation is not established by this entry alone.”</li>
+    <li>Avoid absolute terms such as “undeniable,” “proven,” or “certain” for unadjudicated claims.</li>
+  </ul>
+  <p>This language increases intellectual rigor and legal defensibility by matching the strength of the claim to the strength of the evidence.</p>
+
+  <h2>3. Chain-of-Custody Equivalent for Digital Archives</h2>
+  <ol>
+    <li>Source acquisition (original agency letterhead, FOI release, personal correspondence as provided).</li>
+    <li>Hash computation and publication.</li>
+    <li>Timestamping (OpenTimestamps or Git commit date).</li>
+    <li>Multiple mirrors (GitHub Pages, Backup repo, other repositories).</li>
+    <li>Public availability for independent re-hashing.</li>
+  </ol>
+  <p>Any break in this chain (e.g., unpublished intermediate versions) should be noted. Preservation of originals is preferred.</p>
+
+  <h2>4. Legal and Intellectual Fortification Notes</h2>
+  <div class="caution">
+    Not legal advice. For orientation only. Consult qualified professionals for any formal proceeding.
+  </div>
+  <ul>
+    <li>Australian evidence principles for documents (authenticity, relevance, hearsay exceptions for business/government records) can be considered by examiners.</li>
+    <li>Human rights instruments (ICCPR, CRPD, etc.) are referenced as standards, not as established findings of breach.</li>
+    <li>FOI and administrative law records demonstrate institutional awareness or decisions; sequence is not automatically causation.</li>
+    <li>Theological or prophetic writings are author’s interpretation and remain so labeled.</li>
+  </ul>
+
+  <h2>5. Independent Verification Checklist</h2>
+  <ul>
+    <li>☐ Locate the primary file on GitHub.</li>
+    <li>☐ Verify SHA-256.</li>
+    <li>☐ Check OpenTimestamps receipt if available.</li>
+    <li>☐ Review Git commit history for addition date.</li>
+    <li>☐ Read the full document, not extracts only.</li>
+    <li>☐ Classify using A/B/C/D/H.</li>
+    <li>☐ Cross-reference related records.</li>
+    <li>☐ Distinguish documented fact from allegation or interpretation.</li>
+    <li>☐ Note any limitations (partial text extraction, pending timestamps, etc.).</li>
+  </ul>
+
+  <h2>6. Completeness and Verification Status of the Archive</h2>
+  <p>The archive is a living finding aid. Completeness is relative to the materials made public by the owner. Verification status of any individual entry is as labeled. Readers are invited to contribute corrections or additional public-source references via the contact methods on the main site, with the same classification standards applied.</p>
+
+  <p><a class="btn" href="methodology.html">Return to Methodology</a> | <a class="btn" href="index.html">Home</a></p>
+</main>
+<footer>
+  © Dr Richard William McLean / Barran Dodger · Forensic Integrity Protocol · Added 25 October 2026 · Not a finding
+</footer>
+</body>
+</html>
