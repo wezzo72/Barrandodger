@@ -1,4 +1,4 @@
-(function(){if(window.__bdLegalBrief23Loader)return;window.__bdLegalBrief23Loader=true;var s=document.createElement("script");s.src="https://wezzo72.github.io/Barrandodger/legal-brief-23-october-2026.js?v=20261023a";(document.head||document.documentElement).appendChild(s);})();
+(function(){if(window.__bdLegalBrief23Loader)return;window.__bdLegalBrief23Loader=true;var s=document.createElement("script");s.src="https://wezzo72.github.io/Barrandodger/legal-brief-23-october-2026.js?v=20261024b";(document.head||document.documentElement).appendChild(s);})();
 
 (function () {
   if (window.__bdGospelExposingDarkness) return;
