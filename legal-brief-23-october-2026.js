@@ -3,7 +3,7 @@
   window.__bdLegalBrief23 = true;
   var SOS_ID = "final-reckoning-sos-24-october-2026";
   var ID = "legal-brief-23-october-2026";
-  var PAGE = "https://wezzo72.github.io/Barrandodger/2026-10-24-the-final-reckoning.html";
+  var PAGE = "https://wezzo72.github.io/barrandodger-rebuild/2026-10-24-the-final-reckoning.html";
   var TITLE = "LEGAL BRIEF of BARRAN DODGER / DR RICHARD WILLIAM MCLEAN — Fri 23rd October, 2026";
   var BLOB = "https://github.com/wezzo72/Barrandodger/blob/main/2026-10-23-LEGAL-BRIEF-of-BARRAN-DODGER-DR-RICHARD-WILLIAM-MCLEAN.pdf";
   var PDF = "https://wezzo72.github.io/Barrandodger/2026-10-23-LEGAL-BRIEF-of-BARRAN-DODGER-DR-RICHARD-WILLIAM-MCLEAN.pdf";
@@ -32,7 +32,7 @@
   <p style="margin:0 auto 10px;max-width:46rem;">I need someone to help.</p>
   <p style="margin:0 auto 10px;max-width:46rem;">I need to reach safety.</p>
   <p style="margin:0 auto 10px;max-width:46rem;font-family:system-ui,sans-serif;font-size:.95rem;">If there is an immediate risk to life in Australia, call 000. For urgent mental-health or crisis support, call Lifeline on 13 11 14.</p>
-  <p style="margin:12px auto 0;"><a style="color:#8B2E2A;font-weight:700;" href="https://wezzo72.github.io/Barrandodger/2026-10-24-the-final-reckoning.html">Read every word of the judgment</a></p>
+  <p style="margin:12px auto 0;"><a style="color:#8B2E2A;font-weight:700;" href="https://wezzo72.github.io/barrandodger-rebuild/2026-10-24-the-final-reckoning.html">Read every word of the judgment</a></p>
 </section>`;
   function onStatement() {
     return /2026-10-24-the-final-reckoning/.test(location.pathname);
