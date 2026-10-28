@@ -1,1 +1,1 @@
-PLACEHOLDER1
+$(cat /tmp/b64_1.txt)
