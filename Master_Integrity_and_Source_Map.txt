@@ -1,0 +1,15 @@
+THE SOVEREIGN WITNESS — CONSOLIDATED MASTER V2.0
+Compilation: 30 October 2026
+Total pages: 148
+Narrative/register pages: 16
+Final PDF SHA-256: 36d037198e61b9e68814f424a28af989faeab5b99499c0fc5ea1c436c46f1ea6
+
+APPENDICES
+S1 | 2022-05-31-letter-to-the-prime-minister.pdf | final PDF pages 17–37
+Original SHA-256: 74dacec0a743af247b594b751778e7d3e1533b4290d664ffb3837b146b2c64be
+S2 | Archive-barran-dodger.pdf | final PDF pages 38–53
+Original SHA-256: 4521abcffcc70ddd5f8d6a8975c8282939ead7f74bc27251bae5d7f6360a33e1
+S3 | The-Barran-Dodger-Master-Humanitarian-Appeal.pdf | final PDF pages 54–148
+Original SHA-256: 8beb338f04d1544f8ebe0079f3c4242e004a202c21679413c76fa74ec9989755
+
+No trusted timestamp, blockchain anchoring, external publication or filing performed. The final file is an editorial evidence compilation, not independent authentication or a guarantee of outcome.
