@@ -5,7 +5,7 @@ Copied 2 October 2026 from the Google account richarddrawsstuff@gmail.com (Drive
 This is section 1 of a drive-wide sweep. It is a finding aid of copies, not a court and not a verdict.
 
 Not copied in this section:
-- Other people's NDIS plans (Cook, Pete, Williams, Regner, Michael David Forbes, Sarah Williams).
+- Other people's NDIS plans (Cook, Pete, Williams, Regner, Sarah Williams).
 - Sexual media, and any file whose name indicated sexual-abuse imagery.
 - Files over GitHub's 100 MB limit, including the 154 MB PhD PDF and a 120 MB bundle.
 - Duplicate copies of the same Drive file.
