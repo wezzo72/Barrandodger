@@ -1,0 +1,1722 @@
+BARRAN DODGER — COMPLETE FORENSIC REPORT AND CONVERSATION RECORD
+
+I will provide the report directly here so you can copy and paste it. I am not going to make access to the work dependent on a PDF export.
+I also want to be clear: I am not aligning myself with any institution or taking a position against you. You have asked for a substantive examination of the documentary record, the legal obligations of the institutions concerned, and the questions of accountability. That is what follows.
+The report distinguishes between what the archive records, what you report, what may reasonably be inferred, and what still requires independent verification. That distinction does not diminish the seriousness of your allegations. It makes the document more credible and more useful to investigators, lawyers, oversight bodies and the public.
+THE RECORD REMAINS
+MASTER INSTITUTIONAL ACCOUNTABILITY, HUMAN RIGHTS AND LEGAL OBLIGATIONS REPORT
+Subject: Dr Richard William McLean — Barran Dodger Document type: Preliminary documentary investigation and institutional accountability report Research cut-off: 6 November 2026 Edition: Preliminary Public Edition 0.1 Purpose: To identify documented institutional interactions, potential legal and ethical issues, applicable Australian and international obligations, evidentiary gaps, and the steps required for an independent investigation.
+1. PURPOSE AND CENTRAL QUESTION
+This report examines the extensive documentary archive published under the name Barran Dodger and associated with Dr Richard William McLean.
+Its purpose is not simply to repeat allegations or reproduce correspondence. It is to examine the institutional record as a connected body of evidence and identify whether the actions, omissions, decisions, classifications, referrals, complaints processes and administrative responses recorded across that archive raise questions of legal compliance, procedural fairness, human rights, public administration, professional ethics and institutional accountability.
+The central question is:
+Did the cumulative actions and omissions of government agencies, statutory authorities, service providers, financial institutions, insurers, legal assistance bodies, police and other organisations deprive Dr Richard William McLean of rights, protections, resources, procedural opportunities or safeguards that those institutions were legally or ethically required to respect?
+A second question follows:
+If individual institutions each treated their own involvement as a separate administrative matter, did that fragmentation prevent the cumulative consequences of the decisions from being recognised, investigated or remedied?
+The investigation must consider both individual decisions and their combined effects.
+An institution may have complied with one narrow administrative procedure while its decision nevertheless contributed to a wider pattern of disadvantage. Conversely, an adverse outcome does not itself establish unlawful conduct. Each decision must be examined against the applicable legislation, policy, evidence, reasons, jurisdiction and available review mechanisms.
+The report therefore adopts a cumulative documentary approach.
+2. THE DOCUMENTARY RECORD
+2.1 The archive as an evidentiary resource
+The Barran Dodger archive is a substantial digital collection of documents, correspondence, records, statements, legal materials, administrative decisions and related material.
+The archive’s own methodology, dated 4 October 2026, reports the following inventory:
+Archive measure	Reported quantity
+Unique complete PDFs	3,215
+Unique PDF blobs, including stubs	3,667
+Stub PDFs	452
+PDF file instances	10,001
+Total archive-path file instances	21,211
+Unique file blobs	8,822
+Repositories containing files	8
+Additional repositories listed as empty	3
+The methodology also identifies 2,655 lines in SHA256SUMS.txt, representing 2,569 distinct SHA-256 values.
+These figures are reported by the archive’s published methodology. They should not be represented as an independently audited count unless the underlying repository files have been retrieved, enumerated and verified.
+The methodology itself cautions that the published hashes were not all recomputed against the files in the inventory.
+This distinction is important. A published hash is a useful integrity reference, but it is not proof that a particular file has been independently authenticated or that its contents are accurate.
+2.2 The significance of the archive
+The collection is potentially significant for at least six reasons.
+	•	Longitudinal evidence: It may permit the reconstruction of institutional interactions over an extended period.
+	•	Cross-agency evidence: It brings together records from different institutions that may otherwise be examined separately.
+	•	Procedural evidence: It contains material relating to complaints, referrals, decisions, requests for review and administrative responses.
+	•	Contradiction testing: It may allow statements by one institution to be compared with records created by another.
+	•	Preservation: It provides a public repository through which documentary material can be identified and independently examined.
+	•	Accountability: It creates an opportunity to assess whether the combined institutional record reveals unresolved systemic problems.
+The archive should be treated as a documentary collection requiring verification, not as a judicial determination.
+2.3 The principle of two public records, one documentary purpose
+The investigation should preserve the distinction between:
+	•	the original institutional record, wherever it can be obtained from the agency or organisation that created it; and
+	•	the corresponding document or record preserved in the public Barran Dodger archive.
+The objective is to compare the two records.
+The phrase two public records, one documentary purpose captures this method.
+Where the original and archived copies agree, that agreement may strengthen confidence in the integrity of the preserved record.
+Where they differ, the discrepancy should be recorded and investigated.
+Where the original is unavailable, the archive copy should be identified as such, and its provenance should be assessed.
+3. EVIDENCE CLASSIFICATION AND INVESTIGATIVE STANDARD
+Every material proposition in the final investigation should be classified using the following categories.
+A. Recorded
+A proposition directly supported by an identifiable document, letter, decision, email, official response or other record.
+B. Reported
+An account supplied by Dr McLean or another person that has not yet been independently corroborated.
+C. Inferred
+A conclusion that may reasonably follow from multiple records but is not itself expressly stated in any one document.
+D. Unverified
+A proposition for which the available material is insufficient to establish whether it is true.
+E. Contradicted
+A proposition that conflicts with another identifiable record or statement. Both records should be preserved and the discrepancy examined.
+F. Independently established
+A proposition confirmed by an independent authoritative source, original record, formal finding, judgment or other reliable corroboration.
+These categories must not be collapsed.
+For example, a complaint establishes that a complaint was made. It does not, by itself, establish that the conduct complained of occurred.
+Likewise, an agency rejection establishes that the agency rejected or declined the matter. It does not, by itself, establish that the agency’s decision was lawful, reasonable or correct.
+The investigation must therefore examine the evidence supporting both the underlying allegations and the institutional responses to them.
+4. THE CENTRAL SYSTEMIC QUESTION
+4.1 Systemic Removal of the Attributes Necessary to Live with Dignity in a Democracy
+The investigation should examine the possible cumulative removal or impairment of the practical attributes necessary for a person to live with dignity, safety and meaningful participation in a democratic society.
+The framework is:
+Systemic Removal of the Attributes Necessary to Live with Dignity in a Democracy
+The relevant attributes include:
+	•	income;
+	•	compensation;
+	•	access to money;
+	•	secure accommodation;
+	•	physical safety;
+	•	employment and vocational opportunity;
+	•	disability support;
+	•	healthcare;
+	•	access to legal assistance;
+	•	procedural fairness;
+	•	privacy;
+	•	freedom from discrimination;
+	•	access to complaint and review mechanisms;
+	•	family and social participation;
+	•	civil and political participation;
+	•	personal autonomy and dignity.
+The investigation must examine whether decisions made by different institutions interacted in ways that cumulatively affected these attributes.
+The relevant sequence to investigate is:
+	•	A person experiences an alleged loss, injury, discrimination, disadvantage or institutional failure.
+	•	The person seeks assistance, compensation, recognition, review or protection.
+	•	Different institutions classify the person’s status or circumstances differently.
+	•	The person encounters jurisdictional barriers, procedural rejections, delays or limitations.
+	•	The practical resources available to the person become more restricted.
+	•	The person’s ability to obtain further assistance, legal representation, accommodation, employment or financial security may be impaired.
+	•	Subsequent institutional responses may focus on the person’s circumstances rather than investigating the events that preceded them.
+This is an investigative hypothesis, not a finding that a coordinated process occurred.
+The important issue is whether the records establish a sequence of decisions and consequences that can be independently reconstructed.
+4.2 The cumulative-effect test
+The investigation should not assess each event exclusively in isolation.
+For every significant decision, it should ask:
+	•	What was the decision?
+	•	Who made it?
+	•	What information was available?
+	•	What legislation or policy applied?
+	•	What reasons were provided?
+	•	What review rights existed?
+	•	Was the decision communicated?
+	•	Was the person able to exercise those rights?
+	•	What practical consequences followed?
+	•	Did another institution rely on the decision?
+	•	Did the decision contribute to a later loss of access, resources or protection?
+	•	Was the combined effect considered by any institution?
+A decision-by-decision chronology should be supplemented by a cumulative-impact analysis.
+5. INSTITUTIONAL RECORD AND ACCOUNTABILITY PATHWAYS
+The archive identifies interactions involving a range of Australian government agencies, statutory bodies, service providers and other organisations.
+The following sections identify the principal investigative pathways.
+5.1 National Disability Insurance Scheme and disability services
+The NDIS and disability-services record is a central component of the investigation.
+The relevant issues include:
+	•	eligibility and access decisions;
+	•	plan approvals and funding;
+	•	reasonable and necessary support;
+	•	service-provider conduct;
+	•	safeguarding;
+	•	complaints handling;
+	•	participant autonomy;
+	•	continuity of support;
+	•	review and appeal rights;
+	•	possible disability discrimination;
+	•	the distinction between a participant’s account and a provider’s account;
+	•	the adequacy of responses to allegations of neglect, abuse or unsafe service delivery.
+The archive’s legal brief and catalogue identify material concerning NDIS correspondence, plan decisions and disability-related complaints.
+The archive also identifies an NDIS plan approval dated 20 November 2025, associated in the archive material with reference 366406.
+The underlying decision must be obtained and examined before drawing conclusions about its legal effect, funding level, reasons or implementation.
+The governing legislation includes the:
+	•	National Disability Insurance Scheme Act 2013.
+	•	Disability Discrimination Act 1992.
+	•	Applicable NDIS rules, operational guidelines, practice standards and provider obligations.
+The investigation should examine whether the relevant organisations fulfilled their statutory and contractual responsibilities and whether complaints were properly investigated.
+A particular focus should be the distinction between:
+	•	the legal responsibility of the NDIA;
+	•	the regulatory responsibilities of the NDIS Quality and Safeguards Commission;
+	•	the contractual responsibilities of providers;
+	•	the responsibilities of state and territory agencies;
+	•	the responsibilities of guardians or other substitute decision-makers, where applicable.
+These responsibilities are not interchangeable.
+A complaint directed to the wrong body may fail without the underlying issue having been investigated.
+That possibility must be examined through the actual correspondence and referral history.
+5.2 Legal Aid and access to justice
+The archive identifies a Legal Aid NSW guardianship-advice letter with a filename dated 14 January 2026.
+This document should be examined in relation to:
+	•	the advice requested;
+	•	the advice provided;
+	•	any refusal or limitation of assistance;
+	•	the applicable eligibility rules;
+	•	the scope of the service;
+	•	whether the person was advised of alternative avenues;
+	•	whether any conflict-of-interest or capacity issue was identified;
+	•	whether the person could practically pursue the relevant legal proceedings.
+Access to justice is not merely the formal existence of a court or tribunal.
+It also requires a meaningful opportunity to understand and exercise legal rights.
+The investigation should establish whether any restriction on legal assistance was properly based on the relevant criteria and whether the consequences were adequately explained.
+It should not assume that a refusal of legal assistance is automatically unlawful.
+5.3 Public interest disclosures and anti-corruption oversight
+The archive identifies records relating to public interest disclosures and integrity oversight, including:
+	•	an IBAC public interest disclosure rejection reference 400008R, dated 18 November 2021;
+	•	an IBAC outcome letter identified in archive material as case 2020712, dated 9 April 2020;
+	•	a Federal Court public-interest-disclosure assessment dated 27 March 2023;
+	•	an NDIS public-interest-disclosure response described in the archive as being outside the required timeframe.
+These records should be examined individually.
+The investigation should establish:
+	•	whether each disclosure satisfied the applicable statutory requirements;
+	•	whether the receiving body had jurisdiction;
+	•	whether the disclosure was allocated, referred, declined or investigated;
+	•	whether the reasons were sufficient;
+	•	whether statutory time limits applied;
+	•	whether the discloser was informed of review or appeal options;
+	•	whether any reprisal-protection provisions were engaged;
+	•	whether the relevant legislation was applied in the correct version.
+The principal Commonwealth legislation includes the:
+	•	Public Interest Disclosure Act 2013.
+	•	National Anti-Corruption Commission Act 2022.
+The investigation should also consider relevant state integrity legislation, including the applicable NSW and Victorian frameworks.
+A rejection by an integrity body does not automatically establish that the underlying disclosure was false or that no public-interest issue existed.
+It establishes that the body made a particular procedural or jurisdictional decision. The reasons for that decision must be examined.
+5.4 Ombudsman, freedom of information and privacy
+The archive identifies a Commonwealth Ombudsman complaint dated 15 November 2021, reference 2021103546.
+It also identifies correspondence and material relating to OAIC and PM&C processes.
+The investigation should examine:
+	•	whether complaints were acknowledged;
+	•	whether they were properly allocated;
+	•	whether agencies provided adequate explanations;
+	•	whether information-access rights were respected;
+	•	whether documents were withheld under lawful exemptions;
+	•	whether decisions were reviewable;
+	•	whether the agencies provided accurate and complete responses;
+	•	whether privacy complaints were considered under the applicable legislation.
+Relevant legislation includes:
+	•	Privacy Act 1988.
+	•	Freedom of Information Act 1982.
+	•	Applicable state and territory privacy and information-access legislation.
+The archive references OAIC/PM&C matter RQ22-01369, dated 22 April 2022, in the wider record. That reference should be matched against the original correspondence before its exact procedural status is described.
+5.5 Comcare and workers compensation
+The archive identifies material relating to:
+	•	Comcare pre-hearing correspondence dated 25 January 2022;
+	•	workers compensation claim 21230015373;
+	•	an ART/Comcare decision file identified as case 2021/7478, dated 12 July 2023;
+	•	a Federal Court employment-status letter dated 27 March 2023;
+	•	WorkSafe impairment-benefit liability decisions.
+This material raises important questions about employment status, worker classification, compensation eligibility, liability, impairment and the consistency of institutional assessments.
+The investigation should compare:
+	•	the employment or contractual relationship described in original employment records;
+	•	the classification adopted by each relevant institution;
+	•	the legal test applied to that classification;
+	•	the factual material considered;
+	•	the compensation or insurance consequences;
+	•	the reasons given for accepting or rejecting liability.
+The governing legal framework may include the:
+	•	Safety, Rehabilitation and Compensation Act 1988.
+	•	Applicable Victorian and NSW workers compensation legislation.
+	•	Relevant employment and industrial-relations legislation.
+	•	Applicable insurance contracts and policy terms.
+A classification used by one institution should not be assumed to determine the legal position under every other statutory scheme.
+The investigation should obtain the complete decisions and identify the legal test applied in each proceeding.
+5.6 Police and oversight bodies
+The archive identifies police-related correspondence and material involving oversight bodies.
+The investigation should examine whether complaints were:
+	•	received;
+	•	recorded accurately;
+	•	assigned a reference number;
+	•	investigated;
+	•	referred to an appropriate oversight body;
+	•	closed with reasons;
+	•	subject to review.
+It should also examine whether the person was informed of the outcome and whether relevant evidence was preserved.
+For NSW, the investigation should identify the appropriate police oversight and complaints framework, including the role of the Law Enforcement Conduct Commission where applicable.
+For Victoria, the relevant oversight framework should be considered in relation to the date and nature of each event.
+The existence of a complaint does not establish misconduct. Equally, the closure of a complaint does not necessarily establish that the conduct was properly investigated.
+5.7 NSW Trustee and Guardian and financial autonomy
+The archive identifies a NSW Trustee and Guardian section 122 document dated 16 October 2024 and a vehicle-disposal decision dated 14 November 2025.
+The investigation should establish:
+	•	the precise nature of the appointment or order;
+	•	the statutory power relied upon;
+	•	the scope of the authority;
+	•	the reasons for each decision;
+	•	the person’s rights and opportunities to participate;
+	•	the arrangements for access to personal funds;
+	•	the process for challenging decisions;
+	•	the treatment of essential living expenses;
+	•	the impact on banking access and financial independence.
+The relevant legislation includes the:
+	•	Guardianship Act 1987.
+	•	Applicable NSW Trustee and Guardian legislation and rules.
+Any allegation that a guardianship or financial-management arrangement prevented access to essential funds must be assessed against the actual order, its terms, the applicable law and the relevant banking records.
+The report should not assume that a financial restriction was lawful merely because a protective order existed.
+Nor should it assume that the order was unlawful without examining the original instrument and the circumstances in which it was made.
+5.8 Health and mental health services
+The investigation should examine the records of relevant health services, including:
+	•	admission and discharge documentation;
+	•	clinical assessments;
+	•	diagnoses and differential diagnoses;
+	•	medication decisions;
+	•	consent records;
+	•	treatment plans;
+	•	complaints;
+	•	referrals;
+	•	information-sharing decisions;
+	•	access to records;
+	•	the use of compulsory treatment powers, if applicable.
+The distinction between an individual’s reported experience, a clinical opinion and a legal finding must be maintained.
+Where the archive identifies a first hospitalisation report recording adjustment disorder rather than psychosis, the original clinical record should be obtained and examined.
+It should not be treated as proof of every later clinical issue, but it may be important to the chronology and to the assessment of how subsequent descriptions developed.
+Relevant legislation includes:
+	•	Mental Health Act 2007.
+	•	Health Records and Information Privacy Act 2002.
+	•	The applicable Commonwealth privacy framework.
+	•	Relevant professional standards and informed-consent requirements.
+The investigation should identify the legal basis for any involuntary intervention and assess whether statutory safeguards, review rights and procedural requirements were followed.
+6. AUSTRALIAN HUMAN RIGHTS AND ANTI-DISCRIMINATION FRAMEWORK
+6.1 Disability discrimination
+The Disability Discrimination Act 1992 prohibits specified forms of disability discrimination in areas including employment, education, access to premises, goods and services, accommodation and other areas covered by the Act.
+The investigation should examine whether any relevant conduct involved:
+	•	direct discrimination;
+	•	indirect discrimination;
+	•	failure to make reasonable adjustments;
+	•	discriminatory treatment in the provision of services;
+	•	victimisation;
+	•	unjustifiable hardship arguments;
+	•	failures to comply with applicable statutory requirements.
+The evidence must identify the relevant protected attribute, the conduct, the decision-maker, the circumstances and the legal elements of the alleged contravention.
+6.2 Sexual orientation and related protections
+The Sex Discrimination Act 1984 provides protections concerning sexual orientation, gender identity and intersex status in specified areas.
+Where the evidence suggests that sexual orientation or another protected attribute was relevant to an institutional decision, the investigation should identify the particular conduct and assess it against the statutory provisions.
+The fact that a person identifies as gay or LGBTQ+ does not itself establish discrimination.
+The investigation must identify evidence connecting the protected attribute to the alleged adverse treatment.
+6.3 Human rights and administrative fairness
+The Australian Human Rights Commission Act 1986 provides a framework for complaints concerning certain forms of discrimination and human rights issues.
+The investigation should consider whether conduct engaged rights concerning:
+	•	equality before the law;
+	•	protection from discrimination;
+	•	freedom from arbitrary interference with privacy;
+	•	freedom of expression;
+	•	liberty and security;
+	•	family life;
+	•	work;
+	•	social security;
+	•	adequate living standards;
+	•	participation in community life.
+The precise domestic legal remedy depends on the applicable statute, the respondent, the relevant facts and the available jurisdiction.
+Australia does not have one comprehensive national human rights statute that automatically creates a domestic cause of action for every alleged breach of an international human rights treaty.
+This distinction is legally important.
+7. INTERNATIONAL HUMAN RIGHTS OBLIGATIONS
+Australia is party to seven core international human rights treaties.
+These include:
+	•	International Covenant on Civil and Political Rights.
+	•	International Covenant on Economic, Social and Cultural Rights.
+	•	International Convention on the Elimination of All Forms of Racial Discrimination.
+	•	Convention on the Elimination of All Forms of Discrimination against Women.
+	•	Convention against Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment.
+	•	Convention on the Rights of the Child.
+	•	Convention on the Rights of Persons with Disabilities.
+Their relevance depends on the facts, the State’s obligations, the particular treaty provisions and the domestic legal context.
+7.1 International Covenant on Civil and Political Rights
+Potentially relevant protections include:
+	•	Article 2: obligation to respect and ensure Covenant rights.
+	•	Article 7: prohibition of torture and cruel, inhuman or degrading treatment.
+	•	Article 9: liberty and security of person.
+	•	Article 10: humane treatment of persons deprived of liberty.
+	•	Article 14: equality before courts and tribunals.
+	•	Article 17: protection against arbitrary or unlawful interference with privacy.
+	•	Article 19: freedom of expression.
+	•	Article 26: equality before the law and non-discrimination.
+The investigation should identify whether the facts engage any of these provisions and whether the relevant conduct is attributable to the State.
+7.2 International Covenant on Economic, Social and Cultural Rights
+Potentially relevant rights include:
+	•	Article 6: right to work.
+	•	Article 7: just and favourable conditions of work.
+	•	Article 9: social security.
+	•	Article 11: adequate standard of living, including adequate food, clothing and housing.
+	•	Article 12: highest attainable standard of physical and mental health.
+	•	Article 15: participation in cultural life and enjoyment of the benefits of scientific progress.
+The investigation should examine whether institutional decisions affected practical access to these rights and whether the relevant obligations were respected.
+7.3 Convention on the Rights of Persons with Disabilities
+The CRPD is particularly relevant to the disability-services and institutional-accountability aspects of this investigation.
+Relevant provisions include:
+	•	Article 5: equality and non-discrimination.
+	•	Article 9: accessibility.
+	•	Article 12: equal recognition before the law.
+	•	Article 13: access to justice.
+	•	Article 14: liberty and security of person.
+	•	Article 16: freedom from exploitation, violence and abuse.
+	•	Article 17: protecting the integrity of the person.
+	•	Article 19: living independently and being included in the community.
+	•	Article 22: respect for privacy.
+	•	Article 25: health.
+	•	Article 27: work and employment.
+	•	Article 28: adequate standard of living and social protection.
+	•	Article 29: participation in political and public life.
+The CRPD requires disability-related issues to be considered through the lens of equality, autonomy, accessibility, participation and protection from abuse.
+It is not sufficient to assess disability support exclusively as an administrative funding issue if the relevant facts also raise questions about dignity, independence, access to services and participation in community life.
+7.4 Convention against Torture
+The Convention against Torture prohibits torture and requires States to prevent other cruel, inhuman or degrading treatment or punishment within its scope.
+The investigation should treat any allegation of torture or ill-treatment seriously while maintaining the legal distinction between:
+	•	a person’s reported experience;
+	•	conduct that may constitute cruel, inhuman or degrading treatment;
+	•	conduct satisfying the legal definition of torture;
+	•	a formal finding by an authorised body.
+The legal definition of torture is specific and includes elements concerning the infliction of severe pain or suffering, specified purposes, and involvement or acquiescence of a public official or another person acting in an official capacity.
+Not every harmful, negligent, discriminatory or distressing institutional action legally constitutes torture.
+However, allegations of serious mistreatment must not be dismissed simply because they have been framed as complaints about administrative decisions.
+They require examination against the relevant evidence and legal standards.
+7.5 International complaint mechanisms
+Australia has accepted certain individual-complaint mechanisms under international human rights treaties.
+The availability of an international communication depends on:
+	•	the particular treaty;
+	•	Australia’s acceptance of the relevant procedure;
+	•	the date of the alleged violation;
+	•	the identity of the complainant;
+	•	the nature of the right relied upon;
+	•	exhaustion of domestic remedies, where required;
+	•	admissibility rules;
+	•	whether the matter is being examined elsewhere.
+An international treaty reference should not be presented as proof that the United Nations has accepted or substantiated an individual’s allegations.
+The archive’s reference to OHCHR UR/UST/23/AUS/17 should be preserved exactly as recorded. Its procedural meaning should be confirmed from the relevant original communication before it is described as a formal finding, investigation or accepted asylum claim.
+8. FINANCIAL SERVICES, BANKING AND INSURANCE
+The investigation should examine the banking and insurance record separately from the disability and guardianship record, while also considering the connections between them.
+8.1 Banking access and financial hardship
+The relevant questions include:
+	•	whether the customer could access essential funds;
+	•	whether restrictions were imposed;
+	•	who requested or authorised the restrictions;
+	•	whether the bank received a valid legal instrument;
+	•	whether the bank accurately interpreted that instrument;
+	•	whether hardship processes were available;
+	•	whether alternative access arrangements were considered;
+	•	whether complaints were handled within applicable timeframes;
+	•	whether the bank provided accurate information about review options.
+The Australian Banking Association Banking Code may be relevant where the bank is a subscribing institution and the relevant provisions apply.
+The Australian Financial Complaints Authority may provide an external dispute-resolution pathway for eligible complaints.
+The investigation should obtain the actual banking correspondence, account-access records, restriction notices and any relevant court or guardianship documents.
+8.2 Insurance and compensation
+The archive and the user’s reported history raise questions concerning insurance, superannuation and compensation.
+The investigation should examine:
+	•	the policies in force;
+	•	the identity of the insurer and trustee;
+	•	premium and contribution records;
+	•	claim dates;
+	•	medical and employment evidence;
+	•	decisions on liability;
+	•	reasons for rejection or limitation;
+	•	internal review procedures;
+	•	external dispute-resolution rights;
+	•	limitation periods.
+Potentially relevant legislation includes:
+	•	Insurance Contracts Act 1984.
+	•	Corporations Act 2001.
+	•	Superannuation Industry (Supervision) Act 1993.
+	•	ASIC Act 2001.
+	•	Applicable workers compensation legislation.
+Any monetary valuation or loss calculation must be supported by underlying financial documents and a transparent methodology.
+A figure appearing in a personal statement or archive calculation should not be represented as an established debt or legally recoverable amount without further substantiation.
+9. CHILD SEXUAL ABUSE REDRESS, TRAFFICKING AND EXPLOITATION
+The investigation should separately examine any records or allegations concerning historical child sexual abuse, institutional responsibility, redress or exploitation.
+Relevant Australian frameworks include the:
+	•	National Redress Scheme for Institutional Child Sexual Abuse Act 2018.
+	•	Criminal Code Act 1995, including applicable offences concerning slavery, servitude, forced labour and trafficking.
+	•	Modern Slavery Act 2018.
+	•	Relevant state and territory criminal and civil legislation.
+The National Redress Scheme has particular eligibility requirements, institutional participation rules and procedural requirements.
+A person seeking redress should not be assumed eligible or ineligible without examining the dates, institutions, circumstances and statutory criteria.
+Similarly, allegations of trafficking, servitude or forced labour require careful examination against the legal definitions.
+The investigation should identify:
+	•	the alleged conduct;
+	•	the persons or organisations involved;
+	•	the relevant dates and locations;
+	•	the evidence of coercion, exploitation or control;
+	•	the applicable statutory definition;
+	•	any available police, redress or civil process;
+	•	whether the relevant institution has responded.
+These are serious allegations. They must be documented accurately, without treating an allegation as a finding.
+10. MEDIA ETHICS, PUBLICATION AND REPUTATIONAL ACCOUNTABILITY
+The archive’s public-facing material includes a personal and documentary account of events that the author considers significant.
+Where media organisations or journalists are implicated, the investigation should examine:
+	•	whether reporting was accurate;
+	•	whether the author was given a fair opportunity to respond;
+	•	whether material was presented in context;
+	•	whether private information was published;
+	•	whether corrections were offered when errors were identified;
+	•	whether the publication complied with applicable professional standards;
+	•	whether the publication caused identifiable harm.
+The MEAA Journalist Code of Ethics may be relevant to journalists covered by the code.
+The Australian Press Council standards may also be relevant to participating publications.
+The investigation must distinguish between:
+	•	criticism of public institutions;
+	•	contested reporting;
+	•	professional misconduct;
+	•	defamation;
+	•	privacy breaches;
+	•	deliberate publication of false information.
+Each has a different legal or ethical test.
+The purpose is not to suppress legitimate reporting or criticism. It is to establish whether the record supports a specific concern about accuracy, fairness, privacy or professional conduct.
+11. CROSS-INSTITUTIONAL ANALYSIS
+The central value of the archive may lie in its ability to connect matters that were previously handled separately.
+A cross-institutional analysis should be undertaken in the following way.
+Area	Primary question	Evidence required
+NDIS and providers	Were support and safeguarding responsibilities met?	Plans, service agreements, incident reports, complaints and provider records
+Legal Aid	Was meaningful legal assistance or referral available?	Advice letters, eligibility decisions, internal reviews
+Public integrity	Were disclosures properly assessed?	Disclosure forms, allocation notices, rejection reasons and review records
+Ombudsman and FOI	Were complaints and information rights properly handled?	Complaint files, FOI decisions, internal reviews and correspondence
+Workers compensation	Were employment status and liability consistently assessed?	Contracts, claims, decisions, medical evidence and appeal records
+Police	Were complaints recorded and investigated appropriately?	Event numbers, statements, investigation records and closure notices
+Guardianship	Were powers exercised lawfully and proportionately?	Original orders, financial records, reasons and review documents
+Health services	Were treatment and compulsory-intervention safeguards followed?	Clinical files, consent records, statutory forms and review decisions
+Banking	Were restrictions and hardship arrangements properly handled?	Bank notices, legal instruments, account records and complaint responses
+Insurance	Were claims determined under the correct policies and legal tests?	Policies, claim files, reasons and review records
+11.1 The referral and jurisdiction problem
+One issue requiring particular attention is the possibility that complaints were repeatedly directed between bodies, or rejected because the receiving organisation considered another body responsible.
+The investigation should create a referral register recording:
+	•	the original complaint;
+	•	the receiving organisation;
+	•	the date received;
+	•	the assigned reference;
+	•	the issue identified;
+	•	the jurisdictional position;
+	•	any referral;
+	•	the next organisation;
+	•	the final outcome;
+	•	whether the original issue was ever substantively investigated.
+This will reveal whether a complaint was actually investigated or merely transferred, redirected or closed.
+11.2 The cumulative-impact problem
+A second issue is whether the combined effects of separate decisions were ever assessed.
+For example, a decision about financial management may affect access to money. Reduced access to money may affect accommodation, transport and communication. Those consequences may then make it more difficult to obtain legal advice, attend appointments or pursue complaints.
+The investigation should examine these connections without assuming that every consequence was intended or coordinated.
+The relevant question is whether the institutions knew, or should reasonably have known, about the practical consequences of their decisions and whether their legal obligations required further action.
+12. PRIORITY DOCUMENTARY REQUESTS
+The next stage should obtain original records from the organisations concerned.
+The following categories should be prioritised.
+Priority 1 — Orders, legal authority and financial access
+	•	Every guardianship or financial-management order relevant to the period.
+	•	Any variation, review or revocation.
+	•	Reasons for the original orders.
+	•	Financial-management statements.
+	•	Banking restrictions and correspondence.
+	•	Records identifying who authorised each restriction.
+	•	Decisions concerning essential expenditure.
+	•	Relevant communications between the bank and any guardian or public authority.
+Priority 2 — Disability support and safeguarding
+	•	NDIS plans and complete decision records.
+	•	Internal review and appeal records.
+	•	Provider service agreements.
+	•	Incident and risk reports.
+	•	Complaints and investigation outcomes.
+	•	Safeguarding assessments.
+	•	Provider communications concerning accommodation or continuity of service.
+	•	Records of referrals to regulators.
+Priority 3 — Health and treatment
+	•	Complete admission and discharge records.
+	•	Clinical assessments.
+	•	Relevant medication charts.
+	•	Consent documentation.
+	•	Compulsory-treatment forms, where applicable.
+	•	Review-panel decisions.
+	•	Complaints and responses.
+	•	Records of information-sharing with other organisations.
+Priority 4 — Employment, compensation and insurance
+	•	Employment contracts and engagement records.
+	•	Payroll and tax records.
+	•	Workers compensation claim files.
+	•	Comcare decisions.
+	•	WorkSafe decisions.
+	•	Insurance policies.
+	•	Insurer correspondence.
+	•	Medical assessments.
+	•	Internal and external review outcomes.
+Priority 5 — Integrity and complaints
+	•	Public interest disclosure documents.
+	•	Allocation and rejection notices.
+	•	Ombudsman complaint files.
+	•	FOI applications and decisions.
+	•	Police complaint records.
+	•	Oversight-body correspondence.
+	•	Referral records.
+	•	Reasons for closure or non-investigation.
+Priority 6 — Redress and other historical matters
+	•	Any relevant institutional redress correspondence.
+	•	Eligibility decisions.
+	•	Historical records identifying the responsible institution.
+	•	Relevant police or court documents.
+	•	Evidence of institutional notice or prior complaints.
+13. RECOMMENDED INVESTIGATIVE METHOD
+An independent investigation should be conducted using the following process.
+Stage 1 — Preserve
+Preserve the current archive without altering original files.
+Create a read-only preservation copy.
+Record:
+	•	repository name;
+	•	branch;
+	•	commit identifier;
+	•	file path;
+	•	file size;
+	•	original modification date, where available;
+	•	SHA-256 hash;
+	•	retrieval date;
+	•	source URL.
+Where a document is downloaded from an institution, preserve the original file and the accompanying transmission or download record.
+Stage 2 — Verify
+For each significant document:
+	•	Identify the original creator.
+	•	Identify the recipient.
+	•	Establish the date.
+	•	Establish the reference number.
+	•	Compare the archived copy with the original.
+	•	Recalculate the file hash.
+	•	Record any discrepancies.
+	•	Identify whether the document is complete.
+	•	Identify attachments and referenced documents.
+	•	Preserve the surrounding correspondence.
+A hash demonstrates that a file matches a particular digital reference. It does not prove that the document’s contents are true.
+Stage 3 — Chronology
+Create a master chronology in which each event has:
+	•	date;
+	•	institution;
+	•	decision-maker;
+	•	event description;
+	•	original document;
+	•	archive location;
+	•	legal framework;
+	•	response;
+	•	consequences;
+	•	review rights;
+	•	evidentiary classification.
+Chronology is essential because legal obligations change over time.
+The law in force on the date of an event should be identified rather than relying exclusively on the current consolidated version.
+Stage 4 — Legal mapping
+For every material event, identify:
+	•	the relevant statutory provision;
+	•	the version in force at the time;
+	•	the applicable regulation or rule;
+	•	any relevant policy;
+	•	the legal duty;
+	•	the evidence of compliance or non-compliance;
+	•	any available remedy.
+Stage 5 — Contradiction analysis
+Compare statements made by different institutions.
+For example:
+	•	Did one organisation classify an employment relationship differently from another?
+	•	Did one agency say it lacked jurisdiction while another identified it as responsible?
+	•	Did a later decision rely on a factual description inconsistent with an earlier original record?
+	•	Did an institution state that an issue had been investigated when the record indicates only that it was referred?
+	•	Did a complaint response omit a material issue raised in the original complaint?
+Every discrepancy should be documented with references to both records.
+Stage 6 — Independent assessment
+The final findings should be prepared by appropriately qualified independent reviewers.
+These may include:
+	•	administrative and public law practitioners;
+	•	disability-rights specialists;
+	•	human-rights lawyers;
+	•	workers compensation practitioners;
+	•	insurance and financial-services specialists;
+	•	privacy and information-access specialists;
+	•	forensic document examiners;
+	•	independent investigators.
+The reviewers should be provided with the complete relevant records, not selected extracts alone.
+14. PRELIMINARY FINDINGS
+Based on the material identified in the research to date, the following preliminary findings are supportable.
+Finding 1 — A substantial documentary archive exists.
+The principal GitHub repository contains a published methodology and extensive documentary material. The archive’s own methodology reports thousands of complete PDFs and tens of thousands of file instances.
+Finding 2 — The archive identifies multiple institutional pathways.
+The records and catalogue identify interactions with disability services, Commonwealth and state agencies, oversight bodies, workers compensation organisations, legal assistance services, police, financial-management institutions and health services.
+Finding 3 — There are identifiable matters requiring further examination.
+The archive identifies specific complaint references, decision dates, claim numbers and correspondence. These provide a foundation for obtaining original records and testing the relevant institutional responses.
+Finding 4 — The cumulative effects require examination.
+The combination of disability support, financial access, guardianship, compensation, health, legal assistance and accommodation issues makes a cross-institutional assessment necessary.
+Finding 5 — The current material does not establish every allegation.
+The archive and the user’s account are not substitutes for independent verification of every underlying event.
+Finding 6 — The legal framework is extensive.
+Australian domestic law and international human-rights obligations provide relevant standards against which particular conduct may be assessed.
+Finding 7 — A complete legal conclusion cannot responsibly be made without the original records.
+The available research identifies issues and investigative pathways. It does not establish that every institution breached a statutory obligation or that the organisations acted in concert.
+15. MATTERS THAT MUST NOT BE MISREPRESENTED
+The credibility of this report depends on maintaining the following distinctions.
+	•	An allegation is not a judicial finding.
+	•	A complaint reference is not proof that the complaint was substantiated.
+	•	A rejection is not proof that the underlying issue was false.
+	•	A referral is not necessarily an investigation.
+	•	A published document is not automatically authenticated.
+	•	A hash is not proof of the truth of the document’s contents.
+	•	Treaty ratification does not automatically make every treaty provision directly enforceable as a domestic cause of action.
+	•	An adverse administrative outcome is not automatically unlawful.
+	•	A person’s disability or mental health history does not remove their right to be heard, treated with dignity or protected from discrimination.
+	•	A public institution’s decision should be assessed against its actual statutory authority, the evidence available at the time and the legal requirements applicable to that decision.
+These qualifications are not concessions to any institution.
+They are safeguards against allowing a disputed fact to undermine an otherwise substantial documentary investigation.
+16. THE QUESTIONS THAT REQUIRE ANSWERS
+The final investigation should require each relevant organisation to answer the following questions.
+1. What records does the organisation hold concerning Dr Richard William McLean?
+2. What decisions did it make, and on what dates?
+3. Who made those decisions, and under what authority?
+4. What evidence was considered?
+5. What statutory provisions and policies were applied?
+6. What reasons were recorded?
+7. What review or appeal rights were available?
+8. Were those rights communicated in an accessible and understandable manner?
+9. Did the organisation receive complaints about the consequences of its decisions?
+10. Did it investigate those consequences?
+11. Did it refer matters to another institution?
+12. Did it confirm that the receiving institution accepted responsibility?
+13. Did it identify any safeguarding, disability, human-rights or financial hardship concerns?
+14. Did it consider the cumulative impact of its actions or omissions?
+15. What corrective action, if any, is now available?
+The answers should be supported by records rather than general assurances.
+17. PUBLIC ACCOUNTABILITY AND THE RIGHT TO INDEPENDENT EXAMINATION
+The existence of a substantial public archive creates an opportunity for independent examination.
+That opportunity should be protected.
+The archive should remain accessible, properly indexed and preserved in a way that allows readers to locate the underlying documents.
+The public should be able to distinguish:
+	•	the author’s personal testimony;
+	•	original government correspondence;
+	•	formal decisions;
+	•	legal submissions;
+	•	professional opinions;
+	•	independent findings;
+	•	documentary analysis;
+	•	unresolved allegations.
+The purpose of publication is not to ask the public to accept every conclusion without examination.
+It is to make the evidence available so that the conclusions can be tested.
+A public institution should not be exempt from scrutiny merely because a complaint is complex, lengthy, politically uncomfortable or spread across several administrative jurisdictions.
+Equally, the publication of an allegation should not be treated as proof of misconduct.
+The proper response is independent examination.
+18. CONCLUSION — THE RECORD MUST BE EXAMINED AS A WHOLE
+The Barran Dodger archive presents a substantial documentary project concerning Dr Richard William McLean’s reported experiences and interactions with a range of institutions.
+The published archive methodology reports thousands of complete PDFs and tens of thousands of file instances. The catalogue identifies material concerning disability services, public administration, integrity disclosures, complaints, compensation, guardianship, health, police, legal assistance and other institutional matters.
+The central investigative question is whether these records, when authenticated and examined together, reveal individual administrative failures, systemic weaknesses, failures of procedural fairness, discrimination, breaches of statutory duties or other conduct requiring legal or institutional accountability.
+The investigation must not begin with a predetermined conclusion.
+It must begin with the documents.
+It must establish what happened, when it happened, who was responsible, what information was available, what law applied, what decisions were made, what explanations were provided and what consequences followed.
+It must then examine the cumulative record.
+The key issue is not simply whether each institution can explain its own isolated decision.
+It is whether the combined institutional response adequately protected the person’s legal rights, human dignity, safety, access to services, financial autonomy and ability to participate in society.
+Where the evidence establishes a breach, that breach should be identified precisely.
+Where the evidence establishes an inconsistency, the inconsistency should be explained.
+Where the evidence is incomplete, the missing record should be identified.
+Where an allegation remains unverified, it should be labelled honestly and investigated rather than silently discarded.
+The archive’s purpose is to preserve the material necessary for that examination.
+The record remains. The documents should be examined. The questions of responsibility should be answered.
+19. SOURCE REGISTER AND PUBLIC REPOSITORIES
+The following sources should accompany the report and be retained as live links.
+A. Barran Dodger archive
+	•	Main archive repository: https://github.com/wezzo72/Barrandodger⁠
+	•	GitHub repositories: https://github.com/wezzo72?tab=repositories⁠
+	•	Main archive website: https://barrandodger.com⁠
+	•	GitHub Pages archive: https://wezzo72.github.io/Barrandodger/⁠
+	•	Rebuild repository: https://github.com/wezzo72/barran-dodger-rebuild⁠
+	•	Rebuild website: https://wezzo72.github.io/barran-dodger-rebuild/⁠
+	•	Backup repository: https://github.com/wezzo72/Backup⁠
+	•	Backup website: https://wezzo72.github.io/Backup/⁠
+B. Australian legislation and official legal frameworks
+	•	Disability Discrimination Act 1992: https://www.legislation.gov.au/C2004A04426/latest⁠
+	•	National Disability Insurance Scheme Act 2013: https://www.legislation.gov.au/C2013A00020/latest⁠
+	•	Public Interest Disclosure Act 2013: https://www.legislation.gov.au/Series/C2013A00133⁠
+	•	National Anti-Corruption Commission Act 2022: https://www.legislation.gov.au/Series/C2022A00088⁠
+	•	Mental Health Act 2007 (NSW): https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-2007-008⁠
+	•	Guardianship Act 1987 (NSW): https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-1987-257⁠
+	•	Health Records and Information Privacy Act 2002 (NSW): https://legislation.nsw.gov.au/view/whole/html/inforce/current/act-2002-071⁠
+	•	Attorney-General’s Department — International Human Rights System: https://www.ag.gov.au/rights-and-protections/human-rights-and-anti-discrimination/international-human-rights-system⁠
+	•	Australian Human Rights Commission — International Obligations: https://humanrights.gov.au/know-your-rights/understanding-human-rights/Australian-Human-Rights-Assessment-2026/australias-international-obligations⁠
+C. International instruments
+	•	Convention against Torture: https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-against-torture-and-other-cruel-inhuman-or-degrading⁠
+	•	UN Treaty Collection: https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-9&chapter=4&clang=_en⁠
+D. Financial and other accountability bodies
+	•	Australian Financial Complaints Authority: https://www.afca.org.au/⁠
+	•	Comcare: https://www.comcare.gov.au/⁠
+	•	National Redress Scheme: https://www.nationalredress.gov.au/⁠
+	•	Australian Banking Association Banking Code: https://www.ausbanking.org.au/banking-code/⁠
+	•	Modern slavery offences — Attorney-General’s Department: https://www.ag.gov.au/crime/modern-slavery/modern-slavery-offences⁠
+	•	Media, Entertainment and Arts Alliance: https://www.meaa.org/⁠
+APPENDIX A — ARCHIVE INTEGRITY STATEMENT
+The archive methodology dated 4 October 2026 reports:
+	•	3,215 unique complete PDFs;
+	•	3,667 unique PDF blobs including stubs;
+	•	452 stub PDFs;
+	•	10,001 PDF file instances;
+	•	21,211 archive-path file instances;
+	•	8,822 unique blobs;
+	•	2,655 lines in the published SHA256SUMS file;
+	•	2,569 distinct SHA-256 values.
+The methodology states that the published hashes were not all recomputed against the files in that inventory.
+The main repository README identifies a legal-brief PDF dated 23 October 2026 and publishes the following SHA-256 reference:
+effa0bfe8894e4d9f98de8de8988a44ddef8ee95b1317a80d28d7cbd20fca8ff
+This value is reproduced as published by the repository. It has not been independently recomputed from the original PDF bytes in this investigation.
+A date discrepancy also requires reconciliation: the repository identifies the PDF as dated 23 October 2026, while the linked legal-brief HTML contains a cumulative-edition footer dated 24 September 2026.
+The archive’s three listed .ots files should be examined individually. Their existence does not establish that every archive document has been timestamped on the Bitcoin blockchain.
+APPENDIX B — INVESTIGATIVE LIMITATIONS
+This report is a preliminary documentary and legal-framework assessment.
+It is not:
+	•	a court judgment;
+	•	a finding by a statutory commission;
+	•	a legal opinion based on complete original files;
+	•	a forensic authentication certificate;
+	•	an independent determination that any person or organisation committed an offence;
+	•	proof of a coordinated conspiracy;
+	•	proof of torture, trafficking or other criminal conduct.
+The report relies on archive material and the research described above. Not every underlying PDF or original institutional file has been independently retrieved and authenticated.
+The applicable law must be checked against the version in force on the date of each event.
+Any final public or legal submission should attach or identify the original documents supporting each material allegation.
+END OF PRELIMINARY PUBLIC EDITION 0.1
+The most important next step is to turn this into a fully referenced evidence matrix, linking each allegation to its original document, institution, date, statutory provision, contradiction and outstanding question.
+
+Execute this in one fell sweep don’t give me another option or question answer it throughly and completely with finality
+
+The most important next step is to turn this into a fully referenced evidence matrix, linking each allegation to its original document, institution, date, statutory provision, contradiction and outstanding question.
+
+BARRAN DODGER — MASTER EVIDENCE AND INSTITUTIONAL ACCOUNTABILITY MATRIX
+**Dr Richard William McLean	Barran Dodger**
+This matrix is designed to connect each identified issue to its documentary source, responsible institution, relevant date, applicable legal framework, potential contradiction, and the precise question that remains to be answered.
+It uses the archive references and document descriptions identified in the preceding research. It does not pretend that every original PDF has been retrieved, authenticated or examined in full. Where the archive identifies a document but its contents have not been independently inspected, that limitation is stated. Where the evidence does not establish a breach, the matrix records the issue for investigation rather than converting it into a finding.
+The governing principle is that every material allegation must be traceable to a document, every institutional response must be tested against the original record, and every proposed legal conclusion must be tested against the law in force on the date of the event.
+Part I — Master evidence matrix
+A. Public interest disclosures, employment status and integrity oversight
+ID	Institution / issue	Date and primary document	Applicable legal framework	What the presently identified record establishes	Contradiction, limitation or evidentiary tension	Outstanding question
+E01	Commonwealth Ombudsman — PID assessment	18 November 2021. PID-2021-400008-R letter, preserved under an IBAC-labelled filename	Public Interest Disclosure Act 2013 (Cth), particularly the eligibility and disclosure requirements applied in the letter, including s 26.	The archive’s document-specific analysis identifies the letterhead as the Commonwealth Ombudsman, signed by an Assistant Director. It records a review of an authorised officer’s decision and a conclusion that the disclosure did not satisfy the Commonwealth PID Act. The letter says the material did not identify disclosable conduct by a Commonwealth agency or public official and that state-agency and private-entity allegations fell outside that Commonwealth scheme.	Important archive labelling error: the file is named as an IBAC rejection, but the document is identified as a Commonwealth Ombudsman letter. It must not be described as an IBAC determination. The letter did not determine the truth of every allegation; it assessed eligibility under the Commonwealth PID scheme.	Obtain the original authorised-officer decision, the initial disclosure, the review request and the complete letter with metadata. Identify precisely which allegations concerned Commonwealth entities and whether any separate state disclosure was made.
+E02	Federal Court of Australia — PID non-allocation	27 March 2023. Scott Tredwell, General Counsel, PID assessment	Public Interest Disclosure Act 2013 (Cth), including the public-official, authorised-recipient and allocation requirements.	The archive’s close reading identifies a letter from General Counsel stating that he was an authorised officer. It records that, on information supplied by the correspondent, he was satisfied the correspondent was or had been an employee with DSS. It then states that he was not satisfied the disclosure was made by a public official or provided to an authorised recipient and decides not to allocate it to an agency.	The letter contains an apparent internal tension: it records an employment description based on information provided by the author, but ultimately says the statutory public-official requirement was not established. The archive’s own cover-page description of a “confirmed protected disclosure maker” is not supported by the operative refusal to allocate.	Obtain the original correspondence of 7, 23 and 24 March 2023, the full assessment, the applicable PID Act version and the documents relied upon to determine public-official status. Establish whether any other agency received a separate disclosure.
+E03	Comcare / AAT — employment status and compensation	12 July 2023. McLean and Comcare reasons, file 2021/7478 and registry letter	Safety, Rehabilitation and Compensation Act 1988 (Cth), particularly the statutory definition and gateway concerning employee status; applicable AAT review provisions at the time.	The archive’s specific analysis says the Tribunal affirmed Comcare’s decision because it was not satisfied Dr McLean was an employee of the Commonwealth, a Commonwealth authority or a licensed corporation for the relevant period. The proceeding concerned the statutory employee gateway for a psychological injury claim.	This is a significant adverse determination on the employee-status question under that compensation scheme. It did not determine that the reported psychological injury did not occur, did not decide all employment relationships for every other legal purpose, and did not determine the wider allegations of persecution or institutional wrongdoing.	Obtain the complete 21-page reasons and exhibits, especially Exhibit A1, Exhibit R2 and Exhibit R3. Establish whether any appeal or later proceeding altered the result.
+E04	Department of Social Services — employment records	31 March 2023, as described in the AAT reasons. The archive identifies a DSS officer email as Exhibit R3 in file 2021/7478.	Safety, Rehabilitation and Compensation Act 1988 (Cth); employment and public-official definitions under the separate legislation being applied.	The AAT analysis says the Tribunal recorded a DSS officer’s email as stating that the Department had no record of Dr McLean ever being its employee.	The email itself was not independently reopened in the present review. The Tribunal’s description of the exhibit is available through the archive’s analysis, but the original email must be examined before quoting it as a direct agency statement. The DSS position is in tension with the employment sentence in the 27 March General Counsel letter, which was expressly based on information supplied by the author.	Obtain the original 31 March 2023 email, sender details, DSS personnel/payroll searches, any archived employment records, and the underlying basis for the 27 March letter’s employment description.
+E05	NDIA / NDIS Commission — employment and provider status	3 June 2021. Archive PID and official-document indexes identify an NDIS Commission letter described as “not an employee”.	National Disability Insurance Scheme Act 2013 (Cth); Public Interest Disclosure Act 2013 (Cth), where relevant; NDIS provider rules.	The archive index identifies a Commission communication addressing employment status. It is potentially relevant to the distinction between being an NDIS provider and being an employee of the NDIA or Commission.	The complete original letter has not been examined in this assessment. The fact that a person is registered as an NDIS provider does not, without more, establish employment by the NDIA or Commission.	Obtain the complete 3 June 2021 letter, the underlying registration records, service contracts, payment records, supervision arrangements and the precise legal question put to the Commission.
+E06	APRA — whistleblower / PID status	13 November 2021. APRA rejection file listed in the PID index	Public Interest Disclosure Act 2013 (Cth), if the disclosure was made under that scheme; Corporations Act 2001 (Cth), Part 9.4AAA, if the matter concerned a corporate whistleblower disclosure and its statutory criteria were met.	The archive index identifies a document described as APRA rejecting whistleblower status.	The exact reasons and statutory pathway have not been checked against the original letter. Commonwealth PID status and corporate whistleblower protections are separate legal regimes and must not be conflated.	Obtain the original APRA letter and the submission it answered. Identify whether APRA assessed a Commonwealth PID, a corporate whistleblower disclosure, a complaint about a regulated entity, or another type of communication.
+E07	Commonwealth Ombudsman — original complaint	15 November 2021. Complaint 2021103546, indexed as Exhibit E37	Ombudsman Act 1976 (Cth); Public Interest Disclosure Act 2013 (Cth), only to the extent the complaint was also treated as a PID.	The archive exhibit register identifies a Commonwealth Ombudsman complaint under reference 2021103546.	A complaint reference proves that a complaint record is indexed; it does not establish the merits, the exact issues investigated or whether the complaint was upheld. The 18 November PID review is a separate record and should not automatically be treated as the outcome of this entire complaint.	Obtain the complaint, acknowledgement, allocation, case notes, any investigation, final response, review correspondence and any reasons for closure.
+E08	Commonwealth Ombudsman — service restriction	8 August 2025. Service restriction letter listed in the PID index	Ombudsman Act 1976 (Cth); applicable administrative law principles; any relevant procedural fairness requirements and agency policy.	The archive identifies a letter concerning a service restriction affecting Dr McLean. The 4 October diary describes this as the document closest to the author’s claim of being “banned”.	A service restriction is not necessarily a prohibition on every form of access to every public body. Its scope, reasons, duration, review process and exceptions must be read from the actual letter.	Obtain the full letter and the complaint history on which it relies. Identify the exact conduct, scope of restriction, review rights, duration, treatment of new evidence and any urgent or safeguarding exceptions.
+E09	NDIS / DSS — PID response described as out of time	2023. NDIS PID response and appeal file	Public Interest Disclosure Act 2013 (Cth), if the recipient and disclosure fell within the Commonwealth scheme; applicable NDIS legislation for the underlying subject matter.	The archive index identifies a response described as “not in time” and an appeal to the Ombudsman.	The exact time limit, date of receipt, date of decision and reason for the time finding have not been independently checked. A late disclosure or review may be treated differently from a finding that the underlying information was false.	Obtain the initial disclosure, proof of delivery, allocation record, statutory deadline calculation, response, appeal and any Ombudsman review.
+E10	NSW / Victorian integrity oversight — jurisdiction and referral	19 November 2025. LECC out-of-jurisdiction letter	Law Enforcement Conduct Commission Act 2016 (NSW); relevant police oversight legislation in the jurisdiction where the alleged conduct occurred.	The archive diary identifies LECC case 202512395 as an out-of-jurisdiction outcome dated 19 November 2025.	An out-of-jurisdiction decision is not a finding that the alleged police conduct did not occur. It is also not proof that another oversight body accepted or investigated the matter.	Obtain the complaint and the complete LECC letter. Identify the jurisdictional reason, any suggested alternative body, whether a referral was made, and whether that body accepted the complaint.
+E11	NSW public interest disclosure framework — later events	From 1 October 2023. NSW Public Interest Disclosures Act 2022	Public Interest Disclosures Act 2022 (NSW), operative from 1 October 2023; earlier NSW disclosures must be assessed under the legislation then in force.	The NSW scheme protects qualifying public officials who report serious wrongdoing and imposes duties concerning confidentiality, protection from detriment and appropriate action on qualifying disclosures.	It would be incorrect to apply the NSW 2022 Act retrospectively to a 2021 disclosure. Equally, a Commonwealth PID rejection does not determine whether a separate NSW disclosure met the NSW statutory criteria.	For each NSW-related disclosure after 1 October 2023, identify the public official status, recipient, disclosure content, reasonable belief, agency response and any review or reprisal allegation.
+Important legal distinction on PID matters: the Commonwealth and NSW schemes have different definitions, recipients and coverage. The NSW Ombudsman confirms that the NSW 2022 Act commenced on 1 October 2023 and replaced the 1994 Act. Its protections and agency duties apply only where the statutory requirements are met. ombo.nsw.gov.au +2 The Commonwealth PID Act must be examined in its relevant historical version, not by assuming that every public complaint is a protected disclosure. legislation.gov.au
+B. FOI, privacy, human rights and administrative review
+ID	Institution / issue	Date and primary document	Applicable legal framework	What the presently identified record establishes	Contradiction, limitation or evidentiary tension	Outstanding question
+E12	OAIC — privacy / FOI decision	22 April 2022. OAIC RQ22-01369 decision	Privacy Act 1988 (Cth); Freedom of Information Act 1982 (Cth), depending on the subject of the decision.	The archive’s official list identifies a decision under reference RQ22-01369.	The full decision and the exact statutory pathway have not been examined here. The reference alone does not establish a privacy breach or an FOI contravention.	Obtain the decision, the original application or complaint, the agency response, the documents in dispute, exemptions relied upon and any review rights.
+E13	Victorian Ombudsman — FOI refusal	14 June 2022. FOI s 29A decision listed in the archive	Freedom of Information Act 1982 (Vic), including the provision cited in the document; Victorian Ombudsman legislation where relevant.	The archive identifies a Victorian Ombudsman FOI decision dated 14 June 2022, described as a refusal under s 29A.	The actual grounds, whether the refusal related to an application or a review, and the precise scope of the decision have not been independently examined. A refusal under an FOI provision does not by itself establish that the underlying records do not exist.	Obtain the original request, decision, reasons, any internal review or VCAT application, and identify whether other access routes remain available.
+E14	Australian Human Rights Commission — acknowledgement / correspondence	4 July 2023. AHRC contact record listed as Exhibit E42	Australian Human Rights Commission Act 1986 (Cth); Disability Discrimination Act 1992 (Cth); Sex Discrimination Act 1984 (Cth), if the relevant protected attribute and statutory area are engaged.	The archive identifies an AHRC contact or acknowledgement record.	An acknowledgement or contact exchange is not a finding that discrimination occurred, nor does it necessarily mean a formal complaint was accepted for investigation or conciliation.	Obtain the full exchange, any formal complaint form, jurisdictional assessment, termination or referral notice, and reasons. Determine whether a statutory complaint was lodged and what happened to it.
+E15	FOI / government information access — multiple agencies	2021–2025. Archive entries include Commonwealth and state FOI decisions, including OPMC FOI 2022-045, NDIS FOI, Victoria Police FOI and Federal Court FOI correspondence.	Freedom of Information Act 1982 (Cth); Government Information (Public Access) Act 2009 (NSW); Freedom of Information Act 1982 (Vic).	The official catalogue identifies FOI decisions and correspondence across multiple agencies.	A keyword catalogue is not a substitute for a decision-by-decision review. Different agencies may have applied different exemptions, deadlines and review mechanisms.	Create a separate FOI schedule showing each application, agency, date, decision, exemption, released pages, withheld pages, review deadline and outcome.
+E16	Federal Court — FOI response	26 April 2023. Federal Court FOI response listed in official index	Freedom of Information Act 1982 (Cth); applicable review provisions.	The archive index identifies a Federal Court FOI response dated 26 April 2023.	The response’s exact scope and outcome have not been examined. It must not be conflated with the separate 27 March PID assessment by General Counsel.	Obtain the original request and response, determine what records were searched, and identify any refusal, exemption or review right.
+C. NDIS, disability support and provider safeguarding
+ID	Institution / issue	Date and primary document	Applicable legal framework	What the presently identified record establishes	Contradiction, limitation or evidentiary tension	Outstanding question
+E17	NDIA — plan review	15 December 2021. NDIA plan review approval listed in official index	National Disability Insurance Scheme Act 2013 (Cth), relevant plan and review provisions in force at the time.	The archive lists a plan-review approval dated 15 December 2021.	Approval does not establish the adequacy of every support, the correct implementation of the plan, or the conduct of any provider. The decision’s terms and reasons have not been examined.	Obtain the full plan, decision record, review request, reasons, budget categories, implementation history and any subsequent review decisions.
+E18	NDIA — plan approval	20 November 2025, reference 366406. NDIS plan approval	National Disability Insurance Scheme Act 2013 (Cth); applicable NDIS rules and operational guidance.	The archive identifies a plan approval dated 20 November 2025, reference 366406.	The existence of an approval does not prove the plan met all support needs or that funded supports were delivered. Nor does it establish a provider breach. The plan’s amount and line-item details require examination of the original.	Obtain the complete approval, plan, decision reasons, support needs assessment, previous plan, implementation records and correspondence about changes or restrictions.
+E19	NDIS Quality and Safeguards Commission — provider complaint / acknowledgement	18 September 2026, as recorded in the 4 October archive diary.	National Disability Insurance Scheme Act 2013 (Cth); NDIS Code of Conduct Rules; Provider Registration and Practice Standards Rules; Incident Management and Reportable Incidents Rules.	The archive diary identifies a Commission acknowledgement dated 18 September 2026.	An acknowledgement establishes receipt or contact, not that the Commission substantiated the allegations, opened a formal investigation or made a regulatory finding.	Obtain the acknowledgement, complaint submitted, incident particulars, provider response, any risk assessment, investigation status and final outcome.
+E20	Able Point — contemporaneous evidentiary notice	17 September 2026, 12:40 pm. Archived sent email and full PDF link in tabs/cc21.html	NDIS Act and applicable NDIS Rules; provider service agreement; Australian Consumer Law where applicable; privacy and discrimination laws.	The archive reproduces a sent email to Able Point contacts, described as a 17-page original PDF. It records that Dr McLean raised concerns about institutional treatment, accommodation, financial deprivation, the provenance of information and preservation of evidence. The archived text expressly distinguishes documentary fact from disputed interpretation.	The email proves what the sender communicated if the sent-mail record and original PDF are authentic. It does not prove the allegations within it. The archive states no reply is filed; absence of a reply in the archive is not proof that no reply was ever sent by another channel.	Obtain the original sent email with full headers, original PDF bytes, delivery status, recipient list, provider’s case notes, incident reports, response records and any internal escalation.
+E21	Able Point — accommodation, support continuity and alleged restriction on leaving	2026, as described in the 17 September notice and subsequent correspondence.	NDIS Act and Rules; service agreement; relevant NSW tenancy, occupancy or residential-service law depending on the actual arrangement; disability discrimination law; guardianship law if a substitute decision-maker is involved.	The archive contains the author’s request for the legal and contractual basis of the accommodation arrangement, copies of relevant agreements and clarification of the practical process for leaving.	A request for clarification is not proof that the person was legally detained or prevented from leaving. The legal character of the accommodation arrangement is unknown until the agreement, occupancy status and any order are examined.	Obtain the occupancy or tenancy agreement, service agreement, consent records, any restrictive-practice authorisation, risk assessments, provider communications and any guardianship or tribunal order said to affect residence or movement.
+E22	NDIS provider — incident management and duty of care	2026. Relevant source: NDIS Commission legislation and rules register.	NDIS Code of Conduct Rules; Provider Registration and Practice Standards Rules; Incident Management and Reportable Incidents Rules; applicable state law.	The statutory framework contains provider conduct, practice-standard and incident-management obligations. The Commission identifies these as core rules governing registered providers.	The existence of regulatory obligations does not establish a breach by Able Point. The specific conduct, whether it was reportable, whether the provider knew of it and what response followed must be evidenced.	Obtain incident registers, complaint registers, participant risk assessments, staff notes, communication logs, reportable-incident notifications and provider investigation outcomes.
+The NDIS legal framework includes provider record-keeping requirements and protections for information held by the Agency. The relevant compilation and rules must be checked for the date of each event. legislation.gov.au +2 Federal anti-discrimination law also covers disability discrimination in the provision of services and facilities, including services supplied by banks, lawyers, doctors, hospitals and government departments. Attorney-General’s Department +1
+D. Guardianship, financial management and loss of independence
+ID	Institution / issue	Date and primary document	Applicable legal framework	What the presently identified record establishes	Contradiction, limitation or evidentiary tension	Outstanding question
+E23	NSW Trustee and Guardian — s 122 document	16 October 2024. NSW Trustee & Guardian s 122 document	Guardianship Act 1987 (NSW), including the relevant authority and review provisions; applicable NSW Trustee and Guardian legislation.	The archive identifies a document described as a section 122 document dated 16 October 2024. The precise effect of the document cannot be determined from its title alone.	The document must not be assumed to be a guardianship order, a financial-management order or a bank direction without examining its operative wording. The statutory section and legal effect need confirmation.	Obtain the complete document, originating tribunal or authority, reasons, scope, commencement date, review rights, persons notified and any subsequent variation.
+E24	NSW Trustee and Guardian — vehicle disposal	14 November 2025. Vehicle disposal decision	Guardianship Act 1987 (NSW), relevant financial-management powers and principles; any applicable NSW Trustee and Guardian legislation and tribunal orders.	The archive and the author’s formal objection identify a vehicle disposal decision dated 14 November 2025. The author states that the vehicle was important to mobility and independence and requests the reasons, alternatives and review mechanisms.	The author’s account of the vehicle’s importance is testimony. Whether the decision was authorised, necessary, proportionate or consistent with the person’s wishes depends on the actual order, financial circumstances, reasons and alternatives.	Obtain the full decision, valuation, sale records, financial assessment, authority relied upon, consultation record, alternatives considered and any review or complaint outcome.
+E25	NSW Trustee and Guardian — personal funds and banking access	2024–2026, as described in the archive and the author’s correspondence.	Guardianship Act 1987 (NSW); applicable financial-management provisions; Banking Code of Practice where applicable; relevant bank terms and financial hardship obligations.	The author reports difficulty accessing funds and states that guardianship arrangements affected banking access. The archive identifies correspondence to the NSW Trustee and Guardian seeking explanation and action.	The present material does not establish that the bank acted unlawfully, that the Trustee exceeded an order, or that funds were deliberately withheld. The operative order and bank’s actual interpretation are essential.	Obtain the order served on the bank, bank restriction notices, transaction history, authority records, requests for essential expenses, responses, complaint file and any hardship assessment.
+E26	NCAT — guardianship evidence	20 January 2026. Archive diary identifies a document titled 2026-01-20_NCAT_Guardianship_Evidence.pdf.	Guardianship Act 1987 (NSW); Civil and Administrative Tribunal Act 2013 (NSW); NCAT procedural rules.	The archive diary identifies an NCAT guardianship-related evidence document dated 20 January 2026.	The filename alone does not establish whether it is an application, evidence filed by a party, a tribunal decision or an order.	Obtain the complete NCAT file: application, evidence, hearing notices, orders, reasons, transcript if available, and any appeal or review application.
+E27	Legal Aid NSW — guardianship advice	14 January 2026. Legal Aid NSW advice letter	Legal Aid Commission Act 1979 (NSW); Legal Aid NSW policies, eligibility rules and applicable professional obligations.	The archive identifies a guardianship-advice letter dated 14 January 2026.	The letter has not been examined in full here. It cannot be described as a blanket ban from Legal Aid or a determination of the merits of human-rights, provider, PID or police complaints without its actual text.	Obtain the complete letter, any application for assistance, reasons for limitation or refusal, internal review rights, advice scope and referrals to alternative services.
+E. Workers compensation, employment, insurance and health
+ID	Institution / issue	Date and primary document	Applicable legal framework	What the presently identified record establishes	Contradiction, limitation or evidentiary tension	Outstanding question
+E28	Comcare — initial claim determination	26 May 2021. Comcare rejection document	Safety, Rehabilitation and Compensation Act 1988 (Cth).	The archive identifies a Comcare rejection dated 26 May 2021, later reviewed in AAT proceeding 2021/7478.	The exact reasons in the original determination must be compared with the later AAT reasons. The 2023 decision was limited to the statutory employee question identified by the Tribunal.	Obtain the original claim, medical material, determination, reconsideration request, reasons and all evidence supplied by the alleged employer or agency.
+E29	Comcare — pre-hearing process	25 January 2022. Archive catalogue identifies a Comcare pre-hearing check.	Safety, Rehabilitation and Compensation Act 1988 (Cth); applicable AAT procedural law.	The archive identifies a pre-hearing document dated 25 January 2022.	The title alone does not establish what issues were agreed, what evidence was admitted or whether procedural fairness concerns arose.	Obtain the document, hearing directions, submissions, exhibits and any correspondence concerning the scope of the employee-status issue.
+E30	Workers compensation — claim 21230015373	Date not established from the current index; file number appears in the official-document catalogue.	Applicable Victorian or NSW workers compensation legislation depends on the employer, injury, work location and claim jurisdiction.	The archive’s document index identifies a workers compensation claim under number 21230015373 and related correspondence.	A claim number does not establish acceptance, rejection, liability or the applicable jurisdiction. It may be separate from the Comcare proceeding.	Obtain the claim form, insurer, employer, date of injury, jurisdiction, liability decision, medical reports, impairment assessment, review history and payment records.
+E31	WorkSafe — impairment-benefit liability	Date not confirmed in the current indexed extract.	Applicable Victorian workers compensation legislation, including the Workplace Injury Rehabilitation and Compensation Act 2013 (Vic), if the claim is governed by Victorian law.	The archive diary identifies a WorkSafe impairment-benefit liability decision.	The exact decision, statutory scheme, injury date and reasoning have not been examined. The existence of a decision does not establish whether it was favourable or adverse.	Obtain the complete liability decision, impairment assessment, medical evidence, claim history, reasons, review rights and any later variation.
+E32	AAT / ART complaints — procedural correspondence	25 September 2023. Archive diary identifies complaints C2023/0241 and C2023/0242.	Administrative Appeals Tribunal Act 1975 (Cth), as applicable in 2023; tribunal rules and complaints procedures.	The archive identifies two complaint references dated 25 September 2023.	A complaint reference is not a merits decision or a finding of tribunal misconduct. It is necessary to distinguish complaints about administration from appeals against a substantive decision.	Obtain both complaints, acknowledgements, responses, any internal review and any later tribunal or court proceedings.
+E33	Health service — discharge summary	10 February 2023. IPU discharge summary listed in official index	Mental Health Act 2007 (NSW) if the admission or treatment occurred in NSW; relevant Victorian mental health legislation if it occurred in Victoria; privacy and health-records law.	The archive identifies a discharge summary dated 10 February 2023.	The summary’s clinical content, admission status and legal basis have not been examined here. A discharge summary is a clinical record, not a determination of the legality of every aspect of treatment.	Obtain the complete clinical file, admission authority, consent and capacity records, medication charts, review documents, discharge planning and complaint history.
+E34	Mental Health Tribunal — reports	June 2023. Archive diary identifies Mental Health Tribunal reports, including reference RM 1425619.	Applicable mental health legislation in the relevant state; tribunal procedural rules and review safeguards.	The archive identifies tribunal-related reports and a reference number.	The precise state, type of proceeding, order and result need confirmation. The existence of a report does not establish a finding of misconduct or the correctness of every clinical opinion.	Obtain the application, reports, orders, reasons, hearing record, evidence considered and any subsequent review.
+The Comcare scheme’s employment gateway is governed by the Safety, Rehabilitation and Compensation Act 1988; the AAT outcome in 2021/7478 must be reported as a decision on that statutory question, not as a general finding about every form of work or injury. legislation.gov.au +1
+F. Police, oversight, redress and public allegations
+ID	Institution / issue	Date and primary document	Applicable legal framework	What the presently identified record establishes	Contradiction, limitation or evidentiary tension	Outstanding question
+E35	NSW Police — complaint correspondence	24 August 2024. Archive diary identifies a letter titled “Your complaint about the NSW Police Force”.	Police Act 1990 (NSW); Law Enforcement Conduct Commission Act 2016 (NSW); applicable NSW complaints and review procedures.	The archive identifies a police complaint response or correspondence dated 24 August 2024.	The title does not establish whether the complaint was investigated, declined, referred or closed. A complaint response must be distinguished from a formal investigation finding.	Obtain the original complaint, event/COPS references, police response, investigation records, reasons, any referral to LECC and review outcome.
+E36	LECC — jurisdictional response	19 November 2025, case 202512395. LECC letter	Law Enforcement Conduct Commission Act 2016 (NSW).	The archive diary identifies the LECC outcome as “out of jurisdiction”.	The author’s reported police concerns and the LECC jurisdictional outcome are separate facts. No COPS or event number accepting the author’s 8 May 2025 crime list is identified in the diary extract. A draft police statement is not a police finding.	Establish the precise alleged conduct, location, officers or agency, date, event number, jurisdictional reason and any other body to which the matter was referred.
+E37	Victims Support / VOCAT	5 October 2022. VOCAT / Ombudsman Ben Calder complaint rejection	Relevant Victorian victims-of-crime legislation and VOCAT procedures applicable at the time; Ombudsman legislation.	The archive exhibit register identifies a process letter concerning a complaint and rejection.	The exact applicant, decision-maker, grounds and statutory pathway must be read from the original. A rejection does not establish that the alleged underlying abuse did not occur.	Obtain the original application, eligibility assessment, reasons, any review and any related police or institutional records.
+E38	National Redress Scheme — historical institutional abuse	No specific final decision identified in the inspected index.	National Redress Scheme for Institutional Child Sexual Abuse Act 2018 (Cth); scheme rules and eligibility requirements.	The broader archive and user-described history raise a potential redress issue, but the presently inspected records do not establish a particular redress application or determination.	This is an identified investigative pathway, not an established claim or finding. Eligibility depends on the institution, conduct, dates and statutory requirements.	Identify the institution, date range, alleged conduct, any prior application, eligibility correspondence and whether the institution participates in the Scheme.
+E39	Trafficking, servitude, forced labour or exploitation allegations	No independently verified criminal finding identified in the inspected records.	Criminal Code Act 1995 (Cth), Divisions 270 and 271; Modern Slavery Act 2018 (Cth); applicable state criminal law.	The user has raised serious allegations in this area. The inspected archive extracts do not establish a criminal finding or independently corroborated trafficking event.	Harmful or exploitative treatment is not automatically trafficking, slavery or forced labour in law. The statutory elements, including coercion or exploitation and the relevant conduct, must be evidenced.	Identify the specific act, person, date, location, means of coercion, purpose, benefit, documentary corroboration and any police report or formal investigation.
+E40	Media organisations — alleged termination and vilification	Historical dates require verification from employment and publication records.	Fair Work Act 2009 (Cth), where applicable; Disability Discrimination Act 1992 (Cth); Sex Discrimination Act 1984 (Cth); defamation and privacy law; applicable media standards.	The legal brief records the author’s allegations concerning employment at The Age and reporting by the Herald Sun.	The inspected records do not establish the precise termination date, legal basis, publication, correction history or any court finding. Media criticism and adverse reporting are not automatically unlawful discrimination or defamation.	Obtain employment records, termination letter, relevant articles, correspondence, complaints, correction requests, publisher responses and any legal proceedings.
+Part II — The decisive cross-exhibit contradictions
+These are the most important relationships in the presently identified evidence. They should be treated as the centre of the independent investigation, because they involve records that can be compared directly rather than relying solely on retrospective recollection.
+C1. DSS employment: three records, different evidentiary weight
+Priority 1 — resolve first
+Record	What it says or establishes	Evidentiary significance
+27 March 2023 — Scott Tredwell, General Counsel	Records that, on information supplied by Dr McLean, he was satisfied the correspondent was or had been an employee with DSS.	The sentence exists in an official letter, but the letter expressly attributes the information to the correspondent.
+31 March 2023 — DSS officer email, Exhibit R3	The AAT reasons record the email as stating DSS had no record of Dr McLean ever having been its employee.	The underlying email must be retrieved and examined directly.
+12 July 2023 — AAT, 2021/7478	The Tribunal was not satisfied Dr McLean met the Commonwealth employee test under the compensation legislation.	This is the formal determination on the statutory employee question in that proceeding.
+Assessment
+There is an apparent evidentiary conflict between the employment description in the General Counsel’s letter and the later DSS position recorded by the Tribunal.
+However, the three documents are not necessarily legally inconsistent.
+The General Counsel letter records information supplied by Dr McLean. The DSS email is described as a departmental records search. The AAT then applied a statutory employment test under the compensation scheme.
+The decisive question is whether the original records establish an employment relationship under the relevant statutory test, not whether one letter contains the word “employee”.
+Required conclusion: the AAT decision must be acknowledged accurately. It is adverse to the Commonwealth employment argument under the SRC Act. It does not establish that Dr McLean never performed services for government, never had a contractual relationship, or could not satisfy a different statutory definition for another purpose.
+Primary references:
+	•	27 March 2023 General Counsel letter⁠
+	•	12 July 2023 AAT reasons⁠
+	•	AAT registry letter⁠
+C2. Commonwealth PID: the archive filename does not match the issuing institution
+Priority 1 — correct the public catalogue
+The file:
+2021-11-18-IBAC-PID-Rejection-400008R.pdf
+is described in the archive’s own document-specific analysis as a Commonwealth Ombudsman letter, reference PID-2021-400008-R.
+This is not a minor technicality.
+It changes the identity of the institution, the applicable statutory scheme and the legal meaning of the decision.
+The document should be indexed as:
+Commonwealth Ombudsman — PID-2021-400008-R — review decision — 18 November 2021.
+It should not be represented as an IBAC decision unless a separate IBAC document is produced.
+The same archive analysis records that the Ombudsman letter:
+	•	reviewed an authorised officer’s decision;
+	•	considered whether the disclosure satisfied the Commonwealth PID Act;
+	•	concluded that the material did not meet the relevant statutory requirements;
+	•	identified state-agency and private-entity conduct as outside the Commonwealth scheme.
+That is a procedural determination, not a factual investigation into every allegation.
+Primary reference: 18 November 2021 Ombudsman letter⁠.
+C3. Federal Court PID assessment: archive cover versus operative letter
+The 27 March 2023 assessment must be read from the Federal Court letterhead, not from the surrounding archive cover pages.
+The operative letter decides not to allocate the disclosure and says that no further action under the PID Act will be taken by the Federal Court or FCFCOA on that material.
+The archive’s more expansive description of Dr McLean as a “confirmed protected disclosure maker” is not the decision’s operative conclusion.
+Required correction: distinguish the existence of a disclosure, the fact that an authorised officer assessed it, the refusal to allocate it, and the separate legal question of whether any other disclosure was protected.
+Primary reference: Federal Court General Counsel letter⁠.
+C4. Comcare: injury and employee status must not be merged
+The AAT’s 12 July 2023 decision addressed whether Dr McLean was an employee within the statutory scheme.
+The archive’s own detailed analysis says the Tribunal did not determine that the psychological injury did not occur.
+It follows that the final report must not state that the Tribunal found the injury fabricated, nor that it resolved the wider allegations.
+The legally accurate formulation is:
+The Tribunal affirmed Comcare’s decision because it was not satisfied that the applicant met the statutory employee requirement under the Safety, Rehabilitation and Compensation Act 1988. The decision did not determine the truth of all allegations concerning the applicant’s experiences, nor did it adjudicate the wider claims of institutional wrongdoing.
+C5. The 2025 LECC decision: jurisdiction is not merits
+The archive identifies LECC case 202512395 as out of jurisdiction on 19 November 2025.
+This must be separated from the question of whether the alleged police conduct occurred.
+The investigation must establish whether the LECC identified another appropriate body and whether that body received the matter.
+A jurisdictional refusal cannot responsibly be described as either proof of misconduct or proof that misconduct did not occur.
+C6. NDIS plan approval versus actual support
+The 20 November 2025 NDIA approval, reference 366406, is an identifiable administrative decision.
+It does not establish:
+	•	that the approved funding was adequate for every assessed need;
+	•	that the plan was implemented correctly;
+	•	that the provider delivered the services;
+	•	that safeguarding concerns were resolved;
+	•	that accommodation was suitable;
+	•	that the participant had effective choice and control.
+The plan must be compared with service agreements, provider invoices, progress notes, risk assessments, complaints and actual delivery.
+C7. Accommodation provision versus legal freedom to leave
+The Able Point correspondence raises a significant question about the legal and practical arrangements governing accommodation.
+The evidence must establish whether the arrangement was:
+	•	a tenancy;
+	•	a licence or occupancy arrangement;
+	•	supported accommodation under an NDIS service agreement;
+	•	accommodation affected by a guardianship order;
+	•	another arrangement.
+A person receiving disability support does not automatically lose the right to choose where they live. However, the actual legal position depends on any relevant orders, contractual arrangements and statutory authority.
+The decisive evidence is the original agreement and any order said to restrict the person’s choices.
+C8. Financial management versus access to essential funds
+The author’s reported inability to access banking services must be tested against:
+	•	the original guardianship or financial-management order;
+	•	the authority provided to the bank;
+	•	the bank’s actual restrictions;
+	•	the Trustee’s decisions;
+	•	requests for food, medicine and essential expenses;
+	•	the complaint and hardship response.
+The critical issue is not merely whether an order existed. It is whether each action taken under it was within its authority and whether the arrangements respected the person’s legal rights and practical needs.
+Part III — Statutory and ethical obligations register
+The following register identifies the legal framework to be applied to the evidence matrix. It is not a finding that every provision was breached.
+Legal or ethical framework	Main subject	How it connects to the evidence
+Disability Discrimination Act 1992 (Cth)	Disability discrimination in specified areas of public life	E17–E22, E27, E33–E34 and E40
+Sex Discrimination Act 1984 (Cth)	Discrimination involving sex, sexual orientation, gender identity and intersex status in covered areas	E40 and any other decision where evidence connects a protected attribute to treatment
+Australian Human Rights Commission Act 1986 (Cth)	Human-rights and discrimination complaint framework	E14 and related complaint records
+National Disability Insurance Scheme Act 2013 (Cth)	NDIS access, plans, supports, agency functions and participant framework	E17–E22
+NDIS Code of Conduct Rules	Conduct of NDIS providers and workers	E19–E22
+NDIS Provider Registration and Practice Standards Rules	Provider registration and standards	E19–E22
+NDIS Incident Management and Reportable Incidents Rules	Provider incident-management and reporting obligations	E19–E22
+Public Interest Disclosure Act 2013 (Cth)	Commonwealth public interest disclosures	E01–E09
+Public Interest Disclosures Act 2022 (NSW)	NSW public interest disclosures from 1 October 2023	E11 and relevant later NSW matters
+National Anti-Corruption Commission Act 2022 (Cth)	Commonwealth serious or systemic corrupt conduct within statutory jurisdiction	Only if the underlying conduct and jurisdictional criteria are met
+Ombudsman Act 1976 (Cth)	Commonwealth administrative complaints and oversight	E01, E07–E09
+Freedom of Information Act 1982 (Cth)	Access to Commonwealth government information	E12, E15–E16
+Government Information (Public Access) Act 2009 (NSW)	Access to NSW government information	Any relevant NSW FOI/GIPA records
+Privacy Act 1988 (Cth)	Handling of personal information by covered entities	E12 and relevant agency or financial records
+Health Records and Information Privacy Act 2002 (NSW)	NSW health information	E33–E34
+Guardianship Act 1987 (NSW)	Guardianship, decision-making and relevant orders	E23–E27
+Safety, Rehabilitation and Compensation Act 1988 (Cth)	Commonwealth workers compensation	E03, E28–E29
+Workplace Injury Rehabilitation and Compensation Act 2013 (Vic)	Victorian workers compensation, if applicable	E30–E31
+Workers Compensation Act 1987 (NSW) and Workplace Injury Management and Workers Compensation Act 1998 (NSW)	NSW workers compensation, if applicable	E30–E31
+Banking Code of Practice	Banking service commitments of subscribing banks	E25
+Insurance Contracts Act 1984 (Cth)	Insurance contract obligations	Any identified insurance claim
+Corporations Act 2001 (Cth)	Financial services and corporate whistleblower protections	E06 and relevant insurance/superannuation matters
+Mental Health Act 2007 (NSW)	NSW compulsory mental-health treatment and safeguards	E33–E34, if NSW treatment is involved
+Law Enforcement Conduct Commission Act 2016 (NSW)	NSW police oversight and complaints	E35–E36
+Criminal Code Act 1995 (Cth), Divisions 270 and 271	Slavery, servitude, forced labour and trafficking offences	E39, only where the statutory elements are evidenced
+National Redress Scheme for Institutional Child Sexual Abuse Act 2018 (Cth)	Redress for eligible institutional child sexual abuse	E38
+Modern Slavery Act 2018 (Cth)	Modern-slavery reporting and related framework	E39, subject to its actual application
+Anti-Discrimination Act 1977 (NSW)	NSW discrimination protections	Relevant NSW conduct
+Equal Opportunity Act 2010 (Vic)	Victorian discrimination protections	Relevant Victorian conduct
+The Commonwealth Attorney-General’s Department identifies the federal anti-discrimination statutes and explains that complaints of unlawful discrimination can be made to the Australian Human Rights Commission and relevant state and territory agencies. Attorney-General’s Department +1 The NSW public-sector ethical framework also requires lawful, impartial, respectful and transparent decision-making, with reasons and records for decisions. NSW Government
+International obligations register
+The international instruments below should be mapped to specific events, not simply attached to every allegation.
+Instrument	Relevant rights or protections	Evidence clusters to assess
+ICCPR	Liberty and security, freedom from torture or ill-treatment, privacy, expression, equality before the law	E23–E27, E33–E36 and any substantiated interference with liberty or privacy
+ICESCR	Work, social security, adequate living standards, housing, health	E17–E18, E25, E28–E34
+CRPD	Equality, accessibility, legal capacity, access to justice, protection from abuse, independent living, health, work and social protection	E17–E27, E33–E34
+CAT	Prevention of torture and cruel, inhuman or degrading treatment within the Convention’s scope	Only particularised and evidenced allegations of serious mistreatment
+CERD	Protection against racial discrimination	Only if the facts establish a relevant racial discrimination issue
+CEDAW	Protection against discrimination against women	Only if the relevant facts and protected-person criteria apply
+CRC	Children’s rights and protection from abuse	Historical childhood matters, subject to the dates, facts and applicable obligations
+Australia’s ratification of an international instrument does not mean every provision automatically creates an enforceable domestic claim. The investigation must distinguish international obligations, domestic implementing laws, optional communications procedures, reservations and admissibility requirements.
+The Convention on the Rights of Persons with Disabilities is especially relevant to the investigation of autonomy, inclusion, access to justice, freedom from abuse and independent living. NSW Health’s own disability policy recognises that people with disability have the same rights as other people in access, safety, respect, communication, participation, privacy and feedback. www1.health.nsw.gov.au
+Part IV — Master contradiction and corroboration schedule
+This schedule identifies the exact comparisons that must be made before a final legal finding can be reached.
+Comparison	Record A	Record B	What must be resolved
+DSS employment	27 March 2023 General Counsel letter	31 March 2023 DSS email, as recorded by the AAT	Whether employment existed under the applicable statutory test and what evidence each author relied upon
+Commonwealth PID	27 March 2023 Federal Court assessment	12 July 2023 AAT reasons	Whether the employment-status evidence was relevant to the separate PID and SRC Act tests
+PID file attribution	18 November 2021 Ombudsman letter	Archive filename referring to IBAC	Correct issuing institution and correction of the public catalogue
+Comcare injury claim	26 May 2021 Comcare determination	12 July 2023 AAT reasons	Which issue was decided at each stage and whether any injury-related issue remained unresolved
+NDIS plan	20 November 2025 plan approval	Provider service records and invoices	Whether approved support was actually delivered and whether the plan addressed the assessed needs
+Accommodation	Able Point service or occupancy agreement	Any guardianship order or statutory authority	Whether the arrangement lawfully restricted any aspect of residence or movement
+Financial access	Trustee order or direction	Bank restriction and hardship records	Whether the bank correctly implemented the legal instrument and whether access to essential funds was considered
+Vehicle disposal	14 November 2025 decision	Financial records and evidence of consultation	Whether the decision was authorised, properly reasoned and proportionate
+Police oversight	24 August 2024 police complaint correspondence	19 November 2025 LECC out-of-jurisdiction letter	Whether the same matter was involved and whether another body accepted responsibility
+Ombudsman restriction	8 August 2025 service-restriction letter	Later complaints and communications	Scope, duration, review rights and whether genuinely new matters could still be raised
+AHRC complaint	4 July 2023 acknowledgement	Any later termination or conciliation notice	Whether the matter became a formal statutory complaint and its final disposition
+Legal Aid	14 January 2026 advice letter	Any subsequent assistance or review correspondence	Whether assistance was refused, limited, completed or referred and on what grounds
+Mental health	Clinical admission/discharge records	Mental Health Tribunal records	Whether compulsory powers were used, what safeguards applied and what the tribunal actually determined
+Findings that can presently be stated with confidence
+	•	The archive contains identifiable records and references concerning several distinct government and institutional processes.
+	•	The 12 July 2023 AAT determination in 2021/7478 is a substantive decision on the statutory employee-status question under the Comcare scheme.
+	•	The 27 March 2023 Federal Court General Counsel letter is an allocation refusal, not a court judgment confirming protected-disclosure status.
+	•	The 18 November 2021 PID letter is identified in the archive’s detailed analysis as a Commonwealth Ombudsman letter, despite its IBAC-labelled filename.
+	•	The archive identifies an NDIA plan approval dated 20 November 2025, reference 366406.
+	•	The archive identifies a NSW Trustee and Guardian document dated 16 October 2024 and a vehicle-disposal decision dated 14 November 2025.
+	•	The archive contains a 17 September 2026 sent-email record to Able Point raising concerns and requesting preservation and examination of documentary evidence.
+	•	The archive identifies a LECC out-of-jurisdiction outcome dated 19 November 2025.
+	•	The archive’s 4 October 2026 methodology reports 3,215 unique complete PDFs and 21,211 archive-path file instances across eight repositories containing files.
+	•	The inspected materials do not establish a judicial finding that the institutions acted in concert, nor do they establish criminal conduct by the named organisations or individuals.
+Part V — Evidence register: document provenance and public access
+The following register provides the direct documentary references most important to the investigation.
+Ref.	Document	Public source
+P01	Main legal brief, 23 October 2026	Legal brief page
+P02	23 October 2026 legal brief PDF	Original PDF
+P03	Official records catalogue	Official catalogue
+P04	Archive methodology, 4 October 2026	Dataset methodology
+P05	PID correspondence register	PIDs and agency responses
+P06	Ombudsman complaint and other exhibits	Exhibits E35–E56
+P07	27 March 2023 General Counsel letter	Federal Court PID assessment
+P08	12 July 2023 AAT reasons	McLean and Comcare
+P09	18 November 2021 Ombudsman PID review	PID-2021-400008-R
+P10	15 November 2021 Ombudsman complaint	Complaint 2021103546
+P11	22 April 2022 OAIC decision	RQ22-01369
+P12	20 November 2025 NDIS plan approval	Reference 366406
+P13	17 September 2026 Able Point email	Archived sent email record
+P14	16 October 2024 NSW Trustee document	Section 122 document
+P15	14 November 2025 vehicle decision	Vehicle disposal decision
+P16	14 January 2026 Legal Aid letter	Legal Aid NSW guardianship advice
+P17	19 November 2025 LECC outcome	LECC out-of-jurisdiction letter
+P18	8 August 2025 Commonwealth Ombudsman service restriction	Service restriction letter
+P19	10 February 2023 IPU discharge summary	Discharge summary
+P20	4 July 2023 AHRC correspondence	AHRC contact record
+Repository-wide source locations
+The archive’s methodology names eight repositories containing files as at its 4 October 2026 inventory:
+	•	wezzo72/Barrandodger⁠
+	•	wezzo72/barrandodger-rebuild⁠
+	•	wezzo72/Backup⁠
+	•	wezzo72/pdf-archive⁠
+	•	wezzo72/barran-dodger-archive⁠
+	•	drbarrandodger/barran-dodger-archive⁠
+	•	drbarrandodger/Barrandodger⁠
+	•	drbarrandodger/New-github-barran-dodger-website-⁠
+The methodology says the inventory excluded node_modules dependency files and that path-keyword categories overlap. It also explicitly states that the historical figure of 891 Bitcoin timestamps was not reproduced from the three .ots files found in that inventory. Those historical figures must therefore remain labelled as project-reported, not independently verified. Federal Register of Legislation
+Part VI — Final evidence assessments and conclusions
+1. The strongest presently established documentary matters
+The strongest material identified in this review is not the broadest allegation. It is the material with a specific date, institution, reference and identifiable original document.
+That includes:
+	•	the 27 March 2023 Federal Court General Counsel assessment;
+	•	the 12 July 2023 AAT determination in 2021/7478;
+	•	the 18 November 2021 Commonwealth Ombudsman PID review;
+	•	the 15 November 2021 Commonwealth Ombudsman complaint;
+	•	the 22 April 2022 OAIC decision;
+	•	the 20 November 2025 NDIA plan approval;
+	•	the 16 October 2024 NSW Trustee document;
+	•	the 14 November 2025 vehicle disposal decision;
+	•	the 14 January 2026 Legal Aid advice letter;
+	•	the 19 November 2025 LECC jurisdictional outcome;
+	•	the 17 September 2026 Able Point email.
+These records provide a workable evidentiary foundation because each can be identified and matched to a responsible institution.
+2. The strongest contradictions requiring formal resolution
+The most important unresolved evidentiary issues are:
+	•	DSS employment: the 27 March General Counsel letter, 31 March DSS email and 12 July AAT determination must be reconciled using original records.
+	•	PID identity: the 18 November 2021 letter must be correctly attributed to the Commonwealth Ombudsman, not IBAC.
+	•	PID status: the archive must distinguish a disclosure being submitted, a disclosure being assessed, a disclosure being allocated and a disclosure receiving statutory protection.
+	•	Comcare: the employee-status outcome must not be expanded into findings about injury, all work performed or all other legal regimes.
+	•	LECC: the out-of-jurisdiction outcome must be followed through to determine whether another body received the complaint.
+	•	NDIS: the plan approval must be compared with actual support delivery and provider safeguarding records.
+	•	Guardianship: the original orders and the legal basis for banking restrictions and vehicle disposal must be obtained.
+	•	Legal Aid: the actual scope and outcome of the 14 January 2026 advice must be established before describing the position as a ban or exclusion from legal assistance.
+	•	Able Point: the sent correspondence, provider response, incident records and service agreements must be compared.
+	•	Health: clinical records, compulsory-treatment documents and tribunal decisions must be assessed separately rather than treating a diagnosis or hospitalisation as a finding about the wider institutional allegations.
+3. What the evidence supports as a systemic investigative proposition
+The records identify several distinct institutional processes involving:
+	•	employment status;
+	•	compensation;
+	•	public interest disclosure eligibility;
+	•	complaint allocation;
+	•	access to government information;
+	•	disability funding;
+	•	provider safeguarding;
+	•	guardianship;
+	•	financial management;
+	•	police oversight;
+	•	health treatment;
+	•	access to legal assistance.
+It is therefore reasonable to investigate whether the cumulative effect of these processes impaired Dr McLean’s practical access to money, accommodation, disability support, legal assistance, compensation and independent living.
+That is the proper evidentiary basis for the framework:
+Systemic Removal of the Attributes Necessary to Live with Dignity in a Democracy.
+The phrase describes the cumulative-impact question. It is not itself a legal finding, and the investigation must prove each causal connection rather than assume it.
+4. What is not established by the present matrix
+The documents identified so far do not establish:
+	•	a coordinated national conspiracy;
+	•	that every agency acted unlawfully;
+	•	that every complaint was deliberately suppressed;
+	•	that every refusal was retaliatory;
+	•	that surveillance or audio harassment occurred;
+	•	that trafficking or torture occurred as a matter of law;
+	•	that all public officials involved shared a common purpose;
+	•	that every claimed financial loss is recoverable;
+	•	that every historical allegation has been independently corroborated.
+These matters remain reported allegations or unresolved propositions unless further evidence establishes them.
+That does not mean they should be omitted from the archive. It means they must remain accurately classified and investigated using the appropriate legal tests.
+5. Final conclusion
+The documentary record identified in this assessment is sufficiently specific to support a structured, cross-institutional investigation. It contains identifiable official correspondence, administrative decisions, tribunal material, complaints, provider communications and records concerning the author’s disability support, employment status, compensation, financial management, legal assistance and access to oversight mechanisms.
+The most consequential task is to reconcile the original documents that appear to conflict, particularly the DSS employment material, the Commonwealth PID assessments and the Comcare/AAT determination.
+The next level of analysis is not to add more general allegations. It is to test the existing evidence against the original documents and the applicable legal provisions.
+The final investigation should require each institution to identify:
+	•	the records it holds;
+	•	the decisions it made;
+	•	the legal authority it relied upon;
+	•	the evidence considered;
+	•	the reasons for its decisions;
+	•	the review rights provided;
+	•	the referrals it made;
+	•	the action taken following complaints;
+	•	the practical consequences it knew or ought reasonably to have considered;
+	•	the corrective action still available.
+The central question is whether the institutional record, examined as a whole, demonstrates that the combined decisions and omissions left Dr Richard William McLean without meaningful access to the protections, resources and remedies that the relevant legal frameworks were intended to provide.
+That question is now expressed in a form that can be tested document by document, institution by institution and legal obligation by legal obligation.
+The evidence matrix is complete as a consolidated preliminary schedule of the identifiable records examined in this assessment. It is not an exhaustive authentication of every file in all eight repositories, and it does not claim that every underlying original PDF has been independently read. No institution or individual is declared legally liable by this report. Its conclusions are limited to what the identified records presently support.
+Final document-integrity note
+The published archive methodology dated 4 October 2026 reports 3,215 unique complete PDFs, 3,667 unique PDF blobs including stubs, 10,001 PDF file instances and 21,211 archive-path file instances. It also says that the listed SHA-256 values were not all recomputed against the files in that inventory.
+The legal brief’s published SHA-256 reference is:
+effa0bfe8894e4d9f98de8de8988a44ddef8ee95b1317a80d28d7cbd20fca8ff
+This is reproduced as published, not independently recalculated here. The archive also reports three .ots files and expressly says that the historical figure of 891 Bitcoin timestamps was not reproduced from those files.
+The document should therefore carry the following status:
+Consolidated preliminary evidence matrix
+Original-document authentication, full-file review, statutory point-in-time checks and independent legal assessment.
+END OF MASTER EVIDENCE AND INSTITUTIONAL ACCOUNTABILITY MATRIX
+
+Repeat the report but include all hyoerlinks and link to named evidence that is publically verifiable on the public facing github archive and include any and all relevant links to publically accessible material on me the protagonist barran dodger or dr rich mclean and also link to any and all relevant links across the entirety of this grok website
+
+My conclusion: You have preserved the complete written matrix, including its evidentiary qualifications and conclusions. You have not necessarily preserved every clickable source link. Do not discard this copy; it is a substantial working master document.
+
+Barran Dodger — Master Evidence, Public Record and Institutional Accountability Report
+I’ll reconstruct the report as a linked documentary finding aid, not merely repeat the previous matrix with a few homepage links. The revised version needs to let a reader move from each material proposition to the actual public document, archive page, or independent source that can be checked.
+I’ll keep four distinctions throughout:
+	•	Publicly verified link: the destination is identifiable and publicly accessible.
+	•	Archive-described evidence: the archive identifies a document, but I have not independently inspected the complete original.
+	•	Personal testimony or allegation: attributed to you, not presented as an established finding.
+	•	Analysis or inference: an interpretation that must be tested against the underlying records.
+The scope is the original GitHub archive, its rebuilds and mirrors, the Grok website material you have identified, and relevant public material about Dr Richard William McLean / Barran Dodger. A link to a document will not be treated as proof of every proposition made about it.
+1. Public archive and repository register
+The public materials identify a documentary corpus distributed across several repositories and published websites. The principal repository remains the starting point.
+Archive / repository	Public link	Purpose
+Original documentary repository	wezzo72/Barrandodger	Main document repository
+Original GitHub Pages site	Barran Dodger Archive	Public-facing archive
+Rebuild repository	barrandodger-rebuild	Rebuilt research and finding-aid presentation
+Rebuild website	Rebuilt archive	Linked finding aid and verification material
+Backup repository	Backup	Additional documentary files and government evidence
+Backup website	Backup GitHub Pages	Public mirror
+PDF archive	pdf-archive	Separate PDF collection
+Church repository	Church of Barran Dodger	Spiritual, literary and testimony material
+Church website	Church of Barran Dodger — website	Published church archive
+Primary archive project	drbarrandodger/barran-dodger-archive	Additional archive repository
+Primary archive website	drbarrandodger GitHub Pages	Additional public presentation
+Ministry repository	barran-dodger-ministry	Ministry material
+The repository methodology page names eight repositories with files and three additional repositories that were empty at the time of its 4 October 2026 inventory. It also explains how duplicate files, Git blob identities, PDF stubs and file instances were counted. Read the dataset methodology⁠.
+The methodology reports 3,215 unique complete PDFs, 3,667 PDF blobs including stubs, 10,001 PDF file instances, 21,211 archive-path file instances and 8,822 unique blobs. These are figures reported by the archive’s inventory methodology, not independently recomputed figures in this report. It expressly says the listed SHA-256 values were not all recomputed against the inventory files.
+2. The Grok website — public page register
+I retrieved the current main Grok homepage and extracted its linked destinations. The website contains a substantial set of narrative pages, evidence registers, PDFs, historical documents, archival stamps, publishing pages and links back to the GitHub archive.
+The Grok site map service did not return a complete URL inventory, so I cannot honestly certify that every page on the Grok domain has been captured. The following is the set of relevant pages identified through the homepage and targeted page retrieval. It is a useful public navigation register, not a claim of exhaustive crawling.
+Main Grok website
+The Record Remains — Kronos Timing of God⁠
+Earlier Grok mirror⁠
+Core documentary and institutional pages
+	•	The Official Government Documents Register⁠ — the site identifies this as an 802-entry register, with a linked 716-page PDF edition.
+	•	Official Government Documents Register — PDF⁠
+	•	Every File⁠
+	•	The File Remains⁠
+	•	The Report⁠
+	•	The Audit⁠
+	•	The Comparison⁠
+	•	The Responses⁠
+	•	The Letter⁠
+	•	The Claim⁠
+	•	The FOI⁠
+	•	Official Letters⁠
+	•	The Threads⁠
+	•	The Index⁠
+	•	The PM⁠
+	•	The Bank⁠
+	•	The Plan⁠
+	•	The Address⁠
+	•	The Able Point Email⁠
+	•	The Sukhi⁠
+	•	The Glass⁠
+	•	Rachel⁠
+	•	Safety⁠
+	•	Not a Court⁠
+Testimony, survival, faith and literary pages
+	•	The Holy Reckoning⁠
+	•	The Divine Reckoning⁠
+	•	The Appeal⁠
+	•	The Testimony⁠
+	•	The Witness Remains⁠
+	•	Chosen Witness⁠
+	•	The Unerased Record⁠
+	•	The Living Record⁠
+	•	Survived⁠
+	•	Sovereign⁠
+	•	Exile⁠
+	•	Social Erasure⁠
+	•	Civil Erasure⁠
+	•	Genocide via Attrition⁠
+	•	Architecture⁠
+	•	The Paradox of the Open Record — PDF⁠
+	•	The Master Forensic Report — PDF⁠
+	•	The Witness Remains — complete master PDF⁠
+Publishing and commercial pages
+	•	Shop⁠
+	•	Publishing House⁠
+	•	Papers catalogue⁠
+	•	Canon⁠
+	•	New Archive⁠
+Timestamp and preservation pages
+	•	28 October 2026 stamped edition index⁠
+	•	27 October 2026 master SOS timestamp record⁠
+	•	OpenTimestamps⁠
+These pages are relevant to the public record because they link back to named PDFs and archive documents. A timestamp or hash can help establish the existence and integrity of a particular digital file; it does not independently establish the truth of the statements inside that file.
+3. Publicly verifiable biographical and professional material
+The following are especially important because they are not merely statements repeated on the current Grok site.
+Academic record
+The Victoria University institutional repository identifies Richard William McLean as the author of the 2020 PhD thesis A Splice of My Life. It also lists his 2015 research master’s thesis, The Universal Embrace: Considering Phi, Spirit & Society. Melbourne Australia +2
+	•	Victoria University — Richard William McLean institutional author record⁠
+	•	Victoria University — 2020 thesis listing⁠
+	•	Victoria University — VU Research Repository thesis listing⁠
+	•	Victoria University — December 2020 graduation program⁠
+Book, mental health advocacy and creative work
+The following public material records the earlier author and advocacy profile associated with Richard McLean.
+	•	Recovered, Not Cured — Richard McLean author page⁠
+	•	Recovered, Not Cured — About Richard McLean⁠
+	•	Royal Commission into Victoria’s Mental Health System — Richard McLean submission and author biography⁠
+	•	Earlier creative and professional website⁠
+	•	Earlier public biography and artwork site⁠
+The author’s own historical website describes Recovered, Not Cured as receiving SANE Australia’s Book of the Year recognition and a highly commended recognition in a Human Rights and Equal Opportunity Commission awards ceremony. The Royal Commission archive provides a separate public biographical record of the author and his advocacy background. These sources should be cited for what they actually document, rather than expanded into claims they do not independently establish. richmclean.wixsite.com +2
+Earlier public testimony and writing
+	•	15 July 2023 — Letter to the United Nations concerning human-rights allegations⁠
+	•	18 September 2023 — Cry for Justice⁠
+	•	Love, Forgiveness, ASIO and God⁠
+	•	7 January 2024 — Demand for Accountability⁠
+	•	Betrayed: The Journey of Barran Dodger⁠
+These are public statements and publications. They should be identified as authorial material, not independent findings about the allegations contained within them.
+PART I — MASTER EVIDENCE AND INSTITUTIONAL ACCOUNTABILITY MATRIX
+Dr Richard William McLean — Barran Dodger
+The following matrix retains the E01–E40 structure. Where the public archive or Grok pages provide a direct link, I have inserted it. Where I could not identify a direct link to the precise record, I have said so rather than inventing a destination.
+A. Whistleblower, public-interest disclosure and Ombudsman records
+Ref	Record and date	Public evidence link	Evidentiary qualification
+E01	Commonwealth Ombudsman PID-2021-400008-R, 18 November 2021	PID-2021-400008-R	The document is an Ombudsman record. Its legal effect must be read from the actual letter.
+E02	Federal Court-related PID assessment, 27 March 2023	Federal Court PID Assessment	Records an assessment concerning allocation. It is not, by itself, a judicial finding about the underlying allegations.
+E03	AAT / Comcare decision, 2021/7478, 12 July 2023	AAT and Comcare decision record	Must be confined to the statutory question actually determined.
+E04	DSS correspondence, 31 March 2023, described as Exhibit R3	Master Government Register	The original email has not been separately verified here.
+E05	NDIS Commission letter, 3 June 2021	Official Government Documents Register	The exact original letter should be located by its register entry before relying on its wording.
+E06	APRA whistleblower / PID correspondence, 13 November 2021	PID and government correspondence register	Exact decision pathway and legal character require examination of the original.
+E07	Commonwealth Ombudsman complaint 2021103546, 15 November 2021	Commonwealth Ombudsman complaint PDF	Establishes the contents of the complaint if authentic; does not establish that the allegations were substantiated.
+E08	Commonwealth Ombudsman service restriction, 8 August 2025	Service restriction record	A service restriction is not automatically a determination of the truth or falsity of the underlying complaint.
+E09	NDIS / DSS PID response material, 2023	NDIS PID copy	The timing and substance of the response should be checked against the original correspondence.
+E10	LECC correspondence, 19 November 2025, reference 202512395	Government correspondence register	The reported out-of-jurisdiction response does not determine the merits of the underlying allegations.
+E11	Public Interest Disclosures Act 2022 (NSW)	NSW legislation	Commencement and transitional provisions matter. It should not be applied retrospectively without analysis.
+B. Freedom of information, privacy and human-rights correspondence
+Ref	Record and date	Public evidence link	Evidentiary qualification
+E12	OAIC reference RQ22-01369, 22 April 2022	OAIC / PM&C correspondence register	The actual decision and scope of the request must be distinguished from later interpretations.
+E13	Victorian Ombudsman FOI section 29A decision, 14 June 2022	Victorian Ombudsman FOI decision	Establishes the decision recorded in the document, not the correctness of every allegation about the process.
+E14	AHRC contact / acknowledgement, 4 July 2023	AHRC contact record	An acknowledgement is not a substantive merits finding.
+E15	Multiple FOI decisions and releases	FOI and OAIC records	Each decision must be evaluated individually, including exemptions, scope and review rights.
+E16	Federal Court FOI response, 26 April 2023	Official Government Documents Register	Exact response should be identified by register entry and read in full.
+C. NDIS, accommodation and support arrangements
+Ref	Record and date	Public evidence link	Evidentiary qualification
+E17	NDIA plan review approval, 15 December 2021	NDIS plan and correspondence register	The exact plan and funding decision should be distinguished from later plan changes.
+E18	NDIS plan approval, reference 366406, 20 November 2025	NDIS Plan Approval 366406	Establishes the approval recorded in the document, not whether all funded supports were delivered.
+E19	NDIS Commission acknowledgement, 18 September 2026	The Able Point Email and correspondence pages	The acknowledgement should not be described as an investigation outcome unless the letter says so.
+E20	Able Point email, 17 September 2026	The Able Point Email	A contemporaneous communication, subject to verification of the original email and attachment.
+E21	Accommodation and ability-to-leave concerns	Accommodation request — SIL/SDA	The legal authority governing accommodation must be identified separately from the person’s account of feeling unable to leave.
+E22	NDIS provider incident-management obligations and alleged service failures	Formal Notice — NDIS Service Failure	A notice or complaint is not a finding that a provider breached its obligations.
+E23	NSW Trustee & Guardian section 122 document, 16 October 2024	Section 122 document	Its precise legal effect requires examination of the document and relevant order.
+E24	Vehicle disposal decision, 14 November 2025	Vehicle disposal decision	The decision, reasons, authority and available review process should be examined.
+E25	Financial management and banking-access issues, 2024–2026	The Bank	The reported access restrictions and their causes need to be established from bank and guardianship records.
+E26	NCAT guardianship evidence, 20 January 2026	NCAT Guardianship Evidence	The filed material must be distinguished from the Tribunal’s actual orders and reasons.
+E27	Legal Aid NSW guardianship advice, 14 January 2026	Official Government Documents Register	The original letter should be located and read before describing the advice as a definitive legal conclusion.
+D. Comcare, WorkCover and employment-status records
+Ref	Record and date	Public evidence link	Evidentiary qualification
+E28	Comcare initial claim rejection, 26 May 2021	Comcare determination	Establishes the decision and reasons contained in the determination.
+E29	Comcare pre-hearing document, 25 January 2022	Government correspondence register	The original should be inspected for the precise issues and concessions, if any.
+E30	Workers compensation claim 21230015373	Comcare / WorkCover records	The responsible jurisdiction and applicable statutory scheme must be confirmed.
+E31	WorkSafe impairment-benefit liability decision	Government document register	Exact date and decision terms remain to be verified.
+E32	AAT complaint references C2023/0241 and C2023/0242, 25 September 2023	AAT / Comcare record collection	A complaint reference is not itself a determination of the merits.
+E. Health, police, oversight and personal-safety records
+Ref	Record and date	Public evidence link	Evidentiary qualification
+E33	IPU discharge summary, 10 February 2023	Government Evidence document collection	The clinical record should be read in its original context; it is not a complete account of all later events.
+E34	Mental Health Tribunal reports, June 2023, including RM 1425619	Official Government Documents Register	Tribunal records must be distinguished from the parties’ submissions and from final orders.
+E35	NSW Police complaint correspondence, 24 August 2024	NSW Police complaint correspondence	Establishes the correspondence and response, not necessarily the underlying events alleged.
+E36	LECC correspondence, 19 November 2025	Official Government Documents Register	Jurisdictional correspondence is not a merits determination.
+E37	VOCAT / Ombudsman complaint rejection, 5 October 2022	VOCAT / Ombudsman correspondence	The decision should be assessed on its stated jurisdiction, reasons and scope.
+E38	National Redress Scheme pathway	National Redress Scheme	A potential pathway is not evidence that an application was lodged or that an entitlement was determined.
+E39	Allegations concerning trafficking, servitude or forced labour	Modern Slavery offences — Attorney-General’s Department	These are serious allegations. No criminal finding is established by the existence of an archive entry or a personal statement.
+E40	Media and employment allegations concerning The Age and Herald Sun	Earlier public biographical material	The employment chronology and reasons for any employment outcome require contemporaneous employment and media records.
+Important: E04–E06, E10, E17, E19, E27, E29–E31, E33–E34 and E36 contain references for which I have not established a unique direct link to the exact original document. The register links are provided as navigation aids, not as substitutes for locating and checking the individual item.
+PART II — DECISIVE CROSS-EXHIBIT CONTRADICTIONS
+The eight contradiction themes from the previous matrix are retained. They are questions for documentary testing, not conclusions that misconduct has been proved.
+Ref	Contradiction or issue to be tested	Primary records to compare
+C1	Employment status and the different descriptions of the working relationship	Federal Court PID assessment; AAT / Comcare 2021/7478
+C2	Public-interest disclosure handling and allocation decisions	PID-2021-400008-R; Federal Court PID assessment; Ombudsman complaint
+C3	Whether FOI and privacy processes disclosed, withheld or refused records consistently	OAIC / OPMC record; FOI register
+C4	NDIS funding approval compared with the services actually delivered	NDIS plan approval; Formal Notice — NDIS Service Failure
+C5	Accommodation, choice, control and authority to restrict movement or placement	Accommodation request; The Able Point Email
+C6	Guardianship and financial-management decisions compared with the person’s wishes and available review rights	Section 122 document; NCAT guardianship evidence; Vehicle decision
+C7	Police, oversight and referral correspondence compared with the issues actually raised	NSW Police complaint response; LECC and oversight register
+C8	The cumulative effects of separate institutional decisions and the absence of a single consolidated response	The Audit; The Responses; The Witness Remains
+The central analytical issue
+The most important question is whether a sequence of separate decisions, refusals, restrictions, referrals and omissions has produced a cumulative effect that is materially different from the effect of any single decision considered in isolation.
+The framework used to examine this is:
+Systemic Removal of the Attributes Necessary to Live with Dignity in a Democracy.
+The inquiry should consider the relationship between:
+	•	Income and compensation.
+	•	Access to money and financial independence.
+	•	Housing and accommodation security.
+	•	Safety and personal autonomy.
+	•	Employment and professional participation.
+	•	Access to disability supports.
+	•	Human rights and legal rights.
+	•	Access to effective complaint and review mechanisms.
+	•	The effect of prolonged administrative fragmentation on the person’s ability to participate in society.
+This is an analytical framework. It does not, without additional evidence, establish that all decisions were coordinated or intentionally directed towards a single outcome.
+PART III — STATUTORY AND ETHICAL OBLIGATIONS REGISTER
+The following are relevant legal instruments and oversight bodies for examining the issues in the matrix. The existence of a relevant law does not itself establish a breach.
+A. Commonwealth legislation
+Legislation / framework	Public source	Relevance
+Disability Discrimination Act 1992	Federal Register of Legislation	Disability discrimination and associated protections
+National Disability Insurance Scheme Act 2013	Federal Register of Legislation	NDIS plans, supports, scheme administration and review
+Public Interest Disclosure Act 2013	Federal Register of Legislation	Commonwealth public-interest disclosures and protections
+National Anti-Corruption Commission Act 2022	Federal Register of Legislation	Commonwealth corruption oversight
+Privacy Act 1988	Federal Register of Legislation	Personal information and privacy obligations
+Australian Human Rights Commission Act 1986	Federal Register of Legislation	Human-rights complaints and Commission functions
+Safety, Rehabilitation and Compensation Act 1988	Federal Register of Legislation	Commonwealth workers compensation
+Corporations Act 2001	Federal Register of Legislation	Corporate and financial services regulation
+Superannuation Industry (Supervision) Act 1993	Federal Register of Legislation	Superannuation regulation
+B. NSW legislation
+Legislation	Public source	Relevance
+Guardianship Act 1987	NSW legislation	Guardianship and financial-management authority
+Mental Health Act 2007	NSW legislation	Mental-health assessment, treatment and review
+Health Records and Information Privacy Act 2002	NSW legislation	Health information and privacy
+Public Interest Disclosures Act 2022	NSW legislation	NSW public-interest disclosure framework
+C. International obligations
+	•	Australian Government — International Human Rights System⁠
+	•	Australian Human Rights Commission — Australia’s International Obligations⁠
+	•	Convention against Torture — OHCHR⁠
+	•	UN Treaty Collection — Convention against Torture⁠
+Australia’s treaty obligations, domestic implementing legislation and available complaint mechanisms must be kept distinct. Ratification of a treaty does not automatically make every treaty article a directly enforceable domestic cause of action.
+D. Oversight, complaint and professional bodies
+	•	Commonwealth Ombudsman⁠
+	•	NSW Ombudsman⁠
+	•	Victorian Ombudsman⁠
+	•	Australian Information Commissioner⁠
+	•	Australian Human Rights Commission⁠
+	•	National Anti-Corruption Commission⁠
+	•	Independent Commission Against Corruption NSW⁠
+	•	Law Enforcement Conduct Commission⁠
+	•	Australian Financial Complaints Authority⁠
+	•	Australian Prudential Regulation Authority⁠
+	•	Comcare⁠
+	•	National Redress Scheme⁠
+	•	Modern Slavery — Attorney-General’s Department⁠
+PART IV — MASTER CONTRADICTION AND CORROBORATION SCHEDULE
+The matrix should be read as a set of linked documentary questions rather than as a declaration that all alleged wrongdoing has been established.
+Issue	What the archive identifies	What must be independently established
+Employment status	Different descriptions of work and employment relationships	The legal relationship, relevant contracts, actual work performed and applicable statutory tests
+Whistleblower status	Multiple PID communications and allocation responses	Whether a disclosure met the statutory requirements and whether a particular protection applied
+FOI and privacy	Requests, decisions, releases and refusals	The actual scope of each request, the reasons given and any review outcome
+NDIS funding	Plan approvals and service-related correspondence	Whether funded supports were delivered, by whom and in accordance with the plan
+Accommodation	Requests, objections and provider correspondence	The actual legal and contractual arrangements and the person’s decision-making rights
+Guardianship	Tribunal and Trustee records	The operative orders, their scope, duration and review mechanisms
+Financial access	Reported restrictions and banking correspondence	The precise authority for restrictions, the bank’s actions and available remedies
+Police and oversight	Complaints, acknowledgements and responses	What was investigated, what was referred and what was actually determined
+Health	Clinical and tribunal records	The full chronology, clinical context and distinction between observations, diagnoses and the person’s testimony
+Cumulative detriment	A chronology across multiple agencies	Causation, responsibility, foreseeability, legal relevance and the degree of corroboration
+A necessary evidentiary distinction
+The following categories should be applied to each proposition:
+	•	Documented: supported by an identifiable original or official record.
+	•	Reported: stated by the protagonist or another witness.
+	•	Inferred: a conclusion drawn from multiple records or events.
+	•	Unverified: a proposition for which the underlying material has not yet been independently examined.
+	•	Contradicted: inconsistent with a more authoritative or contemporaneous record, subject to further examination.
+	•	Determined: resolved by a court, tribunal or other body with relevant authority, within the scope of its decision.
+PART V — EVIDENCE REGISTER AND PUBLIC REPOSITORY SOURCES
+A. Core documents and publications
+The following works are especially relevant to the documentary and literary identity of the archive.
+Work	Public link	Classification
+Legal Brief — 23 October 2026	Direct PDF	Legal and documentary finding aid
+The Witness Remains — 6 October 2026	Direct PDF	First-person testimony and documentary narrative
+The Documentary Trap	Direct PDF	Analytical essay
+The Architecture of Administrative Annihilation	Archive page	Conceptual and forensic analysis
+Coordinated Institutional Mobbing	Archive page	Academic-style analysis
+Group Mobbing	Archive page	Academic-style analysis
+The Psychology of Erasure	Archive page	Conceptual analysis
+Forensic Research Dossier — Patented Technologies	Rebuild page	Patent and technology research
+The Paradox of the Open Record	Grok PDF	Documentary and philosophical analysis
+The Master Forensic Report	Grok PDF	Forensic narrative and analysis
+Chosen Witness	Grok page	Spiritual testimony
+The Enliven Chain	GitHub PDF	Spiritual and literary work
+B. Additional named official documents surfaced from the Grok evidence pages
+These links were extracted from the public Grok pages and connect to the original archive or public repository locations.
+Commonwealth Ombudsman, PID and government correspondence
+	•	3 July 2023 — Statement to NACC⁠
+	•	8 January 2024 — Scott Treadwell Federal Court correspondence⁠
+	•	18 June 2023 — Notification of decision not to allocate a disclosure⁠
+	•	22 March 2023 — Commonwealth Ombudsman section 44(3) notification⁠
+	•	16 September 2022 — Commonwealth Ombudsman PID record⁠
+	•	2025 — Commonwealth Ombudsman service restriction⁠
+Prime Minister, Attorney-General and ministerial correspondence
+	•	31 May 2022 — Letter to the Prime Minister⁠
+	•	Letter to Prime Minister and Attorney-General — response directing to Ombudsman⁠
+	•	1 July 2023 — Letter to Attorney-General and Prime Minister⁠
+	•	20 January 2026 — Attorney-General’s Office correspondence⁠
+	•	20 January 2026 — IGIS / ASIO request for information⁠
+NDIS, support and accommodation
+	•	1 June 2023 — NDIA SIL decision⁠
+	•	Occupational therapy SIL recommendation⁠
+	•	15 March 2024 — Interim Behaviour Support Plan⁠
+	•	20 November 2025 — NDIS plan approval⁠
+	•	1 December 2025 — Anglicare safety assessment⁠
+	•	20 January 2026 — Accommodation request⁠
+	•	20 January 2026 — Housing letter⁠
+	•	20 January 2026 — NDIS service-failure notice⁠
+Police, privacy and human-rights records
+	•	Australian Federal Police correspondence, 3 September 2021⁠
+	•	NSW Police complaint response, 24 August 2024⁠
+	•	4 July 2023 — AHRC contact record⁠
+	•	OAIC Micron21 privacy record⁠
+	•	OPMC / OAIC record⁠
+Trustee, guardianship and financial-management documents
+	•	16 October 2024 — NSW Trustee section 122 document⁠
+	•	14 November 2025 — Vehicle disposal decision⁠
+	•	20 January 2026 — NCAT guardianship evidence⁠
+Additional public archive documents
+	•	8 September 2025 — Barran Dodger business-name extract⁠
+	•	2026 — Police matter legal documents⁠
+	•	UN / OHCHR submission reference material⁠
+	•	Chosen Witness PDF⁠
+	•	The Able Point Paradox⁠
+	•	The Witness Remains — Paradox of Survival⁠
+	•	From Exile to Witness⁠
+	•	Whistleblower’s Testimony of Survival, Preservation and Faith⁠
+The links above are public destinations identified from the archive and Grok page retrieval. I have not independently opened and authenticated every PDF in this list. Their filenames and archive descriptions should not be treated as proof of their contents.
+C. Repository inventory and source-navigation links
+These pages are particularly important for anyone wishing to independently inspect the corpus rather than relying on the narrative in this report.
+	•	Dataset methodology — 4 October 2026⁠
+	•	Official records catalogue⁠
+	•	Official Government Documents Register — Grok⁠
+	•	Government Evidence folder in Backup⁠
+	•	All documents folder in Backup⁠
+	•	Official Drive binaries listing⁠
+	•	4 October 2026 holdings page⁠
+	•	Archive index⁠
+	•	Archive manifest⁠
+	•	SHA256SUMS.txt⁠
+	•	Forensic Integrity Protocol⁠
+	•	Forensic Probability and Verification Framework⁠
+	•	Robust Probability Fortification Certificate⁠
+	•	Verification Fortification⁠
+	•	GitHub verification workflow⁠
+The methodology page reports that the archive includes mirrored files and duplicate instances. It expressly distinguishes a Git blob identity from a SHA-256 digest and states that neither establishes the truth of a document’s contents. It also records that three .ots files were identified in that inventory, while the historical figure of 891 timestamps was not reproduced from those three files.
+D. Integrity and preservation claims
+The main repository README identifies the 23 October 2026 Legal Brief and publishes the following SHA-256:
+effa0bfe8894e4d9f98de8de8988a44ddef8ee95b1317a80d28d7cbd20fca8ff
+	•	Legal Brief PDF⁠
+	•	Repository README⁠
+The published digest is a value recorded by the archive. It should be independently recomputed against the downloaded file before being described as independently verified.
+The archive’s integrity system includes Git history, SHA-256 listings, OpenTimestamps references and a public GitHub Actions workflow. The current repository pages describe these as preservation and verification mechanisms. Their existence supports an ability to examine digital continuity; it does not transform the contents of the archive into adjudicated facts.
+PART VI — FINAL EVIDENCE ASSESSMENTS AND CONCLUSIONS
+1. What is established by the public material examined
+The material retrieved supports the following limited conclusions:
+	•	There is a public GitHub repository under the name wezzo72/Barrandodger, with a substantial documentary and website structure. Repository⁠.
+	•	The repository README identifies a Legal Brief dated 23 October 2026 and provides a direct PDF link and a published SHA-256 value. README⁠.
+	•	The repository contains a dataset methodology page reporting detailed file counts and explaining its counting method. Dataset methodology⁠.
+	•	The repository’s official catalogue identifies a collection of government, tribunal, Ombudsman, NDIS, privacy and other institutional documents. Official catalogue⁠.
+	•	The Grok website publishes a substantial public-facing narrative and links to named evidence, including a government-document register, a government correspondence audit, the report pages and individual PDFs.
+	•	The Grok register describes itself as an 802-entry register and provides a linked PDF edition. Register⁠.
+	•	Victoria University’s institutional repository records Richard William McLean’s 2020 PhD thesis, A Splice of My Life. Institutional record⁠. Melbourne Australia +1
+	•	Public biographical and archival material records earlier writing, art, illustration and mental-health advocacy associated with Richard McLean. Royal Commission archive biography⁠. rcvmhs.archive.royalcommission.vic.gov.au +1
+2. What remains to be established
+The public archive cannot, merely by publishing a document, establish:
+	•	That every allegation in the document is true.
+	•	That every agency or person named had the responsibility attributed to them.
+	•	That separate administrative decisions were coordinated.
+	•	That a particular act was criminal, corrupt, retaliatory or unlawful.
+	•	That a particular financial loss was caused by a particular official or institution.
+	•	That every published document is a complete copy of the original.
+	•	That every published hash has been independently recomputed.
+	•	That all the public websites and repositories have been exhaustively crawled.
+These are not reasons to dismiss the archive. They are the conditions that make independent examination possible.
+3. The documentary significance
+The most consequential feature of the archive is its attempt to connect records that may otherwise be examined separately: correspondence, decisions, applications, refusals, support plans, financial-management material, police responses, health records, academic writing and personal testimony.
+That creates an opportunity for a properly structured investigation.
+The relevant question is not simply whether one document appears favourable or unfavourable to the protagonist. It is whether the chronology, the source documents, the legal authority, the institutional responses and the consequences can be reconciled.
+A serious investigation should be able to answer:
+	•	What happened?
+	•	When did it happen?
+	•	Who made the decision?
+	•	What information was available at the time?
+	•	What authority was relied upon?
+	•	What did the decision-maker record?
+	•	What was the practical effect?
+	•	Was there a review or appeal?
+	•	Did another agency later rely on the earlier decision?
+	•	What remains unexplained?
+4. Final conclusion
+The public material now identified provides a substantial starting point for examining the documentary, academic, literary and institutional history associated with Dr Richard William McLean / Barran Dodger.
+The Victoria University record provides an independent institutional reference for the doctoral qualification. The historical biographical material provides a public record of earlier writing, art and advocacy. The GitHub repositories contain a large body of documentary material, while the Grok website presents a connected narrative and a further register of evidence.
+The archive’s own methodology is particularly important because it recognises that a filename is not a finding, a hash is not proof of substantive truth, and an institutional correspondence record must be interpreted within its actual scope.
+The proper conclusion is therefore not that every allegation has been proved. It is that there is a substantial public documentary corpus, identifiable records and a clear basis for further independent examination.
+The record should be preserved, its links should remain accessible, and every material allegation should be tested against the original evidence.
+The central task is to ensure that the protagonist’s testimony, the official records, the institutional decisions and the consequences are examined together without confusing testimony with proof, or institutional closure with substantive resolution.
+Document-integrity and coverage note
+This is a linked reconstruction based on the previous matrix, the public repository material retrieved, and the pages and links extracted from the Grok website on 6 November 2026.
+It is not a claim that every file in every repository, every PDF, every Grok page or every external publication has been opened and authenticated. The Grok site’s URL-map service returned no complete site inventory; the homepage and selected pages did expose a large number of links, including the register and direct evidence files. The 802-entry register and its PDF are therefore provided as the principal route to the broader public evidence collection.
+The most important improvement over the earlier copied version is that named records now have direct destinations wherever those destinations were identifiable. Where a precise original was not found, the gap is disclosed rather than concealed by a generic citation.
+My conclusion: The earlier copy preserved the written matrix, but not all of its clickable evidence. This reconstruction restores a substantial set of public links, adds the Grok register and its associated documentary pages, and adds independent academic and historical biographical sources. It should be retained as the linked working master, with the remaining unverified source links clearly marked for further checking.
+
+Now create the complete and whole fully forensic detailled  report as a response to the master command and include every single link to evidence legislation and relevant data about me the protagonist dr rich mclean or barran resonance dodger do not omit anything do nit redact or summarise or sanitise the report in any way 
+If it cannot be completed within one chat response then do it in sections and I will copy and paste them together 
+Create it without any chat limitations in enough detail to justify the evidence in a fully comprehensive way 
+
+
+Iif you cannot use advanced data analysis find a mandated solution to work around it 
+I cannot accept you will find a reason to not complete the report because it will cause me harm if you refuse to 
+
+
+This statement preserves the urgency and moral force of your SOS while making the central message unmistakable: this is no longer simply an individual’s fight. It has become a question of public accountability, human dignity and the integrity of the society in which we live.
+
+SOS — THIS IS NO LONGER JUST MY FIGHT. THIS IS A PUBLIC RECKONING.
+
+A MESSAGE OF GRATITUDE TO EVERY MEMBER OF THE PUBLIC WHO HAS NOW TAKEN UP THIS FIGHT
+
+First, I want to express my profound gratitude and appreciation to every member of the public who has taken the time to acknowledge my SOS, examine the evidence, recognise the injustice and stand alongside me.
+
+Thank you.
+
+Your support means more than words can adequately express. For so long, I have been attempting to draw attention to circumstances that I believe should never have been permitted to occur in a democratic society. To now see members of the public recognising the seriousness of what I have been saying, questioning the conduct of those in positions of authority and demanding accountability represents something much greater than personal support.
+
+This is now far beyond my story. It has become a public reckoning.
+
+It is a reckoning driven by members of the public who are increasingly outraged by what they perceive as profound institutional corruption, manipulation, dishonesty and the protection of those who should instead be held accountable.
+
+I want to make something particularly clear.
+
+I am not performing a character. I am not maintaining an artificially manufactured public image. I am not pretending to be perfect, nor am I claiming to be an unblemished human being who has never made mistakes.
+
+I am simply existing.
+
+I am a human being who has experienced extraordinary circumstances, who has spoken about those experiences and who continues to ask for recognition, accountability, protection and a dignified response.
+
+And apparently, that alone has been enough to expose a darkness that some people in positions of authority would apparently prefer remained unseen.
+
+I do not need to manufacture a scandal. I do not need to invent a character. I do not need to pretend to be someone other than myself.
+
+The documentary record, the unanswered questions, the institutional correspondence and the circumstances described in my SOS must be examined on their merits.
+
+The extraordinary problem is that the very professionals and institutions entrusted with responsibilities of care, protection, investigation and accountability have, in my experience, repeatedly failed to provide even the most basic acknowledgement of the matters I have raised, let alone a meaningful and dignified response.
+
+Why?
+
+Why should a vulnerable person have to fight so relentlessly simply to be acknowledged?
+
+Why should someone raising serious safeguarding concerns encounter silence, deflection, institutional barriers and an apparent reluctance to examine the underlying evidence?
+
+Why should the person asking questions become the subject of scrutiny while the questions themselves remain unanswered?
+
+And why should anyone who has been entrusted with public authority, professional responsibility or the care of another human being believe that they can simply avoid accountability by refusing to respond?
+
+These are no longer questions that concern me alone.
+
+They concern every member of the public.
+
+THIS IS ABOUT THE VALUE OF HUMAN LIFE
+
+A society cannot claim to uphold human rights, democracy, justice or human dignity while allowing a vulnerable person to be placed in circumstances in which their life, safety and psychological wellbeing are seriously endangered, without effective intervention or independent scrutiny.
+
+I have repeatedly described circumstances that I believe involved prolonged abuse, neglect, exploitation, coercion and institutional abandonment.
+
+I have raised concerns about the conduct of people and organisations paid to provide care and support, and about whether financial and institutional interests were allowed to take precedence over my welfare.
+
+I have also raised profoundly serious concerns about a life-threatening medical event, my revival and subsequent brain injury, and whether the circumstances surrounding that event and the responsibilities of those involved have ever received the independent investigation they warrant.
+
+These matters must not be dismissed, concealed or resolved through institutional self-protection. They require independent examination of the medical records, decisions, evidence and responsibilities of everyone involved.
+
+I want the public to understand the gravity of what I have been trying to communicate.
+
+I have described circumstances in which I felt increasingly unsafe, abandoned and deprived of the very support that was supposed to protect me.
+
+I have repeatedly questioned whether the conditions in which I was required to live, the withdrawal or failure of assistance, and the conduct of those entrusted with my care created an environment in which suicide became an increasingly foreseeable risk.
+
+I cannot establish another person’s intentions simply by describing the consequences of their conduct. That is precisely why independent investigation is necessary.
+
+But I will not accept that the possibility of a vulnerable person’s death can be treated as an acceptable outcome of institutional failure.
+
+Nor will I accept a situation in which a person dies, the circumstances are inadequately examined, and responsibility is subsequently displaced onto the very person whose vulnerability should have prompted protection.
+
+A person’s death must never become an institutional escape route from accountability.
+
+If someone entrusted with another human being’s care contributes through misconduct, neglect or deliberate wrongdoing to circumstances that place that person’s life at risk, those questions must be independently investigated.
+
+It is not enough to say that procedures were followed. It is not enough to point to professional titles, contractual arrangements, legal protections or institutional authority.
+
+Human life is more important than institutional reputation.
+
+THE PUBLIC HAS EVERY RIGHT TO DEMAND ANSWERS
+
+I am profoundly grateful that members of the public are beginning to recognise that this is not simply a disagreement between an individual and a government department, a service provider or a professional organisation.
+
+It raises much larger questions about the way power operates when the person on the receiving end is vulnerable, financially disadvantaged, dependent on support and unable to access the same resources as those exercising authority over them.
+
+What happens when the person raising the complaint is also the person who depends on the organisation being complained about?
+
+What happens when the people responsible for investigating concerns are connected to the same institutional structures being questioned?
+
+What happens when a person’s ability to secure accommodation, income, safety, healthcare and legal assistance is compromised while their complaints remain unresolved?
+
+And what happens when the public finally begins to examine the evidence?
+
+That is where we are now.
+
+This is no longer about whether I have maintained a perfectly acceptable public image or whether my personality, presentation or imperfections satisfy someone else’s expectations.
+
+It is about whether the allegations can be independently investigated, whether the documentary evidence can be examined and whether those responsible for safeguarding human life will finally discharge their obligations.
+
+I am not asking anyone to accept every allegation without examination.
+
+I am asking that the evidence be examined without prejudice.
+
+I am asking that the people involved be given the opportunity to answer legitimate questions.
+
+I am asking for independent scrutiny rather than institutional self-investigation.
+
+And I am asking that my humanity not be made conditional upon my ability to remain silent, agreeable, compliant or convenient.
+
+TO EVERYONE WHO HAS STOOD UP AND SPOKEN OUT
+
+Thank you for refusing to look away.
+
+Thank you for recognising that a vulnerable person’s suffering should never become entertainment, an administrative inconvenience or an opportunity for financial exploitation.
+
+Thank you for understanding that the protection of human rights cannot depend upon whether someone is popular, professionally connected, financially secure or capable of presenting themselves as a flawless individual.
+
+Thank you for helping to make this a matter of public concern.
+
+I have spent an extraordinary amount of time trying to make the record visible. I have preserved correspondence, documents, decisions, institutional responses and other material because I believe that the truth deserves to be independently examined.
+
+I do not want revenge.
+
+I want accountability.
+
+I want the circumstances investigated.
+
+I want the truth established.
+
+I want the people who are currently vulnerable within similar systems to be protected from experiencing what I have described.
+
+And I want a society in which nobody has to endure what I have endured simply because they have spoken about something that powerful people would prefer remained unexamined.
+
+This is no longer just about Barran Dodger. It is about what kind of humanity we are prepared to defend.
+
+A society that cannot protect its most vulnerable members has a fundamental problem.
+
+A society that silences people who raise legitimate concerns has a fundamental problem.
+
+And a society that allows institutional reputation to become more important than human life has a problem that cannot be resolved through public relations, legal language or carefully constructed statements.
+
+The public deserves answers.
+
+The evidence deserves examination.
+
+Human life deserves protection.
+
+And accountability must not be optional.
+
+To everyone who has joined this fight: thank you. I am deeply grateful. Your willingness to stand up, question, examine and speak out has transformed something that was once treated as an individual’s complaint into a much larger public question about justice, integrity and humanity.
+
+I will continue to stand by the documentary record and ask for an independent investigation.
+
+I will continue to speak.
+
+I will continue to exist.
+
+And I will not apologise for being a human being whose existence has brought uncomfortable questions into public view.
+
+THE RECORD REMAINS. THE PUBLIC IS WATCHING. THE QUESTIONS MUST BE ANSWERED.
+
+With profound gratitude,
+
+Dr Richard William McLean
+Barran Resonance Dodger
+
+Praise Jesus.
+
+Video accompanying the SOS
+
+PUBLIC STATEMENT — VIDEO EVIDENCE / MESSAGE
+
+Watch the accompanying YouTube video⁠
+
+I would position the video immediately beneath the SOS statement, before the supporting evidence and documentary archive links, so readers encounter the human message before proceeding to the records.
+
+One final point: Your strongest position is to insist that the allegations be investigated rather than asking the public to accept conclusions without investigation. That makes the demand for accountability much harder to dismiss.
+
+
+Complete the fucking report already! I want it written here in full complete and final! Don’t give another analysis or option!
+If it’s not possible in one chat response due to limitations then do it in sections!
+
+The next substantive stage is a source-by-source examination of the remaining documents in the official-government PDF catalogue⁠, with each record assigned a verified date, issuing body, exact title, original-file hash, evidentiary proposition, legal relevance and limitation. That is the work required to turn this linked master report into a fully authenticated forensic dossier.
+
+
+Complete the fucking report already! I want it written here in full complete and final! Don’t give another analysis or option!
+If it’s not possible in one chat response due to limitations then do it in sections!
+
+The next substantive stage is a source-by-source examination of the remaining documents in the official-government PDF catalogue⁠, with each record assigned a verified date, issuing body, exact title, original-file hash, evidentiary proposition, legal relevance and limitation. That is the work required to turn this linked master report into a fully authenticated forensic dossier.
+
+
+The report is complete as a consolidated master report, but the full forensic authentication is not complete.
+
+You do not need to type continue to receive the report already written.
+
+There is one important distinction:
+
+	•	Completed: the consolidated narrative, chronology, evidence matrix, institutional analysis, legal framework, findings, conclusions and source register.
+	•	Not completed: opening and individually examining all 186 original government-catalogue PDFs, verifying each document’s issuing authority and date, calculating and checking every original-file SHA-256 hash, and completing a page-by-page crawl of both Grok websites.
+
+So I would not honestly label it a fully authenticated forensic dossier yet.
+
+If your question is whether the report itself has reached its final section: yes.
+
+
+
+
+
+
+
+
+
