@@ -1,0 +1,117 @@
+
+name: Barran Dodger Blockchain Evidence Preservation
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths-ignore:
+      - "preservation/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  preserve:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Retrieve repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install OpenTimestamps
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install opentimestamps-client
+
+      - name: Create evidence manifest
+        id: manifest
+        run: |
+          mkdir -p preservation
+
+          python - <<'PY'
+          import hashlib
+          import json
+          import os
+          import subprocess
+          from datetime import datetime, timezone
+
+          commit = subprocess.check_output(
+              ["git", "rev-parse", "HEAD"], text=True
+          ).strip()
+
+          files = subprocess.check_output(
+              ["git", "ls-files", "-z"]
+          ).decode("utf-8").split("\0")
+
+          records = []
+
+          for path in sorted(filter(None, files)):
+              if path.startswith("preservation/"):
+                  continue
+
+              if not os.path.isfile(path):
+                  continue
+
+              digest = hashlib.sha256()
+
+              with open(path, "rb") as f:
+                  for chunk in iter(lambda: f.read(1024 * 1024), b""):
+                      digest.update(chunk)
+
+              records.append({
+                  "path": path,
+                  "sha256": digest.hexdigest()
+              })
+
+          manifest = {
+              "archive": "Barran Dodger",
+              "created_utc": datetime.now(
+                  timezone.utc
+              ).isoformat(),
+              "git_commit": commit,
+              "hash_algorithm": "SHA-256",
+              "files": records
+          }
+
+          filename = (
+              "preservation/manifest-"
+              + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+              + "-" + commit[:12] + ".json"
+          )
+
+          with open(filename, "w", encoding="utf-8") as f:
+              json.dump(manifest, f, indent=2, ensure_ascii=False)
+              f.write("\n")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write("manifest=" + filename + "\n")
+
+          print("Files fingerprinted:", len(records))
+          print("Manifest:", filename)
+          PY
+
+      - name: Submit manifest for Bitcoin timestamping
+        run: |
+          ots stamp "${{ steps.manifest.outputs.manifest }}"
+
+      - name: Preserve manifest and timestamp proof
+        run: |
+          git config user.name "Barran Dodger Preservation Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add preservation/
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Preserve blockchain evidence manifest"
+            git push origin HEAD:${GITHUB_REF_NAME}
+          fi
