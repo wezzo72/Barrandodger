@@ -1,14 +1,13 @@
-Update automatic blockchain evidence preservation workflow
+
 name: Barran Dodger Blockchain Evidence Preservation
 
-on:
+'on':
   push:
-  
     branches:
       - main
       - master
     paths-ignore:
-      - "preservation/**"
+      - preservation/**
   workflow_dispatch:
 
 permissions:
@@ -19,12 +18,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Retrieve repository
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Install Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
@@ -34,17 +31,16 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install opentimestamps-client
 
-      - name: Create evidence manifest
-        id: manifest
+      - name: Create SHA-256 evidence manifest
         run: |
           mkdir -p preservation
 
           python - <<'PY'
           import hashlib
           import json
-          import os
           import subprocess
           from datetime import datetime, timezone
+          from pathlib import Path
 
           commit = subprocess.check_output(
               ["git", "rev-parse", "HEAD"], text=True
@@ -52,33 +48,31 @@ jobs:
 
           files = subprocess.check_output(
               ["git", "ls-files", "-z"]
-          ).decode("utf-8").split("\0")
+          ).decode().split("\0")
 
           records = []
 
-          for path in sorted(filter(None, files)):
-              if path.startswith("preservation/"):
-                  continue
+          for name in sorted(filter(None, files)):
+              path = Path(name)
 
-              if not os.path.isfile(path):
+              if name.startswith("preservation/") or not path.is_file():
                   continue
 
               digest = hashlib.sha256()
 
-              with open(path, "rb") as f:
+              with path.open("rb") as f:
                   for chunk in iter(lambda: f.read(1024 * 1024), b""):
                       digest.update(chunk)
 
               records.append({
-                  "path": path,
+                  "path": name,
                   "sha256": digest.hexdigest()
               })
 
+          now = datetime.now(timezone.utc)
           manifest = {
               "archive": "Barran Dodger",
-              "created_utc": datetime.now(
-                  timezone.utc
-              ).isoformat(),
+              "created_utc": now.isoformat(),
               "git_commit": commit,
               "hash_algorithm": "SHA-256",
               "files": records
@@ -86,33 +80,27 @@ jobs:
 
           filename = (
               "preservation/manifest-"
-              + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+              + now.strftime("%Y%m%dT%H%M%SZ")
               + "-" + commit[:12] + ".json"
           )
 
-          with open(filename, "w", encoding="utf-8") as f:
-              json.dump(manifest, f, indent=2, ensure_ascii=False)
-              f.write("\n")
-
-          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-              f.write("manifest=" + filename + "\n")
+          Path(filename).write_text(
+              json.dumps(manifest, indent=2, ensure_ascii=False) + "\n",
+              encoding="utf-8"
+          )
 
           print("Files fingerprinted:", len(records))
           print("Manifest:", filename)
           PY
 
-      - name: Submit manifest for Bitcoin timestamping
+      - name: Request Bitcoin blockchain timestamp
         run: |
-          ots stamp "${{ steps.manifest.outputs.manifest }}"
+          ots stamp preservation/*.json
 
-      - name: Preserve manifest and timestamp proof
+      - name: Commit preservation records
         run: |
           git config user.name "Barran Dodger Preservation Bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add preservation/
-
-          if ! git diff --cached --quiet; then
-            git commit -m "Preserve blockchain evidence manifest"
-            git push origin HEAD:${GITHUB_REF_NAME}
-          fi
+          git commit -m "Preserve blockchain evidence manifest" || exit 0
+          git push
