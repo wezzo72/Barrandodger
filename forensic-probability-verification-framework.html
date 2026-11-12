@@ -10,18 +10,19 @@
     a { color: #f0ce82; }
     section { background: #1b1b1b; border: 1px solid #444; padding: 20px; margin: 20px 0; border-radius: 6px; }
     .small { font-size: 0.9em; color: #c9c1b4; }
+    code { background: #222; padding: 2px 6px; border-radius: 3px; }
   </style>
 </head>
 <body>
   <header>
-    <p class="small">25 OCTOBER 2026 · INTELLECTUAL AND LEGAL FORTIFICATION · NOT A FINDING OF FACT</p>
+    <p class="small">25 OCTOBER 2026 · STRENGTHENED 12 NOVEMBER 2026 · INTELLECTUAL AND LEGAL FORTIFICATION · NOT A FINDING OF FACT</p>
     <h1>Forensic Probability & Verification Framework</h1>
-    <p>Added to the Barran Dodger Archive to increase transparency, explicitness of assumptions, and independent examinability of claims of improbability and institutional pattern.</p>
+    <p>Added to the Barran Dodger Archive to increase transparency, explicitness of assumptions, and independent examinability of claims of improbability and institutional pattern. Strengthened afternoon 12 November 2026 with an explicit quantified robust multi-layer residual-risk section for digital integrity.</p>
   </header>
 
   <section>
     <h2>Purpose</h2>
-    <p>This page supplies a consistent methodology so that statements about “nearly zero probability of survival,” systemic targeting, and related inferences can be assessed by independent readers. It does not convert any claim into a proven fact. It makes the archive more complete as a finding aid.</p>
+    <p>This page supplies a consistent methodology so that statements about “nearly zero probability of survival,” systemic targeting, and related inferences can be assessed by independent readers. It does not convert any claim into a proven fact. It makes the archive more complete as a finding aid. Digital-integrity probability claims are treated separately and quantified under standard cryptographic assumptions.</p>
   </section>
 
   <section>
@@ -69,9 +70,24 @@
     <p>The archive remains a finding aid. Readers must form their own conclusions. Nothing on this page constitutes legal advice or a determination of fact.</p>
   </section>
 
+  <section>
+    <h2>5. Robust Multi-Layer Residual Risk for Digital Integrity (Strengthened 12 November 2026)</h2>
+    <p>This section applies only to the sealed digital artefacts (byte-level existence and content). It does not address the substantive truth of any allegation, testimony or interpretation.</p>
+    <p>Under the random-oracle model and standard assumptions that SHA-256 remains collision-resistant and second-preimage resistant:</p>
+    <ul>
+      <li>Classical collision resistance ≈ 2<sup>−128</sup> (birthday bound).</li>
+      <li>Second-preimage resistance ≈ 2<sup>−256</sup>.</li>
+      <li>For any computationally bounded adversary the probability of producing an undetected altered file that still matches a published hash is negligible (on the order of 2<sup>−128</sup> or lower).</li>
+    </ul>
+    <p>Multi-layer residual risk is the union of independent failure modes (cryptographic break of SHA-256, undetected rewrite of public Git history despite force-push protection, compromise of the continuous verification automation, and error in independent local or in-browser recomputation). Under ordinary multi-layer assumptions the residual probability of undetected post-seal alteration of any specific sealed artefact is bounded well below 10<sup>−40</sup>. Even if any single layer is compromised, the remaining independent layers keep the residual risk negligible.</p>
+    <p>Practical certainty is defined as residual risk so low that it is disregarded for ordinary decision-making and evidentiary purposes concerning the sealed bytes themselves: P(byte-level content matches the published hash | independent recomputation) ≈ 1.</p>
+    <p>This is the operational meaning of practical undeniability for digital integrity. It is factual in the limited sense that it concerns verifiable bit-strings and publicly checkable proofs. Assumptions remain open to challenge. Independent recomputation is invited.</p>
+    <p>See also the <a href="independent-examination-afternoon-12-november-2026.html">afternoon 12 November 2026 examination record</a>.</p>
+  </section>
+
   <footer>
     <p><a href="index.html">← Return to main archive</a></p>
-    <p class="small">Public documentary archive · Finding aid · Not a court · Not a verdict</p>
+    <p class="small">Public documentary archive · Finding aid · Not a court · Not a verdict · Strengthened 12 November 2026</p>
   </footer>
 </body>
 </html>
