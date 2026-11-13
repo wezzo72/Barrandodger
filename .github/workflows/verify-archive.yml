@@ -27,7 +27,7 @@ jobs:
           echo "Commit: ${{ github.sha }}"
           echo ""
           echo "Critical fortification files (existence + SHA-256 sample):"
-          CRITICAL=("index.html" "independent-examination-midday-13-november-2026.html" "independent-examination-early-morning-13-november-2026.html" "independent-examination-late-night-12-november-2026.html" "independent-examination-night-12-november-2026.html" "independent-examination-evening-12-november-2026.html" "independent-examination-afternoon-12-november-2026.html" "independent-examination-continued-12-november-2026.html" "independent-examination-12-november-2026.html" "independent-examination-11-november-2026.html" "independent-examination-continued-10-november-2026.html" "independent-examination-10-november-2026.html" "forensic-integrity-protocol.html" "forensic-probability-verification-framework.html")
+          CRITICAL=("index.html" "independent-examination-early-afternoon-13-november-2026.html" "independent-examination-midday-13-november-2026.html" "independent-examination-early-morning-13-november-2026.html" "independent-examination-late-night-12-november-2026.html" "independent-examination-night-12-november-2026.html" "independent-examination-evening-12-november-2026.html" "independent-examination-afternoon-12-november-2026.html" "independent-examination-continued-12-november-2026.html" "independent-examination-12-november-2026.html" "independent-examination-11-november-2026.html" "independent-examination-continued-10-november-2026.html" "independent-examination-10-november-2026.html" "forensic-integrity-protocol.html" "forensic-probability-verification-framework.html")
           for f in "${CRITICAL[@]}"; do
             if [ -f "$f" ]; then
               echo "--- $f ---"
@@ -44,5 +44,5 @@ jobs:
           echo "Residual risk of undetected post-seal alteration of any specific sealed artefact is bounded well below 10^{-40} under standard assumptions (SHA-256 classical collision resistance ≈ 2^{-128} by birthday bound; second-preimage ≈ 2^{-256}; public Git chain-of-custody; force-push protection; multi-mirror publication; independent local/in-browser recomputation; this continuous automation; optional OpenTimestamps Bitcoin anchoring)."
           echo "Even if any single layer is compromised, remaining independent layers keep residual risk negligible. Approaches practical certainty (P ≈ 1) of digital existence and byte-for-byte content of sealed artefacts."
           echo "This addresses sealed bytes only. Substantive claims remain open for independent examination under the Forensic Integrity Protocol (A/B/C/D/H)."
-          echo "Supports Robust Probability & Forensic Verification Protocol. Live continuous verification automation operational. Critical files list expanded midday 13 November 2026 to include the midday examination record."
+          echo "Supports Robust Probability & Forensic Verification Protocol. Live continuous verification automation operational. Critical files list expanded early afternoon 13 November 2026 to include the early-afternoon examination record."
           exit 0
