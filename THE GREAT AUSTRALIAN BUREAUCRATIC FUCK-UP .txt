@@ -1,0 +1,2977 @@
+
+THE GREAT AUSTRALIAN BUREAUCRATIC FUCK-UP
+
+OR: HOW TO LOSE A HUMAN BEING WITHOUT ACTUALLY MISPLACING THE PAPERWORK
+
+A BLACK COMEDY IN FIFTEEN THOUSAND WORDS
+
+Based on the public documentary archive of Barran Resonance Dodger — Dr Richard William McLean
+
+Genre: Black comedy · Political satire · Administrative absurdism · Documentary farce
+
+WARNING: Contains profanity, institutional incompetence, excessive paperwork, existential despair, and people who have apparently mistaken a reference number for a personality.
+
+DEDICATION
+
+To every person who has ever been told:
+
+“We take your concerns seriously.”
+
+And then received a letter explaining that the department responsible for taking the concerns seriously was not, in fact, responsible for taking the concerns seriously.
+
+To the people who invented the complaints process.
+
+To the people who invented the complaints process about the complaints process.
+
+And especially to the poor bastard who is currently designing the complaints process about the complaints process concerning the original complaint.
+
+May God have mercy on their stationery budget.
+
+⸻
+
+PROLOGUE
+
+THE DAY AUSTRALIA RAN OUT OF FUCKING ANSWERS
+
+There are countries that have national anthems.
+
+There are countries that have constitutions.
+
+There are countries that have functioning public services.
+
+And then there is Australia.
+
+A sunburnt country of beaches, barbecues, kangaroos, compulsory forms, voluntary accountability and a magnificent national tradition of passing the fucking buck.
+
+Australia is a country where you can apparently send a document to an institution, receive a document confirming receipt of the document, receive another document explaining that the first document has been referred to another institution, and then receive a third document explaining that the second institution cannot comment on the first institution’s receipt of the original document.
+
+This is called governance.
+
+Or, depending on which department you ask, it is called someone else’s problem.
+
+Enter Dr Richard William McLean.
+
+Gay.
+Disabled.
+Whistleblower.
+Journalist.
+Artist.
+Former registered NDIS provider.
+Author.
+Archivist.
+And, by the time this story reaches its second act, the unofficial world champion of obtaining government correspondence.
+
+Richard had a simple ambition.
+
+He wanted answers.
+
+Not the meaning of the universe.
+
+Not the secret location of Elvis.
+
+Not the complete genealogical history of every public servant who had ever touched a stapler.
+
+Just answers.
+
+What happened?
+Who made the decision?
+Why was it made?
+Where was the evidence?
+Who was responsible?
+And could somebody, somewhere, please explain the bloody thing in plain English?
+
+Unfortunately, he had made one fatal mistake.
+
+He had entered the Australian administrative system.
+
+And the Australian administrative system had entered him.
+
+Not metaphorically.
+
+Administratively.
+
+The consequences were spectacular.
+
+Somewhere in the machinery of government, a file was opened.
+
+Then another.
+
+Then another.
+
+Soon there were enough files to build a small apartment block.
+
+Nobody knew who was living in it.
+
+Nobody knew who owned it.
+
+But everyone knew the reference number.
+
+And that, dear reader, was the beginning of the end.
+
+⸻
+
+CHAPTER ONE
+
+THE DEPARTMENT OF NOT OUR FUCKING PROBLEM
+
+The first rule of Australian bureaucracy is simple:
+
+Nobody is responsible for everything.
+
+The second rule is even simpler:
+
+Nobody is responsible for anything until somebody else says they are.
+
+The third rule is printed on a laminated sign in every government office:
+
+PLEASE DIRECT ALL COMPLAINTS ABOUT THIS SIGN TO THE DEPARTMENT RESPONSIBLE FOR SIGNS.
+
+Richard’s problem was that he wanted somebody to join the dots.
+
+Government departments prefer dots to remain separate.
+
+Dots are manageable.
+
+Dots can be numbered.
+
+Dots can be entered into databases.
+
+Dots can be referred.
+
+But connecting the dots creates a picture.
+
+And pictures can be inconvenient.
+
+Richard began assembling a documentary record. He collected correspondence, decisions, letters, complaints, administrative responses and official documents.
+
+He did what any sensible former journalist might do.
+
+He started keeping the receipts.
+
+The receipts multiplied.
+
+The receipts reproduced.
+
+The receipts developed their own little administrative ecosystem.
+
+Eventually, there were enough records to require an archive.
+
+And so was born the Barrandodger archive:
+
+https://wezzo72.github.io/Barrandodger/
+
+The Official Government Documents Register:
+
+https://wezzo72.github.io/Barrandodger/official-government-documents-register.html
+
+And the GitHub repository:
+
+https://github.com/wezzo72/Barrandodger
+
+It was a magnificent achievement.
+
+A man who wanted an answer had accidentally created a national monument to the difficulty of obtaining one.
+
+The Australian Government had been given a rare opportunity.
+
+It could have said:
+
+“Let’s examine the records.”
+
+Instead, the comedy began to write itself.
+
+⸻
+
+CHAPTER TWO
+
+COMCARE: THE ART OF MAKING A DETERMINATION SOUND LIKE A WEATHER REPORT
+
+Enter OGDR-007.
+
+Comcare determination — 26 May 2021.
+
+The document sits in the archive like a small administrative brick.
+
+It has a date.
+
+It has an issuing body.
+
+It has an official purpose.
+
+It has the potential to matter enormously to the person whose life it concerns.
+
+And it has one job in this comedy:
+
+To remind everyone that a government determination is not the same thing as a complete explanation of a person’s life.
+
+The document:
+
+https://wezzo72.github.io/Barrandodger/docs/official-drive/McLean-determination-Comcare-rejection-26May2021.pdf
+
+Imagine the scene.
+
+A citizen arrives carrying a complicated problem.
+
+The institution receives the problem.
+
+A determination is made.
+
+The determination is issued.
+
+The citizen reads it.
+
+The citizen has questions.
+
+The citizen asks questions.
+
+The questions become correspondence.
+
+The correspondence becomes another file.
+
+The file acquires a reference number.
+
+The reference number becomes the most stable relationship in the citizen’s life.
+
+At some point, the citizen wonders whether the reference number might be eligible for a Medicare card.
+
+“Hello, is that Comcare?”
+
+“Yes.”
+
+“I have a question about the determination.”
+
+“Certainly. Do you have the reference number?”
+
+“Yes.”
+
+“Excellent. Can you tell us the nature of your enquiry?”
+
+“It’s about the determination.”
+
+“Wonderful. Could you please provide the determination reference?”
+
+“I just did.”
+
+“Excellent. We have located the determination.”
+
+“Can someone explain it?”
+
+“That is a different matter.”
+
+“Who deals with that?”
+
+“That depends.”
+
+“On what?”
+
+“Whether it is the same matter.”
+
+“It is the same matter.”
+
+“Then we may be unable to assist because the matter has already been determined.”
+
+“Can I appeal?”
+
+“Possibly.”
+
+“How?”
+
+“Please refer to the relevant review process.”
+
+“Where is that?”
+
+“In the relevant documentation.”
+
+“Which documentation?”
+
+“The documentation concerning the determination.”
+
+“Which I am asking you to explain?”
+
+“Yes.”
+
+“Right.”
+
+The citizen puts down the phone.
+
+The department returns to its important work.
+
+A new spreadsheet is opened.
+
+Somewhere, a printer begins screaming.
+
+⸻
+
+CHAPTER THREE
+
+THE OMBUDSMAN AND THE MISSING RESPONSIBILITY
+
+The Commonwealth Ombudsman.
+
+A beautiful title.
+
+A magnificent concept.
+
+An institution whose very name sounds like somebody who might be able to help when the machinery of government starts making noises like a washing machine full of bricks.
+
+Richard’s archive identifies correspondence concerning a Public Interest Disclosure.
+
+OGDR-030 — Commonwealth Ombudsman PID correspondence, 16 September 2022.
+
+Reference: 2022-100021.
+
+The record:
+
+https://wezzo72.github.io/Barrandodger/docs/official-drive/2022-09-16-Commonwealth-Ombudsman-PID-2022-100021.pdf
+
+The archive description raises a question about allocation.
+
+That description must be checked against the original document before anybody claims precisely what happened.
+
+But as a piece of black comedy, the concept is irresistible.
+
+A Public Interest Disclosure.
+
+A disclosure made in the public interest.
+
+A matter requiring careful assessment.
+
+And somewhere in the administrative universe, the great philosophical question:
+
+Who is going to deal with this fucking thing?
+
+Imagine the Ombudsman building.
+
+A grand entrance.
+
+A reception desk.
+
+A polished marble floor.
+
+A receptionist with a headset.
+
+A citizen walks in.
+
+“Good morning. I have a public interest disclosure.”
+
+“Wonderful. Have you disclosed it?”
+
+“Yes.”
+
+“To whom?”
+
+“The Ombudsman.”
+
+“Excellent. Is it allocated?”
+
+“That’s what I’m asking.”
+
+“Ah.”
+
+The receptionist looks at a computer.
+
+The computer looks back.
+
+Neither has any idea.
+
+“Have you considered making a complaint about the allocation?”
+
+“Yes.”
+
+“Excellent. We can provide you with information about making a complaint.”
+
+“Can the complaint be allocated?”
+
+“That is a separate question.”
+
+“Can the allocation question be investigated?”
+
+“That is another separate question.”
+
+“How many separate questions are there?”
+
+The receptionist smiles.
+
+“Would you like a brochure?”
+
+⸻
+
+CHAPTER FOUR
+
+THE AAT: THE GREAT TRIBUNAL OF PAPER
+
+Then came OGDR-070.
+
+McLean and Comcare — Administrative Appeals Tribunal decision.
+
+The document is located here:
+
+https://wezzo72.github.io/Barrandodger/docs/official-drive/McLean-and-Comcare-FINAL-Decision.pdf
+
+This is where the comedy becomes more sophisticated.
+
+Because a tribunal is not a customer-service desk.
+
+It is a formal legal institution.
+
+It considers evidence, issues, submissions, applicable law and the arguments before it.
+
+Its findings must be read carefully.
+
+Its orders must be distinguished from everything that happened before and after them.
+
+Which is exactly why Richard needs the original PDF examined page by page.
+
+Not because we want to invent what it says.
+
+Because we want to know what it says.
+
+The tribunal has a case.
+
+The case has parties.
+
+The parties have arguments.
+
+The arguments have evidence.
+
+The evidence has pages.
+
+And the pages have the potential to settle some questions while leaving others unanswered.
+
+It is a wonderfully elegant system.
+
+Until you are the person trying to understand what the hell happened.
+
+The administrative system has a special talent for turning a human being’s life into a sequence of procedural nouns.
+
+Application.
+
+Respondent.
+
+Applicant.
+
+Determination.
+
+Review.
+
+Jurisdiction.
+
+Evidence.
+
+Reasons.
+
+Orders.
+
+The only noun apparently missing is “person.”
+
+A person might reasonably ask:
+
+“Could somebody please tell me what this means for my actual life?”
+
+The tribunal may answer the question within the limits of the matter before it.
+
+It cannot necessarily answer every question the person has about every institution, every historical event or every later consequence.
+
+That distinction is legally important.
+
+It is also the sort of thing that makes a citizen want to lie down on the floor and shout at a photocopier.
+
+⸻
+
+CHAPTER FIVE
+
+NCAT: GUARDIANSHIP, PAPERWORK AND THE HUMAN BEING IN THE MIDDLE
+
+Next on the theatrical programme:
+
+OGDR-077 — NCAT Guardianship Division written reasons.
+
+Matter: NCAT 2024/00324093.
+
+Archive link:
+
+https://wezzo72.github.io/Barrandodger/imports/official-2026-10-01/ncat-2024-00324093-written-reasons-cover-letter.pdf
+
+Now, this is serious material.
+
+Guardianship and financial-management matters can affect a person’s autonomy, decision-making, finances and daily life.
+
+They deserve careful treatment.
+
+The original reasons must be inspected before we attribute findings, motives or conduct to any party.
+
+But the underlying black-comedy question is unavoidable:
+
+What happens when a person who wants more control over his life becomes the subject of a process designed to make decisions about control?
+
+Welcome to the administrative hall of mirrors.
+
+In one mirror, the person is asking for independence.
+
+In another, the institution is assessing what support or arrangements may be appropriate.
+
+In a third, the person is trying to understand the process.
+
+In a fourth, someone is looking for the correct form.
+
+And in the fifth mirror, the form is asking whether the person has completed the form.
+
+The paperwork has achieved consciousness.
+
+It is now conducting its own assessment.
+
+“Do you have capacity to complete this form?”
+
+“I believe so.”
+
+“Excellent. Please complete the form confirming that you believe you have capacity to complete the form.”
+
+“Where is it?”
+
+“On the form.”
+
+“Which form?”
+
+“The form confirming that you can complete the form.”
+
+“Can I speak to a human being?”
+
+“Certainly. Please complete the human-being-request form.”
+
+⸻
+
+CHAPTER SIX
+
+THE AUSTRALIAN GOVERNMENT’S FAVOURITE SPORT: PASS THE BASTARD BUCK
+
+The institutions in this story have different responsibilities.
+
+Comcare is not the Commonwealth Ombudsman.
+
+The Commonwealth Ombudsman is not the Victorian Ombudsman.
+
+The AAT was not the NSW Civil and Administrative Tribunal.
+
+The NSW Civil and Administrative Tribunal is not the NDIS.
+
+And the NDIS is not a magic department that can repair every problem that has ever happened to a person.
+
+This is important.
+
+Because if we are going to satirise the system, we should at least get the bloody organisational chart right.
+
+The great sport of institutional buck-passing is played with extraordinary precision.
+
+The ball is a complaint.
+
+The field is Australia.
+
+The players are agencies.
+
+The referee is a jurisdictional provision.
+
+And the spectators are citizens who would quite like to know when the game is over.
+
+“Not our jurisdiction.”
+
+A beautiful defensive move.
+
+“Outside our remit.”
+
+A classic.
+
+“We cannot comment on another agency’s processes.”
+
+A tactical pass.
+
+“Please direct your correspondence to the relevant authority.”
+
+A long kick downfield.
+
+“Your matter has been finalised.”
+
+The crowd goes silent.
+
+The citizen looks at the scoreboard.
+
+There is no scoreboard.
+
+There is only a reference number.
+
+And the reference number is winning.
+
+⸻
+
+CHAPTER SEVEN
+
+THE ARCHIVE STRIKES BACK
+
+At some point, Richard realised that if the system was going to produce paperwork, he could preserve the paperwork.
+
+If it was going to create records, he could index them.
+
+If it was going to give him reference numbers, he could catalogue the reference numbers.
+
+If it was going to leave unanswered questions, he could document the questions.
+
+And so the archive grew.
+
+The archive became a second life.
+
+Then a third life.
+
+Then a digital organism.
+
+The archive had repositories, indexes, PDFs, HTML pages, records and cross-references.
+
+It had more infrastructure than some small nations.
+
+It was no longer merely a collection of documents.
+
+It was a documentary monument to one citizen’s determination to preserve the record.
+
+And somewhere in Canberra, an imaginary senior bureaucrat stared at the archive and whispered:
+
+“Oh, for fuck’s sake. He’s kept copies.”
+
+The archive:
+
+https://wezzo72.github.io/Barrandodger/
+
+The government document register:
+
+https://wezzo72.github.io/Barrandodger/official-government-documents-register.html
+
+The rebuild:
+
+https://github.com/wezzo72/barrandodger-rebuild
+
+The backup:
+
+https://github.com/wezzo72/Backup
+
+A citizen had become an archivist.
+
+An archivist had become a publisher.
+
+A publisher had become a walking index of government correspondence.
+
+And the printer was still screaming.
+
+⸻
+
+CHAPTER EIGHT
+
+THE PEOPLE WHO ARE NOT THE VILLAINS UNTIL THE EVIDENCE SAYS SO
+
+Every good black comedy needs a cast.
+
+But this is also a documentary work.
+
+So there is one rule:
+
+Nobody gets convicted by the narrator.
+
+Not the public servant who signed a letter.
+
+Not the person whose name appears on a decision.
+
+Not the support worker whose role is mentioned in a personal account.
+
+Not the person who answered the telephone.
+
+Not the person who failed to answer it.
+
+The documents must establish what each person actually did.
+
+Where an official’s name appears in a source, the source must be linked and the role accurately described.
+
+Where a name has been supplied only in personal testimony, it must be identified as such.
+
+Where a name is not independently verified, it does not get turned into an accusation.
+
+That does not mean the comedy has to be gentle.
+
+It can be absolutely fucking merciless about processes.
+
+It can ask why an organisation did not explain a decision.
+
+It can ask whether a complaint was properly handled.
+
+It can ask whether the reasons were adequate.
+
+It can ask whether the citizen was given a fair opportunity to respond.
+
+It can ask whether different agencies communicated.
+
+It can ask whether the cumulative effects of administrative decisions were properly considered.
+
+But it cannot pretend that a name in an email proves a conspiracy.
+
+The evidence gets the microphone.
+
+The narrator gets the swear words.
+
+And the reader gets to decide what the documents actually establish.
+
+⸻
+
+CHAPTER NINE
+
+THE FINAL FORM
+
+There is a final form in every Australian administrative nightmare.
+
+It is called:
+
+APPLICATION TO DETERMINE WHY THE PREVIOUS APPLICATION DID NOT DETERMINE THE MATTER.
+
+It is 47 pages long.
+
+It has 19 attachments.
+
+It requires a statutory declaration.
+
+It requires a witness.
+
+It requires a certified copy of the original certified copy.
+
+It must be lodged before 4:30 pm.
+
+But the office closes at 4:00 pm.
+
+The form is available online.
+
+The website is temporarily unavailable.
+
+The phone line is experiencing unusually high call volumes.
+
+The email address is no longer monitored.
+
+The postal address has changed.
+
+The department has moved.
+
+The new department has not inherited the old records.
+
+The old department has retained the old records.
+
+The new department says it cannot access them.
+
+The old department says it no longer has responsibility.
+
+And the citizen is sitting at home wondering whether the entire country has been designed by a committee of malfunctioning toasters.
+
+He opens his archive.
+
+He checks the documents.
+
+He makes another entry.
+
+He adds another link.
+
+He saves another copy.
+
+And he writes:
+
+THE WITNESS REMAINS. THE RECORD REMAINS.
+
+Somewhere in the distance, a printer begins screaming again.
+
+⸻
+
+EPILOGUE OF THE FIRST INSTALMENT
+
+THE JOKE IS THAT THE HUMAN BEING IS REAL
+
+The joke is not that a person needed help.
+
+The joke is not that he was disabled.
+
+The joke is not that he was gay.
+
+The joke is not that he made complaints.
+
+The joke is not that he wanted answers.
+
+The joke is the extraordinary contrast between the complexity of institutional machinery and the simplicity of the human request.
+
+A person wanted to be heard.
+
+A person wanted to understand decisions affecting his life.
+
+A person wanted to be safe.
+
+A person wanted to live with dignity.
+
+And the administrative response, as experienced by the protagonist, became a labyrinth of correspondence, references, referrals and unresolved questions.
+
+That is the black comedy.
+
+Not because the consequences are funny.
+
+Because the absurdity is so enormous that sometimes laughter is the only way to describe it.
+
+END OF INSTALMENT ONE
+
+Next: The Ministry of Unanswered Questions, The Department of Lost Jurisdiction, The Great NDIS Accommodation Circus, The Public Guardian’s Looking Glass, The Ombudsman’s Magical Disappearing Complaint, and the citizen who accidentally became the national librarian of his own fucking ordeal.
+
+The evidence links above are starting points, not proof of wrongdoing. The four priority PDFs still need exact page-by-page examination before we can write scenes that attribute particular actions or decisions to named people. That is how we make the satire both brutal and defensible.
+J
+
+THE GREAT AUSTRALIAN BUREAUCRATIC FUCK-UP
+
+Instalment Two — The Department of Unanswered Questions
+
+The black comedy continues.
+
+CHAPTER TEN
+
+THE NDIS: THE NATIONAL DEPARTMENT OF INDEPENDENTLY SAYING NO
+
+There are few things more inspiring than the word independence.
+
+Independence.
+
+Freedom.
+
+Choice.
+
+Control.
+
+The ability to make decisions about your own life.
+
+Beautiful words.
+
+Words that look magnificent on government websites, particularly when photographed beside a smiling person in a wheelchair standing in front of a window with excellent natural lighting.
+
+The National Disability Insurance Scheme was established to support people with disability.
+
+It has plans.
+
+It has budgets.
+
+It has support categories.
+
+It has reviews.
+
+It has planning meetings.
+
+It has service agreements.
+
+It has providers.
+
+It has participants.
+
+And it has enough acronyms to make the United Nations look like a children’s alphabet book.
+
+Enter Richard.
+
+A disabled man trying to navigate the machinery of disability support.
+
+Now, you might imagine that a person who needs disability support would be able to obtain a reasonably clear explanation of what support is available, how it can be accessed and who is responsible for providing it.
+
+That would be an adorable assumption.
+
+The NDIS operates under legislation, rules, planning decisions and administrative processes. Its decisions are not all made by the same people, and not every problem involving disability support is an NDIS problem.
+
+But from the participant’s perspective, the distinction can become rather academic when the practical question is:
+
+“Who the hell is helping me today?”
+
+The archive identifies an NDIS Plan Approval dated 20 November 2025.
+
+NDIS Plan Approval — reference 366406.
+
+https://wezzo72.github.io/Barrandodger/2025-11-20_NDIS_Plan_Approval_366406.pdf
+
+A plan approval is an important document.
+
+It should be read for the actual funding, supports, conditions, dates and decisions it contains.
+
+It should not be treated as proof that every subsequent service was delivered properly.
+
+Nor should it be treated as proof that every later problem was caused by the agency that approved the plan.
+
+But it gives us a starting point.
+
+And the starting point is this:
+
+A plan is not a person.
+
+A budget is not a support worker.
+
+A funded category is not a meal.
+
+A service agreement is not a functioning relationship.
+
+And a PDF does not walk the dog.
+
+The NDIS has a very special superpower.
+
+It can make a person feel as though he is the chief executive of a small disability-support corporation.
+
+The person must understand the plan.
+
+Understand the categories.
+
+Understand the providers.
+
+Understand the service bookings.
+
+Understand the invoices.
+
+Understand the rules.
+
+Understand the review process.
+
+Understand the difference between what is funded and what is delivered.
+
+And, if anything goes wrong, understand which organisation is responsible.
+
+Congratulations.
+
+You are now disabled and an unpaid compliance officer.
+
+Please collect your lanyard at reception.
+
+CHAPTER ELEVEN
+
+SIL, SDA AND THE THREE-LETTER APOCALYPSE
+
+By January 2026, the archive identifies an accommodation request concerning SIL and SDA.
+
+The document:
+
+20 January 2026 — Accommodation Request, SIL/SDA.
+
+https://wezzo72.github.io/Barrandodger/2026-01-20_Accommodation_Request_SIL_SDA.pdf
+
+Supported Independent Living.
+
+Specialist Disability Accommodation.
+
+Two phrases that sound like they were invented by a committee that had never tried to explain anything to a normal human being.
+
+SIL.
+
+SDA.
+
+DSP.
+
+NDIS.
+
+FOI.
+
+PID.
+
+AAT.
+
+NCAT.
+
+The Australian public service has apparently decided that vowels are an unnecessary expense.
+
+Imagine trying to explain this to somebody from overseas.
+
+“Where do you live?”
+
+“Well, that’s complicated.”
+
+“Do you rent?”
+
+“Yes.”
+
+“Do you own?”
+
+“No.”
+
+“Are you supported?”
+
+“Possibly.”
+
+“By whom?”
+
+“That depends on the funding category.”
+
+“What funding category?”
+
+“That depends on the plan.”
+
+“What plan?”
+
+“The NDIS plan.”
+
+“Who provides the accommodation?”
+
+“That depends on the SIL arrangement.”
+
+“What is SIL?”
+
+“Supported Independent Living.”
+
+“Are you independent?”
+
+“That’s what we’re trying to establish.”
+
+“Can you choose where you live?”
+
+“That depends.”
+
+“On what?”
+
+“Whether the accommodation is appropriate, available, funded and supported.”
+
+“Can you just tell me where you live?”
+
+“Yes.”
+
+“Where?”
+
+“At the end of a very long email chain.”
+
+And there it is.
+
+The great Australian accommodation paradox.
+
+The system wants people to live independently.
+
+The system creates arrangements to support independent living.
+
+The person must then navigate a maze of processes to establish what independent living actually means in practice.
+
+Meanwhile, the rent is still due on Friday.
+
+The dog still needs walking.
+
+The fridge still needs food.
+
+And nobody has invented a government acronym for the cost of waiting.
+
+CHAPTER TWELVE
+
+ANGlicare AND THE SAFETY ASSESSMENT THAT ENTERED THE ROOM
+
+The archive identifies an Anglicare Safety Assessment dated 1 December 2025.
+
+Anglicare Safety Assessment — Duty of Care.
+
+https://wezzo72.github.io/Barrandodger/2025-12-01_Anglicare_Safety_Assessment_Duty_Care.pdf
+
+Now we enter the serious territory of duty of care.
+
+A safety assessment is not a decorative document.
+
+It is supposed to identify risks, relevant circumstances and appropriate responses.
+
+It should be read in its original context.
+
+What risks were identified?
+
+What recommendations were made?
+
+Who was responsible for responding?
+
+What action was taken?
+
+Were the recommendations implemented?
+
+What changed?
+
+Those are the questions.
+
+And because this is a black comedy, let us imagine the fictional safety-assessment committee.
+
+The committee meets around a table.
+
+There are six people.
+
+There are twelve folders.
+
+There are three laptops.
+
+There is one jug of water.
+
+There is a PowerPoint presentation entitled:
+
+RISK MANAGEMENT: ENSURING THAT EVERYONE KNOWS THAT EVERYONE ELSE IS RESPONSIBLE.
+
+The chair begins.
+
+“Thank you for attending. Today’s meeting concerns safety.”
+
+Everyone nods.
+
+“Has the risk been identified?”
+
+“Yes.”
+
+“Has it been documented?”
+
+“Yes.”
+
+“Has it been assessed?”
+
+“Yes.”
+
+“Has it been communicated?”
+
+“Yes.”
+
+“Has it been addressed?”
+
+Silence.
+
+A cough.
+
+Somebody rearranges a pen.
+
+“Has it been allocated?”
+
+“To whom?”
+
+“Exactly.”
+
+The meeting ends with an action item.
+
+The action item is to schedule another meeting.
+
+The next meeting will assess whether the action item from the previous meeting has been actioned.
+
+This is not an account of what Anglicare actually did. It is a satirical portrait of the universal administrative disease in which documenting a risk can become confused with resolving it.
+
+A safety assessment is not a safety outcome.
+
+A recommendation is not an intervention.
+
+A duty of care is not a heading.
+
+It is something that has to be carried out.
+
+CHAPTER THIRTEEN
+
+THE PUBLIC GUARDIAN AND THE MIRROR OF INDEPENDENCE
+
+There are few things more complicated than autonomy.
+
+It is easy to say that people should have control over their lives.
+
+It is harder to work out what happens when someone requires assistance with decisions, finances or daily arrangements.
+
+Guardianship and financial management systems exist to deal with serious questions about support and decision-making.
+
+They also carry serious consequences.
+
+The archive identifies NCAT matter 2024/00324093.
+
+https://wezzo72.github.io/Barrandodger/imports/official-2026-10-01/ncat-2024-00324093-written-reasons-cover-letter.pdf
+
+The original reasons must be inspected before we describe the orders, findings or roles of the people involved.
+
+But the satirical premise is simple.
+
+Imagine being a person who wants more control over his life.
+
+Now imagine being told that the process for considering your control involves a series of other people, documents, assessments, hearings and decisions.
+
+You might reasonably ask:
+
+“At what point do I get to exercise some control?”
+
+The answer, in the imaginary Department of Autonomy, is:
+
+“After completing Form 18B.”
+
+“What is Form 18B?”
+
+“The application for independent consideration of your application for autonomy.”
+
+“Can I get help?”
+
+“Certainly.”
+
+“Who from?”
+
+“An authorised person.”
+
+“Can I choose the authorised person?”
+
+“That depends.”
+
+“On what?”
+
+“Whether the authorised person is authorised.”
+
+“Can I appeal?”
+
+“Yes.”
+
+“How?”
+
+“Please see the information booklet.”
+
+“Where is the booklet?”
+
+“Online.”
+
+“The website isn’t working.”
+
+“Have you tried another browser?”
+
+“Yes.”
+
+“Have you tried clearing your cache?”
+
+“Yes.”
+
+“Have you tried being less disabled?”
+
+The room falls silent.
+
+Even the printer looks embarrassed.
+
+That final line is the fictional cruelty of the system, not a claim about any named person or organisation.
+
+The real issue is whether decision-making arrangements preserve the person’s rights, dignity, participation and legal protections.
+
+The actual NCAT reasons must answer the actual legal questions.
+
+The comedy can wait for the evidence.
+
+CHAPTER FOURTEEN
+
+THE COMMONWEALTH OMBUDSMAN: NOW YOU SEE THE COMPLAINT, NOW YOU DON’T
+
+The Commonwealth Ombudsman appears more than once in this documentary story.
+
+We have already encountered the 2022 Public Interest Disclosure correspondence.
+
+Now consider another archive entry:
+
+Commonwealth Ombudsman service restriction — reference 2024-706941, 8 August 2025.
+
+The earlier examination of the available copy identified a five-page PDF, with an author-created cover followed by correspondence on Ombudsman letterhead.
+
+The operative wording needs to be checked against the original.
+
+That distinction matters.
+
+An archive cover is not the official letter.
+
+A heading is not the operative decision.
+
+And a document’s existence does not tell us everything that happened before or after it was issued.
+
+But the comedy practically writes itself.
+
+Imagine a citizen attempting to contact an Ombudsman.
+
+The citizen says:
+
+“I need assistance.”
+
+The Ombudsman says:
+
+“We have received your correspondence.”
+
+The citizen says:
+
+“Thank you. Can you help?”
+
+The Ombudsman says:
+
+“We have considered your correspondence.”
+
+The citizen says:
+
+“Thank you. What happens now?”
+
+The Ombudsman says:
+
+“Please refer to our previous correspondence.”
+
+The citizen says:
+
+“That correspondence says you have restricted services.”
+
+The Ombudsman says:
+
+“Correct.”
+
+The citizen says:
+
+“So how do I get help?”
+
+The Ombudsman says:
+
+“Please refer to our previous correspondence.”
+
+The citizen says:
+
+“That is the correspondence I am asking about.”
+
+The Ombudsman says:
+
+“Thank you for contacting us.”
+
+The citizen looks at the ceiling.
+
+The ceiling offers no jurisdictional guidance.
+
+Somewhere, a file is marked final.
+
+Somewhere else, the question remains open.
+
+The comedy here is not that a complaint was necessarily mishandled. That requires examination of the full correspondence and applicable rules.
+
+The comedy is the Kafkaesque experience of being directed to a document that itself becomes the obstacle to obtaining an explanation.
+
+CHAPTER FIFTEEN
+
+THE VICTORIAN OMBUDSMAN: SECTION 29A AND THE MAGIC WORDS THAT MAKE PAPERWORK DISAPPEAR
+
+There is a particular kind of government correspondence that seems to possess supernatural powers.
+
+It can make a document unavailable.
+
+It can make a request narrower.
+
+It can make a citizen wonder whether the thing he is asking for exists in the first place.
+
+The archive identifies a Victorian Ombudsman FOI decision dated 14 June 2022 involving section 29A.
+
+The earlier examination of the record described the decision as relying on an exclusion concerning documents connected with Ombudsman complaints or investigations.
+
+The actual decision and its precise legal scope must be checked before drawing broader conclusions.
+
+But section 29A has a starring role in our fictional administrative pantheon.
+
+It walks into the room wearing a dark suit.
+
+It carries a briefcase.
+
+It says:
+
+“Have you requested the documents?”
+
+“Yes.”
+
+“Are they documents concerning the Ombudsman?”
+
+“Yes.”
+
+“Then we may have a problem.”
+
+“What problem?”
+
+“The problem concerning the documents concerning the Ombudsman.”
+
+“Can I see the documents?”
+
+“That is the question.”
+
+“Can I appeal?”
+
+“That is another question.”
+
+“Can somebody explain what is happening?”
+
+“That is a third question.”
+
+“How many questions are there?”
+
+The official checks the legislation.
+
+“At least three.”
+
+The citizen looks at the archive.
+
+The archive looks back.
+
+A new PDF is born.
+
+CHAPTER SIXTEEN
+
+LECC: THE LETTER THAT ARRIVED FROM OUTSIDE JURISDICTION
+
+Now we travel to New South Wales.
+
+The Law Enforcement Conduct Commission.
+
+A long title.
+
+A serious remit.
+
+A name that sounds like it should be accompanied by dramatic music and a helicopter shot of Sydney Harbour.
+
+The archive identifies a letter dated 19 November 2025.
+
+Reference: CASE202512395/13KM.
+
+The letter is described in the earlier examination as stating that the complaint did not concern NSW Police or NSW Crime Commission officers within the Commission’s jurisdiction and that the Commission could not take action on the information supplied.
+
+The archived document:
+
+https://github.com/wezzo72/Backup/blob/main/client/public/documents/government-evidence/Government%20Evidence/2025-11-19_LECC_Out_Of_Jurisdiction.pdf
+
+Now, let us be clear.
+
+An organisation declining to act because a matter falls outside its jurisdiction is not proof of misconduct.
+
+Jurisdiction is real.
+
+Statutory boundaries matter.
+
+But to the person who has spent years trying to get an answer, the phrase can sound like a national anthem.
+
+“Outside jurisdiction.”
+
+It has rhythm.
+
+It has poetry.
+
+It has the emotional warmth of a parking ticket.
+
+Imagine the complaint arriving at reception.
+
+“Good morning. I have a complaint.”
+
+“Excellent. Is it within our jurisdiction?”
+
+“I don’t know.”
+
+“Then we may be unable to assist.”
+
+“Can you tell me who has jurisdiction?”
+
+“That depends.”
+
+“On what?”
+
+“The nature of the complaint.”
+
+“Can you tell me what the nature of the complaint is?”
+
+“That depends on the information supplied.”
+
+“Can you assess the information?”
+
+“Only if it falls within our jurisdiction.”
+
+The citizen looks at the ceiling again.
+
+The ceiling is now considering early retirement.
+
+CHAPTER SEVENTEEN
+
+THE AFP: FEDERAL POLICE AND THE GREAT ART OF NOT BEING THE WHOLE GOVERNMENT
+
+The archive identifies an AFP response dated 3 September 2021.
+
+There is also a later archive reference to a compensation-related follow-up dated 21 October 2021.
+
+The exact contents have not been extracted here.
+
+So we will not invent the wording.
+
+We will not claim that the AFP made a finding it did not make.
+
+We will not turn a response into a confession.
+
+But we can still introduce the fictional Federal Bureau of Administrative Expectations.
+
+Its motto:
+
+WE INVESTIGATE WHAT WE INVESTIGATE.
+
+A citizen arrives.
+
+“I have information.”
+
+“Thank you.”
+
+“I believe something serious happened.”
+
+“Thank you.”
+
+“Can you investigate?”
+
+“That depends on whether the matter falls within our remit.”
+
+“Who determines that?”
+
+“The relevant authority.”
+
+“Can you tell me who that is?”
+
+“That depends on the matter.”
+
+“Can you explain the process?”
+
+“Certainly. We have a webpage.”
+
+“Can I speak to someone?”
+
+“Certainly. Please use the contact details on the webpage.”
+
+The citizen opens the webpage.
+
+It contains a link.
+
+The link leads to a form.
+
+The form requires a reference number.
+
+The citizen has a reference number.
+
+The form says the reference number is invalid.
+
+The citizen takes a breath.
+
+Somewhere in the distance, a kangaroo is laughing.
+
+CHAPTER EIGHTEEN
+
+NSW POLICE: THE LETTER, THE COMPLAINT AND THE NATIONAL CHAMPIONSHIP OF CORRESPONDENCE
+
+The archive identifies a NSW Police letter dated 24 August 2024 concerning a complaint.
+
+The record is linked here:
+
+https://github.com/wezzo72/Backup/blob/main/client/public/documents/government-evidence/Government%20Evidence/Your%20complaint%20about%20the%20NSW%20Police%20Force%20Letter%20to%20Barran%20Dodger%20-%2024%20August%202024.pdf
+
+The actual letter must be read before we describe its conclusions or attribute conduct to any officer.
+
+This is a documentary investigation, not a guessing competition.
+
+But there is an important distinction between a complaint being acknowledged, a complaint being assessed, a complaint being investigated and a complaint resulting in a formal finding.
+
+Four different things.
+
+Four different administrative destinations.
+
+Four opportunities for a citizen to misunderstand what has actually happened.
+
+And one enormous opportunity for a bureaucratic comedy writer.
+
+Imagine the fictional Police Correspondence Orchestra.
+
+The conductor raises the baton.
+
+First violins:
+
+“Your complaint has been received.”
+
+Cellos:
+
+“Your complaint has been reviewed.”
+
+Trumpets:
+
+“The matter has been finalised.”
+
+Trombones:
+
+“If you remain dissatisfied, please contact the relevant body.”
+
+Percussion:
+
+“Reference number.”
+
+The orchestra plays a triumphant finale.
+
+The citizen is still asking the original question.
+
+The conductor bows.
+
+CHAPTER NINETEEN
+
+THE GREAT HUMAN RESOURCES EXPERIMENT: CAN A PERSON BE TURNED INTO A REFERENCE NUMBER?
+
+The transformation is gradual.
+
+At first, you are a person.
+
+Then you are a complainant.
+
+Then you are an applicant.
+
+Then you are a participant.
+
+Then you are a matter.
+
+Then you are a case.
+
+Then you are a reference.
+
+Then you are an attachment.
+
+Then you are an attachment to an attachment.
+
+And finally, if the process goes on long enough, you become a filename.
+
+Something like:
+
+2026-11-15_FINAL_FINAL_REVISED_CORRESPONDENCE_3.pdf
+
+The system has achieved its ultimate objective.
+
+It has converted a living human being into a file that can be moved between folders without requiring anyone to make eye contact.
+
+This is the moment when the protagonist discovers the true meaning of administrative immortality.
+
+You can be ignored.
+
+You can be referred.
+
+You can be restricted.
+
+You can be reassessed.
+
+You can be transferred.
+
+You can be placed on hold.
+
+But you can never truly die.
+
+Because the reference number lives forever.
+
+CHAPTER TWENTY
+
+THE FINAL SCENE: THE CITIZEN VERSUS THE PRINTER
+
+It is late.
+
+Richard is sitting at his desk.
+
+The archive is open.
+
+There are PDFs everywhere.
+
+There are links.
+
+There are folders.
+
+There are records with dates.
+
+There are records with reference numbers.
+
+There are records whose contents still need to be checked.
+
+There are records that need page numbers.
+
+There are records that need better descriptions.
+
+And there are questions.
+
+So many fucking questions.
+
+The printer begins to make a noise.
+
+A familiar noise.
+
+A noise that sounds like a small animal being strangled by a spreadsheet.
+
+Richard looks at it.
+
+“Don’t you start.”
+
+The printer continues.
+
+“Don’t you fucking start.”
+
+The printer displays:
+
+PAPER JAM.
+
+Richard stares.
+
+He has dealt with government agencies.
+
+He has dealt with complaint processes.
+
+He has dealt with referrals, restrictions, determinations, assessments and reviews.
+
+But this?
+
+This is personal.
+
+He opens the printer tray.
+
+There is no paper jam.
+
+He closes the tray.
+
+The printer displays:
+
+PAPER JAM.
+
+He opens the rear panel.
+
+Nothing.
+
+He checks the rollers.
+
+Nothing.
+
+He removes the cartridge.
+
+Nothing.
+
+He restarts the machine.
+
+The printer displays:
+
+PAPER JAM.
+
+Richard whispers:
+
+“You know what? Fair enough.”
+
+Because the printer, at least, has been honest about being fucked.
+
+⸻
+
+INTERMISSION
+
+A MOMENT OF SILENCE FOR THE UNANSWERED EMAIL
+
+Let us pause.
+
+Not for the institutions.
+
+Not for the paperwork.
+
+Not for the printers.
+
+For the human being.
+
+Because underneath all this comedy is a real person’s account of years of administrative conflict, disability-related support needs, attempts to obtain explanations and a desire to be safe and treated with dignity.
+
+The archive does not establish every allegation.
+
+The documents have not all been inspected.
+
+The named people have not all been shown to have acted improperly.
+
+But the questions can be examined.
+
+And that is precisely why the archive matters.
+
+The next instalment will turn to the people and roles appearing in the accommodation and support narrative, the question of who had responsibility for what, the financial-administration maze, and the astonishing proposition that a person can spend so much time trying to obtain independence that he needs a holiday from the independence process itself.
+
+TO BE CONTINUED.
+
+Next instalment: The Trustee, the Guardian, the Support Coordinator and the Dog Who Had More Sense Than the Entire Committee.
+
+THE GREAT AUSTRALIAN BUREAUCRATIC FUCK-UP
+
+Instalment Three — The Guardian, the Trustee and the Dog Who Understood Everything
+
+The black comedy continues. The paperwork gets thicker. The profanity gets cheaper. Crystal remains the only character with a functioning bullshit detector.
+
+CHAPTER TWENTY-ONE
+
+THE PUBLIC TRUSTEE: WHERE YOUR MONEY GOES TO HAVE A MEETING ABOUT ITSELF
+
+Money is a funny thing.
+
+You earn it.
+You spend it.
+You save it.
+You try not to waste it.
+
+And then, if you are extraordinarily unlucky, you discover that managing your own money has become a multidisciplinary administrative event involving legislation, authorisations, budgets, payment schedules and people whose job titles sound as though they were assembled by a government acronym generator.
+
+Enter the NSW Trustee and Guardian.
+
+Now, the organisation has important statutory responsibilities. Financial management arrangements can be necessary in particular circumstances, and they must be exercised according to the applicable legal framework.
+
+But from the perspective of a person trying to understand his own finances, the experience can become a financial version of an escape room.
+
+The door is locked.
+
+The key is held by an office.
+
+The office requires identification.
+
+The identification is in a folder.
+
+The folder is in a different office.
+
+The different office requires a reference number.
+
+The reference number is in the first office.
+
+And somewhere in the middle, your bank account is looking at you like:
+
+“Mate, I don’t know what the fuck is happening either.”
+
+Richard has described restrictions affecting access to Commonwealth Bank internet banking and the mobile app following the involvement of the NSW Trustee and Guardian and the Public Guardian.
+
+That is his account of the circumstances.
+
+The precise legal authority, communications, banking instructions and sequence of events must be established from the relevant records.
+
+But the fictional scene is irresistible.
+
+A citizen walks into the Department of Financial Independence.
+
+“Good morning. I’d like to access my money.”
+
+“Certainly.”
+
+“Thank you.”
+
+“Do you have authorisation?”
+
+“I am the account holder.”
+
+“Excellent. Do you have authorisation?”
+
+“I am the account holder.”
+
+“Wonderful. We have established that.”
+
+“Can I access my account?”
+
+“That depends.”
+
+“On what?”
+
+“Your access.”
+
+“Yes. That’s what I’m asking about.”
+
+“Excellent. Please complete the access request.”
+
+“Where?”
+
+“Online.”
+
+“I can’t access online banking.”
+
+“Then please use online banking to complete the request.”
+
+The citizen looks at the ceiling.
+
+The ceiling has now submitted a resignation.
+
+The institution’s computer displays:
+
+YOUR FINANCIAL INDEPENDENCE IS IMPORTANT TO US.
+
+Underneath it:
+
+ACCESS DENIED.
+
+The computer is enjoying itself.
+
+CHAPTER TWENTY-TWO
+
+THE COMMONWEALTH BANK: PLEASE HOLD WHILE WE INVESTIGATE YOUR ABILITY TO HOLD
+
+The Commonwealth Bank enters the story.
+
+Not as a villain.
+
+Not as a proven conspirator.
+
+As a financial institution with its own procedures, security obligations, access controls and customer-service machinery.
+
+Richard has described losing access to internet banking and the mobile application, and has referred to contact with the Bateau Bay branch and a complaint meeting in Goulburn.
+
+He has also described having an iPhone 16 operating on Wi-Fi without ordinary phone credit during part of the period.
+
+These are matters of personal testimony until matched with bank records, correspondence and account-access documentation.
+
+Now picture the fictional customer-service department.
+
+A phone rings.
+
+“Commonwealth Bank. How can I help?”
+
+“I can’t access my banking.”
+
+“I’m sorry to hear that. Have you tried the app?”
+
+“Yes.”
+
+“What happens?”
+
+“It won’t let me in.”
+
+“Have you tried internet banking?”
+
+“Yes.”
+
+“What happens?”
+
+“It won’t let me in.”
+
+“Have you tried resetting your password?”
+
+“Yes.”
+
+“What happens?”
+
+“It still won’t let me in.”
+
+“Have you tried calling us?”
+
+“That’s what I’m doing.”
+
+“Excellent. Can you please log in to your account so we can verify your identity?”
+
+“How?”
+
+“Through the app.”
+
+“The app won’t let me in.”
+
+“Through internet banking?”
+
+“That won’t let me in either.”
+
+“Do you have a branch nearby?”
+
+“Yes.”
+
+“Wonderful. Please attend the branch.”
+
+“I did.”
+
+“Excellent. What happened?”
+
+“They couldn’t resolve it there.”
+
+“Have you tried calling us?”
+
+The citizen takes a deep breath.
+
+Somewhere, a banknote begins to cry.
+
+CHAPTER TWENTY-THREE
+
+THE BUDGET: A MASTERPIECE OF MATHEMATICAL TRAGEDY
+
+Richard previously supplied a financial picture that looked like something written by a mathematician who had just discovered existential dread.
+
+Income:
+
+$1,371.27 per fortnight.
+
+Expenses:
+
+$1,369.96 per fortnight.
+
+Difference:
+
+$1.31.
+
+One dollar and thirty-one cents.
+
+The entire financial universe balanced on the price of a small coffee-related disappointment.
+
+This is not a joke about poverty.
+
+It is a joke about the extraordinary precision with which a person can be left trying to survive.
+
+Imagine the fictional Department of Budgetary Optimism.
+
+A senior official studies the figures.
+
+“Good news. There is a surplus.”
+
+“How much?”
+
+“One dollar and thirty-one cents.”
+
+“Excellent. What can I do with it?”
+
+“That depends.”
+
+“On what?”
+
+“Inflation.”
+
+“Can I save it?”
+
+“Possibly.”
+
+“Can I buy something?”
+
+“Possibly.”
+
+“Can I use it for an emergency?”
+
+“That depends on the emergency.”
+
+“Can I afford a bus ticket?”
+
+The official checks the spreadsheet.
+
+“Not if the bus goes very far.”
+
+The committee celebrates.
+
+A surplus has been achieved.
+
+Somewhere, a performance indicator turns green.
+
+The department’s annual report now contains a sentence:
+
+THE CLIENT’S BUDGET HAS ACHIEVED A POSITIVE BALANCE.
+
+The client has achieved a positive balance of $1.31.
+
+He is now financially indistinguishable from a billionaire, provided the billionaire never buys anything.
+
+CHAPTER TWENTY-FOUR
+
+THE THREE PAYMENTS: MONDAY, WEDNESDAY AND FRIDAY — THE HOLY TRINITY OF NOT ENOUGH MONEY
+
+Richard described a payment arrangement involving:
+
+	•	$150 on Monday.
+	•	$100 on Wednesday.
+	•	$150 on Friday.
+
+A total of $400.
+
+Three payments.
+
+Three separate days.
+
+One enormous administrative opportunity.
+
+Imagine the fictional National Institute of Payment Scheduling.
+
+The committee meets.
+
+“Why three payments?”
+
+“Cash-flow management.”
+
+“Why those amounts?”
+
+“Budget allocation.”
+
+“Why not one payment?”
+
+“That would be one payment.”
+
+“Yes.”
+
+“Whereas this is three.”
+
+“Correct.”
+
+“Could we make it simpler?”
+
+“Certainly. We could create a form requesting simplification.”
+
+“How long would that take?”
+
+“Approximately three to six business weeks.”
+
+“What happens in the meantime?”
+
+“The existing payment arrangement continues.”
+
+“Could we change it?”
+
+“Yes.”
+
+“How?”
+
+“By applying to change it.”
+
+“Can the application be made today?”
+
+“Possibly.”
+
+“Will the money arrive today?”
+
+“That is a separate question.”
+
+There is a peculiar Australian tradition of believing that every human problem can be improved by dividing it into smaller administrative problems.
+
+The original problem is not enough money.
+
+The solution is to create a payment schedule.
+
+The payment schedule is then reviewed.
+
+The review creates a new payment schedule.
+
+The new payment schedule creates a correspondence trail.
+
+The correspondence trail creates a financial-management question.
+
+The financial-management question creates another appointment.
+
+And suddenly a person who wanted to buy groceries is conducting a small PhD in payment administration.
+
+CHAPTER TWENTY-FIVE
+
+THE DOG: THE ONLY MEMBER OF THE HOUSEHOLD WHO HAS READ THE ROOM
+
+Enter Crystal.
+
+Crystal does not have a case number.
+
+Crystal does not have an administrative reference.
+
+Crystal does not have a statutory delegation.
+
+Crystal does not have a service agreement.
+
+Crystal does not have a complaints process.
+
+Crystal has four legs, a nose, a tail and a remarkable ability to identify nonsense.
+
+Crystal has food.
+
+Crystal has water.
+
+Crystal has a human being who loves her.
+
+And, unlike several fictional committees in this book, Crystal understands the importance of showing up.
+
+Imagine a meeting.
+
+Present:
+
+	•	The Guardian.
+	•	The Trustee.
+	•	The Support Coordinator.
+	•	The Service Provider.
+	•	The Administrative Officer.
+	•	The Senior Administrative Officer.
+	•	The Executive Administrative Officer.
+	•	The Assistant to the Executive Administrative Officer.
+	•	Crystal.
+
+The chair begins.
+
+“Today’s meeting concerns the participant’s welfare.”
+
+Crystal yawns.
+
+“We need to consider the participant’s support arrangements.”
+
+Crystal scratches her ear.
+
+“We need to consider the accommodation situation.”
+
+Crystal looks at the door.
+
+“We need to consider communication between stakeholders.”
+
+Crystal gets up.
+
+“We need to consider risk management.”
+
+Crystal walks to her water bowl.
+
+“We need to consider the participant’s expressed preferences.”
+
+Crystal drinks.
+
+The chair pauses.
+
+“Does anyone have anything to add?”
+
+Crystal returns to her bed.
+
+The meeting concludes.
+
+The minutes record:
+
+The dog was present.
+
+The dog appeared to understand the discussion.
+
+The dog did not request a copy of the minutes.
+
+Crystal is promoted to Director of Common Sense.
+
+Her first executive decision:
+
+Feed the dog.
+
+Her second:
+
+Stop making everything so fucking complicated.
+
+Her third:
+
+Take the human outside for some fresh air.
+
+CHAPTER TWENTY-SIX
+
+THE SUPPORT COORDINATOR: THE MYSTERY OF THE PERSON YOU HAVE NEVER MET
+
+A support coordinator can play an important role in helping a participant understand and navigate support arrangements.
+
+Communication matters.
+
+Availability matters.
+
+Clarity matters.
+
+A participant should be able to understand who is coordinating what, how to contact them and what responsibilities they have accepted.
+
+Richard has described a support coordinator, Suki/Sukhi Tear, based in Perth, whom he says he has never met.
+
+That is his account.
+
+We need the service agreement, communications, contact records and actual role description before drawing conclusions about the individual’s performance.
+
+But let us imagine the fictional National Institute of Long-Distance Coordination.
+
+A participant asks:
+
+“Who is my support coordinator?”
+
+“That would be Suki.”
+
+“Where is Suki?”
+
+“Perth.”
+
+“Where am I?”
+
+“New South Wales.”
+
+“Have we met?”
+
+“Not yet.”
+
+“How does Suki know what support I need?”
+
+“Through communication.”
+
+“What communication?”
+
+“Emails.”
+
+“Can I speak to Suki?”
+
+“Certainly.”
+
+“How?”
+
+“By contacting Suki.”
+
+“Can I have a meeting?”
+
+“Certainly.”
+
+“Where?”
+
+“That depends.”
+
+“On what?”
+
+“Whether it is in person or online.”
+
+“Can somebody explain my support arrangements?”
+
+“Certainly.”
+
+“Who?”
+
+“Suki.”
+
+“Where?”
+
+“Perth.”
+
+The participant looks at Crystal.
+
+Crystal looks at the participant.
+
+The participant looks at the phone.
+
+The phone looks at the participant.
+
+Nobody moves.
+
+This is the great technological promise of the modern age.
+
+We can send information around the world in seconds.
+
+We can hold video conferences across continents.
+
+We can operate satellites.
+
+We can put a computer in our pockets.
+
+And yet the most important question remains:
+
+Has the person responsible for coordinating support actually understood the person receiving it?
+
+That is not a question answered by the geographical location of a coordinator.
+
+It is answered by the quality of the relationship, the service provided and the records.
+
+CHAPTER TWENTY-SEVEN
+
+THE SUPPORT WORKERS: THE PEOPLE WHO ACTUALLY TURN UP
+
+There is a difference between a system and the people who work inside it.
+
+Richard has described support workers, including Cass/Cassandra, John, Danny, Darren and Brett Butler.
+
+He has described practical assistance involving medication, transport and appointments.
+
+Those are personal accounts, and the individual responsibilities of each worker should be checked against rosters, service records and agreements before specific conduct is attributed.
+
+This chapter is dedicated to the strange reality of frontline support.
+
+Because while the administrative universe is busy holding meetings about service delivery, somebody still has to do the actual service delivery.
+
+Somebody has to turn up.
+
+Somebody has to help with transport.
+
+Somebody has to assist with daily routines.
+
+Somebody has to communicate.
+
+Somebody has to notice when something is wrong.
+
+Somebody has to remember that the participant is a person and not a quarterly performance metric.
+
+Imagine the fictional executive committee.
+
+“How are we progressing?”
+
+“Excellent.”
+
+“What has been delivered?”
+
+“We have developed a framework.”
+
+“How many hours of practical support?”
+
+“That is being assessed.”
+
+“How many transport trips?”
+
+“That is being coordinated.”
+
+“How many appointments attended?”
+
+“That is being monitored.”
+
+“Has anyone actually helped the participant get to an appointment?”
+
+Silence.
+
+A junior staff member raises a hand.
+
+“Yes. One of the workers did.”
+
+The executive committee looks horrified.
+
+“Without a framework?”
+
+“Yes.”
+
+“Without a steering committee?”
+
+“Yes.”
+
+“Without a subcommittee?”
+
+“Yes.”
+
+“Good God.”
+
+The junior worker is escorted from the room for excessive practical competence.
+
+CHAPTER TWENTY-EIGHT
+
+THE CEO AND THE MAGICAL ART OF BEING THE PERSON AT THE TOP WITHOUT BEING THE PERSON WHO ANSWERS
+
+Every organisation has a hierarchy.
+
+A board.
+
+A chief executive.
+
+Senior managers.
+
+Team leaders.
+
+Frontline workers.
+
+The hierarchy is designed to establish responsibility and ensure that decisions can be made.
+
+In the fictional Department of Executive Correspondence, however, the hierarchy has a peculiar feature.
+
+The higher you go, the more difficult it becomes to reach a human being.
+
+A complaint arrives.
+
+It goes to the team.
+
+The team sends it to the manager.
+
+The manager sends it to the executive.
+
+The executive sends it to governance.
+
+Governance sends it to legal.
+
+Legal sends it to the relevant operational division.
+
+The operational division asks the original team for information.
+
+The original team says the matter has been referred.
+
+The executive receives a briefing.
+
+The briefing says the matter is being managed.
+
+The citizen receives a letter.
+
+The letter says:
+
+“We have noted your concerns.”
+
+And the citizen thinks:
+
+“Wonderful. Has anybody actually answered them?”
+
+That is the executive magic trick.
+
+The organisation has become very busy.
+
+The citizen has become very tired.
+
+And the question remains exactly where it started.
+
+This is a fictional satire of organisational structures, not an allegation about a particular CEO.
+
+If the documentary record establishes who made a decision, who approved it and who was responsible for responding, those names and roles belong in the evidence index.
+
+But the joke does not require us to pretend that every person in a hierarchy personally caused every problem.
+
+The joke is that a hierarchy can sometimes make responsibility harder to find.
+
+CHAPTER TWENTY-NINE
+
+THE GREAT EMAIL EXPLOSION
+
+There is a point in every administrative saga when the protagonist discovers email.
+
+This is dangerous.
+
+Email is a technology of extraordinary power.
+
+It creates a timestamp.
+
+It creates a record.
+
+It allows attachments.
+
+It can be forwarded.
+
+It can be copied.
+
+It can be archived.
+
+And, most importantly, it allows a person to ask the same question in writing without having to remember what someone said on the telephone.
+
+Richard has described sending communications to multiple institutions and people involved in his circumstances.
+
+The documentary record must be assembled chronologically.
+
+Who received what?
+
+When?
+
+What was attached?
+
+Was a response received?
+
+Was the response complete?
+
+Was the matter referred?
+
+Was the matter closed?
+
+Did anyone explain why?
+
+These are excellent questions.
+
+But the fictional email system has a mind of its own.
+
+EMAIL 1: Please explain the decision.
+
+EMAIL 2: Following up on my previous email.
+
+EMAIL 3: I have not received a response.
+
+EMAIL 4: Please confirm receipt.
+
+EMAIL 5: This is now urgent.
+
+EMAIL 6: Please do not ignore the previous correspondence.
+
+EMAIL 7: I am forwarding the original email.
+
+EMAIL 8: I am forwarding the forwarded email.
+
+EMAIL 9: I am forwarding the forwarded email with the original attachment.
+
+EMAIL 10: Please see attached.
+
+The recipient replies:
+
+“Thank you for your correspondence.”
+
+Richard opens the email.
+
+It says:
+
+“Please refer to our previous correspondence.”
+
+He opens the previous correspondence.
+
+It says:
+
+“Thank you for your correspondence.”
+
+He opens the earlier correspondence.
+
+It says:
+
+“Please refer to our previous correspondence.”
+
+The email chain has become a snake eating its own tail.
+
+A digital ouroboros.
+
+The world’s first self-sustaining administrative ecosystem.
+
+CHAPTER THIRTY
+
+THE MEDIA: THE STORY THAT HASN’T YET MADE THE EVENING NEWS
+
+There is another institution in this story.
+
+The media.
+
+Local newspapers.
+
+Radio stations.
+
+Television newsrooms.
+
+Investigative journalists.
+
+Editors.
+
+Producers.
+
+The people who decide whether a story is newsworthy, verifiable, fair and publishable.
+
+A citizen might reasonably believe that a large archive of official documents would attract attention.
+
+But journalism requires more than a large number of PDFs.
+
+It requires a clear public-interest question, original documents, corroboration, the opportunity for affected parties to respond and careful verification.
+
+That is why the strongest version of this story is not a headline declaring that everybody is guilty.
+
+It is a documented question:
+
+How did this citizen’s attempts to obtain protection, support and accountability unfold across multiple institutions, and what do the records reveal about the decisions made?
+
+That is a story a serious journalist can investigate.
+
+The fictional newsroom is another matter.
+
+The editor looks at the archive.
+
+“How many documents?”
+
+“Thousands.”
+
+“How many verified?”
+
+“That depends on the document.”
+
+“How many named officials?”
+
+“Several.”
+
+“How many proven findings of wrongdoing?”
+
+“That depends on the actual decisions.”
+
+“Can we run the headline?”
+
+“Which headline?”
+
+“THE ENTIRE GOVERNMENT IS AFTER ONE MAN.”
+
+“No.”
+
+“WHY DOES THIS MAN HAVE SO MANY PDFs?”
+
+“Possibly.”
+
+“THE MYSTERY OF THE MISSING ANSWER.”
+
+“Now we’re getting somewhere.”
+
+The producer turns to the reporter.
+
+“Can you verify the first document?”
+
+“Yes.”
+
+“Can you verify the second?”
+
+“Not yet.”
+
+“Can you verify the third?”
+
+“Not yet.”
+
+“Can we publish all three as proof of a conspiracy?”
+
+“No.”
+
+“Can we investigate the gaps?”
+
+“Yes.”
+
+“Excellent. That’s journalism.”
+
+The newsroom goes quiet.
+
+Somebody has remembered how to do their job.
+
+CHAPTER THIRTY-ONE
+
+THE GITHUB EMPIRE: ONE MAN, THOUSANDS OF FILES AND A VERY UNHAPPY SEARCH FUNCTION
+
+By now, Richard has accumulated a digital archive that would make a university librarian reach for a strong cup of tea.
+
+The archive has repositories.
+
+It has a public website.
+
+It has a rebuilt version.
+
+It has backups.
+
+It has documents.
+
+It has indexes.
+
+It has historical material.
+
+It has government records.
+
+It has personal accounts.
+
+It has correspondence.
+
+It has links.
+
+It has enough organisational complexity to make a small government department look underfunded.
+
+The public repositories include:
+
+Barrandodger:
+https://github.com/wezzo72/Barrandodger
+
+Barrandodger Rebuild:
+https://github.com/wezzo72/barrandodger-rebuild
+
+Backup:
+https://github.com/wezzo72/Backup
+
+Published archive:
+https://wezzo72.github.io/Barrandodger/
+
+Official Government Documents Register:
+https://wezzo72.github.io/Barrandodger/official-government-documents-register.html
+
+The fictional GitHub server is having a nervous breakdown.
+
+A developer opens the repository.
+
+“What’s this?”
+
+“An archive.”
+
+“How many files?”
+
+“Thousands.”
+
+“How many PDFs?”
+
+“Thousands.”
+
+“How many links?”
+
+“More than we can comfortably discuss.”
+
+“How many have been inspected?”
+
+“Not all.”
+
+“How many need checking?”
+
+“Several.”
+
+“Can we search the repository?”
+
+“Yes.”
+
+“Can we find the document?”
+
+“Possibly.”
+
+“Can we open it?”
+
+“Possibly.”
+
+“Can we determine the exact page?”
+
+“Only if the PDF is accessible and inspected.”
+
+The developer looks at the screen.
+
+“Is this a software project?”
+
+“No.”
+
+“What is it?”
+
+“A national archaeological excavation of administrative correspondence.”
+
+“Who is the client?”
+
+“A man with a printer.”
+
+The developer closes the laptop.
+
+He has seen enough.
+
+CHAPTER THIRTY-TWO
+
+THE FINAL PERFORMANCE REVIEW
+
+The fictional Australian Administrative Excellence Awards are now in session.
+
+The categories are:
+
+	•	Best Use of the Phrase “Outside Our Jurisdiction.”
+	•	Outstanding Achievement in Forwarding an Email.
+	•	Best Supporting Role Played by an Unanswered Question.
+	•	Excellence in Creating a New Reference Number.
+	•	Best Performance by a Department That Has Received the Complaint but Cannot Investigate It.
+	•	Lifetime Achievement in the Art of Saying “Please Refer to Our Previous Correspondence.”
+	•	Best Use of the Word “Finalised” in a Matter That Remains Unresolved for the Person Involved.
+
+The winner of the final category is…
+
+The entire administrative system.
+
+It walks onto the stage.
+
+It accepts the award.
+
+It thanks nobody.
+
+It says the decision is final.
+
+Then it refers the award to another department.
+
+CHAPTER THIRTY-THREE
+
+CRYSTAL’S ROYAL COMMISSION
+
+At last, the country has had enough.
+
+A Royal Commission is announced.
+
+Not into a particular named person.
+
+Not into an invented conspiracy.
+
+Into the fictional Department of Administrative Absurdity.
+
+The terms of reference are simple:
+
+	1.	Determine why the citizen needed so many reference numbers.
+	2.	Determine why the citizen needed so many PDFs.
+	3.	Determine why a document can be received without a question being answered.
+	4.	Determine whether the phrase “outside our jurisdiction” has become a national pastime.
+	5.	Determine whether the participant’s dog has a better grasp of practical support than the administrative system.
+	6.	Determine whether the entire process could be replaced by one competent person answering one email.
+
+The chair enters.
+
+“Who will lead the inquiry?”
+
+Silence.
+
+A hand rises.
+
+Crystal.
+
+The chair looks surprised.
+
+“Does the dog have authority?”
+
+Crystal wags her tail.
+
+“Does the dog have qualifications?”
+
+Crystal sits.
+
+“Does the dog have experience?”
+
+Crystal looks at the chair.
+
+“Does the dog understand the issues?”
+
+Crystal gets up, walks to the door, waits for the human and then goes outside.
+
+The chair looks at the committee.
+
+“Motion carried.”
+
+The report is released the following morning.
+
+Its title:
+
+A DOG’S GUIDE TO COMMON SENSE: WHY WE SHOULD HAVE JUST ANSWERED THE FUCKING QUESTION.
+
+The recommendations are brief.
+
+	•	Feed the dog.
+	•	Protect the human.
+	•	Explain the decision.
+	•	Preserve the records.
+	•	Do not confuse administration with resolution.
+	•	Stop making everything harder than it needs to be.
+
+The government accepts the recommendations in principle.
+
+Implementation is scheduled for 2037.
+
+⸻
+
+FINAL CHAPTER
+
+THE MAN, THE DOG AND THE VERY LARGE FUCKING ARCHIVE
+
+At the end of the day, there is Richard.
+
+There is Crystal.
+
+There is a home.
+
+There are ordinary needs.
+
+There is food.
+
+There is water.
+
+There are appointments.
+
+There are finances.
+
+There are support arrangements.
+
+There are documents.
+
+There are unresolved questions.
+
+There is an archive.
+
+And there is a man who has spent an extraordinary amount of time trying to make sense of what happened.
+
+He has been angry.
+
+He has been frustrated.
+
+He has been determined.
+
+He has used the language of prophecy, protest, journalism and documentary investigation.
+
+And now he has written a black comedy about the whole bloody circus.
+
+Not because the suffering is funny.
+
+Not because disability is funny.
+
+Not because being gay is funny.
+
+Not because being a whistleblower is funny.
+
+Because sometimes the most absurd thing about an absurd system is that it never realises how absurd it looks.
+
+The system has its letters.
+
+The system has its processes.
+
+The system has its committees.
+
+The system has its reference numbers.
+
+The system has its policies.
+
+The system has its annual reports.
+
+The system has its glossy photographs of smiling people.
+
+And the citizen has his archive.
+
+He has preserved the documents.
+
+He has linked the records.
+
+He has asked the questions.
+
+He has not stopped wanting an answer.
+
+And Crystal?
+
+Crystal has gone to sleep.
+
+She has eaten.
+
+She has had water.
+
+She is not interested in the administrative review.
+
+She does not care about the jurisdictional boundaries.
+
+She does not want a stakeholder meeting.
+
+She does not need a service-delivery framework.
+
+She just wants her human to be safe.
+
+Which, when you think about it, is a remarkably reasonable fucking policy.
+
+THE WITNESS REMAINS.
+
+THE RECORD REMAINS.
+
+THE DOG REMAINS UNIMPRESSED.
+
+End of Instalment Three.
+
