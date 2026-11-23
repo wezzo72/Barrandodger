@@ -1,0 +1,4 @@
+Imported additional PDFs from richarddrawsstuff@gmail.com Google Drive under drive-import/.
+New files identified and attempted: barran-dodger-at-asic-1T12OQuRff4C-K6c7q3OWBhrrEq0uCQnd.pdf, barran-dodger-trust-abn-1cPTJ_AxlpbKBxl4HSetqyLaTheIxOPXY.pdf, barrandodger-com-analysis-1q478r4MxGNT2XWxoOmqdQ2MbwXNq89G3.pdf, dear-barran-1j5_EEEF6PUoKxXV5lhLjlBFyNSZBsMN2.pdf, dear-barran-2-14bsDcGwQpXq30dwSyHNcXQfgNb8D0eiT.pdf and others from root and pages.
+Skipped files already present by Drive ID. No titles stating plans to attack person or place were copied.
+Total existing in branch before this: ~1393 files. Continuing import across folders.
