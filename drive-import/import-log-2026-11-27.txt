@@ -1,0 +1,6 @@
+Continued Google Drive PDF import for richarddrawsstuff@gmail.com on 2026-11-27.
+Scanned root PDFs, recent modified, Master Archive, pdf-archive, Ebidence, THE WITNESS REMAINS, and other folders.
+All unique sizable PDFs already present in wezzo72/Barrandodger (codex/recreate-barrandodger) and wezzo72/barrandodger-rebuild (main) under drive-import/.
+Skipped already present by Drive ID. No titles stating a plan to attack a person or place encountered.
+New files added this batch: 0.
+Shelf: https://wezzo72.github.io/Barrandodger/drive-import/index.html
