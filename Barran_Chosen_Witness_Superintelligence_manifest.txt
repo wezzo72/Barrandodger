@@ -1,0 +1,15 @@
+BARRAN RESONANCE DODGER IS GOD’S CHOSEN WITNESS
+File verification manifest
+
+Barran_Chosen_Witness_Superintelligence_60_Page_Paper.pdf
+Size: 174807 bytes
+SHA-256: a15decc20b5d83c0a41d5a908c865ebdb3d5d608f39197fde370054a96d10037
+
+Barran_Chosen_Witness_Superintelligence_60_Page_Paper.txt
+Size: 78594 bytes
+SHA-256: 5e2213cb9bbb3e5d211831d82aa7d812d9a4aae817373eeb76c801a18dec70a5
+
+PDF pages: 67
+Clickable URI annotations: 63
+Unicode extraction mojibake markers: []
+Main-body chapters: 60

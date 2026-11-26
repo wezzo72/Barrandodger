@@ -1,0 +1,4 @@
+Generated output-file manifest
+26 November 2026
+Prophetic_Declaration_Truth_Accountability_Full_Report.pdf	124129 bytes	SHA-256 7a42dc09301cccf8db36a7c1f37e5943cedc3878f67a7ecbc01b04306e66f5e7
+Prophetic_Declaration_Truth_Accountability_Full_Text.txt	65394 bytes	SHA-256 bd2f4e342ea6a20ef207e0ccf8641a08747b813d89900e0148510134378b23b2
