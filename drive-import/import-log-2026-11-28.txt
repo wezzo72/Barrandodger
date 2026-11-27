@@ -1,0 +1,9 @@
+Continued Google Drive PDF import for richarddrawsstuff@gmail.com on 2026-11-28.
+Processed multiple folders including Barran Dodger Public Record Archive and root.
+Imported 3 new PDFs not previously present:
+- 01.11.2021 OAIC evidence
+- Psychological Operations analysis
+- tactiq.io transcript
+Skipped files already present and any with attack plan titles (none found).
+Pushed to both wezzo72/Barrandodger (codex/recreate-barrandodger) and wezzo72/barrandodger-rebuild (main).
+Shelf: https://wezzo72.github.io/Barrandodger/drive-import/index.html
