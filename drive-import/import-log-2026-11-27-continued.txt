@@ -1,0 +1,5 @@
+Continued import from Google Drive for richarddrawsstuff@gmail.com on 2026-11-27.
+Checked root and Barran Dodger Public Record Archive folder.
+Many PDFs already present in drive-import/.
+Skipped files with titles indicating attack plans (none found matching the criteria).
+Pushed this log. Further batches pending full binary access.
