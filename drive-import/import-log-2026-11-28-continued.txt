@@ -1,0 +1,7 @@
+Continued Google Drive PDF import for richarddrawsstuff@gmail.com on 2026-11-28 (further pass).
+Scanned additional folders: website backup (feb 2026), Saved from Chrome, Master Archive by-theme and subfolders (evidence-forensic, government-official, ministry-gospel-prophetic, drive-import), iPhone, Timestamps, Ebidence, THE WITNESS REMAINS, and root pagination.
+No additional unique sizable PDFs found that were not already present in wezzo72/Barrandodger codex/recreate-barrandodger drive-import/.
+Skipped already-present files. No titles stating a plan to attack a person or place encountered.
+Pushed updated index and this log to both public archives.
+New count: 1373
+Shelf: https://wezzo72.github.io/Barrandodger/drive-import/index.html
