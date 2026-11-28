@@ -1,0 +1,7 @@
+Further continuation of Google Drive PDF import for richarddrawsstuff@gmail.com on 2026-11-28 (AEDT evening).
+Additional pagination of root PDF search, checks of Master Archive, Ebidence, THE WITNESS REMAINS folder, and Public Record Archive subfolders.
+All sizable PDFs examined are already present in the archives (unique IDs matched). Tiny 4-byte placeholder files skipped as non-sizable.
+Skipped already-present files. No titles stating a plan to attack a person or place were encountered.
+New count remains 1374 PDFs in drive-import across the public archives.
+Shelf: https://wezzo72.github.io/Barrandodger/drive-import/index.html
+Finding aid. Not a court. Not a verdict.
